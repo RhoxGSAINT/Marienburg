@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="weapon" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_goedendag_2h_01.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:club</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_goedendag_2h_02.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:club</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_goedendag_2h_03.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:club</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_goedendag_2h_04.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:club</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

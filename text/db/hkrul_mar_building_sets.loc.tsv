@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_building_sets.loc		
+building_sets_onscreen_name_hkrul_mar_set_resource_salt	Resource	false
+building_sets_onscreen_description_hkrul_mar_set_resource_salt	A region’s natural resources can be harnessed and put to good use by its controlling faction.	false
+building_sets_onscreen_name_hkrul_mar_set_resource_spices	Resource	false
+building_sets_onscreen_description_hkrul_mar_set_resource_spices	A region’s natural resources can be harnessed and put to good use by its controlling faction.	false

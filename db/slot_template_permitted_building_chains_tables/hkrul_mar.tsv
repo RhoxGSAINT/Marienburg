@@ -1,0 +1,12 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/hkrul_mar				
+hkrul_mar_suiddock		wh_main_special_marienburg_secondary		false
+hkrul_mar_temple_haeyndrik		wh_main_special_marienburg_secondary		false
+hkrul_mar_bechai		mixer_ime_major_secondary_salt_beichai		false
+hkrul_mar_mundvard_liar		mixer_ime_minor_secondary_marble_grung_zint		false
+hkrul_mar_mundvard_marienburg		wh_main_special_marienburg_secondary		false
+rhox_mar_rijker		wh_main_special_marienburg_secondary		false
+rhox_mar_emp_walls		wh_main_special_marienburg_secondary		true
+rhox_egmond_emp_walls		wh_main_special_marienburg_secondary		true
+wh_main_EMPIRE_walls		wh_main_special_marienburg_secondary		true
+rhox_mar_eilhart		mixer_ime_minor_secondary_eilhart		false

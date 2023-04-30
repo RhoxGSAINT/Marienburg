@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_pirate_base.VariantMeshDefinition" />
+    </SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_spears_2h_set1.VariantMeshDefinition" />
+	</SLOT>
+
+</VARIANT_MESH>

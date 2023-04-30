@@ -1,0 +1,28 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/hkrul_mar_caravan											
+hkrul_mundvard_ability_sword_wsoran	true	hkrul_mar_mundvard_sword		wh_type_augment	spell_previews/vampire/wh_dlc04_spell_vampire_awaken_from_the_grave	wh_main_anc_group_unique	true	false	active		false
+hkrul_mundvard_ability_wsoran	true	hkrul_mar_mundvard_artifact		wh_type_regeneration		wh_main_anc_group_unique	true	false	active		false
+hkrul_mundvard_ability_shadow_walk	true	hkrul_mar_mundvard_cloak		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_alicia_monkshood	true	hkrul_mar_alicia_poison		wh_type_area_of_hexes		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_alicia_rose	true	hkrul_mar_alicia_rose		wh_type_direct_damage		wh_main_anc_group_rare	true	false	active		false
+hkrul_alicia_ring	true	hkrul_mar_alicia_artifact		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_roelef_rally	true	hkrul_mar_roelef_buff		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	active		false
+hkrul_norsca_raiders	true	hkrul_mar_norscan_buff		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_cathay_mask	true	hkrul_mar_cathay_buff		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_kislev_buff	true	hkrul_kislev_buff		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_bret_buff	true	hkrul_mar_bretton_buff		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_landship_buff	true	hkrul_mar_landship_buff		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_bard_music	true	hkrul_mar_bard_buff		wh_type_area_of_hexes		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_elf_shot	true	hkrul_mar_sun_buff		wh_type_augment	spell_previews/deep/wh_dlc11_spell_deep_spiteful_shot	wh_main_anc_group_uncommon	true	false	active		false
+hkrul_elf_buff	true	hkrul_mar_elf_buff		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_helm	true	hkrul_mar_helmet_arnheim		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_ship	true	hkrul_mar_vargheist	wh2_dlc11_spell_deep_ghost_ship_upgraded	wh_type_wind	spell_previews/deep/wh_dlc11_spell_deep_ghost_ship	wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_trident	true	hkrul_mar_trident_manann		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_shield_manann	true	hkrul_mar_shield_manann		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_rapier	true	hkrul_mar_blade_noble		wh_type_augment		wh_main_anc_group_unique	true	false	active		false
+hkrul_mar_payday	false	hkrul_mar_kuypers_extra		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_cleansing	false	hkrul_mar_cleansing_passive		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_lupo	true	hkrul_mar_car_anc_1		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_flock	false	hkrul_mar_flock		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_speaker	true	hkrul_mar_speaker		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_smoke	true	hkrul_mar_smoke		wh_type_hiding		wh_main_anc_group_uncommon	true	false	active		false

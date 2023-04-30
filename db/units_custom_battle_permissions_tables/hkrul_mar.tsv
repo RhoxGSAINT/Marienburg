@@ -1,0 +1,7 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/hkrul_mar										
+wh_main_vmp_vampire_counts	true	hkrul_mar_munvard_01	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_mar_munvard.png	hkrul_mar_munvard	hkrul_mar_munvard	false		false
+wh_main_vmp_vampire_counts	true	hkrul_mar_munvard_02	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_mar_munvard.png	hkrul_mar_munvard	hkrul_mar_munvard	false		false
+wh_main_vmp_vampire_counts	false	hkrul_alicia	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false
+wh_main_vmp_vampire_counts	false	hkrul_alicia_horse	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false
+wh_main_vmp_vampire_counts	false	hkrul_alicia_hellsteed	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false

@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_pirate_body_01.VariantMeshDefinition"/>
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_pirate_body_02.VariantMeshDefinition"/>
+	</SLOT>
+</VARIANT_MESH>

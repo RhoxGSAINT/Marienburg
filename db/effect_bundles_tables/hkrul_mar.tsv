@@ -1,0 +1,23 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/hkrul_mar								
+hkrul_mar			faction	1	diplomacy.png	true	false	true
+copycat_leadership_per_trade_agreement			character	0		true	false	true
+hkrul_mar_rebel			force	1	diplomacy.png	false	false	true
+hkrul_mar_pirate_banner			character	1	public_order.png	true	false	true
+hkrul_mar_bundle_simon			character	0		false	false	true
+hkrul_mar_ritual_merchant	 	hkrul_mar_ritual_merchant	faction	1	effect_rite.png	true	false	true
+hkrul_mar_ritual_rebels	 	hkrul_mar_ritual_rebels	faction	1	effect_rite.png	true	false	true
+hkrul_mar_ritual_voyage	 	hkrul_mar_ritual_voyage	faction	1	effect_rite.png	true	false	true
+hkrul_mar_ritual_diplomacy	 	hkrul_mar_ritual_diplomacy	faction	1	effect_rite.png	true	false	true
+hkrul_mar_bundle_jaan			force	0		false	false	true
+hkrul_mar_bundle_jaan2			force	0		false	false	true
+hkrul_mar_choice_1_dil_1			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_1_dil_2			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_1_dil_3			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_1_dil_4			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_2_dil_1			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_2_dil_2			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_2_dil_3			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_mar_choice_2_dil_4			faction	1	cst_piece_of_eight.png	true	false	true
+hkrul_deneuwe			faction	1	diplomacy.png	true	false	true
+hkrul_mar_bundle_alicia			character	0		false	false	true

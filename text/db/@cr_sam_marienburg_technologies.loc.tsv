@@ -1,0 +1,158 @@
+key	text	tooltip
+#Loc;1;text/db/@cr_sam_marienburg_technologies.loc		
+technologies_onscreen_name_tech_ovn_mar_rijkers_isle	Rijker's Isle	true
+technologies_short_description_tech_ovn_mar_rijkers_isle	Rijker's Isle is both a fortress and prison, defending the entrance to Marienburg's harbour and housing the criminals convicted of serious offences.	true
+technologies_long_description_tech_ovn_mar_rijkers_isle		true
+technologies_onscreen_name_tech_ovn_mar_temple_district	Temple of Haendryk	true
+technologies_short_description_tech_ovn_mar_temple_district	The Temple of Haendryk is far grander than one would expect for such a small cult, until one realizes its importance here - along with the cult of Manaan, the cult of Haendryk represents one of the two reasons for the city's prosperity: the sea and commerce.	true
+technologies_long_description_tech_ovn_mar_temple_district		true
+technologies_onscreen_name_tech_ovn_mar_temple_district_2	Baron Henryk's College	true
+technologies_short_description_tech_ovn_mar_temple_district_2	Baron Henryk's College of Navigation and Sea Magicks is one of the Old World's premier centres of learning.	true
+technologies_long_description_tech_ovn_mar_temple_district_2		true
+technologies_onscreen_name_tech_ovn_mar_mananns_haven	Manann's Haven	true
+technologies_short_description_tech_ovn_mar_mananns_haven	The "Crown Jewel" of Marienburg, the magnificent Cathedral of Manaan is the undisputed centre of the Sea God's cult in the Old World.	true
+technologies_long_description_tech_ovn_mar_mananns_haven		true
+technologies_onscreen_name_tech_ovn_mar_the_flats	The Flats	true
+technologies_short_description_tech_ovn_mar_the_flats	One of the poorest areas of the city, the Flats are home to impoverished fishmen and salt workers.	true
+technologies_long_description_tech_ovn_mar_the_flats		true
+technologies_onscreen_name_tech_ovn_mar_old_money_ward_1	Handboogdoelen	true
+technologies_short_description_tech_ovn_mar_old_money_ward_1	The city's handbow shooting range and the headquarters of the Handbow Shooters' Guild. Ask any member of the guild and they will say archery is a tried and true method of felling enemies and all other methods have no place in the city's defense.	true
+technologies_long_description_tech_ovn_mar_old_money_ward_1		true
+technologies_onscreen_name_tech_ovn_mar_old_money_ward_2	Old Money Ward	true
+technologies_short_description_tech_ovn_mar_old_money_ward_2	The Old Money Ward is home to many upperclass residences. It was once the the wealthiest district in the City, but a shift in Wasteland politics has seen that title usurped by Goudberg to the north.	true
+technologies_long_description_tech_ovn_mar_old_money_ward_2		true
+technologies_onscreen_name_tech_ovn_mar_old_money_ward_3	Noble Patronage	true
+technologies_short_description_tech_ovn_mar_old_money_ward_3	Much of the old aristocracy still exists in the city, and still maintains contacts back in the Empire.	true
+technologies_long_description_tech_ovn_mar_old_money_ward_3		true
+technologies_onscreen_name_tech_ovn_mar_elf_town_1	Elf Town	true
+technologies_short_description_tech_ovn_mar_elf_town_1	The Elf Quarter, Sith Rionnasc'namishathir, the Continental Exarchate of the High Kingdom of Ulthuan, Elfsgemeente, or simply Elftown, it is one of the last remnants of the millennia-gone empire of the High Elves.	true
+technologies_long_description_tech_ovn_mar_elf_town_1		true
+technologies_onscreen_name_tech_ovn_mar_elf_town_2	Exarchate Assurances	true
+technologies_short_description_tech_ovn_mar_elf_town_2	After lengthy negotiations, it's been agreed that the Exarchate will stand with us when the time comes. Of course they didn't actually say that, but if you read between the lines, it's all there.	true
+technologies_long_description_tech_ovn_mar_elf_town_2		true
+technologies_onscreen_name_tech_ovn_mar_riddra_isle	Riddra Isle	true
+technologies_short_description_tech_ovn_mar_riddra_isle	On the island of Riddra there are a number of seedy establishments offering criminal entertainments and opportunities.	true
+technologies_long_description_tech_ovn_mar_riddra_isle		true
+technologies_onscreen_name_tech_ovn_mar_norscan_town	Norscan Town	true
+technologies_short_description_tech_ovn_mar_norscan_town	Norscan Town is known for its dockers, sailors, and mercenaries. Nowadays, "true" Norscans are rarely allowed to visit the City let alone live in it, and most of the Town's inhabitants are three or four generations away from anyone disagreeable. Even so, a close eye is kept on the district by the powers that be.	true
+technologies_long_description_tech_ovn_mar_norscan_town		true
+technologies_onscreen_name_tech_ovn_mar_craftsmarket_1	Voetboogdoelen	true
+technologies_short_description_tech_ovn_mar_craftsmarket_1	The city's crossbow shooting range and the headquarters of the Crossbow Shooters' Guild. Ask any member of the guild and they will say crossbows are the perfect balance of man and machinery and all other ranged weapons have no place in the city's defense.	true
+technologies_long_description_tech_ovn_mar_craftsmarket_1		true
+technologies_onscreen_name_tech_ovn_mar_dead_canal_1	Tanner's Guild	true
+technologies_short_description_tech_ovn_mar_dead_canal_1	The horrific smells coming from the local tanneries and leatherworks make even the Dead Canal's waste-ladden water smell like a bed of Tulips.	true
+technologies_long_description_tech_ovn_mar_dead_canal_1		true
+technologies_onscreen_name_tech_ovn_mar_north_wall_1	North Wall	true
+technologies_short_description_tech_ovn_mar_north_wall_1	Tulips have become a status symbol within the neighborhood of Noordmuir, as the Tulip Craze has claimed it's next batch of victims. The latest mosaic tulips are now going for hundreds of Guilders, buy now while supplies lasts!	true
+technologies_long_description_tech_ovn_mar_north_wall_1		true
+technologies_onscreen_name_tech_ovn_mar_arabtown	Arabtown	true
+technologies_short_description_tech_ovn_mar_arabtown	Marienburg is home to a relatively large community of Arabyans, bringing with them many sun-resisting clothing designs. Arabyans living in the city are also known for their private tutoring of the aristocracy's and merchant family's heirs.	true
+technologies_long_description_tech_ovn_mar_arabtown		true
+technologies_onscreen_name_tech_ovn_mar_treasurehoem	Treasurehoem	true
+technologies_short_description_tech_ovn_mar_treasurehoem	Treasurehoem's central location makes its many warehouses ideally placed for serving the storage needs of Elf Town, Guilderfield, and Dealers Market.	true
+technologies_long_description_tech_ovn_mar_treasurehoem		true
+technologies_onscreen_name_tech_ovn_mar_guilderfield	Guilderfield	true
+technologies_short_description_tech_ovn_mar_guilderfield	Guilderveld is home to many successful businesses that provide services to the wealthy, such as goldsmiths, gem cutters, brokerage firms, and banks, including Arkat Fooger's Counting House.	true
+technologies_long_description_tech_ovn_mar_guilderfield		true
+technologies_onscreen_name_tech_ovn_mar_stoessel_isle	Stoessel Isle	true
+technologies_short_description_tech_ovn_mar_stoessel_isle	Dead centre on the Stoessel waterfront and in sight of the Rivermen's Association lies the guildhall of the Brotherhood of Seamen and Pilots, one of the oldest and most respected guilds in the city.	true
+technologies_long_description_tech_ovn_mar_stoessel_isle		true
+technologies_onscreen_name_tech_ovn_mar_south_dock_1	Suiddock	true
+technologies_short_description_tech_ovn_mar_south_dock_1	The Suiddock is not just the busiest dockyard, it's the busiest part of the entire city. It's also home to some of the toughest and most well-traveled seamen in the world.	true
+technologies_long_description_tech_ovn_mar_south_dock_1		true
+technologies_onscreen_name_tech_ovn_mar_craftsmarket_2	Land Ship Yards	true
+technologies_short_description_tech_ovn_mar_craftsmarket_2	While the Land Ship was first designed and constructed in Nuln, the discovery of several contractual loopholes has returned manufacturing rights to Marienburg. Many Craftsmarket shipyards have jumped to profit from this lucrative turn of events.	true
+technologies_long_description_tech_ovn_mar_craftsmarket_2		true
+technologies_onscreen_name_tech_ovn_mar_dead_canal_2	Dead Canal	true
+technologies_short_description_tech_ovn_mar_dead_canal_2	A hub of crime and villainy, and a haven for those who wished to hide from the more civilised areas of the city. We might lose a few trainees, but it is the perfect proving grounds for City Watch.	true
+technologies_long_description_tech_ovn_mar_dead_canal_2		true
+technologies_onscreen_name_tech_ovn_mar_north_wall_2	Kloveniersdoelen	true
+technologies_short_description_tech_ovn_mar_north_wall_2	The city's musketeer shooting range and the headquarters of the Musket Shooters' Guild. Ask any member of the guild and they will say muskets are the weapon of the future and all other ranged weapons have no place in the city's defense.	true
+technologies_long_description_tech_ovn_mar_north_wall_2		true
+technologies_onscreen_name_tech_ovn_mar_dealers_market_1	Dealers' Market	true
+technologies_short_description_tech_ovn_mar_dealers_market_1	Handelaarmarkt or Dealers Market is a breeding-ground for up-and-coming small businessmen.	true
+technologies_long_description_tech_ovn_mar_dealers_market_1		true
+technologies_onscreen_name_tech_ovn_mar_nippon_town	Nippon Town	true
+technologies_short_description_tech_ovn_mar_nippon_town	Nippon Town is home to a relatively large community of expatriates from Nippon. House den Euwe, whose mansion lies just across the Green Moon bridge, has a large stake in most of the businesses in this quarter of the city.	true
+technologies_long_description_tech_ovn_mar_nippon_town		true
+technologies_onscreen_name_tech_ovn_mar_palace_district	Palace District	true
+technologies_short_description_tech_ovn_mar_palace_district	The Palace District is the seat of Marienburg's government, both the New Palace and the Stadsraad are located here.	true
+technologies_long_description_tech_ovn_mar_palace_district		true
+technologies_onscreen_name_tech_ovn_mar_hightower_isle	Hightower Isle	true
+technologies_short_description_tech_ovn_mar_hightower_isle	On Hightower Isle is the Admiralty Building, which houses both the Admiralty Court and the Secretariat for Trade Equity.	true
+technologies_long_description_tech_ovn_mar_hightower_isle		true
+technologies_onscreen_name_tech_ovn_mar_luydenhoek_isle	Luydenhoek Isle	true
+technologies_short_description_tech_ovn_mar_luydenhoek_isle	Home to Hangman's Square and the main disembark point for travellers ariving by coach.	true
+technologies_long_description_tech_ovn_mar_luydenhoek_isle		true
+technologies_onscreen_name_tech_ovn_mar_south_dock_2	Ropewalk District	true
+technologies_short_description_tech_ovn_mar_south_dock_2	One of the features of the Suiddock are the many rope manufactories of the Ropewalk District.	true
+technologies_long_description_tech_ovn_mar_south_dock_2		true
+technologies_onscreen_name_tech_ovn_mar_craftsmarket_3	Craftsmarket	true
+technologies_short_description_tech_ovn_mar_craftsmarket_3	The Craftsmarket is a densely populated district known for it's shipwrighting and sausage making.	true
+technologies_long_description_tech_ovn_mar_craftsmarket_3		true
+technologies_onscreen_name_tech_ovn_mar_dead_canal_3	The Shadow's Backing	true
+technologies_short_description_tech_ovn_mar_dead_canal_3	The Lord of Shadow holds great influence over the Dead Canal.	true
+technologies_long_description_tech_ovn_mar_dead_canal_3		true
+technologies_onscreen_name_tech_ovn_mar_knife_alley	Knife Alley	true
+technologies_short_description_tech_ovn_mar_knife_alley	Many Estalians make their living in Knife Alley. It's not the friendliest place in the City.	true
+technologies_long_description_tech_ovn_mar_knife_alley		true
+technologies_onscreen_name_tech_ovn_mar_dealers_market_2	Merchants' Row	true
+technologies_short_description_tech_ovn_mar_dealers_market_2	Merchants' Row is home to even more businesses.	true
+technologies_long_description_tech_ovn_mar_dealers_market_2		true
+technologies_onscreen_name_tech_ovn_mar_silk_market	Silk Market	true
+technologies_short_description_tech_ovn_mar_silk_market	The farthest reach of the Ivory Road, what few Cathayan traders make it to Marienburg congregate here. Pressure from House Euwes, hoping to monopolize eastern trade, has kept tariffs on silk and tea very high, but even that has not dissuaded the caravan masters.	true
+technologies_long_description_tech_ovn_mar_silk_market		true
+technologies_onscreen_name_tech_ovn_mar_gold_mound	Goudberg	true
+technologies_short_description_tech_ovn_mar_gold_mound	Goudberg is Marienburg's wealthiest district. The people who live in Goudberg, the rich and the filthy rich, can afford to live apart from their businesses, leaving their scores of flunkies to do the real work.	true
+technologies_long_description_tech_ovn_mar_gold_mound		true
+technologies_onscreen_name_tech_ovn_mar_dwarfs_hold	Dwergsbezit	true
+technologies_short_description_tech_ovn_mar_dwarfs_hold	Dwarf's Hold is filled with many fine stone buildings, one of which is House Fooger's mansion. Fooger has the best relations with the Dwarfs, buying the products of their mines and selling them luxury goods that can't be produced under a mountain.	true
+technologies_long_description_tech_ovn_mar_dwarfs_hold		true
+technologies_onscreen_name_tech_ovn_mar_little_moot	Little Moot	true
+technologies_short_description_tech_ovn_mar_little_moot	Home of the Bakers' Guild and many halflings. The Hayfoot and Lowhaven clans hold sway over the district's commerce and "commerce" respectively.	true
+technologies_long_description_tech_ovn_mar_little_moot		true
+technologies_onscreen_name_tech_ovn_mar_east_wall_1	East Wall	true
+technologies_short_description_tech_ovn_mar_east_wall_1	Ostmuur or East Wall is home to many of the 'temporarily embarassed gentry'. Wealthy enough to buy their own weapons and armour, but also poor enough to accept a soldier's wage.	true
+technologies_long_description_tech_ovn_mar_east_wall_1		true
+technologies_onscreen_name_tech_ovn_mar_east_wall_2	Foundry Ward	true
+technologies_short_description_tech_ovn_mar_east_wall_2	Marienburg's forges and foundries are no match for those of the Empire. Staffed by Engineer School dropouts and the local Dwarf population, they still manage turn a profit.	true
+technologies_long_description_tech_ovn_mar_east_wall_2		true
+technologies_onscreen_name_tech_ovn_mar_indic_district	Indic District	true
+technologies_short_description_tech_ovn_mar_indic_district	Despite the name, almost no Indans actually live in the Indic District. Any Indan spice trader who managed to get to the district's Spice Market would leave fabulously wealthy and could afford to live in Guilderfield or even Goudberg.	true
+technologies_long_description_tech_ovn_mar_indic_district		true
+technologies_onscreen_name_tech_ovn_mar_luigis_town	Luigi's Town	true
+technologies_short_description_tech_ovn_mar_luigis_town	Known for it's pasta dishes and long pointy sticks, many Tileans make their home in Luigi's Town. The neighborhood is neutral with respect to the Remas Way and North Miragliano rivalry.	true
+technologies_long_description_tech_ovn_mar_luigis_town		true
+technologies_onscreen_name_tech_ovn_mar_kislevan_way	Kislevan Way	true
+technologies_short_description_tech_ovn_mar_kislevan_way	Kislevan Way is known for mercenaries and labourers. It's residents also know a thing or two about dealing with cold weather.	true
+technologies_long_description_tech_ovn_mar_kislevan_way		true
+technologies_onscreen_name_tech_ovn_mar_remas_way	Remas Way	true
+technologies_short_description_tech_ovn_mar_remas_way	Like their namesakes, Remas Way and North Miragliano maintain a long-standing enmity, and the two neighborhoods are frequently at each others' throats.	true
+technologies_long_description_tech_ovn_mar_remas_way		true
+technologies_onscreen_name_tech_ovn_mar_porters_wall_1	Porter's Wall	true
+technologies_short_description_tech_ovn_mar_porters_wall_1	Porter's Wall is a working class neighborhood. Knocker-uppers are a common sight, even at midday, as there is always a shift change happening somewhere else in the City.	true
+technologies_long_description_tech_ovn_mar_porters_wall_1		true
+technologies_onscreen_name_tech_ovn_mar_wine_sack	Wine Sack	true
+technologies_short_description_tech_ovn_mar_wine_sack	A long-standing law of the City is that any serf who resides in the City for a year and a day has obtained their freedom. As such, many runaway peasants find their way to Marienburg and to Wine Sack, and just as many knights to recapture them and bring them home.	true
+technologies_long_description_tech_ovn_mar_wine_sack		true
+technologies_onscreen_name_tech_ovn_mar_rijks_gate_1	Rijkspoort	true
+technologies_short_description_tech_ovn_mar_rijks_gate_1	While the Rijkspoort docks have far less crime and are far safer than the Suiddock's, their fees are also much higher, excluding many of the less wealthy merchants and businesses.	true
+technologies_long_description_tech_ovn_mar_rijks_gate_1		true
+technologies_onscreen_name_tech_ovn_mar_rijks_gate_2	Glassmakers' Guild	true
+technologies_short_description_tech_ovn_mar_rijks_gate_2	The Glassmakers' Guild was banned to a small island off Rijkspoort because of the frequent explosions in their workshops.	true
+technologies_long_description_tech_ovn_mar_rijks_gate_2		true
+technologies_onscreen_name_tech_ovn_mar_rijks_gate_3	City Navy Dockyard	true
+technologies_short_description_tech_ovn_mar_rijks_gate_3	The home base of Marienburg's Navy, formerly the Imperial Second Fleet. Despite attempts at reform, it still carries on many traditions from it's Imperial days.	true
+technologies_long_description_tech_ovn_mar_rijks_gate_3		true
+technologies_onscreen_name_tech_ovn_mar_north_miragliano	North Miragliano	true
+technologies_short_description_tech_ovn_mar_north_miragliano	For some reason North Miragliano is a hotspot of Skaven activity. Rat-catchers can make quite the living working in this part of the city.	true
+technologies_long_description_tech_ovn_mar_north_miragliano		true
+technologies_onscreen_name_tech_ovn_mar_porters_wall_2	Purity Recruitment	true
+technologies_short_description_tech_ovn_mar_porters_wall_2	Immigration has bred resentment among the self-titled "real" Marienburgers, making Porter's Wall a fertile recruiting ground for groups like the Knights of Purity.	true
+technologies_long_description_tech_ovn_mar_porters_wall_2		true
+technologies_onscreen_name_tech_ovn_mar_deedesveld	Deedesveld Graveyard	false
+technologies_short_description_tech_ovn_mar_deedesveld	Deedesveld was once a slum known as Breedmoers before it was demolished and turned into a burial-ground for the cult of Morr. The area has kept some of it's hidden passages, leftovers from when it was a smuggler's paradise.	false
+technologies_long_description_tech_ovn_mar_deedesveld		false
+technologies_onscreen_name_tech_ovn_mar_heiligdom	Heiligdom	false
+technologies_short_description_tech_ovn_mar_heiligdom	An old fortress gifted to the cult of Shallya, Heiligdom can't disguise the madness and pain it houses, for this is where Marienburg's mentally ill are sent to scream and moan out their days.	false
+technologies_long_description_tech_ovn_mar_heiligdom		false

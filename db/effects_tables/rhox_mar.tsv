@@ -1,0 +1,44 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_mar					
+rhox_mar_anc_dummy	cst_piece_of_eight.png	3	cst_piece_of_eight.png	campaign	true
+rhox_mar_effect_ability_army_enable_flood_trap	general_ability.png	700	general_ability.png	battle	true
+rhox_mar_egmond_dummy	attribute_mark_tzeentch.png	3	attribute_mark_tzeentch.png	campaign	true
+rhox_mar_mundvard_dummy	pirate_cove.png	3	pirate_cove.png	campaign	true
+rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_establish_pirate_cove		0		campaign	true
+rhox_mar_effect_agent_action_success_chance_dignitary_establish_pirate_cove	pirate_cove.png	10	pirate_cove.png	campaign	true
+ovn_effect_ability_army_num_uses_the_power_of_money		0		battle	true
+ovn_effect_ability_army_enable_the_power_of_money	general_ability.png	705	general_ability.png	battle	true
+rhox_mar_mudvard_slave_dummy	slaves.png	8	slaves.png	campaign	true
+rhox_mar_show_money_power_ui_hidden		0		campaign	true
+rhox_mar_jaan_double_cathay_caravan		0		campaign	true
+rhox_mar_vilitch_diplomacy_mod_hidden		0		campaign	true
+rhox_mar_harmony_yang_passive_to_unit	cathay_yang.png	1	cathay_yang.png	battle	true
+rhox_mar_harmony_yin_passive_to_unit	cathay_yin.png	3	cathay_yin.png	battle	true
+rhox_mar_harmony_yang_attribute_to_unit	cathay_yang.png	2	cathay_yang.png	battle	true
+rhox_mar_harmony_yin_attribute_to_unit	cathay_yin.png	4	cathay_yin.png	battle	true
+rhox_mar_underway_dummy	subterranean.png	101	subterranean.png	campaign	true
+rhox_mar_jk_0_6_mission_issued	hkrul_icon_mission.png	50	hkrul_icon_mission.png	campaign	true
+rhox_mar_jk_special_0_5_mission_issued	hkrul_icon_mission.png	50	hkrul_icon_mission.png	campaign	true
+rhox_mar_get_loodeman_dummy	effect_seamen.png	50	effect_seamen.png	campaign	true
+rhox_mar_burgerhof_dilemma_dummy	effect_chest.png	50	effect_chest.png	campaign	true
+rhox_mar_talons_dummy	effect_talons.png	50	effect_talons.png	campaign	true
+rhox_mar_elf_effect_dummy	hunter_effect_icons_imperial_supplies.png	50	hunter_effect_icons_imperial_supplies.png	campaign	true
+rhox_mar_upkeep_lords_heroes	military_spending.png	105	military_spending.png	campaign	false
+hkrul_mar_research_dummy	technology.png	60	technology.png	campaign	true
+hkrul_mar_construction_time_dummy	construction.png	102	construction.png	campaign	false
+hkrul_mar_movement_range_dummy	campaign_movement.png	13	campaign_movement.png	campaign	true
+rhox_mar_jaan_ranged_ammunition	ammo.png	511	ammo.png	battle	true
+rhox_mar_jaan_ranged_damage	ranged_damage.png	541	ranged_damage.png	battle	true
+rhox_mar_jaan_physical_resistance	resistance_physical.png	580	resistance_physical.png	battle	true
+rhox_mar_jaan_melee_attack	melee.png	431	melee.png	battle	true
+rhox_mar_jaan_melee_defence	defence.png	451	defence.png	battle	true
+rhox_mar_jaan_faction_wide_dummy	effect_hkrul_state_army.png	999	effect_hkrul_state_army.png	campaign	true
+rhox_mar_tradable_resource_production	trade_agreement.png	11	trade_agreement.png	campaign	true
+rhox_mar_caravan_cargo_capacity_dummy	cargo.png	2	cargo.png	campaign	true
+rhox_mar_enable_kuypers_ring_dummy	general_ability.png	600	general_ability.png	battle	true
+rhox_mar_jaan_remove_lazy_dummy	general_ability.png	600	general_ability.png	campaign	true
+rhox_mar_cathay_ship_dummy	general_ability.png	600	general_ability.png	campaign	true
+rhox_mar_effect_additional_caravan_cargo_dummy	cargo.png	2	cargo.png	campaign	true
+rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	treasury.png	10	treasury.png	campaign	false
+rhox_mar_alicia_criminal_network_dummy	pirate_cove.png	10	pirate_cove.png	campaign	true
+rhox_mar_active_convoys	army.png	2	army.png	campaign	true

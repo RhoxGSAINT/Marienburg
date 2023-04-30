@@ -1,0 +1,4 @@
+id	culture	faction	remove	set	subculture
+#faction_set_items_tables;1;db/faction_set_items_tables/rhox_mar					
+1804566290		ovn_mar_house_den_euwe	false	FavouredCorruptionTzeentch	
+1804566291		ovn_mar_house_den_euwe	true	FavouredCorruptionNone	

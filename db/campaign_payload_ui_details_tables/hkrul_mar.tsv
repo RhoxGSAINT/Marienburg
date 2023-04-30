@@ -1,0 +1,10 @@
+component	icon	state	sort_order
+#campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/hkrul_mar			
+rd1_second_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_third_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_fourth_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_first_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_second_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_third_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_fourth_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_first_hkrul	ui/skins/default/treaty_player_client_state.png	default	0

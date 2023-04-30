@@ -1,0 +1,9 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/hkrul_mar								
+hkrul_mar_suiddock				wh_main_PLACEHOLDER	wh2_dlc14_special_pigbarter_human	false	hkrul_mar_suiddock	true
+hkrul_mar_temple_haeyndrik				wh_main_PLACEHOLDER	hkrul_mar_temple_haeyndrik	false	hkrul_mar_temple_haeyndrik	true
+hkrul_mar_bechai				wh_main_PLACEHOLDER	hkrul_mar_tsin_cult	false	hkrul_mar_bechai	true
+hkrul_mar_mundvard_liar			ovn_mar_the_wasteland	wh_main_PLACEHOLDER	hkrul_mar_mundvard_liar	false	hkrul_mar_mundvard_liar	true
+hkrul_mar_mundvard_marienburg			ovn_mar_the_wasteland	wh_main_PLACEHOLDER	hkrul_mar_mundvard_marienburg	false	hkrul_mar_mundvard_marienburg	true
+rhox_mar_rijker				wh_main_PLACEHOLDER	hkrul_mar_rijker	false	hkrul_mar_rijker	true
+rhox_mar_eilhart				wh_main_PLACEHOLDER	hkrul_mar_eilhart	false	rhox_mar_eilhart	true

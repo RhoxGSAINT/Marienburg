@@ -1,0 +1,300 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_effects__.loc		
+effects_description_hkrul_jk_barded_warhorse	Mount: Kislevite Noble Steed	false
+effects_description_hkrul_hendrik_barded_warhorse	Mount: Empire Warhorse	false
+effects_description_hkrul_pg_barded_warhorse	Mount: Empire Warhorse	false
+effects_description_hkrul_mar_mundvard_beast	Mount: Beast of Suiddock	false
+effects_description_hkrul_mar_egmond_horse	Mount: Empire Warhorse	false
+effects_description_hkrul_caravan_lord_horse	Mount: Marienburg Steed	false
+effects_description_hkrul_mar_egmond_longma	Mount: Kawaru	false
+effects_description_hkrul_solkan_horse	Mount: Phantom	false
+effects_description_hkrul_hendrik_enable_pelican	Ability: "First Round's On Me"	false
+effects_description_hkrul_mar_pion_ma	Melee Attack: %+n for Golden Pinions (Halberdiers)	false
+effects_description_hkrul_pg_bret_cav_armour	Armour: %+n for Bretonnian horse cavalry units	false
+effects_description_hkrul_pg_enable_death	Ability: "A Glorious Death''	false
+effects_description_hkrul_pg_enable_attribute_fear_vs_norsca	Attribute: Causes Fear when fighting against Norscan Tribes	false
+effects_description_hkrul_kant_fire_stone	Ability: "Fire Stone of Agni"	false
+effects_description_hkrul_kant_Light_sword	Ability: "The Light Sword"	false
+effects_description_hkrul_kant_blazing_ruby	Ability: "The Blazing Ruby"	false
+effects_description_hkrul_kant_burning_intensity	Ability: "Burning Intensity"	false
+effects_description_hkrul_kant_conflagration	Ability: "Conflagration"	false
+effects_description_hkrul_mar_pion_cap	Capacity: %+n for the Golden Pinions (Halberdiers)	true
+effects_description_hkrul_mar_pion_cap_vis	Phyiscal Resistance: %+n% for the Golden Pinions (Halberdiers)	true
+effects_description_hkrul_mar_klumpf_cap	Melee Attack: %+n for the Van Klumpf's Buccaneers (Swordsmen)	true
+effects_description_hkrul_mar_carriers_cap	Capacity: %+n for Merchant's Guild Baggage-Train	true
+effects_description_copycat_leadership_per_trade_agreement	Leadership: %+n for every arranged trade agreement\\n(all units in army)	true
+effects_description_hkrul_mar_time_ports	Construction time: %+n for Ports	true
+effects_description_hkrul_mar_cost_ports	Construction cost: %+n% for Ports	true
+effects_description_hkrul_mar_cost_resource_building	Construction cost: %+n% for Resource Buildings	true
+effects_description_hkrul_hendrik_upkeep	Upkeep: %+n% for Pieter de Groot	true
+effects_description_hkrul_mar_movement_range_enemy	Campaign movement range: %+n%	true
+effects_description_hkrul_mar_resource_spices	Tradable resource production: %+n% Spices	true
+effects_description_hkrul_mar_resource_salt	Income from Salt Mines: %+n%	true
+effects_description_hkrul_mar_klumpf_ws	Weapon Strength: %+n% for Van Klumpf's Buccanneers (Swordsmen)	true
+effects_description_hkrul_mar_skeggi	Arranges Trade Agreement with [[img:ui/flags/wh_dlc08_nor_norsca/mon_24.png]][[/img]] World Walkers	true
+effects_description_hkrul_mar_estalia	Arranges Trade Agreement with [[img:ui/flags/wh_main_teb_estalia/mon_24.png]][[/img]] Estalia	true
+effects_description_hkrul_mar_global	Using his global influence, Van de Kuypers imports and exports products from all corners of the world. Arranges Trade Agreements with  [[img:ui/flags/wh3_main_cth_the_western_provinces/mon_24.png]][[/img]] , [[img:ui/flags/wh2_main_emp_new_world_colonies/mon_24.png]][[/img]] , [[img:ui/flags/wh3_main_emp_cult_of_sigmar/mon_24.png]][[/img]] and [[img:ui/flags/wh2_main_hef_tor_elasor/mon_24.png]][[/img]]	true
+effects_description_hkrul_mar_tilea	Arranges Trade Agreement with  [[img:ui/flags/wh_main_teb_tilea/mon_24.png]][[/img]] Tilea	true
+effects_description_hkrul_mar_elasor	Arranges Trade Agreement with [[img:ui/flags/wh3_main_ksl_the_great_orthodoxy/mon_24.png]][[/img]] The Great Orthodoxy	true
+effects_description_hkrul_mar_averland	Arranges Defensive Alliance with [[img:ui/flags/wh_main_emp_averland/mon_24.png]][[/img]] Averland	true
+effects_description_hkrul_mar_ostland	Arranges Defensive Alliance with [[img:ui/flags/wh_main_emp_ostland/mon_24.png]][[/img]] Ostland	true
+effects_description_hkrul_mar_post_battle_sea	Post-battle loot: %+n% when fighting at sea	true
+effects_description_hkrul_mar_xp_gain_sea	Experience gain: %+n% when fighting at sea	true
+effects_description_hkrul_mar_md_sea	Melee defence: %+n when fighting at sea	true
+effects_description_hkrul_jk_enable_pork	Ability: "Ostlander Pork"	true
+effects_description_hkrul_jk_enable_corn	Ability: "Averlander Corn"	true
+effects_description_hkrul_jk_enable_kislev	Ability: "Erengrad Fur"	true
+effects_description_hkrul_jk_enable_norsca	Ability: "Norsca Pelts"	true
+effects_description_hkrul_jk_enable_politician	Ability: "Backroom Politics''	true
+effects_description_hkrul_hendrik_enable_letter	Ability: "Burgher Acquisition''	true
+effects_description_hkrul_mar_political_change	For the sum of 2000 gold, arranges [[img:ui/flags/wh_main_emp_empire_rebels/mon_24.png]][[/img]] Empire Rebels to target rivalrous power [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland on the border with Marienburg	true
+effects_description_hkrul_mar_political_change_2	For the sum of 4000 gold, arranges a large force of [[img:ui/flags/wh_main_emp_empire_rebels/mon_24.png]][[/img]] Empire Rebels to target rivalrous power [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland at Altdorf	true
+effects_description_hkrul_mar_political_cost	-4000	true
+effects_description_hkrul_mar_enable_army_bombard	Army Ability: "Zegepraal's Bombardment''	true
+effects_description_hkrul_pg_enable_hook	Ability: "Baron Henryk's Hook''	true
+effects_description_hkrul_pg_enable_bomb	Ability: "Gift of the Wastelanders''	true
+effects_description_hkrul_mar_pion_sartosa	Melee Defence: %+n for Sartosa Free Company	true
+effects_description_hkrul_mar_pion_sartosa_morale	Leadership: %+n for Sartosa Free Company	true
+effects_description_hkrul_mar_innate_reikland	Relationship: %+n to [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland	true
+effects_description_hkrul_pg_enable_cutlass	Ability: "Trial by Combat''	true
+effects_description_hkrul_hendrik_enable_bargain	Ability: "Haeyndrik's Bargain''	true
+effects_description_hkrul_mar_carriers_armour	Armour: %+n for Merchant's Guild Baggage-Train	true
+effects_description_hkrul_mar_carriers_xp	Experience Gain: %+n% for Merchant's Guild Baggage-Train	true
+effects_description_hkrul_hendrik_enable_faith	Ability: "Peddler's Luck''	true
+effects_description_hkrul_jk_enable_slippery	Ability: "Jaan's Lucky Coin''	true
+effects_description_hkrul_hendrik_enable_gold	Ability: "Heavier than Gold''	true
+effects_description_hkrul_mar_artisan	Income from weaving houses: %+n% 	true
+effects_description_hkrul_mar_marienburg_units	The Merchant Empire: Has no access to Elector State regiments but instead has access to unique Marienburg Rites & Units	true
+effects_description_hkrul_mar_anc_stadsraad	Grants Jaan the [[col:yellow]]Staddtholder of Marienburg[[/col]] follower	true
+effects_description_hkrul_mar_bodyguard	Grants the [[col:yellow]]Guild's Bodyguard[[/col]] follower	true
+effects_description_hkrul_mar_diplo_world	Relationship: %+n to [[img:ui/flags/wh_dlc08_nor_norsca/mon_24.png]][[/img]] World Walkers	true
+effects_description_hkrul_mar_pirate_banner	Grants the [[col:yellow]]South Dock's Pirates[[/col]] banner	true
+effects_description_hkrul_mar_bundle_simon_dummy	Upkeep: %+n% while embedded in [[col:yellow]]Van de Kuyper's[[/col]] army	true
+effects_description_hkrul_pg_burgher	Global recruitment duration: %+n turns for Burgher Militia	true
+effects_description_hkrul_mar_carriers_phys	Phyiscal Resistance: %+n% for Merchant's Guild Baggage-Train	true
+effects_description_hkrul_mar_flood	All regions belonging to you will be flooded, causing [[img:icon_attrition]][[/img]]attrition to any armies	true
+effects_description_hkrul_mar_fatigue_start	Vigour in battle: Winded	true
+effects_description_hkrul_mar_trade_agreements_visible_dummy	All regions owned by factions that you have [[img:icon_trade_agreement]][[/img]]trade agreements with are visible	true
+effects_description_hkrul_mar_bundle_jaan_dummy	Upkeep: %+n% while garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_effect_xp_stealing_jaan_dummy	Jaan van de Kuypers demands a percentage of experience earned by other [[img:icon_general]][[/img]]Lords when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_mar_tradetarrif_dummy	Income from trade tariffs: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_mar_choice_1_dil_1	[[col:green]]Fund [[img:ui/flags/wh_main_emp_wissenland/mon_24.png]][[/img]] Wissenland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Nuln to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_1_dil_1	[[col:green]]Fund [[img:ui/flags/wh_main_emp_wissenland/mon_24.png]][[/img]] Wissenland in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_1_dil_2	[[col:green]]Fund [[img:ui/flags/wh_main_emp_nordland/mon_24.png]][[/img]] Nordland so they can wage a war against [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Salzenmund to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_1_dil_2	[[col:green]]Fund [[img:ui/flags/wh_main_emp_nordland/mon_24.png]][[/img]] Nordland in a war against [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_1_dil_3	[[col:green]]Fund [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Middenheim to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_1_dil_3	[[col:green]]Fund [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_1_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_brt_bretonnia/mon_24.png]][[/img]] Couronne so King Louencour can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland	true
+effect_bundles_localised_title_hkrul_mar_choice_1_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_brt_bretonnia/mon_24.png]][[/img]] Couronne in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland.	false
+effects_description_hkrul_mar_choice_2_dil_1	[[col:green]]Fund [[img:ui/flags/wh_main_emp_ostland/mon_24.png]][[/img]] Ostland so they can wage a war against [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Wolfenburg to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_2_dil_1	[[col:green]]Fund [[img:ui/flags/wh_main_emp_ostland/mon_24.png]][[/img]] Ostland in a war against [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_2_dil_2	[[col:green]]Fund [[img:ui/flags/wh_main_emp_talabecland/mon_24.png]][[/img]] Talabecland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Talabheim to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_2_dil_2	[[col:green]]Fund [[img:ui/flags/wh_main_emp_talabecland/mon_24.png]][[/img]] Talabecland in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_2_dil_3	[[col:green]]Fund [[img:ui/flags/wh_main_emp_Averland/mon_24.png]][[/img]] Averland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Averheim to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_2_dil_3	[[col:green]]Fund [[img:ui/flags/wh_main_emp_Averland/mon_24.png]][[/img]] Averland in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effects_description_hkrul_mar_choice_2_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland so they can wage a war against [[img:ui/flags/wh_main_emp_Nordland/mon_24.png]][[/img]] Nordland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Altdorf to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
+effect_bundles_localised_title_hkrul_mar_choice_2_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland in a war against  [[img:ui/flags/wh_main_emp_Nordland/mon_24.png]][[/img]] Nordland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
+effect_bundles_localised_title_hkrul_mar	The Marienburg Directorate	true
+effects_description_hkrul_mar_klumpf_upkeep	Upkeep: %+n% for Van Klumpf's Buccanneers (Swordsmen)	true
+effect_bundles_localised_description_hkrul_mar	Jaan van de Kuypers, the true Lord of the Marienburg Directorate and the Richest man Alive, seeks to consolidate his power within the halls of the Stadsraad and far beyond.	true
+effects_description_hkrul_mar_diplo_middenland	Diplomatic relations: %+n to [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland	true
+effects_description_hkrul_mar_mod_diplo_teb	Diplomatic relations: %+n to the Southern Realms	true
+effects_description_hkrul_mar_mod_favour_teb	Allegiance points gained: %+n% for alliances with Southern Realms	true
+effects_description_hkrul_mar_mod_favour_cathay	Allegiance points gained: %+n% for alliances with Cathay	true
+effects_description_hkrul_mar_upkeep_characters	Upkeep: %+n% for [[img:icon_general]][[/img]]Lords and [[img:icon_hero]][[/img]]Heroes	true
+effects_description_hkrul_jk_enable_hat	Ability: "Van der Maacht's Hat"	true
+effects_description_hkrul_enable_mar_frost_globe	Ability: "Explosion of Frost"	true
+effects_description_hkrul_mar_general_increase_dummy	Lord recruit rank: %+n when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_enable_marked_solkan	Ability: "Marked by Solkan"	true
+unit_abilities_onscreen_name_hkrul_marked_solkan	Marked by Solkan	true
+unit_abilities_tooltip_text_hkrul_marked_solkan	As Solkan's agent calls out the heretic, he inflicts the retribution of the Gods of Law on those who offend them.	false
+effects_description_hkrul_solkan_enable_greatsword	Ability: "Solkan's Greatsword"	true
+effects_description_hkrul_solkan_enable_cloak	Ability: "Spirit of Vengeance"	true
+effects_description_hkrul_solkan_enable_scales	Ability: "Scales of Righteousness"	true
+effects_description_hkrul_solkan_enable_ring	Ability: "Ring of Solkan"	true
+effects_description_hkrul_solkan_enable_ring2	Ability: "Ring of Solkan"	true
+effects_description_hkrul_caravan_enable_training	Ability: "Martial Training"	true
+effects_description_hkrul_skill_innate_mar_caravan_master_former-artillery-officer	This Lord's caravan army has additional Artillery units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_norscan_heritage	This Lord's caravan army has additional Militia units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_griffon-whisperer	This Lord's caravan army includes Griffon Riders units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_ogre-ally	This Lord's caravan army includes Ogre Mercenary units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_eastern-idealist	This Lord's caravan army includes Cathayan units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_cavalry	This Lord's caravan army has additional Cavalry units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_gunner	This Lord's caravan army has additional Gunner units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_aristocratic	This Lord's caravan army includes Burgher units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_manann_zealot	This Lord's caravan army includes Worshippers of Manann	true
+effects_description_hkrul_skill_innate_mar_caravan_master_solkan_zealot	This Lord's caravan army includes Patrons of Solkan	true
+effects_description_hkrul_skill_innate_mar_caravan_master_elf-ally	This Lord's caravan army includes High Elf units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_dwarf-ally	This Lord's caravan army includes Dwarf units	true
+effects_description_hkrul_skill_innate_mar_caravan_master_reformed_criminal	This Lord's caravan army includes Kislevite units	true
+effects_description_wh3_main_effect_caravan_cargo_value_regions_dummy	Treasury gained from foreign Caravans: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_mar_enable_lantern	Ability: "Honourable Lamplighters" for Black Caps (Goedendagers)	true
+effects_description_hkrul_mar_hendrik_recruit	[[img:ui/flags/wh_main_emp_marienburg/mon_24.png]][[/img]] Adds Legendary Lord Simon Goudenkruin, Arch-Priest of Haeyndrik, to your recruitment pool.	true
+effects_description_hkrul_deneuwe_faction_effect	[[col:orange]]This is a minor faction, experiences may differ from playing with a major faction.[[/col]]	true
+effect_bundles_localised_title_hkrul_deneuwe	House Den Euwe Enclave	true
+effects_description_hkrul_egmond_enable_amulet	Ability: "Tsien-Tsin's Gaze"	true
+effects_description_hkrul_egmond_enable_katana	Ability: "Okumoto's Katana"	true
+effects_description_hkrul_mar_enable_fooger_backing	Ability: "Fooger's Backing" for Dwarf units	true
+effects_description_hkrul_mar_effect_ability_cooldown_blue_fire_of_tzeentch	Cooldown: %+n% to "Blue Fire of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_enable_tzeentch_blue_fire_of_tzeentch	Spell: "Blue Fire of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_miscast_blue_fire_of_tzeentch_upgraded	Miscast base chance: %+n% for "Blue Fire of Tsien-Tsin Upgraded"	true
+effects_description_hkrul_mar_effect_ability_overcast_blue_fire_of_tzeentch	Overcast spell: "Blue Fire of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_blue_fire_of_tzeentch	Winds of Magic cost: %n for "Blue Fire of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_blue_fire_of_tzeentch_upgraded	Winds of Magic cost: %n for "Blue Fire of Tsien-Tsin Upgraded"	true
+effects_description_hkrul_mar_effect_ability_cooldown_treason_of_tzeentch	Cooldown: %+n% to "Freedom of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_enable_tzeentch_treason_of_tzeentch	Spell: "Freedom of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_miscast_treason_of_tzeentch_upgraded	Miscast base chance: %+n% for "Freedom of Tsien-Tsin Upgraded"	true
+effects_description_hkrul_mar_effect_ability_overcast_treason_of_tzeentch	Overcast spell: "Freedom of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_treason_of_tzeentch	Winds of Magic cost: %n for "Freedom of Tsien-Tsin"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_treason_of_tzeentch_upgraded	Winds of Magic cost: %n for "Freedom of Tsien-Tsin Upgraded"	true
+effects_description_hkrul_mar_effect_ability_cooldown_tzeentchs_firestorm	Cooldown: %+n% to "Tsien-Tsin's Firestorm"	true
+effects_description_hkrul_mar_effect_ability_enable_tzeentch_tzeentchs_firestorm	Spell: "Tsien-Tsin's Firestorm"	true
+effects_description_hkrul_mar_effect_ability_miscast_tzeentchs_firestorm_upgraded	Miscast base chance: %+n% for "Tsien-Tsin's Firestorm Upgraded"	true
+effects_description_hkrul_mar_effect_ability_overcast_tzeentchs_firestorm	Overcast spell: "Tsien-Tsin's Firestorm"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_tzeentchs_firestorm	Winds of Magic cost: %n for "Tsien-Tsin's Firestorm"	true
+effects_description_hkrul_mar_effect_ability_wom_cost_tzeentchs_firestorm_upgraded	Winds of Magic cost: %n for "Tsien-Tsin's Firestorm Upgraded"	true
+effects_description_hkrul_mar_defenders_upkeep	Upkeep: %+n% for Defenders of the Capital (Greatswords)	true
+effects_description_hkrul_mar_teuling_upkeep	Upkeep: %+n% for De Teuling's Escort (Empire Knights - Greatswords)	true
+effects_description_hkrul_mar_defenders_cap	Capacity: %+n for Defenders of the Capital (Greatswords)	true
+effects_description_hkrul_mar_defenders_ma	Melee Attack: %+n for Defenders of the Capital (Greatswords)	false
+effects_description_hkrul_mar_black_caps_cap	Capacity: %+n for Black Caps (Goedendagers)	true
+effects_description_hkrul_mar_knights_cleansing_charge	Charge bonus: %+n or Knights of the Cleansing Flame (Empire Knights)	true
+effects_description_hkrul_mar_knights_cleansing_cap	Capacity: %+n for Knights of the Cleansing Flame (Empire Knights)	true
+effects_description_hkrul_mar_black_caps_upkeep	Upkeep: %+n% for Black Caps (Goedendagers)	true
+effects_description_hkrul_mar_black_caps_bonus_vs_inf	Bonus vs Infantry: %+n for Black Caps (Goedendagers)	true
+effects_description_hkrul_mar_black_caps_md	Melee Defence: %+n for Black Caps (Goedendagers)	true
+effects_description_hkrul_mar_carriers_commander	Adds one Merchant Guild Baggage-Train to this Convoy	true
+effects_description_hkrul_mar_privateers_missile	Missile strength: %+n% for Marienburg Privateers, Sartosa Militia and Free Company Militia	true
+effects_description_hkrul_mar_privateers_speed	Speed: %+n% for Marienburg Privateers, Sartosa Militia and Free Company Militia	true
+effects_description_hkrul_mar_enable_egmond_brew	Ability: "Concoction of Change" for Tzeentch units	true
+effects_description_hkrul_mar_enable_egmond_simca	Ability: "Orange Simca's Blessing"	true
+effects_description_hkrul_mar_enable_egmond_rice	Ability: "Nipponese Rice Bowl"	true
+effects_description_hkrul_enable_new_artifact	Ability: "Liberation of Souls"	true
+effects_description_hkrul_mundvard_enable_ability_sword_wsoran	Ability: "Sword of W'soran"	true
+effects_description_hkrul_mundvard_enable_ability_shadow_walk	Ability: "Shadow Walk"	true
+effects_description_hkrul_mar_mundvard_human_upkeep	Upkeep: %+n% for Marienburg units	true
+effects_description_hkrul_mar_mundvard_human_experience	Recruit rank: %+n for Marienburg units	true
+effects_description_hkrul_mar_mundvard_human_recruit	Recruitment cost: %+n% for Marienburg units	true
+effects_description_hkrul_enable_alicia_monkshood	Ability: "Monkshood Pollen"	true
+effects_description_hkrul_enable_alicia_rose	Ability: "The Ashen Rose"	true
+effects_description_hkrul_enable_alicia_ring	Ability: "Von Unterwald's Ring"	true
+effects_description_hkrul_enable_roelef_rally	Ability: "De Roelef's Rally"	true
+effects_description_hkrul_enable_norsca_raiders	Ability: "Kjotve's Raiders" for Norsca units	true
+effects_description_hkrul_enable_cathay_mask	Ability: "Mask of Beichai" for Cathay units	true
+effects_description_hkrul_enable_kislev_buff	Ability: "Van den Nijmenk's Oath" for Kislev units	true
+effects_description_hkrul_enable_bret_buff	Ability: "Judicious Tactics" for Bretonnian units	true
+effects_description_hkrul_norsca_giant_dummy	Adds one Norscan Giant to the [[img:icon_general]][[/img]]Lord's army\\n\\n[[col:red]][[i]]Note: Only one docile Norscan Giant will follow the newly formed Norscan retinue. Once the set is completed by a [[img:icon_general]][[/img]]Lord it will join that army. There shall be no other giant as easily persuaded - so time wisely.[[/i]][[/col]]	true
+effects_description_hkrul_mar_health_landship	Armour: %+n for Landship units	true
+effects_description_hkrul_enable_landship_buff	Ability: "Kippenberg's Modifications" for Landship units	true
+effects_description_hkrul_enable_bard_music	Ability: "Aesllanan's Encore"	true
+effects_description_hkrul_enable_elf_shot	Ability: "Ghost-Strider's Fling"	true
+effects_description_hkrul_enable_elf_buff	Ability: "Disdain of the Asur" for High Elf units	true
+effects_description_hkrul_mar_enable_helm	Ability: "Aegis of Stone"	true
+effects_description_hkrul_mar_enable_ship	Ability: "Suzerain of the Seas"	true
+effects_description_hkrul_mar_enable_trident	Ability: "Olovald's Trident"	true
+effects_description_hkrul_mar_enable_shield_manann	Ability: "Veil of the Albatross"	true
+effects_description_hkrul_mar_enable_rapier	Ability: "Van der Maacht's Rapier"	true
+effects_description_hkrul_mar_enable_lupo	Ability: "Lupo's Heirloom"	true
+effect_bundles_localised_title_hkrul_mar_ritual_merchant	Secretariat for Trade Equity	false
+effect_bundles_localised_description_hkrul_mar_ritual_merchant	The secretariat is charged with making sure that the city gets the tax money it demands from its inhabitants and with enforcing Port Law -the body of law that governs ship traffic within Marienburg and parts of the nearby Sea of Claws.	false
+effect_bundles_localised_title_hkrul_mar_ritual_rebels	Van Reeveldt's Boatbuilders	false
+effect_bundles_localised_description_hkrul_mar_ritual_rebels	Along the Zijdenmouw canal sit some of the best dockyards in Marienburg. One of which belonging to Maria van Reeveldt, who is considered the best amongst her trade. If anyone can build a craft that lives up to the Van de Kuyper's expensive taste, it's Van Reeveldt.	false
+effect_bundles_localised_title_hkrul_mar_ritual_voyage	Breaching the Vloedmuur	false
+effect_bundles_localised_description_hkrul_mar_ritual_voyage	The ''Low-Lands'' are situated well below sea level. Masters in creating ''polders'', Wastelanders drain swamps and build dams to keep the water out. But once hostile forces approach, the burghers don't hesitate to breach them. Flooding the lands and halting any enemy advance.	false
+effect_bundles_localised_title_hkrul_mar_ritual_diplomacy	Schemes of the Directorate	false
+effect_bundles_localised_description_hkrul_mar_ritual_diplomacy	The Directorate is the Executive Council of Marienburg. this carefully crafted tableau hides the realities of power. While the seats are supposedly open to any citizen, the ten wealthiest families plot to consolidate their own interests. With both local and global schemes.	false
+effects_description_hkrul_mar_caravan_dummy	Send trade convoys across the world via the Gilded Route and navigate risks en route to reap great financial rewards	true
+effects_description_hkrul_mar_lovers	Adds {{tr:icon_treasury}} 1000 on completion	true
+effects_description_hkrul_mar_enable_guardian_dummy	Ability: "Guardian" while embedded in [[col:yellow]]Mundvard the Cruel's[[/col]] army 	true
+effects_description_hkrul_mar_enable_guardian_dummy2	Ability: "Guardian" while embedded in [[col:yellow]]Van de Kuyper's[[/col]] army	true
+effects_description_hkrul_mar_enable_md_munvard_dummy	Melee defence: %+n while embedded in [[col:yellow]]Mundvard the Cruel's[[/col]] army 	true
+effects_description_hkrul_mar_enable_stevedore	Ability: "Stevedore's Boots"	true
+effects_description_hkrul_mar_thijs_recruit	Recruit rank: %+n for Privateer, Militia and Sartosa Pirate units	true
+effects_description_hkrul_mar_thijs_leadership	Leadership: %+n for Privateer, Militia and Sartosa Pirate units	true
+effects_description_hkrul_mar_warden	Bonus vs Large: %+n for Riverwarden units	true
+effects_description_hkrul_mar_warden_rank	Recruit rank: %+n for Riverwarden units	true
+effects_description_hkrul_mar_hong_rank	Recruit rank: %+n for Tzeentch units	true
+effects_description_hkrul_mar_enable_speaker	Ability: "Speaker's Speech"	true
+effects_description_hkrul_mar_enable_smoke	Ability: "Smoke Bomb"	true
+effects_description_hkrul_enable_jaan_bribe	Ability: "Jaan's Bribe"	true
+effects_description_hkrul_enable_mar_lockpick	Ability: "Nimble Lockpick"	true
+effects_description_hkrul_mar_enable_dagger	Ability: "Vendor of Potion Square"	true
+effects_description_rhox_mar_elf_effect_dummy	Adds one unit of Phoenix Guard to the [[img:icon_general]][[/img]]Lord's army\\n\\n[[col:red]][[i]]Note: Only one unit of Phoenix Guard will be sent by Etaine. Once the set is completed by a [[img:icon_general]][[/img]]Lord they will join that army - so time wisely.[[/i]][[/col]]	false
+effects_description_hkrul_enable_knot	Ability: "Sailor's Knot"	false
+effects_description_hkrul_enable_tales	Ability: "Tales of the Savonarola"	false
+effects_description_hkrul_elf_md	Melee defence: %+n for High Elf units	true
+effect_bundles_localised_description_hkrul_deneuwe	On a desperate attempt to prevent House Den Euwe's bankruptcy, Egmond scours the Cathayan shores in search of trade - all he finds however, is the watchful gaze of Tsien-Tsin, corrupting him with visions of false knowledge.	false
+effects_description_hkrul_mar_research_dummy	Research rate: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_mar_construction_time_dummy	Construction time: %+n% for all buildings when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_mar_movement_range_dummy	Campaign movement range: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
+effects_description_hkrul_jk_enable_politician_dummy	Ability: "Backroom Politics'' for all [[img:icon_lord]][[/img]]Lords when garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_rhox_mar_anc_dummy	A Merchant House will give in to your demands	false
+effect_bundles_localised_title_rhox_mar_anc_dummy	Neutralise rival Merchant House	false
+effect_bundles_localised_description_rhox_mar_anc_dummy	A Merchant House will give in to your demands	false
+effects_description_rhox_mar_effect_ability_army_enable_flood_trap	Army ability: "Flood Trap"	false
+effects_description_rhox_mar_egmond_dummy	Convert mortal men to Tzeentch units using the warband upgrade system [[col:red]][[i]](Requires DLC)[[/i]][[/col]]	false
+effect_bundles_localised_title_rhox_mundvard_effect_bundle	Criminal Mastermind	false
+effect_bundles_localised_description_rhox_mundvard_effect_bundle	Ruling from the Shadows, Mundvard the Cruel plots and schemes his way to supreme reign over the Wasteland. Slaying, enthralling, consuming or even selling the weak men of Marienburg every step of the way.	false
+effects_description_rhox_mar_mundvard_dummy	Establish criminal syndicates in hostile regions	false
+effects_description_hkrul_skill_innate_mar_caravan_master_bretonnia	This Lord's caravan army includes Brettonian units	false
+effects_description_hkrul_skill_innate_mar_caravan_master_teb	This Lord's caravan army includes units from Southern Realms\\n[[col:red]][[i]]Note: Requires TEB to be enabled. [[/i]][[/col]]	false
+effects_description_rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_establish_pirate_cove	Alicia can establish Criminal Networks in targetted settlements	false
+effects_description_rhox_mar_effect_agent_action_success_chance_dignitary_establish_pirate_cove	Cannot establish further Criminal Networks	false
+effect_bundles_localised_title_rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor	Exhaustion	false
+effect_bundles_localised_description_rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor	This [[img:icon_hero]][[/img]]Hero must rest following the establishment of a Criminal Network.	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_0	The Power of Money	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_1	The Power of Money	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_2	The Power of Money	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_3	The Power of Money	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_4	The Power of Money	false
+effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_5	The Power of Money	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_0	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_1	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_2	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_3	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_4	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_5	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+effects_description_ovn_effect_ability_army_num_uses_the_power_of_money	Army Ability number of uses: %+n for "The Power of Money"	false
+effects_description_ovn_effect_ability_army_enable_the_power_of_money	Army Ability: "The Power of Money"	false
+effects_description_rhox_mar_mudvard_slave_dummy	Sell slaves to the highest bidder via rings of slave traffickers	false
+effect_bundles_localised_title_rhox_egmond_tze_side	Change is the only way	false
+effect_bundles_localised_description_rhox_egmond_tze_side	You choose to be one of them	false
+effect_bundles_localised_title_rhox_egmond_mar_side	Resist the calling	false
+effect_bundles_localised_description_rhox_egmond_mar_side	Stay true your ancestral blood	false
+effects_description_rhox_mar_vilitch_diplomacy_mod_hidden		false
+effects_description_rhox_mar_harmony_yang_passive_to_unit	Passive: Battle Harmony: Yang for Marienburg melee units	false
+effects_description_rhox_mar_harmony_yin_passive_to_unit	Passive: Battle Harmony: Yin for Marienburg ranged units	false
+effects_description_rhox_mar_harmony_yang_attribute_to_unit	Attribute: Yang to Marienburg melee units	false
+effects_description_rhox_mar_harmony_yin_attribute_to_unit	Attribute: Yin to Marienburg ranged units	false
+effects_description_rhox_mar_underway_dummy	Use lairs, burrows and tunnels to traverse the underground of the Wasteland	false
+effects_description_rhox_mar_jk_0_6_mission_issued	Mission: ''The Merchant Emperor'	false
+effects_description_rhox_mar_jk_special_0_5_mission_issued	Mission: ''Bridge over the River Reik''\\n[[col:red]][[i]]Note: If requirements are already met the mission will auto succeed. [[/i]][[/col]]	false
+effects_description_rhox_mar_get_loodeman_dummy	Ancillary: "Guildmaster of the Brotherhood of Seamen"	false
+effects_description_rhox_mar_burgerhof_dilemma_dummy	Dilemma: ''Speaker of the Burgerhof''	false
+effects_description_rhox_mar_talons_dummy	Regiment of Renown: The Red Talons are added to the recruitment pool	false
+effects_description_rhox_mar_upkeep_lords_heroes	Upkeep: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	false
+effect_bundles_localised_title_rhox_mar_bundle_jaan	Goudberg Armchair	false
+effect_bundles_localised_description_rhox_mar_bundle_jaan	Applies to Jaan when he is garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_rhox_mar_jaan_ranged_ammunition	Ammunition: %+n% for Marienburg ranged units	false
+effects_description_rhox_mar_jaan_ranged_damage	Missile strength: %+n% for Marienburg ranged units	false
+effects_description_rhox_mar_jaan_physical_resistance	Physical resistance: %n% for Marienburg units	false
+effects_description_rhox_mar_jaan_melee_attack	Melee defence: %+n for Marienburg infantry units	false
+effects_description_rhox_mar_jaan_melee_defence	Melee attack: %+n for Marienburg infantry units	false
+effects_description_rhox_mar_jaan_faction_wide_dummy	Half of this value will affect forces factionwide when Jaan is garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_rhox_mar_tradable_resource_production	At the start of the next turn, a random General will gain 'Tradable resource production: %+n%' (local region) if Jaan is garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effect_bundles_localised_title_rhox_mar_bundle_slavedrive_jaan	Jaan's footmen	false
+effect_bundles_localised_description_rhox_mar_bundle_slavedrive_jaan	This character is in the deep pockets of the Van de Kuypers, providing them with continous business opportunities.	false
+effects_description_hkrul_mar_enable_kuypers_ring	Ability: "Van de Kuyper's Sigil" for Merchant Lords	false
+effects_description_rhox_mar_caravan_cargo_capacity_dummy	Maximum cargo capacity: %+n% for caravans when garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_rhox_mar_enable_kuypers_ring_dummy	Ability: "Van de Kuyper's Sigil" for [[img:icon_lord]][[/img]]Merchant Lords when garrisoned in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_rhox_mar_jaan_remove_lazy_dummy	Jaan will no longer gain the Lazy trait for garrisoning in [[col:yellow]]Marienburg[[/col]]	false
+effects_description_hkrul_mar_enable_mace	Ability: "Haeyndrik's Mace"	false
+effects_description_rhox_mar_active_convoys	Maximum number of active Convoys: %+n	false
+effects_description_rhox_mar_effect_additional_caravan_cargo_dummy	Accompanying caravan will start with additional %+n cargos	false
+effect_bundles_localised_title_rhox_mar_bundle_pirate_cove_created	Criminal Network Established	false
+effect_bundles_localised_description_rhox_mar_bundle_pirate_cove_created	A Criminal Network has been established recently, more time is required until we can efficiently establish another.	false
+effects_description_rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	[[col:yellow]]Establish Criminal Network[[/col]] action: %+n% cost to perform	false
+effects_description_rhox_mar_alicia_criminal_network_dummy	She can efficeintly create criminal networks.	false
+effects_description_rhox_mar_cathay_ship_dummy	Adds one Sky Junk to the [[img:icon_general]][[/img]]Lord's army\\n\\n[[col:red]][[i]]Note: Only one Sky Junk will follow the newly formed retinue. Once the set is completed by a [[img:icon_general]][[/img]]Lord it will join that army. There shall be no other crew as easily persuaded - so time wisely.[[/i]][[/col]]	false
+effect_bundles_localised_title_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
+effect_bundles_localised_description_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false

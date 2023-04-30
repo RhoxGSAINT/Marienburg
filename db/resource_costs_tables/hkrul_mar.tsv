@@ -1,0 +1,11 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/hkrul_mar					
+hkrul_mar_ritual_merchant	-4000	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+hkrul_mar_ritual_rebels	-3500	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+hkrul_mar_ritual_voyage	-2750	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+hkrul_mar_ritual_diplomacy	-4750	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_mar_power_of_money_cost_1	-5000	FORCE_ABILITIES	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_mar_power_of_money_cost_2	-10000	FORCE_ABILITIES	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_mar_power_of_money_cost_3	-15000	FORCE_ABILITIES	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_mar_power_of_money_cost_4	-20000	FORCE_ABILITIES	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_mar_power_of_money_cost_5	-25000	FORCE_ABILITIES	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME

@@ -1,0 +1,49 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/hkrul_mar											
+hkrul_hendrik_pelican	true	hkrul_beer_3_72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_jk_pork	true	hkrul_pork_72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_jk_corn	true	hkrul_corn_72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_jk_norsca	true	hkrul_fur_72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_jk_kislev	true	hkrul_pelts_72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_jk_politician	true	hkrul_orderbribe72		wh_type_area_of_hexes		wh_main_anc_group_rare	true	false	passive		false
+hkrul_mar_ability_bombard	false	hkrul_zegepraal72		wh_type_wind		wh_main_anc_group_uncommon	true	false	army		false
+hkrul_pg_hook	true	hkrul_haak_72		wh_type_hex		wh_main_anc_group_rare	true	false	active		false
+hkrul_pg_bomb	true	hkrul_handbom72		wh_type_magic_missile		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_pg_cutlass	true	hkrul_cutlass		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_carriers_promise	false	hkrul_mar_prospect		wh_type_area_of_augments		wh_main_anc_group_common	true	false	passive		false
+hkrul_carriers_promise_ror	false	hkrul_mar_prospect_great		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_hendrik_bargain	true	hkrul_mar_bargain		wh_type_hex		wh_main_anc_group_unique	true	false	active		false
+hkrul_hendrik_letter	true	hkrul_letter72		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_hendrik_faith	true	hkrul_lantern_72		wh_type_area_of_ward_save		wh_main_anc_group_rare	true	false	active		false
+hkrul_jk_slippery	true	hkrul_luckycoin		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_hendrik_gold	true	hkrul_heavy		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_scourge	false	hkrul_scourge		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_jk_hat	true	hkrul_hat_1_72		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_frost_globe	true	hkrul_mar_nijmenk_1_72		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_sea_bride_standard	false	hkrul_mar_bride_38		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_mar_schilder	false	hkrul_mar_schilder_38		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_lantern	false	hkrul_mar_blackcap_passive_38		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_egmond_amulet	true	hkrul_egmond_eye_72		wh_type_hex		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch	true	wh3_main_spell_tzeentch_blue_fire_of_tzeentch	hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch_upgraded	wh_type_magic_missiles	spell_previews/tzeentch/wh3_main_tzeentch_blue_fire_of_tzeentch	wh_main_anc_group_common	true	false	spell		false
+hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch_upgraded	true	wh3_main_spell_tzeentch_blue_fire_of_tzeentch		wh_type_magic_missiles	spell_previews/tzeentch/wh3_main_tzeentch_blue_fire_of_tzeentch	wh_main_anc_group_common	true	false	spell		false
+hkrul_mar_spell_tzeentch_treason_of_tzeentch	true	wh3_main_spell_tzeentch_treason_of_tzeentch	hkrul_mar_spell_tzeentch_treason_of_tzeentch_upgraded	wh_type_area_of_hexes	spell_previews/tzeentch/wh3_main_tzeentch_treason_of_tzeentch	wh_main_anc_group_uncommon	true	false	spell		false
+hkrul_mar_spell_tzeentch_treason_of_tzeentch_upgraded	true	wh3_main_spell_tzeentch_treason_of_tzeentch		wh_type_area_of_hexes	spell_previews/tzeentch/wh3_main_tzeentch_treason_of_tzeentch	wh_main_anc_group_uncommon	true	false	spell		false
+hkrul_mar_szeentch_tzeentchs_firestorm	true	wh3_main_spell_tzeentch_tzeentchs_firestorm	hkrul_mar_szeentch_tzeentchs_firestorm_upgraded	wh_type_vortex	spell_previews/tzeentch/wh3_main_tzeentch_tzeentchs_firestorm	wh_main_anc_group_rare	true	false	spell		false
+hkrul_mar_szeentch_tzeentchs_firestorm_upgraded	true	wh3_main_spell_tzeentch_tzeentchs_firestorm		wh_type_vortex	spell_previews/tzeentch/wh3_main_tzeentch_tzeentchs_firestorm	wh_main_anc_group_rare	true	false	spell		false
+hkrul_egmond_katana	true	hkrul_egmond_katana_72		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_defenders	false	hkrul_mar_defenders_coin_72		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+rhox_mar_army_abilities_flood_trap	false	wh2_dlc11_spell_deep_tidecall		wh_type_wind		wh_main_anc_group_rare	false	false	army		false
+hkrul_mar_fooger_backing	true	hkrul_mar_guzunda_fooger_72		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_egmond_brew	true	hkrul_mar_egmond_potion		wh_type_augment		wh_main_anc_group_unique	true	false	passive		false
+hkrul_mar_egmond_simca	true	hkrul_egmond_2_0_72		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_egmond_rice	true	hkrul_mar_egmond_rice		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_mar_stevedore	true	hkrul_mar_stevedore		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_jaan_bribe	true	hkrul_mar_jaan_bribes		wh_type_hex		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_lockpick	true	hkrul_mar_lock		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_mar_dagger	true	hkrul_mar_poison		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_knot	true	hkrul_cross_1_3		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_tales	true	hkrul_mar_island		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_chains	false	hkrul_chains		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_new_artifact	true	hkrul_mar_mundvard_artifact		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_kuypers_ring	true	hkrul_ring_mar		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_mar_mace	true	hkrul_mar_mace		wh_type_augment		wh_main_anc_group_rare	true	false	active		false

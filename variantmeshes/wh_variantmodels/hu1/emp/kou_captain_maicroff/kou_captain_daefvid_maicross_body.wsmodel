@@ -1,0 +1,81 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\kou_captain_daefvid_maicross_body.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_felix_body_01_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_eltharion_body_submesh_0_sub_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_huntsmarshal_body_03_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_aranessa_head_01_submesh_30__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\wef_glade_guard_campaign_11_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_prince_head_campaign_09_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_wizard_celestial_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_head_01__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="11">variantmeshes\wh_variantmodels\hu1b\cst\cst_fleet_admiral\materials\cst_fleet_admiral_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="12">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_fleet_admiral_body_01_submes_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="13">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_outrider_cloak_01_submesh_2_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_lord_alberic_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_paladin_torso_02_submesh_0_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_torso_0__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_felix_body_01_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_eltharion_body_submesh_0_sub_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_huntsmarshal_body_03_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_aranessa_head_01_submesh_30__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\wef_glade_guard_campaign_11_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_prince_head_campaign_09_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_wizard_celestial_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_head_01__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="11">variantmeshes\wh_variantmodels\hu1b\cst\cst_fleet_admiral\materials\cst_fleet_admiral_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="12">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_fleet_admiral_body_01_submes_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="13">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_outrider_cloak_01_submesh_2_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_lord_alberic_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_paladin_torso_02_submesh_0_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_torso_0__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_felix_body_01_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_eltharion_body_submesh_0_sub_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_huntsmarshal_body_03_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_aranessa_head_01_submesh_30__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\wef_glade_guard_campaign_11_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_prince_head_campaign_09_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_wizard_celestial_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_head_01__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="11">variantmeshes\wh_variantmodels\hu1b\cst\cst_fleet_admiral\materials\cst_fleet_admiral_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="12">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_fleet_admiral_body_01_submes_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="13">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_outrider_cloak_01_submesh_2_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_lord_alberic_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_paladin_torso_02_submesh_0_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_torso_0__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_felix_body_01_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_eltharion_body_submesh_0_sub_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_huntsmarshal_body_03_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_aranessa_head_01_submesh_30__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\wef_glade_guard_campaign_11_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_prince_head_campaign_09_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_wizard_celestial_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_shadow_warrior_walker_head___1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_head_01__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="11">variantmeshes\wh_variantmodels\hu1b\cst\cst_fleet_admiral\materials\cst_fleet_admiral_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="12">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\cst_fleet_admiral_body_01_submes_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="13">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\emp_outrider_cloak_01_submesh_2_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_lord_alberic_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\brt_paladin_torso_02_submesh_0_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\kou_captain_maicroff\materials\hef_loremaster_of_hoeth_torso_0__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+
+	</materials>
+</model>

@@ -1,0 +1,4 @@
+key	unit_attribute	unit_set
+#unit_set_unit_attribute_junctions_tables;0;db/unit_set_unit_attribute_junctions_tables/rhox_mar		
+rhox_mar_harmony_yang_attribute_to_unit	yang	rhox_mar_melee
+rhox_mar_harmony_yin_attribute_to_unit	yin	rhox_mar_ranged

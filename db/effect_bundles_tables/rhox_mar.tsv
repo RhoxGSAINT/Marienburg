@@ -1,0 +1,21 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_mar								
+rhox_mar_anc_dummy			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mundvard_effect_bundle			faction	1	diplomacy.png	true	false	true
+rhox_egmond_hidden_effect_bundle			faction	1		false	false	true
+rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor			character	1	pirate_cove.png	true	true	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_0	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_1	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_2	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_3	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_4	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_5	 	The Power of Money	force	0	 	true	false	true
+rhox_egmond_tze_side			faction	1	corruption_tzeentch.png	true	false	true
+rhox_egmond_mar_side			faction	1	trait_marienburg.png	true	false	true
+rhox_mar_bundle_jaan			character	0		false	false	true
+rhox_mar_bundle_slavedrive_jaan			force	1	trade_agreement.png	true	false	true
+rhox_mar_bundle_caravan_heroes			character	0		false	false	true
+rhox_mar_bundle_pirate_cove_created	A Pirate Cove has been established recently, more time is required until we can efficiently establish another.	Pirate Cove Established	faction	1	pirate_cove.png	true	false	true
+rhox_mar_mundvard_dilemma_attrition	Harsh landscapes take their blood tithe from the weak and feeble first.	The Path of Fire	force	1	attrition.png	true	false	true
+rhox_mar_mundvard_dilemma_defence	The arcane processes of the Hell-Forge grant these shields and armour greater effectiveness, for a time.	Clad in Durability	force	1	defence.png	true	false	true
+rhox_mar_mundvard_dilemma_offence	The arcane processes of the Hell-Forge grant these weapons much greater lethality, for a time.	Wielding Destruction	force	1	melee.png	true	false	true

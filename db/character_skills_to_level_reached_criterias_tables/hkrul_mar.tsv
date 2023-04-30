@@ -1,0 +1,12 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/hkrul_mar		
+hkrul_jk_mount_barded_warhorse	8	1
+hkrul_hendrik_mount_barded_warhorse	7	1
+hkrul_pg_mount_barded_warhorse	7	1
+hkrul_solkan_horse	9	1
+hkrul_hendrik_pegasus	13	1
+hkrul_caravan_lord_horse	7	1
+hkrul_mar_egmond_horse	8	1
+hkrul_egmond_longma	14	1
+hkrul_mar_mundvard_beast	13	1
+hkrul_caravan_lord_horse	8	1

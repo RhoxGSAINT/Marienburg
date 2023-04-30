@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/marienburg/jan_van_der_kupyers/mrn_van_kuyper_body_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh3_ksl_patriarch_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/mar_van_kuypers_dagger_1h_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_2" />
+	<SLOT name="weapon_4" attach_point="be_prop_3" />
+	<SLOT name="weapon_5" attach_point="be_prop_4" />
+	<SLOT name="weapon_6" attach_point="be_prop_5" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/cth_van_kuypers_cane_1h_01.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="stumps" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_hu1_stumps.variantmeshdefinition" />
+	</SLOT>
+</VARIANT_MESH>

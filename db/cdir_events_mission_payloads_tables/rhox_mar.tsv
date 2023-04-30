@@ -1,0 +1,5 @@
+id	mission_key	payload_key	status_key	value	target_key
+#cdir_events_mission_payloads_tables;2;db/cdir_events_mission_payloads_tables/rhox_mar					
+2127310600	rhox_mar_conquer_empire	TEXT_DISPLAY	SUCCESS	LOOKUP[rhox_mar_dummy_emp_ror_access_mission]	default
+2127310601	rhox_mar_conquer_marien	TEXT_DISPLAY	SUCCESS	LOOKUP[rhox_mar_dummy_mar_ror_access_mission]	default
+2127310602	rhox_mar_cousin_alliance	SPAWN_AGENT	SUCCESS	AGENT[champion];AP_FACTOR[1.0]	default

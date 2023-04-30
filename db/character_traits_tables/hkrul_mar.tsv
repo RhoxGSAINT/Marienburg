@@ -1,0 +1,6 @@
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+#character_traits_tables;2;db/character_traits_tables/hkrul_mar						
+hkrul_defeated_trait_jk	1	false	1	hkrul_jk	1	
+hkrul_defeated_trait_munvard	1	false	1	hkrul_munvard	1	
+hkrul_defeated_trait_hendrik	1	false	1	hkrul_hendrik	1	
+hkrul_defeated_trait_egmond	1	false	1	hkrul_egmond	1	

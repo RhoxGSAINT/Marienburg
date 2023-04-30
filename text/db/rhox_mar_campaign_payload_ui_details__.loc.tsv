@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_campaign_payload_ui_details__.loc		
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_crispijn_spawns	Legendary Hero Recruited: Crispijn van Haagen	false
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_guzunda_spawns	Legendary Hero Recruited: Guzunda Wallrattler	false
+campaign_payload_ui_details_description_rhox_mar_dummy_mar_ror_access	Access gained to Marienburg's Regiments of Renown	false
+campaign_payload_ui_details_description_rhox_mar_dummy_emp_ror_access	Access gained to  Empire's Regiments of Renown	false
+campaign_payload_ui_details_description_dummy_postpone_confederation	[[col:yellow]]Confederation will be offered again in 10 turns[[/col]]	false
+campaign_payload_ui_details_description_dummy_refuse_confederation	[[col:red]]The end of once proud House Den Euwe[[/col]]	false
+campaign_payload_ui_details_description_dummy_hkrul_solkan_spawns	Legendary Hero Recruited: Vigilante Champion of Purity	false
+campaign_payload_ui_details_description_rhox_mar_dummy_mar_ror_access_mission	You'll gain access to Marienburg's regiments	false
+campaign_payload_ui_details_description_rhox_mar_dummy_emp_ror_access_mission	You'll gain access to Reikland's regiments	false
+campaign_payload_ui_details_description_rhox_mar_dummy_solkan_mission	A special mission associated with the Sword of Solkan has been issued.	false
+campaign_payload_ui_details_description_rhox_mar_conf_warning	A unique business opportunity will soon present itself, allowing us to pay off any outstanding debts racked up by House Den Euwe. We can absorb their entire Eastern Venture by doing so. We need to build up some reserves for this, however.	false
+campaign_payload_ui_details_description_rhox_mar_crispijn_notify	Send a convoy to Port Reaver and Crispijn van Haagen shall join your convoy as a Legendary Hero	false
+campaign_payload_ui_details_description_dummy_rhox_refuse_ultimatum	The Marienburg State-Army shall march to your doorstep	false
+campaign_payload_ui_details_description_dummy_rhox_accept_ultimatum	The Directorate shall look the other way when you traverse through the Shadows	false
+campaign_payload_ui_details_description_dummy_rhox_tze_side	[[col:red]]Declare war against Marienburg[[/col]]	false
+campaign_payload_ui_details_description_dummy_rhox_mar_side	[[col:red]]Declare war against the Puppets of Misrule[[/col]]	false
+campaign_payload_ui_details_description_dummy_rhox_tze_side2	[[col:green]]Improved relations with the Puppets of Misrule[[/col]]	false
+campaign_payload_ui_details_description_dummy_rhox_mar_side2	[[col:green]]Military Alliance with Marienburg[[/col]]	false
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_lisette_spawns	Legendary Hero Recruited: Lisette Leerer	false
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_cross_spawns	Legendary Hero Recruited: Captain Daefvid Maicross	false
+campaign_payload_ui_details_description_rhox_mar_dummy_tsi_side_agent_dummy	Cultist of Tzeentch hero will join your side	false
+campaign_payload_ui_details_description_rhox_mar_dummy_phy_dwarf	Arkat Fooger's Houseguard will be added to your recruitment pool	false

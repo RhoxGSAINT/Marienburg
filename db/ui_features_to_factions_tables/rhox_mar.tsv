@@ -1,0 +1,5 @@
+faction	ui_feature
+#ui_features_to_factions_tables;0;db/ui_features_to_factions_tables/rhox_mar	
+ovn_mar_house_den_euwe	WARBANDS
+wh_main_emp_marienburg	CARAVANS
+ovn_mar_house_den_euwe	CARAVANS

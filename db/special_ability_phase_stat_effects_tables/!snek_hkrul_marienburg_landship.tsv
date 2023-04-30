@@ -1,0 +1,9 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/!snek_hkrul_marienburg_landship			
+wh_ability_snek_landship_full_steam_ahead	scalar_speed	1.5000	mult
+wh_ability_snek_landship_full_steam_ahead	scalar_charge_speed	1.2000	mult
+wh_ability_snek_landship_full_steam_ahead	stat_mass	1.5000	mult
+wh_ability_hkrul_landship_shipbuilders_repair	scalar_speed	0.0000	mult
+snek_unit_contact_hobbled	stat_morale	-5.0000	add
+snek_unit_contact_hobbled	stat_melee_attack	-5.0000	add
+snek_unit_contact_hobbled	stat_reloading	-5.0000	add

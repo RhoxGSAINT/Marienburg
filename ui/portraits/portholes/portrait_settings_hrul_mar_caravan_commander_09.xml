@@ -1,0 +1,23 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<PortraitSettings version="4">
+    <Entry id="hrul_mar_caravan_commander_09">
+        <CameraSettings>
+            <Distance_Head>0.75</Distance_Head>
+            <Theta_Head>0</Theta_Head>
+            <Phi_Head>0</Phi_Head>
+            <FoV_Head>0</FoV_Head>
+			<Distance_2>30</Distance_2>
+			<Distance_Body>4</Distance_Body><!--optional-->
+            <Theta_Body>0</Theta_Body><!--optional-->
+            <Phi_Body>0</Phi_Body><!--optional-->
+            <FoV_Body>0</FoV_Body><!--optional-->
+			<Distance_2_Body>30</Distance_2_Body><!--optional-->
+        </CameraSettings>
+		<Variants>
+			<Variant id="hrul_mar_caravan_commander_09">
+                <FileDiffuse>ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09.png</FileDiffuse>
+            </Variant>
+        </Variants>
+    </Entry>
+	
+</PortraitSettings>

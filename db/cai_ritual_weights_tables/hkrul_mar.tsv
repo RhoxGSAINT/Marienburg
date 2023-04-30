@@ -1,0 +1,6 @@
+ritual	weight
+#cai_ritual_weights_tables;0;db/cai_ritual_weights_tables/hkrul_mar	
+hkrul_mar_ritual_merchant	5.0000
+hkrul_mar_ritual_rebels	1.0000
+hkrul_mar_ritual_voyage	1.0000
+hkrul_mar_ritual_diplomacy	1.0000

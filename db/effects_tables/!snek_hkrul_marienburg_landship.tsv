@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/!snek_hkrul_marienburg_landship					
+wh_ability_snek_landship_full_steam_ahead	magic_cooldown.png	611	magic_cooldown.png	battle	false
+wh_effect_snek_landship_enable_full_steam_ahead	general_ability.png	600	general_ability.png	battle	true

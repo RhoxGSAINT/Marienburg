@@ -1,0 +1,17 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_rebel_faction.loc		
+factions_screen_adjective_ovn_mar_house_de_roelef_rebel	House De Roelef	true
+factions_screen_name_ovn_mar_house_de_roelef_rebel	House De Roelef	true
+factions_attack_desc_ovn_mar_house_de_roelef_rebel	You are attacking House De Roelef!	true
+factions_defend_desc_ovn_mar_house_de_roelef_rebel	You are defending against House De Roelef!	true
+factions_screen_name_when_rebels_ovn_mar_house_de_roelef_rebel	House De Roelef	true
+factions_screen_adjective_ovn_mar_house_fooger_rebel	House Fooger	true
+factions_screen_name_ovn_mar_house_fooger_rebel	House Fooger	true
+factions_attack_desc_ovn_mar_house_fooger_rebel	You are attacking House Fooger!	true
+factions_defend_desc_ovn_mar_house_fooger_rebel	You are defending against House Fooger!	true
+factions_screen_name_when_rebels_ovn_mar_house_fooger_rebel	House Fooger	true
+factions_screen_adjective_ovn_mar_house_van_den_nijmenk_rebel	House Van Den Nijmenk	true
+factions_screen_name_ovn_mar_house_van_den_nijmenk_rebel	House Van Den Nijmenk	true
+factions_attack_desc_ovn_mar_house_van_den_nijmenk_rebel	You are attacking House Van Den Nijmenk!	true
+factions_defend_desc_ovn_mar_house_van_den_nijmenk_rebel	You are defending against House Van Den Nijmenk!	true
+factions_screen_name_when_rebels_ovn_mar_house_van_den_nijmenk_rebel	House Van Den Nijmenk	true

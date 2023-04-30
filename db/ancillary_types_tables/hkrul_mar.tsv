@@ -1,0 +1,39 @@
+type	ui_icon
+#ancillary_types_tables;0;db/ancillary_types_tables/hkrul_mar	
+hkrul_mar_anc_araby	ui/campaign ui/ancillaries/hkrul_follower_6_72.png
+hkrul_mar_anc_bodyguard	ui/campaign ui/ancillaries/hkrul_follower_8_72.png
+hkrul_mar_anc_stadsraad	ui/campaign ui/ancillaries/hkrul_follower_7_72.png
+hkrul_mar_anc_norscan	ui/campaign ui/ancillaries/hkrul_mar_norscan.png
+hkrul_mar_anc_sander	ui/campaign ui/ancillaries/hkrul_mar_sander.png
+hkrul_mar_pirate_banner	ui/campaign ui/ancillaries/hkrul_banner_1_59.png
+hkrul_mar_coin	ui/skins/default/equipment_items_enchanted.png
+hkrul_mar_scheldt	ui/campaign ui/ancillaries/hkrul_followerpack_8_72.png
+hkrul_mar_nijmenk	ui/campaign ui/ancillaries/hkrul_followerpack_2_72.png
+hkrul_mar_fooger	ui/campaign ui/ancillaries/hkrul_followerpack_13_72.png
+hkrul_mar_roelef	ui/campaign ui/ancillaries/hkrul_followerpack_4_72.png
+hkrul_mar_rothemuur	ui/campaign ui/ancillaries/hkrul_followerpack_3_72.png
+hkrul_mar_frost_globe	ui/skins/default/equipment_items_enchanted.png
+hkrul_mar_hakim	ui/campaign ui/ancillaries/hkrul_followerpack_16_72.png
+hkrul_mar_black_cap	ui/campaign ui/ancillaries/hkrul_mar_black_cap_72.png
+hkrul_mar_maacht_will	ui/campaign ui/ancillaries/hkrul_mar_maacht_will.png
+hkrul_mar_caravan_anc_diverse4	ui/campaign ui/ancillaries/hkrul_mar_caravan_anc_diverse4.png
+hkrul_mar_caravan_anc_diverse	ui/campaign ui/ancillaries/hkrul_mar_nijmenk_champion.png
+hkrul_mar_caravan_anc_diverse2	ui/campaign ui/ancillaries/hkrul_mar_caravan_anc_diverse2.png
+hkrul_mar_caravan_anc_diverse3	ui/campaign ui/ancillaries/hkrul_mar_caravan_anc_diverse3.png
+hkrul_mar_caravan_anc_diverse5	ui/campaign ui/ancillaries/hkrul_mar_caravan_anc_diverse5.png
+hkrul_mar_egmond_nippon	ui/campaign ui/ancillaries/hkrul_mar_egmond_nippon.png
+hkrul_mar_hilaria	ui/campaign ui/ancillaries/hkrul_mar_mundvard_follower.png
+hkrul_mar_bonsai	ui/campaign ui/ancillaries/hkrul_mar_bonsai_72.png
+hkrul_mar_gote	ui/campaign ui/ancillaries/hkrul_mar_gote.png
+hkrul_mar_leo	ui/campaign ui/ancillaries/hkrul_mar_leo.png
+hkrul_mar_thijs	ui/campaign ui/ancillaries/hkrul_mar_thijs.png
+hkrul_mar_lea	ui/campaign ui/ancillaries/hkrul_mar_lea.png
+hkrul_mar_axel	ui/campaign ui/ancillaries/hkrul_mar_axel.png
+hkrul_mar_loodemans	ui/campaign ui/ancillaries/hkrul_mar_loodemans.png
+hkrul_mar_speaker	ui/campaign ui/ancillaries/hkrul_mar_speaker.png
+hkrul_mar_hong	ui/campaign ui/ancillaries/hkrul_mar_hong.png
+hkrul_mar_casanova	ui/campaign ui/ancillaries/hkrul_mar_casanova.png
+hkrul_mar_gruber	ui/campaign ui/ancillaries/hkrul_mar_gruber.png
+hkrul_mar_casino	ui/campaign ui/ancillaries/hkrul_mar_casino.png
+hkrul_mar_marienburg_anc	ui/campaign ui/ancillaries/hkrul_mar_marienburg_anc.png
+hkrul_mar_barrel	ui/campaign ui/ancillaries/hkrul_mar_barrel.png

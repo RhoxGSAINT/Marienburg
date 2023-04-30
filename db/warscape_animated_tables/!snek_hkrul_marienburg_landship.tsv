@@ -1,0 +1,10 @@
+key	texture_filename_base	category
+#warscape_animated_tables;2;db/warscape_animated_tables/!snek_hkrul_marienburg_landship		
+snek_mar_landship	warmachines\tex	animation
+snek_mar_landship_destruct	warmachines\tex	animation
+snek_mar_landship_ror	warmachines\tex	animation
+snek_mar_landship_ror_destruct	warmachines\tex	animation
+mar_culverin	warmachines\tex	animation
+mar_culverin_destruct	warmachines\tex	animation
+mar_ironfist_mortar	warmachines\tex	animation
+mar_ironfist_mortar_destruct	warmachines\tex	animation

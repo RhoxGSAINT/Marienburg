@@ -1,0 +1,13 @@
+base_unit	mounted_unit	icon_name
+#units_custom_battle_mounts_tables;1;db/units_custom_battle_mounts_tables/hkrul_mar		
+hkrul_jk	hkrul_jk_barded_warhorse	ui/campaign ui/mounts/mount_warhorse.png
+hkrul_pg	hkrul_pg_barded_warhorse	ui/campaign ui/mounts/mount_warhorse.png
+hkrul_hendrik	hkrul_hendrik_warhorse	ui/campaign ui/mounts/mount_warhorse.png
+hkrul_solkan	hkrul_solkan_horse	ui/campaign ui/mounts/mount_warhorse.png
+hkrul_hendrik	hkrul_hendrik_pegasus	ui/campaign ui/mounts/mount_imperial_pegasus.png
+hkrul_mar_egmond	hkrul_mar_egmond_horse	ui/campaign ui/mounts/mount_warhorse.png
+hkrul_mar_egmond	hkrul_mar_egmond_longma	ui/campaign ui/mounts/mount_jade_longma.png
+hkrul_mar_munvard_01	hkrul_mar_munvard_02	ui/campaign ui/mounts/mount_terrorgheist.png
+hkrul_mar_caravan_master	hkrul_mar_caravan_master_horse	ui/campaign ui/mounts/mount_imperial_pegasus.png
+hkrul_alicia	hkrul_alicia_horse	ui/campaign ui/mounts/mount_barded_nightmare.png
+hkrul_alicia	hkrul_alicia_hellsteed	ui/campaign ui/mounts/mount_hellsteed.png

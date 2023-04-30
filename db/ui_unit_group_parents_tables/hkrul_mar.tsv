@@ -1,0 +1,5 @@
+key	icon	order	mp_cap
+#ui_unit_group_parents_tables;1;db/ui_unit_group_parents_tables/hkrul_mar			
+marienburg	mar_landship	15	10
+rhox_emp_ror	campaign_exclusive	99	0
+hkrul_mar_caravan_exclusive	campaign_exclusive	2	0

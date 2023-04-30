@@ -1,0 +1,14 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_mar												
+hkrul_jk	1	2147343937		100	2147343940	hkrul_jk	general	hkrul_jk	ui/portraits/portholes/wh_main_emp_empire/hkrul_jk.png	2022041008		true
+hkrul_pg	1	2147343937		100	2147343940	hkrul_pg	champion	hkrul_pg	ui/portraits/portholes/wh_main_emp_empire/hkrul_pg.png	2022041009		true
+hkrul_hendrik	1	2147343937		100	2147343940	hkrul_hendrik	general	hkrul_hendrik	ui/portraits/portholes/wh_main_emp_empire/hkrul_hendrik.png	2022041010		true
+hkrul_solkan	1	2147343937		100	2147343940	hkrul_solkan	champion	hkrul_solkan	ui/portraits/portholes/wh_main_emp_empire/hkrul_solkan.png	2022041011		true
+hkrul_crispijn	1	2147343937		100	2147343940	hkrul_crispijn	champion	hkrul_crispijn	ui/portraits/portholes/wh_main_emp_empire/hkrul_crispijn.png	2022041012		true
+hkrul_mar_egmond	1	2147343937		100	2147343940	hkrul_mar_egmond	general	hkrul_mar_egmond	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	2022041018		true
+hkrul_mar_munvard	1	2147343937		100	2147343940	hkrul_mar_munvard_01	general	hkrul_mar_munvard	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_mar_munvard.png	2022041019		true
+hkrul_alicia	1	2147343937		100	2147343940	hkrul_alicia	dignitary	hkrul_alicia	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	2022041020		true
+hkrul_guzunda	1	2147343937		100	2147343940	hkrul_guzunda	champion	hkrul_guzunda	ui/portraits/units/wh_main_dwf_dwarfs/hkrul_guzunda.png	2022041021		true
+hkrul_mar_caravan_master	1	2147343937		100	2147343940	hkrul_mar_caravan_master	general	mar_caravan_master	ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09png	2022041015		true
+hkrul_lisette	1	2147343937		100	2147343940	hkrul_lisette	spy	hkrul_lisette	ui/portraits/portholes/wh_main_emp_empire/hkrul_lisette.png	2022041016		true
+hkrul_cross	1	2147343937		100	2147343940	hkrul_cross	champion	hkrul_cross	ui/portraits/portholes/wh_main_emp_empire/hkrul_cross.png	2011041023		true

@@ -1,0 +1,3 @@
+key	resource_sold	resource_bought	cargo_to_resource_sold_rate	cargo_to_resource_bought_rate	irrevocable	max_cargo
+#caravan_contracts_tables;0;db/caravan_contracts_tables/rhox_mar						
+rhox_mar_mundvard_slave_treasury	def_slaves		1.0000	6.0000	true	400

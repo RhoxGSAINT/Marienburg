@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_projectile_shot_types.loc		
+projectile_shot_type_displays_onscreen_name_snek_hkrul_mar_landship_cannon_ball	Single-Shot Round	false
+projectile_shot_type_displays_tooltip_text_snek_hkrul_mar_landship_cannon_ball	Shooting a single, large projectile instead of many smaller ones is more effective when fighting enemies at the distance.	false
+projectile_shot_type_displays_onscreen_name_snek_hkrul_mar_ror_landship_cannon_ball	Single-Shot Round	false
+projectile_shot_type_displays_tooltip_text_snek_hkrul_mar_ror_landship_cannon_ball	Shooting a single, large projectile instead of many smaller ones is more effective when fighting enemies at the distance.	false
+projectile_shot_type_displays_onscreen_name_snek_hkrul_mar_landship_grapeshot	Grape-Shot Round	false
+projectile_shot_type_displays_tooltip_text_snek_hkrul_mar_landship_grapeshot	Shooting many smaller projectiles instead of one large one is more effective when fighting multiple small targets, such as infantry units.	false
+projectile_shot_type_displays_onscreen_name_snek_hkrul_mar_landship_chainshot	Chain-Shot Round	false
+projectile_shot_type_displays_tooltip_text_snek_hkrul_mar_landship_chainshot	Use a projectile formed of two sub-calibre balls to oppress the target. Useful against a large target like monsters.	false

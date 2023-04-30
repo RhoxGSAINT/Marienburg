@@ -1,0 +1,32 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_ancillaries__.loc		
+ancillaries_onscreen_name_hkrul_mar_testament	Van der Maacht's Will & Testament	true
+ancillaries_colour_text_hkrul_mar_testament	''What's that? Van der Maacht's Will? Surely this has to be some mistake, that would mean a new noble ruler of Marienburg would be instated. Surely this is fake. Let's get rid of it before we stir pots we seek to remain unstirred''.	true
+ancillaries_explanation_text_hkrul_mar_testament	Will of the last Ruler	true
+ancillaries_onscreen_name_hkrul_mar_heir	Heir of Sigmar	true
+ancillaries_colour_text_hkrul_mar_heir	''Yes, yes it is I - The uh.. The heir of Sigmar. Yes! Ludwig Schwarzhelm is my name.. Or was it.. Kurt something..  Send here by my dad, Xou of Bretagne''.	true
+ancillaries_explanation_text_hkrul_mar_heir		true
+ancillaries_onscreen_name_hkrul_mar_loyal	Oleg Antonov	true
+ancillaries_colour_text_hkrul_mar_loyal	Oleg Antonov is the personal house champion of House Van den Nijmenk. Send here by order of Sasha, Yuri was supposed to challenge the House Champion of a Kislevite Merchant, but he was ambushed and jailed for crimes he did not commit. The authorities will surely look the other way if we attempt to persuade them, and who knows what value Yuri might proof to have later.	true
+ancillaries_explanation_text_hkrul_mar_loyal		true
+ancillaries_onscreen_name_hkrul_mar_baron	Dead Baron	true
+ancillaries_colour_text_hkrul_mar_baron	''I am of Bretonnian Nobility, yes. Cursed with eternal life, or death - if you may call it so. Betrayed by my brethren I shall have my revenge''.	true
+ancillaries_explanation_text_hkrul_mar_baron		true
+ancillaries_onscreen_name_hkrul_mar_rat	Strat the Rat	true
+ancillaries_colour_text_hkrul_mar_rat	Hoping to find some long forgotten artifact, you cross paths with a talking rat. Must have been some odd spell performed on this man to make him like this surely, as anyone knows talking rats do not exist. Oddly enough, the rat never stops discussing the uncanningly amount of so called rat ''Clans'' and their characteristics. Poor thing, the spell must have fried his brains as clearly these do not exist.	true
+ancillaries_explanation_text_hkrul_mar_rat		true
+ancillaries_onscreen_name_hkrul_mar_bonsai	Bonsai Tree	true
+ancillaries_colour_text_hkrul_mar_bonsai	A mysterious tree imported from the mythical isles of Nippon, it is said one could plant it on any surface and it will turn it's surroundings into fertile soil. It does require enormous amounts of maintenance, and there but few landscapers, gardeners and botanists with the skill to do so.	true
+ancillaries_explanation_text_hkrul_mar_bonsai		true
+ancillaries_onscreen_name_hkrul_mar_thom	Ser Thom	true
+ancillaries_colour_text_hkrul_mar_thom	A hulking warrior, quiet with a cold stare - Ser Thom has bested the best on many of Bretonnia's tournaments. He is so profficiant, he has been banned by several. Surely a wealthy addition to our retinue.	true
+ancillaries_explanation_text_hkrul_mar_thom		true
+ancillaries_onscreen_name_hkrul_mar_gote	Guns of the Empire	true
+ancillaries_colour_text_hkrul_mar_gote	Reiklanders lack the fine skill of trade, but they sure know their way around gunpowder. Marienburg is autonomous, yet a little Reiklandish influence won't hurt. Especially if it's as deadly as a firing line of Empiric Guns.	true
+ancillaries_explanation_text_hkrul_mar_gote		true
+ancillaries_onscreen_name_hkrul_mar_lupo	Lupo's Heirloom	true
+ancillaries_colour_text_hkrul_mar_lupo	Extravagant, brutish and heroic. Lorenzo Lupo is a sight to be hold. His tales are sung in the taverns of Miragliano. Many artficacts sold by oddity traders claiming they stem from Lupo's family. It is insure of this helmet is actually a Lupo Heirloom, in any case - it seems to be as sturdy as it is resilient.	true
+ancillaries_explanation_text_hkrul_mar_lupo		true
+ancillaries_onscreen_name_hkrul_mar_follower_bard	Rhox of the Woods	true
+ancillaries_colour_text_hkrul_mar_follower_bard	''Toss a coin to your Merchant, valley of plenty''. A cunning adventurer with unimaginable amounts of skill within the fields of logic and song joins your retinue, aiding you to best the dangers of the Gilded Route.	true
+ancillaries_explanation_text_hkrul_mar_follower_bard		true

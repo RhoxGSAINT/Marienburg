@@ -1,0 +1,168 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_unit_abilities__.loc		
+unit_abilities_onscreen_name_hkrul_hendrik_pelican	First Round's On Me	false
+unit_abilities_onscreen_name_hkrul_jk_pork	Ostlander Pork	false
+unit_abilities_tooltip_text_hkrul_jk_porn	Ostlander Pork Belly, rich of fat is popular amongst Ostlandic infantry and mercenary Ogres.	false
+unit_abilities_tooltip_text_hkrul_hendrik_pelican	''Sit a while, and listen. Listen to my advice. I'll make you rich before you know it''.	false
+unit_abilities_tooltip_text_hkrul_jk_corn	Corn from Averland is rich of nutriants that prolong battle effectiveness.	false
+unit_abilities_onscreen_name_hkrul_jk_corn	Averlander Corn	false
+unit_abilities_onscreen_name_hkrul_jk_norsca	Norsca Pelts	false
+unit_abilities_tooltip_text_hkrul_jk_norsca	Foul stench still lingers on these pelts, but their thickness surely protects it's wielder in battle. 	false
+unit_abilities_tooltip_text_hkrul_jk_kislev	Furs that protect against even the harshest cold and sharpest arrow.	false
+unit_abilities_onscreen_name_hkrul_jk_kislev	Erengrad Fur	false
+unit_abilities_tooltip_text_hkrul_jk_politician	''If you help me now, I'll help you later. It's how politics work''. 	false
+unit_abilities_onscreen_name_hkrul_jk_politician	Backroom Politics	false
+unit_abilities_onscreen_name_hkrul_mar_ability_bombard	Zegepraal's Bombardment	false
+unit_abilities_tooltip_text_hkrul_mar_ability_bombard	''You think you are safe from the Zegepraal just because we are on land? Think again''. 	false
+unit_abilities_onscreen_name_hkrul_pg_hook	Baron Henryk's Hook	false
+unit_abilities_tooltip_text_krul_pg_hook	Ment to be used for hooking one ship to the other, it could just as well be used to hook a few legs together.	false
+unit_abilities_onscreen_name_hkrul_pg_bomb	Gift of the Wastelanders	false
+unit_abilities_tooltip_text_krul_pg_bomb	''Here, a gift for you. A Marienburg specialty. Just don't open it when I'm around, it is considered rude to do so''. 	false
+unit_abilities_onscreen_name_hkrul_pg_cutlass	Trial by Combat	false
+unit_abilities_tooltip_text_krul_pg_cutlass	Big Piet has bested many of champion before in combat, this rabble will only add to that list.	false
+unit_abilities_tooltip_text_hkrul_carriers_promise	Whether or not intended, the paymasters invigorate the Marienburger troops to fight on. Perhaps it's the idea the of picking up crumbs dropped by the baggage train.	false
+unit_abilities_onscreen_name_hkrul_carriers_promise	Thought of Wealth	false
+unit_abilities_tooltip_text_hkrul_hendrik_bargain	Bound to their agreement, one party is compelled to lower arms for the mere bribe of a few gold coins	false
+unit_abilities_onscreen_name_hkrul_hendrik_bargain	Haeyndrik's Bargain	false
+unit_abilities_tooltip_text_hkrul_hendrik_letter	To get Haeyndrik's attention one would first need the eye of his Arch-Priest.	false
+unit_abilities_onscreen_name_hkrul_hendrik_letter	Burgher Acquisition	false
+unit_abilities_tooltip_text_hkrul_hendrik_faith	Goudenkruin would often mutter prayers to the Merchant God and every transaction seems to go your way. This luck translates to the battlefield, where blows simply brush off the Arch-Priest	false
+unit_abilities_onscreen_name_hkrul_hendrik_faith	Peddlers Luck	false
+unit_abilities_tooltip_text_hkrul_jk_slippery	Many advisors close to Jaan van de Kuypers warned him for the odd qualities his Lucky Coin possesses. To envy he attributed their pleas. His coin, obtained during a trade voyage to Lustria, has gotten him out of the most dire situations, and he'd rather give up a loved one before parting with his trinket.	false
+unit_abilities_onscreen_name_hkrul_jk_slippery	Jaan's Lucky Coin	false
+unit_abilities_tooltip_text_hkrul_hendrik_gold	Which sane soul would be able to resist the prospect of pure gold? Even amongst the midst of battle, the tempation is too great. Well, try fighting with a few gold bars hidden in your tunic.	false
+unit_abilities_onscreen_name_hkrul_hendrik_gold	Heavier than Gold	false
+unit_abilities_tooltip_text_hkrul_mar_scourge	Nicknamed the Murderers out of Marienburg, the Van Klumpf's Buccanneers are as ruthless as they are expensive. It is hard to distinguish this Empire Regiment from Pirate Raiders.	false
+unit_abilities_onscreen_name_hkrul_mar_scourge	Murderers of Marienburg	false
+unit_abilities_tooltip_text_wh_ability_hkrul_landship_shipbuilders_repair	On board is a team of Van Reeveldt's carpenters, who can repair damages to the Landship. During the repairs the vessel is in a vulnerable state.	true
+unit_abilities_onscreen_name_wh_ability_hkrul_landship_shipbuilders_repair	Van Reeveldt's Carpenters	true
+unit_abilities_tooltip_text_hkrul_jk_hat	The Hat formerly worn by the Elector Count of Westerland, the heirless Paulus van der Maacht, now a token of influence and power. Is said to be blessed by the God Haeyndrik himself and is rumoured to hold protective powers.	false
+unit_abilities_onscreen_name_hkrul_jk_hat	Van der Maacht's Hat	false
+unit_abilities_tooltip_text_hkrul_mar_frost_globe	This eldritch explosion propels lacerating shards of ice outwards, devastating anyone caught in its deadly squall.	true
+unit_abilities_onscreen_name_hkrul_mar_frost_globe	Explosion of Frost	true
+unit_abilities_onscreen_name_hkrul_solkan_greatsword	Solkan's Greatsword	true
+unit_abilities_tooltip_text_hkrul_solkan_greatsword	Those who have been marked by Solkan to be judged, shall not escape his wrath.	false
+unit_abilities_onscreen_name_hkrul_solkan_cloak	Spirit of Vengeance	true
+unit_abilities_tooltip_text_hkrul_solkan_cloak	All fear the Spirit of Vengeance, moving unseen and unheard - on it's way to deliver imminent justice.	false
+unit_abilities_onscreen_name_hkrul_solkan_scales	Scales of Righteousness	false
+unit_abilities_tooltip_text_hkrul_solkan_scales	None can outrun Solkan's judgement, as in time all shall fall under his merciless gaze. Fleeing is only postponing the inevatible.	false
+unit_abilities_onscreen_name_hkrul_solkan_ring	Ring of Solkan	true
+unit_abilities_tooltip_text_hkrul_solkan_ring	Solkan's magical ring allows him to adapt many forms, furthermore, giving him a natural disguise.	false
+unit_abilities_onscreen_name_hkrul_solkan_ring2	Ring of Solkan	true
+unit_abilities_tooltip_text_hkrul_solkan_ring2	Solkan's magical ring allows him to adapt many forms, furthermore, giving him a natural disguise.	false
+unit_abilities_onscreen_name_hkrul_mar_sea_bride_standard	Sea Bride Standard	true
+unit_abilities_tooltip_text_hkrul_mar_sea_bride_standard	When the smell of blood reaches the banner, it screams and wails in an unholy and thoroughly disconcerting fashion, exhorting those that fight beneath it to cruelty and bloodlust.	false
+unit_abilities_onscreen_name_hkrul_mar_schilder	Schildersheim's River Boats	true
+unit_abilities_tooltip_text_hkrul_mar_schilder	River Boats are a famous export product of both Marienburg and Bechafen, these small crafts can manouver narrow rivers, and are great for catching freeloaders.	false
+unit_abilities_onscreen_name_hkrul_caravan_training	Martial Training	true
+unit_abilities_tooltip_text_hkrul_caravan_training	With a Lord who learned the art of warfare on the Reiksacademy, armies move fight and withdraw more effectively.	false
+unit_abilities_onscreen_name_hkrul_mar_lantern	Honourable Lamplighters	true
+unit_abilities_tooltip_text_hkrul_mar_lantern	The Black Caps keep the lights on Marienburg many dark streets, revealing dealing supposed to remain secret.	false
+unit_abilities_onscreen_name_hkrul_egmond_amulet	Tsien-Tsin's Gaze	true
+unit_abilities_tooltip_text_hkrul_egmond_amulet	Once the Gaze of Tsien-Tsin is locked on a careless victim, it is stunned in place as their mind scrambles to process information unphantomable to mortal men.	false
+unit_abilities_onscreen_name_hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch	Blue Fire of Tsien-Tsin	false
+unit_abilities_onscreen_name_hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch_upgraded	Blue Fire of Tsien-Tsin Upgraded	false
+unit_abilities_tooltip_text_hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch	With a twist of the hand, the spellcaster causes the bodies of their opponents to be consumed by coruscating blue flames.	false
+unit_abilities_tooltip_text_hkrul_mar_spell_tzeentch_blue_fire_of_tzeentch_upgraded	With a twist of the hand, the spellcaster causes the bodies of their opponents to be consumed by coruscating blue flames.	false
+unit_abilities_onscreen_name_hkrul_mar_spell_tzeentch_treason_of_tzeentch	Freedom of Tsien-Tsin	false
+unit_abilities_onscreen_name_hkrul_mar_spell_tzeentch_treason_of_tzeentch_upgraded	Freedom of Tsien-Tsin Upgraded	false
+unit_abilities_tooltip_text_hkrul_mar_spell_tzeentch_treason_of_tzeentch	The spellcaster whispers into the enemies' minds, subtly stoking the fires of healthy skepticism and individualism.	false
+unit_abilities_tooltip_text_hkrul_mar_spell_tzeentch_treason_of_tzeentch_upgraded	The spellcaster whispers into the enemies' minds, subtly stoking the fires of healthy skepticism and individualism.	false
+unit_abilities_onscreen_name_hkrul_mar_szeentch_tzeentchs_firestorm	Tsien-Tsin's Firestorm	false
+unit_abilities_onscreen_name_hkrul_mar_szeentch_tzeentchs_firestorm_upgraded	Tsien-Tsin's Firestorm Upgraded	false
+unit_abilities_tooltip_text_hkrul_mar_szeentch_tzeentchs_firestorm	Blistering balls of scarlet flame emanate from the spellcaster to engulf the foe in deadly balefire.	false
+unit_abilities_tooltip_text_hkrul_mar_szeentch_tzeentchs_firestorm_upgraded	Blistering balls of scarlet flame emanate from the spellcaster to engulf the foe in deadly balefire.	false
+unit_abilities_onscreen_name_hkrul_egmond_katana	Okumoto's Katana	false
+unit_abilities_tooltip_text_hkrul_egmond_katana	Light, swift and deadly - the Katana is a powerful weapon if wielded by those who understand the art of Nipponese swordplay.	false
+unit_abilities_onscreen_name_hkrul_mar_defenders	Blessed by Haeyndrik	false
+unit_abilities_tooltip_text_hkrul_mar_defenders	The Defenders of the Capital stand between their patron God and the profit he seeks to make. To face them is as if trying to steal from a diety. 	false
+unit_abilities_onscreen_name_hkrul_mar_fooger_backing	Clan Fooger's Backing	false
+unit_abilities_tooltip_text_hkrul_mar_fooger_backing	All Dwarves in Marienburg are protected by Clan Fooger, a rich and powerful Clan who has settled the Wasteland centuries ago.	false
+unit_abilities_onscreen_name_hkrul_mar_egmond_brew	Concoction of Change	false
+unit_abilities_tooltip_text_hkrul_mar_egmond_brew	Den Euwe's are famed alchemists, brewing diverse potions with all sorts of effects. Faith will have it this particular batch will change you forever.	false
+unit_abilities_onscreen_name_hkrul_mar_egmond_simca	Orange Simca's Blessing	false
+unit_abilities_tooltip_text_hkrul_mar_egmond_simca	Those with the noble blood of Nipponese aristocrats running through their veins are blessed by the mythical god Orange Simca.	false
+unit_abilities_onscreen_name_hkrul_mar_egmond_rice	Nipponese Rice Bowl	false
+unit_abilities_tooltip_text_hkrul_mar_egmond_rice	Famous and revered, the rice bowls from Nipponese come in endless of variaties. Each recipe uniquely tailored with it's own ingredients and coherent enhancing effects.	false
+unit_abilities_onscreen_name_hkrul_mundvard_ability_sword_wsoran	Sword of W'soran	false
+unit_abilities_tooltip_text_hkrul_mundvard_ability_sword_wsoran	The Sword of W'soran captures the very essence of that which it slains, storing the souls of the unfortunate to be summoned to do it's wielder's bidding.	false
+unit_abilities_onscreen_name_hkrul_new_artifact	Liberation of Souls	false
+unit_abilities_tooltip_text_hkrul_new_artifact	The Artifact traps the souls of those it comes in contact with, binding them to it's wielder for eternity, unleashing their essence releases powerful magic.	false
+unit_abilities_onscreen_name_hkrul_mundvard_ability_shadow_walk	Shadow Walk	false
+unit_abilities_tooltip_text_hkrul_mundvard_ability_shadow_walk	Mundvard has been controlling the city's underworld for years, known only as the 'Master of Shadows', his cape, masked in darkness, helped him achieve such as result.	false
+unit_abilities_additional_ui_effects_localised_text_hkrul_mar_summon_cairn_wraiths	[[col:green]]Summons a unit of Cairn Wraiths[[/col]]	true
+unit_abilities_onscreen_name_hkrul_alicia_monkshood	Monkshood Pollen	false
+unit_abilities_tooltip_text_hkrul_alicia_monkshood	The unliving are immune to the poisonous anther dust that smothers around the monkshood flowers, for the living it has desatrous effects however.	false
+unit_abilities_onscreen_name_hkrul_alicia_ring	Von Unterwald's Ring	false
+unit_abilities_tooltip_text_hkrul_alicia_ring	The Von Unterwald's, once a proud Westerlandic family, long extinct - yet their heirloom lives on situated on the dead ringfinger of Alicia.	false
+unit_abilities_onscreen_name_hkrul_alicia_rose	The Ashen Rose	false
+unit_abilities_tooltip_text_hkrul_alicia_rose	Those who are offered the Ashen Rose can't refuse, those who accept it quickly suffocate as the rose withers in to dark magical aura.	false
+unit_abilities_onscreen_name_hkrul_roelef_rally	De Roelef's Rally	false
+unit_abilities_tooltip_text_hkrul_roelef_rally	It is not often one sees the banner of old Westerlandic Noblity, it reminisces of glorious times gone by and invigorates friendly troops.	false
+unit_abilities_onscreen_name_hkrul_norsca_raiders	Kjotve's Raiders	true
+unit_abilities_tooltip_text_hkrul_norsca_raiders	Only the hardest, most steadfast raiders may call themselves amongst Kjotve's personal raiding crew. All that awaits them is either death or riches. Be it man or beast.	true
+unit_abilities_onscreen_name_hkrul_cathay_mask	Mask of Beichai	true
+unit_abilities_tooltip_text_hkrul_cathay_mask	Forged in Beichai, these masks ooze odd magic and influence both their wearer as those who opposes them. A mere gaze from these strange eyes will frighten any foe.	true
+unit_abilities_onscreen_name_hkrul_kislev_buff	Van den Nijmenk's Oath	true
+unit_abilities_tooltip_text_hkrul_kislev_buff	The relationship between House Van den Nijmenk and the Kislevite culture is undisputable. There is a fiercy loyalty among Kislevites who sail under Sasha's flag, eager to repay his loyalty with blood.	true
+unit_abilities_onscreen_name_hkrul_bret_buff	Judicious Tactics	true
+unit_abilities_tooltip_text_hkrul_bret_buff	Fed with orders that show incredible tactical brilliance, these Bretonnians are always one step ahead of their enemies.	true
+unit_abilities_onscreen_name_hkrul_landship_buff	Kippenberg's Modifications	true
+unit_abilities_tooltip_text_hkrul_landship_buff	''No, no no.. This is all wrong. If we do some sawing here, some hammering there and maybe finally we add some of this.. Yes - now the Ship will be much more stable and effective. I hope.''	true
+unit_abilities_onscreen_name_hkrul_bard_music	Aesllanan's Encore	true
+unit_abilities_tooltip_text_hkrul_bard_music	Bone shattering schreeches echo around Aesllanan, afflicting those nearby. A melancholical piece, played terribly out of tune would distress even the foulest of abominations. 	true
+unit_abilities_onscreen_name_hkrul_elf_shot	Ghost-Strider's Fling	true
+unit_abilities_tooltip_text_hkrul_elf_shot	Armed with the finest bows, the Ghost-Strider regiments from Laurelorn are disputeably one of the deadliest archers in the Old World. Their teachings priceless.	true
+unit_abilities_onscreen_name_hkrul_elf_buff	Disdain of the Asur	true
+unit_abilities_tooltip_text_hkrul_elf_buff	High and mighty are the Asur that they view their foe as nothing but the insects they brush off their uncanningly shining army. Their arrogance grows with each landing blow.	true
+unit_abilities_onscreen_name_hkrul_mar_helm	Aegis of Stone	true
+unit_abilities_tooltip_text_hkrul_mar_helm	Forged with ancient evil magic the Aegis of Stone makes it's wielder impetious to blows and strikes, all be it for a short period of time. 	true
+unit_abilities_onscreen_name_hkrul_mar_ship	Suzerain of the Seas	true
+unit_abilities_tooltip_text_hkrul_mar_ship	The Suzerain of the Seas was one of Marienburg's Wolfship flagships untill it was deemed lost over a century ago. This ship-in-a-bottle bears an awfull resemblance and appears to be.. moving.	true
+unit_abilities_tooltip_text_hkrul_mar_trident	Minor Saint of Manann, yet worshipped devotely in Suiddock. Olovald was a mighty seafarer with immense skill, his trident should only be wielded by those who call the Seas their home.	true
+unit_abilities_onscreen_name_hkrul_mar_trident	Olovald's Trident	true
+unit_abilities_tooltip_text_hkrul_mar_shield_manann	To the Order of the Albatross their symbol is more than a lucky charm, it acts as a sigil of protection. A bulwark to weather any storm. 	true
+unit_abilities_onscreen_name_hkrul_mar_shield_manann	Veil of the Albatross	true
+unit_abilities_tooltip_text_hkrul_mar_rapier	Once wielded by the famed Count of Westerland, this fine Rapier is as graceful as it is deadly. 	true
+unit_abilities_onscreen_name_hkrul_mar_rapier	Van der Maacht's Rapier	true
+unit_abilities_tooltip_text_hkrul_mar_payday	Although they would much rather avoid it, the Van de Kuypers do sanction paymasters to reward extra gold if they think it would serve their cause.	true
+unit_abilities_onscreen_name_hkrul_mar_payday	Jaan's Pay	true
+unit_abilities_tooltip_text_hkrul_carriers_promise_ror	In the eyes of men Van de Kuyper's treasurers represent one thing: Immeasurable wealth. Surely that pie is big enough to feed us all, right? Right?	true
+unit_abilities_onscreen_name_hkrul_carriers_promise_ror	Prospect of Richdom	true
+unit_abilities_tooltip_text_hkrul_mar_cleansing	''Be purged all abominations and tread with fear, as the Knights of the Cleansing Flame come charging in!''	true
+unit_abilities_onscreen_name_hkrul_mar_cleansing	Flame of Eradication	true
+unit_abilities_tooltip_text_hkrul_mar_lupo	Helmet worn by the mythical Lorenzo Lupo - durable and magnificent, capable of warding off both arrow and blow.	true
+unit_abilities_onscreen_name_hkrul_mar_lupo	Lupo's Heirloom	true
+unit_abilities_tooltip_text_hkrul_mar_flock	Like flies flocking around a dead corpse, the Golden Pinions flock around the slain - relishing at the thought of relieving them from coin purses and other belongings.	true
+unit_abilities_onscreen_name_hkrul_mar_flock	Wealth Flockers	true
+unit_abilities_tooltip_text_hkrul_mar_stevedore	Say it again! Who's a man among men? And then say it once more/ Who's the hero next door? Who's that man of success? Don't you know? Can't you guess? 	true
+unit_abilities_onscreen_name_hkrul_mar_stevedore	Boots of the Stevedore	true
+unit_abilities_tooltip_text_hkrul_mar_speaker	Nothing rouses the common soldier like the words from a demagogue orator, brought forth with a fiery passion.	true
+unit_abilities_onscreen_name_hkrul_mar_speaker	Speaker's Speech	true
+unit_abilities_tooltip_text_hkrul_mar_smoke	One finds the task of escaping the Watch easy when concealed in a mist of smoke.	true
+unit_abilities_onscreen_name_hkrul_mar_smoke	Smoke Bomb	true
+unit_abilities_tooltip_text_hkrul_jaan_bribe	There is only one universal language, spoken in the Old and New World. The language of money.	true
+unit_abilities_onscreen_name_hkrul_jaan_bribe	Jaan's Bribe	true
+unit_abilities_tooltip_text_hkrul_mar_lockpick	Finding the weakspots of equipment is just like cracking a safe.	true
+unit_abilities_onscreen_name_hkrul_mar_lockpick	Nimble Lockpick	true
+unit_abilities_tooltip_text_hkrul_mar_dagger	Hidden in her left boot's heel, a veil she brought from her front working as a shopkeeper in Potion's Square.	true
+unit_abilities_onscreen_name_hkrul_mar_dagger	Vendor of Potion Square	true
+unit_abilities_tooltip_text_hkrul_knot	A board the Black Dove Captain Maefcross would often tighten the knots himself, trusting his abilities to shore up even a crashed Landship with a few simple knots.	true
+unit_abilities_onscreen_name_hkrul_knot	Sailor's Knot	true
+unit_abilities_tooltip_text_hkrul_tales	None has the verbal and rhetorical skill to tell the story of the Savonarola as Maefcross, a story of riches lost on a unfindable island, yet ripe for the taking for those who know where to look.	true
+unit_abilities_onscreen_name_hkrul_tales	Tales of the Savonarola	true
+unit_abilities_tooltip_text_hkrul_chains	The Red Talons often serve as a firing line for executions, often resorting to chaining the prisoners frantically escaping their final destiny.	true
+unit_abilities_onscreen_name_hkrul_chains	Rijker's Chains	true
+unit_abilities_tooltip_text_hkrul_kuypers_ring	This Merchant Lord wears the Sigil of the Van de Kuypers, availing oneself of Jaan's personal protection.	true
+unit_abilities_onscreen_name_hkrul_kuypers_ring	Van de Kuyper's Sigil	true
+unit_abilities_tooltip_text_rhox_mar_army_abilities_flood_trap	Sometimes, even the flood can be used as a weapon just by breaching a few dams.	false
+unit_abilities_onscreen_name_rhox_mar_army_abilities_flood_trap	Flood Trap	false
+unit_abilities_tooltip_text_wh2_dlc15_army_abilities_flood_trap	By breaching a few dams, the flood can be used as a weapon.	false
+unit_abilities_onscreen_name_wh2_dlc15_army_abilities_flood_trap	Flood Trap	false
+unit_abilities_tooltip_text_hkrul_mar_power_money	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+unit_abilities_onscreen_name_hkrul_mar_power_money	The Power of Money	false
+special_ability_phases_onscreen_name_hkrul_mar_power_money	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
+special_ability_groups_name_rhox_mar_mundvard	Lore Pool of Mundvard	false
+special_ability_phases_onscreen_name_snek_unit_contact_hobbled	[[col:red]][[img:ui/battle ui/ability_icons/artillery_whistling.png]][[/img]]Hobbled![[/col]]	true
+unit_abilities_tooltip_text_hkrul_mar_mace	The ceremonial mace of Haeyndrik is imbued with magical luck, and is only to be wielded by the Arch-Priest himself.	false
+unit_abilities_onscreen_name_hkrul_mar_mace	Haeyndrik's Mace	false

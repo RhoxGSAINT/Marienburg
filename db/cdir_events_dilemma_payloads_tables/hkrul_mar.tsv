@@ -1,0 +1,10 @@
+id	choice_key	dilemma_key	payload_key	value	target_key
+#cdir_events_dilemma_payloads_tables;0;db/cdir_events_dilemma_payloads_tables/hkrul_mar					
+180519541009	THIRD	hkrul_mar_dil_1	EFFECT_BUNDLE	KEY[hkrul_mar_choice_1_dil_3];DURATION[1]	default
+180519521001	FIRST	hkrul_mar_dil_1	EFFECT_BUNDLE	KEY[hkrul_mar_choice_1_dil_1];DURATION[1]	default
+190519544005	SECOND	hkrul_mar_dil_1	EFFECT_BUNDLE	KEY[hkrul_mar_choice_1_dil_2];DURATION[1]	default
+190519547005	FOURTH	hkrul_mar_dil_1	EFFECT_BUNDLE	KEY[hkrul_mar_choice_1_dil_4];DURATION[1]	default
+190519341009	THIRD	hkrul_mar_dil_2	EFFECT_BUNDLE	KEY[hkrul_mar_choice_2_dil_3];DURATION[1]	default
+190519341019	FIRST	hkrul_mar_dil_2	EFFECT_BUNDLE	KEY[hkrul_mar_choice_2_dil_1];DURATION[1]	default
+190519321001	SECOND	hkrul_mar_dil_2	EFFECT_BUNDLE	KEY[hkrul_mar_choice_2_dil_2];DURATION[1]	default
+190519341006	FOURTH	hkrul_mar_dil_2	EFFECT_BUNDLE	KEY[hkrul_mar_choice_2_dil_4];DURATION[1]	default

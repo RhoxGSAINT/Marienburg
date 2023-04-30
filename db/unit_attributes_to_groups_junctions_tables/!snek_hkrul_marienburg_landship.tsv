@@ -1,0 +1,6 @@
+attribute	attribute_group
+#unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/!snek_hkrul_marienburg_landship	
+causes_fear	snek_landship
+causes_terror	snek_landship
+fatigue_immune	snek_landship
+unbreakable	snek_landship

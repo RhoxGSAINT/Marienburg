@@ -1,0 +1,25 @@
+id	choice_key	dilemma_key	payload_key	value	target_key
+#cdir_events_dilemma_payloads_tables;0;db/cdir_events_dilemma_payloads_tables/rhox_mar					
+1395219653	FIRST	rhox_mar_dilemma_cth_caravan_battle_1A	TEXT_DISPLAY	Fight	default
+1395219654	FIRST	rhox_mar_dilemma_cth_caravan_battle_1B	TEXT_DISPLAY	Fight 	default
+1395219655	SECOND	rhox_mar_dilemma_cth_caravan_battle_1A	TEXT_DISPLAY	Give up some cargo	default
+1395219656	SECOND	rhox_mar_dilemma_cth_caravan_battle_1B	TEXT_DISPLAY	Carvan will not progress this turn	default
+1395219657	SECOND	rhox_mar_dilemma_cth_caravan_1A	TEXT_DISPLAY	The caravan skips ahead.	default
+1395219658	FIRST	rhox_mar_dilemma_cth_caravan_2A	EFFECT_BUNDLE	KEY[wh3_main_dilemma_cth_caravan_2];DURATION[3]	default
+1395219659	FIRST	rhox_mar_dilemma_cth_caravan_1A	TEXT_DISPLAY	The caravan maintains it's current route.	default
+1395219660	FIRST	rhox_mar_confederation_dilemma	TREASURY	AMOUNT[-8000]	default
+1395219661	FIRST	rhox_mar_confederation_dilemma	TEXT_DISPLAY	LOOKUP[dummy_elector_confederation]	default
+1395219662	SECOND	rhox_mar_confederation_dilemma	TEXT_DISPLAY	LOOKUP[dummy_refuse_confederation]	default
+1395219663	THIRD	rhox_mar_confederation_dilemma	TEXT_DISPLAY	LOOKUP[dummy_postpone_confederation]	default
+1395219664	FIRST	rhox_mar_mundvard_ultimatum_dilemma	TEXT_DISPLAY	LOOKUP[dummy_rhox_refuse_ultimatum]	default
+1395219665	SECOND	rhox_mar_mundvard_ultimatum_dilemma	TREASURY	AMOUNT[-2750]	default
+1395219666	SECOND	rhox_mar_mundvard_ultimatum_dilemma	TEXT_DISPLAY	LOOKUP[dummy_rhox_accept_ultimatum]	default
+1395219667	FIRST	rhox_mar_egmond_choose_side	TEXT_DISPLAY	LOOKUP[dummy_rhox_tze_side]	default
+1395219668	SECOND	rhox_mar_egmond_choose_side	TEXT_DISPLAY	LOOKUP[dummy_rhox_mar_side]	default
+1395219669	FIRST	rhox_mar_egmond_choose_side	TEXT_DISPLAY	LOOKUP[dummy_rhox_tze_side2]	default
+1395219670	SECOND	rhox_mar_egmond_choose_side	TEXT_DISPLAY	LOOKUP[dummy_rhox_mar_side2]	default
+1395219671	FIRST	rhox_mar_egmond_choose_side	EFFECT_BUNDLE	KEY[rhox_egmond_tze_side];DURATION[0]	default
+1395219672	SECOND	rhox_mar_egmond_choose_side	EFFECT_BUNDLE	KEY[rhox_egmond_mar_side];DURATION[0]	default
+1395219673	FIRST	rhox_mar_dilemma_burgerhof	ADD_ANCILLARY	ANCILLARY_KEY[hkrul_mar_speaker]	default
+1395219674	FIRST	rhox_mar_dilemma_burgerhof	TREASURY	AMOUNT[-2500]	default
+1395219675	FIRST	rhox_mar_egmond_choose_side	TEXT_DISPLAY	LOOKUP[rhox_mar_dummy_tsi_side_agent_dummy]	default

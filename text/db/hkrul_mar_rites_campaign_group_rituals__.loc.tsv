@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_rites_campaign_group_rituals__.loc		
+campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_merchant	[[col:dark_r]]This rite will unlock after arranging at least 7 Trade Agreements.[[/col]]	true
+campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_diplomacy	[[col:dark_r]]This rite will unlock after accumulating a total income of 3000 gold.[[/col]]	true
+campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_rebels	[[col:dark_r]]This rite will unlock after owning at least 2 Coastal Settlements.[[/col]]	true
+campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_voyage	[[col:dark_r]]This rite will unlock after reaching rank 8 with your Faction Leader.[[/col]]	true

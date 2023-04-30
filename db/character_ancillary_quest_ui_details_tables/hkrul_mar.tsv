@@ -1,0 +1,24 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_mar				
+hkrul_jk	hkrul_mar_coin	11	true	false
+hkrul_pg	hkrul_mar_lea	12	true	false
+hkrul_hendrik	hkrul_mar_anc_sander	8	true	false
+hkrul_jk	wh2_dlc13_anc_talisman_stadsraad_key	14	true	false
+hkrul_jk	hkrul_mar_jk_hat	8	true	false
+hkrul_solkan	hkrul_solkan_item_greatsword	7	true	false
+hkrul_solkan	hkrul_solkan_ring	15	true	false
+hkrul_solkan	hkrul_mar_black_cap	11	true	false
+hkrul_mar_egmond	hkrul_mar_tze_amulet	7	true	false
+hkrul_mar_egmond	hkrul_egmond_katana	15	true	false
+hkrul_mar_egmond	hkrul_mar_egmond_nippon	11	true	false
+hkrul_mar_munvard	hkrul_mundvard_artifact_wsoran	7	true	false
+hkrul_mar_munvard	hkrul_mundvard_sword_wsoran	15	true	false
+hkrul_mar_munvard	hkrul_mar_hilaria	11	true	false
+hkrul_alicia	hkrul_alicia_ring	14	true	false
+hkrul_alicia	hkrul_alicia_rose	8	true	false
+hkrul_crispijn	hkrul_mar_gruber	5	true	false
+hkrul_pg	hkrul_mar_stevedore	15	true	false
+hkrul_lisette	hkrul_mar_casanova	8	true	false
+hkrul_cross	hkrul_mar_casino	8	true	false
+hkrul_hendrik	hkrul_mar_mace	12	true	false
+hkrul_pg	hkrul_mar_barrel	5	true	false

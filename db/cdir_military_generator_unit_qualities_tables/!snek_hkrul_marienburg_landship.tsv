@@ -1,0 +1,4 @@
+group_key	unit_key	quality
+#cdir_military_generator_unit_qualities_tables;1;db/cdir_military_generator_unit_qualities_tables/!snek_hkrul_marienburg_landship		
+wh3_default_land_artillery	snek_hkrul_mar_landship	30
+wh3_default_land_artillery	snek_hkrul_mar_ror_landship	30

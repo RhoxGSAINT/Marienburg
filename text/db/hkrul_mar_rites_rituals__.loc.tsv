@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_rites_rituals__.loc		
+rituals_display_name_hkrul_mar_ritual_merchant	Secretariat for Trade Equity	true
+rituals_display_name_hkrul_mar_ritual_rebels	Van Reeveldt's Boatbuilders	true
+rituals_display_name_hkrul_mar_ritual_voyage	Breaching the Vloedmuur	true
+rituals_display_name_hkrul_mar_ritual_diplomacy	Schemes of the Directorate	true
+rituals_description_hkrul_mar_ritual_merchant	The secretariat is charged with making sure that the city gets the tax money it demands from its inhabitants and with enforcing Port Law -the body of law that governs ship traffic within Marienburg and parts of the nearby Sea of Claws.	true
+rituals_description_hkrul_mar_ritual_rebels	Along the Zijdenmouw canal sit some of the best dockyards in Marienburg. One of which belonging to Maria van Reeveldt, who is considered the best amongst her trade. If anyone can build a craft that lives up to the Van de Kuyper's expensive taste, it's Van Reeveldt.	true
+rituals_description_hkrul_mar_ritual_voyage	The ''Low-Lands'' are situated well below sea level. Masters in creating ''polders'', Wastelanders drain swamps and build dams to keep the water out. But once hostile forces approach, the burghers don't hesitate to breach them. Flooding the lands and halting any enemy advance.	true
+rituals_description_hkrul_mar_ritual_diplomacy	The Directorate is the Executive Council of Marienburg. this carefully crafted tableau hides the realities of power. While the seats are supposedly open to any citizen, the ten wealthiest families plot to consolidate their own interests. With both local and global schemes.	true
+campaign_localised_strings_string_hkrul_mar_lock_landship_ror	 [[col:red]]This unit will become available after performing the Rite of Van Reeveldt's Boatbuilders.[[/col]]	false

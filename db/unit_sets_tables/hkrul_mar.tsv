@@ -1,0 +1,23 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/hkrul_mar				
+hkrul_pion	false	-1	-1	
+hkrul_klumpf	false	-1	-1	
+hkrul_sartosa	false	-1	-1	
+hkrul_carriers	false	-1	-1	
+hkrul_carriers_non_ror	false	-1	-1	
+hkrul_hendrik	false	-1	-1	
+hkrul_simon	false	-1	-1	
+hkrul_burgher	false	-1	-1	
+hkrul_jk	false	-1	-1	
+hkrul_mar_defenders	false	-1	-1	
+hkrul_mar_teuling	false	-1	-1	
+hkrul_mar_black_caps	false	-1	-1	
+hkrul_mar_privateers	false	-1	-1	
+hkrul_mar_cleansing_flame	false	-1	-1	
+hkrul_mar_mundvard_human	false	-1	-1	
+hkrul_mar_noble	false	-1	-1	
+rhox_mar_melee	false	-1	-1	
+rhox_mar_ranged	false	-1	-1	
+hkrul_mar_thijs	false	-1	-1	
+hkrul_mar_warden	false	-1	-1	
+hkrul_mar_caravan_lord_unit_set	false	-1	-1	

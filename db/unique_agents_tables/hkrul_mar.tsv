@@ -1,0 +1,13 @@
+agent_subtype	clan_name	forename	other_name	surname	agent_type	spawn_behaviour	spawn_via_ui
+#unique_agents_tables;3;db/unique_agents_tables/hkrul_mar							
+hkrul_pg	2147358913	7470711899	2147358913	7470711877	champion	FACTION_LEADER	false
+hkrul_jk	2147358913	7470711888	2147358913	7470711866	general	FACTION_LEADER	false
+hkrul_hendrik	2147358913	605123686	2147358913	605123685	general	FACTION_LEADER	false
+hkrul_solkan	2147358913		2147358913		champion	FACTION_LEADER	false
+hkrul_crispijn	2147358913	605123716	2147358913	605123715	champion	FACTION_LEADER	false
+hkrul_mar_egmond	2147358913	605123616	2147358913	605123615	general	FACTION_LEADER	false
+hkrul_mar_munvard	2147358913	505123616	2147358913	505123615	general	FACTION_LEADER	false
+hkrul_alicia	2147358913	405123616	2147358913	405123615	dignitary	FACTION_LEADER	false
+hkrul_guzunda	2147358913	305123616	2147358913	305123615	champion	FACTION_LEADER	false
+hkrul_lisette	2147358913		2147358913		spy	FACTION_LEADER	false
+hkrul_cross	2147358913		2147358913		champion	FACTION_LEADER	false

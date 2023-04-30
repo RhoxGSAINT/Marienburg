@@ -1,0 +1,5 @@
+key	primary_melee_weapon	primary_missile_weapon
+#battle_entity_stats_tables;2;db/battle_entity_stats_tables/!snek_hkrul_marienburg_landship		
+wh_main_mar_landship_crew		wh_main_mar_rifle_landship
+wh_main_mar_landship_cannon		wh_main_mar_crew_cannon
+wh_main_mar_ror_landship_crew		wh_main_mar_rifle_landship

@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="horse" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hr1/mrg/marienburg_horse/marienburg_horse_lord_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_horse_segmented</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

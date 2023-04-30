@@ -1,0 +1,4 @@
+chain	set	super_chain	remove
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/!cr_marienburg_unique_model			
+cr_mar_special_settlement_marienburg	cr_primary_core_special_major_marienburg		false
+wh_main_EMPIRE_settlement_major	cr_primary_core_special_major_marienburg		true

@@ -1,0 +1,3 @@
+key	battle_context	unit_attribute
+#battle_context_unit_attribute_junctions_tables;0;db/battle_context_unit_attribute_junctions_tables/hkrul_mar		
+hkrul_pg_enable_attribute_fear_vs_norsca	fighting_culture_norsca	causes_fear

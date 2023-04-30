@@ -1,0 +1,12 @@
+feature	force_type
+#military_force_type_feature_junctions_tables;0;db/military_force_type_feature_junctions_tables/rhox_mar	
+fixed_camp	MAR_CARAVAN
+general_is_irreplaceable	MAR_CARAVAN
+resets_camera_after_battle	MAR_CARAVAN
+strategic_threat_irrelevant	MAR_CARAVAN
+unable_to_exchange_units	MAR_CARAVAN
+unable_to_keep_faction_alive	MAR_CARAVAN
+unable_to_recruit_units	MAR_CARAVAN
+upkeep_exempt	MAR_CARAVAN
+upkeep_exempt_in_limbo	MAR_CARAVAN
+upkeep_increase_exempt	MAR_CARAVAN

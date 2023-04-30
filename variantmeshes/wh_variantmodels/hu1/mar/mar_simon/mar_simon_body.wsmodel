@@ -1,0 +1,85 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\mar\mar_simon\mar_simon_body.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_markus_body_01_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_02_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_bright_wizard_head_03_submes_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\hu1c\nor\nor_wulfrik\materials\nor_wulfrik_01_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_torso_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_stirland_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\ogr_greasus_platform_01_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\hu13\ogr\ogr_greasus\materials\ogr_greasus_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="11">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\merged_emp_generals_hat_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="12">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_felix_body_01_submesh_20_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="13">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_flagellants_torso_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\emp_warrior_priest\materials\emp_warrior_priest_head_01_weighted4.xml.material</material>
+			<material lod_index="0" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_artillery_crew\head\materials\emp_artillery_crew_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="18">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\mar_klovenier_collar_01_lod1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_markus_body_01_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_02_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_bright_wizard_head_03_submes_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\hu1c\nor\nor_wulfrik\materials\nor_wulfrik_01_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_torso_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_stirland_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\ogr_greasus_platform_01_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\hu13\ogr\ogr_greasus\materials\ogr_greasus_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="11">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\merged_emp_generals_hat_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="12">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_felix_body_01_submesh_20_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="13">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_flagellants_torso_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\emp_warrior_priest\materials\emp_warrior_priest_head_01_weighted4.xml.material</material>
+			<material lod_index="1" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_artillery_crew\head\materials\emp_artillery_crew_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="18">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\mar_klovenier_collar_01_lod1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_markus_body_01_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_02_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_bright_wizard_head_03_submes_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\hu1c\nor\nor_wulfrik\materials\nor_wulfrik_01_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_torso_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_stirland_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\ogr_greasus_platform_01_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\hu13\ogr\ogr_greasus\materials\ogr_greasus_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="11">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\merged_emp_generals_hat_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="12">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_felix_body_01_submesh_20_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="13">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_flagellants_torso_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\emp_warrior_priest\materials\emp_warrior_priest_head_01_weighted4.xml.material</material>
+			<material lod_index="2" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_artillery_crew\head\materials\emp_artillery_crew_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="18">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\mar_klovenier_collar_01_lod1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_markus_body_01_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_02_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_legs_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_bright_wizard_head_03_submes_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\hu1c\nor\nor_wulfrik\materials\nor_wulfrik_01_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_state_troops_torso_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_stirland_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\ogr_greasus_platform_01_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\hu13\ogr\ogr_greasus\materials\ogr_greasus_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="11">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\merged_emp_generals_hat_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="12">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_felix_body_01_submesh_20_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="13">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\emp_flagellants_torso_01_submesh_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="14">variantmeshes\wh_variantmodels\hu1\emp\emp_karl_franz\materials\emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="15">variantmeshes\wh_variantmodels\hu1\emp\emp_warrior_priest\materials\emp_warrior_priest_head_01_weighted4.xml.material</material>
+			<material lod_index="3" part_index="16">variantmeshes\wh_variantmodels\hu1\emp\emp_free_company\materials\emp_free_company_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="17">variantmeshes\wh_variantmodels\hu1\emp\emp_artillery_crew\head\materials\emp_artillery_crew_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="18">variantmeshes\wh_variantmodels\hu1\mar\mar_simon\materials\mar_klovenier_collar_01_lod1_weighted4_alpha_off.xml.material</material>
+
+	</materials>
+</model>

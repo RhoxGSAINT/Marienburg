@@ -1,0 +1,10 @@
+attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/hkrul_mar	
+blockaded	ovn_mar_the_wasteland
+mountain	ovn_mar_the_wasteland
+snow	ovn_mar_the_wasteland
+swamp	ovn_mar_the_wasteland
+vampire_territory	ovn_mar_the_wasteland
+wasteland	ovn_mar_the_wasteland
+non_vampire_territory	ovn_mar_house_den_euwe
+chaos_territory	ovn_mar_house_den_euwe

@@ -1,0 +1,15 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_jaan									
+hkrul_jaan_special_4_0	hkrul_jaan_4_0.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_1	hkrul_jaan_4_1.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_2	hkrul_jaan_4_2.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_3	hkrul_jaan_4_3.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_4	hkrul_jaan_4_4.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_5	hkrul_jaan_4_5.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_6	hkrul_jaan_4_6.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_7	hkrul_jaan_4_7.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_8	hkrul_jaan_4_15.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_9	hkrul_jaan_4_9.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_10	hkrul_jaan_4_10.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_11	hkrul_jaan_4_11.png			0	false	false	false	0.0000	0
+hkrul_jaan_special_4_12	hkrul_jaan_4_20.png			0	false	false	false	0.0000	0

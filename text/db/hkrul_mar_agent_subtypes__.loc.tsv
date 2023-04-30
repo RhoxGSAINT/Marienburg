@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_agent_subtypes__.loc		
+agent_subtypes_onscreen_name_override_hkrul_jk	Lord of the Directorate	false
+agent_subtypes_onscreen_name_override_hkrul_pg	Merchant Guild's Champion	false
+agent_subtypes_description_text_override_hkrul_pg	Pieter de Groot, universally known as "Big Piet", is a bear of a man from Suiddock. As the Guild's Champion, he is skilled in both swordplay and calculus.	false
+agent_subtypes_description_text_override_hkrul_jk	Reputedly the richest man in the world. He counts among his personal friends the Tsar of Kislev, the King of Bretonnia, the Sultan of Araby and even Emperor Karl Franz and the Electors. Why? Because they all owe him.	false
+agent_subtypes_onscreen_name_override_hkrul_hendrik	Arch-Priest of Haendryk	false
+agent_subtypes_description_text_override_hkrul_hendrik	Simon Goudenkruin is the Arch-Priest of the Cult of Haeyndrik, the minor god of wealth, power and influence. For a large fee he will lend any men, elf or dwarf financial advice. No guarantees, however.	false
+agent_subtypes_onscreen_name_override_hkrul_solkan	Vigilante Champion of Purity	false
+agent_subtypes_description_text_override_hkrul_solkan	The Sword of Solkan is an agent of the Knights of Purity, nobody knows his true identity - but all fear his blessed sword and irrational determiniation to eradicate evil.	false
+agent_subtypes_onscreen_name_override_mar_caravan_master	Merchant Lord	true
+agent_subtypes_description_text_override_mar_caravan_master	The Merchant Lords of Marienburg are as extrovert as they are clever.	true
+agent_recruitment_categories_onscreen_name_mar_caravan_master	Merchant Lord	true
+agent_recruitment_categories_onscreen_description_mar_caravan_master		true
+character_skill_node_sets_enc_title_hkrul_skill_node_set_mar_caravan_master	Merchant Lord Skills	true
+agent_subtypes_onscreen_name_override_hkrul_mar_egmond	Legendary Merchant Lord	true
+agent_subtypes_description_text_override_hkrul_mar_egmond		true
+agent_subtypes_onscreen_name_override_hkrul_mar_munvard	Lord of Shadows	true
+agent_subtypes_description_text_override_hkrul_mar_munvard		true
+agent_subtypes_onscreen_name_override_hkrul_alicia	Consort of Shadows	true
+agent_subtypes_onscreen_name_override_hkrul_crispijn	Noble Merchant Heir	true
+agent_subtypes_description_text_override_hkrul_alicia		true
+agent_subtypes_onscreen_name_override_hkrul_guzunda	Legendary Swamp Dweller	true
+agent_subtypes_description_text_override_hkrul_guzunda		true
+agent_subtypes_description_text_override_hkrul_lisette		true
+agent_subtypes_onscreen_name_override_hkrul_lisette	Rogue Extraordinare	true
+agent_subtypes_onscreen_name_override_hkrul_cross	Famed Asur Captain	true
+agent_subtypes_description_text_override_hkrul_cross		true

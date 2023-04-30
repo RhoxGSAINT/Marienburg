@@ -1,0 +1,27 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/hkrul_mar						
+hkrul_mar_temple_haeyndrik	hkrul_mar_hendrik_recruit		character_to_character_own	1.0000	1.0000	0.0000
+hkrul_mar_temple_haeyndrik	wh_main_effect_economy_gdp_manufacture		building_to_building_own	675.0000	315.0000	0.0000
+hkrul_mar_temple_haeyndrik	wh_main_effect_economy_trade_good_commodity_mod		faction_to_faction_own	15.0000	3.0000	0.0000
+hkrul_mar_suiddock	wh_main_effect_economy_gdp_trade_sea		building_to_building_own	275.0000	125.0000	0.0000
+hkrul_mar_suiddock	wh3_main_effect_caravan_cargo_capacity		faction_to_faction_own	15.0000	5.0000	0.0000
+hkrul_mar_bechai	wh3_main_effect_corruption_tzeentch_buildings		region_to_region_own	5.0000	5.0000	0.0000
+hkrul_mar_bechai	wh3_main_effect_building_tze_grimoires		province_to_province_own	8.0000	4.0000	0.0000
+hkrul_mar_mundvard_liar	wh3_main_effect_building_settlement_supply_points		region_to_region_own	50.0000	50.0000	50.0000
+hkrul_mar_mundvard_liar	wh3_main_effect_unfortified_settlement_battle		region_to_region_own	1.0000	1.0000	1.0000
+hkrul_mar_mundvard_liar	wh_main_effect_agent_action_success_chance_enemy_building		region_to_character_enemy	-10.0000	-5.0000	0.0000
+hkrul_mar_mundvard_marienburg	wh_main_effect_economy_gdp_trade_sea		building_to_building_own	500.0000	250.0000	0.0000
+hkrul_mar_bechai	wh_main_effect_economy_gdp_manufacture		building_to_building_own	350.0000	165.0000	0.0000
+hkrul_mar_mundvard_marienburg	wh3_main_pooled_resource_def_slaves_buildings_capacity		building_to_faction_own	500.0000	250.0000	0.0000
+hkrul_mar_mundvard_marienburg	wh_main_effect_economy_gdp_trade_sea	DEFSlavesGreaterThan100	building_to_building_own	500.0000	250.0000	0.0000
+hkrul_mar_mundvard_marienburg	wh3_main_pooled_resource_def_slaves_buildings_used	DEFSlavesGreaterThan100	building_to_faction_own	-100.0000	-100.0000	0.0000
+wh_main_emp_industry_basic_3	hkrul_mar_carriers_cap		building_to_faction_own	1.0000	1.0000	1.0000
+hkrul_mar_suiddock	rhox_mar_get_loodeman_dummy		building_to_building_own	1.0000	1.0000	0.0000
+rhox_mar_rijker	wh_main_effect_agent_action_success_chance_enemy_building		region_to_character_enemy	-20.0000	-10.0000	0.0000
+rhox_mar_rijker	wh_main_effect_force_army_campaign_siege_defend_attrition		region_to_force_own	-15.0000	-15.0000	0.0000
+rhox_mar_rijker	wh_main_effect_force_stat_leadership_siege_defence		region_to_force_own	6.0000	6.0000	0.0000
+rhox_mar_rijker	wh_main_effect_tower_projectile_emp_4		region_to_region_own	4.0000	4.0000	4.0000
+rhox_mar_rijker	rhox_mar_talons_dummy		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+rhox_mar_eilhart	wh_main_effect_economy_gdp_manufacture		building_to_building_own	285.0000	110.0000	0.0000
+rhox_mar_eilhart	wh_main_effect_economy_trade_good_commodity_mod		faction_to_faction_own	2.0000	1.0000	0.0000
+rhox_mar_rijker	wh_main_effect_agent_cap_increase_spy_witch_hunter		faction_to_faction_own_unseen	1.0000	1.0000	0.0000

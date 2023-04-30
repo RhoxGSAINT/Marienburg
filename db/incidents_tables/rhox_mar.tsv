@@ -1,0 +1,37 @@
+key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade
+#incidents_tables;6;db/incidents_tables/rhox_mar								
+rhox_mar_convoy_completed_altdorf	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_erengrad	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_bordeleaux	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_port_reaver	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_miragliano	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_barak_varr	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_lashiek	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_sudenburg	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_fortress_of_dawn	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_fu_hung	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_beichai	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_al_haikk	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_lothern	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_gained_access_mar_ror	false	diplomacy	false	Event		false		0.0000
+rhox_mar_gained_access_emp_ror	false	diplomacy	false	Event		false		0.0000
+rhox_mar_conf_warning	false	diplomacy	false	Event		false		0.0000
+rhox_mar_free_witch_hunter	false	messenger	false	Event		false		0.0000
+rhox_mar_crispijn_notify	false	civilisation_up	false	Event		false		0.0000
+rhox_mar_egmond_turn2	false	tze/advisor_manipulated	false	Event		true		0.0000
+rhox_mar_convoy_completed_arnheim	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_sjoktraken	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_karond_kar	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_magritta	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_sartosa	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_zandri	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_tower_of_the_sun	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_dai_cheng	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_fu_chow	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_haichai	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_myrmidens	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_double_cathay_reward_jaan	false	ivory_road	false	Event	event_caravan_positive.png	false		0.0000
+rhox_mar_ll_hendrik_available	false	faction	false	Event		false		0.0000
+rhox_mar_item_set_event	false	hkrul_mar_item_set_event	false	Event		true		0.0000
+rhox_mar_convoy_completed_marienburg	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_unlocked	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000

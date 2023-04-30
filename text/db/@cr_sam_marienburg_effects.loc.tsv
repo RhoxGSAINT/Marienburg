@@ -1,0 +1,222 @@
+key	text	tooltip
+#Loc;1;text/db/@cr_sam_marienburg_effects.loc		
+effects_description_ovn_effect_skill_ammo_increase_mar_all_missile_infantry_missile_cavalry	Ammunition: %+n% for Boogschutters, Crossbowmen, Kloveniers, River Watch, Lothern Sea Guard, Quarrellers, and Hobelars (Crossbows) units	true
+effects_description_ovn_effect_skill_missile_damage_increase_mar_all_missile_infantry_missile_cavalry	Missile strength: %+n% for Boogschutters, Crossbowmen, Kloveniers, River Watch, Lothern Sea Guard, Quarrellers, and Hobelars (Crossbows) units	true
+effects_description_ovn_effect_skill_range_increase_mar_all_missile_infantry_missile_cavalry	Range: %+n% for Boogschutters, Crossbowmen, Kloveniers, River Watch, Lothern Sea Guard, Quarrellers, and Hobelars (Crossbows) units	true
+effects_description_ovn_effect_skill_morale_mar_all_melee_infantry_monstrous_infantry	Leadership: %+n for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Wargalley Seamen, Chain-Fighters, Pit Ogres, Black Caps, Knights Mariner, and Dwarf Warriors units	true
+effects_description_ovn_effect_skill_melee_attack_increase_mar_all_melee_infantry_monstrous_infantry	Melee attack: %+n for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Wargalley Seamen, Chain-Fighters, Pit Ogres, Black Caps, Knights Mariner, and Dwarf Warriors units	true
+effects_description_ovn_effect_skill_melee_defence_increase_mar_all_melee_infantry_monstrous_infantry	Melee defence: %+n for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Wargalley Seamen, Chain-Fighters, Pit Ogres, Black Caps, Knights Mariner, and Dwarf Warriors units	true
+effects_description_ovn_effect_skill_movement_speed_increase_mar_all_melee_cavalry_monsters	Speed: %+n% for Hobelars, Sons of Manann, Knights of the Cleansing Flame, and Griffon Riders units	true
+effects_description_ovn_effect_skill_fatigue_resistance_increase_mar_all_melee_cavalry_monsters	Vigour loss reduction: %+n% for Hobelars, Sons of Manann, Knights of the Cleansing Flame, and Griffon Riders units	true
+effects_description_ovn_effect_skill_melee_defence_increase_mar_all_melee_cavalry_monsters	Melee defence: %+n for Hobelars, Sons of Manann, Knights of the Cleansing Flame, and Griffon Riders units	true
+effects_description_ovn_effect_skill_ammo_increase_mar_all_artillery_warmachines	Ammunition: %+n% for Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_skill_missile_damage_increase_mar_all_artillery_warmachines	Missile strength: %+n% for Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_skill_reload_increase_mar_all_artillery_warmachines	Reload time reduction: %+n% for Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_skill_range_increase_mar_human_land_artillery_missile_infantry_missile_cavalry_rank7	Range: %+n% for Boogschutters, Crossbowmen, Kloveniers, Culverin, Ironfist Mortar, and Hobelars (Crossbows) units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_armour_increase_mar_human_land_artillery_missile_infantry_missile_cavalry_rank7	Armour: %+n for Boogschutters, Crossbowmen, Kloveniers, Culverin, Ironfist Mortar, and Hobelars (Crossbows) units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_ammo_increase_mar_human_land_artillery_missile_infantry_missile_cavalry_rank7	Ammunition: %+n% for Boogschutters, Crossbowmen, Kloveniers, Culverin, Ironfist Mortar, and Hobelars (Crossbows) units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_ward_save_all_increase_mar_human_water_units_rank7	Ward Save: %n% for Wargalley Seamen, River Watch, Knights Mariner, Sons of Manann, Griffon Riders, and Land Ship units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_movement_speed_increase_mar_human_water_units_rank7	Speed: %+n% for Wargalley Seamen, River Watch, Knights Mariner, Sons of Manann, Griffon Riders, and Land Ship units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_morale_increase_mar_human_water_units_rank7	Leadership: %+n for Wargalley Seamen, River Watch, Knights Mariner, Sons of Manann, Griffon Riders, and Land Ship units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_missile_damage_increase_mar_nonhuman_units_rank7	Missile strength: %+n% Lothern Sea Guard and Quarrellers units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_armour_increase_mar_nonhuman_units_rank7	Armour: %+n for Pit Ogres, Lothern Sea Guard, Quarrellers, and Dwarf Warrior units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_ward_save_magic_increase_mar_nonhuman_units_rank7	Magic resistance: %n% for Pit Ogres, Lothern Sea Guard, Quarrellers, and Dwarf Warrior units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_ward_save_missile_increase_mar_human_land_melee_infantry_melee_cavalry_rank7	Missile resistance: %n% for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Chain-Fighters, Black Caps, Hobelars, and Knights of the Cleansing Flame units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_charge_bonus_increase_mar_human_land_melee_infantry_melee_cavalry_rank7	Charge bonus: %+n for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Chain-Fighters, Black Caps, Hobelars, and Knights of the Cleansing Flame units {{tr:rank7}}	true
+effects_description_ovn_effect_skill_melee_defence_increase_mar_human_land_melee_infantry_melee_cavalry_rank7	Melee defence: %+n for Goedendagers, Swordsmen, Vaulting Spearmen, Burgers, Chain-Fighters, Black Caps, Hobelars, and Knights of the Cleansing Flame units {{tr:rank7}}	true
+effects_description_ovn_ability_enable_fountain_of_life	Spell: "Fountain of Life"	true
+effects_description_ovn_ability_enable_fountain_of_life_upgraded	Overcast spell: "Fountain of Life Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_fountain_of_life	Cooldown: %+n% to "Fountain of Life"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_fountain_of_life	Miscast base chance: %+n% for "Fountain of Life Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life	Winds of Magic cost: %n for "Fountain of Life"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life_upgrade	Winds of Magic cost: %n for "Fountain of Life Upgraded"	true
+effects_description_ovn_ability_enable_water_blast	Spell: "Water Blast"	true
+effects_description_ovn_ability_enable_water_blast_upgraded	Overcast spell: "Water Blast Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_water_blast	Cooldown: %+n% to "Water Blast"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_water_blast	Miscast base chance: %+n% for "Water Blast Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_water_blast	Winds of Magic cost: %n for "Water Blast"	true
+effects_description_ovn_effect_magic_sea_wom_cost_water_blast_upgrade	Winds of Magic cost: %n for "Water Blast Upgraded"	true
+effects_description_ovn_lore_passive_sea_legs	Passive ability: "Sea Legs"	true
+effects_description_ovn_ability_enable_fishermans_eye	Spell: "Fisherman's Eye"	true
+effects_description_ovn_effect_magic_sea_cooldown_fishermans_eye	Cooldown: %+n% to "Fisherman's Eye"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fishermans_eye	Winds of Magic cost: %n for "Fisherman's Eye"	true
+effects_description_ovn_ability_enable_drowned_mans_face	Spell: "Drowned Man's Face"	true
+effects_description_ovn_ability_enable_drowned_mans_face_upgraded	Overcast spell: "Drowned Man's Face Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_drowned_mans_face	Cooldown: %+n% to "Drowned Man's Face"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_drowned_mans_face	Miscast base chance: %+n% for "Drowned Man's Face Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face	Winds of Magic cost: %n for "Drowned Man's Face"	true
+effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face_upgrade	Winds of Magic cost: %n for "Drowned Man's Face Upgraded"	true
+effects_description_ovn_ability_enable_animate_water	Spell: "Animate Water"	true
+effects_description_ovn_ability_enable_animate_water_upgraded	Overcast spell: "Animate Water Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_animate_water	Cooldown: %+n% to "Animate Water"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_animate_water	Miscast base chance: %+n% for "Animate Water Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_animate_water	Winds of Magic cost: %n for "Animate Water"	true
+effects_description_ovn_effect_magic_sea_wom_cost_animate_water_upgrade	Winds of Magic cost: %n for "Animate Water Upgraded"	true
+effects_description_ovn_ability_enable_wave_of_destruction	Spell: "Wave of Destruction"	true
+effects_description_ovn_ability_enable_wave_of_destruction_upgraded	Overcast spell: "Wave of Destruction Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_wave_of_destruction	Cooldown: %+n% to "Wave of Destruction"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_wave_of_destruction	Miscast base chance: %+n% for "Wave of Destruction Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction	Winds of Magic cost: %n for "Wave of Destruction"	true
+effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction_upgrade	Winds of Magic cost: %n for "Wave of Destruction Upgraded"	true
+effects_description_effect_unit_cap_Pit_Fighter	Unit capacity: %+n Chain-Fighters	true
+effects_description_effect_unit_cap_Pit_Fighter_Ch	Unit capacity: %+n Ogre Pit Fighters	true
+effects_description_effect_yields_from_ports_Marien	Income from Ports: %+n%	true
+effects_description_effect_unit_cap_Elf_Lothern_Marien	Unit capacity: %+n Lothern Sea Guard (Shields)	true
+effects_description_effect_unit_cap_Dwarf_Warriors_Marien	Unit capacity: %+n Dwarf Warriors	true
+effects_description_effect_unit_cap_Dwarf_Rangers_Marien	Unit capacity: %+n Quarrellers (Great Weapons)	true
+effects_description_ovn_effect_enable_mount_landship	Mount: Land Ship	true
+effects_description_ovn_effect_enable_mount_wagon	Mount: War Wagon	true
+effects_description_ovn_effect_enable_mount_altar_of_manann	Mount: War Altar of Manann	true
+effects_description_ovn_effect_ability_enable_trident_of_manann	Battle prayer: "Trident of Manann"	true
+effects_description_ovn_effect_ability_enable_curse_of_the_albatross	Battle prayer: "Curse of the Albatross"	true
+effects_description_ovn_effect_agent_enable_recruitment_dignitary_marienburg	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Warrior Priests of Manann	true
+effects_description_ovn_effect_agent_cap_increase_dignitary_warrior_priest_manann	Hero capacity: %+n for Warrior Priests of Manann	true
+effects_description_ovn_effect_agent_recruitment_xp_dignitary_warrior_priest_manann	Hero recruit rank: %+n for Warrior Priests of Manann	true
+effects_description_ovn_effect_agent_enable_recruitment_wizard_sea_wizard	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sea Magickers	true
+effects_description_ovn_effect_agent_cap_increase_wizard_sea_wizard	Hero capacity: %+n for Sea Magickers	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard	Hero recruit rank: %+n for Sea Magickers	true
+effects_description_ovn_effect_agent_enable_recruitment_wizard_marienburg	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Battle Wizards	true
+effects_description_ovn_effect_agent_cap_increase_wizard_marienburg	Hero capacity: %+n for Battle Wizards	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_marienburg	Hero recruit rank: %+n for Battle Wizards	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_marienburg_gold	Hero recruit rank: %+n for Gold Wizards	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_marienburg_heavens	Hero recruit rank: %+n for Celestial Wizards	false
+effects_description_ovn_effect_agent_enable_recruitment_spy_marienburg	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Fog Walkers	true
+effects_description_ovn_effect_agent_cap_increase_spy_fog_walker	Hero capacity: %+n for Fog Walkers	true
+effects_description_ovn_effect_agent_recruitment_xp_spy_fog_walker	Hero recruit rank: %+n for Fog Walkers	true
+effects_description_ovn_effect_agent_recruitment_xp_mar_admiral	Lord recruit rank: %+n for Admirals	true
+effects_description_ovn_effect_agent_recruitment_xp_mar_merchant_lord	Lord recruit rank: %+n for Burgemeesters	true
+effects_description_ovn_ability_enable_ability_sword_of_solkan_magical_ring	Ability: "Ring of Solkan"	true
+effects_description_ovn_ability_enable_ability_marked_by_solkan	Ability: "Marked by Solkan"	true
+effects_description_ovn_ability_enable_ability_solkans_greatsword	Ability: "Blessed by Solkan"	true
+effects_description_ovn_effect_enable_ability_cape_of_shadows	Ability: "Cape of Shadows"	true
+effects_description_ovn_effect_enable_ability_sword_of_wsoran	Ability: "Sword of W'soran"	true
+effects_description_ovn_effect_enable_ability_artifact_of_wsoran_trapped	Ability: "Soul Trap"	true
+effects_description_ovn_effect_marienburg_ror_unlock_red_talons	Regiment of Renown: "Red Talons (Kloveniers)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_brothers_of_haendryk	Regiment of Renown: "Brothers of Haendryk (Flagellants)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_monniks_pit_fighters	Regiment of Renown: "Monniks Pit Fighters (Pit Ogres)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_beholden	Regiment of Renown: "The Beholden (Hexwraiths)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_haarings_guards	Regiment of Renown: "Haaring's Guards (Black Caps)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_rat_catchers	Regiment of Renown: "Rat-Catchers of Marienburg (Burgers)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_sons_of_purity	Regiment of Renown: "Solkan's Hunters (Goedendagers)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_continental_exarchate_guard	Regiment of Renown: "Guard of the Continental Exarch (Lothern Sea Guard)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_van_klumpfs_buccaneers	Regiment of Renown: "Van Klumpfs Buccaneers (Wargalley Seamen)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_guttmanns_prototype	Regiment of Renown: "Guttmann's Prototype (Land Ship)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_mananns_blades	Regiment of Renown: "Manann's Blades (Swordsmen)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_golden_horde	Regiment of Renown: "Golden Horde (Burgers - Greatswords)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_golden_pinions	Regiment of Renown: "Golden Pinions (Burgers)"	true
+effects_description_ovn_effect_marienburg_ror_unlock_ahr_riverwardens	Regiment of Renown: "Ahr Riverwardens (River Watch)"	true
+effects_description_ovn_effect_skill_melee_attack_increase_mar_sons_of_manann	Melee attack: %+n for Sons of Manann units	true
+effects_description_ovn_effect_skill_movement_speed_increase_mar_sons_of_manann	Speed: %+n% for Sons of Manann units	true
+effects_description_ovn_effect_enable_passive_dead_ringer	Passive: "Dead Ringer"	true
+effects_description_ovn_effect_skill_armour_increase_mar_burghers	Armour: %+n for Burger units	true
+effects_description_ovn_effect_skill_melee_attack_increase_mar_pit_fighters	Melee attack: %+n for Pit Fighter units	true
+effects_description_ovn_effect_enable_passive_gilded_tongue	Passive: "Gilded Tongue"	true
+effects_description_ovn_effect_ability_army_enable_the_power_of_money	Army ability: "The Power of Money"	true
+effects_description_ovn_effect_ability_army_num_uses_the_power_of_money	Army ability number of uses: %+n for "The Power of Money"	true
+effects_description_ovn_effect_technology_economy_gdp_mod_industry_marienburg	Income from Pottery Production and Herb Gatherers: %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_culture_marienburg	Income from Pit Arenas: %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_livestock_marienburg	Income from Spice Markets and Dyemakers: %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_land_trade_marienburg	Income from Salt Mines %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_mining_marienburg	Income from Gem Cutters, Iron Mines, Gold Mines, Stone Quarries and Obsidian Quarries: %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_local_trade_marienburg	Income from Temples to Haendryk %+n%	true
+effects_description_ovn_effect_technology_economy_gdp_mod_farming_marienburg	Income from Tulip Farms %+n%	true
+effects_description_ovn_effect_force_all_campaign_movement_range_sea_only	Campaign movement range: %+n% while at sea	true
+effects_description_ovn_pooled_resource_mar_soft_power_buildings	Soft Power: %+n per turn	true
+effects_description_ovn_effect_tech_army_campaign_attrition_disease_resistance	Attrition: %+n% casualties suffered from plague attrition	true
+effects_description_ovn_effect_tech_temple_construction_cost_mod	Construction cost: %+n% for Temple buildings	true
+effects_description_ovn_effect_tech_ammo_increase_mar_archers	Ammunition: %+n% for Boogschutter units	true
+effects_description_ovn_effect_tech_range_increase_mar_archers	Range: %+n% for Boogschutter units	true
+effects_description_ovn_effect_tech_melee_attack_increase_mar_goedendagers_swordsmen_vaulting_spearmen	Melee attack: %+n for Goedendager, Swordsmen, and Vaulting Spearmen units	true
+effects_description_ovn_effect_tech_melee_defence_increase_mar_goedendagers_swordsmen_vaulting_spearmen	Melee defence: %+n for Goedendager, Swordsmen, and Vaulting Spearmen units	true
+effects_description_ovn_effect_tech_armour_increase_mar_goedendagers_swordsmen_vaulting_spearmen	Armour: %+n for Goedendager, Swordsmen, and Vaulting Spearmen units	true
+effects_description_ovn_effect_tech_missile_damage_increase_crossbowmen_hobelar_crossbow	Missile strength: %+n% for Crossbowmen and Hobelar (Crossbows) units	true
+effects_description_ovn_effect_tech_range_increase_mar_crossbowmen_hobelar_crossbow	Range: %+n% for Crossbowmen and Hobelar (Crossbows) units	true
+effects_description_ovn_effect_tech_melee_defence_increase_mar_wargalley_seamen	Melee defence: %+n for Wargalley Seamen units	true
+effects_description_ovn_effect_tech_leadership_increase_mar_wargalley_seamen	Leadership: %+n for Wargalley Seamen units	true
+effects_description_ovn_effect_skill_missile_damage_increase_mar_landship	Missile strength: %+n% for Land Ship units	true
+effects_description_ovn_effect_skill_armour_increase_mar_landship	Armour: %+n for Land Ship units	true
+effects_description_ovn_effect_tech_missile_damage_increase_mar_kloveniers	Missile strength: %+n% for Klovenier units	true
+effects_description_ovn_effect_tech_ammo_increase_mar_kloveniers	Ammunition: %+n% for Klovenier units	true
+effects_description_ovn_effect_tech_bonus_vs_large_increase_mar_vaulting_spearmen_burgher_halberds_riverwatch	Bonus vs Large: %+n for Vaulting Spearmen, Burgers, and River Watch units	true
+effects_description_ovn_effect_tech_armour_increase_mar_burgers	Armour: %+n for Burgers and Burger (Greatswords) units	true
+effects_description_ovn_effect_tech_leadership_increase_mar_burgers	Leadership: %+n for Burgers and Burger (Greatswords) units	true
+effects_description_ovn_effect_tech_range_increase_mar_all_artillery_warmachines	Range: %+n% for Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_tech_weapon_damage_increase_mar_knights_cleansing_flame	Weapon strength: %+n% for Knights of the Cleansing Flame units	true
+effects_description_ovn_effect_tech_movement_speed_increase_mar_all_cavalry	Speed: %+n% for Hobelars, Hobelars (Crossbows), Sons of Manann, Knights of the Cleansing Flame, and Griffon Rider units	true
+effects_description_ovn_effect_tech_upkeep_decrease_mar_ironfist_mortars_griffon_riders	Upkeep: %+n% for Ironfist Mortars and Griffon Rider units	true
+effects_description_ovn_effect_tech_missile_damage_increase_mar_ironfist_mortars	Missile strength: %+n% for Ironfist Mortar units	true
+effects_description_ovn_effect_tech_charge_bonus_increase_mar_griffon_riders	Charge bonus: %+n for Griffon Rider units	true
+effects_description_ovn_effect_tech_diplomacy_bonus_estalia	Diplomatic relations: %+n with Estalians	true
+effects_description_ovn_effect_tech_diplomacy_bonus_tilea	Diplomatic relations: %+n with Tileans	true
+effects_description_ovn_faction_political_diplomacy_mod_technology_kislev	Diplomatic relations: %+n with Kislevites	true
+effects_description_ovn_effect_skill_weapon_damage_fighting_against_bretonnia	Weapon strength: %+n% when fighting against Bretonnia	false
+effects_description_ovn_effect_skill_ward_save_fighting_against_bretonnia	Ward save: %+n% when fighting against Bretonnia	false
+effects_description_ovn_effect_skill_movement_speed_increase_mar_vaulting_spearmen_archers	Speed: %+n% for Vaulting Spearmen and Boogschutter units	false
+effects_description_ovn_effect_skill_upkeep_decrease_mar_vaulting_spearmen_archers	Upkeep: %+n% for Vaulting Spearmen and Boogschutter units	false
+effects_description_ovn_effect_skill_upkeep_decrease_mar_wargalley_seamen	Upkeep: %+n% for Wargalley Seamen units	true
+effects_description_ovn_effect_skill_ammo_increase_mar_all_blackpowder	Ammunition: %+n% for Kloveniers, Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_skill_missile_damage_increase_mar_all_blackpowder	Missile strength: %+n% for Kloveniers, Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_skill_reload_increase_mar_all_blackpowder	Reload time reduction: %+n% for Kloveniers, Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_tech_range_increase_mar_all_blackpowder	Range: %+n% for Kloveniers, Culverin, Ironfist Mortar, and Land Ship units	true
+effects_description_ovn_effect_tech_upkeep_decrease_mar_lothern_sea_guard	Upkeep: %+n% for Lothern Sea Guard units	true
+effects_description_ovn_effect_tech_upkeep_decrease_mar_quarrellers_dwarf_warriors	Upkeep: %+n% for Quarrellers and Dwarf Warriors units	true
+effects_description_ovn_effect_tech_charge_bonus_increase_mar_all_cavalry	Charge bonus: %+n for Hobelars, Hobelars (Crossbows), Sons of Manann, Knights of the Cleansing Flame, and Griffon Rider units	true
+effects_description_ovn_effect_tech_melee_defence_increase_mar_blackcaps	Melee defence: %+n for Black Caps units	true
+effects_description_ovn_effect_tech_leadership_increase_mar_blackcaps	Leadership: %+n for Black Caps units	true
+effects_description_ovn_effect_siege_engine_number_mar_battering_ram	Battering rams: %+n per siege item constructed	true
+effects_description_ovn_effect_siege_engine_number_mar_siege_tower	Siege towers: %+n per siege item constructed	true
+effects_description_ovn_effect_passive_ability_enable_blood_of_the_samurai	Passive ability: "Blood of the Samurai"	true
+effects_description_ovn_effect_prepare_an_uprising_in_marienburg	Enables quest battle: "A Very Marienburgish Civil War"	true
+effects_description_ovn_effect_enable_ability_summon_snowy_the_raven	Ability: "Summon Snowy the Raven"	true
+effects_description_ovn_effect_ability_cooldown_blue_fire_of_tzeentch	Cooldown: %+n% to "Blue Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_cooldown_pink_fire_of_tzeentch	Cooldown: %+n% to "Pink Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_enable_tzeentch_blue_fire_of_tzeentch	Spell: "Blue Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_enable_tzeentch_pink_fire_of_tzeentch	Spell: "Pink Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_miscast_blue_fire_of_tzeentch_upgraded	Miscast base chance: %+n% for "Blue Fire of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_miscast_pink_fire_of_tzeentch_upgraded	Miscast base chance: %+n% for "Pink Fire of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_overcast_blue_fire_of_tzeentch	Overcast spell: "Blue Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_overcast_pink_fire_of_tzeentch	Overcast spell: "Pink Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_wom_cost_blue_fire_of_tzeentch	Winds of Magic cost: %n for "Blue Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_wom_cost_blue_fire_of_tzeentch_upgraded	Winds of Magic cost: %n for "Blue Fire of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_wom_cost_pink_fire_of_tzeentch	Winds of Magic cost: %n for "Pink Fire of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_wom_cost_pink_fire_of_tzeentch_upgraded	Winds of Magic cost: %n for "Pink Fire of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_cooldown_glean_magic	Cooldown: %+n% to "Glean Magic"	true
+effects_description_ovn_effect_ability_enable_glean_magic	Spell: "Glean Magic"	true
+effects_description_ovn_effect_ability_miscast_glean_magic_upgraded	Miscast base chance: %+n% for "Glean Magic Upgraded"	true
+effects_description_ovn_effect_ability_overcast_glean_magic	Overcast spell: "Glean Magic"	true
+effects_description_ovn_effect_ability_wom_cost_glean_magic	Winds of Magic cost: %n for "Glean Magic"	true
+effects_description_ovn_effect_ability_wom_cost_glean_magic_upgraded	Winds of Magic cost: %n for "Glean Magic Upgraded"	true
+effects_description_ovn_effect_ability_cooldown_treason_of_tzeentch	Cooldown: %+n% to "Freedom of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_enable_tzeentch_treason_of_tzeentch	Spell: "Freedom of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_miscast_treason_of_tzeentch_upgraded	Miscast base chance: %+n% for "Freedom of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_overcast_treason_of_tzeentch	Overcast spell: "Freedom of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_wom_cost_treason_of_tzeentch	Winds of Magic cost: %n for "Freedom of Tsien-Tsin"	true
+effects_description_ovn_effect_ability_wom_cost_treason_of_tzeentch_upgraded	Winds of Magic cost: %n for "Freedom of Tsien-Tsin Upgraded"	true
+effects_description_ovn_effect_ability_enable_fires_of_change	Spell: "Tsien-Tsin's Firestorm"	true
+effects_description_ovn_effect_ability_cooldown_tzeentchs_firestorm	Cooldown: %+n% to "Tsien-Tsin's Firestorm"	true
+effects_description_ovn_effect_ability_enable_tzeentch_tzeentchs_firestorm	Spell: "Tsien-Tsin's Firestorm"	true
+effects_description_ovn_effect_ability_miscast_tzeentchs_firestorm_upgraded	Miscast base chance: %+n% for "Tsien-Tsin's Firestorm Upgraded"	true
+effects_description_ovn_effect_ability_overcast_tzeentchs_firestorm	Overcast spell: "Tsien-Tsin's Firestorm"	true
+effects_description_ovn_effect_ability_wom_cost_tzeentchs_firestorm	Winds of Magic cost: %n for "Tsien-Tsin's Firestorm"	true
+effects_description_ovn_effect_ability_wom_cost_tzeentchs_firestorm_upgraded	Winds of Magic cost: %n for "Tsien-Tsin's Firestorm Upgraded"	true
+effects_description_ovn_effect_ability_cooldown_infernal_gateway	Cooldown: %+n% to "Empyrean Gateway"	true
+effects_description_ovn_effect_ability_enable_infernal_gateway	Spell: "Empyrean Gateway"	true
+effects_description_ovn_effect_ability_miscast_infernal_gateway_upgraded	Miscast base chance: %+n% for "Empyrean Gateway Upgraded"	true
+effects_description_ovn_effect_ability_overcast_infernal_gateway	Overcast spell: "Empyrean Gateway"	true
+effects_description_ovn_effect_ability_wom_cost_infernal_gateway	Winds of Magic cost: %n for "Empyrean Gateway"	true
+effects_description_ovn_effect_ability_wom_cost_infernal_gateway_upgraded	Winds of Magic cost: %n for "Empyrean Gateway Upgraded"	true
+effects_description_ovn_skill_innate_mar_caravan_master_former-artillery-officer	This Lord's caravan army has additional Artillery units	true
+effects_description_ovn_skill_innate_mar_caravan_master_humble-born	This Lord's caravan army has additional Militia unit	true
+effects_description_ovn_skill_innate_mar_caravan_master_griffon-whisperer	This Lord's caravan army includes Griffon Riders units	true
+effects_description_ovn_skill_innate_mar_caravan_master_ogre-ally	This Lord's caravan army includes Ogre Mercenary units	true
+effects_description_ovn_skill_innate_mar_caravan_master_eastern-idealist	This Lord's caravan army includes Cathayn units	true
+effects_description_ovn_skill_innate_mar_caravan_master_cavalry	This Lord's caravan army has additional Cavalry units	true
+effects_description_ovn_skill_innate_mar_caravan_master_gunner	This Lord's caravan army has additional Gunner units	true
+effects_description_ovn_skill_innate_mar_caravan_master_aristocratic	This Lord's caravan army includes Burgher units	true
+effects_description_ovn_skill_innate_mar_caravan_master_manann_zealot	This Lord's caravan army includes Manann templars	true
+effects_description_ovn_skill_innate_mar_caravan_master_solkan_zealot	This Lord's caravan army includes Solkan templars	true
+effects_description_ovn_skill_innate_mar_caravan_master_elf-ally	This Lord's caravan army includes High Elf units	true
+effects_description_ovn_skill_innate_mar_caravan_master_dwarf-ally	This Lord's caravan army includes Dwarf units	true
+effects_description_ovn_skill_innate_mar_caravan_master_reformed_criminal	This Lord's caravan army includes Pit Fighter units	true
+effects_description_ovn_effect_agent_action_enable_dignitary_assist_army_increase_mobility	PLACEHOLDER	false
+effects_description_ovn_pooled_resource_mar_prestige_buildings	PLACEHOLDER	false

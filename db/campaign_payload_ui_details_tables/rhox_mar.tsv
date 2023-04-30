@@ -1,0 +1,26 @@
+component	icon	state	sort_order
+#campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/rhox_mar			
+dummy_hkrul_crispijn_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+dummy_hkrul_guzunda_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+dummy_postpone_confederation	ui/campaign ui/effect_bundles/confederation.png	default	0
+dummy_refuse_confederation	ui/campaign ui/effect_bundles/confederation.png	default	0
+rhox_mar_dummy_mar_ror_access	UI/Campaign UI/Effect_bundles/hunter_effect_icons_imperial_supplies.png	default	0
+rhox_mar_dummy_emp_ror_access	UI/Campaign UI/Effect_bundles/hunter_effect_icons_imperial_supplies.png	default	0
+dummy_hkrul_solkan_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_mar_ror_access_mission	UI/Campaign UI/Effect_bundles/hunter_effect_icons_imperial_supplies.png	default	0
+rhox_mar_dummy_emp_ror_access_mission	UI/Campaign UI/Effect_bundles/hunter_effect_icons_imperial_supplies.png	default	0
+rhox_mar_conf_warning	ui/campaign ui/effect_bundles/treasury.png	default	0
+rhox_mar_crispijn_notify	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_hkrul_guzunda_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_hkrul_crispijn_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+dummy_rhox_refuse_ultimatum	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	default	0
+dummy_rhox_accept_ultimatum	ui/campaign ui/diplomacy_icons/diplomatic_option_soft_access.png	default	0
+dummy_rhox_tze_side	ui/flags/ovn_mar_the_wasteland/mon_64.png	default	2
+dummy_rhox_mar_side	ui/flags/wh3_dlc20_chs_vilitch/mon_64.png	default	2
+dummy_rhox_tze_side2	ui/flags/wh3_dlc20_chs_vilitch/mon_64.png	default	3
+dummy_rhox_mar_side2	ui/flags/ovn_mar_the_wasteland/mon_64.png	default	3
+rhox_mar_dummy_hkrul_lisette_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_hkrul_cross_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_solkan_mission	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_tsi_side_agent_dummy	ui/campaign ui/effect_bundles/agent.png	default	4
+rhox_mar_dummy_phy_dwarf	ui/campaign ui/effect_bundles/effect_fooger.png	default	0

@@ -1,0 +1,10 @@
+key	filename	range	animated
+#warscape_animated_lod_tables;1;db/warscape_animated_lod_tables/!snek_hkrul_marienburg_landship			
+3465464576	warmachines/engines/mar_landship/snek_mar_landship_01.wsmodel	0.0000	snek_mar_landship
+3465464586	warmachines/engines/mar_landship/snek_mar_landship_01_destruct.wsmodel	0.0000	snek_mar_landship_destruct
+3465464596	warmachines/engines/mar_landship_ror/snek_mar_landship_ror_01.wsmodel	0.0000	snek_mar_landship_ror
+3465464606	warmachines/engines/mar_landship_ror/snek_mar_landship_ror_01_destruct.wsmodel	0.0000	snek_mar_landship_ror_destruct
+964918502	warmachines/engines/mar_culverin/mar_culverin_01.wsmodel	0.0000	mar_culverin
+964918503	warmachines/engines/mar_culverin/mar_culverin_01_destruct.rigid_model_v2	0.0000	mar_culverin_destruct
+964918504	warmachines/engines/mar_ironfist_mortar/mar_ironfist_mortar_01.wsmodel	0.0000	mar_ironfist_mortar
+964918505	warmachines/engines/mar_ironfist_mortar/mar_ironfist_mortar_01_destruct.rigid_model_v2	0.0000	mar_ironfist_mortar_destruct

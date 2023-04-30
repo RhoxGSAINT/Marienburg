@@ -1,0 +1,18 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/hkrul_mar								
+art_set_hkrul_jk	general				false	true	hkrul_jk	1.2300
+art_set_hkrul_pg	champion				false	true	hkrul_pg	1.2000
+hkrul_hendrik	general				false	true	hkrul_hendrik	1.0700
+hkrul_solkan	champion				false	true	hkrul_solkan	1.1900
+hrul_mar_caravan_commander_06	general				false	true	mar_caravan_master	1.0700
+hrul_mar_caravan_commander_07	general				false	true	mar_caravan_master	1.0700
+hrul_mar_caravan_commander_08	general				false	true	mar_caravan_master	1.0700
+hrul_mar_caravan_commander_09	general				false	true	mar_caravan_master	1.0700
+hrul_mar_caravan_commander_10	general				false	true	mar_caravan_master	1.0700
+hkrul_crispijn	champion				false	true	hkrul_crispijn	1.1300
+hkrul_mar_egmond	general				false	true	hkrul_mar_egmond	1.1300
+hkrul_mar_munvard	general				false	true	hkrul_mar_munvard	1.2000
+hkrul_alicia	dignitary				false	false	hkrul_alicia	1.0800
+hkrul_guzunda	champion				false	true	hkrul_guzunda	1.0500
+hkrul_lisette	spy				false	true	hkrul_lisette	1.1000
+hkrul_cross	champion				false	true	hkrul_cross	1.1500

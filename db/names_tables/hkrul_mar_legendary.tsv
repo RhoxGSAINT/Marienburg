@@ -1,0 +1,20 @@
+id	names_group	type	gender	frequency
+#names_tables;0;db/names_tables/hkrul_mar_legendary				
+7470711866	hkrul_names_emp_marienburg	family_name	b	0
+7470711888	hkrul_names_emp_marienburg	forename	b	0
+7470711877	hkrul_names_emp_marienburg	family_name	b	0
+7470711899	hkrul_names_emp_marienburg	forename	b	0
+605123685	hkrul_names_emp_marienburg	family_name	b	1
+605123686	hkrul_names_emp_marienburg	forename	m	1
+605123637	names_chs_chaos	forename	b	1
+605123638	names_chs_chaos	family_name	b	1
+605123715	hkrul_names_emp_marienburg	family_name	b	1
+605123716	hkrul_names_emp_marienburg	forename	m	1
+605123615	hkrul_names_emp_marienburg	family_name	b	1
+605123616	hkrul_names_emp_marienburg	forename	m	1
+505123615	names_vmp_vampire_counts	family_name	m	1
+505123616	names_vmp_vampire_counts	forename	m	1
+405123615	names_vmp_vampire_counts	family_name	f	1
+405123616	names_vmp_vampire_counts	forename	f	1
+305123615	names_dwf_dwarfs	forename	b	1
+305123616	names_dwf_dwarfs	family_name	b	1

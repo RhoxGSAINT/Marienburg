@@ -1,0 +1,72 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/rhox_mar										
+rhox_mar_marienburg	false	snek_hkrul_mar_landship	true	true				false		false
+rhox_mar_marienburg	false	snek_hkrul_mar_ror_landship	true	true				false		false
+rhox_mar_marienburg	true	hkrul_mar_caravan_master	true	true	ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09.png	hrul_mar_caravan_commander_09	hkrul_mar_caravan_master	false		false
+rhox_mar_marienburg	true	hkrul_jk	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_jk.png	hkrul_uniform_jk	hkrul_jk	false		false
+rhox_mar_marienburg	true	hkrul_mar_caravan_master_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09.png	hrul_mar_caravan_commander_09	hkrul_mar_caravan_master	false		false
+rhox_mar_marienburg	true	hkrul_jk_barded_warhorse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_jk.png	hkrul_uniform_jk	hkrul_jk	false		false
+rhox_mar_marienburg	false	hkrul_pg	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_pg.png	hkrul_uniform_pg	hkrul_pg	false		false
+rhox_mar_marienburg	false	hkrul_guzunda	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_guzunda.png	hkrul_guzunda	hkrul_guzunda	false		false
+rhox_mar_marienburg	false	hkrul_pg_barded_warhorse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_pg.png	hkrul_uniform_pg	hkrul_pg	false		false
+rhox_mar_marienburg	false	hkrul_pion	false	true				false		false
+rhox_mar_marienburg	false	hkrul_klumpf	false	true				false		false
+rhox_mar_marienburg	true	hkrul_hendrik	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_hendrik.png	hkrul_hendrik	hkrul_hendrik	false		false
+rhox_mar_marienburg	true	hkrul_hendrik_warhorse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_hendrik.png	hkrul_hendrik	hkrul_hendrik	false		false
+rhox_mar_marienburg	true	hkrul_hendrik_pegasus	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_hendrik.png	hkrul_hendrik	hkrul_hendrik	false		false
+rhox_mar_marienburg	false	hkrul_carriers_ror	false	true				false		false
+rhox_mar_marienburg	false	hkrul_carriers	false	true				false		false
+rhox_mar_marienburg	false	hkrul_burgher	false	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_handguns	false	true				false		false
+rhox_mar_marienburg	false	hkrul_privateers	false	true				false		false
+rhox_mar_marienburg	false	hkrul_privateers_dual_swords	false	true				false		false
+rhox_mar_marienburg	false	hkrul_solkan	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_solkan.png	hkrul_solkan	hkrul_solkan	false		false
+rhox_mar_marienburg	false	hkrul_solkan_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_solkan.png	hkrul_solkan	hkrul_solkan	false		false
+rhox_mar_marienburg	false	hkrul_mar_knights_griffon	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_qual	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_qual_great	true	true				false		false
+rhox_mar_marienburg	false	hkrul_crispijn	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_crispijn.png	hkrul_crispijn	hkrul_crispijn	false		false
+rhox_mar_marienburg	true	hkrul_mar_egmond	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
+rhox_mar_marienburg	true	hkrul_mar_egmond_longma	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
+rhox_mar_marienburg	true	hkrul_mar_egmond_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_boogschutter	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_art_scheepskanon	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_crossbow	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_greatsword	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_halberd	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_handgun	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_swords	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_cav_rijders	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_cav_rijders_crossbow	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_cleansing_flame	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_sons_of_manann	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_inf_goedendagers	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_black_caps	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_culverin	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_art_paixhan_ror	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_mananns_blades_ror	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_riverwarden	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_riverwarden_ror	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_defenders	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_teuling	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_naval_paixhan	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_talons	true	true				false		false
+wh_main_emp_empire	false	hkrul_pion_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_klumpf_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_carriers_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_art_paixhan_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_mananns_blades_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_bordermen_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_teuling_cus_emp	true	true				false		false
+wh_main_emp_empire	false	snek_hkrul_mar_ror_landship_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_riverwarden_ror_cus_emp	true	true				false		false
+rhox_mar_marienburg	false	hkrul_lisette	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_lisette.png	hkrul_lisette	hkrul_lisette	false		false
+rhox_mar_marienburg	false	rhox_mar_cst_inf_sartosa_free_company_0	false	true				false		false
+rhox_mar_marienburg	false	rhox_mar_cst_inf_sartosa_militia_0	false	true				false		false
+rhox_mar_marienburg	false	hkrul_cross	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_cross.png	hkrul_cross	hkrul_cross	false		false
+wh_main_emp_empire	false	hkrul_mar_talons_cus_emp	true	true				false		false
+rhox_mar_marienburg	false	hkrul_fooger_ror	true	true				false		false
+wh_main_emp_empire	false	hkrul_fooger_ror_cus_emp	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_mortar	true	true				false		false
+rhox_mar_marienburg	false	hkrul_mar_bordermen_ror	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_naval_paixhan_cus_emp	true	true				false		false

@@ -1,0 +1,19 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_egmond									
+hkrul_mar_innate_egmond	hkrul_mar_egmond_innate_24.png			0	true	false	false	0.0000	0
+hkrul_egmond_0_1	hkrul_egmond_0_1.png			0	false	false	false	0.0000	0
+hkrul_egmond_0_2	hkrul_egmond_0_2.png			0	false	false	false	0.0000	0
+hkrul_egmond_1_0	hkrul_egmond_1_0.png			0	false	false	false	0.0000	0
+hkrul_egmond_1_1	hkrul_egmond_1_1.png			0	false	false	false	0.0000	0
+hkrul_egmond_1_2	hkrul_egmond_1_2.png			0	false	false	false	0.0000	0
+hkrul_egmond_1_3	hkrul_egmond_1_3.png			0	false	false	false	0.0000	0
+hkrul_egmond_2_0	hkrul_egmond_2_0_72.png			0	false	false	false	0.0000	0
+hkrul_egmond_2_1	hkrul_egmond_2_1.png			0	false	false	false	0.0000	0
+hkrul_egmond_2_2	hkrul_egmond_2_2.png			0	false	false	false	0.0000	0
+hkrul_egmond_tze_magic_tzeentch_dummy_blue_fire_pink_fire_of_tzeentch	trait_human.png			0	false	false	false	0.0000	0
+hkrul_egmond_tze_magic_tzeentch_01_blue_fire_of_tzeentch_lord	wh3_main_spell_great_maw_bullgorger.png		Blue Fire of Tzeentch	0	false	false	false	0.0000	0
+hkrul_egmond_tze_magic_tzeentch_04_treason_of_tzeentch_lord	wh3_main_spell_great_maw_bonecrusher.png		Treason of Tzeentch	0	false	false	false	0.0000	0
+hkrul_egmond_tze_magic_tzeentch_06_tzeentchs_firestorm_lord	wh3_main_spell_great_maw_trollguts.png		Tzeentch's Firestorm	0	false	false	false	0.0000	0
+hkrul_mar_egmond_horse	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_egmond_longma	mount_jade_longma.png			0	false	false	false	0.0000	0
+hkrul_egmond_2_3	rhox_mar_harmony_symbol_0.png			0	false	false	false	0.0000	0

@@ -1,0 +1,5 @@
+army_special_ability	unit_special_ability	unique_id	enables_siege_assault
+#army_special_abilities_tables;2;db/army_special_abilities_tables/hkrul_mar			
+hkrul_mar_army_bombard	hkrul_mar_ability_bombard	37859322	true
+rhox_mar_army_abilities_flood_trap	rhox_mar_army_abilities_flood_trap	1345577670	false
+hkrul_mar_power_money	hkrul_mar_power_money	244190700	false

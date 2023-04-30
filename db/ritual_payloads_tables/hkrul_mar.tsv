@@ -1,0 +1,6 @@
+key	human_only	payload_base
+#ritual_payloads_tables;0;db/ritual_payloads_tables/hkrul_mar		
+hkrul_mar_ritual_merchant	false	
+hkrul_mar_ritual_rebels	false	
+hkrul_mar_ritual_voyage	false	
+hkrul_mar_ritual_diplomacy	false	

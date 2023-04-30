@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+    <SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_hat_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_hat_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hat_02_a.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hat_03_a.wsmodel" />
+    </SLOT>
+</VARIANT_MESH>

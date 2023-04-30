@@ -1,0 +1,5 @@
+feature	group	available
+#campaign_features_tables;0;db/campaign_features_tables/rhox_mar		
+diplomatic_manipulation	rhox_egmond_feature	true
+unit_upgrades	rhox_egmond_feature	true
+slaves	rhox_mundvard_feature	false

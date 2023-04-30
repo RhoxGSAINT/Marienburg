@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="rifle">
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/pistols/emp_pistol_pure_a.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/pistols/emp_pistol_pure_b.rigid_model_v2" />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/pistols/emp_pistol_pure_c.rigid_model_v2" />
+
+	</SLOT>
+</VARIANT_MESH>

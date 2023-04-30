@@ -1,0 +1,4 @@
+faction_key	sort_order	culture_sort_order
+#custom_battle_factions_tables;1;db/custom_battle_factions_tables/hkrul_mar		
+wh_main_emp_marienburg	13	60
+ovn_mar_the_wasteland	13	60

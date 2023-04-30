@@ -1,0 +1,14 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/hkrul_mar					
+hkrul_landship_ror	100.0000	1	snek_hkrul_mar_ror_landship	true	0.1000
+hkrul_mar_bucs	100.0000	1	hkrul_klumpf	true	0.1000
+hkrul_mar_pion	100.0000	1	hkrul_pion	true	0.1000
+hkrul_carriers_ror	100.0000	1	hkrul_carriers_ror	true	0.1000
+hkrul_mar_art_paixhan_ror	100.0000	1	hkrul_mar_art_paixhan_ror	true	0.1000
+hkrul_mar_mananns_blades_ror	100.0000	1	hkrul_mar_mananns_blades_ror	true	0.1000
+hkrul_mar_riverwarden_ror	100.0000	1	hkrul_mar_riverwarden_ror	true	0.1000
+hkrul_mar_bordermen_ror	100.0000	1	hkrul_mar_bordermen_ror	true	0.1000
+hkrul_mar_teuling	100.0000	1	hkrul_mar_teuling	true	0.1000
+hkrul_mar_naval_paixhan	100.0000	1	hkrul_mar_naval_paixhan	true	0.1000
+hkrul_mar_talons	100.0000	1	hkrul_mar_talons	true	0.1000
+hkrul_fooger_ror	100.0000	1	hkrul_fooger_ror	true	0.1000

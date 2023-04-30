@@ -1,0 +1,87 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_incidents__.loc		
+incidents_localised_title_wh_main_emp_marienburg_completed	Gilded Route Completed	false
+incidents_localised_title_wh_main_emp_marienburg_completed_altdorf	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_castle_drakenhof	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_erengrad	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_estalia	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_frozen_landing	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_ind	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_marienburg	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_novchozy	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_received	Trade Convoy Arrived! 	false
+incidents_localised_title_wh_main_emp_marienburg_completed_stone_bay	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_tilea	Gilded Route Completed – Unique Item	false
+incidents_localised_title_wh_main_emp_marienburg_completed_zharr_nagrund	Gilded Route Completed – Unique Item	false
+incidents_localised_title_rhox_mar_convoy_completed_altdorf	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_altdorf	A librarian approaches the Merchant Lord with haste, offering him what he claims is a vital document that may influence the future of Marienburg. The man hardly looks trustworthy, however.	true
+incidents_localised_title_rhox_mar_convoy_completed_erengrad	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_erengrad	After a hefty night of drinking and a hefty bribe to boot, the jailors of Erengrad agree to release a valueable asset - allowing him to join your retinue.	true
+incidents_localised_title_rhox_mar_convoy_completed_bordeleaux	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_bordeleaux	You enjoyed Bordeleaux's finest wine. Maybe more than usual. After a hangover, you discover someone unusual at your side. 	true
+incidents_localised_title_rhox_mar_convoy_completed_port_reaver	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_port_reaver	Master Smuggler and heir to House Van Haagen has smuggled himself aboard your convoy after he became persona non grata in Port Reaver. His crimes there too much to count.	true
+incidents_localised_title_rhox_mar_convoy_completed_miragliano	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_miragliano	While wandering the many markets of Miragliano, a trader approaches you offering you something of value - or so he claims.	true
+incidents_localised_title_rhox_mar_convoy_completed_barak_varr	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_barak_varr	Enjoying yet another pint of Bugman's ale, you find yourself listening to the tales of a Dwarf who knows the Wasteland better than you do. It is Guzunda Wallrattler, Swamp Dweller and patron of Clan Fooger who is looking for a lift back home to Marienburg.	true
+incidents_localised_title_rhox_mar_convoy_completed_lashiek	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_lashiek	Interestingly enough, you are joinged by a rather mysterious figure who might proof valueable in future endeavors.	true
+incidents_localised_title_rhox_mar_convoy_completed_sudenburg	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_sudenburg	She was probably her on Guild's Business. Yet Lisette Leerer has brought herself in a world of trouble, as Sudenberg is no longer the Free Port it once was. The Cult of Sigmar patrols the street, enforcing strict Sigmarite Laws. She needs a ticket out, and fast. Her services might come in handy.	true
+incidents_localised_title_rhox_mar_convoy_completed_fortress_of_dawn	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_fortress_of_dawn	Handsome Elvish merchants signed a partnership with you. Lucky you. 	true
+incidents_localised_title_rhox_mar_convoy_completed_fu_hung	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_fu_hung	In the deck, a rat joins you. Saying his presence is proof of an unsinkable ship. 	true
+incidents_localised_title_rhox_mar_convoy_completed_beichai	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_beichai	Cathay man, who wants to see a larger world, came to join you. Apparently, he was allergic to ogres and choose the sea route because of that	true
+incidents_localised_title_rhox_mar_convoy_completed_al_haikk	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_al_haikk	On your trip to Al-Haik, you bought a Cathay slave at a cheap price. The slave is keep saying he is not from Cathay. But from the looks of him, he is clearly a Cathayan, and the slave is lying for sure. 	true
+incidents_localised_title_rhox_mar_convoy_completed_lothern	Gilded Route Completed – Unique Item	true
+incidents_localised_description_rhox_mar_convoy_completed_lothern	A welcome sight in Elfsgemeente, Captain Daefvid Maecross is as much Marienburger as he is Elf. His vessel sunk by Undead Pirates he managed to drift to Lothern where has been living for the past year. Eagerly, he joins your convoy seeking passage back to Marienburg.	true
+incidents_localised_title_rhox_mar_gained_access_mar_ror	The restoration of Westerland	true
+incidents_localised_description_rhox_mar_gained_access_mar_ror	There be no more talk of a ''Free City''. Those who are willing to join the Empire's State Army may do so, those who refuse shall face dier consequences. Unsurprisingly, all the famed regiments of Marienburg join Reikland's cause.	true
+incidents_localised_title_rhox_mar_gained_access_emp_ror	Emperor in the new cloth	true
+incidents_localised_description_rhox_mar_gained_access_emp_ror	With the shocking shift of power over the province of Reikland, where the banner of the Free State of Marienburg now flutters proudly, even the most loyal Reikland regiments are forced to serve under their new Emperor.	true
+incidents_localised_title_rhox_mar_conf_warning	House Den Euwe on the brink of bankruptcy	false
+incidents_localised_description_rhox_mar_conf_warning	Little birds tell you a rival Merchant House, House Den Euwe, is nearing bankruptcy. They've gambled all their money on a trade expedition led by their heir Egmond Den Euwe. The Eastern Market and Cathayan ports is their final resolve. We've made sure this expedition is going to fail, of course -and it won't be long before House Den Euwe comes knocking to sell their assets to us dirt cheap. Or perhaps to offer us to absorb their venture entirely.	false
+incidents_localised_title_rhox_mar_free_witch_hunter	Witch Hunters of the Wasteland	false
+incidents_localised_description_rhox_mar_free_witch_hunter	Besides being a buzzling and colourful city-state. Marienburg knows many dark corners and hidden cults. It is a brewing pot for both chaos worship and other foul beings. The Knights of Purity seek out to eradicate the heretics, but find themselves in a losing battle. With the aid of more Witch Hunters, traveling all the way from Ostermark, they might be able to turn the tide. 	false
+incidents_localised_title_rhox_mar_crispijn_notify	House Van Haagen	false
+incidents_localised_description_rhox_mar_crispijn_notify	Little birds are discovering more and more of the predicament House Van Haagen have found themselves in. Their Heir, Crispijn van Haagen is hiding from the authorities all the way in Port Reaver. His many crimes finally unmasked due to his boisterous behaviour. \\n\\n This might present the perfect opportunity. If Crispijn is to be executed, House Van Haagen is heirless. On the other hand, the better option might be to indebt them. Perhaps we can smuggle Crispijn out of Port Reaver using a convoy, forcing him in our retinue of Gilded Route Merchants. As the saying goes: Keep your friends close, yet your enemies closer. This would demote Leo van Haagen to nothing more than one of our footmen.	false
+incidents_localised_title_hkrul_mar_caravan_completed_received	Merchants from Marienburg	false
+incidents_localised_description_hkrul_mar_caravan_completed_received	Marienburg trading Convoys decided to make a trade in your lands. This time, both sides earned profits from the deal. 	false
+incidents_localised_title_rhox_mar_egmond_turn2	Whispers of Tsien-Tsin	false
+incidents_localised_description_rhox_mar_egmond_turn2	The whispers were.. unintelligible at first. Yet the soft hisses of Tsien-Tsin are slowly gaining their grip within Egmond's state of mind. No longer do they sound like mumblings of made up words, but now rather distinctly formulated.. Errands.The voices whisper Egmond to go North. But why? There's no trade there as Beichai is overrun by the undead. \\n\\n ''Let me unlock your vision, I can show you true richdom lies not in riches but solemnly in knowledge. Let me show you the ways of change. All you need do is raise a Shrine to my name in the City where my following is strongest''.	false
+incidents_button_text_rhox_mar_egmond_turn2	I shall go North	false
+incidents_localised_title_rhox_mar_convoy_completed_arnheim	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_arnheim	Arnheim, where Dark Elves and High Elves roam the same streets a artifact of mysterious magic finds it's way to you.	false
+incidents_localised_title_rhox_mar_convoy_completed_sjoktraken	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_sjoktraken	A brutish Norscans finds it's way to you, desperately seeking passage to new seas. His experience will surely proof valueable.	false
+incidents_localised_title_rhox_mar_convoy_completed_karond_kar	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_karond_kar	You manage to obtain a rare item that obviously oozes all sorts of magic. This will proof valueable.	false
+incidents_localised_title_rhox_mar_convoy_completed_magritta	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_magritta	The heir of House De Roelef yet not nearly as interested in the art of trade as her aunt - Clara much prefers a life of adventure. Something we can provide her on the Gilded Route, safely hidden from her aunts gaze.	false
+incidents_localised_title_rhox_mar_convoy_completed_sartosa	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_sartosa	You stumble upon a ship-in-a-bottle, the model has Marienburger flags draping from it's mast. Something about it tells you it should be opened with caution.	false
+incidents_localised_title_rhox_mar_convoy_completed_zandri	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_zandri	A unique artifact with clear markings of the sea. This will fetch a good price with the Cult of Manann, if we can't find use for it ourselves.	false
+incidents_localised_title_rhox_mar_convoy_completed_tower_of_the_sun	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_tower_of_the_sun	A ambassador hailing from Laurelorn, a rare sight to spot these Elves outside their forest, even as they border the Wasteland. Having her in our retinue might bolster relations with this mysterious race.	false
+incidents_localised_title_rhox_mar_convoy_completed_dai_cheng	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_dai_cheng	A artifact that smells like seaweed yet radiates winds of magic. It's markings resemble that of the Cult of Manann.	false
+incidents_localised_title_rhox_mar_convoy_completed_fu_chow	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_fu_chow	Captured by Skaven, sold to a Norscan Slave trader - this man is down to his luck. But he claims to hold valueable information, for a small fee we can unshackle him and free him from these brutish Northmen.	false
+incidents_localised_title_rhox_mar_convoy_completed_haichai	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_haichai	Invested with invading Dark Elves, Cathayan nobility scrambles in search for a escape. Surely we can take on a refugee for the right price.	false
+incidents_localised_title_rhox_mar_convoy_completed_myrmidens	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_myrmidens	A Bretonnian noble lost and seeking passage back home, for a fee we can surely provide.	false
+incidents_localised_title_rhox_mar_double_cathay_reward_jaan	Penny wise, pound foolish	false
+incidents_localised_description_rhox_mar_double_cathay_reward_jaan	Just before the Caravan Master was about to finish the deal, Jaan bursts into the door and examines the contracts carefully.\\n\\n"Ah, pardon me. My handler has made some oversights. Clearly, these should be rectified."\\n\\nThus, a new deal was signed.	false
+incidents_localised_title_rhox_mar_ll_hendrik_available	Legendary Lord Available	false
+incidents_localised_description_rhox_mar_ll_hendrik_available	Legendary [[url:script_link_campaign_lords]][[tooltip:{{tt:tooltip_campaign_lords}}]]Lord[[/tooltip]][[/url]] Simon Goudenkruin has arrived, is available for recruitment, and may lead an [[url:script_link_campaign_armies]][[tooltip:{{tt:tooltip_campaign_armies}}]]army[[/tooltip]][[/url]] to battle.	false
+incidents_localised_title_rhox_mar_item_set_event	Informal ruler of Marienburg	false
+incidents_localised_description_rhox_mar_item_set_event	With a majority of the directors either bribed, intimidated or persuaded to join the Van de Kuyper's conglomerate\\nthere's nobody that stands in the way of the rule over the city-state of Marienburg. From now on, every tax, law or executive decision is made by a Van de Kuypers. Jaan van de Kuypers is truly the informal ruler of a the proud trade-city. All his subordinates know the true power that makes the world spin: The power of money.	false
+incidents_button_text_rhox_mar_item_set_event	Jaan rules supreme	false
+incidents_localised_title_rhox_mar_convoy_completed_marienburg	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_mar_convoy_completed_marienburg	A mysterious women approaches, bearing Tsien-Tsin's mark, without having words - you allow her to join your convoy.	false

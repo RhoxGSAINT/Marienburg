@@ -1,0 +1,7 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!snek_hkrul_marienburg_landship				
+snek_hkrul_mar_landship	false	snek_hkrul_mar_landship_cannon_ball	great_cannon	false
+snek_hkrul_mar_ror_landship	false	snek_hkrul_mar_ror_landship_cannon_ball	great_cannon	false
+wh_main_mar_rifle_landship	false	wh2_dlc13_emp_rifle_war_wagons_bullet	repeater_rifle	true
+wh_main_mar_crew_cannon	false	snek_hkrul_mar_landship_crew_cannon	great_cannon	true
+mar_paixhans_gun	false	mar_paixhans_gun_shell	great_cannon	false

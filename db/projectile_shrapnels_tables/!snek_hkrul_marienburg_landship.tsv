@@ -1,0 +1,4 @@
+key	projectile	amount	launch_type	sector_angle
+#projectile_shrapnels_tables;0;db/projectile_shrapnels_tables/!snek_hkrul_marienburg_landship				
+wh_ability_snek_landship_full_steam_ahead_miscast_shrapnel	wh_main_spell_metal_searing_doom	8	hemisphere	0.0000
+wh_main_emp_chain_shot_shrapnel	snek_hkrul_mar_landship_chainshot_shrapnel	2	hemisphere	0.0000

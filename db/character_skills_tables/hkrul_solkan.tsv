@@ -1,0 +1,15 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_solkan									
+hkrul_solkan_agent_actions	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+innate_hkrul_solkan	character_wound_time.png			0	true	false	false	100.0000	0
+hkrul_solkan_special_1_0	hkrul_solkan_cloak_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_1_1	hkrul_solkan_fist_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_1_2	hkrul_solkan_books_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_2	hkrul_solkan_chest_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_3_1	hkrul_solkan_coin_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_3_2	hkrul_solkan_sword_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_3_3	hkrul_solkan_scales_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_0_1	hkrul_solkan_agent_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_0_2	hkrul_solkan_caps_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_special_0_3	hkrul_solkan_kuypers_72.png			0	false	false	false	0.0000	0
+hkrul_solkan_horse	mount_barded_warhorse.png			0	false	false	false	0.0000	0

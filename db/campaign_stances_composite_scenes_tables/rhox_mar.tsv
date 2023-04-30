@@ -1,0 +1,4 @@
+group	stance	composite_scene	composite_movement_start	composite_movement_stop
+#campaign_stances_composite_scenes_tables;0;db/campaign_stances_composite_scenes_tables/rhox_mar				
+rhox_mar_stances_mar_caravan_master	MILITARY_FORCE_ACTIVE_STANCE_TYPE_FIXED_CAMP			
+rhox_mar_mundvard_stance	MILITARY_FORCE_ACTIVE_STANCE_TYPE_TUNNELING	tunnel_stance		

@@ -1,0 +1,20 @@
+key	mission_type	localised_title	localised_description	ui_image	ui_icon	generate	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	quest_mission_final	trigger_radius	quest_character	sticky_by_default	localised_mission_completed_text	can_be_manually_cancelled
+#missions_tables;0;db/missions_tables/hkrul_mar																		
+hkrul_mar_hendrik1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+hkrul_mar_solkan1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_2	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_3	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_4	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_5	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_conquer_empire	CONSTRUCT_N_BUILDINGS_INCLUDING			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_conquer_marien	CONSTRUCT_N_BUILDINGS_INCLUDING			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_conquer_beichai	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_war_on_empire	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_cousin_alliance	MAKE_ALLIANCE			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_6	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+hkrul_mar_jk_follower_7	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_embassy	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_bridge_reik	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_araby_brethern	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_exiled_chieftain	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false

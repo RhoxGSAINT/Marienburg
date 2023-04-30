@@ -1,0 +1,14 @@
+key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
+#mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/hkrul_mar						
+830409512	hkrul_landship_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409513	hkrul_mar_bucs	1	wh_dlc04_emp_units_of_renown_pool			
+830409514	hkrul_mar_pion	1	wh_dlc04_emp_units_of_renown_pool			
+830409515	hkrul_carriers_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409516	hkrul_mar_art_paixhan_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409517	hkrul_mar_mananns_blades_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409518	hkrul_mar_riverwarden_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409519	hkrul_mar_bordermen_ror	1	wh_dlc04_emp_units_of_renown_pool			
+830409520	hkrul_mar_teuling	1	wh_dlc04_emp_units_of_renown_pool			
+830409521	hkrul_mar_naval_paixhan	1	wh_dlc04_emp_units_of_renown_pool			
+830409522	hkrul_mar_talons	1	wh_dlc04_emp_units_of_renown_pool			
+830409523	hkrul_fooger_ror	1	wh_dlc04_emp_units_of_renown_pool			

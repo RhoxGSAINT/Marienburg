@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hr1/mrg/mrg_egmond_horse/mrg_egmond_01.rigid_model_v2" >
+	</SLOT>
+</VARIANT_MESH>

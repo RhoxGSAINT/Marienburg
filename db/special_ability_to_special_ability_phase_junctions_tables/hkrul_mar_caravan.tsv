@@ -1,0 +1,24 @@
+order	special_ability	target_self	target_friends	target_enemies	phase
+#special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/hkrul_mar_caravan					
+1	hkrul_mundvard_ability_shadow_walk	true	false	false	hkrul_mundvard_ability_shadow_walk
+1	hkrul_mundvard_ability_wsoran	false	false	true	hkrul_mundvard_ability_wsoran
+1	hkrul_alicia_ring	true	false	false	hkrul_alicia_ring
+1	hkrul_alicia_rose	false	false	true	hkrul_alicia_rose
+1	hkrul_roelef_rally	true	true	false	hkrul_roelef_rally
+1	hkrul_cathay_mask	true	false	false	hkrul_cathay_mask
+1	hkrul_kislev_buff	true	false	false	hkrul_kislev_buff
+1	hkrul_bret_buff	true	false	false	hkrul_bret_buff
+1	hkrul_landship_buff	true	false	false	hkrul_landship_buff
+1	hkrul_bard_music	false	false	true	hkrul_bard_music
+1	hkrul_elf_shot	true	true	false	hkrul_elf_shot
+1	hkrul_elf_buff	true	false	false	hkrul_elf_buff
+1	hkrul_mar_helm	true	false	false	hkrul_mar_helm
+1	hkrul_mar_trident	true	false	false	hkrul_mar_trident
+1	hkrul_mar_shield_manann	true	false	false	hkrul_mar_shield_manann
+1	hkrul_mar_rapier	true	false	false	hkrul_mar_rapier
+1	hkrul_mar_payday	true	true	false	hkrul_mar_payday
+1	hkrul_mar_cleansing	true	false	false	hkrul_mar_cleansing
+1	hkrul_mar_lupo	true	false	false	hkrul_mar_lupo
+1	hkrul_mar_flock	true	false	false	hkrul_mar_flock
+1	hkrul_mar_speaker	true	true	false	hkrul_mar_speaker
+1	hkrul_mar_smoke	true	false	false	hkrul_mar_smoke

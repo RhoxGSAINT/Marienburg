@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="horse" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hr1/phantom/phantom_warhorse_armoured/masked_man_horse_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_horse_segmented</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shields" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hr1/phantom/phantom_shield_01/mrg_phantom_shield_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_horse_segmented</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
+

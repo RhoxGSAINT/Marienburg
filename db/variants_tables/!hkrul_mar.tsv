@@ -1,0 +1,74 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!hkrul_mar							
+snek_hkrul_mar_landship_captain		mar_landship_captain		1.0000	1.0000	0.0500	
+snek_hkrul_mar_landship_lookout		mar_landship_lookout		1.0000	1.0000	0.0500	
+snek_hkrul_mar_landship_crew		mar_landship_crew		1.0000	1.0000	0.0500	
+snek_hkrul_veh_mar_landship		snek_hkrul_veh_mar_landship		1.0000	1.0000	0.0000	
+mar_landship_swivelcannon		mar_landship_swivelcannon		1.0000	1.0000	0.0000	
+hkrul_jk	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_jk		1.2500	1.1000	0.0000	
+hkrul_guzunda		phy_guzunda		1.0000	1.0300	0.0000	
+hkrul_pg		hkrul_pg		1.2500	1.2300	0.0000	
+hkrul_pion		hkrul_pion		1.0000	1.0000	0.0500	
+hkrul_mar_simon		hkrul_mar_simon		1.2500	1.2000	0.0000	
+hkrul_klumpf		hkrul_klumpf		1.0000	1.0000	0.0500	
+hkrul_carriers		hkrul_carriers		1.0000	1.1600	0.0000	
+hkrul_carriers_ror		hkrul_carriers_ror		1.0000	1.2300	0.0000	
+hkrul_burgher		hkrul_burgher		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_mar_handguns		hkrul_mar_handguns		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_privateers		hkrul_privateers		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_privateers_dual_swords		hkrul_privateers_dual_swords		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_jk_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_jk_horse		1.0000	1.1800	0.0500	
+hkrul_solkan	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_solkan		1.2500	1.1700	0.0000	
+hkrul_solkan_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_solkan_horse		1.0000	1.0000	0.0500	
+hrul_mar_caravan_commander_06		hrul_mar_caravan_commander_06		1.0000	1.1700	0.0000	
+hrul_mar_caravan_commander_07		hrul_mar_caravan_commander_07		1.0000	1.1700	0.0000	
+hrul_mar_caravan_commander_08		hrul_mar_caravan_commander_08		1.0000	1.1700	0.0000	
+hrul_mar_caravan_commander_09		hrul_mar_caravan_commander_09		1.0000	1.1700	0.0000	
+hrul_mar_caravan_commander_10		hrul_mar_caravan_commander_10		1.0000	1.1700	0.0000	
+hkrul_crispijn		hkrul_crispijn		1.2500	1.1500	0.0000	
+mananns_blades_bannerman		mananns_blades_bannerman		1.0000	1.0000	0.0500	
+hkrul_mar_egmond		hkrul_mar_egmond		1.2500	1.1700	0.0000	
+mrg_egmond_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_egmond_warhorse_armoured		1.0000	1.1000	0.0500	
+mrg_egmond_logma		mrg_egmond_logma		1.0000	1.0000	0.0000	
+hkrul_mar_munvard		mrg_munvard		1.0000	1.2500	0.0500	
+hkrul_mar_munvard_mount	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	mrg_munvard_mount		1.0000	1.0000	0.0000	
+hkrul_mar_cav_rijders		mar_rijders_melee		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+hkrul_mar_cav_rijders_crossbow		mar_rijders_crossbows		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_mar_sons_of_manann		hkrul_mar_sons_of_manann		1.0000	1.0000	0.0500	
+hkrul_mar_sons_of_manann_warhorse		mar_sons_of_manann_warhorse		1.0000	1.0000	0.0500	
+hkrul_mar_soldier_artillery_crew		hkrul_mar_soldier_artillery_crew		1.0000	1.0000	0.0500	
+hkrul_mar_mnt_knights_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mar_griffon		1.0000	1.6670	0.0000	
+hkrul_mar_knights_griffon		hkrul_mar_knights_griffon		1.0000	1.0000	0.0000	
+mar_knights_mariner		mar_knights_mariner		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+mar_sons_of_manann		mar_sons_of_manann		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+hkrul_mar_teuling		mar_caravan_guards_visor_up		1.0000	1.0000	0.0500	
+hkrul_mar_defenders		mar_caravan_guards		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+hkrul_mar_inf_boogschutter		hkrul_mar_inf_boogschutter		1.0000	1.0000	0.0500	
+hkrul_mar_inf_crossbow		hkrul_mar_inf_crossbow		1.0000	1.0000	0.0500	
+hkrul_mar_inf_greatsword		mar_greatswords		1.0000	1.0000	0.0500	
+hkrul_mar_inf_halberd		hkrul_mar_inf_halberd		1.0000	1.0000	0.0500	
+hkrul_mar_inf_handgun		hkrul_mar_inf_handgun		1.0000	1.0000	0.0500	
+hkrul_mar_inf_swords		mar_soldier_sword_shield		1.0000	1.0000	0.0500	
+hkrul_mar_inf_goedendagers		hkrul_mar_inf_goedendagers		1.0000	1.0000	0.0500	
+hkrul_mar_mananns_blades_ror		hkrul_mar_mananns_blades_ror		1.0000	1.0000	0.0500	
+hkrul_mar_riverwarden_ror		hkrul_mar_riverwarden_ror		1.0000	1.0000	0.0500	
+hkrul_mar_riverwarden		hkrul_mar_riverwarden		1.0000	1.0000	0.0500	
+hkrul_mar_qual		hkrul_mar_qual		1.0000	1.0000	0.0500	
+hkrul_mar_qual_great		hkrul_mar_qual_great		1.0000	1.0000	0.0500	
+mar_ranged_militia_crossbow		mar_ranged_militia_crossbow		1.0000	1.0000	0.0500	
+mar_ranged_militia_handbow		mar_ranged_militia_handbow		1.0000	1.0000	0.0500	
+mar_ranged_militia_klovenier		mar_ranged_militia_klovenier		1.0000	1.0000	0.0500	
+mar_manann_blades		mar_manann_blades		1.0000	1.0000	0.0500	
+mar_soldier_goedendag		mar_soldier_goedendag		1.0000	1.0000	0.0500	
+hkrul_alicia		hkrul_alicia		1.0000	1.0500	0.0500	
+hkrul_mar_black_caps		mar_black_caps		1.0000	1.0000	0.0500	
+mrg_merchant_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_merchant_warhorse_armoured		1.0000	1.0000	0.0500	
+hkrul_mar_knights_cleansing_flame		thm_mar_knights_cleansing_flame_horse		1.0000	1.0000	0.0500	
+hkrul_mar_cleansing_flame		thm_mar_knights_cleansing_flame		1.0000	1.0000	0.0500	
+hkrul_lisette		hkrul_lisette		1.0000	1.0800	0.0000	
+mrg_thm_red_talons_handgunners		mrg_thm_red_talons_handgunners		1.0000	1.0000	0.0500	
+mrg_thm_red_talons_bannerman		mrg_thm_red_talons_officer_jacopo		1.0000	1.0000	0.0500	
+hkrul_cross		hkrul_cross		1.0000	1.1500	0.0000	
+hkrul_fooger_ror		mar_dwarf_ror		1.0000	0.9500	0.0500	
+hkrul_mar_campaign_map_ship		campaign_hkrul_mar_ship_light		1.0000	1.0000	0.0000	
+hkrul_mar_campaign_map_big_ship		campaign_hkrul_mar_ship_heavy		1.0000	1.0000	0.0000	

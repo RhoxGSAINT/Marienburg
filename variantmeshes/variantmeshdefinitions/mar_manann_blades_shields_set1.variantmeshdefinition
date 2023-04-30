@@ -1,0 +1,44 @@
+<VARIANT_MESH>
+	<SLOT name="shield" >
+		<VARIANT_MESH>
+			<SLOT name="painted" >
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_01.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_02.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_03.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_04.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH>
+			<SLOT name="metal" >
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_05.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_06.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_07.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_props/mar_mananns_blades_shield_08.wsmodel"  >
+					<META_DATA>equipment</META_DATA>
+					<META_DATA>audio_shield_type:metal</META_DATA>
+				</VARIANT_MESH>
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

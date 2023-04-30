@@ -1,0 +1,5 @@
+banner	unit_set
+#banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/hkrul_mar	
+hkrul_mar_pirate_banner	all_units
+hkrul_mar_pirate_banner	emp_infantry
+hkrul_mar_pirate_banner	emp_freecompany

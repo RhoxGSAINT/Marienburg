@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+    <SLOT name="beard">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_beard_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_beard_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_beard_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_beard_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_beard_05.wsmodel" />
+    </SLOT>
+</VARIANT_MESH>

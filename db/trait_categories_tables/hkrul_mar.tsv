@@ -1,0 +1,6 @@
+category	icon_path
+#trait_categories_tables;0;db/trait_categories_tables/hkrul_mar	
+hkrul_jk	ui/campaign ui/skills/trait_kuypers.png
+hkrul_hendrik	ui/campaign ui/skills/trait_marienburg.png
+hkrul_munvard	ui/campaign ui/skills/trait_wasteland.png
+hkrul_egmond	ui/campaign ui/skills/hkrul_mar_egmond_innate_24.png

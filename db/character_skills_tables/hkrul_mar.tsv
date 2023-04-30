@@ -1,0 +1,60 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_mar									
+innate_hkrul_jk	trait_kuypers.png			0	true	false	false	100.0000	0
+innate_hkrul_hendrik	trait_marienburg.png			0	true	false	false	100.0000	0
+innate_hkrul_pg	trait_marienburg.png			0	true	false	false	100.0000	0
+hkrul_pg_mount_barded_warhorse	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_hendrik_mount_barded_warhorse	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_jk_mount_barded_warhorse	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_jk_special_1_0	hkrul_produce2.png			0	false	false	false	0.0000	0
+hkrul_jk_special_1_1	hkrul_armorment.png			0	false	false	false	0.0000	0
+hkrul_jk_special_1_2	hkrul_stadsraad.png			0	false	false	false	0.0000	0
+hkrul_jk_special_1_3	hkrul_compass.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_1	hkrul_belasting.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_2	hkrul_liberum.png			0	false	false	false	0.0000	0
+hkrul_jk_special_1_4	hkrul_vloedmuur.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2	Letter59.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_3	hkrul_mareliberum.png			0	false	false	false	0.0000	0
+hkrul_jk_special_3	hkrul_zeegeprael.png			0	false	false	false	0.0000	0
+hkrul_jk_special_3_0_1	hkrul_estate3_72.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_4	hkrul_kuypers.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_5	hkrul_rebellion.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_6	hkrul_marienburg.png			0	false	false	false	0.0000	0
+hkrul_jk_special_0_7	hkrul_wines.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_0	hkrul_merchant.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_1_1	hkrul_averland.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_1_2	hkrul_ostland.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_2_1	hkrul_tilea.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_2_2	hkrul_estalia.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_3_1	hkrul_erengrad.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_3_2	hkrul_norsca.png			0	false	false	false	0.0000	0
+hkrul_jk_special_2_4	hkrul_globetrotter.png			0	false	false	false	0.0000	0
+hkrul_pg_special_1_0	hkrul_dice.png			0	false	false	false	0.0000	0
+hkrul_pg_special_0_3	hkrul_halberd.png			0	false	false	false	0.0000	0
+hkrul_pg_special_0_2	hkrul_bompistool.png			0	false	false	false	0.0000	0
+hkrul_pg_special_0_4	hkrul_wealth.png			0	false	false	false	0.0000	0
+hkrul_pg_special_1_1	hkrul_split.png			0	false	false	false	0.0000	0
+hkrul_pg_special_1_2	hkrul_voorraad.png			0	false	false	false	0.0000	0
+hkrul_pg_special_2	hkrul_pg_3_3.png			0	false	false	false	0.0000	0
+hkrul_pg_special_3_1	hkrul_meter.png			0	false	false	false	0.0000	0
+hkrul_pg_special_3_2	hkrul_shoes.png			0	false	false	false	0.0000	0
+hkrul_pg_special_3_3	hkrul_pg_3_3.png			0	false	false	false	0.0000	0
+hkrul_pg_special_0_1	hkrul_sartosa.png			0	false	false	false	0.0000	0
+hkrul_pg_agent_actions	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_1_0				0	false	false	false	0.0000	0
+hkrul_hendrik_special_1_2	hkrul_letter.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_1_3	hkrul_spiegel.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_2_0				0	false	false	false	0.0000	0
+hkrul_hendrik_special_2_1	hkrul_sleutel.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_2_3	hkrul_locket.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_4_0				0	false	false	false	0.0000	0
+hkrul_hendrik_special_3_0	hkrul_bars.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_0_1	hkrul_vergrootglas.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_0_2	hkrul_gems.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_0_3	hkrul_tavern.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_0_4	hkrul_eggs.png			0	false	false	false	0.0000	0
+hkrul_hendrik_pegasus	mount_imperial_pegasus.png			11	false	false	false	0.0000	0
+hkrul_mar_haeyndrik_shield	character_ward_save.png			7	false	false	false	0.0000	0
+hkrul_mar_solkan_blessing	character_ward_save.png			7	false	false	false	0.0000	0
+hkrul_hendrik_special_0_5	hkrul_mar_defenders_1.png			0	false	false	false	0.0000	0
+hkrul_hendrik_special_0_6	hkrul_mar_defenders_2.png			0	false	false	false	0.0000	0

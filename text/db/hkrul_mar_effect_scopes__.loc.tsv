@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_effect_scopes__.loc		
+campaign_effect_scopes_localised_text_hkrul_faction_to_force_enemy_provincewide	\\n(enemy armies in all owned provinces)	false
+campaign_effect_scopes_localised_text_rhox_mar_faction_to_character_own_lords_only	\\n(all [[img:icon_lord]][[/img]]Lords)	false

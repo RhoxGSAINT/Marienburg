@@ -1,0 +1,6 @@
+effect_bundle	payload	duration
+#ritual_payload_effect_bundles_tables;1;db/ritual_payload_effect_bundles_tables/hkrul_mar		
+hkrul_mar_ritual_merchant	hkrul_mar_ritual_merchant	5
+hkrul_mar_ritual_rebels	hkrul_mar_ritual_rebels	5
+hkrul_mar_ritual_voyage	hkrul_mar_ritual_voyage	5
+hkrul_mar_ritual_diplomacy	hkrul_mar_ritual_diplomacy	10

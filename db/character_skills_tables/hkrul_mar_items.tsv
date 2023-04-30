@@ -1,0 +1,25 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_mar_items									
+hkrul_mar_coin	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_anc_araby	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_lea	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_anc_norscan	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_anc_stadsraad	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_anc_sander	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_solkan_item_greatsword	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_solkan_ring	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_black_cap	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_tze_amulet	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_egmond_katana	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_egmond_nippon	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mundvard_artifact_wsoran	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mundvard_sword_wsoran	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_hilaria	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_alicia_ring	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_alicia_rose	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_gruber	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_stevedore	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_casanova	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_casino	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_mace	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+hkrul_mar_barrel	mount_barded_warhorse.png			0	false	false	false	0.0000	0

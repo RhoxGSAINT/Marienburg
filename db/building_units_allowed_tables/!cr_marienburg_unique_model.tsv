@@ -1,0 +1,12 @@
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!cr_marienburg_unique_model						
+43634982	cr_mar_special_settlement_marienburg_1	wh2_dlc13_emp_inf_archers_0	0	0		false
+43634983	cr_mar_special_settlement_marienburg_2	wh2_dlc13_emp_inf_archers_0	0	0		false
+43634984	cr_mar_special_settlement_marienburg_3	wh2_dlc13_emp_inf_archers_0	0	0		false
+43634985	cr_mar_special_settlement_marienburg_4	wh2_dlc13_emp_inf_archers_0	0	0		false
+43634986	cr_mar_special_settlement_marienburg_5	wh2_dlc13_emp_inf_archers_0	0	0		false
+43634987	cr_mar_special_settlement_marienburg_1	wh_main_emp_inf_spearmen_0	0	0		false
+43634988	cr_mar_special_settlement_marienburg_2	wh_main_emp_inf_spearmen_0	0	0		false
+43634989	cr_mar_special_settlement_marienburg_3	wh_main_emp_inf_spearmen_0	0	0		false
+43634990	cr_mar_special_settlement_marienburg_4	wh_main_emp_inf_spearmen_0	0	0		false
+43634991	cr_mar_special_settlement_marienburg_5	wh_main_emp_inf_spearmen_0	0	0		false

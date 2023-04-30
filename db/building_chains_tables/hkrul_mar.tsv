@@ -1,0 +1,7 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/hkrul_mar									
+hkrul_mar_suiddock			money	false	hkrul_mar_suiddock		0		true
+hkrul_mar_temple_haeyndrik			money	false	hkrul_mar_temple_haeyndrik		0		true
+hkrul_mar_bechai			money	false	hkrul_mar_bechai		1		true
+hkrul_mar_mundvard_liar			money	false	hkrul_mar_mundvard_liar		0		true
+hkrul_mar_mundvard_marienburg			money	false	hkrul_mar_mundvard_marienburg		0		true

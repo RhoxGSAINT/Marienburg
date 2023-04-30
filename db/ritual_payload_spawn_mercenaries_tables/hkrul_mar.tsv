@@ -1,0 +1,3 @@
+id	payload	spawnable_unit	add_mercenaries_to_performing_faction
+#ritual_payload_spawn_mercenaries_tables;0;db/ritual_payload_spawn_mercenaries_tables/hkrul_mar			
+301994059	hkrul_mar_ritual_rebels	snek_hkrul_mar_ror_landship	false

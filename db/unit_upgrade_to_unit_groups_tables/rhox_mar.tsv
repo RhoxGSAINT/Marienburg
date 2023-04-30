@@ -1,0 +1,4 @@
+upgrade_key	base_unit_group	target_unit_group	resource_cost	required_rank	subtracted_rank
+#unit_upgrade_to_unit_groups_tables;3;db/unit_upgrade_to_unit_groups_tables/rhox_mar					
+rhox_mar_tier0_to_marauder	rhox_mar_tier0	wh3_dlc20_chs_marauder_inf_tze	wh3_dlc20_chs_upgrade_cost_marking	0	0
+rhox_mar_tier1_to_chaoswarrior	rhox_mar_tier1	wh3_dlc20_chs_warriors_tze	wh3_dlc20_chs_upgrade_cost_marking	0	0

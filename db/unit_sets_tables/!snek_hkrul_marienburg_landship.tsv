@@ -1,0 +1,5 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/!snek_hkrul_marienburg_landship				
+mp_set_emp_veh_landship	false	-1	-1	
+snek_mar_landship	false	-1	-1	
+snek_mar_landship_ror	false	-1	-1	

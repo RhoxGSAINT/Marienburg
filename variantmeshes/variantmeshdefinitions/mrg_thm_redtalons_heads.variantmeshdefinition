@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="feather">
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/feather_01/mrg_red_talons_feather_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/feather_02/mrg_red_talons_feather_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/feather_03/mrg_red_talons_feather_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="hat">
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/head_02/mrg_red_talons_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/head_03/mrg_red_talons_head_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="face">
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/face_01/mrg_red_talons_face_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/face_02/mrg_red_talons_face_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/red_talons/face_03/mrg_red_talons_face_03.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

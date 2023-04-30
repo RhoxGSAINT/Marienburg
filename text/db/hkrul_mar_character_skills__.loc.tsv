@@ -1,0 +1,334 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_character_skills__.loc		
+character_skills_localised_description_hkrul_solkan_horse	As a shadow of vengeance rides the Sword of Solkan through the dark streets of Marienburg, some say his horse Phantom is the vengeful image of Solkan himself.	true
+character_skills_localised_description_hkrul_pg_barded_warhorse	The finest steed freshly imported to the City-State of Marienburg.	true
+character_skills_localised_name_hkrul_pg_barded_warhorse	Empire Warhorse	true
+character_skills_localised_name_hkrul_solkan_horse	Phantom	true
+character_skills_localised_name_hkrul_egmond_longma	Kawaru	true
+character_skills_localised_name_innate_hkrul_hendrik	Haeyndrik's Profit	true
+character_skills_localised_name_innate_hkrul_pg	Big Piet	true
+character_skills_localised_name_innate_hkrul_crispijn	The Strutting Cock	true
+character_skills_localised_name_innate_hkrul_guzunda	Pond's Guide	true
+character_skills_localised_name_innate_hkrul_jk	Richest man alive	true
+character_skills_localised_description_innate_hkrul_jk	Old Van de Kuypers does not lead from the front, but instead from the backrooms of the many estates in Marienburg. He leaves the conquering to Emperors, Tsars, Nobles and High-Kings. And what do those all have in common? They all owe money to Jaan van de Kuypers.	true
+character_skills_localised_description_innate_hkrul_guzunda	Guzunda Wallrattler once guided a group of Lizardmen through the Swamps of the Wasteland. Their leader, a Slann named Itzibitzi, set out to settle these swamps.	true
+character_skills_localised_description_innate_hkrul_crispijn	''No one does it better than me! Smuggling, of course. I was talking about smuggling''.	true
+character_skills_localised_description_innate_hkrul_pg	Very few men combine aptitude for business with a talent for swordplay, Pieter is one of them. 	true
+character_skills_localised_description_innate_hkrul_hendrik	"Money, power, and influence—these are my Gods. And Haeyndrik represents all that is money, power, and influence."	true
+character_skills_localised_name_hkrul_jk_special_0	A Lord Provides	true
+character_skills_localised_description_hkrul_jk_special_1_1	Van de Kuypers has interest in all sorts of rarities known to the Old and New World a like. Although no fighter by any means, his expensive exotic and imported equipment would suit that of a revered hero.	true
+character_skills_localised_name_hkrul_jk_special_1_1	Imported Armory	true
+character_skills_localised_description_hkrul_jk_special_1_2	The Stadsraad is the ''democratic'' house of Marienburg. The Stadsraad is the building occupied by the two houses of the Wasteland's parliament. Al though democratic at first glance, it's noticeable Jaan has never lost a vote.	true
+character_skills_localised_name_hkrul_jk_special_1_2	Key to the Stadsraad	true
+character_skills_localised_description_hkrul_jk_special_1_3	During his younger years Jaan has seen his fair share of seas. He was one of the first to explore a trade route with the far new world of Lustria, besting storms and reefs along the way. 	true
+character_skills_localised_name_hkrul_jk_special_1_3	Globetrotter	true
+character_skills_localised_description_hkrul_jk_special_1_4	Marienburg is located in the Wastelands, or ''Low-Lands''. These lands are below sea level. The Vloedmuur, or ''floodwall'', is one of the strongest defense mechanics employed by these Lowlanders. They simple breach a few dams and literally flood their lands. Forcing hostile forces on the retreat, or at the very least a slower advance.	true
+character_skills_localised_name_hkrul_jk_special_1_4	The Vloedmuur	true
+character_skills_localised_description_hkrul_jk_special_2	Marienburg's navy is listest among the most powerful fleets of the world. A common military strategy employed by Marienburg is deploying relatively close to the shoreline. They use their powerful frigates to bombard enemy land forces from the sea. 	true
+character_skills_localised_name_hkrul_jk_special_2	Maritime Deterrence	true
+character_skills_localised_description_hkrul_jk_special_3	The flagship of the Marienburger Navy, the mighty Zegepraal. It's mere sight causes both pirate and privateer to tremble. For Jaan it's just one of the few recently purchased assets for House Van de Kuypers. 	true
+character_skills_localised_name_hkrul_jk_special_3	The Mighty Zegepraal	true
+character_skills_localised_description_hkrul_pg_special_1_0	Suiddock is one of the poorer districts of Marienburg and houses cutthroats, gamblers and dockworkers a like. Pieter was raised among fights and squabble, learning to hold his own with cutlass and dices. 	true
+character_skills_localised_description_hkrul_pg_special_1_1	Not just capable with the sword, Pieter has a taste for wealth, value and business. His posture commands respect amongst the common folk, and they respect his ability to evenly share the loot after battle. Some say this is a mistake, however..  	true
+character_skills_localised_name_hkrul_pg_special_1_0	Champion of Suiddock	true
+character_skills_localised_name_hkrul_pg_special_0_3	Golden Pinions	true
+character_skills_localised_name_hkrul_pg_special_1_1	Loot Gestionnaire	true
+character_skills_localised_description_hkrul_pg_special_1_2	Strompoort is a mighty tower that looks over the River Reik and the maritime gateway of Marienburg. Stacked with powder and metal chains to stop any hostile fleet in it's track. 	true
+character_skills_localised_name_hkrul_pg_special_1_2	Strompoort's Powder	true
+character_skills_localised_description_hkrul_pg_special_2	On the seaward end of Tempelwijk by the entrance to Manaanshaven, Baron Henryk's College of Navigation and Sea Magicks is one of the Old World's premier centres of learning the crafts of seamanship. Pieter learned however, a hook has more functionalities than learned at Baron Henryk's.	true
+character_skills_localised_name_hkrul_pg_special_2	Baron Henryk's Hook	true
+character_skills_localised_description_hkrul_pg_special_3_1	Whenever House Van de Kuypers ship precious cargo, ''Big Piet'' is embedded on board of the various ships to prevent daring thieves, raiders and pirates to interfere with Guild business. Pieter de Groot is known to have never lost any cargo.	true
+character_skills_localised_name_hkrul_pg_special_3_1	Navigator Savvy	true
+character_skills_localised_description_hkrul_pg_special_3_2	Pieter de Groot, commonly named ''Big Piet'', is well over six feet tall and powerfully built. His sandy hair and beard are close-cropped, and his blue eyes look somehow too small for his square face, which is rounded off by a razor-sharp jawline	true
+character_skills_localised_name_hkrul_pg_special_3_2	The One they call Big Piet	true
+character_skills_localised_description_hkrul_pg_special_3_3	Big Piet is the man who upheld the honour of the guild (and the whole Suiddock) in a trial-by-combat against the champion of a Tilean merchant house, as he has bested many champions in these trials before.	true
+character_skills_localised_name_hkrul_pg_special_3_3	Trial-by-Combat	true
+character_skills_localised_name_hkrul_jk_special_2_0	Tradesmen & Diplomat	true
+character_skills_localised_description_hkrul_jk_special_2_0	Gold makes the world go round. Jaan knows how to use wealth to influence diplomacy and geo-politics. He has many friends, yet even more enemies.	true
+character_skills_localised_name_hkrul_jk_special_2_1_1	Averlander Corn	true
+character_skills_localised_description_hkrul_jk_special_2_1_1	A specialty from the rich lands of Averland, the Mad Count Leitdorf offers Jaan a monopoly position when it comes to importing Averlander Corn. The count might be unpredicatable, his corn is worth it's weight in literal gold.	true
+character_skills_localised_name_hkrul_jk_special_2_2_1	Tilean Wine	true
+character_skills_localised_name_hkrul_jk_special_2_1_2	Ostlander Pork	true
+character_skills_localised_description_hkrul_jk_special_2_2_1	The finest wines hail from the Southern Lands of Tilea. Although Jaan often calls Miragliano the poor man's Marienburg, it is undisputably important to establish a position within it's complex market.	true
+character_skills_localised_description_hkrul_jk_special_2_1_2	Ostlander pork belly is not only Jaan's favorite, it's also distinguishly exported by Osterlander Elector Count Von Raukov. Not just a valuable trade opportunity, Osterland would also account for a powerful military ally in Marienburg's expansionistic views.	true
+character_skills_localised_name_hkrul_jk_special_2_2_2	Estalian Cloth	true
+character_skills_localised_description_hkrul_jk_special_2_2_2	Exotic cloths in lavish colours hailing from the distant lands of Estalia, perfectly suitable for Marienburger upper class citizens. Opening up trade with these rich lands opens up new venues of business opportunities.	true
+character_skills_localised_name_hkrul_jk_special_2_3_1	Kislevite Furs	true
+character_skills_localised_description_hkrul_jk_special_2_3_1	Ever since the Great Orthodoxy took rule over the former trade hub that is Erengrad there is less room for the open-market. Many traders from these cold lands could be persuaded to settle in Marienburg, making this shift of power beneficial.	true
+character_skills_localised_name_hkrul_jk_special_2_3_2	Norscan Pelts	true
+character_skills_localised_description_hkrul_jk_special_2_3_2	Trading with Norscan tribes is considered controversial and non-ethical by most, as one can never ask too many questions as to how these products are aquired. For Jaan they represent nothing but opportunities. 	true
+character_skills_localised_name_hkrul_jk_special_2_4	Global Web of Commerce	true
+character_skills_localised_description_hkrul_jk_special_2_4	In all four corners, the business of Marienburg is.. Business.	true
+character_skills_localised_name_hkrul_jk_special_0_3	Mare Liberum	true
+character_skills_localised_name_hkrul_jk_special_0_4	House Van de Kuypers	true
+character_skills_localised_description_hkrul_jk_special_0_3	The seas are governed by none. Mare Liberum is the declaration of the free seas, which is nothing more than a excuse to act without the boundaries known as laws and ethics.	true
+character_skills_localised_description_hkrul_jk_special_0_4	The van de Kuypers are by far the richest and most powerful of the Ten Great Families of Marienburg. Clawing their way to power before Marienburg's independence through sharp, brutal business dealings. They are the true leaders of the Directorate: through their web of clients and contacts, they commands a block of eight votes.	true
+character_skills_localised_name_hkrul_jk_special_0_2	Expanded Hulls	true
+character_skills_localised_description_hkrul_jk_special_0_2	A new technology in ship building, invented by the ship builders of Marienburg, is to create deeper hulls without the loss of manoeuvrability or speed. This allows the Merchant fleet of Marienburg to carry more cargo. 	true
+character_skills_localised_name_hkrul_jk_special_0_1	Guild Taxes	true
+character_skills_localised_description_hkrul_jk_special_0_1	There is no more complex tax-system in the Old World than that employed by the Marienburger Directorate. It is so complex even, that there are only a handful of people that understand its working. Van de Kuypers is one of them.	true
+character_skills_localised_name_hkrul_jk_special_0_5	Political Warfare	true
+character_skills_localised_name_hkrul_jk_special_1_0	Artisan Economy	true
+character_skills_localised_description_hkrul_jk_special_0_5	''What has Marienburg to gain with a war with Reikland? Nothing. What has Marienburg to gain with a weakened Reikland? Everything.''	true
+character_skills_localised_description_hkrul_jk_special_1_0	There is no trade without tradeable produce. In order to build a thriving and buzzling empire of trade, one needs to master the art of production. Artisans out of Marienburg have expertly learned how to standardize and perfectionize their craft.	true
+character_skills_localised_description_hkrul_hendrik_special_1_0	People pray to Haeyndrik to bless their transactions, binding all parties to their agreements, even if that agreements forces them to lower arms.	true
+character_skills_localised_description_hkrul_hendrik_special_0_3	At the end of a narrow alley off the street that runs behind the warehouses is a large but unobtrusive hostelry called the Pelican's Perch. There you shall find Simon Goudenkruin, praying on the greedy and ambitious. Taking large sums to offer his financial ''advices''. 	true
+character_skills_localised_description_hkrul_hendrik_special_0_2	Simon requires no aid to judge the worth of a commodity, it comes as natural as breathing to him. 	true
+character_skills_localised_description_hkrul_hendrik_special_0_1	''You can mock me with fakery, Peasant? I can smell carat in Gold bars and Jewelry from miles!''	true
+character_skills_localised_description_hkrul_hendrik_special_1_1	''No no no.. You're doing it all wrong. It's all about the right diversion between wealth and property tax. Here, let me help''. 	true
+character_skills_localised_description_hkrul_hendrik_special_1_2	''No no no.. You're doing it all wrong. It's all about the right diversion between wealth and property tax. Here, let me help''. 	true
+character_skills_localised_description_hkrul_hendrik_special_1_3	Goudenkruin always strolls with the most exotic and fine wares available. Lords and heroes looking to keep up with the latest Cathayan trends tend to take note when Simon uses his contacts. 	true
+character_skills_localised_description_hkrul_hendrik_special_2_0	Simon pleads with his God to make sure that there will be a local merchant willing to deal with him. The prospect of profit envigorates his devotees.	true
+character_skills_localised_description_hkrul_hendrik_special_2_1	Every city that houses a temple of Haeyndrik prospers. Or every Temple of Haeyndriks prospers.. One or the other. 	true
+character_skills_localised_description_hkrul_hendrik_special_2_2	Finding a good deal is not just talent, it's much like a sixth sense.	true
+character_skills_localised_description_hkrul_hendrik_special_2_3	The most susceptible for Haeyndrik's appeal are those ambitious of power, money and influence. They would offer their gold to the power of wealth for the chance alone of seeing it doubled. One of his loyal devotees is Pieter de Groot, who aspires to become the richest known to man one day.	true
+character_skills_localised_description_hkrul_hendrik_special_3_0	Prayers cause Goudenkruin's competitors and allies to speak well of him. All characters within range talk well of their past dealings with him, no matter how bad they may have been. It allows him to speak with the tongue of Haenydrik himself, drowning enemies in gold and coin with the mere words he speaks.	true
+character_skills_localised_name_hkrul_hendrik_special_0_1	Simon's Spy Glass	true
+character_skills_localised_name_hkrul_hendrik_special_0_2	Eye for Profit	true
+character_skills_localised_name_hkrul_hendrik_special_0_3	Pelican's Perch	true
+character_skills_localised_name_hkrul_hendrik_special_0_4	Haeyndrik's Golden Eggs	true
+character_skills_localised_name_hkrul_hendrik_special_1_0	Prayer to Haeyndrik	true
+character_skills_localised_name_hkrul_hendrik_special_1_1	Tax Exemption	true
+character_skills_localised_name_hkrul_hendrik_special_1_2	Tax Exemption	true
+character_skills_localised_name_hkrul_hendrik_special_1_3	Wasteland Import-Export Exchange	true
+character_skills_localised_name_hkrul_hendrik_special_2_0	Burgher Acquisition	true
+character_skills_localised_name_hkrul_hendrik_special_2_1	Temple of Haeyndrik	true
+character_skills_localised_name_hkrul_hendrik_special_2_2	Eye for Profit	true
+character_skills_localised_name_hkrul_hendrik_special_2_3	Bought Loyalty	true
+character_skills_localised_name_hkrul_hendrik_special_3_0	Word of Mouth	true
+character_skills_localised_name_hkrul_pg_special_0_2	Marienburg Murderers	true
+character_skills_localised_description_hkrul_pg_special_0_2	The Van Klumpf's buccanneers are known as the Marienburg murderers, for their ruthless tactics and murderous prowess. They are feared amongst enemy and allies a like. Their behaviour unpredicatble, their skill undisputed.	true
+character_skills_localised_name_hkrul_pg_special_0_1	Sartosan Mercenaries	true
+character_skills_localised_description_hkrul_pg_special_0_1	These men are attracted by the prospect of riches and wealth and would fight under any banner. Exactly the type of men to fight for Marienburg, all they need is a firm hand.	true
+character_skills_localised_name_hkrul_pg_special_0_4	Merchant Guild Baggage-Train	true
+character_skills_localised_description_hkrul_pg_special_0_3	The Golden Pinions flock to wealth like flies flock around a corpse. The promise is wealth is their obession. This makes them a perfectly suitable core for a Van der Kuyper mercenary army. Their golden armor would suggest a capable force in combat, however most of it is stolen and their member comprised of former bandits and militia leaders.	true
+character_skills_localised_description_hkrul_pg_special_0_4	There are two theories as to why these men are present on the battlefield. One is that van de Kuypers has soo much wealth, it is too much to store. The other and more plausible however, is that Jaan has grown so paranoid he never leaves his wealth out of his sight. 	true
+character_skills_localised_name_hkrul_jk_special_0_6	The Game of Thrones	true
+character_skills_localised_description_hkrul_jk_special_0_6	''The Golden Rule of business: Never let a good opportunity go to waste. With a weakened Reikland, we could enforce our taxes along the River Reik and perhaps, maybe, throughout the entire Empire..''.	true
+character_skills_localised_name_hkrul_hendrik_special_4_0	Peddlers Luck	true
+character_skills_localised_description_hkrul_hendrik_special_4_0	Goudenkruin would often mutter prayers to the Merchant God and every transaction seems to go your way. This luck translates to the battlefield, where blows simply brush off the Arch-Priest	true
+character_skills_localised_name_hkrul_pg_mount_barded_warhorse	Empire Warhorse	true
+character_skills_localised_description_hkrul_pg_mount_barded_warhorse	The finest steed freshly imported to the City-State of Marienburg.	true
+character_skills_localised_name_hkrul_jk_mount_barded_warhorse	Imported Kislevite Noble Steed	true
+character_skills_localised_description_hkrul_jk_mount_barded_warhorse	This horse was a gift from Kislevite Nobles with outstanding debts to the Van de Kuypers. It is rumoured the drabes that decorate this fine horse alone cost over a fortune. Intended or not, it's a sight to be hold that inspires friendly troops.	true
+character_skills_localised_name_hkrul_hendrik_mount_barded_warhorse	Empire Warhorse	true
+character_skills_localised_description_hkrul_hendrik_mount_barded_warhorse	The finest steed freshly imported to the City-State of Marienburg.	true
+character_skills_localised_name_hkrul_jk_special_0_7	Marienburg Finery	true
+character_skills_localised_description_hkrul_jk_special_0_7	Only the finest wares for men who serve the Van de Kuypers. They lavish on wine from the far corners of the Old World and Jaan will always combine his travels with accumulating more oddities, rarities and antiquities.	true
+character_skills_localised_name_hkrul_jk_special_3_0_1	Goudberg Estate	true
+character_skills_localised_description_hkrul_jk_special_3_0_1	Jaan despises the thought of long expeditions or hard fought battles at his age. He knows where best to serve his purpose. Not in some far away land but instead right below the New Palace, in the heart of the rich Marienburg district known as Goudberg, in the lavish manor of House Van de Kuypers. It is there where Jaan is most effective, controlling his global web of relations. In his villa wuth Tilean fluted columns and Nulner statues of Winged Victory mingled with gargoyles and faux-battlements from the time of the War of Independence. It is there where lies the true heart of his power.  	true
+character_skills_localised_name_innate_hkrul_solkan	Spirit of Vengeance	true
+character_skills_localised_description_innate_hkrul_solkan	Of the Cult of Solkan is the Sword that battles Chaos, The Sword of Solkan is it's sharpest tip.	true
+character_skills_localised_description_hkrul_solkan_special_1_0	As Solkan's agent calls out the heretic, he inflicts the retribution of the Gods of Law on those who offend them. The eyesless gaze of Solkan fixed on the transgressor.	true
+character_skills_localised_description_hkrul_solkan_special_1_1	One of Solkan's symbols is the golden fist. Displaying both Solkan's wrathful and pure nature.	true
+character_skills_localised_name_hkrul_solkan_special_1_0	Cloaked Spirit of Solkan	true
+character_skills_localised_name_hkrul_solkan_special_0_3	The Ties that Bound	true
+character_skills_localised_name_hkrul_solkan_special_1_1	Golden Fist of Purity	true
+character_skills_localised_description_hkrul_solkan_special_1_2	The Liber Flamma Purgatio is a vital relic among the Cult of Solkan's acolytes. It is said to hold secrets instrumental in the fight against chaos, and many of chaos cultist has attempted to snatch it from the cult's watchful gaze.	true
+character_skills_localised_name_hkrul_solkan_special_1_2	Liber Flamma Purgatio	true
+character_skills_localised_description_hkrul_solkan_special_2	Anonymous yet extremely wealthy sponsors enable the Sword to perform his actions. His sponsors count themselves true Marienburger aristocrats. Rooting for his cause.	true
+character_skills_localised_name_hkrul_solkan_special_2	Anonymous Beneficiaries	true
+character_skills_localised_description_hkrul_solkan_special_3_1	The Order of the Shattered Amulet is a minor order part of the cult of Solkan, they are devote to restoring the most profound artifact of Solkan's lore, his amulet. Their quest has lead them to the Wasteland for reasons unknown.	true
+character_skills_localised_name_hkrul_solkan_special_3_1	The Amulet Shattered	true
+character_skills_localised_description_hkrul_solkan_special_3_2	Not only extremely skilled with his greatsword, the Sword of Solkan fights with a certain uncanning determination, giving him the edge against many of foe.	true
+character_skills_localised_name_hkrul_solkan_special_3_2	Foil of Imminent Justice	true
+character_skills_localised_description_hkrul_solkan_special_3_3	None can outrun Solkan's judgement, as in time all shall fall under his merciless gaze. Fleeing is only postponing the inevatible.	true
+character_skills_localised_name_hkrul_solkan_special_3_3	Scales of Righteousness	true
+character_skills_localised_name_hkrul_solkan_special_0_2	Black Cap Contracts	true
+character_skills_localised_description_hkrul_solkan_special_0_2	The Sword of Solkan relies on intelligence provided by the Black Caps, as the night's watch secretly shares their assumptions when they suspect the worship of Chaos.	true
+character_skills_localised_name_hkrul_solkan_special_0_1	Solkan's Agents	true
+character_skills_localised_description_hkrul_solkan_special_0_1	Acting from the shadows, the agents of Solkan are the eyes and ears of the cult. Secretly operating throughout the entire Empire in their crusade against evil.	true
+character_skills_localised_description_hkrul_solkan_special_0_3	Not one living soul knows the true identity of the Sword of Solkan, but many speculate he must be a member of one of the most influential families. Perhaps even the most influential one. As he permits himself access to places unaccessable to others. 	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_former-artillery-officer	Former Artillery Officer	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_former-artillery-officer	This Merchant Lord has served, or better said - has connections that served, as artillery officers in the State Army. That has it's perks.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_norscan_heritage	Norscan Heritage	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_norscan_heritage	It is not uncommon that Norscan tribes cross over with the Empiric provincies situated North of the Empire. Like the Bjornling tribe, who openly trade and migrate with Marienburg.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_griffon-whisperer	Griffon Whisperer	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_griffon-whisperer	The State Navy is protected by flocks of Huge Seagull like Griffon Riders, they are expensive yet loyal.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_ogre-ally	Ogre Ally	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_ogre-ally	This Merchant Lord knows keeping Ogres in check is not as hard as people say: Keep them fed and pay them well.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_eastern-idealist	Eastern Idealist	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_eastern-idealist	This Merchant Lord has traded not just along the Gilded Route, but the Ivory Road all the same. 	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_cavalry	Master Cavalry Commander	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_cavalry	Not all horses appreciate long trips a board merchant vessels, but the ones that don't mind are usually the most hardened horses out there.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_gunner	Master Gunner	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_gunner	This Merchant Lord has had much experience trading within the City of Nuln, where the finest gunpowder is tradeable.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_aristocratic	Aristocratic	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_aristocratic	Mixed heritage with old Westerlandic Nobility, the aristocrats of Marienburg relish at the thought of times of old.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_manann_zealot	Manann Zealot	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_manann_zealot	Manann decides if we make it to our destination or not, nothing else. Manann is the wind, the tide and the waves. Pray he is lenient.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_solkan_zealot	Solkan Zealot	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_solkan_zealot	Along the various trade stops made by the convoy's one finds the most despicable abominations, ripe for Solkan's vengeance.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_elf-ally	Elf Ally	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_elf-ally	The Elves of Elfsgemeente have a fair deal of influence on Marienburger trade, although without a seat at the directorate's table.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_dwarf-ally	Dwarf Ally	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_dwarf-ally	House Fooger is one of the oldest and most influentual Merchant Families of the Wasteland, their convoys often protected by Dwarf brethren.	true
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_reformed_criminal	Erengrad Trader	true
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_reformed_criminal	When business is slow in Erengrad, many traders migrate to Marienburg in search of better opportunities	true
+character_skills_localised_name_hkrul_hendrik_pegasus	Goldilock	true
+character_skills_localised_description_hkrul_hendrik_pegasus	Goldilock is the personal companion of the Arch-Priest of Haeyndrik, it's rider is said to be forever lucky in his endeavors.	true
+character_skills_localised_description_hkrul_caravan_lord_special_1_0	There is always room for a little more cargo, especially if carried by the famous Guild's Baggage-Train.\\n\\n[[col:red]]Warning: Your unit with the lowest value will be replaced with Merchant Baggage train if this army has no space for them.[[/col]]	true
+character_skills_localised_name_hkrul_caravan_lord_special_1_0	Baggage-Train	true
+character_skills_localised_description_hkrul_caravan_lord_special_1_1	Keeping the Convoy fit and happy is vital for success among the Gilded Route.	true
+character_skills_localised_name_hkrul_caravan_lord_special_1_1	Rest and Recreation	true
+character_skills_localised_description_hkrul_caravan_lord_special_1_2	Pay? Upkeep? Focus on the journey, the adventure. Is that not pay enough?	true
+character_skills_localised_name_hkrul_caravan_lord_special_1_2	Shrewd Paymaster	true
+character_skills_localised_description_hkrul_caravan_lord_special_1_3	If bandits take a unfortunate swing at the convoy, good equipment might be the difference between life and death.	true
+character_skills_localised_name_hkrul_caravan_lord_special_1_3	Generous Outfitter	true
+character_skills_localised_description_hkrul_caravan_lord_special_1_4	This Lord has gone to Reikland to follow several courses on the Reiksacademy, as with all threats along the route the Lords are as much Merchant as they are General.	true
+character_skills_localised_name_hkrul_caravan_lord_special_1_4	Imperial Teachings	true
+character_skills_localised_description_hkrul_caravan_lord_special_0_1	Having travelled the Gilded route for so long, the Merchant Lord's know where to take short cuts	true
+character_skills_localised_name_hkrul_caravan_lord_special_0_1	Experienced Navigator	true
+character_skills_localised_description_hkrul_caravan_lord_special_0_2	Did you declare everything at the Secretariat of Trade Equity? But of course, no need to double check the hull.	true
+character_skills_localised_name_hkrul_caravan_lord_special_0_2	Revered Smuggler	true
+character_skills_localised_description_hkrul_caravan_lord_horse	The finest steed freshly imported to the City-State of Marienburg.	true
+character_skills_localised_name_hkrul_caravan_lord_horse	Marienburg Steed	true
+character_skills_localised_description_hkrul_mar_haeyndrik_shield	The god of money, wealth and power protects it's patrons with a shield of coins.	true
+character_skills_localised_name_hkrul_mar_haeyndrik_shield	Haeyndrik's Shield	true
+character_skills_localised_description_hkrul_mar_solkan_blessing	He who is blessed by the God of Law fears only his wrathful gaze	true
+character_skills_localised_name_hkrul_mar_solkan_blessing	Solkan's Blessing	true
+character_skills_localised_name_hkrul_egmond_0_1	Lore of Tsien-Tsin	true
+character_skills_localised_name_hkrul_egmond_0_2	Feathers of Conversion	true
+character_skills_localised_name_hkrul_egmond_1_0	Renowned Jewelers	true
+character_skills_localised_name_hkrul_egmond_1_1	Alchemical Linchpin	true
+character_skills_localised_name_hkrul_egmond_1_2	Eastern Oddities	true
+character_skills_localised_name_hkrul_egmond_1_3	Art of Warfare	true
+character_skills_localised_name_hkrul_egmond_2_0	Orange Simca's Blessing	true
+character_skills_localised_name_hkrul_egmond_2_1	Handelaarsmarkt	true
+character_skills_localised_name_hkrul_egmond_2_2	Brew of the Divine Sun	true
+character_skills_localised_description_hkrul_egmond_0_1	Those who give in to Tsien-Tsin's call unlock the secrets of their future.	true
+character_skills_localised_description_hkrul_egmond_0_2	Tsien-Tsin's mutations are slow, starting with subtle colourful feathers growing from it's worshippers arms and legs. It's the start of a much more grander conversion.	true
+character_skills_localised_description_hkrul_egmond_1_0	The Den Euwe family is specialized in the jewelry trade. Having more expertise on gem value than most Dwarven holds.	true
+character_skills_localised_description_hkrul_egmond_1_1	Egmond is a talented alchemist, learning mixing potions and ingredients from a very young age on the buzzling market of Marienburg's Potion Square.	true
+character_skills_localised_description_hkrul_egmond_1_2	No other house has more connections in Cathay as House Den Euwe, having longstanding relations with merchants from Hanyu to Beichai. The result is a steady stream of valueable Eastern Oddities.	true
+character_skills_localised_description_hkrul_egmond_1_3	Adventuring from a very young age Egmond has more fighting experience as his looks might suggest.	true
+character_skills_localised_description_hkrul_egmond_2_0	Nipponese Nobles often pay tribute to their mythical God Orange Simca by offering it the colourfully painted skulls of their own ancestors. The more frivolous, the more boons.	true
+character_skills_localised_description_hkrul_egmond_2_1	House Den Euwe has it's headquarters on the Handelaarsmarkt in Marienburg, their influence there is rivalled only by the Van de Kuypers.	true
+character_skills_localised_description_hkrul_egmond_2_2	Den Euwe's are famed alchemists, brewing diverse potions with all sorts of effects. Faith will have it this particular batch will change you forever.	true
+character_skills_localised_name_hkrul_mar_innate_egmond	Den Euwe's Pride	true
+character_skills_localised_description_hkrul_mar_innate_egmond	Young, ambitious, gifted with magic and talented with words. Egmond is ready to sail the four corners and establish his family name, among other things he seeks to establish.	true
+character_skills_localised_description_hkrul_egmond_tze_magic_tzeentch_01_blue_fire_of_tzeentch_lord	Give in to change as one is submerged by Tsien-Tsin's fire.	true
+character_skills_localised_name_hkrul_egmond_tze_magic_tzeentch_01_blue_fire_of_tzeentch_lord	Blue fire of Tsien-Tsin	true
+character_skills_localised_description_hkrul_egmond_tze_magic_tzeentch_04_treason_of_tzeentch_lord	Once Tsien-Tsin's secrets are unlocked one is truly liberated.	true
+character_skills_localised_name_hkrul_egmond_tze_magic_tzeentch_04_treason_of_tzeentch_lord	Change is Freedom	true
+character_skills_localised_name_hkrul_egmond_tze_magic_tzeentch_06_tzeentchs_firestorm_lord	Tsien-Tsin's Storm	true
+character_skills_localised_description_hkrul_egmond_tze_magic_tzeentch_06_tzeentchs_firestorm_lord	Blistering balls of scarlet flame emanate from the spellcaster to engulf the foe in deadly balefire.	true
+character_skills_localised_description_hkrul_mar_egmond_horse	The finest steed freshly imported to the City-State of Marienburg.	true
+character_skills_localised_name_hkrul_mar_egmond_horse	Empire Warhorse	true
+character_skills_localised_description_hkrul_egmond_longma	Gifted by a rather mysterious trader, Kawaru is Egmond's personal guardian and longma.	true
+character_skills_localised_name_hkrul_mar_mundvard_beast	Beast of Suiddock	true
+character_skills_localised_description_hkrul_mar_mundvard_beast	For years the grisly murders that haunted the dockyards of Marienburg were ascribed to a figure nicknamed the Suiddock Beast. Mundvard's Pet terrorgheist.	true
+character_skills_localised_name_hkrul_hendrik_special_0_5	The Capital Defended	true
+character_skills_localised_name_hkrul_hendrik_special_0_6	Patron of De Teuling	true
+character_skills_localised_description_hkrul_hendrik_special_0_6	De Teuling was one of the first merchants known to the Old World and a Saint for the Cult, these cavalry warriors bare her name - long may it live on.	true
+character_skills_localised_description_hkrul_hendrik_special_0_5	The Cult of Haeyndrik has no official knightly order, yet nothing comes as close as the Defenders of the Capital. A group of convoy guardians dating back from the times of Saint De Teuling.	true
+character_skills_localised_name_hkrul_crispijn_special_1_0	Smuggler's Reserve	true
+character_skills_localised_name_hkrul_crispijn_special_1_1	Shortcut Maestro	true
+character_skills_localised_name_hkrul_crispijn_special_1_2	Contraband Abundance	true
+character_skills_localised_name_hkrul_crispijn_special_1_3	Goudberg Gladiator	true
+character_skills_localised_name_hkrul_crispijn_special_2_0	Van Haagen's Tradition	true
+character_skills_localised_name_hkrul_crispijn_special_0_1	Zijdemarkt	true
+character_skills_localised_description_hkrul_crispijn_special_1_0	Learning the art of smuggling on the duicks of Suiddock, Crispijn has some tricks to share.	true
+character_skills_localised_description_hkrul_crispijn_special_1_1	How I got in Port Reaver? Simple, just a few quick short cuts I used en route.	true
+character_skills_localised_description_hkrul_crispijn_special_1_2	What's the point of smuggling if you can't hide some of the good stuff in a few secret compartments.	true
+character_skills_localised_description_hkrul_crispijn_special_1_3	Crispijn holds his own in the gruesome barfights on the streets of Suiddock. Being one of the few nobles to openly partake in streetfights, hence people call him the Goudberg Gladiator.	true
+character_skills_localised_description_hkrul_crispijn_special_2_0	House Van Haagen is far more wealthier as their legal trade share suggests. The reason is their huge part in Marienburg's smuggling ring.	true
+character_skills_localised_description_hkrul_crispijn_special_0_1	House Van Haagen has their biggest influence in the Zijdemarkt district, rivalled only by the Van de Kuypers.	true
+character_skills_localised_name_hkrul_guzunda_special_1_0	Cart Commander	true
+character_skills_localised_name_hkrul_guzunda_special_1_1	Masters of the Pond	true
+character_skills_localised_name_hkrul_guzunda_special_1_2	Eye of the Magpie	true
+character_skills_localised_name_hkrul_guzunda_special_1_3	Wasteland's Battery	true
+character_skills_localised_name_hkrul_guzunda_special_2_0	Bejeweled Telescope	true
+character_skills_localised_name_hkrul_guzunda_special_0_1	Fooger's Backing	true
+character_skills_localised_description_hkrul_guzunda_special_1_0	As a young Dwarf Guzunda started out working in the mines, hauling precious gems and other oddities with the various sturdy carts.	true
+character_skills_localised_description_hkrul_guzunda_special_1_1	Guzunda has a odd warm relationship with the Lizardmen, guiding them across the Wasteland's marshes for nothing but a few pints of ale.	true
+character_skills_localised_description_hkrul_guzunda_special_1_2	The ability to sniff out precious gems is like a sixth sense for the Dwarven race.	true
+character_skills_localised_description_hkrul_guzunda_special_1_3	There's nothing like the sight of a few Zhufbar pounders hitting their mark.	true
+character_skills_localised_description_hkrul_guzunda_special_2_0	Wallrattler is the ultimate guide, unmoved by the dangers of the Wasteland he can guide people to the most forgotten places of the Low-Lands.	true
+character_skills_localised_description_hkrul_guzunda_special_0_1	As all Dwarfs in Marienburg, Guzunda is on Clan Fooger's pay roll. A clan with aspirations for greatness, some day.	true
+character_skills_localised_name_hkrul_alicia_special_1_0	Mirror on the Wall	true
+character_skills_localised_name_hkrul_alicia_special_1_1	Tools of Truth Finding	true
+character_skills_localised_name_hkrul_alicia_special_1_2	Walk Among Nobility	true
+character_skills_localised_name_hkrul_alicia_special_1_3	Monkshood Bouquet	true
+character_skills_localised_name_hkrul_alicia_special_2_0	Her Master's Voice	true
+character_skills_localised_name_innate_hkrul_alicia	Consort of Shadows	true
+character_skills_localised_description_hkrul_alicia_special_1_0	Mirror, mirror on the wall - who is the farest of them all?	true
+character_skills_localised_description_hkrul_alicia_special_1_1	In the Wasteland's criminal circuit nothing is more precious than information. Alicia has just the rights tools to extract information, from anything - or anyone.	true
+character_skills_localised_description_hkrul_alicia_special_1_2	Alicia often disguises herself and infiltrates the Goudberg Estates, it has learned her the decorum needed to blend in with Marienburg's aristocracy.	true
+character_skills_localised_description_hkrul_alicia_special_1_3	Monkshood is as pretty on the outside as it is poisonous on the inside. A sniff of it's pollen might render any man immobilized - or worse.	true
+character_skills_localised_description_hkrul_alicia_special_2_0	Alicia has served the Lord of Shadows for centuries, willing to give her life for him - even in death.	true
+character_skills_localised_description_innate_hkrul_alicia	Nimble, ferocious and as charming as she is deadly, Alicia von Unterwald is the Consort of Shadows, Mundvard's right hand.	true
+character_skills_localised_name_hkrul_mundvard_special_1_0	Grip of Immorality	true
+character_skills_localised_name_hkrul_mundvard_special_1_1	Impermeable Shadow	true
+character_skills_localised_name_hkrul_mundvard_special_1_2	Toast to Nepotism	true
+character_skills_localised_name_hkrul_mundvard_special_1_3	Lore of W'soran	true
+character_skills_localised_name_hkrul_mundvard_special_2_0	Ten Silverlings	true
+character_skills_localised_name_hkrul_mar_mundvard_innate	Master of Shadows	true
+character_skills_localised_description_hkrul_mundvard_special_1_0	For centuries Mundvard has ruled the underworld of the Wasteland. Calculating, plotting and consolidating immense power and wealth.	true
+character_skills_localised_description_hkrul_mundvard_special_1_1	Mundvard moves softly, fights slippery and treads elusive. Still the veins running through his wing are coursing with dark magic, making it harder than the thickest stone.	true
+character_skills_localised_description_hkrul_mundvard_special_1_2	If the great merchant families that hold a seat in the directorate where not so busy squabbling amongst themselves, Mundvard might not have risen to such power. Profiting from Marienburg's corrupt nepotism at each step of the way.	true
+character_skills_localised_description_hkrul_mundvard_special_1_3	Mundvard is ancient, even amongst vampires - still devotely following the teachigns of W'soran the Wicked, the Father of Vampires. Awaiting Nagash's return with everlasting patience.	true
+character_skills_localised_description_hkrul_mundvard_special_2_0	If magic, bloodlust and evasiveness fails - there is always the irresistible smell of gold. Humans flock around it like flies flock around a dead corpse. They turn on each other in a flash at the mere sight of silver, it's quite the sight.	true
+character_skills_localised_description_hkrul_mar_mundvard_innate	He is Mundvard, Lord of Shadows, ruler of the underground and scourge of the Wasteland.	true
+character_skills_localised_name_innate_hkrul_lisette	Guild's Enforcer	true
+character_skills_localised_name_hkrul_lisette_special_1_0	Suiddock's Straight Razor	true
+character_skills_localised_name_hkrul_lisette_special_1_1	Stevedore's Trickery	true
+character_skills_localised_name_hkrul_lisette_special_1_2	Poisonous Attire	true
+character_skills_localised_name_hkrul_lisette_special_1_3	Leather Trafficker	true
+character_skills_localised_name_hkrul_lisette_special_2_0	Midnighter's Gift	true
+character_skills_localised_name_hkrul_lisette_special_0_1	Walk through the Fog	true
+character_skills_localised_description_innate_hkrul_lisette	''What makes the Thievies guild a disciplined organization instead of thieving rabble? Simple, Lisette Leerer''.	true
+character_skills_localised_description_hkrul_lisette_special_1_0	In Suiddock she's known as the Guild's Razor, a tool she frequently uses on those with the guts to make a move on her.	true
+character_skills_localised_description_hkrul_lisette_special_1_1	Trafficking goods untaxed in and out of Suiddock is vital in the Guild's success.	true
+character_skills_localised_description_hkrul_lisette_special_1_2	She sells potions and goods as a front one of the buzzling markets of Marienburg, skimming batches of poison as a side hustle.	true
+character_skills_localised_description_hkrul_lisette_special_1_3	The Leather business is much more profitable as one would imagine. It's easy to get your hands on, as you can harvest it from a lot more than just cattle.	true
+character_skills_localised_description_hkrul_lisette_special_2_0	Finding the weakspots of equipment is just like cracking a safe, and Lisette has plenty of experience doing just that.	true
+character_skills_localised_description_hkrul_lisette_special_0_1	If the Staatholder's Fog Walkers would be nearly as effective as Lisette Leerer when it comes to remaining unseen, Marienburg would be in a much different place.	true
+character_skills_localised_name_innate_hkrul_cross	Pride of Aeryn	false
+character_skills_localised_name_hkrul_cross_special_1_0	Pioneer of the New world	false
+character_skills_localised_name_hkrul_cross_special_1_1	Flamboyant Adventurer	false
+character_skills_localised_name_hkrul_cross_special_1_2	Tales of the Savonarola	false
+character_skills_localised_name_hkrul_cross_special_1_3	Asur's Special	false
+character_skills_localised_name_hkrul_cross_special_2_0	Sailor's Knot	false
+character_skills_localised_name_hkrul_cross_special_0_1	Lothern's Agenda	false
+character_skills_localised_description_innate_hkrul_cross	Daefvid originally hails from the mysterious Isle of Aeryn, where the finest Sailors among Elves are raised.	false
+character_skills_localised_description_hkrul_cross_special_1_0	No waters uncharted, no river not crossed - Maicross can sail you anywhere on any map.	false
+character_skills_localised_description_hkrul_cross_special_1_1	He is infamous in taverns from Port Reaver to Beichai, Captain Daefvid is one of those adventurers bards sing their tales about. Or so he expects.	false
+character_skills_localised_description_hkrul_cross_special_1_2	None has the verbal and retorical skill to tell the story of the Savonarola as Maefcross, a story of riches lost on a unfindable island, yet ripe for the taking for those who know where to look.	false
+character_skills_localised_description_hkrul_cross_special_1_3	Asurian cuisance is otherwordly, and a very effective way to keep morale high. It has made Daefvid a welcome sight to any crew he sailed with. 	false
+character_skills_localised_description_hkrul_cross_special_2_0	A board the Black Dove Captain Maicross would often tighten the knots himself, trusting his abilities to shore up even a crashed Landship with a few simple knots.	false
+character_skills_localised_description_hkrul_cross_special_0_1	Under the cover of his flamboyance, this dashing Captain hides a more serious layer. As he too often seen entering the Lothern Embassy in the Elfsgemeente.	false
+character_skills_localised_name_hkrul_jaan_special_4_0	Goudberg Estate	false
+character_skills_localised_name_hkrul_jaan_special_4_1	Guild's Liege Lord	false
+character_skills_localised_name_hkrul_jaan_special_4_2	Nuln Imports	false
+character_skills_localised_name_hkrul_jaan_special_4_3	Strompoort's Investor	false
+character_skills_localised_name_hkrul_jaan_special_4_4	Meddling with the Masons	false
+character_skills_localised_name_hkrul_jaan_special_4_5	State Army's Benefactor	false
+character_skills_localised_name_hkrul_jaan_special_4_6	Bridges, Dams and Delta's	false
+character_skills_localised_name_hkrul_jaan_special_4_7	Verena and the Great Library	false
+character_skills_localised_name_hkrul_jaan_special_4_8	Jaan's Stable	false
+character_skills_localised_name_hkrul_jaan_special_4_9	Major Shareholder	false
+character_skills_localised_name_hkrul_jaan_special_4_10	Bread and Games	false
+character_skills_localised_name_hkrul_jaan_special_4_11	Global Importeur	false
+character_skills_localised_name_hkrul_jaan_special_4_12	House Van de Kuypers	false
+character_skills_localised_description_hkrul_jaan_special_4_0	Jaan despises the thought of long expeditions or hard fought battles at his age. He knows where best to serve his purpose. Not in some far away land but instead right below the New Palace, in the heart of the rich Marienburg district known as Goudberg, in the lavish manor of House Van de Kuypers. It is there where Jaan is most effective, controlling his global web of relations. In his villa wuth Tilean fluted columns and Nulner statues of Winged Victory mingled with gargoyles and faux-battlements from the time of the War of Independence. It is there where lies the true heart of his power.\\n\\n[[col:red]][[i]]Note: All the bonusses unlocked in this skill line only apply when Jaan is garrisoned in Marienburg.[[/i]][[/col]]  	false
+character_skills_localised_description_hkrul_jaan_special_4_1	How independent are the Merchants of Marienburg truly if not one of them can strike a bargain without Van de Kuyper's blessing?	false
+character_skills_localised_description_hkrul_jaan_special_4_2	From his Goudberg Estate, Jaan maintains close relations with Countess Von Liebwitz. Not just because of her aptitude for trade, no - mostly because of the prodcut her State specializes in: Armaments.	false
+character_skills_localised_description_hkrul_jaan_special_4_3	Paranoid as he is, Jaan insists the Strompoort to be occupied by double shifts when he is present in the City.	false
+character_skills_localised_description_hkrul_jaan_special_4_4	Jaan's grandeur vision of Marienburg stands and falls by the willingness of the masonry to construct his projects. Some bribing won't harm anyone, and benefit the province as a whole.	false
+character_skills_localised_description_hkrul_jaan_special_4_5	Although not militaristic oriented, the Van de Kuypers value the State Army. As he knows it is the only thing that stands between indepedence and annexation. Jaan invests personally to ensure the Marienburger army is fitted to Empiric standards.	false
+character_skills_localised_description_hkrul_jaan_special_4_6	The Wastelanders specialize in the construction of bridges and dams, being forced to - as the ''Low-Lands'' are situated well below sea level. It allows them to traverse the marshes with ease.	false
+character_skills_localised_description_hkrul_jaan_special_4_7	Marienburg houses one of the greatest Libraries of the Old World, it's collection ever expanding. One only need one guess to find out who the main benefactor is. 	false
+character_skills_localised_description_hkrul_jaan_special_4_8	A long the Gilded Route sail the extrovert Merchant Lords of Marienburg. Most of which do so for the Van de Kuyper's family, where those who bear Jaan's sigil are protected from most taxes.	false
+character_skills_localised_description_hkrul_jaan_special_4_9	The Merchant Guild's autonomy is a farce. Every tenth shilling is reserved for Van de Kuypers. As they control regulations, trade laws and edicts. Leeching from all profits made by others.	false
+character_skills_localised_description_hkrul_jaan_special_4_10	"If you keep them dumb, I'll keep them poor''. - Jaan van de Kuypers to the Generals and admirals of the Marienburg State Army. 	false
+character_skills_localised_description_hkrul_jaan_special_4_11	Most Generals are on the Van de Kuypers paylist, performing a reversed scorch earth doctrine on their campaigns, claiming valueble trade produce from the lands they find themselves in to benefit the Van de Kuyper's venture.	false
+character_skills_localised_description_hkrul_jaan_special_4_12	The van de Kuypers are by far the richest and most powerful of the Ten Great Families of Marienburg. Clawing their way to power before Marienburg's independence through sharp, brutal business dealings. They are the true leaders of the Directorate: through their web of clients and contacts, they commands a block of eight votes.	false
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_bretonnia	Bretonnian Noble	false
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_bretonnia	This Lord's caravan army includes Brettonian units	false
+character_skills_localised_name_hkrul_skill_innate_mar_caravan_master_teb	Southern Realm Ally	false
+character_skills_localised_description_hkrul_skill_innate_mar_caravan_master_teb	This Lord's caravan army includes units from Southern Realms\\n[[col:red]][[i]]Note: Requires TEB to be enabled. [[/i]][[/col]]	false
+character_skills_localised_name_hkrul_egmond_2_3	Way of the Cathayans	false
+character_skills_localised_description_hkrul_egmond_2_3	Having spent so much of his young life among the Cathayans, Egmond has adapted their ways of balance and clarity.	false
+character_skills_localised_name_hkrul_lisette_special_1_4	Bouncer	false
+character_skills_localised_description_hkrul_lisette_special_1_4	Having served as the personal bodyguard for many a crime lord, Lisette knows how to keep her assets safe.	false

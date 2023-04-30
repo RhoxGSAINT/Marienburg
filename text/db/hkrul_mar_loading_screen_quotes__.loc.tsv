@@ -1,0 +1,17 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_loading_screen_quotes__.loc		
+loading_screen_quotes_description_hkrul_pg	Pieter de Groot, universally known as "Big Piet" , is a bear of a man from Suiddock. He is good in both swordplay and calculus. He is Jaan's personal guard and cargo protector. Most people know Big Piet as the taciturn minder looming by the guildmaster's shoulder, and the man who upheld the honour of the guild (and the whole Suiddock) in a trial-by-combat against the champion of a Tilean merchant house a year ago. All Suiddockers know him by sight, but he keeps himself to himself.	false
+loading_screen_quotes_bulletpoints_hkrul_pg	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||Melee expert	false
+loading_screen_quotes_title_hkrul_pg	Pieter de Groot	false
+loading_screen_quotes_description_hkrul_jk	Reputedly the richest man in the world. He counts among his personal friends the Tsar of Kislev, the King of Bretonnia, the Sultan of Araby and even Emperor Karl Franz and the Electors. All of them owe him money. He is the true leader of the Directorate and the informal ruler of Marienburg.	false
+loading_screen_quotes_bulletpoints_hkrul_jk	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Lowly Armoured||Poor Melee Combatant|| Support Character	false
+loading_screen_quotes_title_hkrul_jk	Jaan van de Kuypers	false
+loading_screen_quotes_description_hkrul_hendrik	Simon Goudenkruin is the Arch-Priest of the Cult of Haeyndrik, the minor god of wealth, power and influence. For a large fee he will give you financial advice. Advices that coincidentally often serves the interest of the House Van de Kuypers. In any case, he is known with the prayers to Haeyndrik and their boons.	false
+loading_screen_quotes_bulletpoints_hkrul_hendrik	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Lowly Armoured||Support-Infantry	false
+loading_screen_quotes_title_hkrul_hendrik	Simon Goudenkruin, Arch-Priest of Haeyndrik	false
+loading_screen_quotes_title_hkrul_klumpf	Van Klumpf's Buccaneers	false
+loading_screen_quotes_description_hkrul_klumpf	Van Klumpf's Buccaneers, also known as The Murderers out of Marienburg and The Scourge of the Reik are a notorious mercenary regiment hailing from the City-State of Marienburg. They have become well-known for brutality. Their reputation has increased greatly over the years, but so has their fee. The Buccaneers are equipped with time-worn weapons and drab clothing, but are nevertheless an effective fighting force. Their are yellow, blue, and red and their device is the Ripper Fish.	false
+loading_screen_quotes_title_hkrul_pion	The Golden Pinions	false
+loading_screen_quotes_description_hkrul_pion	The proud Halberdier regiment known as the Golden Pinions are veterans of a dozen border wars against the mercenaries, militias, and bandit gangs that hover around Marienburg’s wealth like flies around a corpse. They relished the idea of going into battle against another nation - until they saw the invasion with their own eyes.	false
+loading_screen_quotes_title_hkrul_carriers	Merchant Guild Baggage-Train	false
+loading_screen_quotes_description_hkrul_carriers	Two theories surround these men. One, the van de Kuypers are so rich they literally have no place left to store their wealth. The other, more plausible theory is that they have grown paranoid and refuse to any treasure out of their sight. Perhaps it's the prospect of crumbs dropped by the Baggage-Train.	false

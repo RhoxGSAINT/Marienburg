@@ -1,0 +1,54 @@
+<VARIANT_MESH>
+    <SLOT name="head">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_head_01.wsmodel" >
+            <SLOT name="beard">
+        		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_beard_set_01.VariantMeshDefinition"/>
+            </SLOT>
+		    <SLOT name="hair">
+        		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hair_hat_01.rigid_model_v2" >
+				    <SLOT name="hat">
+				        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_hat_set_01.VariantMeshDefinition" />
+				    </SLOT>
+       			</VARIANT_MESH>
+    			<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hair_01.rigid_model_v2" />
+		        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_hat_set_01.VariantMeshDefinition" />
+		    </SLOT>
+        </VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_head_02.wsmodel" >
+            <SLOT name="beard">
+        		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_beard_set_02.VariantMeshDefinition"/>
+            </SLOT>
+		    <SLOT name="hair" probability="0.5">
+		        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hair_hat_01.rigid_model_v2" />
+		    </SLOT>
+		    <SLOT name="hat">
+		        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_hat_set_01.VariantMeshDefinition" />
+		    </SLOT>
+        </VARIANT_MESH>
+        
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_demigryph_knight/head/emp_demigryph_knight_head_01.rigid_model_v2"  />
+		
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_head_03.wsmodel" >
+            <SLOT name="beard">
+        		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_beard_set_02.VariantMeshDefinition"/>
+            </SLOT>
+		    <SLOT name="hair" probability="0.5">
+		        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hair_hat_01.rigid_model_v2" />
+		    </SLOT>
+		    <SLOT name="hat">
+		        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_hat_set_01.VariantMeshDefinition" />
+		    </SLOT>
+        </VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_pirate/sartosa_pirate_head_02.wsmodel" >
+            <SLOT name="beard">
+        		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_beard_set_02.VariantMeshDefinition"/>
+            </SLOT>
+		    <SLOT name="hair" probability="0.5">
+		        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/sar_privateer/sartosa_privateer_hair_hat_01.rigid_model_v2" />
+		    </SLOT>
+		    <SLOT name="hat">
+		        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/cst_privateer_hat_set_01.VariantMeshDefinition" />
+		    </SLOT>
+        </VARIANT_MESH>
+    </SLOT>
+</VARIANT_MESH>

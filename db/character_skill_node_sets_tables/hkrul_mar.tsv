@@ -1,0 +1,14 @@
+key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/hkrul_mar							
+skill_node_set_hkrul_crispijn	champion	false	false				hkrul_crispijn
+skill_node_set_hkrul_solkan	champion	false	false				hkrul_solkan
+skill_node_set_hkrul_pg	champion	false	false				hkrul_pg
+skill_node_set_hkrul_guzunda	champion	false	false				hkrul_guzunda
+skill_node_set_hkrul_jk	general	false	false				hkrul_jk
+skill_node_set_hkrul_hendrik	general	false	false				hkrul_hendrik
+skill_node_set_mar_caravan_master	general	false	false				mar_caravan_master
+skill_node_set_hkrul_egmond	general	false	false				hkrul_mar_egmond
+skill_node_set_hkrul_mundvard	general	false	false				hkrul_mar_munvard
+skill_node_set_hkrul_alicia	dignitary	false	false				hkrul_alicia
+skill_node_set_hkrul_cross	champion	false	false				hkrul_cross
+skill_node_set_hkrul_lisette	spy	false	false				hkrul_lisette

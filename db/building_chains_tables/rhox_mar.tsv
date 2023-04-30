@@ -1,0 +1,13 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/rhox_mar									
+rhox_mar_foreign_corruption			money	false	rhox_mar_sch_foreign_corruption		1		true
+rhox_mar_foreign_income			money	false	rhox_mar_sch_foreign_income		0		true
+rhox_mar_foreign_trade			money	false	rhox_mar_sch_foreign_trade		1		true
+rhox_mar_emp_garrison			military	true	wh_main_sch_human_garrison		0		true
+rhox_mar_emp_walls			military	true	wh_main_sch_empire_walls		0		true
+rhox_egmond_emp_garrison			military	true	wh_main_sch_human_garrison		0		true
+rhox_egmond_emp_walls			military	true	wh_main_sch_empire_walls		0		true
+rhox_mar_emp_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
+rhox_egmond_emp_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
+rhox_mar_rijker			money	false	rhox_mar_rijker		0		true
+rhox_mar_eilhart			money	false	rhox_mar_eilhart		0		true

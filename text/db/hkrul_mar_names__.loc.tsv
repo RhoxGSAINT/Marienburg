@@ -1,0 +1,116 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_names__.loc		
+names_name_7470711866	van de Kuypers	false
+names_name_7470711877	de Groot	false
+names_name_7470711888	Jaan	false
+names_name_7470711899	Pieter	false
+ui_unit_bullet_point_enums_onscreen_name_hkrul_jk	Frail and old	false
+ui_unit_bullet_point_enums_onscreen_name_hkrul_knights_fire	The Cleansing Flame	false
+ui_unit_bullet_point_enums_tooltip_hkrul_knights_fire	The Knights of the Cleansing Flame are resistant to fire as they charge the fray.	false
+ui_unit_bullet_point_enums_tooltip_hkrul_jk	Jaan prefers his Goudberg estate to the frontline, he does not belong on the battlefield and prefers the fighting to be done by generals.	false
+names_name_605123635	Sword	false
+names_name_605123686	Simon	false
+names_name_605123685	Goudenkruin	false
+names_name_605123636	of Solkan	false
+names_name_2022190500	Sybrand	true
+names_name_2022190501	Edwin	true
+names_name_2022190502	Michiel	true
+names_name_2022190503	Cornelis	true
+names_name_2022190504	Augustijn	true
+names_name_2022190505	Arend	true
+names_name_2022190506	Antoon	true
+names_name_2022190507	Boudewijn	true
+names_name_2022190508	Egbert	true
+names_name_2022190509	Elbert	true
+names_name_2022190510	Elke	true
+names_name_2022190511	Ewoud	true
+names_name_2022190512	Faas	true
+names_name_2022190513	Nicolaas	true
+names_name_2022190514	Wilhelm	true
+names_name_2022190515	Jaak	true
+names_name_2022190516	Adriaan	true
+names_name_2022190517	Johannes	true
+names_name_2022190518	Hendrik	true
+names_name_2022190519	Jacob	true
+names_name_2022190520	Dirk	true
+names_name_2022190521	Pieter	true
+names_name_2022190522	Jan-Pieter	true
+names_name_2022190523	Christiaan	true
+names_name_2022190524	Gerardus	true
+names_name_2022190525	Harm	true
+names_name_2022190526	Theodorus	true
+names_name_2022190527	Adriaen	true
+names_name_2022190528	Willebrord	true
+names_name_2022190529	Frans	true
+names_name_2022190530	Menno	true
+names_name_2022190531	Bernard	true
+names_name_2022190532	Hugo	true
+names_name_2022190533	Gisbertus	true
+names_name_2022190534	Roelant	true
+names_name_2022190535	Wybrand	true
+names_name_2022190536	Leo	true
+names_name_2022190537	Ludwig	true
+names_name_2022190538	Bonifatius	true
+names_name_2022190539	Norbert	true
+names_name_2022190540	Otto	true
+names_name_2022190541	Erasmus	true
+names_name_2022190542	Rudolf	true
+names_name_2022190543	Simon	true
+names_name_2022190544	Hans	true
+names_name_2022190545	Sybo	true
+names_name_2022190546	Thijs	true
+names_name_2022190547	Karl	true
+names_name_2022190548	Koos	true
+names_name_2022190549	Wilbert	true
+names_name_2022190550	Wilibrord	true
+names_name_2022190551	Theodorus	true
+names_name_2022190552	Sander	true
+names_name_2022190553	Pepijn	true
+names_name_2022190554	Douwe	true
+names_name_2022190555	Floris	true
+names_name_2022190556	Gijs	true
+names_name_3022190500	van de Kuypers	true
+names_name_3022190501	van Onderzoeker	true
+names_name_3022190502	van Scheldt	true
+names_name_3022190503	Fooger	true
+names_name_3022190504	van den Gier	true
+names_name_3022190505	van Raemerswijk	true
+names_name_3022190506	Rothemuur	true
+names_name_3022190507	Loodemans	true
+names_name_3022190508	de Witt	true
+names_name_3022190509	van Eyck	true
+names_name_3022190510	van Noord	true
+names_name_3022190511	van Reeveldt	true
+names_name_3022190512	van der Kraets	true
+names_name_3022190513	Molendijk	true
+names_name_3022190514	de Ruuyter	true
+names_name_3022190515	Trompszoon	true
+names_name_3022190516	van de Kuypers	true
+names_name_3022190517	Corneliszoon	true
+names_name_3022190518	Baerneveldt	true
+names_name_3022190519	de Leeuw	true
+names_name_3022190520	Koopman	true
+names_name_3022190521	Goudschoen	true
+names_name_3022190522	Zilverhuid	true
+names_name_3022190523	de Witthe	true
+names_name_3022190524	de Rover	true
+names_name_3022190525	van Huygen	true
+names_name_3022190526	Heijnszoon	true
+names_name_3022190527	van Gaelen	true
+names_name_3022190528	van Speyk	true
+names_name_3022190529	Evertszoon	true
+names_name_3022190329	Huybrechtsen	true
+names_name_605123637	Koos	true
+names_name_605123638	the Mutant King	true
+names_name_605123715	van Haagen	true
+names_name_605123716	Crispijn	true
+names_name_605123615	den Euwe	true
+names_name_605123616	Egmond	true
+names_name_505123615	the Cruel	true
+names_name_505123616	Mundvard	true
+names_name_405123615	von Unterwald	true
+names_name_405123616	Alicia	true
+names_name_305123615	Wallrattler	true
+names_name_305123616	Guzunda	true
+ui_unit_bullet_point_enums_onscreen_name_hkrul_smuggler	Smuggler	false
+ui_unit_bullet_point_enums_tooltip_hkrul_smuggler	This character is a master smuggler and has specific buffs to convoy armies when embedded with a Merchant Lord.	false

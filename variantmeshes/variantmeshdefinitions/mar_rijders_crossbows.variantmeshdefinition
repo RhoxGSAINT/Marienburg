@@ -1,0 +1,48 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_face_01.wsmodel"  />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_face_02.wsmodel"  />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_face_03.wsmodel"  />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_face_04.wsmodel"  />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_face_05.wsmodel"  />
+	</SLOT>
+    <SLOT name="helmet" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_kloveniers/head/mar_klovenier_helmet_01.wsmodel"   />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_kloveniers/head/mar_klovenier_helmet_02.wsmodel"   />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_kloveniers/head/mar_klovenier_helmet_03.wsmodel"   />
+	</SLOT>
+	<SLOT name="torso" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_light_torso_01.wsmodel"  >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/head/mar_rijders_light_torso_02.wsmodel"  >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/legs/mar_rijders_legs_01.wsmodel"  />
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_rijders/legs/mar_rijders_legs_02.wsmodel"  />
+	</SLOT>
+
+	<SLOT attach_point="be_prop_0" name="weapon_1">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_props/emp_state_troops_crossbow_2h_rigid_01.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/emp_van_klumpf_buccanneer_sword_01.wsmodel">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/emp_van_klumpf_buccanneer_sword_02.wsmodel">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/emp_van_klumpf_buccanneer_sword_03.wsmodel">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/emp_van_klumpf_buccanneer_sword_04.wsmodel">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_props/emp_van_klumpf_buccanneer_sword_05.wsmodel">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" >
+		
+	</SLOT>
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		
+	</SLOT>
+</VARIANT_MESH>
