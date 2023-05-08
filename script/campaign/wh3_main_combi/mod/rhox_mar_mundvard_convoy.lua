@@ -2152,6 +2152,20 @@ core:add_listener(
         
         if faction:is_human() then
             --rhox_mar_mundvard_reward_item_check(faction, region_name, context:caravan_master()) --we don't have any. Why check them?
+            if faction:has_effect_bundle("rhox_mar_bundle_pirate_cove_created") == false and faction:faction_leader():has_military_force() then --mundvard need to have military force in order to spawn the character
+                local x,y = cm:find_valid_spawn_location_for_character_from_character(faction:name(), cm:char_lookup_str(faction:faction_leader()), true, 5)
+                cm:spawn_agent_at_position(faction, x, y, "dignitary","rhox_mar_mundvard_criminal")
+                local agent = cm:get_most_recently_created_character_of_type(faction:name(), "dignitary", "rhox_mar_mundvard_criminal")
+                if agent then
+                    local incident_builder = cm:create_incident_builder("rhox_mar_mundvard_criminal_recruited")
+                    incident_builder:add_target(agent)
+                    local payload_builder = cm:create_payload()
+                    payload_builder:text_display("rhox_mar_mundvard_criminal_recruited")
+                    incident_builder:set_payload(payload_builder)
+                    cm:launch_custom_incident_from_builder(incident_builder, faction)
+                    cm:replenish_action_points(cm:char_lookup_str(agent))
+                end
+            end
         end
         --faction has tech that grants extra trade tariffs bonus after every caravan - create scripted bundle
             

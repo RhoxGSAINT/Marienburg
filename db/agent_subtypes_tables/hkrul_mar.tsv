@@ -12,3 +12,4 @@ hkrul_alicia	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	hkrul_ali
 hkrul_guzunda	false	false		hkrul_guzunda	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100
 hkrul_lisette	false	false		hkrul_lisette	wh_dlc03_vo_actor_Bretonnian_Damsel	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
 hkrul_cross	false	false		hkrul_cross	wh2_main_vo_actor_High_Elves_Noble	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	995
+rhox_mar_mundvard_criminal	false	false	ui/campaign ui/agents/wh2_dlc09_tmb_engineer_ritual.png	rhox_mar_mundvard_criminal	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	false	false	false				false	true	cannot_be_saved_loaded		false	true	550

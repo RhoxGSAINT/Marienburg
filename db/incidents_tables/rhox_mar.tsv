@@ -35,3 +35,4 @@ rhox_mar_ll_hendrik_available	false	faction	false	Event		false		0.0000
 rhox_mar_item_set_event	false	hkrul_mar_item_set_event	false	Event		true		0.0000
 rhox_mar_convoy_completed_marienburg	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_convoy_unlocked	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_mundvard_criminal_recruited	false	generic	false	Event	event_convoy_positive.png	false		0.0000
