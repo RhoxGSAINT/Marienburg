@@ -163,6 +163,6 @@ unit_abilities_tooltip_text_hkrul_mar_power_money	The Lords of the Directorate k
 unit_abilities_onscreen_name_hkrul_mar_power_money	The Power of Money	false
 special_ability_phases_onscreen_name_hkrul_mar_power_money	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
 special_ability_groups_name_rhox_mar_mundvard	Lore Pool of Mundvard	false
-special_ability_phases_onscreen_name_snek_unit_contact_hobbled	[[col:red]][[img:ui/battle ui/ability_icons/artillery_whistling.png]][[/img]]Hobbled![[/col]]	true
+special_ability_phases_onscreen_name_snek_unit_contact_hobbled	[[col:red]][[img:ui/battle ui/ability_icons/hkrul_mar_chain.png]][[/img]]Hobbled![[/col]]	true
 unit_abilities_tooltip_text_hkrul_mar_mace	The ceremonial mace of Haeyndrik is imbued with magical luck, and is only to be wielded by the Arch-Priest himself.	false
 unit_abilities_onscreen_name_hkrul_mar_mace	Haeyndrik's Mace	false

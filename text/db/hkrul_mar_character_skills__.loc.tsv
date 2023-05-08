@@ -332,3 +332,6 @@ character_skills_localised_name_hkrul_egmond_2_3	Way of the Cathayans	false
 character_skills_localised_description_hkrul_egmond_2_3	Having spent so much of his young life among the Cathayans, Egmond has adapted their ways of balance and clarity.	false
 character_skills_localised_name_hkrul_lisette_special_1_4	Bouncer	false
 character_skills_localised_description_hkrul_lisette_special_1_4	Having served as the personal bodyguard for many a crime lord, Lisette knows how to keep her assets safe.	false
+character_skills_localised_name_rhox_mar_mundvard_criminal_campaign_actions	dummy	false
+character_skills_localised_description_rhox_mar_mundvard_criminal_campaign_actions	dummy	false
+character_skill_node_sets_enc_title_skill_node_set_rhox_mar_mundvard_criminal	Criminal network skill node set [HIDDEN]	false

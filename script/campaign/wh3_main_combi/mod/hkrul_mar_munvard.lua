@@ -116,7 +116,7 @@ local function hkrul_mundvard()
                     end
                 )
                 
-                -----------spawn alicia TODO
+                -----------spawn alicia
                 --local x3, y3 = cm:find_valid_spawn_location_for_character_from_settlement(mundvard_faction_key, "wh3_main_combi_region_grung_zint", false, true, 0)
                 --out("Rhox mar x3, y3: "..x3.."/"..y3)
                 --cm:spawn_unique_agent_at_region(cm:get_faction(mundvard_faction_key):command_queue_index(), "hkrul_alicia", grung_zint_cqi, true)
@@ -258,7 +258,7 @@ core:add_listener(
     "rhox_max_CharacterGarrisonTargetAction",
     "CharacterGarrisonTargetAction",
     function(context)
-        return context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove" and (context:mission_result_critial_success() or context:mission_result_success())
+        return (context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove" or context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove_unique") and (context:mission_result_critial_success() or context:mission_result_success())
     end,
     function(context)
         local faction = context:character():faction()
@@ -267,12 +267,12 @@ core:add_listener(
         
         
         --if character:has_skill("wh3_main_skill_cth_caravan_master_scouts") then --temp change it to another skill
+        
         if character:character_subtype_key() == "hkrul_alicia" then --alicia is much better than other vampires
             cm:apply_effect_bundle_to_character("rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor", character, 5) 
             cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 5)
         else
-            cm:apply_effect_bundle_to_character("rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor", character, 15) 
-            cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 15)
+            cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 15) --you won't get another agent while this effect bundle is on
         end
         
         

@@ -129,3 +129,13 @@ effect_bundles_localised_title_rhox_mar_mundvard_dilemma_defence	Clad in Durabil
 effect_bundles_localised_description_rhox_mar_mundvard_dilemma_defence	The arcane processes grant these shields and armour greater effectiveness, for a time.	false
 effect_bundles_localised_title_rhox_mar_mundvard_dilemma_offence	Wielding Destruction	false
 effect_bundles_localised_description_rhox_mar_mundvard_dilemma_offence	The arcane processes grant these weapons much greater lethality, for a time.	false
+agent_subtypes_onscreen_name_override_rhox_mar_mundvard_criminal	Criminal Network Overseer	false
+agent_subtypes_description_text_override_rhox_mar_mundvard_criminal	Criminal Network Overseer	false
+agent_actions_localised_action_name_rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove_unique	Establish Criminal Network	false
+agent_actions_localised_action_description_rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove_unique	[[col:yellow]]Establishes a criminal network in the target settlement. This agent will be no longer available after this action[[/col]]	false
+incidents_localised_title_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer Recruited	false
+incidents_localised_description_rhox_mar_mundvard_criminal_recruited	Following a successful slave import, Mundvard gains the services of a cunning Criminal Network Overseer, tasked with establishing a criminal network in a treacherous region of the Old World. With her expertise in deception and manipulation, she is determined to prove her worth to Mundvard and rise through the ranks of his organization.\\n\\n[[col:yellow]]You'll gain Criminal Network Overseer if you don't have the "Criminal Network Established" modifier which is given when you establish a Criminal Network[[/col]]	false
+land_units_onscreen_name_rhox_mar_mundvard_criminal	Criminal Network Overseer	false
+land_units_concealed_name_rhox_mar_mundvard_criminal	Criminal Network Overseer	false
+unit_description_short_texts_text_rhox_mar_mundvard_criminal	Criminal Network Overseer is a cunning and resourceful criminal who has built a vast network of contacts and informants across the Old World. On Mundvard's orders, she will make a criminal network and oversees it from that place.	false
+campaign_payload_ui_details_description_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer has been recruited	false
