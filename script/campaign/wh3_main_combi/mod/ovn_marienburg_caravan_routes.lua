@@ -1398,10 +1398,10 @@ cm:add_first_tick_callback_new(
 	function()
 		hkrul_mar_recruit_starter_caravan();
 		hkrul_mar_initalise_end_node_values();
-		if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then
+		if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then --ui thing and local
             cm:set_script_state("caravan_camera_x",451);
             cm:set_script_state("caravan_camera_y",657);
-		elseif cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then
+		elseif cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then --ui thing and local
             cm:set_script_state("caravan_camera_x",1356);
             cm:set_script_state("caravan_camera_y",557);
 		end
@@ -1635,7 +1635,7 @@ cm:add_first_tick_callback(
 			region_to_incident = region_to_incident_combi;
 			item_data = item_data_combi;
 			------rhox-----------------
-			if rhox_mar_trade_factions[cm:get_local_faction_name(true)] then
+			if rhox_mar_trade_factions[cm:get_local_faction_name(true)] then --ui thing and should be local
                 local caravan_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_caravan");
                 caravan_button:SetTooltipText(common.get_localised_string("ui_text_replacements_localised_text_ovn_ivory_road_tooltip_ovn_sc_mar_marienburg"), true) --this changes faction button docker tooltip
                 
@@ -1682,34 +1682,37 @@ cm:add_first_tick_callback(
                     end,
                     true
                 )
-            
+            end
+
+
+            if cm:get_faction("wh_main_emp_marienburg"):is_human() or cm:get_faction("ovn_mar_house_den_euwe"):is_human() then
                 core:add_listener(
                     "rhox_mar_LH_failsafe_RoundStart",
                     "FactionRoundStart",
                     function(context)
-                        return rhox_mar_trade_factions[context:faction():name()] and context:faction():name() == cm:get_local_faction_name(true)
+                        return rhox_mar_trade_factions[context:faction():name()] and context:faction():is_human()
                     end,
                     function(context)
                         if lh_reard_check_table["hkrul_crispijn"] == true then
                             local reward = "hkrul_crispijn"
-                            cm:spawn_unique_agent(cm:get_local_faction(true):command_queue_index(), reward, true)
-                            local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
                             if unique_agent then 
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
                         if lh_reard_check_table["hkrul_guzunda"] == true then
                             local reward = "hkrul_guzunda"
-                            cm:spawn_unique_agent(cm:get_local_faction(true):command_queue_index(), reward, true)
-                            local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
                             if unique_agent then 
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
                         if lh_reard_check_table["hkrul_cross"] == true then
                             local reward = "hkrul_cross"
-                            cm:spawn_unique_agent(cm:get_local_faction(true):command_queue_index(), reward, true)
-                            local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
                             if unique_agent then 
                                 cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_cross"), "", "", "")
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
@@ -1717,8 +1720,8 @@ cm:add_first_tick_callback(
                         end
                         if lh_reard_check_table["hkrul_lisette"] == true then
                             local reward = "hkrul_lisette"
-                            cm:spawn_unique_agent(cm:get_local_faction(true):command_queue_index(), reward, true)
-                            local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "spy", reward)
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "spy", reward)
                             if unique_agent then 
                                 cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_lisette"), "", "", "")--rename her
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi())) --do not teleport her She maybe summoned earlier
@@ -1739,7 +1742,7 @@ cm:add_first_tick_callback(
                         "rhox_mar_crispijn_notify_check_RoundStart",
                         "FactionRoundStart",
                         function(context)
-                            return context:faction():name() == "wh_main_emp_marienburg" and context:faction():name() == cm:get_local_faction_name(true) and cm:model():turn_number() == 25 --popup thing at turn 25 --only for Mairenburg
+                            return context:faction():name() == "wh_main_emp_marienburg" and context:faction():is_human() and cm:model():turn_number() == 25 --popup thing at turn 25 --only for Mairenburg
                         end,
                         function(context)
                             if lh_reard_check_table["hkrul_crispijn"] ==false then --player might have recieved the item after the first tick
@@ -2652,91 +2655,88 @@ function hkrul_mar_initalise_end_node_values()
 
 	--randomise the end node values
 	local end_nodes = {}
-
-			if cm:get_campaign_name() == "main_warhammer" then
-                if cm:get_local_faction_name() == "wh_main_emp_marienburg" then
-                    end_nodes = {
-                        ["wh3_main_combi_region_myrmidens"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_altdorf"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_arnheim"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_sjoktraken"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_karond_kar"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_bordeleaux"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_port_reaver"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_lothern"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_magritta"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_sartosa"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_miragliano"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_barak_varr"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_al_haikk"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_zandri"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_lashiek"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_sudenburg"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fortress_of_dawn"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_tower_of_the_sun"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fu_hung"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_dai_cheng"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) --not going to visit here
-                    };
-                elseif cm:get_local_faction_name() == "ovn_mar_house_den_euwe" then --he's starting from Cathay so the number should be the opposite
-                    end_nodes = {
-                        ["wh3_main_combi_region_myrmidens"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_altdorf"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_arnheim"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_sjoktraken"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_karond_kar"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_bordeleaux"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_port_reaver"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_lothern"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_magritta"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_sartosa"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_miragliano"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_barak_varr"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_al_haikk"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_zandri"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_lashiek"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_sudenburg"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_fortress_of_dawn"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_tower_of_the_sun"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_fu_hung"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_dai_cheng"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_fu_chow"]				=75-cm:random_number(50,0),--not going to visit here
-                        ["wh3_main_combi_region_beichai"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_haichai"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_marienburg"]			=cm:random_number(150,60)
-                    };
-				end
-				else --for apply Marienburg thing when player are neither
-                    end_nodes = {
-                        ["wh3_main_combi_region_myrmidens"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_altdorf"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_arnheim"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_sjoktraken"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_karond_kar"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_bordeleaux"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_port_reaver"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_lothern"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_magritta"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_sartosa"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_miragliano"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_barak_varr"]				=75-cm:random_number(50,0),
-                        ["wh3_main_combi_region_al_haikk"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_zandri"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_lashiek"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_sudenburg"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fortress_of_dawn"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_tower_of_the_sun"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fu_hung"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_dai_cheng"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
-                        ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) 
-                    };
-			end
+    if cm:get_faction("wh_main_emp_marienburg"):is_human() then
+        end_nodes = {
+            ["wh3_main_combi_region_myrmidens"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_altdorf"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_arnheim"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_sjoktraken"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_karond_kar"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_bordeleaux"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_port_reaver"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_lothern"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_magritta"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_sartosa"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_miragliano"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_barak_varr"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_al_haikk"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_zandri"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_lashiek"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_sudenburg"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fortress_of_dawn"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_tower_of_the_sun"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fu_hung"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_dai_cheng"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) --not going to visit here
+        };
+    elseif cm:get_faction("ovn_mar_house_den_euwe"):is_human() then --he's starting from Cathay so the number should be the opposite
+        end_nodes = {
+            ["wh3_main_combi_region_myrmidens"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_altdorf"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_arnheim"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_sjoktraken"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_karond_kar"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_bordeleaux"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_port_reaver"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_lothern"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_magritta"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_sartosa"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_miragliano"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_barak_varr"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_al_haikk"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_zandri"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_lashiek"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_sudenburg"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_fortress_of_dawn"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_tower_of_the_sun"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_fu_hung"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_dai_cheng"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_fu_chow"]				=75-cm:random_number(50,0),--not going to visit here
+            ["wh3_main_combi_region_beichai"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_haichai"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_marienburg"]			=cm:random_number(150,60)
+        };
+    else --for apply Marienburg thing when player are neither
+        end_nodes = {
+            ["wh3_main_combi_region_myrmidens"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_altdorf"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_arnheim"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_sjoktraken"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_karond_kar"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_bordeleaux"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_port_reaver"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_lothern"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_magritta"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_sartosa"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_miragliano"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_barak_varr"]				=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_al_haikk"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_zandri"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_lashiek"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_sudenburg"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fortress_of_dawn"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_tower_of_the_sun"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fu_hung"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_dai_cheng"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
+            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) 
+        };
+    end
 	
 	--save them
 	cm:set_saved_value("hkrul_mar_ivory_road_demand", end_nodes);
@@ -2876,24 +2876,24 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
 			0
 			)
             lh_reard_check_table[reward] = true
-            cm:spawn_unique_agent(cm:get_local_faction(true):command_queue_index(), reward, true)
+            cm:spawn_unique_agent(faction:command_queue_index(), reward, true)
             if reward == "hkrul_lisette" then --some more stuff for Lisette
-                local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "spy", reward)--rename her
+                local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "spy", reward)--rename her
                 if unique_agent then 
                     cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_lisette"), "", "", "")
                     cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
-                    local general_x_pos, general_y_pos = cm:find_valid_spawn_location_for_character_from_settlement(cm:get_local_faction_name(true), "wh3_main_combi_region_marienburg", false, true, 5)
+                    local general_x_pos, general_y_pos = cm:find_valid_spawn_location_for_character_from_settlement(faction:name(), "wh3_main_combi_region_marienburg", false, true, 5)
 
                     cm:teleport_to(cm:char_lookup_str(unique_agent:cqi()), general_x_pos, general_y_pos) 
                 end
             elseif reward == "hkrul_cross" then --change the name of him
-                local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)--rename her
+                local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)--rename her
                 if unique_agent then 
                     cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_cross"), "", "", "")
                     cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                 end
             else  --just replenish action points
-                local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)--rename her
+                local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)--rename her
                 if unique_agent then 
                     cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                 end
@@ -2906,7 +2906,7 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
                 if reward == "hkrul_lisette" then
                     --do nothing. she will spawn at the capital
                 else
-                    local unique_agent = cm:get_most_recently_created_character_of_type(cm:get_local_faction_name(true), "champion", reward)
+                    local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)
                     if unique_agent then 
                         cm:embed_agent_in_force(unique_agent ,caravan_military_force)
                     end

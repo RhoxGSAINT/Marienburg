@@ -9,8 +9,8 @@ end
 
 
 
-local function rhox_setup_power_of_money()
-    local local_faction = cm:get_local_faction(true)
+local function rhox_setup_power_of_money(faction)
+    local local_faction = faction
     local purchasable_holder_ui = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects");
     if is_uicomponent(purchasable_holder_ui) then
         purchasable_holder_ui:SetVisible(true) -- there was a quick battle
@@ -18,8 +18,6 @@ local function rhox_setup_power_of_money()
         local pb = cm:model():pending_battle()
         local attacker = pb:attacker()
         local defender = pb:defender()
-
-        local local_faction = cm:get_local_faction(true)
         
         local character_cqi
         if (local_faction:name() == attacker:faction():name()) then
@@ -100,7 +98,7 @@ local function rhox_setup_power_of_money()
 		"ovn_mar_add_charges_ComponentLClickUp",
 		"ComponentLClickUp", 
 		function(context)
-			local local_faction = cm:get_local_faction(true)
+			local local_faction = cm:get_faction("wh_main_emp_marienburg")
 			return context.string == "button_add_charges" and charges < 5 and local_faction:treasury() >= 5000
 		end,
 		function(context)
@@ -109,7 +107,7 @@ local function rhox_setup_power_of_money()
 			local attacker = pb:attacker()
 			local defender = pb:defender()
 	
-			local local_faction = cm:get_local_faction(true)
+			local local_faction = cm:get_faction("wh_main_emp_marienburg")
 			
 			local character_cqi
 			if (local_faction:name() == attacker:faction():name()) then
@@ -154,7 +152,7 @@ local function rhox_setup_power_of_money()
 			local attacker = pb:attacker()
 			local defender = pb:defender()
 
-			local local_faction = cm:get_local_faction(true)
+			local local_faction = cm:get_faction("wh_main_emp_marienburg")
 			
 			local character_cqi
 			if (local_faction:name() == attacker:faction():name()) then
@@ -190,11 +188,11 @@ end
 
 cm:add_first_tick_callback(
     function()
-        local power_of_money_activated = cm:get_local_faction(true):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
+        local power_of_money_activated = cm:get_faction("wh_main_emp_marienburg"):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
         cm:callback(
 			function()
 				if power_of_money_activated > 0 then
-                    rhox_setup_power_of_money() --for quick save
+                    rhox_setup_power_of_money(cm:get_faction("wh_main_emp_marienburg")) --for quick save
                 end
 			end,
 			0.5
@@ -208,15 +206,31 @@ cm:add_first_tick_callback(
                 "rhox_mar_popup_pre_battle", --to remove menace below opener
                 "PanelOpenedCampaign",
                 function(context)
-                    local power_of_money_activated = cm:get_local_faction(true):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
+                    local power_of_money_activated = cm:get_faction("wh_main_emp_marienburg"):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
                     return context.string == "popup_pre_battle" and power_of_money_activated > 0;
                 end,
                 function()
-                    rhox_setup_power_of_money()
+                    CampaignUI.TriggerCampaignScriptEvent(cm:get_local_faction(true):command_queue_index(), "rhox_mar_trigger_power_of_money_setup") --we're not going to use faction cqi, but let's just put it there
                 end,
                 true
             )
-            
+         end
+         
+         if cm:get_faction("wh_main_emp_marienburg"):is_human() then
+            core:add_listener(
+                "rhox_mar_panel_opened_UITrigger",
+                "UITrigger",
+                function(context)
+                    return context:trigger():starts_with("rhox_mar_trigger_power_of_money_setup")
+                end,
+                function(context)
+                    rhox_setup_power_of_money(cm:get_faction("wh_main_emp_marienburg"))
+                end,
+                true
+            )
+         
+         
+         
             -- Applies an effect bundle to character, removes 5000 from character's faction's treasury
             core:add_listener(
                 "ovn_mar_add_charges_UITrigger",

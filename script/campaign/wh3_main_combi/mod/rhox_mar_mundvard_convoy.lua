@@ -2331,10 +2331,12 @@ core:add_listener(
 cm:add_first_tick_callback_new(
 	function()
 		rhox_mar_mundvard_initalize_end_node_values()
-		if cm:get_local_faction_name(true) == mundvard_faction_key then
+		if cm:get_local_faction_name(true) == mundvard_faction_key then --ui thing and should be local
             cm:set_script_state("caravan_camera_x",451);
             cm:set_script_state("caravan_camera_y",657);
-            
+        end
+        
+        if cm:get_faction(mundvard_faction_key):is_human() then
             rhox_mar_mundvard_events_cooldown[mundvard_faction_key] = {
                 ["rhox_mar_mundvard_dilemma_cathay_caravan"] = 0,
                 ["rhox_mar_mundvard_dilemma_dwarfs"] = 0,
@@ -2357,8 +2359,6 @@ cm:add_first_tick_callback_new(
                 ["rhox_mar_mundvard_dilemma_training_camp"] = 0,
                 ["rhox_mar_mundvard_dilemma_way_of_lava"] = 0
             }
-			
-
 		end
 		
 
@@ -2381,9 +2381,7 @@ cm:add_first_tick_callback_new(
 cm:add_first_tick_callback(
 	function ()
         ------rhox-----------------
-        if cm:get_local_faction_name(true)== mundvard_faction_key then
-            --local caravan_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_caravan");
-            --caravan_button:SetTooltipText(common.get_localised_string("ui_text_replacements_localised_text_ovn_ivory_road_tooltip_ovn_sc_mar_marienburg"), true) --this changes faction button docker tooltip
+        if cm:get_local_faction_name(true)== mundvard_faction_key then --ui thing and should be local
             
             core:add_listener(--this is where changing all the localization, resource for mundvard happens
                 "rhox_mar_mundvard_convoy_open_listener",

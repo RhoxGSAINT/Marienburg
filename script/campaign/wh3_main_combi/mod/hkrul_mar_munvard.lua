@@ -170,11 +170,11 @@ cm:add_first_tick_callback(
         pcall(function()
             mixer_set_faction_trait("ovn_mar_the_wasteland", "rhox_mundvard_effect_bundle", true)
         end)
-        if cm:get_local_faction_name(true) == mundvard_faction_key then
+        if cm:get_local_faction_name(true) == mundvard_faction_key then --ui thing and should be local
             rhox_mar_mundvard_set_coven_listeners()
         end
         
-        if cm:get_local_faction_name(true) == mundvard_faction_key and cm:model():turn_number()<8 then
+        if cm:get_faction(mundvard_faction_key):is_human() and cm:model():turn_number()<8 then
             core:add_listener(
                 "rhox_mar_mundvard_RoundStart",
                 "FactionRoundStart",
@@ -214,8 +214,8 @@ cm:add_first_tick_callback(
 cm:add_first_tick_callback_new(function() 
         hkrul_mundvard() --initial lord replace and setting
         
-        if cm:get_local_faction_name(true) == mundvard_faction_key then       
-            local faction_name = cm:get_local_faction_name(true)
+        if cm:get_faction(mundvard_faction_key):is_human() then       
+            local faction_name = mundvard_faction_key
             local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
             local primary_detail = "factions_screen_name_" .. faction_name;
             local secondary_detail = "";

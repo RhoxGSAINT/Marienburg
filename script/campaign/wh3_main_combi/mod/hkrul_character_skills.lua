@@ -702,11 +702,11 @@ core:add_listener(
     "jaan_dobule_caravn_money_marienburg",
     "CaravanCompleted",
     function(context)
-        local bundle_active = cm:get_local_faction(true):bonus_values():scripted_value("rhox_mar_enable_double_cathay_caravan", "value") --for player only
+        local bundle_active = context:faction():bonus_values():scripted_value("rhox_mar_enable_double_cathay_caravan", "value") 
         local node = context:complete_position():node()
         --out("Rhox Mar: caravan finished node name: "..node:region_data():region():name())
         --out("Rhox Mar: Jaan value: "..bundle_active)
-        return bundle_active > 1 and node:region_data():region():name() == "wh3_main_combi_region_marienburg"  --context:faction():culture() == "wh3_main_cth_cathay"  cause there might be a rare case for Egmond
+        return bundle_active > 1 and node:region_data():region():name() == "wh3_main_combi_region_marienburg" and context:faction():is_human() --for player only
     end,
     function(context)
         -- store a total value of goods moved for this faction and then trigger an onwards event, narrative scripts use this
@@ -719,7 +719,7 @@ core:add_listener(
                 "rhox_mar_double_cathay_reward_jaan",
                 0,
                 0,
-                cm:get_local_faction(true):faction_leader():command_queue_index(), --will be Jaan
+                context:faction():faction_leader():command_queue_index(), --will be Jaan
                 0,
                 0,
                 0
