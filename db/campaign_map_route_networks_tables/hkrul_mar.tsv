@@ -1,8 +1,5 @@
 key	campaign
 #campaign_map_route_networks_tables;0;db/campaign_map_route_networks_tables/hkrul_mar	
 ovn_dekuypers_network	wh3_main_combi
-ovn_dekuypers_network_chaos	wh3_main_chaos
 rhox_mar_network	wh3_main_combi
-rhox_mar_network_chaos	wh3_main_chaos
 rhox_mar_mundvard_network	wh3_main_combi
-rhox_mar_mundvard_network_chaos	wh3_main_chaos

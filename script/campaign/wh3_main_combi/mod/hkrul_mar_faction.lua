@@ -133,7 +133,7 @@ core:add_listener(
     "rhox_mar_rite_animation",
     "RitualStartedEvent",
     function(context)
-        return context:performing_faction() == cm:get_local_faction(true) and cm:get_local_faction_name(true) == "wh_main_emp_marienburg"
+        return context:performing_faction() == cm:get_local_faction(true) and cm:get_local_faction_name(true) == "wh_main_emp_marienburg" --ui thing and should be local
     end,
     function(context)
         cm:callback(function()
