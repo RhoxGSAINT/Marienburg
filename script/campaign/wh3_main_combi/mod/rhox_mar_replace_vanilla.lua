@@ -1,4 +1,13 @@
-
+cm:add_post_first_tick_callback(
+    function()
+        cm:callback(
+            function()
+                caravans:rhox_mar_caravan_replace_listener()
+            end,
+            1
+        )
+    end
+)
 function caravans:rhox_mar_caravan_replace_listener()   --replace pre-existing Cathay caravan listeners
 
 	--[[ --not now guys
@@ -15,7 +24,6 @@ function caravans:rhox_mar_caravan_replace_listener()   --replace pre-existing C
         end,
         function(context)
             local faction_key = context:faction():name()
-
             if caravans.events_fired[faction_key] == nil or caravans.events_fired[faction_key] == false then
                 if self:event_handler(context) == false then
                     out.design("Caravan not valid for event");

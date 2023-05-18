@@ -10,7 +10,7 @@ ovn_effect_ability_army_num_uses_the_power_of_money		0		battle	true
 ovn_effect_ability_army_enable_the_power_of_money	general_ability.png	705	general_ability.png	battle	true
 rhox_mar_mudvard_slave_dummy	slaves.png	8	slaves.png	campaign	true
 rhox_mar_show_money_power_ui_hidden		0		campaign	true
-rhox_mar_jaan_double_cathay_caravan		0		campaign	true
+rhox_mar_jaan_double_cathay_caravan	cargo.png	3	cargo.png	campaign	true
 rhox_mar_vilitch_diplomacy_mod_hidden		0		campaign	true
 rhox_mar_harmony_yang_passive_to_unit	cathay_yang.png	1	cathay_yang.png	battle	true
 rhox_mar_harmony_yin_passive_to_unit	cathay_yin.png	3	cathay_yin.png	battle	true

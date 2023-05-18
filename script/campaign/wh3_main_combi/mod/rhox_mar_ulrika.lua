@@ -40,15 +40,15 @@ cm:add_first_tick_callback(
                 character_unlocking.character_data["ulrika"].factions_involved["ovn_mar_house_den_euwe"] = true --this will make vanilla script not trigger Ulrika mission chain
             end
             cm:add_faction_turn_start_listener_by_name(
-                "rhox_mar_ulrika_trigger_listner",
+                "rhox_mar_egmond_ulrika_trigger_listner",
                 "ovn_mar_house_den_euwe",
                 function(context)
                     local faction = context:faction()
                     local faction_name = faction:name()
 
-                    if cm:get_saved_value("rhox_mar_ulrika_triggered") ~=true and faction:faction_leader():rank() >= 11 then
+                    if cm:get_saved_value("rhox_mar_egmond_ulrika_triggered") ~=true and faction:faction_leader():rank() >= 11 then
                         out("Rhox Mar: triggering mission!")
-                        cm:set_saved_value("rhox_mar_ulrika_triggered", true)
+                        cm:set_saved_value("rhox_mar_egmond_ulrika_triggered", true)
                         
                         local mm = mission_manager:new(faction_name, "wh3_dlc23_ie_emp_ulrika_stage_1")
                         mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
