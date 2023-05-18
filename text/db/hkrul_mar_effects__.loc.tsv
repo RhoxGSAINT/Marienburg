@@ -299,3 +299,4 @@ effects_description_rhox_mar_cathay_ship_dummy	Adds one Sky Junk to the [[img:ic
 effect_bundles_localised_title_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
 effect_bundles_localised_description_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
 effects_description_rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_expand_criminal_network_unique	Establish Criminal network [HIDDEN]	false
+effects_description_rhox_mar_jaan_double_cathay_caravan	Treasury gained from foreign Caravans: %+n%	false

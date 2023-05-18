@@ -3,6 +3,8 @@ local rhox_mar_trade_factions ={
     ["ovn_mar_house_den_euwe"] = true
 }
 
+local enemy_to_kill={}
+
 
 --todo
 --give all the functions/variables unique names, make most of them local --switch the incident keys and stuff
@@ -1808,13 +1810,6 @@ cm:add_first_tick_callback(
 	end
 );
 
-
-cm:add_post_first_tick_callback(
-    function()
-        caravans:rhox_mar_caravan_replace_listener()
-    end
-)
-
     
 
 --Listeners
@@ -1975,6 +1970,12 @@ core:add_listener(
 	true,
 	function(context)
 		hkrul_mar_adjust_end_node_values_for_demand();
+		for j = 1, #enemy_to_kill do
+            cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");	
+            cm:kill_character("character_cqi:"enemy_to_kill[j], true)
+            cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed") end, 0.2);
+        end
+        enemy_to_kill = {}
 	end,
 	true
 );
@@ -2008,6 +2009,8 @@ core:add_listener(
 	true
 );
 
+
+--[[--let's not do this
 core:add_listener(
 	"hkrul_mar_clean_up_attacker",
 	"FactionTurnStart",
@@ -2023,6 +2026,7 @@ core:add_listener(
 	end,
 	true
 );
+--]]
 
 core:add_listener(
 	"hkrul_mar_unlock_retreat_caravan",
@@ -2323,6 +2327,8 @@ function hkrul_mar_spawn_caravan_battle_force(caravan, attacking_force, region, 
 			cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_war_declared") end, 0.2);
 			cm:disable_movement_for_character(cm:char_lookup_str(char_cqi));
 			cm:set_force_has_retreated_this_turn(cm:get_military_force_by_cqi(force_cqi));
+			
+			table.insert(enemy_to_kill, char_cqi)
 		end
 	);
 
