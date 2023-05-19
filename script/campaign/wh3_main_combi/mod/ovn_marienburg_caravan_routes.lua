@@ -1972,7 +1972,7 @@ core:add_listener(
 		hkrul_mar_adjust_end_node_values_for_demand();
 		for j = 1, #enemy_to_kill do
             cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");	
-            cm:kill_character("character_cqi:"enemy_to_kill[j], true)
+            cm:kill_character("character_cqi:"..enemy_to_kill[j], true)
             cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed") end, 0.2);
         end
         enemy_to_kill = {}
