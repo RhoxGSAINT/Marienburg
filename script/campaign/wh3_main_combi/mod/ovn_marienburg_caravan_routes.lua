@@ -1400,13 +1400,18 @@ cm:add_first_tick_callback_new(
 	function()
 		hkrul_mar_recruit_starter_caravan();
 		hkrul_mar_initalise_end_node_values();
-		if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then --ui thing and local
-            cm:set_script_state("caravan_camera_x",451);
-            cm:set_script_state("caravan_camera_y",657);
-		elseif cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then --ui thing and local
-            cm:set_script_state("caravan_camera_x",1356);
-            cm:set_script_state("caravan_camera_y",557);
-		end
+		cm:callback(--because otherwise vanilla overrides it
+            function()
+                if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then --ui thing and local
+                    cm:set_script_state("caravan_camera_x",451);
+                    cm:set_script_state("caravan_camera_y",657);
+                elseif cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then --ui thing and local
+                    cm:set_script_state("caravan_camera_x",1356);
+                    cm:set_script_state("caravan_camera_y",557);
+                end
+            end,
+            3
+        )
 		
 
 		local all_factions = cm:model():world():faction_list();
