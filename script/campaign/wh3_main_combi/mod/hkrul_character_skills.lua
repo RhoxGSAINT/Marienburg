@@ -168,6 +168,9 @@ core:add_listener(
         if faction_key == "wh_main_emp_empire" then
             return --for confederation and recruit defeated lords. don't do anything if Jaan is in the Reikland faction
         end
+        if cm:get_faction(marienburg_faction_key):is_human() == false and RHOX_MAR_MCT_SETTING.block_rebellion == true then
+            return --do not do anything if Marienburg is not human and player checked the option
+        end
         
         if reikland_interface and not reikland_interface:is_dead() and cm:get_saved_value("hkrul_jk_special_0_5_actived_before") ~= true then --we put variable restriction here because of the mission
             local target_region = cm:get_region("wh3_main_combi_region_eilhart") 
@@ -232,6 +235,9 @@ core:add_listener(
         
         if faction_key == "wh_main_emp_empire" then
             return --for confederation and recruit defeated lords. don't do anything if Jaan is in the Reikland faction
+        end
+        if cm:get_faction(marienburg_faction_key):is_human() == false and RHOX_MAR_MCT_SETTING.block_rebellion == true then
+            return --do not do anything if Marienburg is not human and player checked the option
         end
         
         if reikland_interface and not reikland_interface:is_dead() and cm:get_saved_value("hkrul_jk_special_0_6_actived_before") ~= true then

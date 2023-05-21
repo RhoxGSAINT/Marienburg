@@ -13,6 +13,46 @@ local jaan_details = {
     is_faction_leader = true																		-- Bool for whether the general being replaced is the new faction leader
 }
 
+
+RHOX_MAR_MCT_SETTING={
+    additional_landship=0,
+    block_rebellion = false
+}
+
+local function setup_mct(context)
+    -- get the mct object
+    local mct = context:mct()
+    local my_mod = mct:get_mod_by_key("hkrul_mar")
+    
+    local additional_landship = my_mod:get_option_by_key("rhox_mar_additional_landship")
+    RHOX_MAR_MCT_SETTING.additional_landship = additional_landship:get_finalized_setting()
+    
+    local block_rebellion = my_mod:get_option_by_key("rhox_mar_rebellion")
+    RHOX_MAR_MCT_SETTING.block_rebellion = block_rebellion:get_finalized_setting()
+end
+
+core:add_listener(
+    "rhox_mar_mct_initialize",
+    "MctInitialized",
+    true,
+    function(context)
+        setup_mct(context)
+    end,
+    true
+)
+
+
+core:add_listener(
+    "rhox_mar_mct_setting_change",
+    "MctOptionSettingFinalized",
+    true,
+    function(context)
+        setup_mct(context)
+    end,
+    true
+)
+
+
 -- make sure Jaan doesn't have the "wh3_main_bundle_character_restrict_experience_gain" EB
 core:add_listener(
     "hkrul_CharacterTurnStart",
@@ -109,10 +149,19 @@ local function hkrul_mar()
                             local char_str = cm:char_lookup_str(cqi)
                             cm:set_character_unique(char_str, true) --makes Jaan a undisbandable "Legendary Lord"
                             --cm:set_character_immortality(char_str, true) --not needed since immortality is enabled in db
+                            if RHOX_MAR_MCT_SETTING.additional_landship ~= 0 then
+                                for i=0,RHOX_MAR_MCT_SETTING.additional_landship do
+                                    cm:grant_unit_to_character(char_str, "snek_hkrul_mar_landship")
+                                end
+                            end
                         end
                     )
                     
                     out("Created replacement Lord " .. jaan_details.forename .. " for " .. marienburg_faction_key)
+                    
+                    
+                    
+                    
                     
                     --[[
                     --random lord for the battle
@@ -195,4 +244,8 @@ local function hkrul_mar()
 end
 
 
-cm:add_first_tick_callback(function() hkrul_mar() end)
+cm:add_first_tick_callback(
+    function() 
+        hkrul_mar() 
+    end
+)

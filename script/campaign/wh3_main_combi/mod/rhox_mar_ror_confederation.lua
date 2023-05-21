@@ -123,11 +123,18 @@ cm:add_first_tick_callback_new(
 );
 
 
+local marienburg_factions={
+    wh_main_emp_marienburg = true,
+    ovn_mar_house_den_euwe = true,
+    ovn_emp_grudgebringers = true--not because they are Marienburg, but because they can't build buildings and can't finish the quest. It's only used for RoR so it's okay
+}
+
+
 local function rhox_mar_check_empire(faction)
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
-	if owner:name() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") then
+	if owner:culture() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") and not marienburg_factions[owner:name()] then
        core:remove_listener("rhox_emp_building_check_RoundStart") --don't have to listen for it anymore
        cm:trigger_incident(faction:name(), "rhox_mar_gained_access_mar_ror", true)
        rhox_add_mar_units(faction, rhox_add_mar_rors);
@@ -187,12 +194,20 @@ end
 
 cm:add_first_tick_callback(
     function()
-        if cm:get_faction("wh_main_emp_empire"):is_human() and unlocked_marienburg_troops == false then
+        local non_marienburg_human_empire_exist = false
+        local human_empire_factions = cm:get_human_factions_of_culture("wh_main_emp_empire")
+        for _, faction_key in ipairs(human_empire_factions) do
+            if not marienburg_factions[faction_key] then
+                non_marienburg_human_empire_exist =true
+            end
+        end
+
+        if non_marienburg_human_empire_exist and unlocked_marienburg_troops == false then
             core:add_listener(
                 "rhox_emp_building_check_RoundStart",
                 "FactionRoundStart",
                 function(context)
-                    return context:faction():name() == "wh_main_emp_empire" and unlocked_marienburg_troops == false
+                    return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and unlocked_marienburg_troops == false and not marienburg_factions[context:faction():name()]
                 end,
                 function(context)
                     rhox_mar_check_empire(context:faction())
@@ -203,10 +218,10 @@ cm:add_first_tick_callback(
                 "rhox_emp_mission_check_RoundStart",
                 "FactionRoundStart",
                 function(context)
-                    return context:faction():name() == "wh_main_emp_empire" and cm:model():turn_number() == 2; --only at the second turn.
+                    return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and cm:model():turn_number() == 2 and not marienburg_factions[context:faction():name()] --only at the second turn.
                 end,
                 function(context)
-                    cm:trigger_mission("wh_main_emp_empire", "rhox_mar_conquer_marien")
+                    cm:trigger_mission(context:faction():name(), "rhox_mar_conquer_marien")
                 end,
                 true
             )
