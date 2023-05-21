@@ -6,14 +6,6 @@ local rhox_mar_trade_factions ={
 local enemy_to_kill={}
 
 
---todo
---give all the functions/variables unique names, make most of them local --switch the incident keys and stuff
---change the armies to be vampire coast/dark elves/norscans
-	
---cm:set_script_state("caravan_camera_x",590) -- change for marienburg camera coords
---cm:set_script_state("caravan_camera_y",305);-- change for marienburg camera coords
---hkrul_mar_reward_item_check needs adjusting
---set up "Inital caravan forces" tables
 out.design("*** Marienburg Caravan Route script loaded ***");
 
 
@@ -573,10 +565,18 @@ local force_to_faction_name={
 }
 
 local lh_reard_check_table={
-    ["hkrul_guzunda"] = false,
-    ["hkrul_crispijn"] = false,
-    ["hkrul_cross"] = false,
-    ["hkrul_lisette"] = false,
+    ["wh_main_emp_marienburg"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    },
+    ["ovn_mar_house_den_euwe"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    }
 }
 
 
@@ -1525,7 +1525,7 @@ local function rhox_mar_finish_dilemma_unit_add(caravan)
         special_list = {
             {unit = "hkrul_mar_culverin", count =1},
             {unit = "hkrul_mar_mortar", count =2},
-            {unit = "wh_main_emp_veh_steam_tank_driver", count =1},
+            {unit = "wh_main_emp_veh_steam_tank", count =1},
             {unit = "hkrul_mar_hellstorm", count =1},
             {unit = "hkrul_mar_hellblaster", count =1}                  
         };
@@ -1700,7 +1700,8 @@ cm:add_first_tick_callback(
                         return rhox_mar_trade_factions[context:faction():name()] and context:faction():is_human()
                     end,
                     function(context)
-                        if lh_reard_check_table["hkrul_crispijn"] == true then
+                        local faction_key = context:faction():name()
+                        if lh_reard_check_table[faction_key]["hkrul_crispijn"] == true then
                             local reward = "hkrul_crispijn"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
@@ -1708,7 +1709,7 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_guzunda"] == true then
+                        if lh_reard_check_table[faction_key]["hkrul_guzunda"] == true then
                             local reward = "hkrul_guzunda"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
@@ -1716,7 +1717,7 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_cross"] == true then
+                        if lh_reard_check_table[faction_key]["hkrul_cross"] == true then
                             local reward = "hkrul_cross"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
@@ -1725,7 +1726,7 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_lisette"] == true then
+                        if lh_reard_check_table[faction_key]["hkrul_lisette"] == true then
                             local reward = "hkrul_lisette"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "spy", reward)
@@ -1744,7 +1745,7 @@ cm:add_first_tick_callback(
                 
                 
                 
-                if lh_reard_check_table["hkrul_crispijn"] ==false then --you don't have to check it if player has already recieved Crispijin
+                if lh_reard_check_table["wh_main_emp_marienburg"]["hkrul_crispijn"] ==false then --you don't have to check it if player has already recieved Crispijin
                     core:add_listener(
                         "rhox_mar_crispijn_notify_check_RoundStart",
                         "FactionRoundStart",
@@ -1752,7 +1753,7 @@ cm:add_first_tick_callback(
                             return context:faction():name() == "wh_main_emp_marienburg" and context:faction():is_human() and cm:model():turn_number() == 25 --popup thing at turn 25 --only for Mairenburg
                         end,
                         function(context)
-                            if lh_reard_check_table["hkrul_crispijn"] ==false then --player might have recieved the item after the first tick
+                            if lh_reard_check_table["wh_main_emp_marienburg"]["hkrul_crispijn"] ==false then --player might have recieved the item after the first tick
                                 cm:trigger_incident("wh_main_emp_marienburg", "rhox_mar_crispijn_notify", true)
                             end
                         end,
@@ -1767,8 +1768,9 @@ cm:add_first_tick_callback(
                         return context:faction():name() == "wh_main_emp_marienburg"
                     end,
                     function(context)
-                        if lh_reard_check_table["hkrul_crispijn"] == true or cm:model():turn_number() == 10 then
-                            lh_reard_check_table["hkrul_crispijn"] = true
+                        local faction_key = "wh_main_emp_marienburg"
+                        if lh_reard_check_table[faction_key]["hkrul_crispijn"] == true or cm:model():turn_number() == 10 then
+                            lh_reard_check_table[faction_key]["hkrul_crispijn"] = true
                             local reward = "hkrul_crispijn"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction(), "champion", reward)
@@ -1776,8 +1778,8 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_guzunda"] == true or cm:model():turn_number() == 20 then
-                            lh_reard_check_table["hkrul_guzunda"] = true
+                        if lh_reard_check_table[faction_key]["hkrul_guzunda"] == true or cm:model():turn_number() == 20 then
+                            lh_reard_check_table[faction_key]["hkrul_guzunda"] = true
                             local reward = "hkrul_guzunda"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction(), "champion", reward)
@@ -1785,8 +1787,8 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_cross"] == true or cm:model():turn_number() == 30 then
-                            lh_reard_check_table["hkrul_cross"] = true
+                        if lh_reard_check_table[faction_key]["hkrul_cross"] == true or cm:model():turn_number() == 30 then
+                            lh_reard_check_table[faction_key]["hkrul_cross"] = true
                             local reward = "hkrul_cross"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction(), "champion", reward)
@@ -1795,8 +1797,8 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                             end
                         end
-                        if lh_reard_check_table["hkrul_lisette"] == true or cm:model():turn_number() == 40 then
-                            lh_reard_check_table["hkrul_lisette"] = true
+                        if lh_reard_check_table[faction_key]["hkrul_lisette"] == true or cm:model():turn_number() == 40 then
+                            lh_reard_check_table[faction_key]["hkrul_lisette"] = true
                             local reward = "hkrul_lisette"
                             cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
                             local unique_agent = cm:get_most_recently_created_character_of_type(context:faction(), "spy", reward)
@@ -2874,8 +2876,9 @@ end
 function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
 	
 	local reward = item_data[region_key]
+	local faction_key = faction:name()
 	if reward == "hkrul_guzunda" or reward == "hkrul_crispijn" or reward == "hkrul_lisette" or reward == "hkrul_cross" then --it means they're legendary heroes
-        if lh_reard_check_table[reward] ==false then
+        if lh_reard_check_table[faction_key][reward] ==false then
             cm:trigger_incident_with_targets(
 			faction:command_queue_index(),
 			region_to_incident[region_key],
@@ -2886,7 +2889,7 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
 			0,
 			0
 			)
-            lh_reard_check_table[reward] = true
+            lh_reard_check_table[faction_key][reward] = true
             cm:spawn_unique_agent(faction:command_queue_index(), reward, true)
             if reward == "hkrul_lisette" then --some more stuff for Lisette
                 local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "spy", reward)--rename her
@@ -2940,11 +2943,7 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
 	end
 	
 	
-    --[[rhox: not adding random presents here
-	if cm:random_number(10,1) == 1 then
-		return hkrul_mar_reward_item_check(faction,region_reward_list[cm:random_number(#region_reward_list,1)],caravan_master)
-	end
-    --]]
+
 end
 
 --------------------------------------------------------------
