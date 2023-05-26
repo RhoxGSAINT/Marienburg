@@ -6,6 +6,6 @@ rhox_egmond_feature	wh3_main_ritual_tze_cotw_reveal_shroud		0	true
 rhox_egmond_feature	wh3_main_ritual_tze_cotw_show_ai_intentions		0	true
 rhox_egmond_feature	wh3_main_ritual_tze_cotw_track_army		0	true
 rhox_egmond_feature	wh3_main_ritual_tze_cotw_force_rebellion		0	true
-rhox_mundvard_feature	wh3_main_ritual_def_slave_entertainment		0	true
-rhox_mundvard_feature	wh3_main_ritual_def_slave_training		0	true
-rhox_mundvard_feature	wh3_main_ritual_def_slave_work		0	true
+rhox_mundvard_feature	wh3_main_ritual_def_slave_a		0	true
+rhox_mundvard_feature	wh3_main_ritual_def_slave_b		0	true
+rhox_mundvard_feature	wh3_main_ritual_def_slave_c		0	true
