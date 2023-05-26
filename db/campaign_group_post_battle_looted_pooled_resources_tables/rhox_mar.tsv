@@ -1,4 +1,4 @@
 campaign_group	resource_factor	base_multiplier	exponent	exponent_multiplier	maximum	minimum	base_amount	scope
 #campaign_group_post_battle_looted_pooled_resources_tables;0;db/campaign_group_post_battle_looted_pooled_resources_tables/rhox_mar								
 rhox_egmond_feature	wh3_main_tze_grimoires_factor_battles	0.0000	1.0000	0.0100	250	5	0	FACTION
-rhox_mundvard_feature	def_slaves_battles	0.1200	1.0000	0.0001	500	0	0	FACTION
+rhox_mundvard_feature	def_slaves_battles	0.0000	1.0000	0.0100	250	5	0	FACTION
