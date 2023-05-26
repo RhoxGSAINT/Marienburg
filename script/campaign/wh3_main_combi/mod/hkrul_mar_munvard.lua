@@ -308,15 +308,6 @@ local function coven_visibility()
     end
 end
 
---[[
-local function rhox_slave_button_visibility() --this one does not works. Do not use it
-    local slave_button_holder_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "ProvinceInfoPopup", "script_hider_parent", "panel", "frame_slaves");
-    if slave_button_holder_ui then
-        slave_button_holder_ui:SetVisible(true)
-    end
-end
---]]
-
 local function rhox_diktat_button_visibility()
     local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "ProvinceInfoPopup", "script_hider_parent", "panel") --there is "frame_slaves" slaves in the income
     if parent_ui then
@@ -357,7 +348,7 @@ function rhox_mar_mundvard_set_coven_listeners()
             core:get_tm():real_callback(function()
                 coven_visibility()
                 rhox_diktat_button_visibility()
-            end, 1)
+            end, 100)
         end,
         true
     )
