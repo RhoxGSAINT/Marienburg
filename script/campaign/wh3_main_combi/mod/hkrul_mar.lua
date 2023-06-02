@@ -16,8 +16,21 @@ local jaan_details = {
 
 RHOX_MAR_MCT_SETTING={
     additional_landship=0,
-    block_rebellion = false
+    block_rebellion = false,
+    kill_blue_pirate = false,
 }
+
+local function rhox_mar_kill_blue()
+    for i=1,#roving_pirates.pirate_details do
+        local faction_key = roving_pirates.pirate_details[i].faction_key
+        --out("Rhox Mar: Pirate key ".. faction_key)
+        local faction = cm:get_faction(faction_key)
+        if faction and faction:is_dead() == false then
+            --out("Rhox Mar: Killing them")
+            cm:kill_all_armies_for_faction(faction)
+        end
+    end
+end
 
 local function setup_mct(context)
     -- get the mct object
@@ -29,6 +42,11 @@ local function setup_mct(context)
     
     local block_rebellion = my_mod:get_option_by_key("rhox_mar_rebellion")
     RHOX_MAR_MCT_SETTING.block_rebellion = block_rebellion:get_finalized_setting()
+    
+    local kill_blue_pirate = my_mod:get_option_by_key("rhox_mar_blue_pirate")
+    RHOX_MAR_MCT_SETTING.kill_blue_pirate = kill_blue_pirate:get_finalized_setting()
+    
+    
 end
 
 core:add_listener(
@@ -48,6 +66,9 @@ core:add_listener(
     true,
     function(context)
         setup_mct(context)
+        if RHOX_MAR_MCT_SETTING.kill_blue_pirate then
+            rhox_mar_kill_blue()
+        end
     end,
     true
 )
@@ -159,30 +180,6 @@ local function hkrul_mar()
                     
                     out("Created replacement Lord " .. jaan_details.forename .. " for " .. marienburg_faction_key)
                     
-                    
-                    
-                    
-                    
-                    --[[
-                    --random lord for the battle
-                    cm:create_force_with_general(
-                        jaan_details.general_faction,
-                        jaan_details.unit_list,
- --jaan is not getting units
-                        marienburg_faction:home_region():name(),
-                        general_x_pos,
-                        general_y_pos,
-                        "general",
-                        "wh2_dlc13_emp_cha_huntsmarshal",
-                        "",
-                        "",
-                        "",
-                        "",
-                        false,
-                        function(cqi)
-                        end
-                    )
---]]
 
 
                     --[[--not until chorf
@@ -230,6 +227,11 @@ local function hkrul_mar()
                             cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.5)
                             out("Killing original " .. char_subtype .. " with forename " .. char_forename .. " for " .. marienburg_faction_key .. " permanently")
                         end
+                    end
+                    
+                    
+                    if RHOX_MAR_MCT_SETTING.kill_blue_pirate then
+                        rhox_mar_kill_blue()
                     end
                 end
             end, 0.1 --delay to make sure this runs after wh2_campaign_custom_starts.lua
