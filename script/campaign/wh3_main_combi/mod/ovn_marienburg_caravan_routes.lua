@@ -1,6 +1,10 @@
-local rhox_mar_trade_factions ={
+rhox_mar_trade_factions ={ --changed it to global so others can access to it
     ["wh_main_emp_marienburg"] = true,
-    ["ovn_mar_house_den_euwe"] = true
+    ["ovn_mar_house_den_euwe"] = true,
+    ["wh_main_emp_empire"] = true,
+    ["wh2_dlc13_emp_golden_order"] = true,
+    ["wh2_dlc13_emp_the_huntmarshals_expedition"] = true,
+    ["wh3_main_emp_cult_of_sigmar"] = true
 }
 
 local enemy_to_kill={}
@@ -572,6 +576,30 @@ local lh_reard_check_table={
         ["hkrul_lisette"] = false
     },
     ["ovn_mar_house_den_euwe"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    },
+    ["wh_main_emp_empire"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    },
+    ["wh2_dlc13_emp_golden_order"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    },
+    ["wh2_dlc13_emp_the_huntmarshals_expedition"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false
+    },
+    ["wh3_main_emp_cult_of_sigmar"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
@@ -1408,6 +1436,9 @@ cm:add_first_tick_callback_new(
                 elseif cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then --ui thing and local
                     cm:set_script_state("caravan_camera_x",1356);
                     cm:set_script_state("caravan_camera_y",557);
+                elseif rhox_mar_trade_factions[cm:get_local_faction_name(true)] then --use Marienburg
+                    cm:set_script_state("caravan_camera_x",451);
+                    cm:set_script_state("caravan_camera_y",657);
                 end
             end,
             3
@@ -1690,9 +1721,14 @@ cm:add_first_tick_callback(
                     true
                 )
             end
+            local is_human_mar_trade_faction = false
+            for key, value in pairs(rhox_mar_trade_factions) do
+                if cm:get_faction(key):is_human() then
+                    is_human_mar_trade_faction = true
+                end
+            end
 
-
-            if cm:get_faction("wh_main_emp_marienburg"):is_human() or cm:get_faction("ovn_mar_house_den_euwe"):is_human() then
+            if is_human_mar_trade_faction then
                 core:add_listener(
                     "rhox_mar_LH_failsafe_RoundStart",
                     "FactionRoundStart",
@@ -2630,37 +2666,27 @@ end;
 function hkrul_mar_recruit_starter_caravan()
 	out.design("Recruit a starter caravan");
 	local model = cm:model();
-	local faction_list = model:world():faction_list();
-	for i=0, faction_list:num_items()-1 do
-		local faction = faction_list:item_at(i)
-		if faction:is_human() and rhox_mar_trade_factions[faction:name()] then
-			
-			out.design("Passed tests")
-			out.design(faction:name())
-			
-			local available_caravans = 
-				model:world():caravans_system():faction_caravans(faction):available_caravan_recruitment_items();
-			
-			if available_caravans:is_empty() then
-				out.design("No caravans in the pool! Needs one at this point to start the player with one")
-			else
-				local temp_caravan = available_caravans:item_at(0);
-				if temp_caravan:is_null_interface() then
-					out.design("***Caravan is null interface***")
-					break
-				end
-				--Recruit the caravan
-				out.design("Try and recruit")
-				local starter_caravan = cm:recruit_caravan(faction, temp_caravan);
-                if not starter_caravan:is_null_interface() then
-                    cm:set_character_excluded_from_trespassing(starter_caravan:caravan_master():character(), true)
-                end
-				--out("Rhox Mar: this is for initial caravan")
-				CampaignUI.ClearSelection();
-				break;
-			end;
-		end;
-	end;
+	local faction = cm:get_faction("wh_main_emp_marienburg")--It does not work for Egmond, and other guys shouldn't get access to it at the start
+    if faction:is_human() then
+        local available_caravans = 
+            model:world():caravans_system():faction_caravans(faction):available_caravan_recruitment_items();
+        
+        if available_caravans:is_empty() then
+            out.design("No caravans in the pool! Needs one at this point to start the player with one")
+        else
+            local temp_caravan = available_caravans:item_at(0);
+            if temp_caravan:is_null_interface() then
+                out.design("***Caravan is null interface***")
+            end
+            --Recruit the caravan
+            local starter_caravan = cm:recruit_caravan(faction, temp_caravan);
+            if not starter_caravan:is_null_interface() then
+                cm:set_character_excluded_from_trespassing(starter_caravan:caravan_master():character(), true)
+            end
+            --out("Rhox Mar: this is for initial caravan")
+            CampaignUI.ClearSelection();
+        end;
+    end;
 	
 end;
 
