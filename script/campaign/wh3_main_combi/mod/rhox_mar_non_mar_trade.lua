@@ -10,9 +10,17 @@ rhox_mar_non_mar_trade_factions ={ --global so others can access to it
 
 local function rhox_remove_caravan_button()
     local caravan_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_caravan");
-    if caravan_button and cm:get_saved_value("rhox_mar_unlocked_guilded_" .. cm:get_local_faction_name(true)) ~=true then
+    if not caravan_button then
+        return--return rather than breaking
+    end
+    if cm:get_saved_value("rhox_mar_unlocked_guilded_" .. cm:get_local_faction_name(true)) ~=true then
         cm:callback(function()
             caravan_button:SetVisible(false)
+            end,
+        5)
+    else
+        cm:callback(function()
+            caravan_button:SetVisible(true)
             end,
         5)
     end
