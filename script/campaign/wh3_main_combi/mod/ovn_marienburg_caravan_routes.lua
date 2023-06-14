@@ -1666,6 +1666,26 @@ local function rhox_mar_finish_dilemma_unit_add(caravan)
     cm:launch_custom_dilemma_from_builder(dilemma_builder, caravan:caravan_force():faction());
 end
 
+core:add_listener(
+    "rhox_mar_realtime_caravan_panel",
+    "RealTimeTrigger",
+    function(context)
+        return context.string == "rhox_mar_realtime_caravan_panel"
+    end,
+    function()
+        local dispatch_hlist = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "dispatch_holder", "hlist");
+        local dispatch_destination_list = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "dispatch_holder", "destination_list");
+        
+        if not dispatch_hlist or not dispatch_destination_list then
+            real_timer.unregister("rhox_mar_realtime_caravan_panel")
+            return
+        end
+        dispatch_hlist:SetVisible(true)
+        dispatch_destination_list:SetVisible(true)
+    end,
+    true
+)
+
 cm:add_first_tick_callback(
 	function ()
 		-- Setup event and region data for each campaign
@@ -1686,6 +1706,9 @@ cm:add_first_tick_callback(
                     end,
                     function()
                         local caravan_head_text = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder", "tx_header");
+                        if not caravan_head_text then
+                            return
+                        end
                         caravan_head_text:SetText(common.get_localised_string("ui_text_replacements_localised_text_ovn_ivory_road"))
                         
                         local reserve_caravan_text_parent = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel");
@@ -1702,21 +1725,47 @@ cm:add_first_tick_callback(
                         local caravan_head_movie = find_uicomponent(caravan_head_movie_holder, "background_movie");
                         caravan_head_movie:SetVisible(false) --we don't want to see the caravan movie
                         
+                        
+                        
                         --local caravan_dispatch_button = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "dispatch_holder", "button_dispatch");
                         --caravan_dispatch_button:SetState("active")--double test, it didn't work
+                        
+                        
+                        --real_timer.unregister("rhox_mar_realtime_caravan_panel")
+                        --real_timer.register_repeating("rhox_mar_realtime_caravan_panel", 100)
+                        
+                        --local temp_value = dispatch_hlist:GetContextObject("CcoScriptObject")
+                        --out("Rhox Mar temp: " .. tostring(temp_value))
+                        --out("Rhox Mar temp: " .. tostring(temp_value:Call("ContextVisibilitySetter.StringValue")))
+                        
+                        
                         
                         local result = core:get_or_create_component("rhox_convoy_movie", "ui/campaign ui/rhox_convoy_movie.twui.xml", caravan_head_movie_holder)
                         if not result then
                             script_error("Rhox Mar: ".. "ERROR: could not create movie ui component? How can this be?");
                             return false;
                         end;
+                        
+                        local second_active_parent = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "active_parent", "active_holder");
+                        local result2 = core:get_or_create_component("rhox_mar_caravan_second_active", "ui/campaign ui/rhox_mar_second_holder.twui.xml", second_active_parent)
+                        if not result2 then
+                            script_error("Rhox Mar: ".. "ERROR: could not create second_holder ui component? How can this be?");
+                            return false;
+                        end;
+                        
+                        
+                        
+                        local active_parent = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "active_parent");
+                        if result2:Visible() then
+                            active_parent:Resize(400, 300)
+                        end
+                        
                         cm:callback(
                             function()
                                 rhox_loop_and_find_flag()
                             end,
                             1
                         )
-                        
                     end,
                     true
                 )
