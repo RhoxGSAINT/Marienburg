@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/!cr_marienburg_unique_model						
 43634982	cr_mar_special_settlement_marienburg_1	wh2_dlc13_emp_inf_archers_0	0	0		false
 43634983	cr_mar_special_settlement_marienburg_2	wh2_dlc13_emp_inf_archers_0	0	0		false

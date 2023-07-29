@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/!snek_hkrul_marienburg_landship						
 312543560	wh_main_special_marienburg_port_2	snek_hkrul_mar_landship	0	0		false
 312543561	wh_main_special_marienburg_port_3	snek_hkrul_mar_landship	0	0		false
