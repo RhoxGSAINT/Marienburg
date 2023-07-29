@@ -1,7 +1,7 @@
-level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
-#building_levels_tables;0;db/building_levels_tables/hkrul_mar																						
-hkrul_mar_suiddock	hkrul_mar_suiddock	0	3	3000	0		false	false		true	hkrul_mar_suiddock	false	0.0000	0	true	1		true	0	0		0
-hkrul_mar_temple_haeyndrik	hkrul_mar_temple_haeyndrik	0	4	5000	0		false	false		true	hkrul_mar_temple_haeyndrik	false	0.0000	0	true	4		true	0	0		0
-hkrul_mar_bechai	hkrul_mar_bechai	0	3	3250	0		false	false		true	hkrul_mar_bechai	false	0.0000	0	true	2		true	0	0		0
-hkrul_mar_mundvard_liar	hkrul_mar_mundvard_liar	0	3	2750	0		false	false		true	hkrul_mar_mundvard_liar	false	0.0000	0	true	2		true	0	0		0
-hkrul_mar_mundvard_marienburg	hkrul_mar_mundvard_marienburg	0	4	5000	0		false	false		true	hkrul_mar_mundvard_marienburg	false	0.0000	0	true	4		true	0	0		0
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/hkrul_mar																							
+hkrul_mar_suiddock	hkrul_mar_suiddock	0	3	3000	0		false	false			true	hkrul_mar_suiddock	false	0.0000	0	true	1		true	0	0		0
+hkrul_mar_temple_haeyndrik	hkrul_mar_temple_haeyndrik	0	4	5000	0		false	false			true	hkrul_mar_temple_haeyndrik	false	0.0000	0	true	4		true	0	0		0
+hkrul_mar_bechai	hkrul_mar_bechai	0	3	3250	0		false	false			true	hkrul_mar_bechai	false	0.0000	0	true	2		true	0	0		0
+hkrul_mar_mundvard_liar	hkrul_mar_mundvard_liar	0	3	2750	0		false	false			true	hkrul_mar_mundvard_liar	false	0.0000	0	true	2		true	0	0		0
+hkrul_mar_mundvard_marienburg	hkrul_mar_mundvard_marienburg	0	4	5000	0		false	false			true	hkrul_mar_mundvard_marienburg	false	0.0000	0	true	4		true	0	0		0

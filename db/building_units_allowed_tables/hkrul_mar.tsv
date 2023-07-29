@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/hkrul_mar						
 1905195415	wh_main_special_marienburg_port_2	hkrul_carriers	0	0	wh_main_emp_marienburg	true
 1905195417	wh_main_special_marienburg_port_3	hkrul_carriers	0	0	wh_main_emp_marienburg	true

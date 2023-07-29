@@ -2716,7 +2716,7 @@ function hkrul_mar_recruit_starter_caravan()
 	out.design("Recruit a starter caravan");
 	local model = cm:model();
 	local faction = cm:get_faction("wh_main_emp_marienburg")--It does not work for Egmond, and other guys shouldn't get access to it at the start
-    if faction:is_human() then
+    if faction:is_human() and cm:model():campaign_name_key() == "wh3_main_combi" then
         local available_caravans = 
             model:world():caravans_system():faction_caravans(faction):available_caravan_recruitment_items();
         
