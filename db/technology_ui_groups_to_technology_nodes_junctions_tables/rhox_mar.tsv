@@ -1,4 +1,4 @@
 tech_ui_group	bottom_right_node	top_left_node	optional_top_right_node	optional_bottom_left_node
 #technology_ui_groups_to_technology_nodes_junctions_tables;2;db/technology_ui_groups_to_technology_nodes_junctions_tables/rhox_mar				
 mar_unique	mixu_emp_marienburg_tech_unique_2	mixu_emp_marienburg_tech_unique_1		
-egmond_unique	rhox_mar_egmond_chosen	rhox_mar_egmond_chosen		
+egmond_unique	rhox_mar_egmond_chosen	rhox_mar_egmond_marauder		

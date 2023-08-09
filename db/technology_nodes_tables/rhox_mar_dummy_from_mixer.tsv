@@ -1,3 +1,2 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_mar_dummy_from_mixer														
-emp_marienburg_tech			7	wh_main_tech_dwf_civ_0_2	mar_dummy	4	700	0	0			0	0	0
