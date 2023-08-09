@@ -3,3 +3,6 @@ key	campaign
 ovn_dekuypers_network	wh3_main_combi
 rhox_mar_network	wh3_main_combi
 rhox_mar_mundvard_network	wh3_main_combi
+ovn_dekuypers_network_iee	cr_combi_expanded
+rhox_mar_network_iee	cr_combi_expanded
+rhox_mar_mundvard_network_iee	cr_combi_expanded

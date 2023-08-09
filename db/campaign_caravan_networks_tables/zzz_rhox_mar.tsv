@@ -1,3 +1,4 @@
 campaign_group	caravan_commander	routes	default_contract	resource_factor
 #campaign_caravan_networks_tables;2;db/campaign_caravan_networks_tables/zzz_rhox_mar				
 rhox_mar_non_mar_trade_group	mar_caravan_master	ovn_dekuypers_network	default	technology
+rhox_mar_non_mar_trade_group_iee	mar_caravan_master	ovn_dekuypers_network_iee	default	technology
