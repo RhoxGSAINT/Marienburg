@@ -175,6 +175,10 @@ local function hkrul_mar()
                                     cm:grant_unit_to_character(char_str, "snek_hkrul_mar_landship")
                                 end
                             end
+                            if marienburg_faction:is_human() ==false then
+                                cm:add_agent_experience(char_str, 3, true) --add level. Below's level restriction is 3
+                                cm:add_skill(cm:get_character_by_cqi(cqi), "hkrul_jaan_special_4_0", true, true)--AI can't take care of the upkeep and adding skill here for them
+                            end
                         end
                     )
                     
