@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/hkrul_mar_included						
 823737730	wh_main_emp_settlement_minor_3	hkrul_burgher	0	0	wh_main_emp_marienburg	true
 823737731	wh_main_emp_settlement_minor_2	hkrul_burgher	0	0	wh_main_emp_marienburg	true

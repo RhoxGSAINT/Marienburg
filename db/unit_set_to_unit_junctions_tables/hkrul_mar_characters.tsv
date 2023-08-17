@@ -73,3 +73,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_caravan_master_horse	emp_characters	false
 			hkrul_mar_caravan_master	hkrul_mar_caravan_lord_unit_set	false
 			hkrul_mar_caravan_master_horse	hkrul_mar_caravan_lord_unit_set	false
+			hkrul_harb	mp_cap_group_heroes	false
+			hkrul_harb	emp_all	false
+			hkrul_harb	emp_characters	false
+			hkrul_harb	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_harb	hef_all	false

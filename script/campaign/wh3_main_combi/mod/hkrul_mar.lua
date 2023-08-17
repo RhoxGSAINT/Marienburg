@@ -165,6 +165,15 @@ local function hkrul_mar()
                     cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "wh_main_emp_middenland", 3)
                     cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "wh_main_brt_bretonnia", 2) --becuase of tresspassing penalty I don't know of
                     
+                cm:spawn_agent_at_position(cm:get_faction(marienburg_faction_key), 467, 655, "champion","hkrul_harb")
+                local harb = cm:get_most_recently_created_character_of_type(marienburg_faction_key, "champion", "hkrul_harb")
+                local name1 = common:get_localised_string("names_name_605123691")
+                local name2 = common:get_localised_string("names_name_605123690")
+                if harb then
+                    cm:change_character_custom_name(harb, name1, name2, "", "")
+                    cm:replenish_action_points(cm:char_lookup_str(harb:cqi()))
+                end
+                    
                     -- Killing old (generic) Emil permanently
                     local char_list = marienburg_faction:character_list()
                     local char_subtype = "wh_main_emp_lord" -- old (generic) Emil's agent subtype

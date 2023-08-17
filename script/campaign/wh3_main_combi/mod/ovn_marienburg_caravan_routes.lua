@@ -532,14 +532,12 @@ random_army_manager:add_unit("wh_main_nor_norsca_qb1_high_b", "wh_dlc08_nor_mon_
 random_army_manager:add_unit("wh_main_nor_norsca_qb1_high_b", "wh_dlc08_nor_mon_war_mammoth_2", 1);
 
 
-
---[[--vanilla will make it. We don't need to make one
 -- Daemon Army
 random_army_manager:new_force("daemon_incursion");
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_inf_bloodletters_0", 3);
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_inf_chaos_warhounds_0", 4);
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_cav_gorebeast_chariot", 1);
---]]
+
 
 --below global variables are created by rhox
 
@@ -1663,10 +1661,6 @@ cm:add_first_tick_callback(
                         local caravan_head_movie_holder = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder");
                         local caravan_head_movie = find_uicomponent(caravan_head_movie_holder, "background_movie");
                         caravan_head_movie:SetVisible(false) --we don't want to see the caravan movie
-                        
-                        --local caravan_dispatch_button = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "dispatch_holder", "button_dispatch");
-                        --caravan_dispatch_button:SetState("active")--double test, it didn't work
-                        
                         local result = core:get_or_create_component("rhox_convoy_movie", "ui/campaign ui/rhox_convoy_movie.twui.xml", caravan_head_movie_holder)
                         if not result then
                             script_error("Rhox Mar: ".. "ERROR: could not create movie ui component? How can this be?");

@@ -26,6 +26,7 @@ rhox_mar_marienburg	false	hkrul_mar_knights_griffon	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_qual	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_qual_great	true	true				false		false
 rhox_mar_marienburg	false	hkrul_crispijn	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_crispijn.png	hkrul_crispijn	hkrul_crispijn	false		false
+rhox_mar_marienburg	false	hkrul_harb	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_harb.png	hkrul_harb	hkrul_harb	false		false
 rhox_mar_marienburg	true	hkrul_mar_egmond	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
 rhox_mar_marienburg	true	hkrul_mar_egmond_longma	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
 rhox_mar_marienburg	true	hkrul_mar_egmond_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
