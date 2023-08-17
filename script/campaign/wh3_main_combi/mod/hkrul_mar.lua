@@ -206,10 +206,10 @@ local function hkrul_mar()
                     
                     --creating hkrul pg here so he could spawn near the new lord
                     local marienburg_faction_cqi = marienburg_faction:command_queue_index();  
-                    cm:spawn_unique_agent(marienburg_faction_cqi,"hkrul_pg",true);
-                    local hkrul_pg = cm:get_most_recently_created_character_of_type("wh_main_emp_marienburg", "champion", "hkrul_pg")
-                    cm:replenish_action_points(cm:char_lookup_str(hkrul_pg:cqi())) 
-                    cm:teleport_to(cm:char_lookup_str(hkrul_pg:cqi()), 468, 655) --because now the faction leader has moved
+                    cm:spawn_unique_agent(marienburg_faction_cqi,"hkrul_harb",true);
+                    local hkrul_harb = cm:get_most_recently_created_character_of_type("wh_main_emp_marienburg", "champion", "hkrul_harb")
+                    cm:replenish_action_points(cm:char_lookup_str(hkrul_harb:cqi())) 
+                    cm:teleport_to(cm:char_lookup_str(hkrul_harb:cqi()), 468, 655) --because now the faction leader has moved
                     
                     cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "wh_main_emp_nordland", 3)
                     cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "wh_main_emp_middenland", 3)

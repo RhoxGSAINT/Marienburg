@@ -30,6 +30,7 @@ rhox_mar_convoy_completed_dai_cheng	false	cst/legendary_pirate_attacks	false	Eve
 rhox_mar_convoy_completed_fu_chow	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_convoy_completed_haichai	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_convoy_completed_myrmidens	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+rhox_mar_convoy_completed_bechafen	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_double_cathay_reward_jaan	false	ivory_road	false	Event	event_caravan_positive.png	false		0.0000
 rhox_mar_ll_hendrik_available	false	faction	false	Event		false		0.0000
 rhox_mar_item_set_event	false	hkrul_mar_item_set_event	false	Event		true		0.0000

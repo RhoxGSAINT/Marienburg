@@ -141,3 +141,5 @@ unit_description_short_texts_text_rhox_mar_mundvard_criminal	Criminal Network Ov
 campaign_payload_ui_details_description_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer has been recruited	false
 incidents_localised_title_rhox_mar_gained_access_to_the_guilded	New Horizon	false
 incidents_localised_description_rhox_mar_gained_access_to_the_guilded	By acquiring Marienburg, we have gained access to the fabulous Gilded Route. An Ocean of Money awaits us. 	false
+incidents_localised_description_rhox_mar_convoy_completed_bechafen	At the tavern, you meet a giant guy who is claiming to be the right hand of Jaan. You give him a suspicious look, and he suddenly kicked your butt and joins your crew.	false
+incidents_localised_title_rhox_mar_convoy_completed_bechafen	Gilded Route Completed – Unique Item	false

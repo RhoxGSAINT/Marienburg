@@ -33,3 +33,4 @@ id	incident_key	payload_key	value	target_key
 1955312500	rhox_mar_free_witch_hunter	TEXT_DISPLAY	LOOKUP[rhox_mar_dummy_solkan_mission]	default
 1955312501	rhox_mar_convoy_completed_marienburg	ADD_ANCILLARY	ANCILLARY_KEY[hkrul_mar_marienburg_anc]	default
 1955312502	rhox_mar_gained_access_to_the_guilded	TEXT_DISPLAY	LOOKUP[rhox_mar_guilded_access]	default
+1955312503	rhox_mar_convoy_completed_bechafen	TEXT_DISPLAY	LOOKUP[rhox_mar_dummy_hkrul_pg_spawns]	default

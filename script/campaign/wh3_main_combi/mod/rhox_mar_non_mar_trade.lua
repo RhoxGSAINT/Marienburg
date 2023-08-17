@@ -7,6 +7,10 @@ rhox_mar_non_mar_trade_factions ={ --global so others can access to it
     ["wh3_main_emp_cult_of_sigmar"] = true
 }
 
+if vfs.exists("script/campaign/mod/twill_old_world_caravans.lua")then
+    rhox_mar_non_mar_trade_factions ={
+    }
+end
 
 local function rhox_remove_caravan_button()
     local caravan_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_caravan");

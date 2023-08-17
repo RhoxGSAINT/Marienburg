@@ -1,4 +1,4 @@
-rhox_mar_trade_factions ={ --changed it to global so others can access to it
+rhox_mar_trade_factions ={ --changed it to global so other mods can access to it
     ["wh_main_emp_marienburg"] = true,
     ["ovn_mar_house_den_euwe"] = true,
     ["wh_main_emp_empire"] = true,
@@ -6,6 +6,14 @@ rhox_mar_trade_factions ={ --changed it to global so others can access to it
     ["wh2_dlc13_emp_the_huntmarshals_expedition"] = true,
     ["wh3_main_emp_cult_of_sigmar"] = true
 }
+
+if vfs.exists("script/campaign/mod/twill_old_world_caravans.lua")then
+    rhox_mar_trade_factions ={ --changed it to global so other mods can access to it
+        ["wh_main_emp_marienburg"] = true,
+        ["ovn_mar_house_den_euwe"] = true,
+    }
+end
+
 
 local enemy_to_kill={}
 
@@ -225,7 +233,7 @@ local item_data_combi = {
 	["wh3_main_combi_region_karond_kar"]			= "hkrul_mar_item_arnheim",
 	["wh3_main_combi_region_bordeleaux"]			= "hkrul_mar_baron",
 	["wh3_main_combi_region_port_reaver"]			= "hkrul_crispijn",
-	["wh3_main_combi_region_lothern"]				= "hkrul_cross", --hkrul_mar_heir
+	["wh3_main_combi_region_lothern"]				= "hkrul_cross", 
 	["wh3_main_combi_region_magritta"]				= "hkrul_mar_follower_roelef",
 	["wh3_main_combi_region_sartosa"]				= "hkrul_mar_item_vargheist",
 	["wh3_main_combi_region_miragliano"]			= "hkrul_mar_lupo",  --
@@ -234,7 +242,7 @@ local item_data_combi = {
 	["wh3_main_combi_region_al_haikk"]				= "hkrul_mar_follower_bard",
 	["wh3_main_combi_region_zandri"]				= "hkrul_mar_item_trident_manann",
 	["wh3_main_combi_region_lashiek"]				= "hkrul_mar_thom",
-	["wh3_main_combi_region_sudenburg"]				= "hkrul_lisette",  --hkrul_mar_gote
+	["wh3_main_combi_region_sudenburg"]				= "hkrul_lisette",
 	["wh3_main_combi_region_fortress_of_dawn"]		= "hkrul_mar_item_fence", 
 	["wh3_main_combi_region_tower_of_the_sun"]		= "hkrul_mar_follower_elf",
 	["wh3_main_combi_region_fu_hung"]				= "hkrul_mar_rat",
@@ -242,7 +250,8 @@ local item_data_combi = {
 	["wh3_main_combi_region_fu_chow"]				= "hkrul_mar_follower_ship",
 	["wh3_main_combi_region_beichai"]				= "hkrul_mar_bonsai",
 	["wh3_main_combi_region_haichai"]				= "hkrul_mar_follower_cathay",
-	["wh3_main_combi_region_marienburg"]				= "hkrul_mar_marienburg_anc",
+	["wh3_main_combi_region_marienburg"]			= "hkrul_mar_marienburg_anc",
+	["wh3_main_combi_region_bechafen"]				= "hkrul_pg"
 }
 
 local region_to_incident = {}
@@ -272,37 +281,9 @@ local region_to_incident_combi = {
 	["wh3_main_combi_region_fu_chow"]				= "rhox_mar_convoy_completed_fu_chow",
 	["wh3_main_combi_region_beichai"]				= "rhox_mar_convoy_completed_beichai",
 	["wh3_main_combi_region_haichai"]				= "rhox_mar_convoy_completed_haichai",
-	["wh3_main_combi_region_marienburg"]				= "rhox_mar_convoy_completed_marienburg",
+	["wh3_main_combi_region_marienburg"]			= "rhox_mar_convoy_completed_marienburg",
+	["wh3_main_combi_region_bechafen"]				= "rhox_mar_convoy_completed_bechafen"
 }
-
-local region_reward_list = {  --not using it currently
-    "wh3_main_combi_region_altdorf",
-    "wh3_main_combi_region_erengrad",
-    "wh3_main_combi_region_arnheim",
-    "wh3_main_combi_region_sjoktraken",
-    "wh3_main_combi_region_karond_kar",
-    "wh3_main_combi_region_bordeleaux",
-    "wh3_main_combi_region_port_reaver",
-    "wh3_main_combi_region_lothern",
-    "wh3_main_combi_region_magritta",
-    "wh3_main_combi_region_sartosa",
-    "wh3_main_combi_region_miragliano",
-    "wh3_main_combi_region_myrmidens",
-    "wh3_main_combi_region_barak_varr",
-    "wh3_main_combi_region_al_haikk",
-    "wh3_main_combi_region_zandri",
-    "wh3_main_combi_region_lashiek",
-    "wh3_main_combi_region_sudenburg",
-    "wh3_main_combi_region_fortress_of_dawn",
-    "wh3_main_combi_region_tower_of_the_sun",
-    "wh3_main_combi_region_fu_hung",
-    "wh3_main_combi_region_dai_cheng",
-    "wh3_main_combi_region_fu_chow",
-    "wh3_main_combi_region_beichai",
-    "wh3_main_combi_region_haichai",
-    "wh3_main_combi_region_marienburg"
-}
-
 
 
 
@@ -314,7 +295,8 @@ local rhox_caravan_exception_list={
     ["hkrul_crispijn"] =true,
     ["hkrul_guzunda"] =true,
     ["hkrul_lisette"] =true,
-    ["hkrul_cross"] =true
+    ["hkrul_cross"] =true,
+    ["hkrul_pg"] =true
 }
 
 
@@ -573,37 +555,43 @@ local lh_reard_check_table={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     },
     ["ovn_mar_house_den_euwe"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     },
     ["wh_main_emp_empire"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     },
     ["wh2_dlc13_emp_golden_order"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     },
     ["wh2_dlc13_emp_the_huntmarshals_expedition"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     },
     ["wh3_main_emp_cult_of_sigmar"]={
         ["hkrul_guzunda"] = false,
         ["hkrul_crispijn"] = false,
         ["hkrul_cross"] = false,
-        ["hkrul_lisette"] = false
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
     }
 }
 
@@ -1820,6 +1808,15 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi())) --do not teleport her She maybe summoned earlier
                             end
                         end
+                        if lh_reard_check_table[faction_key]["hkrul_pg"] == true then
+                            local reward = "hkrul_pg"
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction():name(), "champion", reward)
+                            if unique_agent then 
+                                cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_pg"), "", "", "")
+                                cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
+                            end
+                        end
                         if cm:get_saved_value("rhox_solkan_summoned") == true then
                             hkrul_spawn_solkan(context:faction():name(), "hkrul_solkan")
                         end
@@ -1892,6 +1889,16 @@ cm:add_first_tick_callback(
                                 cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi())) --do not teleport her She maybe summoned earlier
                             end
                         end                        
+                        if lh_reard_check_table[faction_key]["hkrul_pg"] == true or cm:model():turn_number() == 50 then
+                            lh_reard_check_table[faction_key]["hkrul_pg"] = true
+                            local reward = "hkrul_pg"
+                            cm:spawn_unique_agent(context:faction():command_queue_index(), reward, true)
+                            local unique_agent = cm:get_most_recently_created_character_of_type(context:faction(), "champion", reward)
+                            if unique_agent then 
+                                cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_pg"), "", "", "")
+                                cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
+                            end
+                        end
                     end,
                     true
                 )
@@ -2768,7 +2775,8 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
             ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
             ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
-            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) --not going to visit here
+            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0), --not going to visit here
+            ["wh3_main_combi_region_bechafen"]				=75-cm:random_number(50,0)
         };
     elseif cm:get_faction("ovn_mar_house_den_euwe"):is_human() then --he's starting from Cathay so the number should be the opposite
         end_nodes = {
@@ -2795,7 +2803,8 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_fu_chow"]				=75-cm:random_number(50,0),--not going to visit here
             ["wh3_main_combi_region_beichai"]				=75-cm:random_number(50,0),
             ["wh3_main_combi_region_haichai"]				=75-cm:random_number(50,0),
-            ["wh3_main_combi_region_marienburg"]			=cm:random_number(150,60)
+            ["wh3_main_combi_region_marienburg"]			=cm:random_number(150,60),
+            ["wh3_main_combi_region_bechafen"]				=cm:random_number(150,60)
         };
     else --for apply Marienburg thing when player are neither
         end_nodes = {
@@ -2822,7 +2831,8 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_fu_chow"]				=cm:random_number(150,60),
             ["wh3_main_combi_region_beichai"]				=cm:random_number(150,60),
             ["wh3_main_combi_region_haichai"]				=cm:random_number(150,60),
-            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0) 
+            ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0),
+            ["wh3_main_combi_region_bechafen"]				=75-cm:random_number(50,0)
         };
     end
 	
@@ -2952,7 +2962,7 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
 	
 	local reward = item_data[region_key]
 	local faction_key = faction:name()
-	if reward == "hkrul_guzunda" or reward == "hkrul_crispijn" or reward == "hkrul_lisette" or reward == "hkrul_cross" then --it means they're legendary heroes
+	if reward == "hkrul_guzunda" or reward == "hkrul_crispijn" or reward == "hkrul_lisette" or reward == "hkrul_cross" or reward == "hkrul_pg" then --it means they're legendary heroes
         if lh_reard_check_table[faction_key][reward] ==false then
             cm:trigger_incident_with_targets(
 			faction:command_queue_index(),
@@ -2979,6 +2989,12 @@ function hkrul_mar_reward_item_check(faction,region_key,caravan_master)
                 local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)--rename her
                 if unique_agent then 
                     cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_cross"), "", "", "")
+                    cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
+                end
+            elseif reward == "hkrul_pg" then --change the name of him
+                local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)--rename her
+                if unique_agent then 
+                    cm:change_character_custom_name(unique_agent, common:get_localised_string("land_units_onscreen_name_hkrul_pg"), "", "", "")
                     cm:replenish_action_points(cm:char_lookup_str(unique_agent:cqi()))
                 end
             else  --just replenish action points
