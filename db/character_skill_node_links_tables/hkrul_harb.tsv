@@ -1,0 +1,24 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_harb							
+skill_node_hkrul_harb_special_1_1	skill_node_hkrul_harb_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_1_2	skill_node_hkrul_harb_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_1_3	skill_node_hkrul_harb_special_1_1	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_1_3	skill_node_hkrul_harb_special_1_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_1_4	skill_node_hkrul_harb_special_1_3	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_1_5	skill_node_hkrul_harb_special_1_3	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_1_6	skill_node_hkrul_harb_special_1_4	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_1_6	skill_node_hkrul_harb_special_1_5	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_1	skill_node_hkrul_harb_special_2_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_2	skill_node_hkrul_harb_special_2_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_3	skill_node_hkrul_harb_special_2_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_4	skill_node_hkrul_harb_special_2_1	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_4	skill_node_hkrul_harb_special_2_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_4	skill_node_hkrul_harb_special_2_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_5	skill_node_hkrul_harb_special_2_4	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_6	skill_node_hkrul_harb_special_2_4	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_7	skill_node_hkrul_harb_special_2_4	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_2_8	skill_node_hkrul_harb_special_2_5	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_8	skill_node_hkrul_harb_special_2_6	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_2_8	skill_node_hkrul_harb_special_2_7	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_harb_special_0_4	skill_node_hkrul_harb_special_0_1	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_harb_special_0_3	skill_node_hkrul_harb_special_0_2	0	1	1	0.0000	0.0000	REQUIRED

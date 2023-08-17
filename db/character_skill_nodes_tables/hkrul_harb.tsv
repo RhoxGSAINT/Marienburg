@@ -1,0 +1,33 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/hkrul_harb										
+skill_node_hkrul_harb_campaign_01		wh2_main_skill_all_hero_assist_army_scouting	skill_node_set_hkrul_harb		5.0000	0.0000		0	0	true
+skill_node_hkrul_harb_campaign_02		wh2_main_skill_all_hero_assist_army_scavenge	skill_node_set_hkrul_harb		5.0000	1.0000		0	0	true
+skill_node_hkrul_harb_campaign_03		wh2_main_skill_all_hero_passive_increase_trade	skill_node_set_hkrul_harb		5.0000	2.0000		0	0	true
+skill_node_hkrul_harb_campaign_05		wh2_main_skill_all_hero_hinder_agent_assassinate	skill_node_set_hkrul_harb		5.0000	4.0000		0	0	true
+skill_node_hkrul_harb_campaign_06		wh2_main_skill_all_hero_hinder_army_assault_units	skill_node_set_hkrul_harb		5.0000	5.0000		0	0	true
+skill_node_hkrul_harb_campaign_07		wh2_main_skill_all_hero_reduce_action_cost	skill_node_set_hkrul_harb		5.0000	6.0000		0	0	true
+skill_node_hkrul_harb_campaign_actions_dummy		hkrul_harb_agent_actions	skill_node_set_hkrul_harb		8.0000	0.0000		1	0	false
+skill_node_hkrul_harb_generic_2		hkrul_mar_haeyndrik_shield	skill_node_set_hkrul_harb		0.0000	5.0000		0	0	true
+skill_node_hkrul_harb_generic_1		wh_main_skill_emp_champion_unique_hold_the_line	skill_node_set_hkrul_harb		0.0000	6.0000		0	0	true
+skill_node_hkrul_harb_generic_3		wh3_main_skill_all_mentor_hero	skill_node_set_hkrul_harb		0.0000	333.0000		0	0	true
+skill_node_hkrul_harb_innate		innate_hkrul_harb	skill_node_set_hkrul_harb		6.0000	0.0000		1	0	false
+skill_node_hkrul_harb_special_1_0		hkrul_harb_special_1_0	skill_node_set_hkrul_harb		1.0000	0.0000		0	0	true
+skill_node_hkrul_harb_special_1_1		hkrul_harb_special_1_1	skill_node_set_hkrul_harb		1.0000	1.0000		0	0	true
+skill_node_hkrul_harb_special_1_2		hkrul_harb_special_1_2	skill_node_set_hkrul_harb		1.0000	2.0000		0	0	true
+skill_node_hkrul_harb_special_1_6		hkrul_harb_special_1_6	skill_node_set_hkrul_harb		1.0000	6.0000		0	2	true
+skill_node_hkrul_harb_special_1_5		hkrul_harb_special_1_5	skill_node_set_hkrul_harb		1.0000	5.0000		0	0	true
+skill_node_hkrul_harb_special_1_3		hkrul_harb_special_1_3	skill_node_set_hkrul_harb		1.0000	3.0000		0	2	true
+skill_node_hkrul_harb_special_2_3		hkrul_harb_special_2_3	skill_node_set_hkrul_harb		2.0000	3.0000		0	0	true
+skill_node_hkrul_harb_special_2_6		hkrul_harb_special_2_6	skill_node_set_hkrul_harb		2.0000	6.0000		0	0	true
+skill_node_hkrul_harb_special_2_1		hkrul_harb_special_2_1	skill_node_set_hkrul_harb		2.0000	1.0000		0	0	true
+skill_node_hkrul_harb_special_2_5		hkrul_harb_special_2_5	skill_node_set_hkrul_harb		2.0000	5.0000		0	0	true
+skill_node_hkrul_harb_special_2_2		hkrul_harb_special_2_2	skill_node_set_hkrul_harb		2.0000	2.0000		0	0	true
+skill_node_hkrul_harb_special_2_4		hkrul_harb_special_2_4	skill_node_set_hkrul_harb		2.0000	4.0000		0	6	true
+skill_node_hkrul_harb_special_2_8		hkrul_harb_special_2_8	skill_node_set_hkrul_harb		2.0000	8.0000		0	4	true
+skill_node_hkrul_harb_special_2_7		hkrul_harb_special_2_7	skill_node_set_hkrul_harb		2.0000	7.0000		0	0	true
+skill_node_hkrul_harb_special_2_0		hkrul_harb_special_2_0	skill_node_set_hkrul_harb		2.0000	0.0000		0	0	true
+skill_node_hkrul_harb_special_0_4		hkrul_harb_special_0_4	skill_node_set_hkrul_harb		0.0000	9.0000		0	0	true
+skill_node_hkrul_harb_special_0_3		hkrul_harb_special_0_2	skill_node_set_hkrul_harb		0.0000	10.0000		0	0	true
+skill_node_hkrul_harb_special_0_2		hkrul_harb_special_0_3	skill_node_set_hkrul_harb		0.0000	11.0000		0	0	true
+skill_node_hkrul_harb_special_0_1		hkrul_harb_special_0_1	skill_node_set_hkrul_harb		0.0000	8.0000		0	0	true
+skill_node_hkrul_harb_special_1_4		hkrul_harb_special_1_4	skill_node_set_hkrul_harb		1.0000	4.0000		0	0	true

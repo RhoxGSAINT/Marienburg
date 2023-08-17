@@ -20,9 +20,12 @@ hkrul_crispijn_line2	0	0	1	hkrul_crispijn	3482FF
 hkrul_guzunda_line1	1	1	1	hkrul_guzunda	083188
 hkrul_guzunda_line2	0	0	1	hkrul_guzunda	950000
 hkrul_alicia_line1	1	1	1	hkrul_alicia	9CEAFF
-hkrul_alicia_line2	0	0	0	hkrul_alicia	5B007F
+hkrul_alicia_line2	0	0	1	hkrul_alicia	5B007F
 hkrul_lisette_line1	1	1	1	hkrul_lisette	635C59
-hkrul_lisette_line2	0	0	0	hkrul_lisette	FFDD98
+hkrul_lisette_line2	0	0	1	hkrul_lisette	FFDD98
 hkrul_cross_line1	1	1	1	hkrul_cross	FFC745
-hkrul_cross_line2	0	0	0	hkrul_cross	18635D
+hkrul_cross_line2	0	0	1	hkrul_cross	18635D
 hkrul_jk_line4	3	3	1	hkrul_jk	7F0000
+hkrul_harb_line1	1	1	1	hkrul_harb	00007F
+hkrul_harb_line2	0	0	1	hkrul_harb	FFC745
+hkrul_harb_line3	2	2	1	hkrul_harb	AA5500

@@ -530,14 +530,12 @@ random_army_manager:add_unit("wh_main_nor_norsca_qb1_high_b", "wh_dlc08_nor_mon_
 random_army_manager:add_unit("wh_main_nor_norsca_qb1_high_b", "wh_dlc08_nor_mon_war_mammoth_2", 1);
 
 
-
---[[--vanilla will make it. We don't need to make one
 -- Daemon Army
 random_army_manager:new_force("daemon_incursion");
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_inf_bloodletters_0", 3);
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_inf_chaos_warhounds_0", 4);
 random_army_manager:add_mandatory_unit("daemon_incursion", "wh3_main_kho_cav_gorebeast_chariot", 1);
---]]
+
 
 --below global variables are created by rhox
 

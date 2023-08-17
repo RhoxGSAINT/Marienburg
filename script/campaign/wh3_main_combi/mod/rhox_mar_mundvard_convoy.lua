@@ -2257,12 +2257,13 @@ core:add_listener(
 		hkrul_mar_add_effectbundle(caravan);--reuse this one
 		cm:set_saved_value("caravans_dispatched_" .. context:faction():name(), true);
 		cm:set_character_excluded_from_trespassing(context:caravan():caravan_master():character(), true)
+		--rhox_mar_add_initial_cargo(context:caravan()) --this was for LH so, let's count this out
 	end,
 	true
 );
 
 core:add_listener(
-    "rhox_mar_mudvard_new_contracts_update",
+    "rhox_mar_nudvard_new_contracts_update",
     "FactionTurnStart",
     function(context)
         local faction = context:faction()

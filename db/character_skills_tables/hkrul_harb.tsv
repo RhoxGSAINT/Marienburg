@@ -1,0 +1,24 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_harb									
+hkrul_harb_agent_actions	battle_attack.png			0	false	false	false	0.0000	0
+innate_hkrul_harb	trait_marienburg.png			0	true	false	false	100.0000	0
+hkrul_harb_special_1_0	hkrul_harb_1_0.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_1	hkrul_harb_1_1.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_2	hkrul_harb_1_2.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_3	hkrul_harb_1_3.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_4	hkrul_harb_1_4.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_5	hkrul_harb_1_5.png			0	false	false	false	0.0000	0
+hkrul_harb_special_1_6	hkrul_harb_1_5.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_0	hkrul_harb_2_0.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_1	hkrul_harb_2_1.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_2	hkrul_harb_2_2.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_3	hkrul_harb_2_3.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_4	hkrul_harb_2_1.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_5	hkrul_harb_2_5.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_6	hkrul_harb_2_6.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_7	hkrul_harb_2_7.png			0	false	false	false	0.0000	0
+hkrul_harb_special_2_8	hkrul_harb_2_7.png			0	false	false	false	0.0000	0
+hkrul_harb_special_0_1	hkrul_harb_0_1.png			0	false	false	false	0.0000	0
+hkrul_harb_special_0_2	hkrul_harb_0_2.png			0	false	false	false	0.0000	0
+hkrul_harb_special_0_3	hkrul_harb_0_3.png			0	false	false	false	0.0000	0
+hkrul_harb_special_0_4	hkrul_harb_0_4.png			0	false	false	false	0.0000	0

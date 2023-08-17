@@ -18,3 +18,5 @@ id	names_group	type	gender	frequency
 405123616	names_vmp_vampire_counts	forename	f	1
 305123615	names_dwf_dwarfs	forename	b	1
 305123616	names_dwf_dwarfs	family_name	b	1
+605123690	hkrul_names_emp_marienburg	family_name	b	1
+605123691	hkrul_names_emp_marienburg	forename	b	1
