@@ -112,11 +112,11 @@ end
 cm:add_first_tick_callback_new(
 	function()
         hkrul_den_euwe() --for initial setting
-        if cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe" then
+        if cm:get_faction("ovn_mar_house_den_euwe"):is_human() then
             cm:apply_effect_bundle("rhox_egmond_hidden_effect_bundle", "ovn_mar_house_den_euwe", 0)--for Tzeentch diplomatic manipulation feature
             
             
-            local faction_name = cm:get_local_faction_name(true)
+            local faction_name = "ovn_mar_house_den_euwe"
             local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
             local primary_detail = "factions_screen_name_" .. faction_name;
             local secondary_detail = "";
@@ -151,7 +151,7 @@ cm:add_first_tick_callback(
         pcall(function()
             mixer_set_faction_trait("ovn_mar_house_den_euwe", "hkrul_deneuwe", true)
         end)
-        if cm:get_local_faction_name(true) == deneuwe_faction_key then
+        if cm:get_local_faction_name(true) == deneuwe_faction_key then --ui thing and should be inside the get_local
             --out("Rhox Egmond: In the first tick callback")
             
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
@@ -161,7 +161,9 @@ cm:add_first_tick_callback(
                 return false;
             end;
             result:SetVisible(true)
-
+        end
+        
+        if cm:get_faction(deneuwe_faction_key):is_human() then
             if cm:model():turn_number() < 13 then
                 core:add_listener(
                     "rhox_mar_egmond_RoundStart",
@@ -220,5 +222,31 @@ cm:add_first_tick_callback(
                 );
             end
         end
+        
+        cm:callback(
+            function()
+                if not campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"] then
+                    campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"] = {}
+                end
+                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"] then
+                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"] = {}
+                end
+                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"] then
+                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"] = {}
+                end
+                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] then
+                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] = {}
+                end
+                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"] then
+                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"] = {}
+                end
+                table.insert(campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"],"ovn_mar_house_den_euwe") --so Egmong shouldn't get it. Do it regardless Egmond is human or not
+                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"],"ovn_mar_house_den_euwe")
+                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"],"ovn_mar_house_den_euwe")
+                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"],"ovn_mar_house_den_euwe")
+                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"],"ovn_mar_house_den_euwe")
+            end,
+            5--to make it start as slow as possible
+        )
 	end
 );

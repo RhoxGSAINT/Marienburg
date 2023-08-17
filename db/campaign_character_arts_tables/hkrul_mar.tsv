@@ -17,3 +17,4 @@ id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_unifo
 2022041022	hkrul_lisette	0	0		none	hkrul_lisette			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1d_elf_dual_sword	cam_light_ship_03	cam_heavy_ship_03	0	0	0
 2011041023	hkrul_cross	0	0		none	hkrul_cross			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_sword	cam_agent_ship_01	cam_heavy_ship_01	0	0	0
 2011041024	hkrul_harb	0	0		none	hkrul_harb			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hero_hu1_cst_gunnery_rifle	cam_agent_ship_01	cam_heavy_ship_01	0	0	0
+2011041025	rhox_mar_mundvard_criminal	0	0		none	wh_main_uniform_vmp_vampire_01			wh_main_campaign_vmp_ship_light	wh_main_campaign_vmp_ship_heavy	cam_hu1b_vampire_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0

@@ -10,7 +10,7 @@ ovn_effect_ability_army_num_uses_the_power_of_money		0		battle	true
 ovn_effect_ability_army_enable_the_power_of_money	general_ability.png	705	general_ability.png	battle	true
 rhox_mar_mudvard_slave_dummy	slaves.png	8	slaves.png	campaign	true
 rhox_mar_show_money_power_ui_hidden		0		campaign	true
-rhox_mar_jaan_double_cathay_caravan		0		campaign	true
+rhox_mar_jaan_double_cathay_caravan	cargo.png	3	cargo.png	campaign	true
 rhox_mar_vilitch_diplomacy_mod_hidden		0		campaign	true
 rhox_mar_harmony_yang_passive_to_unit	cathay_yang.png	1	cathay_yang.png	battle	true
 rhox_mar_harmony_yin_passive_to_unit	cathay_yin.png	3	cathay_yin.png	battle	true
@@ -42,3 +42,4 @@ rhox_mar_effect_additional_caravan_cargo_dummy	cargo.png	2	cargo.png	campaign	tr
 rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	treasury.png	10	treasury.png	campaign	false
 rhox_mar_alicia_criminal_network_dummy	pirate_cove.png	10	pirate_cove.png	campaign	true
 rhox_mar_active_convoys	army.png	2	army.png	campaign	true
+rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_expand_criminal_network_unique		0		campaign	true

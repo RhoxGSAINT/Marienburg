@@ -188,7 +188,7 @@ cm:add_first_tick_callback_new(
 --this shows pieces of eight: Great families UI at the first tick
 cm:add_first_tick_callback(
 	function()
-        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then
+        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then  --ui thing and should be local
             local pieces_of_eight_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts");
             pieces_of_eight_button:SetVisible(true)
             pieces_of_eight_button:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_panel_open_button"),true)
@@ -205,9 +205,7 @@ cm:add_first_tick_callback(
                 function()
                     local pieces_tab = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "pieces");
                     pieces_tab:SimulateLClick();
-                    --pieces_tab:MoveTo(885, 919)  --doesn't work
-                    --local x, y = pieces_tab:Position()
-                    --out("Rhox mar: "..x..", "..y)  --1285, 919 is the original location
+                    
                     local pieces_text = find_uicomponent(pieces_tab, "tx");
                     pieces_text:SetText(common.get_localised_string("campaign_localised_strings_string_rhox_piece_tab"))
                     
@@ -442,7 +440,7 @@ local mission_to_ancillary ={
 --mission fail safe payload
 cm:add_first_tick_callback(
     function() 
-        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then
+        if cm:get_faction("wh_main_emp_marienburg"):is_human() then
             --out("Rhox mar: Inside mar listener")
             core:add_listener(--failure payload wasn't working and I'm adding it here
                 "rhox_mar_fail_safe",

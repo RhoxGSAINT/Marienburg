@@ -111,9 +111,9 @@ end
 
 cm:add_first_tick_callback_new(
     function()       
-        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then
+        if cm:get_faction("wh_main_emp_marienburg"):is_human() then
             --cm:disable_event_feed_events(true, "", "", "mercenary_unit_character_level_restriction_lifted") --this will suppress all RoR events feed from firing
-            rhox_add_units(cm:get_local_faction(true), rhox_remove_empire_rors); --This will remove the units from Marienburg, they'll gain access to them later
+            rhox_add_units(cm:get_faction("wh_main_emp_marienburg"), rhox_remove_empire_rors); --This will remove the Empire RoR units from Marienburg, they'll gain access to them later
             cm:add_event_restricted_unit_record_for_faction("snek_hkrul_mar_ror_landship", "wh_main_emp_marienburg", "hkrul_mar_lock_landship_ror")
             cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "wh_main_emp_marienburg", "rhox_mar_phy_exc_lock") --lock them only for players
             
@@ -123,39 +123,46 @@ cm:add_first_tick_callback_new(
 );
 
 
-local function rhox_mar_check_empire()
+local marienburg_factions={
+    wh_main_emp_marienburg = true,
+    ovn_mar_house_den_euwe = true,
+    ovn_emp_grudgebringers = true--not because they are Marienburg, but because they can't build buildings and can't finish the quest. It's only used for RoR so it's okay
+}
+
+
+local function rhox_mar_check_empire(faction)
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
-	if owner:name() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") then
+	if owner:culture() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") and not marienburg_factions[owner:name()] then
        core:remove_listener("rhox_emp_building_check_RoundStart") --don't have to listen for it anymore
-       cm:trigger_incident(cm:get_local_faction_name(true), "rhox_mar_gained_access_mar_ror", true)
-       rhox_add_mar_units(cm:get_local_faction(true), rhox_add_mar_rors);
+       cm:trigger_incident(faction:name(), "rhox_mar_gained_access_mar_ror", true)
+       rhox_add_mar_units(faction, rhox_add_mar_rors);
        unlocked_marienburg_troops = true;
 	end
 end
 
 
-local function rhox_mar_check_mar()
+local function rhox_mar_check_mar(faction)
 	local region = cm:get_region("wh3_main_combi_region_altdorf")
 	local owner = region:owning_faction()
     out("Rhox: I'm marienburg listener")
 	if owner:name() == "wh_main_emp_marienburg" and region:building_exists("wh_main_special_settlement_altdorf_4_emp") then
         core:remove_listener("rhox_mar_building_check_RoundStart") --don't have to listen for it anymore
-        cm:trigger_incident(cm:get_local_faction_name(true), "rhox_mar_gained_access_emp_ror", true)
-        rhox_add_units(cm:get_local_faction(true), rhox_add_empire_rors);
+        cm:trigger_incident(faction:name(), "rhox_mar_gained_access_emp_ror", true)
+        rhox_add_units(faction, rhox_add_empire_rors);
         unlocked_empire_troops = true;
 	end
 end
 
 
 
-local function rhox_mar_check_talon()
+local function rhox_mar_check_talon(faction)
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
 	if (owner:name() == "wh_main_emp_marienburg" or owner:name() == "ovn_mar_house_den_euwe") and region:building_exists("rhox_mar_rijker") then
-        cm:remove_event_restricted_unit_record_for_faction("hkrul_mar_talons", cm:get_local_faction_name(true));
+        cm:remove_event_restricted_unit_record_for_faction("hkrul_mar_talons", faction:name());
         cm:set_saved_value("rhox_talons_granted", true)
 	end
 end
@@ -187,15 +194,23 @@ end
 
 cm:add_first_tick_callback(
     function()
-        if cm:get_local_faction_name(true) == "wh_main_emp_empire" and unlocked_marienburg_troops == false then
+        local non_marienburg_human_empire_exist = false
+        local human_empire_factions = cm:get_human_factions_of_culture("wh_main_emp_empire")
+        for _, faction_key in ipairs(human_empire_factions) do
+            if not marienburg_factions[faction_key] then
+                non_marienburg_human_empire_exist =true
+            end
+        end
+
+        if non_marienburg_human_empire_exist and unlocked_marienburg_troops == false then
             core:add_listener(
                 "rhox_emp_building_check_RoundStart",
                 "FactionRoundStart",
                 function(context)
-                    return context:faction():name() == "wh_main_emp_empire" and unlocked_marienburg_troops == false
+                    return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and unlocked_marienburg_troops == false and not marienburg_factions[context:faction():name()]
                 end,
                 function(context)
-                    rhox_mar_check_empire()
+                    rhox_mar_check_empire(context:faction())
                 end,
                 true
             )
@@ -203,15 +218,15 @@ cm:add_first_tick_callback(
                 "rhox_emp_mission_check_RoundStart",
                 "FactionRoundStart",
                 function(context)
-                    return context:faction():name() == "wh_main_emp_empire" and cm:model():turn_number() == 2; --only at the second turn.
+                    return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and cm:model():turn_number() == 2 and not marienburg_factions[context:faction():name()] --only at the second turn.
                 end,
                 function(context)
-                    cm:trigger_mission("wh_main_emp_empire", "rhox_mar_conquer_marien")
+                    cm:trigger_mission(context:faction():name(), "rhox_mar_conquer_marien")
                 end,
                 true
             )
         end
-        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" and unlocked_empire_troops == false then
+        if cm:get_faction("wh_main_emp_marienburg"):is_human() and unlocked_empire_troops == false then
             core:add_listener(
                 "rhox_mar_building_check_RoundStart",
                 "FactionRoundStart",
@@ -219,29 +234,29 @@ cm:add_first_tick_callback(
                     return context:faction():name() == "wh_main_emp_marienburg" and unlocked_empire_troops == false
                 end,
                 function(context)
-                    rhox_mar_check_mar()
+                    rhox_mar_check_mar(context:faction())
                 end,
                 true
             )
         end
         
         
-        if (cm:get_local_faction_name(true) == "wh_main_emp_marienburg" or cm:get_local_faction_name(true) == "ovn_mar_house_den_euwe") then --and cm:get_saved_value("rhox_talons_granted") ~=true --for the guys who missed it. Have to add it at the next patch.
+        if (cm:get_faction("wh_main_emp_marienburg"):is_human() or cm:get_faction("ovn_mar_house_den_euwe"):is_human()) and cm:get_saved_value("rhox_talons_granted") ~=true then
             core:add_listener(
                 "rhox_mar_building_check_talon_RoundStart",
                 "FactionRoundStart",
                 function(context)
-                    return (context:faction():name() == "wh_main_emp_marienburg" or context:faction():name() == "ovn_mar_house_den_euwe") --and cm:get_saved_value("rhox_talons_granted") ~=true
+                    return (context:faction():name() == "wh_main_emp_marienburg" or context:faction():name() == "ovn_mar_house_den_euwe") and cm:get_saved_value("rhox_talons_granted") ~=true
                 end,
                 function(context)
-                    rhox_mar_check_talon()
+                    rhox_mar_check_talon(context:faction())
                 end,
                 true
             )
         end
 
 
-        if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" and confederation_ended == false then
+        if cm:get_faction("wh_main_emp_marienburg"):is_human() and confederation_ended == false then
             core:add_listener(
                 "rhox_mar_confederation_RoundStart",
                 "FactionRoundStart",
@@ -274,7 +289,7 @@ cm:add_first_tick_callback(
                     if confederation_cooldown == 0 then
                         if confederation_faction:is_null_interface() == false and confederation_faction:is_dead() == false then
                              --trigger dilemma
-                             cm:trigger_dilemma_with_targets(cm:get_local_faction(true):command_queue_index(), "rhox_mar_confederation_dilemma", confederation_faction:command_queue_index(), 0, 0, 0, 0, 0);
+                             cm:trigger_dilemma_with_targets(context:faction():command_queue_index(), "rhox_mar_confederation_dilemma", confederation_faction:command_queue_index(), 0, 0, 0, 0, 0);
                         else --it means faction is dead just increase the cooldown by 10
                              confederation_cooldown = 10
                         end

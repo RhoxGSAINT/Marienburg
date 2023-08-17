@@ -116,7 +116,7 @@ local function hkrul_mundvard()
                     end
                 )
                 
-                -----------spawn alicia TODO
+                -----------spawn alicia
                 --local x3, y3 = cm:find_valid_spawn_location_for_character_from_settlement(mundvard_faction_key, "wh3_main_combi_region_grung_zint", false, true, 0)
                 --out("Rhox mar x3, y3: "..x3.."/"..y3)
                 --cm:spawn_unique_agent_at_region(cm:get_faction(mundvard_faction_key):command_queue_index(), "hkrul_alicia", grung_zint_cqi, true)
@@ -170,11 +170,11 @@ cm:add_first_tick_callback(
         pcall(function()
             mixer_set_faction_trait("ovn_mar_the_wasteland", "rhox_mundvard_effect_bundle", true)
         end)
-        if cm:get_local_faction_name(true) == mundvard_faction_key then
+        if cm:get_local_faction_name(true) == mundvard_faction_key then --ui thing and should be local
             rhox_mar_mundvard_set_coven_listeners()
         end
         
-        if cm:get_local_faction_name(true) == mundvard_faction_key and cm:model():turn_number()<8 then
+        if cm:get_faction(mundvard_faction_key):is_human() and cm:model():turn_number()<8 then
             core:add_listener(
                 "rhox_mar_mundvard_RoundStart",
                 "FactionRoundStart",
@@ -214,8 +214,8 @@ cm:add_first_tick_callback(
 cm:add_first_tick_callback_new(function() 
         hkrul_mundvard() --initial lord replace and setting
         
-        if cm:get_local_faction_name(true) == mundvard_faction_key then       
-            local faction_name = cm:get_local_faction_name(true)
+        if cm:get_faction(mundvard_faction_key):is_human() then       
+            local faction_name = mundvard_faction_key
             local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
             local primary_detail = "factions_screen_name_" .. faction_name;
             local secondary_detail = "";
@@ -258,7 +258,7 @@ core:add_listener(
     "rhox_max_CharacterGarrisonTargetAction",
     "CharacterGarrisonTargetAction",
     function(context)
-        return context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove" and (context:mission_result_critial_success() or context:mission_result_success())
+        return (context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove" or context:agent_action_key() == "rhox_mar_agent_action_dignitary_hinder_settlement_establish_pirate_cove_unique") and (context:mission_result_critial_success() or context:mission_result_success())
     end,
     function(context)
         local faction = context:character():faction()
@@ -267,12 +267,12 @@ core:add_listener(
         
         
         --if character:has_skill("wh3_main_skill_cth_caravan_master_scouts") then --temp change it to another skill
+        
         if character:character_subtype_key() == "hkrul_alicia" then --alicia is much better than other vampires
             cm:apply_effect_bundle_to_character("rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor", character, 5) 
             cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 5)
         else
-            cm:apply_effect_bundle_to_character("rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor", character, 15) 
-            cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 15)
+            cm:apply_effect_bundle("rhox_mar_bundle_pirate_cove_created", faction_name, 15) --you won't get another agent while this effect bundle is on
         end
         
         
@@ -307,15 +307,6 @@ local function coven_visibility()
         vampire_coven:SetVisible(true)
     end
 end
-
---[[
-local function rhox_slave_button_visibility() --this one does not works. Do not use it
-    local slave_button_holder_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "ProvinceInfoPopup", "script_hider_parent", "panel", "frame_slaves");
-    if slave_button_holder_ui then
-        slave_button_holder_ui:SetVisible(true)
-    end
-end
---]]
 
 local function rhox_diktat_button_visibility()
     local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "ProvinceInfoPopup", "script_hider_parent", "panel") --there is "frame_slaves" slaves in the income
@@ -357,7 +348,7 @@ function rhox_mar_mundvard_set_coven_listeners()
             core:get_tm():real_callback(function()
                 coven_visibility()
                 rhox_diktat_button_visibility()
-            end, 1)
+            end, 100)
         end,
         true
     )

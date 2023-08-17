@@ -473,7 +473,7 @@ core:add_listener(
         function(context)
             local building = context:building()
             local building_faction = building:faction()
-            return building:name() == "hkrul_mar_suiddock" and (building_faction:name() == "wh_main_emp_marienburg" or building_faction:name() == "wh_main_emp_empire" )
+            return building:name() == "hkrul_mar_suiddock" and building_faction:culture() == "wh_main_emp_empire"
         end,
         function(context)
             local building_faction = context:building():faction()

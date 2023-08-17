@@ -289,7 +289,7 @@ effects_description_rhox_mar_caravan_cargo_capacity_dummy	Maximum cargo capacity
 effects_description_rhox_mar_enable_kuypers_ring_dummy	Ability: "Van de Kuyper's Sigil" for [[img:icon_lord]][[/img]]Merchant Lords when garrisoned in [[col:yellow]]Marienburg[[/col]]	false
 effects_description_rhox_mar_jaan_remove_lazy_dummy	Jaan will no longer gain the Lazy trait for garrisoning in [[col:yellow]]Marienburg[[/col]]	false
 effects_description_hkrul_mar_enable_mace	Ability: "Haeyndrik's Mace"	false
-effects_description_rhox_mar_active_convoys	Maximum number of active Convoys: %+n	false
+effects_description_rhox_mar_active_convoys	Maximum number of active Convoys in the Gilded Route: %+n	false
 effects_description_rhox_mar_effect_additional_caravan_cargo_dummy	Accompanying caravan will start with additional %+n cargos	false
 effect_bundles_localised_title_rhox_mar_bundle_pirate_cove_created	Criminal Network Established	false
 effect_bundles_localised_description_rhox_mar_bundle_pirate_cove_created	A Criminal Network has been established recently, more time is required until we can efficiently establish another.	false
@@ -298,3 +298,5 @@ effects_description_rhox_mar_alicia_criminal_network_dummy	She can efficeintly c
 effects_description_rhox_mar_cathay_ship_dummy	Adds one Sky Junk to the [[img:icon_general]][[/img]]Lord's army\\n\\n[[col:red]][[i]]Note: Only one Sky Junk will follow the newly formed retinue. Once the set is completed by a [[img:icon_general]][[/img]]Lord it will join that army. There shall be no other crew as easily persuaded - so time wisely.[[/i]][[/col]]	false
 effect_bundles_localised_title_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
 effect_bundles_localised_description_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
+effects_description_rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_expand_criminal_network_unique	Establish Criminal network [HIDDEN]	false
+effects_description_rhox_mar_jaan_double_cathay_caravan	Treasury gained from foreign Caravans: %+n%	false

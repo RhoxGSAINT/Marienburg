@@ -70,3 +70,7 @@ id	incident_key	option_key	value	target
 944746822	rhox_mar_convoy_completed_marienburg	GEN_TARGET_MODEL		default
 944746823	rhox_mar_convoy_unlocked	GEN_TARGET_NONE		default
 944746824	rhox_mar_convoy_unlocked	VAR_CHANCE	100	default
+944746825	rhox_mar_mundvard_criminal_recruited	VAR_CHANCE	0	default
+944746826	rhox_mar_mundvard_criminal_recruited	GEN_TARGET_MODEL		default
+944746827	rhox_mar_gained_access_to_the_guilded	GEN_TARGET_NONE		default
+944746828	rhox_mar_gained_access_to_the_guilded	VAR_CHANCE	0	default

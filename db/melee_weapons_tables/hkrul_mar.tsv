@@ -4,7 +4,7 @@ hkrul_jk	0	0	240	120	3.0000	axe	hammer	medium	5	1.0000	1.2500	0.0000	false		0	10
 hkrul_burgher_spear	16	0	8	20	2.0000	spear	halberd		4	1.0000	10.0000	0.0000	false		0	10	4.8000		false
 hkrul_privateer_dual_swords	0	8	28	4	1.0000	sword	sword		4	1.0000	10.0000	0.0000	false		0	10	3.4000		false
 hkrul_solkan_greatsword	0	20	120	265	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
-hkrul_mar_goedendag	0	1	20	11	1.0000	axe	club		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
+hkrul_mar_goedendag	0	5	15	16	1.0000	axe	club		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 hkrul_solkan_mirror	0	0	0	0	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 hkrul_mar_mananns_blade_rors	0	4	24	8	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.2000		false
 mananns_blades_bannerman	1	0	1	1	1.0000	spear	halberd	small	1	1.0000	0.7500	0.0000	false		0	10	9999.0000		false

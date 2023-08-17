@@ -5,7 +5,7 @@
 	precache_condition="IsContextValid(PlayersFaction.FactionCaravansContext)">
 	<hierarchy>
 		<root this="EDF6EAD3-63BF-6A68-57B94439A3CFDCBF">
-      <flag_ripple this="6BD5071C-43B6-4A92-4C1A5FB4EC04D126"/>
+            <flag_ripple this="6BD5071C-43B6-4A92-4C1A5FB4EC04D126"/>
 		</root>
 	</hierarchy>
 	<components>

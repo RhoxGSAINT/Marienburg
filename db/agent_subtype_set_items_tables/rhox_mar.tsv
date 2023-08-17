@@ -1,0 +1,3 @@
+agent_subtype	set	remove
+#agent_subtype_set_items_tables;0;db/agent_subtype_set_items_tables/rhox_mar		
+rhox_mar_mundvard_criminal	all_agents_excluding_ritual_special	true

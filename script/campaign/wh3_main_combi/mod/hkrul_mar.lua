@@ -13,6 +13,67 @@ local jaan_details = {
     is_faction_leader = true																		-- Bool for whether the general being replaced is the new faction leader
 }
 
+
+RHOX_MAR_MCT_SETTING={
+    additional_landship=0,
+    block_rebellion = false,
+    kill_blue_pirate = false,
+}
+
+local function rhox_mar_kill_blue()
+    for i=1,#roving_pirates.pirate_details do
+        local faction_key = roving_pirates.pirate_details[i].faction_key
+        --out("Rhox Mar: Pirate key ".. faction_key)
+        local faction = cm:get_faction(faction_key)
+        if faction and faction:is_dead() == false then
+            --out("Rhox Mar: Killing them")
+            cm:kill_all_armies_for_faction(faction)
+        end
+    end
+end
+
+local function setup_mct(context)
+    -- get the mct object
+    local mct = context:mct()
+    local my_mod = mct:get_mod_by_key("hkrul_mar")
+    
+    local additional_landship = my_mod:get_option_by_key("rhox_mar_additional_landship")
+    RHOX_MAR_MCT_SETTING.additional_landship = additional_landship:get_finalized_setting()
+    
+    local block_rebellion = my_mod:get_option_by_key("rhox_mar_rebellion")
+    RHOX_MAR_MCT_SETTING.block_rebellion = block_rebellion:get_finalized_setting()
+    
+    local kill_blue_pirate = my_mod:get_option_by_key("rhox_mar_blue_pirate")
+    RHOX_MAR_MCT_SETTING.kill_blue_pirate = kill_blue_pirate:get_finalized_setting()
+    
+    
+end
+
+core:add_listener(
+    "rhox_mar_mct_initialize",
+    "MctInitialized",
+    true,
+    function(context)
+        setup_mct(context)
+    end,
+    true
+)
+
+
+core:add_listener(
+    "rhox_mar_mct_setting_change",
+    "MctOptionSettingFinalized",
+    true,
+    function(context)
+        setup_mct(context)
+        if RHOX_MAR_MCT_SETTING.kill_blue_pirate then
+            rhox_mar_kill_blue()
+        end
+    end,
+    true
+)
+
+
 -- make sure Jaan doesn't have the "wh3_main_bundle_character_restrict_experience_gain" EB
 core:add_listener(
     "hkrul_CharacterTurnStart",
@@ -109,31 +170,20 @@ local function hkrul_mar()
                             local char_str = cm:char_lookup_str(cqi)
                             cm:set_character_unique(char_str, true) --makes Jaan a undisbandable "Legendary Lord"
                             --cm:set_character_immortality(char_str, true) --not needed since immortality is enabled in db
+                            if RHOX_MAR_MCT_SETTING.additional_landship ~= 0 then
+                                for i=0,RHOX_MAR_MCT_SETTING.additional_landship do
+                                    cm:grant_unit_to_character(char_str, "snek_hkrul_mar_landship")
+                                end
+                            end
+                            if marienburg_faction:is_human() ==false then
+                                cm:add_agent_experience(char_str, 3, true) --add level. Below's level restriction is 3
+                                cm:add_skill(cm:get_character_by_cqi(cqi), "hkrul_jaan_special_4_0", true, true)--AI can't take care of the upkeep and adding skill here for them
+                            end
                         end
                     )
                     
                     out("Created replacement Lord " .. jaan_details.forename .. " for " .. marienburg_faction_key)
                     
-                    --[[
-                    --random lord for the battle
-                    cm:create_force_with_general(
-                        jaan_details.general_faction,
-                        jaan_details.unit_list,
- --jaan is not getting units
-                        marienburg_faction:home_region():name(),
-                        general_x_pos,
-                        general_y_pos,
-                        "general",
-                        "wh2_dlc13_emp_cha_huntsmarshal",
-                        "",
-                        "",
-                        "",
-                        "",
-                        false,
-                        function(cqi)
-                        end
-                    )
---]]
 
 
                     --[[--not until chorf
@@ -191,6 +241,11 @@ local function hkrul_mar()
                             out("Killing original " .. char_subtype .. " with forename " .. char_forename .. " for " .. marienburg_faction_key .. " permanently")
                         end
                     end
+                    
+                    
+                    if RHOX_MAR_MCT_SETTING.kill_blue_pirate then
+                        rhox_mar_kill_blue()
+                    end
                 end
             end, 0.1 --delay to make sure this runs after wh2_campaign_custom_starts.lua
         )
@@ -204,4 +259,8 @@ local function hkrul_mar()
 end
 
 
-cm:add_first_tick_callback(function() hkrul_mar() end)
+cm:add_first_tick_callback(
+    function() 
+        hkrul_mar() 
+    end
+)
