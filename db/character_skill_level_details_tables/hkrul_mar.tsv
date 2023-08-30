@@ -55,3 +55,7 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	hkrul_caravan_lord_special_0_2		x	9
 		2	hkrul_caravan_lord_special_0_1		x	14
 		2	hkrul_caravan_lord_special_0_2		x	14
+		1	hkrul_slaver_special_0_1		x	9
+		1	hkrul_slaver_special_0_2		x	9
+		2	hkrul_slaver_special_0_1		x	14
+		2	hkrul_slaver_special_0_2		x	14

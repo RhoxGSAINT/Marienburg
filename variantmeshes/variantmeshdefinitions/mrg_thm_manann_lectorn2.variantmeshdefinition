@@ -7,6 +7,10 @@
 		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/mrg_manann_arch_lector/torso_02/mrg_manann_arch_lector_torso_02.rigid_model_v2" >
 			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
 	</SLOT>
+	<SLOT name="rope" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/mrg_manann_arch_lector/rope/mrg_manann_arch_lector_rope_01.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
 		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/mrg_manann_arch_lector/props/mace1/mrg_manann_lector_hammer_1h_01.rigid_model_v2" >
