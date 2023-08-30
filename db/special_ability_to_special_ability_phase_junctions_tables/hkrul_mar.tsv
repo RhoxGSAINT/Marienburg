@@ -48,3 +48,7 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_new_artifact	true	false	false	hkrul_new_artifact
 1	hkrul_kuypers_ring	true	false	false	hkrul_kuypers_ring
 1	hkrul_mar_mace	true	false	false	hkrul_mar_mace
+1	hkrul_precise	true	true	false	hkrul_precise
+1	hkrul_anchor	true	true	false	hkrul_anchor
+1	hkrul_message	true	true	false	hkrul_message
+1	hkrul_bullet	true	false	false	hkrul_bullet

@@ -2,3 +2,5 @@ battle_personality	land_unit	attach	riders_attachment_point	engine_articulation_
 #land_units_to_battle_personalities_junctions_tables;1;db/land_units_to_battle_personalities_junctions_tables/hkrul_mar				
 mananns_blades_bannerman	hkrul_mar_mananns_blades_ror	officer		-1
 mrg_thm_red_talons_bannerman	hkrul_mar_talons	officer		-1
+ovn_mar_war_altar_of_manann_rider_0	hkrul_lector_manann_mount	autonomous_rider	ap_crewposition_1	-1
+ovn_mar_war_altar_of_manann_rider_1	hkrul_lector_manann_mount	autonomous_rider	ap_crewposition_0	-1

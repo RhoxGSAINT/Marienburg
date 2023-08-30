@@ -1,0 +1,4 @@
+character_skill_key	effect_key	level	effect_scope	value
+#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/hkrul_slaver				
+hkrul_skill_innate_slaver_innate_1	wh3_prologue_effect_reduce_line_of_sight	1	character_to_character_own	-50.0000
+hkrul_skill_innate_slaver_innate_2	wh3_prologue_effect_reduce_line_of_sight	1	character_to_character_own	-50.0000

@@ -2228,8 +2228,57 @@ core:add_listener(
 );
 
 
+local innate_1 = {
+	"wh_main_vmp_inf_grave_guard_0",
+	"wh_main_vmp_inf_grave_guard_0",
+	"wh_main_vmp_inf_grave_guard_0",
+	"wh_main_vmp_inf_grave_guard_0",
+	"wh_main_vmp_cav_black_knights_0",
+	"wh_main_vmp_cav_black_knights_0",
+	"wh_main_vmp_cav_black_knights_0",
+	"wh_main_vmp_cav_black_knights_0"
+	};
+	
+local innate_2 = {
+	"wh_main_vmp_inf_skeleton_warriors_1",
+	"wh_main_vmp_inf_skeleton_warriors_1",
+	"wh_main_vmp_inf_skeleton_warriors_1",
+	"wh_main_vmp_inf_skeleton_warriors_1",
+	"wh_dlc04_vmp_veh_mortis_engine_0",
+	"wh_main_vmp_mon_vargheists",
+	"wh_main_vmp_mon_vargheists",
+	"wh_main_vmp_mon_varghulf"
+	};
+
+
+function rhox_mar_mundvard_add_inital_force(caravan)
+	
+	out.design("Try to add inital force to caravan, based on trait")
+	
+	local force_cqi = caravan:caravan_force():command_queue_index();
+	local lord_cqi = caravan:caravan_force():general_character():command_queue_index();
+	local lord_str = cm:char_lookup_str(lord_cqi);
+	
+	if caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_slaver_innate_1") then
+		for i=1, #innate_1 do
+			cm:grant_unit_to_character(lord_str, innate_1[i]);
+		end
+		--fully heal when returning
+	elseif caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_slaver_innate_2") then
+		for i=1, #innate_2 do
+			cm:grant_unit_to_character(lord_str, innate_2[i]);
+		end
+	else
+        for i=1, #innate_1 do
+			cm:grant_unit_to_character(lord_str, innate_1[i]);
+		end
+		out("*** Unknown Caravan Master ??? ***")
+	end
+end
+
+
 core:add_listener(
-	"rhox_mar_add_inital_force",
+	"rhox_mar_mundvard_add_inital_force",
 	"CaravanRecruited",
 	function(context)
 		return context:faction():name() == mundvard_faction_key
@@ -2238,7 +2287,7 @@ core:add_listener(
 		out.design("*** Caravan recruited ***");
 		if context:caravan():caravan_force():unit_list():num_items() < 2 then
 			local caravan = context:caravan();
-			hkrul_mar_add_inital_force(caravan); --reuse this one as they're currently using the same agent subtype
+			rhox_mar_mundvard_add_inital_force(caravan); --reuse this one as they're currently using the same agent subtype
 			cm:set_character_excluded_from_trespassing(context:caravan():caravan_master():character(), true)
 		end;
 	end,
@@ -2283,7 +2332,7 @@ core:add_listener(
 );
 
 core:add_listener(
-    "caravans_increase_demand",
+    "rhox_mar_mundvard_caravans_increase_demand",
     "WorldStartRound",
     true,
     function(context)

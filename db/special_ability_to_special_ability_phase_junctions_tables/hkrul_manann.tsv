@@ -1,0 +1,6 @@
+order	special_ability	target_self	target_friends	target_enemies	phase
+#special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/hkrul_manann					
+1	hkrul_manann_benediction	true	true	false	hkrul_manann_benediction
+1	hkrul_manann_trident	true	true	false	hkrul_manann_trident
+1	hkrul_manann_shield	true	true	false	hkrul_manann_shield
+1	hkrul_manann_bastion	true	false	false	hkrul_manann_bastion

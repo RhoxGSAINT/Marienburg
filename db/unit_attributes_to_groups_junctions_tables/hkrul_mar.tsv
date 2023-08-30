@@ -55,3 +55,6 @@ guerrilla_deploy	rhox_wh2_dlc11_cst_inf_sartosa_militia_0
 hide_forest	rhox_wh2_dlc11_cst_inf_sartosa_militia_0
 mounted_fire_move	rhox_wh2_dlc11_cst_inf_sartosa_militia_0
 hide_forest	hkrul_fooger_ror
+encourages	hkrul_lector_mount
+causes_fear	hkrul_lector_mount
+causes_terror	hkrul_lector_mount

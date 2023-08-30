@@ -14,3 +14,5 @@ hkrul_lisette	false	false		hkrul_lisette	wh_dlc03_vo_actor_Bretonnian_Damsel	fal
 hkrul_cross	false	false		hkrul_cross	wh2_main_vo_actor_High_Elves_Noble	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	995
 hkrul_harb	false	false	ui/campaign ui/agents/wh_main_dwf_engineer.png	hkrul_harb	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
 rhox_mar_mundvard_criminal	false	false	ui/campaign ui/agents/wh2_dlc09_tmb_engineer_ritual.png	rhox_mar_mundvard_criminal	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	false	false	false				false	true	cannot_be_saved_loaded		false	true	550
+hkrul_lector_manann	true	false		hkrul_lector_manann	wh_dlc04_vo_actor_Empire_Arch_Lector	true	-1	false	true	true	true	mar_lector_manann			true	true	can_be_saved_loaded		false	true	900
+hkrul_slaver	true	false		hkrul_slaver	wh2_dlc14_vo_actor_Dark_Elf_High_Beastmaster	true	-1	false	true	true	true	mar_slaver			false	false	cannot_be_loaded_in_campaign		false	true	900

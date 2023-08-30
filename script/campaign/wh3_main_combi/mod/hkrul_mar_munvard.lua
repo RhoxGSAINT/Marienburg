@@ -133,8 +133,8 @@ local function hkrul_mundvard()
                 
                 
                 --ceate initial slots in the Marienburg region
-                cm:add_foreign_slot_set_to_region_for_faction(mundvard_faction:command_queue_index(), cm:get_region("wh3_main_combi_region_marienburg"):cqi(), "wh2_dlc11_slot_set_pirate_cove");
-                cm:add_foreign_slot_set_to_region_for_faction(mundvard_faction:command_queue_index(), cm:get_region("wh3_main_combi_region_gorssel"):cqi(), "wh2_dlc11_slot_set_pirate_cove");
+                cm:add_foreign_slot_set_to_region_for_faction(mundvard_faction:command_queue_index(), cm:get_region("wh3_main_combi_region_marienburg"):cqi(), "rhox_mar_slot_set_mundvard");
+                cm:add_foreign_slot_set_to_region_for_faction(mundvard_faction:command_queue_index(), cm:get_region("wh3_main_combi_region_gorssel"):cqi(), "rhox_mar_slot_set_mundvard");
                 local fsm_mundvard = mundvard_faction:foreign_slot_managers();
                 
                 if fsm_mundvard:num_items() > 0 then
@@ -377,6 +377,21 @@ function rhox_mar_mundvard_set_coven_listeners()
         "ComponentLClickUp",
         function (context)
             return context.string == "square_building_button"
+        end,
+        function()
+            core:get_tm():real_callback(function()
+                coven_visibility()
+                rhox_diktat_button_visibility()
+            end, 100)
+        end,
+        true
+    )
+    
+    core:add_listener(
+        "rhox_mundvard_coven_click_trigger_3",
+        "ComponentLClickUp",
+        function (context)
+            return context.string == "button_raze"
         end,
         function()
             core:get_tm():real_callback(function()

@@ -6,6 +6,8 @@ hkrul_skill_node_mar_caravan_master_misc_04		wh_main_skill_all_lord_battle_brass
 hkrul_skill_node_mar_caravan_master_misc_05		wh_main_skill_emp_lord_battle_hold_the_line	skill_node_set_mar_caravan_master		0.0000	5.0000		0	0	true
 hkrul_skill_node_mar_caravan_master_misc_06		hkrul_mar_haeyndrik_shield	skill_node_set_mar_caravan_master		0.0000	6.0000		0	0	true
 hkrul_skill_node_mar_caravan_master_misc_07		wh2_main_skill_all_immortality_lord	skill_node_set_mar_caravan_master		0.0000	7.0000		0	0	true
+hkrul_skill_node_mar_caravan_master_misc_08		hkrul_caravan_lord_horse	skill_node_set_mar_caravan_master		0.0000	1.0000		0	0	true
+hkrul_skill_node_mar_caravan_master_misc_09		wh3_main_skill_all_mentor_lord	skill_node_set_mar_caravan_master		0.0000	11.0000		0	0	true
 hkrul_skill_node_mar_caravan_master_unique_0		hkrul_caravan_lord_special_1_0	skill_node_set_mar_caravan_master		1.0000	0.0000		0	0	true
 hkrul_skill_node_mar_caravan_master_unique_1		hkrul_caravan_lord_special_1_1	skill_node_set_mar_caravan_master		1.0000	1.0000		0	0	true
 hkrul_skill_node_mar_caravan_master_unique_2		hkrul_caravan_lord_special_1_2	skill_node_set_mar_caravan_master		1.0000	2.0000		0	0	true
@@ -54,6 +56,5 @@ hkrul_skill_mar_caravan_master_innate_11		hkrul_skill_innate_mar_caravan_master_
 hkrul_skill_mar_caravan_master_innate_12		hkrul_skill_innate_mar_caravan_master_dwarf-ally	skill_node_set_mar_caravan_master		6.0000	0.0000		0	0	false
 hkrul_skill_mar_caravan_master_innate_13		hkrul_skill_innate_mar_caravan_master_reformed_criminal	skill_node_set_mar_caravan_master		6.0000	0.0000		0	0	false
 hkrul_skill_mar_caravan_master_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	skill_node_set_mar_caravan_master		99.0000	0.0000		0	0	false
-hkrul_skill_node_mar_caravan_master_misc_08		hkrul_caravan_lord_horse	skill_node_set_mar_caravan_master		0.0000	1.0000		0	0	true
 hkrul_skill_mar_caravan_master_innate_14		hkrul_skill_innate_mar_caravan_master_bretonnia	skill_node_set_mar_caravan_master		6.0000	0.0000		0	0	false
 hkrul_skill_mar_caravan_master_innate_15		hkrul_skill_innate_mar_caravan_master_teb	skill_node_set_mar_caravan_master		6.0000	0.0000		0	0	false

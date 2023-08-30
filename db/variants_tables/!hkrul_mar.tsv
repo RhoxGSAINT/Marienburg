@@ -73,3 +73,22 @@ hkrul_fooger_ror		mar_dwarf_ror		1.0000	0.9500	0.0500
 hkrul_mar_campaign_map_ship		campaign_hkrul_mar_ship_light		1.0000	1.0000	0.0000	
 hkrul_mar_campaign_map_big_ship		campaign_hkrul_mar_ship_heavy		1.0000	1.0000	0.0000	
 hkrul_harb		general_escottus_van_haaring		1.0000	1.0300	0.0500	
+hkrul_lector_manann_1		mrg_thm_manann_lectorn1		1.0000	1.1500	0.0500	
+hkrul_lector_manann_2		mrg_thm_manann_lectorn2		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest		mar_warrior_priest		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_altar		mar_warrior_priest_altar		1.0000	1.1500	0.0500	
+ovn_mar_warhorse_armoured_war_altar_of_manann		mar_warhorse_armoured_war_altar_of_manann		1.0000	1.0000	0.0500	
+ovn_mar_ch_warrior_priest_campaign_01		mar_warrior_priest_campaign_01		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_02		mar_warrior_priest_campaign_02		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_03		mar_warrior_priest_campaign_03		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_04		mar_warrior_priest_campaign_04		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_01_altar		mar_warrior_priest_campaign_01_altar		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_02_altar		mar_warrior_priest_campaign_02_altar		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_03_altar		mar_warrior_priest_campaign_03_altar		1.0000	1.1500	0.0500	
+ovn_mar_ch_warrior_priest_campaign_04_altar		mar_warrior_priest_campaign_04_altar		1.0000	1.1500	0.0500	
+ovn_campaign_mar_altar_of_manann	art\campaign\chariots\cam_wa1\emp\emp_cam_war_altar\tech	campaign_mar_war_altar_manann		1.0000	1.0000	0.0000	
+hkrul_slaver_1		mar_slaver1		1.0000	1.1500	0.0500	
+hkrul_slaver_2		mar_slaver2		1.0000	1.1500	0.0500	
+hkrul_mar_caravan_master		hrul_mar_caravan_commander		1.0000	1.1700	0.0000	
+hkrul_lector_manann		hkrul_lector_manann		1.0000	1.1500	0.0500	
+hkrul_slaver		mar_slaver		1.0000	1.1500	0.0500	

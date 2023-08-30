@@ -253,5 +253,6 @@ end
 cm:add_first_tick_callback(
     function() 
         hkrul_mar() 
+        mixer_disable_lord_recruitment("wh_main_emp_marienburg", "wh_dlc04_emp_arch_lector", "emp_arch_lector" ,"wh_main_emp_lord")
     end
 )

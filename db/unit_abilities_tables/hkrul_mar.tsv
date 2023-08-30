@@ -47,3 +47,7 @@ hkrul_chains	false	hkrul_chains		wh_type_hex		wh_main_anc_group_uncommon	true	fa
 hkrul_new_artifact	true	hkrul_mar_mundvard_artifact		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_kuypers_ring	true	hkrul_ring_mar		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
 hkrul_mar_mace	true	hkrul_mar_mace		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_precise	true	hkrul_harb_precise		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_anchor	true	hkrul_harb_anchor		wh_type_area_of_augments		wh_main_anc_group_common	true	false	passive		false
+hkrul_message	true	hkrul_harb_letter		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	active		false
+hkrul_bullet	true	hkrul_harb_bullet		wh_type_augment		wh_main_anc_group_rare	true	false	active		false

@@ -300,3 +300,14 @@ effect_bundles_localised_title_rhox_mar_bundle_caravan_heroes	This is a hidden e
 effect_bundles_localised_description_rhox_mar_bundle_caravan_heroes	This is a hidden effect bundle for caravan master	false
 effects_description_rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_expand_criminal_network_unique	Establish Criminal network [HIDDEN]	false
 effects_description_rhox_mar_jaan_double_cathay_caravan	Treasury gained from foreign Caravans: %+n%	false
+effects_description_hkrul_enable_precise	Ability: "Course Plotter"	false
+effects_description_hkrul_enable_anchor	Ability: "Bruynwater's Anchor"	false
+effects_description_hkrul_enable_message	Ability: "Message in a Bottle"	false
+effects_description_hkrul_enable_bullet	Ability: "Strompoort's Powder"	false
+effects_description_hkrul_mar_roe	Ability: "Odvaal's Roe"	false
+effects_description_hkrul_manann_bombardment	Battle prayer: "Manann's Fury"	false
+effects_description_hkrul_manann_shield	Battle prayer: "Grand Shield of Manann"	false
+effects_description_hkrul_manann_bastion	Ability: "Bulwark of the Sea"	false
+effects_description_hkrul_manann_benediction	Passive ability: "Manann's Veil"	false
+effects_description_hkrul_manann_trident	Battle prayer: "Grand Trident of Manann"	false
+effects_description_hkrul_lector_mount	Mount: "War Altar of Manann"	false

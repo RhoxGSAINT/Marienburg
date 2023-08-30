@@ -1,0 +1,6 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_manann			
+hkrul_manann_shield	stat_resistance_all	20.0000	add
+hkrul_manann_bastion	stat_resistance_all	20.0000	add
+hkrul_manann_trident	stat_melee_attack	24.0000	add
+hkrul_manann_benediction	stat_morale	8.0000	add

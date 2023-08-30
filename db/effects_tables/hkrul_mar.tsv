@@ -185,3 +185,14 @@ hkrul_elf_md	defence.png	151	defence.png	campaign	true
 hkrul_jk_enable_politician_dummy	item_ability.png	300	item_ability.png	battle	true
 hkrul_mar_enable_kuypers_ring	general_ability.png	600	general_ability.png	battle	true
 hkrul_mar_enable_mace	item_ability.png	300	item_ability.png	battle	true
+hkrul_enable_precise	item_ability.png	300	item_ability.png	battle	true
+hkrul_enable_anchor	item_ability.png	300	item_ability.png	battle	true
+hkrul_enable_message	item_ability.png	300	item_ability.png	battle	true
+hkrul_enable_bullet	item_ability.png	300	item_ability.png	battle	true
+hkrul_mar_roe	item_ability.png	300	item_ability.png	battle	true
+hkrul_manann_bombardment	item_ability.png	300	item_ability.png	battle	true
+hkrul_manann_shield	item_ability.png	300	item_ability.png	battle	true
+hkrul_manann_bastion	item_ability.png	300	item_ability.png	battle	true
+hkrul_manann_benediction	item_ability.png	300	item_ability.png	battle	true
+hkrul_manann_trident	item_ability.png	300	item_ability.png	battle	true
+hkrul_lector_mount	mount.png	50	mount.png	both	true

@@ -1,3 +1,5 @@
 key	order	icon_file_path
 #agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/hkrul_mar		
 mar_caravan_master	2	ui/common ui/unit_category_icons/infantry_sword.png
+mar_lector_manann	3	ui/common ui/unit_category_icons/trident_infantry.png
+mar_slaver	3	UI\Common UI\unit_category_icons\wh2_dlc14_lord_spear_whip.png

@@ -76,3 +76,11 @@ id	incident_key	option_key	value	target
 944746828	rhox_mar_gained_access_to_the_guilded	VAR_CHANCE	0	default
 944746829	rhox_mar_convoy_completed_bechafen	GEN_TARGET_MODEL		default
 944746830	rhox_mar_convoy_completed_bechafen	VAR_CHANCE	0	default
+944746831	rhox_mar_convoy_completed_nippon	GEN_TARGET_MODEL		default
+944746832	rhox_mar_convoy_completed_ind	GEN_TARGET_MODEL		default
+944746833	rhox_mar_convoy_completed_ihan	GEN_TARGET_MODEL		default
+944746834	rhox_mar_convoy_completed_elithis	GEN_TARGET_MODEL		default
+944746835	rhox_mar_convoy_completed_nippon	VAR_CHANCE	0	default
+944746836	rhox_mar_convoy_completed_ind	VAR_CHANCE	0	default
+944746837	rhox_mar_convoy_completed_ihan	VAR_CHANCE	0	default
+944746838	rhox_mar_convoy_completed_elithis	VAR_CHANCE	0	default

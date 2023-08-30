@@ -1,0 +1,9 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_lector_manann									
+hkrul_lector_manann_trident	wh_main_spell_bound_hammer_of_sigmar.png	The Warrior Priest implores Sigmar to imbue him with a modicum of divine strength, and now his hammer glows bright with power!	Grand Trident of Manann	4	false	false	false	0.0000	0
+hkrul_lector_manann_shield	wh_main_spell_bound_shield_of_faith.png	The Warrior Priest’s faith manifests in the form of a shield as hard as castle-forged steel.	Grand Shield of Manann	10	false	false	false	0.0000	0
+hkrul_lector_manann_fury	wh_main_spell_bound_soulfire.png	A battle prayer that bathes the Warrior Priest in white, holy fire sears Sigmar’s foes but leaves the supplicant unharmed.	Manann's Fury	14	false	false	false	0.0000	0
+hkrul_lector_mount	hkrul_lector_mount.png	The altar prominently features a noble griffon bearing Ghal Maraz, Sigmar’s hammer and the emblem of Imperial unity and strength.	War Altar of Sigmar	15	false	false	false	0.0000	0
+hkrul_lector_manann_benediction	hkrul_lector_veil.png		Benediction	0	false	false	false	0.0000	0
+hkrul_lector_manann_bastion	wh_main_hero_abilities_faiths_bastion.png		Faith's Bastion	0	false	false	false	0.0000	0
+hkrul_manann_ward	character_ward_save.png	The relentless drive and fury of the Hammer, harnessed for the protection of this ward’s bearer.	Sigmar’s Ward	7	false	false	false	0.0000	0

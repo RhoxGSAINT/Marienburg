@@ -77,4 +77,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_harb	emp_all	false
 			hkrul_harb	emp_characters	false
 			hkrul_harb	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_harb	hef_all	false
+			hkrul_lector_manann	emp_all	false
+			hkrul_lector_manann	emp_characters	false
+			hkrul_slaver	vmp_all	false
+			hkrul_slaver	vmp_characters	false

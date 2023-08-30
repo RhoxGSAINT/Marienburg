@@ -2,3 +2,4 @@ vortex_key	change_max_angle	contact_effect	damage	damage_ap	duration	expansion_s
 #battle_vortexs_tables;17;db/battle_vortexs_tables/hkrul_mar																														
 hkrul_mar_army_bombard	0		0	19	1.0000	25.0000	10.0000	false	0.0000	55.0000	8.0000	0.0000	false	composite_scene\spells_and_abilities\wh2_dlc11_abilities_zhufbar_42_pounders.csc	30.0000	target_near_edge	1.ignore		0.0000	0.5000	1		true	24.0000		1.0000	false	circle	0.0000	0.0000
 hkrul_solkan_greatsword_breath	0		44	0	3.0000	2.0000	6.0000	false	0.0000	24.0000	0.1000	1.0000	true	composite_scene/spells_and_abilities/skabscrath.csc	210.0000	target_near_edge	1.ignore		0.0000	0.0000	1		true	36.0000		1.0000	true	circle	0.0000	0.0000
+hkrul_roe_breath	0		37	0	3.0000	2.0000	6.0000	false	0.0000	24.0000	0.1000	1.0000	true	composite_scene/spells_and_abilities/skabscrath.csc	210.0000	target_near_edge	1.ignore		0.0000	0.0000	1		true	36.0000		1.0000	true	circle	0.0000	0.0000

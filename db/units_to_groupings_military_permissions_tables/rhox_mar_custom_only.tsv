@@ -1,5 +1,6 @@
 unit	military_group
 #units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_mar_custom_only	
+hkrul_lector_manann	rhox_mar_military
 snek_hkrul_mar_landship	rhox_mar_military
 hkrul_pg	rhox_mar_military
 hkrul_pg_barded_warhorse	rhox_mar_military

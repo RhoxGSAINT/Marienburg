@@ -251,8 +251,18 @@ local item_data_combi = {
 	["wh3_main_combi_region_beichai"]				= "hkrul_mar_bonsai",
 	["wh3_main_combi_region_haichai"]				= "hkrul_mar_follower_cathay",
 	["wh3_main_combi_region_marienburg"]			= "hkrul_mar_marienburg_anc",
-	["wh3_main_combi_region_bechafen"]				= "hkrul_pg"
+	["wh3_main_combi_region_bechafen"]				= "hkrul_pg",
+	["cr_combi_region_nippon_3_1"]				= "wh2_dlc09_anc_arcane_item_blue_khepra",--put real item when the ancillary is ready
+	["cr_combi_region_ind_4_2"]				= "wh_main_anc_arcane_item_power_scroll",--put real item when the ancillary is ready
+	["cr_combi_region_ihan_3_1"]				= "wh_main_anc_arcane_item_scroll_of_leeching",--put real item when the ancillary is ready
+	["cr_combi_region_elithis_1_1"]				= "wh_main_anc_arcane_item_scroll_of_shielding"--put real item when the ancillary is ready
 }
+
+
+
+
+
+
 
 local region_to_incident = {}
 
@@ -282,7 +292,11 @@ local region_to_incident_combi = {
 	["wh3_main_combi_region_beichai"]				= "rhox_mar_convoy_completed_beichai",
 	["wh3_main_combi_region_haichai"]				= "rhox_mar_convoy_completed_haichai",
 	["wh3_main_combi_region_marienburg"]			= "rhox_mar_convoy_completed_marienburg",
-	["wh3_main_combi_region_bechafen"]				= "rhox_mar_convoy_completed_bechafen"
+	["wh3_main_combi_region_bechafen"]				= "rhox_mar_convoy_completed_bechafen",
+	["cr_combi_region_nippon_3_1"]				= "rhox_mar_convoy_completed_nippon",
+	["cr_combi_region_ind_4_2"]				= "rhox_mar_convoy_completed_ind",
+	["cr_combi_region_ihan_3_1"]				= "rhox_mar_convoy_completed_ihan",
+	["cr_combi_region_elithis_1_1"]				= "rhox_mar_convoy_completed_elithis"
 }
 
 
@@ -632,7 +646,8 @@ local event_table = {
 	function(event_conditions,caravan_handle)
 	
 		out.design("banditExtort action called")
-		local dilemma_name = "rhox_mar_dilemma_cth_caravan_battle_1A";
+		local dilemma_list = {"rhox_mar_dilemma_cth_caravan_battle_1A", "rhox_mar_dilemma_cth_caravan_battle_1B"}
+		local dilemma_name = dilemma_list[cm:random_number(2,1)];
 		local caravan = caravan_handle;
 		
 		--Decode the string into arguments-- read_out_event_params explains encoding
@@ -729,7 +744,9 @@ local event_table = {
 	function(event_conditions,caravan_handle)
 		
 		out.design("banditAmbush action called")
-		local dilemma_name = "rhox_mar_dilemma_cth_caravan_battle_2A";
+		local dilemma_list = {"rhox_mar_dilemma_cth_caravan_battle_2A", "rhox_mar_dilemma_cth_caravan_battle_2B"}
+		local dilemma_name = dilemma_list[cm:random_number(2,1)];
+		
 		local caravan = caravan_handle;
 		
 		--Decode the string into arguments-- Need to specify the argument encoding
@@ -936,6 +953,11 @@ local event_table = {
                 out("Rhox mar: Find hkrul_cross with a skill!")
                 probability = probability + 6
             end
+            if current_character:has_skill("hkrul_pg_special_3_1") then
+                out("Rhox mar: Find hkrul_pg with a skill!")
+                probability = probability + 6
+            end
+            
 		end
 		
 		return {probability,eventname}
@@ -2778,6 +2800,12 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0), --not going to visit here
             ["wh3_main_combi_region_bechafen"]				=75-cm:random_number(50,0)
         };
+        if cm:model():campaign_name_key() == "cr_combi_expanded" then
+            end_nodes["cr_combi_region_nippon_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_ind_4_2"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_ihan_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_elithis_1_1"]=cm:random_number(150,60)
+        end
     elseif cm:get_faction("ovn_mar_house_den_euwe"):is_human() then --he's starting from Cathay so the number should be the opposite
         end_nodes = {
             ["wh3_main_combi_region_myrmidens"]				=cm:random_number(150,60),
@@ -2806,6 +2834,12 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_marienburg"]			=cm:random_number(150,60),
             ["wh3_main_combi_region_bechafen"]				=cm:random_number(150,60)
         };
+        if cm:model():campaign_name_key() == "cr_combi_expanded" then
+            end_nodes["cr_combi_region_nippon_3_1"]=75-cm:random_number(50,0)
+            end_nodes["cr_combi_region_ind_4_2"]=75-cm:random_number(50,0)
+            end_nodes["cr_combi_region_ihan_3_1"]=75-cm:random_number(50,0)
+            end_nodes["cr_combi_region_elithis_1_1"]=75-cm:random_number(50,0)
+        end
     else --for apply Marienburg thing when player are neither
         end_nodes = {
             ["wh3_main_combi_region_myrmidens"]				=75-cm:random_number(50,0),
@@ -2834,6 +2868,12 @@ function hkrul_mar_initalise_end_node_values()
             ["wh3_main_combi_region_marienburg"]			=75-cm:random_number(50,0),
             ["wh3_main_combi_region_bechafen"]				=75-cm:random_number(50,0)
         };
+        if cm:model():campaign_name_key() == "cr_combi_expanded" then
+            end_nodes["cr_combi_region_nippon_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_ind_4_2"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_ihan_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_elithis_1_1"]=cm:random_number(150,60)
+        end
     end
 	
 	--save them

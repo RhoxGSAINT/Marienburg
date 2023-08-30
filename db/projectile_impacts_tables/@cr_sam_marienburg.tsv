@@ -1,0 +1,3 @@
+key	water	sails	mud	grass	road	rock	sand	snow	leather	wood	blood	camera_shake
+#projectile_impacts_tables;11;db/projectile_impacts_tables/@cr_sam_marienburg												
+ovn_spell_bound_curse_of_the_albatross	wh_main_impact_large_water		wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water	wh_main_impact_large_water		wh_main_unit_impact_light

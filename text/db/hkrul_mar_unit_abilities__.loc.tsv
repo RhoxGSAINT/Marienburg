@@ -166,3 +166,31 @@ special_ability_groups_name_rhox_mar_mundvard	Lore Pool of Mundvard	false
 special_ability_phases_onscreen_name_snek_unit_contact_hobbled	[[col:red]][[img:ui/battle ui/ability_icons/hkrul_mar_chain.png]][[/img]]Hobbled![[/col]]	true
 unit_abilities_tooltip_text_hkrul_mar_mace	The ceremonial mace of Haeyndrik is imbued with magical luck, and is only to be wielded by the Arch-Priest himself.	false
 unit_abilities_onscreen_name_hkrul_mar_mace	Haeyndrik's Mace	false
+unit_abilities_tooltip_text_hkrul_precise	The Lord Harbourmaster is skilled at calculating exact distances, a trait proven useful not only at sea - but at scoping foes all the same.	false
+unit_abilities_onscreen_name_hkrul_precise	Course Plotter	false
+unit_abilities_tooltip_text_hkrul_anchor	With anchors firmly hooked in to solid ground even the lightest of infantry holds the line like immovable statues.	false
+unit_abilities_onscreen_name_hkrul_anchor	Bruynwater's Anchor	false
+unit_abilities_tooltip_text_hkrul_message	The Lord Harbourmaster's office recieves any letters for incoming ships in advance, one can only imagine what morale boosts these messages from home give.	false
+unit_abilities_onscreen_name_hkrul_message	Message in a Bottle	false
+unit_abilities_tooltip_text_hkrul_bullet	A deadly mixture of dwarfish and empiric powder, the explosiveness of the powder stored at Strompoort is as diverse as the city-state itself.	false
+unit_abilities_onscreen_name_hkrul_bullet	Strompoort's Powder	false
+unit_abilities_tooltip_text_hkrul_mar_roe	A roe with magical tendencies, channeling the names of legendary sailors, seamen and harbourmasters. It splites open ranks like ships on spikey rocks.	false
+unit_abilities_onscreen_name_hkrul_mar_roe	Odvaal's Roe	false
+unit_abilities_onscreen_name_hkrul_manann_bastion	Bulwark of the Sea	false
+unit_abilities_onscreen_name_hkrul_manann_shield	Grand Shield of Manann	false
+unit_abilities_onscreen_name_hkrul_manann_benediction	Manann's Veil	false
+unit_abilities_onscreen_name_hkrul_manann_trident	Grand Trident of Manann	false
+unit_abilities_onscreen_name_hkrul_manann_bombardment	Manann's Fury	false
+unit_abilities_tooltip_text_hkrul_manann_bastion	The Wave Lord has Manann's outmost blessing, bestowing upon him the very essence of the sea.	false
+unit_abilities_tooltip_text_hkrul_manann_shield	The might of the seven seas withstand the essence of time itself, Manann blesses men with a fraction of his might to withstand their share.	false
+unit_abilities_tooltip_text_hkrul_manann_benediction	Manann's blessing lingers as soft drops of water around those he deems worthy.	false
+unit_abilities_tooltip_text_hkrul_manann_trident	The Wave Lord implores Manann to imbue him with a modicum of divine strength, and now his trident glows bright with power!  	false
+unit_abilities_tooltip_text_hkrul_manann_bombardment	A battle prayer that bathes the Wave Lord in sea water, soaking Manann’s foes but leaving the supplicant unharmed.	false
+special_ability_phases_onscreen_name_hkrul_manann_shield		false
+special_ability_phases_onscreen_name_hkrul_manann_bastion		false
+special_ability_phases_onscreen_name_hkrul_manann_trident		false
+special_ability_phases_onscreen_name_hkrul_manann_benediction		false
+special_ability_phases_onscreen_name_hkrul_precise		false
+special_ability_phases_onscreen_name_hkrul_anchor		false
+special_ability_phases_onscreen_name_hkrul_message		false
+special_ability_phases_onscreen_name_hkrul_bullet		false

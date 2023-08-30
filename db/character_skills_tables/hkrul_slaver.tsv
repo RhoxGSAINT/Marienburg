@@ -1,0 +1,4 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_slaver									
+hkrul_skill_innate_slaver_innate_1	trait_personality.png			0	true	false	false	2.0000	0
+hkrul_skill_innate_slaver_innate_2	trait_personality.png			0	true	false	false	2.0000	0

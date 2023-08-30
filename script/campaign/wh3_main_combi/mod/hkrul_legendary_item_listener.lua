@@ -424,6 +424,27 @@ core:add_listener(
     end,
     false
 )
+
+---------------------odvaal
+
+core:add_listener(
+    "hkrul_odvaal_item1_unlock",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        return character:character_subtype("hkrul_harb") and character:rank() >= 8 and faction:ancillary_exists("hkrul_mar_roe") == false
+    end,
+    function(context)
+        cm:force_add_ancillary(
+            context:character(),
+            "hkrul_mar_roe",
+            true,
+            false
+        )
+    end,
+    false
+)
 ---------------------lisette
 
 core:add_listener(

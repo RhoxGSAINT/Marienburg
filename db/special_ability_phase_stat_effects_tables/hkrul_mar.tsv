@@ -75,3 +75,11 @@ hkrul_new_artifact	stat_melee_defence	25.0000	add
 hkrul_kuypers_ring	stat_melee_defence	6.0000	add
 hkrul_mar_mace	stat_melee_attack	15.0000	add
 hkrul_mar_mace	stat_melee_damage_ap	1.2000	mult
+hkrul_precise	scalar_missile_damage_ap	1.3000	mult
+hkrul_precise	stat_resistance_missile	25.0000	add
+hkrul_anchor	scalar_missile_damage_base	1.2500	mult
+hkrul_anchor	stat_melee_defence	6.0000	add
+hkrul_message	stat_morale	20.0000	add
+hkrul_message	stat_resistance_all	10.0000	add
+hkrul_bullet	scalar_missile_explosion_damage_base	1.3000	mult
+hkrul_bullet	scalar_missile_range	1.3000	mult

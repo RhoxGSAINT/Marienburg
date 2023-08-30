@@ -5,3 +5,4 @@ wh_main_vmp_vampire_counts	true	hkrul_mar_munvard_02	true	true	ui/portraits/port
 wh_main_vmp_vampire_counts	false	hkrul_alicia	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false
 wh_main_vmp_vampire_counts	false	hkrul_alicia_horse	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false
 wh_main_vmp_vampire_counts	false	hkrul_alicia_hellsteed	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_alicia.png	hkrul_alicia	hkrul_alicia	false		false
+wh_main_vmp_vampire_counts	true	hkrul_slaver	true	true	ui/portraits/portholes/wh_main_vmp_vampire_counts/hkrul_mar_munvard.png	hkrul_slaver_1	hkrul_slaver	true		false

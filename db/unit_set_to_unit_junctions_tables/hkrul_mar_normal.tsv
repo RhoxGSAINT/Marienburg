@@ -332,3 +332,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_mar_cst_inf_sartosa_militia_0	hkrul_sartosa	false
 			rhox_mar_cst_inf_sartosa_militia_0	rhox_mar_ranged	false
 			rhox_mar_cst_inf_sartosa_free_company_0	wh2_dlc17_volkmar_focus_units	false
+			hkrul_mar_cav_rijders_crossbow	hkrul_mar_mundvard_human	false
+			hkrul_mar_inf_crossbow	hkrul_mar_mundvard_human	false
+			hkrul_mar_riverwarden	hkrul_mar_mundvard_human	false

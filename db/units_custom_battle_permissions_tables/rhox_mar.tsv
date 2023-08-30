@@ -2,6 +2,8 @@ faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portra
 #units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/rhox_mar										
 rhox_mar_marienburg	false	snek_hkrul_mar_landship	true	true				false		false
 rhox_mar_marienburg	false	snek_hkrul_mar_ror_landship	true	true				false		false
+rhox_mar_marienburg	true	hkrul_lector_manann	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_lector_manann_1.png	hkrul_lector_manann_1	hkrul_lector_manann	false		false
+rhox_mar_marienburg	true	hkrul_lector_manann_mount	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_lector_manann_1.png	hkrul_lector_manann_1	hkrul_lector_manann	false		false
 rhox_mar_marienburg	true	hkrul_mar_caravan_master	true	true	ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09.png	hrul_mar_caravan_commander_09	hkrul_mar_caravan_master	false		false
 rhox_mar_marienburg	true	hkrul_jk	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_jk.png	hkrul_uniform_jk	hkrul_jk	false		false
 rhox_mar_marienburg	true	hkrul_mar_caravan_master_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hrul_mar_caravan_commander_09.png	hrul_mar_caravan_commander_09	hkrul_mar_caravan_master	false		false
