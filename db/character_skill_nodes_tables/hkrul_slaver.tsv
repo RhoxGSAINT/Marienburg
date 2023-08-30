@@ -1,7 +1,7 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/hkrul_slaver										
-hkrul_skill_node_mar_slaver_misc_01		hkrul_caravan_lord_special_0_1	skill_node_set_hkrul_slaver		0.0000	2.0000		0	0	true
-hkrul_skill_node_mar_slaver_misc_02		hkrul_caravan_lord_special_0_2	skill_node_set_hkrul_slaver		0.0000	3.0000		0	0	true
+hkrul_skill_node_mar_slaver_misc_01		hkrul_slaver_special_0_1	skill_node_set_hkrul_slaver		0.0000	2.0000		0	0	true
+hkrul_skill_node_mar_slaver_misc_02		hkrul_slaver_special_0_2	skill_node_set_hkrul_slaver		0.0000	3.0000		0	0	true
 hkrul_skill_node_mar_slaver_misc_04		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty	skill_node_set_hkrul_slaver		0.0000	4.0000		0	0	true
 hkrul_skill_node_mar_slaver_misc_05		wh_main_skill_vmp_lord_battle_dark_pact	skill_node_set_hkrul_slaver		0.0000	5.0000		0	0	true
 hkrul_skill_node_mar_slaver_misc_06		wh_main_skill_vmp_all_unique_grave_ward	skill_node_set_hkrul_slaver		0.0000	6.0000		0	0	true
@@ -51,3 +51,8 @@ hkrul_skill_node_mar_slaver_magic1_09		wh2_main_skill_vmp_magic_vampires_09_curs
 hkrul_skill_node_mar_slaver_magic1_10		wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord	skill_node_set_hkrul_slaver		3.0000	7.0000		0	0	true
 hkrul_skill_node_mar_slaver_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	skill_node_set_hkrul_slaver		3.0000	10.0000		0	4	true
 hkrul_skill_node_mar_slaver_magic1_dummy		wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre	skill_node_set_hkrul_slaver		3.0000	11.0000		1	0	false
+hkrul_skill_node_hkrul_slaver_unique_0		hkrul_slaver_special_1_0	skill_node_set_hkrul_slaver		1.0000	0.0000		0	0	true
+hkrul_skill_node_hkrul_slaver_unique_1		hkrul_slaver_special_1_1	skill_node_set_hkrul_slaver		1.0000	1.0000		0	0	true
+hkrul_skill_node_hkrul_slaver_unique_2		hkrul_slaver_special_1_2	skill_node_set_hkrul_slaver		1.0000	2.0000		0	0	true
+hkrul_skill_node_hkrul_slaver_unique_3		hkrul_slaver_special_1_3	skill_node_set_hkrul_slaver		1.0000	3.0000		0	0	true
+hkrul_skill_node_hkrul_slaver_unique_4		hkrul_slaver_special_1_4	skill_node_set_hkrul_slaver		1.0000	4.0000		0	3	true

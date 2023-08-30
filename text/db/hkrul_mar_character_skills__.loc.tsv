@@ -393,3 +393,19 @@ character_skills_localised_name_hkrul_lector_manann_bastion	Bulwark of the Sea	f
 character_skills_localised_description_hkrul_lector_manann_bastion	The Wave Lord has Manann's outmost blessing, bestowing upon him the very essence of the sea.	false
 character_skills_localised_name_hkrul_manann_ward	Manann's Blessing	false
 character_skills_localised_description_hkrul_manann_ward	He who is touched by the sea may traverse the world.	false
+character_skills_localised_name_innate_hkrul_slaver	Bulwark of the Fortress	true
+character_skills_localised_description_innate_hkrul_slaver	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_slaver_special_0_1	With knowledge reaching far further back in time than a human's life span, slavemasters know even the most hidden of shortcuts.	true
+character_skills_localised_name_hkrul_slaver_special_0_1	Ancient Cartography	true
+character_skills_localised_description_hkrul_slaver_special_1_1	Slaver's know their way around the potion square centered within the city-state of Marienburg.	true
+character_skills_localised_name_hkrul_slaver_special_1_1	Slaver's Trickery	true
+character_skills_localised_description_hkrul_slaver_special_1_2	What allows the slavers to move unfased is the way they hide their true nature.	true
+character_skills_localised_name_hkrul_slaver_special_1_2	Identity Unknown	true
+character_skills_localised_description_hkrul_slaver_special_1_0	The trick of keeping a slave convoy moving is making sure they are fed just the right amount.	true
+character_skills_localised_name_hkrul_slaver_special_1_0	Meat on their Bones	true
+character_skills_localised_description_hkrul_slaver_special_1_3	Slavemasters go under the protection of the Lord of Shadows, a powerful master to pledge allegiance to.	true
+character_skills_localised_name_hkrul_slaver_special_1_3	Lord's Protection	true
+character_skills_localised_description_hkrul_slaver_special_0_2	Led by Alicia von Unterwald, the consorts of the Wasteland are powerful vampiric advisors.	true
+character_skills_localised_name_hkrul_slaver_special_0_2	Slavemaster's Consort	true
+character_skills_localised_description_hkrul_slaver_special_1_4	The Slavemaster's whip has seen so much blood it soaked it in, a fearsome sight.	true
+character_skills_localised_name_hkrul_slaver_special_1_4	Whipped in Line	true
