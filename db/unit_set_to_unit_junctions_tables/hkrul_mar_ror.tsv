@@ -115,3 +115,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_ror	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
 			hkrul_carriers_ror	wh2_dlc13_emp_war_wagon	false
 			hkrul_carriers_ror	hkrul_carriers	false
+			ovn_mar_inf_knights_mariner_0	emp_all	false
+			ovn_mar_inf_knights_mariner_0	emp_greatswords	false
+			ovn_mar_inf_knights_mariner_0	emp_infantry	false
+			ovn_mar_inf_knights_mariner_0	emp_melee_infantry_tier_1	false
+			ovn_mar_inf_knights_mariner_0	mp_cap_unit_emp_inf_greatswords	false
+			ovn_mar_inf_knights_mariner_0	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			ovn_mar_inf_knights_mariner_0	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
+			ovn_mar_inf_knights_mariner_0	wh2_main_ror_units_all	false

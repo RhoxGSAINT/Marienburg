@@ -1,0 +1,53 @@
+<model version="1">
+	<geometry>art\campaign\chariots\cam_wa1\emp\mar_kou_cam_manaan_altar\mar_kou_cam_manaan_altar_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">warmachines\carriage\mar_war_altar_of_manann\materials\saddle_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">warmachines\carriage\mar_war_altar_of_manann\materials\torso_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="9">warmachines\carriage\mar_war_altar_of_manann\materials\merwyrm_tail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="10">warmachines\carriage\mar_war_altar_of_manann\materials\trident_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="11">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="12">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="13">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">warmachines\carriage\mar_war_altar_of_manann\materials\saddle_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">warmachines\carriage\mar_war_altar_of_manann\materials\torso_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="9">warmachines\carriage\mar_war_altar_of_manann\materials\merwyrm_tail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="10">warmachines\carriage\mar_war_altar_of_manann\materials\trident_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="11">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="12">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="13">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="2">warmachines\carriage\mar_war_altar_of_manann\materials\saddle_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">warmachines\carriage\mar_war_altar_of_manann\materials\torso_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">warmachines\carriage\mar_war_altar_of_manann\materials\merwyrm_tail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">warmachines\carriage\mar_war_altar_of_manann\materials\trident_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">warmachines\carriage\mar_war_altar_of_manann\materials\accessories_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">warmachines\carriage\mar_war_altar_of_manann\materials\book_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="2">warmachines\carriage\mar_war_altar_of_manann\materials\saddle_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">warmachines\carriage\mar_war_altar_of_manann\materials\head_alpha_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">warmachines\carriage\mar_war_altar_of_manann\materials\torso_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">warmachines\carriage\mar_war_altar_of_manann\materials\merwyrm_tail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">warmachines\carriage\mar_war_altar_of_manann\materials\trident_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">warmachines\carriage\mar_war_altar_of_manann\materials\crown_1_weighted4_alpha_off.xml.material</material>
+
+	</materials>
+</model>

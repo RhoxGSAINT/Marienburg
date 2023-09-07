@@ -1,4 +1,4 @@
-campaign_potential	base_value	random_roll_mean	random_roll_lower_bound	random_roll_upper_bound
+campaign_potential	base_value	random_roll_lower_bound	random_roll_median	random_roll_upper_bound
 #faction_potential_categories_tables;0;db/faction_potential_categories_tables/!hkrul_mar				
 ovn_mar_house_den_euwe_ie	20	0	0	40
 ovn_mar_the_wasteland_ie	20	0	0	40

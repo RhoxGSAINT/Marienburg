@@ -252,10 +252,10 @@ local item_data_combi = {
 	["wh3_main_combi_region_haichai"]				= "hkrul_mar_follower_cathay",
 	["wh3_main_combi_region_marienburg"]			= "hkrul_mar_marienburg_anc",
 	["wh3_main_combi_region_bechafen"]				= "hkrul_pg",
-	["cr_combi_region_nippon_3_1"]				= "wh2_dlc09_anc_arcane_item_blue_khepra",--put real item when the ancillary is ready
-	["cr_combi_region_ind_4_2"]				= "wh_main_anc_arcane_item_power_scroll",--put real item when the ancillary is ready
-	["cr_combi_region_ihan_3_1"]				= "wh_main_anc_arcane_item_scroll_of_leeching",--put real item when the ancillary is ready
-	["cr_combi_region_elithis_1_1"]				= "wh_main_anc_arcane_item_scroll_of_shielding"--put real item when the ancillary is ready
+	["cr_combi_region_nippon_3_1"]				= "rhox_mar_grant_of_land",--put real item when the ancillary is ready
+	["cr_combi_region_ind_4_2"]				= "rhox_mar_bejewelled_dagger",--put real item when the ancillary is ready
+	["cr_combi_region_ihan_3_1"]				= "rhox_mar_frost_wyrm_skull",--put real item when the ancillary is ready
+	["cr_combi_region_elithis_1_1"]				= "rhox_mar_mirror_blade"--put real item when the ancillary is ready
 }
 
 
@@ -781,14 +781,19 @@ local event_table = {
 			local settlement_target = cm:get_region(target_region):settlement();
 			
 			out.design("Triggering dilemma:"..dilemma_name)
-				
+			
+			local haggling_skill = caravan_handle:caravan_master():character_details():character():bonus_values():scripted_value("rhox_mar_lower_toll", "value");
+			if haggling_skill < -95 then
+                haggling_skill = -95 --fail safe you're not going to get money from it
+            end
+			
 			--Trigger dilemma to be handled by above function
 			local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
 			local payload_builder = cm:create_payload();
 			
 			dilemma_builder:add_choice_payload("FIRST", payload_builder);
 
-			payload_builder:treasury_adjustment(-1000);
+			payload_builder:treasury_adjustment(math.floor(-1000*((100+haggling_skill)/100)));
 			
 			dilemma_builder:add_choice_payload("SECOND", payload_builder);
 			

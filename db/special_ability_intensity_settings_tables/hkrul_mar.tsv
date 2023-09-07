@@ -12,3 +12,4 @@ hkrul_mar_spell_tzeentch_treason_of_tzeentch_upgraded	1.0000	1.0000	false	master
 hkrul_mar_szeentch_tzeentchs_firestorm	1.0000	1.0000	false	mastery_of_elemental_winds	set
 hkrul_mar_szeentch_tzeentchs_firestorm_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
 hkrul_mar_flock	0.0000	200.0000	false	nearby_all_deaths	linear_multiplier
+hkrul_whale	0.0000	200.0000	false	time_in_melee	linear_multiplier

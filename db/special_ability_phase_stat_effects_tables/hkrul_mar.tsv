@@ -83,3 +83,6 @@ hkrul_message	stat_morale	20.0000	add
 hkrul_message	stat_resistance_all	10.0000	add
 hkrul_bullet	scalar_missile_explosion_damage_base	1.3000	mult
 hkrul_bullet	scalar_missile_range	1.3000	mult
+hkrul_whipped	stat_resistance_physical	15.0000	add
+hkrul_whale	stat_bonus_vs_infantry	15.0000	add
+hkrul_whale	stat_melee_defence	15.0000	add

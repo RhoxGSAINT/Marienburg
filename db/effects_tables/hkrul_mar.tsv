@@ -195,4 +195,5 @@ hkrul_manann_shield	item_ability.png	300	item_ability.png	battle	true
 hkrul_manann_bastion	item_ability.png	300	item_ability.png	battle	true
 hkrul_manann_benediction	item_ability.png	300	item_ability.png	battle	true
 hkrul_manann_trident	item_ability.png	300	item_ability.png	battle	true
+hkrul_whipped	item_ability.png	300	item_ability.png	battle	true
 hkrul_lector_mount	mount.png	50	mount.png	both	true

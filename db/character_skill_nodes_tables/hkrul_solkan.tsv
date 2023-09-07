@@ -1,35 +1,35 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/hkrul_solkan										
-skill_node_hkrul_solkan_self_0		wh_main_skill_all_all_self_blade_master_starter	skill_node_set_hkrul_solkan		2.0000	0.0000		0	0	true
-skill_node_hkrul_solkan_self_1_1		wh_main_skill_all_all_self_devastating_charge	skill_node_set_hkrul_solkan		2.0000	1.0000		0	0	true
-skill_node_hkrul_solkan_self_1_2		wh_main_skill_all_lord_self_full_plate_armour_2	skill_node_set_hkrul_solkan		2.0000	2.0000		0	0	true
-skill_node_hkrul_solkan_self_1_3		wh_main_skill_all_all_self_hard_to_hit	skill_node_set_hkrul_solkan		2.0000	3.0000		0	0	true
-skill_node_hkrul_solkan_self_1_4		wh_main_skill_all_all_self_deadly_blade	skill_node_set_hkrul_solkan		2.0000	4.0000		0	0	true
-skill_node_hkrul_solkan_self_2		wh_main_skill_all_all_self_foe-seeker	skill_node_set_hkrul_solkan		2.0000	5.0000		0	4	true
-skill_node_hkrul_solkan_self_3_1		wh_main_skill_all_all_self_wound-maker	skill_node_set_hkrul_solkan		2.0000	6.0000		0	0	true
-skill_node_hkrul_solkan_self_3_2		wh_main_skill_all_all_self_scarred_veteran_2	skill_node_set_hkrul_solkan		2.0000	7.0000		0	0	true
-skill_node_hkrul_solkan_self_3_3		wh_main_skill_all_all_self_indomitable	skill_node_set_hkrul_solkan		2.0000	8.0000		0	0	true
-skill_node_hkrul_solkan_self_3_4		wh_main_skill_all_all_self_blade_shield	skill_node_set_hkrul_solkan		2.0000	9.0000		0	0	true
-skill_node_hkrul_solkan_self_4		wh_main_skill_all_all_self_deadly_onslaught	skill_node_set_hkrul_solkan		2.0000	10.0000		0	4	true
-skill_node_hkrul_solkan_campaign_01		wh2_main_skill_all_hero_assist_army_training	skill_node_set_hkrul_solkan		5.0000	0.0000		0	0	true
-skill_node_hkrul_solkan_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order	skill_node_set_hkrul_solkan		5.0000	1.0000		0	0	true
-skill_node_hkrul_solkan_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison	skill_node_set_hkrul_solkan		5.0000	2.0000		0	0	true
-skill_node_hkrul_solkan_campaign_05		wh2_main_skill_all_hero_hinder_agent_assassinate	skill_node_set_hkrul_solkan		5.0000	4.0000		0	0	true
-skill_node_hkrul_solkan_campaign_06		wh2_main_skill_all_hero_hinder_army_assault_units	skill_node_set_hkrul_solkan		5.0000	5.0000		0	0	true
-skill_node_hkrul_solkan_campaign_07		wh2_main_skill_all_hero_reduce_action_cost	skill_node_set_hkrul_solkan		5.0000	6.0000		0	0	true
-skill_node_hkrul_solkan_campaign_actions_dummy		hkrul_solkan_agent_actions	skill_node_set_hkrul_solkan		8.0000	0.0000		1	0	false
-skill_node_hkrul_solkan_generic_2		hkrul_mar_solkan_blessing	skill_node_set_hkrul_solkan		0.0000	5.0000		0	0	true
-skill_node_hkrul_solkan_generic_1		wh_main_skill_emp_champion_unique_hold_the_line	skill_node_set_hkrul_solkan		0.0000	6.0000		0	0	true
-skill_node_hkrul_solkan_generic_3		wh3_main_skill_all_mentor_hero	skill_node_set_hkrul_solkan		0.0000	333.0000		0	0	true
-skill_node_hkrul_solkan_innate		innate_hkrul_solkan	skill_node_set_hkrul_solkan		6.0000	0.0000		1	0	false
-skill_node_hkrul_solkan_special_1_0		hkrul_solkan_special_1_0	skill_node_set_hkrul_solkan		1.0000	0.0000		0	0	true
-skill_node_hkrul_solkan_special_1_1		hkrul_solkan_special_1_1	skill_node_set_hkrul_solkan		1.0000	1.0000		0	0	true
-skill_node_hkrul_solkan_special_1_2		hkrul_solkan_special_1_2	skill_node_set_hkrul_solkan		1.0000	2.0000		0	0	true
-skill_node_hkrul_solkan_special_2		hkrul_solkan_special_2	skill_node_set_hkrul_solkan		1.0000	3.0000		0	2	true
-skill_node_hkrul_solkan_special_3_1		hkrul_solkan_special_3_1	skill_node_set_hkrul_solkan		1.0000	4.0000		0	0	true
-skill_node_hkrul_solkan_special_3_2		hkrul_solkan_special_3_2	skill_node_set_hkrul_solkan		1.0000	5.0000		0	0	true
-skill_node_hkrul_solkan_special_4		hkrul_solkan_special_3_3	skill_node_set_hkrul_solkan		1.0000	6.0000		0	2	true
-skill_node_hkrul_solkan_special_0_1		hkrul_solkan_special_0_1	skill_node_set_hkrul_solkan		0.0000	8.0000		0	2	true
-skill_node_hkrul_solkan_special_0_3		hkrul_solkan_special_0_3	skill_node_set_hkrul_solkan		0.0000	11.0000		0	2	true
-skill_node_hkrul_solkan_special_0_2		hkrul_solkan_special_0_2	skill_node_set_hkrul_solkan		0.0000	9.0000		0	2	true
-hkrul_solkan_horse		hkrul_solkan_horse	skill_node_set_hkrul_solkan		0.0000	2.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_solkan									
+skill_node_hkrul_solkan_self_0		wh_main_skill_all_all_self_blade_master_starter		2	0		0	0	true
+skill_node_hkrul_solkan_self_1_1		wh_main_skill_all_all_self_devastating_charge		2	1		0	0	true
+skill_node_hkrul_solkan_self_1_2		wh_main_skill_all_lord_self_full_plate_armour_2		2	2		0	0	true
+skill_node_hkrul_solkan_self_1_3		wh_main_skill_all_all_self_hard_to_hit		2	3		0	0	true
+skill_node_hkrul_solkan_self_1_4		wh_main_skill_all_all_self_deadly_blade		2	4		0	0	true
+skill_node_hkrul_solkan_self_2		wh_main_skill_all_all_self_foe-seeker		2	5		0	4	true
+skill_node_hkrul_solkan_self_3_1		wh_main_skill_all_all_self_wound-maker		2	6		0	0	true
+skill_node_hkrul_solkan_self_3_2		wh_main_skill_all_all_self_scarred_veteran_2		2	7		0	0	true
+skill_node_hkrul_solkan_self_3_3		wh_main_skill_all_all_self_indomitable		2	8		0	0	true
+skill_node_hkrul_solkan_self_3_4		wh_main_skill_all_all_self_blade_shield		2	9		0	0	true
+skill_node_hkrul_solkan_self_4		wh_main_skill_all_all_self_deadly_onslaught		2	10		0	4	true
+skill_node_hkrul_solkan_campaign_01		wh2_main_skill_all_hero_assist_army_training		5	0		0	0	true
+skill_node_hkrul_solkan_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order		5	1		0	0	true
+skill_node_hkrul_solkan_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison		5	2		0	0	true
+skill_node_hkrul_solkan_campaign_05		wh2_main_skill_all_hero_hinder_agent_assassinate		5	4		0	0	true
+skill_node_hkrul_solkan_campaign_06		wh2_main_skill_all_hero_hinder_army_assault_units		5	5		0	0	true
+skill_node_hkrul_solkan_campaign_07		wh2_main_skill_all_hero_reduce_action_cost		5	6		0	0	true
+skill_node_hkrul_solkan_campaign_actions_dummy		hkrul_solkan_agent_actions		8	0		1	0	false
+skill_node_hkrul_solkan_generic_2		hkrul_mar_solkan_blessing		0	5		0	0	true
+skill_node_hkrul_solkan_generic_1		wh_main_skill_emp_champion_unique_hold_the_line		0	6		0	0	true
+skill_node_hkrul_solkan_generic_3		wh3_main_skill_all_mentor_hero		0	333		0	0	true
+skill_node_hkrul_solkan_innate		innate_hkrul_solkan		6	0		1	0	false
+skill_node_hkrul_solkan_special_1_0		hkrul_solkan_special_1_0		1	0		0	0	true
+skill_node_hkrul_solkan_special_1_1		hkrul_solkan_special_1_1		1	1		0	0	true
+skill_node_hkrul_solkan_special_1_2		hkrul_solkan_special_1_2		1	2		0	0	true
+skill_node_hkrul_solkan_special_2		hkrul_solkan_special_2		1	3		0	2	true
+skill_node_hkrul_solkan_special_3_1		hkrul_solkan_special_3_1		1	4		0	0	true
+skill_node_hkrul_solkan_special_3_2		hkrul_solkan_special_3_2		1	5		0	0	true
+skill_node_hkrul_solkan_special_4		hkrul_solkan_special_3_3		1	6		0	2	true
+skill_node_hkrul_solkan_special_0_1		hkrul_solkan_special_0_1		0	8		0	2	true
+skill_node_hkrul_solkan_special_0_3		hkrul_solkan_special_0_3		0	11		0	2	true
+skill_node_hkrul_solkan_special_0_2		hkrul_solkan_special_0_2		0	9		0	2	true
+hkrul_solkan_horse		hkrul_solkan_horse		0	2		0	0	true

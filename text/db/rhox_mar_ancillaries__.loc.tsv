@@ -30,3 +30,15 @@ ancillaries_explanation_text_hkrul_mar_lupo		true
 ancillaries_onscreen_name_hkrul_mar_follower_bard	Rhox of the Woods	true
 ancillaries_colour_text_hkrul_mar_follower_bard	''Toss a coin to your Merchant, valley of plenty''. A cunning adventurer with unimaginable amounts of skill within the fields of logic and song joins your retinue, aiding you to best the dangers of the Gilded Route.	true
 ancillaries_explanation_text_hkrul_mar_follower_bard		true
+ancillaries_colour_text_rhox_mar_grant_of_land	They have granted ownership and tithes from a patch of Niiponese land.	false
+ancillaries_explanation_text_rhox_mar_grant_of_land		false
+ancillaries_onscreen_name_rhox_mar_grant_of_land	Grant of Land 	false
+ancillaries_colour_text_rhox_mar_bejewelled_dagger	While the blade is short, the jewels embedded in its hilt are said to be worth a thousand Caravans.	false
+ancillaries_explanation_text_rhox_mar_bejewelled_dagger		false
+ancillaries_onscreen_name_rhox_mar_bejewelled_dagger	Bejewelled Dagger	false
+ancillaries_colour_text_rhox_mar_frost_wyrm_skull	The skull seeps a constant icy mist concealing those that hold it.	false
+ancillaries_explanation_text_rhox_mar_frost_wyrm_skull		false
+ancillaries_onscreen_name_rhox_mar_frost_wyrm_skull	Frost Wyrm Skull	false
+ancillaries_colour_text_rhox_mar_mirror_blade	One moment, it's a fine sword made from steel folded thousands of times; the next, it's a pen, for signing away one's soul… or sanity!	false
+ancillaries_explanation_text_rhox_mar_mirror_blade		false
+ancillaries_onscreen_name_rhox_mar_mirror_blade	Everchanging Blade	false

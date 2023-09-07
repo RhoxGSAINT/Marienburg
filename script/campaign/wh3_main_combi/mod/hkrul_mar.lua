@@ -184,25 +184,12 @@ local function hkrul_mar()
                     
                     out("Created replacement Lord " .. jaan_details.forename .. " for " .. marienburg_faction_key)
                     
-
-
-                    --[[--not until chorf
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_academia_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_cav_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_diplomacy_1_a")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_diplomacy_1_b")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_diplomacy_1_c")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_diplomacy_1_d")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_economy_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_infantry_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_machine_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_missile_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_purge_1")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_purge_2")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_purge_3")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_purge_4")
-                    cm:lock_technology(marienburg_faction_key, "wh2_dlc13_tech_emp_elector_counts_1")
-                    --]]
+                    if cm:model():campaign_name_key() == "cr_combi_expanded" then
+                        cm:make_region_visible_in_shroud(marienburg_faction_key, "cr_combi_region_khuresh_4_1")
+                        cm:make_region_visible_in_shroud("ovn_mar_cult_of_manann", "wh3_main_combi_region_marienburg")
+                        --cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "ovn_mar_cult_of_manann", 3)
+                    end
+                    
                     
                     --creating hkrul pg here so he could spawn near the new lord
                     local marienburg_faction_cqi = marienburg_faction:command_queue_index();  
@@ -250,8 +237,23 @@ local function hkrul_mar()
 end
 
 
+--[[
+cm:add_first_tick_callback(function() 
+    if cm:is_new_game() then
+        if core:is_mod_loaded("!mixer_global_functions") then    
+            mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar", true)
+        else
+            cm:apply_effect_bundle("hkrul_mar", "wh_main_emp_marienburg", 0)
+        end
+    end
+end)
+--]] --old script
+
 cm:add_first_tick_callback(
     function() 
+        pcall(function()
+            mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar", true)
+        end)
         hkrul_mar() 
         mixer_disable_lord_recruitment("wh_main_emp_marienburg", "wh_dlc04_emp_arch_lector", "emp_arch_lector" ,"wh_main_emp_lord")
     end

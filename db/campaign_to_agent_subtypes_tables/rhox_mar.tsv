@@ -1,0 +1,12 @@
+agent_subtype	campaign_type
+#campaign_to_agent_subtypes_tables;0;db/campaign_to_agent_subtypes_tables/rhox_mar	
+hkrul_jk	wh3_main_combi
+hkrul_hendrik	wh3_main_combi
+hkrul_mar_egmond	wh3_main_combi
+hkrul_mar_munvard	wh3_main_combi
+hkrul_alicia	wh3_main_combi
+hkrul_jk	cr_combi_expanded
+hkrul_hendrik	cr_combi_expanded
+hkrul_mar_egmond	cr_combi_expanded
+hkrul_mar_munvard	cr_combi_expanded
+hkrul_alicia	cr_combi_expanded

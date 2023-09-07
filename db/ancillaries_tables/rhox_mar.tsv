@@ -9,3 +9,7 @@ hkrul_mar_bonsai	hkrul_mar_bonsai	.	true	false	false	1	0	9999			false	false	fals
 hkrul_mar_thom	hkrul_mar_caravan_anc_diverse5	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
 hkrul_mar_gote	hkrul_mar_gote	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
 hkrul_mar_lupo	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_sc_empire
+rhox_mar_grant_of_land	wh_main_anc_human_man	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	true	anc_set_exclusive_sc_empire
+rhox_mar_bejewelled_dagger	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	1	1	50	75	true			200	0		false	false	true	anc_set_exclusive_sc_empire
+rhox_mar_frost_wyrm_skull	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	1	1	50	75	true			200	0		false	false	true	anc_set_exclusive_sc_empire
+rhox_mar_mirror_blade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	1	1	50	75	true			200	0		false	false	false	anc_set_exclusive_sc_empire

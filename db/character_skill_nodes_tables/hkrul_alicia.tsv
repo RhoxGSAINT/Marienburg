@@ -1,43 +1,43 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/hkrul_alicia										
-hkrul_alicia_skill_node_unique_05		wh3_main_skill_all_mentor_hero	skill_node_set_hkrul_alicia		0.0000	12.0000		0	0	true
-hkrul_alicia_skill_node_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	skill_node_set_hkrul_alicia		5.0000	0.0000		0	0	true
-hkrul_alicia_skill_node_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption_vmp	skill_node_set_hkrul_alicia		5.0000	1.0000		0	0	true
-hkrul_alicia_skill_node_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	skill_node_set_hkrul_alicia		5.0000	2.0000		0	0	true
-hkrul_alicia_skill_node_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	skill_node_set_hkrul_alicia		5.0000	3.0000		0	0	true
-hkrul_alicia_skill_node_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	skill_node_set_hkrul_alicia		5.0000	4.0000		0	0	true
-hkrul_alicia_skill_node_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	skill_node_set_hkrul_alicia		5.0000	5.0000		0	0	true
-hkrul_alicia_skill_node_magic1_01		wh_dlc05_skill_magic_shadow_mystifying_miasma	skill_node_set_hkrul_alicia		3.0000	0.0000		0	0	true
-hkrul_alicia_skill_node_magic1_02		wh_dlc05_skill_magic_shadow_smoke_and_mirrors	skill_node_set_hkrul_alicia		3.0000	1.0000		0	0	true
-hkrul_alicia_skill_node_magic1_03		wh_dlc05_skill_magic_shadow_enfeebling_foe	skill_node_set_hkrul_alicia		3.0000	2.0000		0	0	true
-hkrul_alicia_skill_node_magic1_04		wh_dlc05_skill_magic_shadow_the_withering	skill_node_set_hkrul_alicia		3.0000	3.0000		0	0	true
-hkrul_alicia_skill_node_magic1_05		wh_dlc05_skill_magic_shadow_penumbral_pendulum	skill_node_set_hkrul_alicia		3.0000	4.0000		0	0	true
-hkrul_alicia_skill_node_magic1_06		wh_main_skill_all_magic_all_06_evasion	skill_node_set_hkrul_alicia		3.0000	5.0000		0	4	true
-hkrul_alicia_skill_node_magic1_07		wh_main_skill_all_magic_all_07_earthing	skill_node_set_hkrul_alicia		3.0000	8.0000		0	0	true
-hkrul_alicia_skill_node_magic1_08		wh_main_skill_all_magic_all_08_power_drain	skill_node_set_hkrul_alicia		3.0000	9.0000		0	0	true
-hkrul_alicia_skill_node_magic1_09		wh_dlc05_skill_magic_shadow_pit_of_shades	skill_node_set_hkrul_alicia		3.0000	6.0000		0	0	true
-hkrul_alicia_skill_node_magic1_10		wh_dlc05_skill_magic_shadow_okkams_mindrazor	skill_node_set_hkrul_alicia		3.0000	7.0000		0	0	true
-hkrul_alicia_skill_node_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	skill_node_set_hkrul_alicia		3.0000	10.0000		0	4	true
-hkrul_alicia_skill_node_magic1_dummy		wh_dlc05_skill_magic_shadow_mystifying_miasma_dummy	skill_node_set_hkrul_alicia		3.0000	11.0000		1	0	false
-hkrul_alicia_skill_node_self_01		wh_main_skill_all_dignitary_self_safeguard	skill_node_set_hkrul_alicia		2.0000	0.0000		0	0	true
-hkrul_alicia_skill_node_self_02		wh_main_skill_all_dignitary_self_impassioned	skill_node_set_hkrul_alicia		2.0000	1.0000		0	0	true
-hkrul_alicia_skill_node_self_03		wh_main_skill_all_dignitary_self_wild-eyed	skill_node_set_hkrul_alicia		2.0000	2.0000		0	0	true
-hkrul_alicia_skill_node_self_04		wh_main_skill_all_dignitary_self_conviction	skill_node_set_hkrul_alicia		2.0000	3.0000		0	0	true
-hkrul_alicia_skill_node_self_05		wh_main_skill_all_dignitary_self_soothsaying	skill_node_set_hkrul_alicia		2.0000	4.0000		0	0	true
-hkrul_alicia_skill_node_self_06		wh_main_skill_vmp_dignitary_self_immortal_will	skill_node_set_hkrul_alicia		2.0000	5.0000		0	4	true
-hkrul_alicia_skill_node_self_07		wh_main_skill_all_dignitary_self_tenacity_2	skill_node_set_hkrul_alicia		2.0000	6.0000		0	0	true
-hkrul_alicia_skill_node_self_08		wh_main_skill_all_dignitary_self_augury	skill_node_set_hkrul_alicia		2.0000	7.0000		0	0	true
-hkrul_alicia_skill_node_self_09		wh_main_skill_all_dignitary_self_inviolable_2	skill_node_set_hkrul_alicia		2.0000	8.0000		0	0	true
-hkrul_alicia_skill_node_self_10		wh_main_skill_all_dignitary_self_fervour	skill_node_set_hkrul_alicia		2.0000	9.0000		0	0	true
-hkrul_alicia_skill_node_self_11		wh_main_skill_vmp_dignitary_self_dark_benediction	skill_node_set_hkrul_alicia		2.0000	10.0000		0	4	true
-hkrul_alicia_skill_node_unique_01		wh_dlc05_skill_vmp_dignitary_shadow_unique_vampire_barded_nightmare	skill_node_set_hkrul_alicia		0.0000	0.0000		0	0	true
-hkrul_alicia_skill_node_unique_02		wh_dlc05_skill_vmp_dignitary_shadow_unique_vampire_hellsteed	skill_node_set_hkrul_alicia		0.0000	1.0000		0	0	true
-hkrul_alicia_skill_node_unique_03		wh_main_skill_vmp_dignitary_unique_the_hunger	skill_node_set_hkrul_alicia		0.0000	2.0000		0	0	true
-hkrul_alicia_skill_node_unique_04		wh_main_skill_vmp_all_unique_grave_ward	skill_node_set_hkrul_alicia		0.0000	3.0000		0	0	true
-hkrul_alicia_skill_node_agent_actions		hkrul_alicia_agent_actions	skill_node_set_hkrul_alicia		8.0000	0.0000		1	0	false
-hkrul_alicia_skill_node_innate		innate_hkrul_alicia	skill_node_set_hkrul_alicia		6.0000	0.0000		0	0	false
-hkrul_alicia_skill_node_special_05		hkrul_alicia_special_2_0	skill_node_set_hkrul_alicia		1.0000	5.0000		0	3	true
-hkrul_alicia_skill_node_special_01		hkrul_alicia_special_1_0	skill_node_set_hkrul_alicia		1.0000	1.0000		0	0	true
-hkrul_alicia_skill_node_special_02		hkrul_alicia_special_1_1	skill_node_set_hkrul_alicia		1.0000	2.0000		0	0	true
-hkrul_alicia_skill_node_special_03		hkrul_alicia_special_1_2	skill_node_set_hkrul_alicia		1.0000	3.0000		0	0	true
-hkrul_alicia_skill_node_special_04		hkrul_alicia_special_1_3	skill_node_set_hkrul_alicia		1.0000	4.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_alicia									
+hkrul_alicia_skill_node_unique_05		wh3_main_skill_all_mentor_hero		0	12		0	0	true
+hkrul_alicia_skill_node_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops		5	0		0	0	true
+hkrul_alicia_skill_node_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption_vmp		5	1		0	0	true
+hkrul_alicia_skill_node_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building		5	2		0	0	true
+hkrul_alicia_skill_node_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound		5	3		0	0	true
+hkrul_alicia_skill_node_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment		5	4		0	0	true
+hkrul_alicia_skill_node_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+hkrul_alicia_skill_node_magic1_01		wh_dlc05_skill_magic_shadow_mystifying_miasma		3	0		0	0	true
+hkrul_alicia_skill_node_magic1_02		wh_dlc05_skill_magic_shadow_smoke_and_mirrors		3	1		0	0	true
+hkrul_alicia_skill_node_magic1_03		wh_dlc05_skill_magic_shadow_enfeebling_foe		3	2		0	0	true
+hkrul_alicia_skill_node_magic1_04		wh_dlc05_skill_magic_shadow_the_withering		3	3		0	0	true
+hkrul_alicia_skill_node_magic1_05		wh_dlc05_skill_magic_shadow_penumbral_pendulum		3	4		0	0	true
+hkrul_alicia_skill_node_magic1_06		wh_main_skill_all_magic_all_06_evasion		3	5		0	4	true
+hkrul_alicia_skill_node_magic1_07		wh_main_skill_all_magic_all_07_earthing		3	8		0	0	true
+hkrul_alicia_skill_node_magic1_08		wh_main_skill_all_magic_all_08_power_drain		3	9		0	0	true
+hkrul_alicia_skill_node_magic1_09		wh_dlc05_skill_magic_shadow_pit_of_shades		3	6		0	0	true
+hkrul_alicia_skill_node_magic1_10		wh_dlc05_skill_magic_shadow_okkams_mindrazor		3	7		0	0	true
+hkrul_alicia_skill_node_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit		3	10		0	4	true
+hkrul_alicia_skill_node_magic1_dummy		wh_dlc05_skill_magic_shadow_mystifying_miasma_dummy		3	11		1	0	false
+hkrul_alicia_skill_node_self_01		wh_main_skill_all_dignitary_self_safeguard		2	0		0	0	true
+hkrul_alicia_skill_node_self_02		wh_main_skill_all_dignitary_self_impassioned		2	1		0	0	true
+hkrul_alicia_skill_node_self_03		wh_main_skill_all_dignitary_self_wild-eyed		2	2		0	0	true
+hkrul_alicia_skill_node_self_04		wh_main_skill_all_dignitary_self_conviction		2	3		0	0	true
+hkrul_alicia_skill_node_self_05		wh_main_skill_all_dignitary_self_soothsaying		2	4		0	0	true
+hkrul_alicia_skill_node_self_06		wh_main_skill_vmp_dignitary_self_immortal_will		2	5		0	4	true
+hkrul_alicia_skill_node_self_07		wh_main_skill_all_dignitary_self_tenacity_2		2	6		0	0	true
+hkrul_alicia_skill_node_self_08		wh_main_skill_all_dignitary_self_augury		2	7		0	0	true
+hkrul_alicia_skill_node_self_09		wh_main_skill_all_dignitary_self_inviolable_2		2	8		0	0	true
+hkrul_alicia_skill_node_self_10		wh_main_skill_all_dignitary_self_fervour		2	9		0	0	true
+hkrul_alicia_skill_node_self_11		wh_main_skill_vmp_dignitary_self_dark_benediction		2	10		0	4	true
+hkrul_alicia_skill_node_unique_01		wh_dlc05_skill_vmp_dignitary_shadow_unique_vampire_barded_nightmare		0	0		0	0	true
+hkrul_alicia_skill_node_unique_02		wh_dlc05_skill_vmp_dignitary_shadow_unique_vampire_hellsteed		0	1		0	0	true
+hkrul_alicia_skill_node_unique_03		wh_main_skill_vmp_dignitary_unique_the_hunger		0	2		0	0	true
+hkrul_alicia_skill_node_unique_04		wh_main_skill_vmp_all_unique_grave_ward		0	3		0	0	true
+hkrul_alicia_skill_node_agent_actions		hkrul_alicia_agent_actions		8	0		1	0	false
+hkrul_alicia_skill_node_innate		innate_hkrul_alicia		6	0		0	0	false
+hkrul_alicia_skill_node_special_05		hkrul_alicia_special_2_0		1	5		0	3	true
+hkrul_alicia_skill_node_special_01		hkrul_alicia_special_1_0		1	1		0	0	true
+hkrul_alicia_skill_node_special_02		hkrul_alicia_special_1_1		1	2		0	0	true
+hkrul_alicia_skill_node_special_03		hkrul_alicia_special_1_2		1	3		0	0	true
+hkrul_alicia_skill_node_special_04		hkrul_alicia_special_1_3		1	4		0	0	true

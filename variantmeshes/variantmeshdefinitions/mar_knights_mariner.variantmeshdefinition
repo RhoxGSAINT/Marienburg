@@ -43,9 +43,6 @@
 			<META_DATA>audio_melee_weapon_type:spear</META_DATA>
 		</VARIANT_MESH>
 	</SLOT>
-	<SLOT name="shield" attach_point="be_prop_2" >
-		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/mar_knights_mariner_shields_set1.variantmeshdefinition" />
-	</SLOT>
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
 	<SLOT name="weapon_4" attach_point="be_prop_4" />
 	<SLOT name="weapon_5" attach_point="be_prop_5" />

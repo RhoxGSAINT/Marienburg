@@ -26,3 +26,4 @@ hkrul_mar_lupo	true	hkrul_mar_car_anc_1		wh_type_augment		wh_main_anc_group_rare
 hkrul_mar_flock	false	hkrul_mar_flock		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_mar_speaker	true	hkrul_mar_speaker		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
 hkrul_mar_smoke	true	hkrul_mar_smoke		wh_type_hiding		wh_main_anc_group_uncommon	true	false	active		false
+hkrul_whale	false	hkrul_whale		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false

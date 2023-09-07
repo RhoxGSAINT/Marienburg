@@ -51,3 +51,4 @@ hkrul_precise	true	hkrul_harb_precise		wh_type_augment		wh_main_anc_group_rare	t
 hkrul_anchor	true	hkrul_harb_anchor		wh_type_area_of_augments		wh_main_anc_group_common	true	false	passive		false
 hkrul_message	true	hkrul_harb_letter		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	active		false
 hkrul_bullet	true	hkrul_harb_bullet		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_whipped	true	hkrul_whipped		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false

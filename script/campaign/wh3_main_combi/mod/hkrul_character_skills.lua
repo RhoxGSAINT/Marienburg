@@ -714,14 +714,14 @@ cm:add_first_tick_callback(
                     local character = context:character()    
                     local region_object = context:garrison_residence():region()
                     local region_name = region_object:name()
-                    return character:character_subtype_key() == "hkrul_jk" and region_name == "wh3_main_combi_region_marienburg" and character:faction():is_human() and cm:get_saved_value("rhox_mar_pg_mission_issued") ~= true
+                    return character:character_subtype_key() == "hkrul_jk" and region_name == "wh3_main_combi_region_marienburg" and character:faction():is_human() and cm:get_saved_value("rhox_mar_pg_mission_issued") ~= true and character:faction():name() == "wh_main_emp_marienburg"
                 end,
                 function(context)
                     cm:set_saved_value("rhox_mar_pg_mission_issued", true)
                     local scmm = mission_manager:new("wh_main_emp_marienburg", "rhox_mar_pg")
                     scmm:add_new_objective("MOVE_TO_REGION");
                     scmm:add_condition("region wh3_main_combi_region_bechafen");
-                    scmm:add_payload("money 5000");
+                    scmm:add_payload("money 500");
                     scmm:trigger()
                 end,
                 false

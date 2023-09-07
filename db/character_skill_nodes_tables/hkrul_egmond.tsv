@@ -1,49 +1,49 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/hkrul_egmond										
-skill_node_hkrul_egmond_innate		hkrul_mar_innate_egmond	skill_node_set_hkrul_egmond		6.0000	0.0000		1	0	false
-hkrul_egmond_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	skill_node_set_hkrul_egmond		5.0000	0.0000		0	0	true
-hkrul_egmond_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian	skill_node_set_hkrul_egmond		5.0000	1.0000		0	0	true
-hkrul_egmond_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown	skill_node_set_hkrul_egmond		5.0000	2.0000		0	0	true
-hkrul_egmond_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	skill_node_set_hkrul_egmond		5.0000	3.0000		0	0	true
-hkrul_egmond_campaign_05		wh_main_skill_emp_lord_campaign_fervent	skill_node_set_hkrul_egmond		5.0000	4.0000		0	0	true
-hkrul_egmond_campaign_06		wh_main_skill_all_lord_campaign_irrepressible	skill_node_set_hkrul_egmond		5.0000	5.0000		0	4	true
-hkrul_egmond_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	skill_node_set_hkrul_egmond		5.0000	6.0000		0	0	true
-hkrul_egmond_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster	skill_node_set_hkrul_egmond		5.0000	7.0000		0	0	true
-hkrul_egmond_campaign_09		wh_main_skill_emp_lord_campaign_logistician	skill_node_set_hkrul_egmond		5.0000	8.0000		0	0	true
-hkrul_egmond_campaign_10		wh_main_skill_all_lord_campaign_alert	skill_node_set_hkrul_egmond		5.0000	9.0000		0	0	true
-hkrul_egmond_campaign_11		wh_main_skill_emp_lord_campaign_headhunter	skill_node_set_hkrul_egmond		5.0000	10.0000		0	4	true
-hkrul_egmond_battle_01		wh_main_skill_all_lord_battle_inspiring_presence	skill_node_set_hkrul_egmond		4.0000	0.0000		0	0	true
-hkrul_egmond_battle_02		wh2_dlc11_skill_emp_army_buff_emperors_finest	skill_node_set_hkrul_egmond		4.0000	1.0000		0	0	true
-hkrul_egmond_battle_03		wh2_dlc11_skill_emp_army_buff_speed_of_horse	skill_node_set_hkrul_egmond		4.0000	2.0000		0	0	true
-hkrul_egmond_battle_04		wh2_dlc11_skill_emp_army_buff_pistolkorps	skill_node_set_hkrul_egmond		4.0000	3.0000		0	0	true
-hkrul_egmond_battle_05		wh2_dlc11_skill_emp_army_buff_honest_steel	skill_node_set_hkrul_egmond		4.0000	4.0000		0	0	true
-hkrul_egmond_battle_06		wh2_dlc11_skill_emp_army_buff_mighty_forge	skill_node_set_hkrul_egmond		4.0000	5.0000		0	0	true
-hkrul_egmond_battle_07		wh2_dlc11_skill_emp_army_buff_imperial_gunnery	skill_node_set_hkrul_egmond		4.0000	6.0000		0	0	true
-hkrul_egmond_battle_08		wh_main_skill_all_lord_battle_rally	skill_node_set_hkrul_egmond		4.0000	7.0000		0	6	true
-hkrul_egmond_battle_09		wh2_dlc11_skill_emp_army_buff_strength_of_hardship	skill_node_set_hkrul_egmond		4.0000	8.0000		0	0	true
-hkrul_egmond_battle_10		wh2_dlc11_skill_emp_army_buff_sharpshooter	skill_node_set_hkrul_egmond		4.0000	9.0000		0	0	true
-hkrul_egmond_battle_11		wh2_dlc11_skill_emp_army_buff_taste_for_battle	skill_node_set_hkrul_egmond		4.0000	10.0000		0	0	true
-hkrul_egmond_battle_12		wh2_dlc11_skill_emp_army_buff_artillery_master	skill_node_set_hkrul_egmond		4.0000	11.0000		0	0	true
-hkrul_egmond_battle_13		wh_main_skill_all_lord_battle_stand_your_ground	skill_node_set_hkrul_egmond		4.0000	12.0000		0	1	true
-hkrul_egmond_generic_1		hkrul_mar_haeyndrik_shield	skill_node_set_hkrul_egmond		0.0000	7.0000		0	0	true
-hkrul_egmond_generic_2		hkrul_mar_egmond_horse	skill_node_set_hkrul_egmond		0.0000	3.0000		0	0	true
-hkrul_egmond_generic_3		hkrul_egmond_longma	skill_node_set_hkrul_egmond		0.0000	4.0000		0	0	true
-hkrul_egmond_generic_0		wh_main_skill_emp_champion_unique_hold_the_line	skill_node_set_hkrul_egmond		0.0000	6.0000		0	0	true
-hkrul_hendrik_generic_5		wh3_main_skill_all_mentor_lord	skill_node_set_hkrul_egmond		0.0000	155.0000		0	0	true
-hkrul_egmond_unique_0_1		hkrul_egmond_0_1	skill_node_set_hkrul_egmond		0.0000	9.0000		0	0	true
-hkrul_egmond_unique_0_2		hkrul_egmond_0_2	skill_node_set_hkrul_egmond		0.0000	10.0000		0	0	true
-hkrul_egmond_unique_1_0		hkrul_egmond_1_0	skill_node_set_hkrul_egmond		1.0000	0.0000		0	0	true
-hkrul_egmond_unique_1_3		hkrul_egmond_1_3	skill_node_set_hkrul_egmond		1.0000	3.0000		0	0	true
-hkrul_egmond_unique_1_1		hkrul_egmond_1_1	skill_node_set_hkrul_egmond		1.0000	1.0000		0	0	true
-hkrul_egmond_unique_1_2		hkrul_egmond_1_2	skill_node_set_hkrul_egmond		1.0000	2.0000		0	0	true
-hkrul_egmond_unique_2_0		hkrul_egmond_2_0	skill_node_set_hkrul_egmond		1.0000	4.0000		0	3	true
-hkrul_egmond_unique_2_1		hkrul_egmond_2_1	skill_node_set_hkrul_egmond		1.0000	5.0000		0	0	true
-hkrul_egmond_unique_2_2		hkrul_egmond_2_2	skill_node_set_hkrul_egmond		1.0000	6.0000		0	0	true
-hkrul_egmond_magic_0_1		hkrul_egmond_tze_magic_tzeentch_01_blue_fire_of_tzeentch_lord	skill_node_set_hkrul_egmond		2.0000	1.0000		0	0	true
-hkrul_egmond_magic_0_2		hkrul_egmond_tze_magic_tzeentch_04_treason_of_tzeentch_lord	skill_node_set_hkrul_egmond		2.0000	2.0000		0	0	true
-hkrul_egmond_magic_0_3		wh_main_skill_all_magic_all_07_earthing	skill_node_set_hkrul_egmond		2.0000	3.0000		0	0	true
-hkrul_egmond_magic_0_4		wh3_main_skill_tze_all_magic_prismatic_plurality	skill_node_set_hkrul_egmond		2.0000	4.0000		0	2	true
-hkrul_egmond_magic_0_5		wh_main_skill_all_magic_all_08_power_drain	skill_node_set_hkrul_egmond		2.0000	5.0000		0	0	true
-hkrul_egmond_magic_0_6		hkrul_egmond_tze_magic_tzeentch_06_tzeentchs_firestorm_lord	skill_node_set_hkrul_egmond		2.0000	6.0000		0	0	true
-hkrul_egmond_magic_0_7		wh_main_skill_all_magic_all_11_arcane_conduit	skill_node_set_hkrul_egmond		2.0000	7.0000		0	2	true
-hkrul_egmond_unique_2_3		hkrul_egmond_2_3	skill_node_set_hkrul_egmond		1.0000	7.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_egmond									
+skill_node_hkrul_egmond_innate		hkrul_mar_innate_egmond		6	0		1	0	false
+hkrul_egmond_campaign_01		wh_main_skill_all_lord_campaign_route_marcher		5	0		0	0	true
+hkrul_egmond_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian		5	1		0	0	true
+hkrul_egmond_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown		5	2		0	0	true
+hkrul_egmond_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence		5	3		0	0	true
+hkrul_egmond_campaign_05		wh_main_skill_emp_lord_campaign_fervent		5	4		0	0	true
+hkrul_egmond_campaign_06		wh_main_skill_all_lord_campaign_irrepressible		5	5		0	4	true
+hkrul_egmond_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike		5	6		0	0	true
+hkrul_egmond_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster		5	7		0	0	true
+hkrul_egmond_campaign_09		wh_main_skill_emp_lord_campaign_logistician		5	8		0	0	true
+hkrul_egmond_campaign_10		wh_main_skill_all_lord_campaign_alert		5	9		0	0	true
+hkrul_egmond_campaign_11		wh_main_skill_emp_lord_campaign_headhunter		5	10		0	4	true
+hkrul_egmond_battle_01		wh_main_skill_all_lord_battle_inspiring_presence		4	0		0	0	true
+hkrul_egmond_battle_02		wh2_dlc11_skill_emp_army_buff_emperors_finest		4	1		0	0	true
+hkrul_egmond_battle_03		wh2_dlc11_skill_emp_army_buff_speed_of_horse		4	2		0	0	true
+hkrul_egmond_battle_04		wh2_dlc11_skill_emp_army_buff_pistolkorps		4	3		0	0	true
+hkrul_egmond_battle_05		wh2_dlc11_skill_emp_army_buff_honest_steel		4	4		0	0	true
+hkrul_egmond_battle_06		wh2_dlc11_skill_emp_army_buff_mighty_forge		4	5		0	0	true
+hkrul_egmond_battle_07		wh2_dlc11_skill_emp_army_buff_imperial_gunnery		4	6		0	0	true
+hkrul_egmond_battle_08		wh_main_skill_all_lord_battle_rally		4	7		0	6	true
+hkrul_egmond_battle_09		wh2_dlc11_skill_emp_army_buff_strength_of_hardship		4	8		0	0	true
+hkrul_egmond_battle_10		wh2_dlc11_skill_emp_army_buff_sharpshooter		4	9		0	0	true
+hkrul_egmond_battle_11		wh2_dlc11_skill_emp_army_buff_taste_for_battle		4	10		0	0	true
+hkrul_egmond_battle_12		wh2_dlc11_skill_emp_army_buff_artillery_master		4	11		0	0	true
+hkrul_egmond_battle_13		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+hkrul_egmond_generic_1		hkrul_mar_haeyndrik_shield		0	7		0	0	true
+hkrul_egmond_generic_2		hkrul_mar_egmond_horse		0	3		0	0	true
+hkrul_egmond_generic_3		hkrul_egmond_longma		0	4		0	0	true
+hkrul_egmond_generic_0		wh_main_skill_emp_champion_unique_hold_the_line		0	6		0	0	true
+hkrul_hendrik_generic_5		wh3_main_skill_all_mentor_lord		0	155		0	0	true
+hkrul_egmond_unique_0_1		hkrul_egmond_0_1		0	9		0	0	true
+hkrul_egmond_unique_0_2		hkrul_egmond_0_2		0	10		0	0	true
+hkrul_egmond_unique_1_0		hkrul_egmond_1_0		1	0		0	0	true
+hkrul_egmond_unique_1_3		hkrul_egmond_1_3		1	3		0	0	true
+hkrul_egmond_unique_1_1		hkrul_egmond_1_1		1	1		0	0	true
+hkrul_egmond_unique_1_2		hkrul_egmond_1_2		1	2		0	0	true
+hkrul_egmond_unique_2_0		hkrul_egmond_2_0		1	4		0	3	true
+hkrul_egmond_unique_2_1		hkrul_egmond_2_1		1	5		0	0	true
+hkrul_egmond_unique_2_2		hkrul_egmond_2_2		1	6		0	0	true
+hkrul_egmond_magic_0_1		hkrul_egmond_tze_magic_tzeentch_01_blue_fire_of_tzeentch_lord		2	1		0	0	true
+hkrul_egmond_magic_0_2		hkrul_egmond_tze_magic_tzeentch_04_treason_of_tzeentch_lord		2	2		0	0	true
+hkrul_egmond_magic_0_3		wh_main_skill_all_magic_all_07_earthing		2	3		0	0	true
+hkrul_egmond_magic_0_4		wh3_main_skill_tze_all_magic_prismatic_plurality		2	4		0	2	true
+hkrul_egmond_magic_0_5		wh_main_skill_all_magic_all_08_power_drain		2	5		0	0	true
+hkrul_egmond_magic_0_6		hkrul_egmond_tze_magic_tzeentch_06_tzeentchs_firestorm_lord		2	6		0	0	true
+hkrul_egmond_magic_0_7		wh_main_skill_all_magic_all_11_arcane_conduit		2	7		0	2	true
+hkrul_egmond_unique_2_3		hkrul_egmond_2_3		1	7		0	0	true

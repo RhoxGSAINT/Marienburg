@@ -4,3 +4,5 @@ causes_fear	snek_landship
 causes_terror	snek_landship
 fatigue_immune	snek_landship
 unbreakable	snek_landship
+hide_forest	ovn_mar_inf_knights_mariner_0_attributes
+charge_defense_vs_large	ovn_mar_inf_knights_mariner_0_attributes
