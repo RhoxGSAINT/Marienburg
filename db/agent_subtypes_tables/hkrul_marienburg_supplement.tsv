@@ -1,0 +1,6 @@
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost
+#agent_subtypes_tables;1;db/agent_subtypes_tables/hkrul_marienburg_supplement																					
+hkrul_dauphine	false	true	ui/campaign ui/agents/ovn_lore_sea.png	hkrul_dauphine	wh_dlc03_vo_actor_Bretonnian_Damsel	true	-1	false	true	false	false	legendary_lords	ovn_lore_sea		false	true	cannot_be_loaded_in_campaign		false	true	1100
+mar_sea_wizard	true	true	ui/campaign ui/agents/ovn_lore_sea.png	ovn_mar_cha_wizard_sea_0	wh_main_vo_actor_Empire_Captain	true	-1	false	true	true	true		ovn_lore_sea		true	true	can_be_saved_loaded		false	true	750
+hkrul_fooger	false	false	ui/campaign ui/agents/ovn_lore_sea.png	hkrul_fooger	wh_main_vo_actor_Dwarf_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
+hkrul_fooger_caravan_master	true	false		wh_main_dwf_cha_lord_0	wh_main_vo_actor_Dwarf_Lord	true	-1	false	true	false	true	mar_caravan_master			false	false	cannot_be_saved_loaded		false	true	750

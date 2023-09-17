@@ -1,0 +1,16 @@
+key	text	tooltip
+#Loc;1;text/db/!hkrul_camille_frontend.loc		
+factions_attack_desc_ovn_mar_cult_of_manann	You are attacking the Cult of Manann!	false
+factions_defend_desc_ovn_mar_cult_of_manann	You are defending against the Cult of Manann!	false
+factions_screen_adjective_ovn_mar_cult_of_manann		false
+factions_screen_name_ovn_mar_cult_of_manann	Cult of Manann	false
+factions_screen_name_when_rebels_ovn_mar_cult_of_manann	Manann's Faithless	false
+frontend_faction_leaders_frontend_description_cr_political_party_combi_mar_cult_of_manann	The Matriarch of the Sea has travelled to the far corner of the world on a mysterious quest to do Manann's bidding and fuflill the Cult's destiny. 	false
+frontend_faction_leaders_loading_screen_text_cr_political_party_combi_mar_cult_of_manann	Loading screen placeholder for the Dauphine	false
+frontend_faction_leaders_localised_action_points_cr_political_party_combi_mar_cult_of_manann		false
+frontend_faction_leaders_localised_description_cr_political_party_combi_mar_cult_of_manann	The Cult of Manann	false
+loading_screen_quotes_title_hkrul_dauphine	Camille Dauphina, Matriach of the Sea	true
+loading_screen_quotes_bulletpoints_hkrul_dauphine	Sea Magick||Battle Prayers of Manann	true
+loading_screen_quotes_description_hkrul_dauphine	The Lore of the Sea is based around the manipulation and transformation of water. It is completely unrelated to the so-called Lore of the Deep, which has been rightfully banned as unholy magic of the evil Stromfel. Although not formally recognized as one of the major lores by Teclis, it is commonly taught at the Baron Henryk's academy in Marienburg.	true
+event_feed_strings_text_rhox_mar_event_feed_string_scripted_event_intro_dauphine_secondary_detail	[[img:hkrul_dauphine_how_they_play_1]][[col:yellow]]Conquer[[/col]][[col:green]] distant lands in the name of the Emperor to gain valueable reinforcements from [[/col]][[col:yellow]]the Empire[[/col]]\\n\\n[[img:hkrul_dauphine_how_they_play_2]][[/img]] [[col:yellow]]Hunt[[/col]][[col:green]] the evil spirits of[[/col]][[col:yellow]] Stromfel[[/col]][[col:green]] who haunt the undiscovered seas of the far East[[/col]] \\n\\n[[img:hkrul_dauphine_how_they_play_3]][[/img]] [[col:yellow]]Rid[[/col]][[col:green]] the oceans of[[/col]][[col:yellow]] Rogue Pirate's[[/col]][[col:green]] by hunting them for powerful boons or persuading them to venture elsewhere using precious coin.[[/col]]	false
+event_feed_strings_text_rhox_mar_event_feed_string_scripted_event_intro_fooger_secondary_detail	[[img:hkrul_fooger_how_they_play_2]][[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Spice Route[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.[[/col]]\\n\\n[[img:hkrul_fooger_how_they_play_1]][[/img]] [[col:yellow]]Recruit[[/col]][[col:green]] regular dwarf units as a bonus for completing[[/col]][[col:yellow]] caravan routes[[/col]]	false

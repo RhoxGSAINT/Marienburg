@@ -5,7 +5,7 @@ core:add_ui_created_callback(
 		
 			mixer_change_lord_name("567023710", "hkrul_jk")
 	
-			mixer_add_starting_unit_list_for_faction("wh_main_emp_marienburg", {"snek_hkrul_mar_landship","hkrul_privateers","hkrul_mar_inf_goedendagers","hkrul_mar_defenders","hkrul_carriers","hkrul_mar_inf_boogschutter"})
+			mixer_add_starting_unit_list_for_faction("wh_main_emp_marienburg", {"snek_hkrul_mar_landship","hkrul_privateers","hkrul_mar_inf_goedendagers","hkrul_mar_defenders","hkrul_carriers_ror","hkrul_mar_inf_boogschutter"})
 			mixer_add_faction_to_major_faction_list("wh_main_emp_marienburg")	
 
 		--ovn_mar_house_den_euwe

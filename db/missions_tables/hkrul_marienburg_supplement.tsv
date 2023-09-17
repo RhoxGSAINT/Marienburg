@@ -1,0 +1,16 @@
+key	mission_type	localised_title	localised_description	ui_image	ui_icon	generate	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	quest_mission_final	trigger_radius	quest_character	sticky_by_default	localised_mission_completed_text	can_be_manually_cancelled
+#missions_tables;0;db/missions_tables/hkrul_marienburg_supplement																		
+rhox_mar_fooger_alliance	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_0	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_2	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_3	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_4	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_5	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_6	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_2_7	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_pirate_hunting_1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_pirate_hunting_2	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_pirate_hunting_3	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_pirate_hunting_4	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_dauphine_pirate_hunting_5	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false

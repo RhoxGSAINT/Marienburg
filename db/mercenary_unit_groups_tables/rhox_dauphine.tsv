@@ -1,0 +1,13 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_dauphine					
+rhox_dauphine_snek_hkrul_mar_landship	0.0000	20	rhox_dauphine_snek_hkrul_mar_landship	false	0.0000
+rhox_dauphine_hkrul_mar_hellblaster	0.0000	20	rhox_dauphine_hkrul_mar_hellblaster	false	0.0000
+rhox_dauphine_hkrul_mar_cleansing_flame	0.0000	20	rhox_dauphine_hkrul_mar_cleansing_flame	false	0.0000
+rhox_dauphine_hkrul_mar_art_scheepskanon	0.0000	20	rhox_dauphine_hkrul_mar_art_scheepskanon	false	0.0000
+rhox_dauphine_hkrul_mar_inf_greatsword	0.0000	20	rhox_dauphine_hkrul_mar_inf_greatsword	false	0.0000
+rhox_dauphine_hkrul_mar_inf_handgun	0.0000	20	rhox_dauphine_hkrul_mar_inf_handgun	false	0.0000
+rhox_dauphine_hkrul_mar_riverwarden	0.0000	20	rhox_dauphine_hkrul_mar_riverwarden	false	0.0000
+rhox_dauphine_hkrul_privateers_dual_swords	0.0000	20	rhox_dauphine_hkrul_privateers_dual_swords	false	0.0000
+rhox_dauphine_hkrul_privateers	0.0000	20	rhox_dauphine_hkrul_privateers	false	0.0000
+rhox_dauphine_hkrul_mar_defenders	0.0000	20	rhox_dauphine_hkrul_mar_defenders	false	0.0000
+rhox_dauphine_hkrul_mar_black_caps	0.0000	20	rhox_dauphine_hkrul_mar_black_caps	false	0.0000

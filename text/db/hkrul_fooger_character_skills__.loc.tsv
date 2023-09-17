@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_fooger_character_skills__.loc		
+character_skills_localised_name_innate_hkrul_fooger	The Smallest Director	true
+character_skills_localised_description_innate_hkrul_fooger	The oldest, shortest and perhaps smartest of the directorate. Arkat Fooger is a shrewd businessman and warrior a like.	true
+character_skills_localised_description_hkrul_fooger_special_0_1	Foogershuis is a bank, vault and estate all in one. It is the beating heart of the Fooger operation and worth a fortune.	true
+character_skills_localised_name_hkrul_fooger_special_0_1	Master Bankier	true
+character_skills_localised_description_hkrul_fooger_special_1_1	Usurer's Row is the nickname for the area in Marienburg with a dense dwarven population. All either loyal or related to Arkat Fooger.	true
+character_skills_localised_name_hkrul_fooger_special_1_1	Key to Usurers' Row	true
+character_skills_localised_description_hkrul_fooger_special_1_2	Not just a businessman, Arkat Fooger and his family specialize in the iron trade. They know their way around a mine as they know their way around a bank.	true
+character_skills_localised_name_hkrul_fooger_special_1_2	Master Metalsmelter	true
+character_skills_localised_description_hkrul_fooger_special_1_5	House Fooger is as old as they are rich. Recent dealing however did put a massive dent in their aspirations, and Arkat has to dig deep in order to recover lost riches.	true
+character_skills_localised_name_hkrul_fooger_special_1_5	Imports from Ind	true
+character_skills_localised_description_hkrul_fooger_special_1_0	The Smiths of Guilderveld, mostly of dwarven heritage could rival any within the Empire.	true
+character_skills_localised_name_hkrul_fooger_special_1_0	Guilderveld's Smiths	true
+character_skills_localised_description_hkrul_fooger_special_1_3	Despite being priced out by Jaan van de Kuypers, Fooger is still a very clever businessman who knows which investments will pay off and which will surely fail. 	true
+character_skills_localised_name_hkrul_fooger_special_1_3	Cunning Investor	true
+character_skills_localised_description_hkrul_fooger_special_0_2	One of the first families part of the directorate, Clan Fooger is as reputed as they are renown within the Empire.	true
+character_skills_localised_name_hkrul_fooger_special_0_2	House Fooger	true
+character_skills_localised_description_hkrul_fooger_special_1_4	One does not simply accumulate wealth by luck, it requires skill and a keen sense to find that which holds value.	true
+character_skills_localised_name_hkrul_fooger_special_1_4	Arkat's Antique Glasses	true
+character_skill_node_sets_enc_title_skill_node_set_hkrul_fooger_caravan_master	Dwarf Caravan Master Skills	false

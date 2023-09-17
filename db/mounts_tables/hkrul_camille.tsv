@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/hkrul_camille					
+hkrul_manann_barded_warhorse	hr1_warhorse	wh_main_cavalry_slow_hero_blood	plate	hkrul_manann_barded_warhorse	wh_main_vo_culture_Horse
+hkrul_manann_griffon	bc2_griffon	wh_main_flying_griffon_blood	plate	hkrul_manann_griffon	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph

@@ -1,9 +1,6 @@
 bullet_point	unit_key
 #ui_unit_bullet_point_unit_overrides_tables;0;db/ui_unit_bullet_point_unit_overrides_tables/hkrul_mar_infantry_missile	
 weak_anti_armour	hkrul_mar_inf_boogschutter
-anti_large	hkrul_mar_art_scheepskanon
-armour_piercing_ranged	hkrul_mar_art_scheepskanon
-good_range	hkrul_mar_art_scheepskanon
 good_range	hkrul_mar_inf_crossbow
 anti_infantry	hkrul_mar_inf_greatsword
 armour_piercing	hkrul_mar_inf_greatsword
@@ -26,6 +23,7 @@ charge_reflector_vs_large	hkrul_mar_riverwarden_ror
 anti_large	hkrul_mar_riverwarden_ror
 vanguard_deployment	hkrul_mar_riverwarden_ror
 fire_whilst_moving	hkrul_mar_riverwarden_ror
+aquatic	hkrul_mar_riverwarden_ror
 armoured_and_shielded	hkrul_mar_qual
 charge_reflector_vs_large	hkrul_mar_qual
 armour_piercing_melee	hkrul_mar_qual_great
@@ -54,3 +52,24 @@ weak_anti_armour	rhox_mar_cst_inf_sartosa_militia_0
 armour_piercing	hkrul_fooger_ror
 armoured	hkrul_fooger_ror
 fast_dwarf	hkrul_fooger_ror
+aquatic	hkrul_carriers_ror
+shielded	hkrul_carriers_ror
+magical_aura	hkrul_carriers_ror
+magical_aura	hkrul_carriers
+charge_reflector_vs_large	hkrul_pion
+armoured	hkrul_pion
+anti_large	hkrul_pion
+aquatic	hkrul_klumpf
+shielded	hkrul_klumpf
+armoured	hkrul_klumpf
+expendable	hkrul_burgher
+anti_large	hkrul_burgher
+anti_infantry	hkrul_privateers_dual_swords
+aquatic	hkrul_privateers_dual_swords
+aquatic	hkrul_privateers
+decent_melee	hkrul_privateers
+hybrid	hkrul_privateers
+anti_infantry	ovn_mar_inf_knights_mariner_0
+charge_reflector_vs_large	ovn_mar_inf_knights_mariner_0
+shielded	ovn_mar_inf_knights_mariner_0
+aquatic	ovn_mar_inf_knights_mariner_0

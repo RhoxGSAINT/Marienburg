@@ -1,0 +1,5 @@
+id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+#campaign_character_arts_tables;0;db/campaign_character_arts_tables/hkrul_camille																
+222250352	hkrul_dauphine	0	0		none	hkrul_dauphine			hkrul_mar_campaign_map_big_ship	wh_main_campaign_emp_ship_heavy	cam_hu1_pr8_amethyst_staff_and_sword	cam_heavy_ship_01	cam_heavy_ship_01	0	0	0
+222250355	ovn_art_set_mar_sea_wizard_01	0	0		none	ovn_uniform_mar_sea_wizard_01			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_staff_and_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0
+222250356	ovn_art_set_mar_sea_wizard_02	0	0		none	ovn_uniform_mar_sea_wizard_02			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_staff_and_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0

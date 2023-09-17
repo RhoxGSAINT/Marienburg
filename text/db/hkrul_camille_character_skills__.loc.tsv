@@ -1,0 +1,68 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_camille_character_skills__.loc		
+character_skills_localised_name_innate_hkrul_dauphine	Matriach of the Sea	true
+character_skills_localised_description_innate_hkrul_dauphine	Nicknamed the Matriach of the Sea, Camille Dauphine is the undisputed leader of the Cult of Manann.	true
+character_skills_localised_description_hkrul_dauphine_special_0_1	When patrons of Manann traverse the seven seas they are protected by veil of oceanic essence, a deterrent for any lingering foe.	true
+character_skills_localised_name_hkrul_dauphine_special_0_1	Ocean's Shield	true
+character_skills_localised_description_hkrul_dauphine_special_1_1	Although the cult has plenty of business on land any true follower of Manann craves embarking on their next maritime voyage.	true
+character_skills_localised_name_hkrul_dauphine_special_1_1	Anchor's Away	true
+character_skills_localised_description_hkrul_dauphine_special_1_2	Placeholder Text Placeholder Text	true
+character_skills_localised_name_hkrul_dauphine_special_1_2	Grand Trident of Manann	true
+character_skills_localised_description_hkrul_dauphine_special_1_0	A Cultist of Manann only finds true happiness when he’s out at sea, a bond deemed stronger than marriage.	true
+character_skills_localised_name_hkrul_dauphine_special_1_0	Ocean Dwellers	true
+character_skills_localised_description_hkrul_dauphine_special_1_3	With the majority of land discovered the curious nature of men draws them to the secrets of the seabed, with all it’s riches and dangers lying in wait.	true
+character_skills_localised_name_hkrul_dauphine_special_1_3	Jewels of the Sea	true
+character_skills_localised_description_hkrul_dauphine_mount	This barded warhorse comes from the stable of the Knights Mariner, it's expertly trained in galloping up and down the harsh beaches of the Old World.	true
+character_skills_localised_name_hkrul_dauphine_mount	Floodstrider	true
+character_skills_localised_name_hkrul_dauphine_mount_2	War Altar of Manann	false
+character_skills_localised_description_hkrul_dauphine_mount_2	The altar prominently features Manann, bearing his trident and five-tined crown.	false
+character_skills_localised_name_hkrul_dauphine_mount_3	Voorwind	false
+character_skills_localised_description_hkrul_dauphine_mount_3	The majestic beast called Voorwind is the Matriarch's personal envoy, it's a sight to behold to see it accelerate between the masts of incoming ships.	false
+character_skills_localised_name_hkrul_dauphine_special_2_0	The Tyrants of the Black Ocean	false
+character_skills_localised_name_hkrul_dauphine_special_2_1	Bleak Coast Buccanneers	false
+character_skills_localised_name_hkrul_dauphine_special_2_2	Boyz of the Forbidden Coast	false
+character_skills_localised_name_hkrul_dauphine_special_2_3	Freebooters of Port Royale	false
+character_skills_localised_name_hkrul_dauphine_special_2_4	Grey Point Scuttlers	false
+character_skills_localised_name_hkrul_dauphine_special_2_5	Terrors of the Dark Straights	false
+character_skills_localised_name_hkrul_dauphine_special_2_6	Churning Gulf Raiders	false
+character_skills_localised_name_hkrul_dauphine_special_2_7	Corsairs of the Spire	false
+character_skills_localised_description_hkrul_dauphine_special_2_0	Led by Dastan Coldeye, the legendary pirate who once famously challenged Lokhir Felheart, the Tyrants of the Black Ocean are a scourge for any ongoing vessel. Be it merchant or military. 	false
+character_skills_localised_description_hkrul_dauphine_special_2_1	A renegade crew of former Barak Varr fleetmen know vow to sink any vessel daring to do trade with their kin under the mountains.	false
+character_skills_localised_description_hkrul_dauphine_special_2_2	Although it appears unnatural, these Greenskin pirates are hardened and skilled sailors having cut down even the most noteable of Empiric Admirals.	false
+character_skills_localised_description_hkrul_dauphine_special_2_3	The Freebooters of Port Royale are the only pirates who dare venture the taverns of civilized cities. It is said only due to Gentlemen Jenkins’s charms they are allowed entry. Their permanent absence would benefit all, however	false
+character_skills_localised_description_hkrul_dauphine_special_2_4	A literal scourge for the Bretonnian coast, they Grey Point Scuttlers pass their tame preying on wandering merchants attempting to sail a long the wide stretched coast of the noble lands. Their demise would be a blessing to all afflicted. 	false
+character_skills_localised_description_hkrul_dauphine_special_2_5	The Terrors of the Dark Straits are led by infamous Captain Sisicco, who is rumoured to believe he still counts himself amongst the living. Nicknamed the ‘’Flying Tilean’’ due to his exceptional nautical ambush capabilities, he is a scourge for wayfaring ships. 	false
+character_skills_localised_description_hkrul_dauphine_special_2_6	The Churning Gulf Raiders are a vicious and particularly violent bunch. They’re methods are onorthodox and straight forward. Their impact on trade even more so.	false
+character_skills_localised_description_hkrul_dauphine_special_2_7	The Corsairs of the Spire are a ruthless band of mercenaries drawn to the unknown riches of the far East. They seek to unravel the secrets of the sunken city of Melay and unleash destruction on all that dare to step in their way.	false
+character_skills_localised_description_hkrul_dauphine_special_1_4	"By the power of Manann I declare these warriors under the protection of spirital essence of the tides and waves!''	true
+character_skills_localised_description_hkrul_dauphine_special_1_5	Cultists tell stories of her wrestling sea creatures are comming practices within the halls of Manann’s Chapel in Marienburg. It is impossible to verify these tales however. 	true
+character_skills_localised_name_hkrul_dauphine_special_1_5	Matriarch's Wrath	true
+character_skills_localised_name_hkrul_dauphine_special_1_4	Grand Shield of Manann	true
+character_skills_localised_description_hkrul_dauphine_special_1_6	Flooded by a jet stream of water, foes tremble yet followers of Manann bath in delight.	true
+character_skills_localised_name_hkrul_dauphine_special_1_6	Manann's Fury	true
+character_skills_localised_description_hkrul_dauphine_special_1_7	The Cult knows many orders, each with their own feat and secrets. The Order of the Albatross stands under direct command of Dauphine, as well as the knowledge they gathered over the decades. 	true
+character_skills_localised_name_hkrul_dauphine_special_1_7	Tales of the Albatross	true
+character_skills_localised_description_hkrul_dauphine_special_1_8	A bolt of water piercing through air with such velocity it could even split the armour of a dwarven juggernaut vessel.	true
+character_skills_localised_name_hkrul_dauphine_special_1_8	Roiling Wave	true
+character_skills_localised_description_hkrul_dauphine_special_0_2	The Cult of Manann is not as influential as their counterparts of the Cult of Sigmar, and Dauphine not as favoured by the emperor as Volkmar the Grim. Yet their importance is not to be underestimated, and their ambition even less so.	true
+character_skills_localised_name_hkrul_dauphine_special_0_2	The Cult of Manann	true
+character_skills_localised_name_ovn_skill_mar_wizard_unique_sea_wizard_warhorse	Warhorse	true
+character_skills_localised_description_ovn_skill_mar_wizard_unique_sea_wizard_warhorse	A wizard's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	true
+character_skills_localised_name_ovn_skill_mar_wizard_unique_sea_wizard_barded_warhorse	Barded Warhorse	true
+character_skills_localised_description_ovn_skill_mar_wizard_unique_sea_wizard_barded_warhorse	The finest horses in the Old World, bred for their endurance and fiery temperament, barded for further protection.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_01_fountain_of_life	Fountain of Life	true
+character_skills_localised_description_ovn_skill_all_magic_sea_01_fountain_of_life	Anyone tasting the water feels immediately invigorated and refreshed.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_03_lore_attribute	Sea Legs	true
+character_skills_localised_description_ovn_skill_all_magic_sea_03_lore_attribute	The caster curses the enemy to feel as if they are standing upon the deck of a storm-tossed ship.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_02_water_blast	Water Blast	true
+character_skills_localised_description_ovn_skill_all_magic_sea_02_water_blast	The caster unleashes a powerful torrent of seawater from their outstretched hand.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_04_fishermans_eye	Fisherman's Eye	true
+character_skills_localised_description_ovn_skill_all_magic_sea_04_fishermans_eye	The caster is filled with an uncanny sense of where they might find a desired creature in the sea, and by concentrating they can summon the creature to them.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_05_drowned_mans_face	Drowned Man's Face	true
+character_skills_localised_description_ovn_skill_all_magic_sea_05_drowned_mans_face	The enemy's lungs immediately fill with salt water, making it impossible for them to speak, and other actions far more difficult.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_09_animate_water	Animate Water	true
+character_skills_localised_description_ovn_skill_all_magic_sea_09_animate_water	The caster summons and animates a large amount of sea water, than batters the enemy into submission.	true
+character_skills_localised_name_ovn_skill_all_magic_sea_10_wave_of_destruction	Wave of Destruction	true
+character_skills_localised_description_ovn_skill_all_magic_sea_10_wave_of_destruction	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	true
+character_skill_node_sets_enc_title_skill_node_set_hkrul_dauphine	Camille Dauphina Skills	false
+character_skill_node_sets_enc_title_ovn_skill_node_set_mar_sea_wizard	Sea Magicker Skills	false

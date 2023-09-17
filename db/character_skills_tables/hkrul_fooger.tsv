@@ -1,0 +1,12 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/hkrul_fooger									
+innate_hkrul_fooger	innate_fooger.png			0	true	false	false	100.0000	0
+hkrul_fooger_special_1_0	hkrul_fooger_special_1_0.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_1_1	hkrul_fooger_special_1_1.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_1_2	hkrul_fooger_special_1_1.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_1_3	hkrul_fooger_special_1_3.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_1_4	hkrul_fooger_special_1_4.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_1_5	hkrul_fooger_special_1_5.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_0_1	hkrul_fooger_special_0_1.png			0	false	false	false	0.0000	0
+hkrul_fooger_special_0_2	hkrul_fooger_special_0_2.png			0	false	false	false	0.0000	0
+hkrul_fooger_sword	mount_barded_warhorse.png			0	false	false	false	0.0000	0

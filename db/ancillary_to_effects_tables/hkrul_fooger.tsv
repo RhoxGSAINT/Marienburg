@@ -1,0 +1,4 @@
+ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/hkrul_fooger			
+hkrul_fooger_sword	wh_main_effect_character_stat_weapon_strength_ap_damage_mult	character_to_character_own	15.0000
+hkrul_fooger_sword	hkrul_fooger_sword	character_to_character_own	1.0000

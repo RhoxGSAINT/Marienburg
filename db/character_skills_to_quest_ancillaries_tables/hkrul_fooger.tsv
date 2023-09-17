@@ -1,0 +1,6 @@
+ancillary	skill	use_quest_for_prefix
+#character_skills_to_quest_ancillaries_tables;1;db/character_skills_to_quest_ancillaries_tables/hkrul_fooger		
+hkrul_fooger_sword	hkrul_fooger_sword	true
+hkrul_dauphine_banner	hkrul_dauphine_banner	true
+hkrul_dauphine_Cultist	hkrul_dauphine_Cultist	true
+hkrul_dauphine_sword	hkrul_dauphine_sword	true

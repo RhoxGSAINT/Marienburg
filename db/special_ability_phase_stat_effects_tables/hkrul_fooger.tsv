@@ -1,0 +1,4 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_fooger			
+hkrul_mar_smith	stat_armour	-25.0000	add
+hkrul_mar_smith	stat_resistance_physical	0.7000	mult

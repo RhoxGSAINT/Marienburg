@@ -1,0 +1,10 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/hkrul_camille		
+hkrul_dauphine_mount	6	1
+hkrul_dauphine_mount_2	15	1
+hkrul_dauphine_mount_3	21	1
+hkrul_dauphine_banner	5	1
+hkrul_dauphine_Cultist	8	1
+hkrul_dauphine_sword	12	1
+ovn_skill_mar_wizard_unique_sea_wizard_warhorse	6	1
+ovn_skill_mar_wizard_unique_sea_wizard_barded_warhorse	10	1

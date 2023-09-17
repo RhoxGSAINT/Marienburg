@@ -1,0 +1,4 @@
+key	max_indent	min_indent	order	agent_subtype_override	col_hex
+#character_skill_categories_tables;2;db/character_skill_categories_tables/hkrul_fooger					
+hkrul_fooger_line1	0	0	1	hkrul_fooger	0000FF
+hkrul_fooger_line2	1	1	1	hkrul_fooger	AA0000

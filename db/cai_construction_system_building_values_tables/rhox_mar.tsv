@@ -11,3 +11,4 @@ rhox_egmond_emp_garrison						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	
 rhox_egmond_emp_garrison						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
 rhox_egmond_emp_walls						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
 rhox_egmond_emp_walls						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+rhox_mar_emp_allied_outpost						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125

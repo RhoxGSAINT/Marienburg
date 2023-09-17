@@ -1,0 +1,4 @@
+key	position_x	position_y	available_contracts	active_contracts_count	rounds_to_refresh
+#campaign_map_route_nodes_tables;1;db/campaign_map_route_nodes_tables/rhox_fooger					
+rhox_fooger_start	1130	394		1	0
+rhox_fooger_jinshen	1123	473		1	0

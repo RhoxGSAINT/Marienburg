@@ -1,82 +1,19 @@
 
 
 local function add_hkrul_mar_ror()
-    -- Easy data table for faction info and unit info
 
-    local ror_table = { -- A table of many RoR's ---- BEGIN REWRITE
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_pion", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_pion", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_klumpf", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_bucs", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_carriers_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_carriers_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_mananns_blades_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_mananns_blades_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_riverwarden_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_riverwarden_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_art_paixhan_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_art_paixhan_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_bordermen_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_bordermen_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_teuling", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_teuling", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_naval_paixhan", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_naval_paixhan", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_mar_talons", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_mar_talons", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-    } -- Closing out the ror_table variable!
-
-    ---- END REWRITE.
+    local ror_table={
+        "hkrul_pion",
+        "hkrul_klumpf",
+        "hkrul_carriers_ror",
+        "hkrul_mar_mananns_blades_ror", 
+        "hkrul_mar_riverwarden_ror",
+        "hkrul_mar_art_paixhan_ror",
+        "hkrul_mar_bordermen_ror",
+        "hkrul_mar_teuling", 
+        "hkrul_mar_naval_paixhan", 
+        "hkrul_mar_talons"
+    }
     
     local vmp_ror_table ={  --for Mudvard
         "wh_dlc04_vmp_cav_chillgheists_0",
@@ -88,6 +25,11 @@ local function add_hkrul_mar_ror()
         "wh_dlc04_vmp_mon_devils_swartzhafen_0",
         "wh_dlc04_vmp_veh_claw_of_nagash_0",
         "wh_dlc04_vmp_mon_direpack_0"
+    }
+    
+    local iee_ror_table ={  --for iee only
+        "ovn_mar_inf_knights_mariner_0",
+        "hkrul_fooger_ror"
     }
 
     -- List of default values to shove into the function before; shouldn't need to be changed, usecase may vary.
@@ -102,18 +44,20 @@ local function add_hkrul_mar_ror()
         partial_replenishment = true,
     }
     
-    
+        local faction = cm:get_faction("wh_main_emp_marienburg")
+        local faction2 = cm:get_faction("ovn_mar_house_den_euwe") --egmond
+        local dauphine_faction = cm:get_faction("ovn_mar_cult_of_manann") --Dauphine
+        local fooger_faction = cm:get_faction("ovn_mar_house_fooger") --Fooger
     for i, ror in pairs(ror_table) do
-        local faction_key, unit_key = ror.faction_key, ror.unit_key
-        local faction = cm:get_faction(faction_key)
-        local merc_pool, merc_group = ror.merc_pool, ror.merc_group
-        local count = ror.count or 1 -- if ror.count is undefined, we'll just use the default of 1!
+        local unit_key = ror
+        
+        local count = 1
 
         if faction then
             cm:add_unit_to_faction_mercenary_pool(
                 faction,
                 unit_key,
-                merc_pool,
+                "renown",
                 count,
                 defaults.replen_chance,
                 defaults.max,
@@ -122,15 +66,14 @@ local function add_hkrul_mar_ror()
                 defaults.subculture_restriction,
                 defaults.tech_restriction,
                 defaults.partial_replenishment,
-                merc_group
+                unit_key
             )
         end
-        local faction2 = cm:get_faction("ovn_mar_house_den_euwe") --egmond
         if faction2 then
             cm:add_unit_to_faction_mercenary_pool(
                 faction2,
                 unit_key,
-                merc_pool,
+                "renown",
                 count,
                 defaults.replen_chance,
                 defaults.max,
@@ -139,33 +82,125 @@ local function add_hkrul_mar_ror()
                 defaults.subculture_restriction,
                 defaults.tech_restriction,
                 defaults.partial_replenishment,
-                merc_group
+                unit_key
             )
         end
         if cm:model():campaign_name_key() == "cr_combi_expanded" then
-            local dauphine_faction = cm:get_faction("ovn_mar_cult_of_manann") --Dauphine
-            if dauphine_faction then
-                cm:add_unit_to_faction_mercenary_pool(
-                    dauphine_faction,
-                    unit_key,
-                    merc_pool,
-                    count,
-                    defaults.replen_chance,
-                    defaults.max,
-                    defaults.max_per_turn,
-                    defaults.faction_restriction,
-                    defaults.subculture_restriction,
-                    defaults.tech_restriction,
-                    defaults.partial_replenishment,
-                    merc_group
-                )
-            end
+            cm:add_unit_to_faction_mercenary_pool(
+                dauphine_faction,
+                unit_key,
+                "renown",
+                count,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                unit_key
+            )
+        
+        
+            cm:add_unit_to_faction_mercenary_pool(
+                fooger_faction,
+                unit_key,
+                "renown",
+                count,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                unit_key
+            )
         end
         
     end
-    cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg", "rhox_mar_talons_lock")--red talons restriction
+    if cm:model():campaign_name_key() == "cr_combi_expanded" then
+        for i, ror in pairs(iee_ror_table) do
+            cm:add_unit_to_faction_mercenary_pool(
+                faction,
+                ror,
+                "renown",
+                1,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                ror
+            )
+            cm:add_unit_to_faction_mercenary_pool(
+                faction2,
+                ror,
+                "renown",
+                1,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                ror
+            )
+            cm:add_unit_to_faction_mercenary_pool(
+                dauphine_faction,
+                ror,
+                "renown",
+                1,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                ror
+            )
+            cm:add_unit_to_faction_mercenary_pool(
+                fooger_faction,
+                ror,
+                "renown",
+                1,
+                defaults.replen_chance,
+                defaults.max,
+                defaults.max_per_turn,
+                defaults.faction_restriction,
+                defaults.subculture_restriction,
+                defaults.tech_restriction,
+                defaults.partial_replenishment,
+                ror
+            )
+        end
+
+
+        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "wh_main_emp_marienburg", "rhox_mar_fooger_lock")
+        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "ovn_mar_house_den_euwe", "rhox_mar_fooger_lock")
+        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "ovn_mar_cult_of_manann", "rhox_mar_fooger_lock")
+        
+        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "wh_main_emp_marienburg", "rhox_mar_manann_lock")
+        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "ovn_mar_house_den_euwe", "rhox_mar_manann_lock")
+        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "ovn_mar_house_fooger", "rhox_mar_manann_lock")
+    
+        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_cult_of_manann", "rhox_mar_talons_lock")
+        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_fooger", "rhox_mar_talons_lock")
+        
+        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_cult_of_manann", "rhox_mar_carrier_lock")
+        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_fooger", "rhox_mar_carrier_lock")
+    end
+    
+    cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg", "rhox_mar_talons_lock")
     cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_den_euwe", "rhox_mar_talons_lock")
-    cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_cult_of_manann", "rhox_mar_talons_lock")
+    
+    cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "wh_main_emp_marienburg", "rhox_mar_carrier_lock")
+    cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_den_euwe", "rhox_mar_carrier_lock")
+    
     
     ----------------------for mundvard
     local faction3 = cm:get_faction("ovn_mar_the_wasteland") --mundvard
@@ -229,20 +264,13 @@ local function add_landship_ror()
     -- Easy data table for faction info and unit info
 
     local mar_only_ror_table = {
-        { -- This is the first RoR we wish to spawn
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "snek_hkrul_mar_ror_landship", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_landship_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, -- and you can make a new table for each other RoR you're seeking to add!
-        {--TODO will remove them after Fooger house update
-            faction_key = "wh_main_emp_marienburg", -- The faction we're adding this RoR to; from `factions`
-            unit_key = "hkrul_fooger_ror", -- The unit key; from `main_units`
-            merc_pool = "renown", -- The mercenary pool we're adding this RoR to; from `recruitment_sources`
-            merc_group = "hkrul_fooger_ror", -- The mercenary pool group this unit belongs to; in `mercenary_unit_groups`
-            count = 1, -- The number of RoRs we're adding; this will be 1 by default, only put this line if you're seeking to change the number added
-        }, 
+        { 
+            faction_key = "wh_main_emp_marienburg", 
+            unit_key = "snek_hkrul_mar_ror_landship",
+            merc_pool = "renown", 
+            merc_group = "hkrul_landship_ror", 
+            count = 1, 
+        } 
     } 
 
     ---- END REWRITE.
@@ -363,8 +391,8 @@ local rhox_add_empire_rors = {
 
 local rhox_add_mar_rors = {
 	---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
-        {"hkrul_pion", "renown", 1, 100, 1, "hkrul_mar_pion"},
-		{"hkrul_klumpf", "renown", 1, 100, 1, "hkrul_mar_bucs"},
+        {"hkrul_pion", "renown", 1, 100, 1, "hkrul_pion"},
+		{"hkrul_klumpf", "renown", 1, 100, 1, "hkrul_klumpf"},
         {"hkrul_carriers_ror", "renown", 1, 100, 1, "hkrul_carriers_ror"},
         {"hkrul_mar_mananns_blades_ror", "renown", 1, 100, 1, "hkrul_mar_mananns_blades_ror"},
         {"hkrul_mar_riverwarden_ror", "renown", 1, 100, 1, "hkrul_mar_riverwarden_ror"},
@@ -373,9 +401,10 @@ local rhox_add_mar_rors = {
         {"hkrul_mar_teuling", "renown", 1, 100, 1, "hkrul_mar_teuling"},
         {"hkrul_mar_talons", "renown", 1, 100, 1, "hkrul_mar_talons"},
         {"hkrul_mar_naval_paixhan", "renown", 1, 100, 1, "hkrul_mar_naval_paixhan"},
-        {"hkrul_fooger_ror", "renown", 1, 100, 1, "hkrul_fooger_ror"},
         {"snek_hkrul_mar_ror_landship", "renown", 1, 100, 1, "hkrul_landship_ror"}
 }
+
+
 
 local function rhox_add_units (faction_obj, unit_group)
 	for i, v in pairs(unit_group) do
@@ -422,7 +451,6 @@ cm:add_first_tick_callback_new(
             --cm:disable_event_feed_events(true, "", "", "mercenary_unit_character_level_restriction_lifted") --this will suppress all RoR events feed from firing
             rhox_add_units(cm:get_faction("wh_main_emp_marienburg"), rhox_remove_empire_rors); --This will remove the Empire RoR units from Marienburg, they'll gain access to them later
             cm:add_event_restricted_unit_record_for_faction("snek_hkrul_mar_ror_landship", "wh_main_emp_marienburg", "hkrul_mar_lock_landship_ror")
-            cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "wh_main_emp_marienburg", "rhox_mar_phy_exc_lock") --lock them only for players
             
             rhox_add_units(cm:get_faction("wh_main_chs_chaos_separatists"), rhox_remove_chaos_rors); --Hopefully, this will remove the RORs from Chaos seperatist
         end
@@ -435,6 +463,7 @@ local marienburg_factions={
     wh_main_emp_marienburg = true,
     ovn_mar_house_den_euwe = true,
     ovn_mar_cult_of_manann = true,
+    ovn_mar_house_fooger = true,
     ovn_emp_grudgebringers = true--not because they are Marienburg, but because they can't build buildings and can't finish the quest. It's only used for RoR so it's okay
 }
 
@@ -586,6 +615,65 @@ core:add_listener(
         false
 )
 
+--marienburg_factions
+---------------------------------------------------------RoR unlock
+local mar_faction_ror_unlocks={
+        wh_main_emp_marienburg ="hkrul_carriers_ror",
+        ovn_mar_cult_of_manann ="ovn_mar_inf_knights_mariner_0",
+        ovn_mar_house_fooger ="hkrul_fooger_ror"
+} 
+
+core:add_listener(
+    "Marienburg_faction_makes_alliance",
+    "PositiveDiplomaticEvent",
+    function(context)
+        return marienburg_factions[context:recipient():name()] or marienburg_factions[context:proposer():name()] and (context:is_military_alliance() or context:is_defensive_alliance())
+    end,
+    function(context)
+        local ror1 = mar_faction_ror_unlocks[context:recipient():name()]
+        local ror2 = mar_faction_ror_unlocks[context:proposer():name()]
+        
+        if ror1 then
+            cm:remove_event_restricted_unit_record_for_faction(ror1, context:proposer():name())
+        end
+        if ror2 then
+            cm:remove_event_restricted_unit_record_for_faction(ror2, context:recipient():name())
+        end
+    end,
+    true
+)
+
+core:add_listener(
+    "Marienburg_faction_confederation",
+    "FactionJoinsConfederation",
+    function(context)
+        return marienburg_factions[context:confederation():name()] and marienburg_factions[context:faction():name()] 
+    end,
+    function(context)
+        local ror = mar_faction_ror_unlocks[context:faction():name()]
+        
+        if ror then
+            cm:remove_event_restricted_unit_record_for_faction(ror, context:confederation():name())
+        end
+    end,
+    true
+)
+
+--[[
+core:add_listener(
+	"rhox_mar_karak_hirn_mission_success_listener",
+	"MissionSucceeded",
+	function(context)
+		return context:mission():mission_record_key() == "hkrul_mar_jk_follower_3"
+	end,
+	function(context)
+        cm:remove_event_restricted_unit_record_for_faction("hkrul_fooger_ror", context:faction():name());
+	end,
+	false
+);
+--]]--condition has been changed
+
+
 --------------------------------------------------------------
 ----------------------- SAVING / LOADING ---------------------
 --------------------------------------------------------------
@@ -603,7 +691,6 @@ cm:add_loading_game_callback(
 		end
 	end
 )
-
 
 
 

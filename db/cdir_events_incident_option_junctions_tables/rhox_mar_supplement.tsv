@@ -1,0 +1,4 @@
+id	incident_key	option_key	value	target
+#cdir_events_incident_option_junctions_tables;1;db/cdir_events_incident_option_junctions_tables/rhox_mar_supplement				
+1996283955	rhox_mar_dauphine_turn2	GEN_TARGET_NONE		default
+1996283956	rhox_mar_dauphine_turn2	VAR_CHANCE	0	default

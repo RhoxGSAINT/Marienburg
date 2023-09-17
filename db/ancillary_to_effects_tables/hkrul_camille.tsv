@@ -1,0 +1,6 @@
+ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/hkrul_camille			
+hkrul_dauphine_Cultist	hkrul_xp_gain_manann	character_to_force_own	25.0000
+hkrul_dauphine_Cultist	hkrul_melee_attack_manann	character_to_force_own	8.0000
+hkrul_dauphine_sword	hkrul_manann_book	character_to_character_own	1.0000
+hkrul_dauphine_sword	hkrul_unbreakable_odrall	character_to_force_own	1.0000

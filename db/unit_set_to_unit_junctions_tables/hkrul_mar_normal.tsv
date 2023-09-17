@@ -48,17 +48,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_inf_halberd	mp_cap_unit_emp_inf_halberdiers	false
 			hkrul_mar_inf_halberd	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_inf_halberd	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
-			hkrul_privateers	emp_all	false
-			hkrul_privateers	emp_freecompany	false
-			hkrul_privateers	emp_infantry	false
-			hkrul_privateers	emp_melee_infantry_tier_1	false
-			hkrul_privateers	emp_state_troops	false
-			hkrul_privateers	emp_swords	false
-			hkrul_privateers	infantry_units	false
-			hkrul_privateers	mp_cap_unit_emp_inf_free_company_militia	false
-			hkrul_privateers	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_privateers	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_privateers	wh2_dlc17_volkmar_focus_units	false
 			hkrul_mar_riverwarden	emp_all	false
 			hkrul_mar_riverwarden	emp_freecompany	false
 			hkrul_mar_riverwarden	emp_infantry	false
@@ -153,11 +142,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_mortar	mp_cap_group_ranged_units	false
 			hkrul_mar_mortar	mp_cap_unit_emp_art_mortar	false
 			hkrul_mar_mortar	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
-			hkrul_mar_hellblaster	emp_all	false
-			hkrul_mar_hellblaster	emp_artillery	false
-			hkrul_mar_hellblaster	mp_cap_group_ranged_units	false
-			hkrul_mar_hellblaster	mp_cap_unit_emp_art_helblaster_volley_gun	false
-			hkrul_mar_hellblaster	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
 			hkrul_mar_knights_griffon	cavalry_and_monsters_knights	false
 			hkrul_mar_knights_griffon	emp_all	false
 			hkrul_mar_knights_griffon	emp_demigryphs	false
@@ -171,20 +155,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_hellstorm	mp_cap_group_ranged_units	false
 			hkrul_mar_hellstorm	mp_cap_unit_emp_art_helstorm_rocket_battery	false
 			hkrul_mar_hellstorm	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
-			hkrul_mar_cleansing_flame	cavalry_and_monsters_knights	false
-			hkrul_mar_cleansing_flame	emp_all	false
-			hkrul_mar_cleansing_flame	emp_knights	false
-			hkrul_mar_cleansing_flame	emp_lances	false
-			hkrul_mar_cleansing_flame	emp_melee_infantry_tier_2	false
-			hkrul_mar_cleansing_flame	mp_cap_unit_emp_cav_knights_of_the_blazing_sun	false
-			hkrul_mar_cleansing_flame	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun	false
-			hkrul_mar_cleansing_flame	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
-			hkrul_mar_cleansing_flame	hkrul_mar_cleansing_flame	false
-			hkrul_mar_cleansing_flame	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_riverwarden	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_riverwarden	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
-			hkrul_mar_riverwarden_ror	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
-			hkrul_mar_riverwarden_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_cav_rijders	all_units_excluding_guerrilla_deployment	true
 			hkrul_mar_cav_rijders	emp_all	false
 			hkrul_mar_cav_rijders	emp_outriders	false
@@ -232,20 +204,16 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_black_caps	rhox_mar_melee	false
 			hkrul_mar_qual_great	dwarf_all_units_exclude_slayers	false
 			hkrul_mar_qual	dwarf_all_units_exclude_slayers	false
-			hkrul_privateers	hkrul_mar_privateers	false
 			wh_dlc04_emp_inf_free_company_militia_0	hkrul_mar_privateers	false
 			hkrul_privateers_dual_swords	hkrul_mar_mundvard_human	false
 			hkrul_burgher	hkrul_mar_mundvard_human	false
-			hkrul_privateers	hkrul_mar_mundvard_human	false
 			hkrul_burgher	rhox_mar_melee	false
 			hkrul_privateers_dual_swords	rhox_mar_melee	false
 			hkrul_mar_cav_rijders	rhox_mar_melee	false
 			hkrul_mar_sons_of_manann	rhox_mar_melee	false
-			hkrul_mar_cleansing_flame	rhox_mar_melee	false
 			hkrul_mar_knights_griffon	rhox_mar_melee	false
 			hkrul_mar_cav_rijders_crossbow	rhox_mar_ranged	false
 			hkrul_mar_culverin	rhox_mar_ranged	false
-			hkrul_mar_hellblaster	rhox_mar_ranged	false
 			hkrul_mar_mortar	rhox_mar_ranged	false
 			hkrul_mar_hellstorm	rhox_mar_ranged	false
 			hkrul_mar_inf_greatsword	rhox_mar_melee	false
@@ -257,14 +225,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_pion	rhox_mar_melee	false
 			hkrul_klumpf	rhox_mar_melee	false
 			hkrul_mar_handguns	rhox_mar_ranged	false
-			hkrul_privateers	rhox_mar_ranged	false
 			hkrul_mar_inf_boogschutter	rhox_mar_ranged	false
 			hkrul_mar_inf_crossbow	rhox_mar_ranged	false
 			hkrul_mar_inf_handgun	rhox_mar_ranged	false
 			hkrul_mar_riverwarden	rhox_mar_ranged	false
 			hkrul_mar_qual_great	rhox_mar_ranged	false
 			hkrul_mar_art_scheepskanon	rhox_mar_ranged	false
-			hkrul_privateers	hkrul_mar_thijs	false
 			hkrul_burgher	hkrul_mar_thijs	false
 			hkrul_privateers_dual_swords	hkrul_mar_thijs	false
 			hkrul_mar_riverwarden	hkrul_mar_warden	false
@@ -335,3 +301,34 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_cav_rijders_crossbow	hkrul_mar_mundvard_human	false
 			hkrul_mar_inf_crossbow	hkrul_mar_mundvard_human	false
 			hkrul_mar_riverwarden	hkrul_mar_mundvard_human	false
+			hkrul_mar_hellblaster	emp_all	false
+			hkrul_mar_hellblaster	emp_artillery	false
+			hkrul_mar_hellblaster	mp_cap_group_ranged_units	false
+			hkrul_mar_hellblaster	mp_cap_unit_emp_art_helblaster_volley_gun	false
+			hkrul_mar_hellblaster	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
+			hkrul_mar_hellblaster	rhox_mar_ranged	false
+			hkrul_mar_cleansing_flame	cavalry_and_monsters_knights	false
+			hkrul_mar_cleansing_flame	emp_all	false
+			hkrul_mar_cleansing_flame	emp_knights	false
+			hkrul_mar_cleansing_flame	emp_lances	false
+			hkrul_mar_cleansing_flame	emp_melee_infantry_tier_2	false
+			hkrul_mar_cleansing_flame	mp_cap_unit_emp_cav_knights_of_the_blazing_sun	false
+			hkrul_mar_cleansing_flame	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun	false
+			hkrul_mar_cleansing_flame	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
+			hkrul_mar_cleansing_flame	hkrul_mar_cleansing_flame	false
+			hkrul_mar_cleansing_flame	rhox_mar_melee	false
+			hkrul_privateers	emp_all	false
+			hkrul_privateers	emp_freecompany	false
+			hkrul_privateers	emp_infantry	false
+			hkrul_privateers	emp_melee_infantry_tier_1	false
+			hkrul_privateers	emp_state_troops	false
+			hkrul_privateers	emp_swords	false
+			hkrul_privateers	infantry_units	false
+			hkrul_privateers	mp_cap_unit_emp_inf_free_company_militia	false
+			hkrul_privateers	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			hkrul_privateers	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			hkrul_privateers	wh2_dlc17_volkmar_focus_units	false
+			hkrul_privateers	hkrul_mar_privateers	false
+			hkrul_privateers	hkrul_mar_mundvard_human	false
+			hkrul_privateers	rhox_mar_ranged	false
+			hkrul_privateers	hkrul_mar_thijs	false

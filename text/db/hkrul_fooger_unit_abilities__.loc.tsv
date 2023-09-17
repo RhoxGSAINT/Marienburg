@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_fooger_unit_abilities__.loc		
+unit_abilities_tooltip_text_hkrul_mar_smith	Fooger started a young blacksmith, with the ability to forge or melt even the finest of armour.	true
+unit_abilities_onscreen_name_hkrul_mar_smith	Arkat's Forge	true
+unit_abilities_tooltip_text_hkrul_fooger_sword	Infused with Dwarven runic powers the Key to House Fooger unlocks a door clearly imported from the deep mines of Dwarven holds of old. It's power unleashes a mighty smite.	true
+unit_abilities_onscreen_name_hkrul_fooger_sword	Key of Foogershuis	true

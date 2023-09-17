@@ -1,0 +1,4 @@
+effect	bonus_value_id
+#effect_bonus_value_basic_junction_tables;0;db/effect_bonus_value_basic_junction_tables/hkrul_camille	
+hkrul_enable_immortality	immortal
+ovn_effect_force_all_campaign_movement_range_sea_only	mod_ship_movement_campaign

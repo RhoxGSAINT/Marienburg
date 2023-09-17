@@ -1,3 +1,4 @@
 valid_group	military_force_type
 #agent_subtype_military_force_creation_overrides_tables;1;db/agent_subtype_military_force_creation_overrides_tables/rhox_mar	
 rhox_mar_caravan	MAR_CARAVAN
+rhox_mar_mundvard_stances_slaver	MAR_CARAVAN

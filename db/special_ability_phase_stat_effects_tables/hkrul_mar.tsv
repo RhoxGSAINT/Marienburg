@@ -46,8 +46,8 @@ hkrul_egmond_amulet	stat_morale	-15.0000	add
 hkrul_egmond_katana	stat_bonus_vs_infantry	20.0000	add
 hkrul_egmond_katana	stat_melee_damage_ap	1.3000	mult
 hkrul_mar_defenders	stat_bonus_vs_infantry	6.0000	add
-hkrul_mar_fooger_backing	stat_melee_defence	18.0000	add
-hkrul_mar_fooger_backing	stat_melee_attack	9.0000	add
+hkrul_mar_fooger_backing	stat_shield_armour	15.0000	add
+hkrul_mar_fooger_backing	stat_mass	1.3000	mult
 hkrul_mar_egmond_brew	stat_melee_defence	8.0000	add
 hkrul_mar_egmond_simca	stat_damage_reflection	25.0000	add
 hkrul_mar_egmond_simca	stat_resistance_all	25.0000	add

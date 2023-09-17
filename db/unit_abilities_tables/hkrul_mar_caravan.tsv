@@ -18,7 +18,7 @@ hkrul_elf_buff	true	hkrul_mar_elf_buff		wh_type_augment		wh_main_anc_group_uncom
 hkrul_mar_helm	true	hkrul_mar_helmet_arnheim		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_mar_ship	true	hkrul_mar_vargheist	wh2_dlc11_spell_deep_ghost_ship_upgraded	wh_type_wind	spell_previews/deep/wh_dlc11_spell_deep_ghost_ship	wh_main_anc_group_rare	true	false	active		false
 hkrul_mar_trident	true	hkrul_mar_trident_manann		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
-hkrul_mar_shield_manann	true	hkrul_mar_shield_manann		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_mar_shield_manann	true	hkrul_mar_shield_manann2		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_mar_rapier	true	hkrul_mar_blade_noble		wh_type_augment		wh_main_anc_group_unique	true	false	active		false
 hkrul_mar_payday	false	hkrul_mar_kuypers_extra		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false
 hkrul_mar_cleansing	false	hkrul_mar_cleansing_passive		wh_type_augment		wh_main_anc_group_uncommon	true	false	active		false

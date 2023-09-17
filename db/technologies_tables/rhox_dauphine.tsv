@@ -1,0 +1,4 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/rhox_dauphine											
+rhox_mar_dauphine_tech_1	wh_main_chs_port_ruin	1	tech_cst_piracy_11	false	false	"placeholder.tga"	1157647315	false	false	true	false
+rhox_mar_dauphine_tech_2	wh_main_chs_port_ruin	1	tech_cst_command_03	false	false	"placeholder.tga"	544566236	false	false	true	false

@@ -1,0 +1,11 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_fooger					
+rhox_mar_fooger_dwarf_reinforcements_dummy	thane.png	301	thane.png	campaign	true
+hkrul_mar_smith	item_ability.png	104	item_ability.png	campaign	true
+hkrul_fooger_sword	item_ability.png	104	item_ability.png	campaign	true
+hkrul_mar_thorgrim	diplomacy.png	91	diplomacy.png	campaign	true
+hkrul_mar_caravan_dummy_2	cargo.png	300	cargo.png	campaign	true
+hkrul_xp_gain_fooger	experience.png	999	experience.png	campaign	true
+hkrul_melee_attack_fooger	defence.png	999	defence.png	battle	true
+hkrul_upkeep_fooger	military_spending.png	1	military_spending.png	campaign	false
+hkrul_mar_franz	diplomacy.png	91	diplomacy.png	campaign	true

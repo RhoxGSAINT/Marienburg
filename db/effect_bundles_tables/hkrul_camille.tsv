@@ -1,0 +1,18 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/hkrul_camille								
+hkrul_dauphine_banner			character	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_0			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_1			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_2			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_3			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_4			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_5			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_6			factopm	1	public_order.png	true	false	true
+rhox_dauphine_blue_pirate_rewards_7			factopm	1	public_order.png	true	false	true
+rhox_dauphine_faction_trait			faction	1	general_ability.png	true	false	true
+rhox_mar_dauphine_pirate_hunting_1			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_dauphine_pirate_hunting_2			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_dauphine_pirate_hunting_3			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_dauphine_pirate_hunting_4			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_dauphine_pirate_hunting_5			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_bundle_stance_navy_mananns_blessing	Increases this fleet's campaign map navigation range.	Stance: Manann's Blessing	force	1	icon_effects_double_time.png	true	false	true

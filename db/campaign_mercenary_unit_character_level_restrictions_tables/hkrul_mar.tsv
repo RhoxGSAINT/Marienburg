@@ -1,15 +1,10 @@
 unit	faction_override	character_level
 #campaign_mercenary_unit_character_level_restrictions_tables;1;db/campaign_mercenary_unit_character_level_restrictions_tables/hkrul_mar		
-snek_hkrul_mar_ror_landship		0
 hkrul_klumpf		10
 hkrul_pion		12
-hkrul_carriers_ror		18
 hkrul_mar_art_paixhan_ror		21
 hkrul_mar_mananns_blades_ror		15
 hkrul_mar_riverwarden_ror		13
 hkrul_mar_bordermen_ror		17
 hkrul_mar_teuling		19
 hkrul_mar_naval_paixhan		24
-hkrul_mar_talons		0
-hkrul_fooger_ror		0
-ovn_mar_inf_knights_mariner_0		0

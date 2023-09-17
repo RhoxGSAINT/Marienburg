@@ -1,0 +1,42 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_camille_unit_abilities__.loc		
+unit_abilities_tooltip_text_hkrul_dauphine_helm	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_helm	Placeholder	true
+unit_abilities_tooltip_text_hkrul_dauphine_pal	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_pal	Fortress Wardens	true
+unit_abilities_tooltip_text_hkrul_dauphine_sword	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_sword	Helmgart's Brand	true
+unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm	[[col:green]]Summons a swarm of Augus fish[[/col]]	true
+unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye	Saltwater's Call	false
+unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye	The Matriarch is filled with an uncanny sense of where they might find a desired creature in the sea, and by concentrating they can summon the creature to them.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast_upgraded	Roiling Wave	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast_upgraded	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_abilities_onscreen_name_ovn_lore_passive_sea_legs	Sea Legs	false
+unit_abilities_tooltip_text_ovn_lore_passive_sea_legs	The caster curses the enemy to feel as if they are standing upon the deck of a storm-tossed ship.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye_mage	Fisherman's Eye	false
+unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye_mage	The caster is filled with an uncanny sense of where they might find a desired creature in the sea, and by concentrating they can summon the creature to them.	false
+unit_abilities_onscreen_name_ovn_spell_sea_drowned_mans_face	Drowned Man's Face	false
+unit_abilities_tooltip_text_ovn_spell_sea_drowned_mans_face	The enemy's lungs immediately fill with salt water, making it impossible for them to speak, and other actions far more difficult.	false
+unit_abilities_onscreen_name_ovn_spell_sea_drowned_mans_face_upgraded	Drowned Man's Face Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_drowned_mans_face_upgraded	The enemy's lungs immediately fill with salt water, making it impossible for them to speak, and other actions far more difficult.	false
+unit_abilities_onscreen_name_ovn_spell_sea_wave_of_destruction	Wave of Destruction	false
+unit_abilities_tooltip_text_ovn_spell_sea_wave_of_destruction	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	false
+unit_abilities_onscreen_name_ovn_spell_sea_wave_of_destruction_upgraded	Wave of Destruction Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_wave_of_destruction_upgraded	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	false
+unit_abilities_onscreen_name_ovn_spell_sea_animate_water	Animate Water	false
+unit_abilities_tooltip_text_ovn_spell_sea_animate_water	The caster summons and animates a large amount of sea water, than batters the enemy into submission.	false
+unit_abilities_onscreen_name_ovn_spell_sea_animate_water_upgraded	Animate Water Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_animate_water_upgraded	The caster summons and animates a large amount of sea water, than batters the enemy into submission.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fountain_of_life	Fountain of Life	false
+unit_abilities_tooltip_text_ovn_spell_sea_fountain_of_life	Anyone tasting the water feels immediately invigorated and refreshed.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fountain_of_life_upgraded	Fountain of Life Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_fountain_of_life_upgraded	Anyone tasting the water feels immediately invigorated and refreshed.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast	Water Blast	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast_mage_upgraded	Water Blast Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast_mage_upgraded	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_description_short_texts_text_ovn_unit_short_text_mar_sea_wizard	A graduate of Baron Henryk's College and an expert at Sea Magicks.	true
+unit_abilities_onscreen_name_hkrul_manann_book	Odrall's Teaching	false
+unit_abilities_tooltip_text_hkrul_manann_book	Odrall the Devout was renowned for his piety and a holy obsession with exploration. As High Priest of Manann he discovered large parts of the new world. His teachings still linger today.	false
+unit_abilities_tooltip_text_hkrul_mar_rusty	Probably not best suited for actual fishing, yet these hooks still retain a impressive grip.	false
+unit_abilities_onscreen_name_hkrul_mar_rusty	Rusty Hooks	false

@@ -1,0 +1,4 @@
+bonus_value_id	effect	faction
+#effect_bonus_value_faction_junctions_tables;0;db/effect_bonus_value_faction_junctions_tables/hkrul_camille		
+diplomatic_mod	hkrul_dauphine_empire	wh_main_emp_empire
+diplomatic_mod	hkrul_dauphine_cult_sigmar	wh3_main_emp_cult_of_sigmar

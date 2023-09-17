@@ -7,6 +7,8 @@ local rite_images={
 
 
 local function play_rite(rite_key)
+
+    
     out("Rhox mar: Inside the rite visibility function")
 	local orig_rite_performed = find_uicomponent(core:get_ui_root(), "rite_performed")
 	if not orig_rite_performed then 
@@ -56,7 +58,7 @@ core:add_listener(
     "rhox_mar_rite_animation",
     "RitualStartedEvent",
     function(context)
-        return context:performing_faction() == cm:get_local_faction(true) and cm:get_local_faction_name(true) == "wh_main_emp_marienburg" --ui thing and should be local
+        return rite_images[context:ritual():ritual_key()] and context:performing_faction() == cm:get_local_faction(true) and cm:get_local_faction_name(true) == "wh_main_emp_marienburg" --ui thing and should be local
     end,
     function(context)
         cm:callback(function()

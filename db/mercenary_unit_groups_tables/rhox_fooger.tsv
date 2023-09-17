@@ -1,0 +1,11 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_fooger					
+rhox_fooger_wh_main_dwf_inf_miners_0	0.0000	20	rhox_fooger_wh_main_dwf_inf_miners_0	false	0.0000
+rhox_fooger_wh_main_dwf_inf_miners_1	0.0000	20	rhox_fooger_wh_main_dwf_inf_miners_1	false	0.0000
+rhox_fooger_wh_main_dwf_inf_longbeards	0.0000	20	rhox_fooger_wh_main_dwf_inf_longbeards	false	0.0000
+rhox_fooger_wh_main_dwf_inf_longbeards_1	0.0000	20	rhox_fooger_wh_main_dwf_inf_longbeards_1	false	0.0000
+rhox_fooger_wh_main_dwf_inf_thunderers_0	0.0000	20	rhox_fooger_wh_main_dwf_inf_thunderers_0	false	0.0000
+rhox_fooger_wh_dlc06_dwf_inf_rangers_0	0.0000	20	rhox_fooger_wh_dlc06_dwf_inf_rangers_0	false	0.0000
+rhox_fooger_wh_dlc06_dwf_inf_rangers_1	0.0000	20	rhox_fooger_wh_dlc06_dwf_inf_rangers_1	false	0.0000
+rhox_fooger_wh_main_dwf_art_organ_gun	0.0000	20	rhox_fooger_wh_main_dwf_art_organ_gun	false	0.0000
+rhox_fooger_wh_main_dwf_inf_hammerers	0.0000	20	rhox_fooger_wh_main_dwf_inf_hammerers	false	0.0000

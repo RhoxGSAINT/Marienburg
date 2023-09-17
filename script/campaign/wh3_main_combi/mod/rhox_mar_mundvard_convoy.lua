@@ -9,7 +9,8 @@ local rhox_caravan_exception_list={
     ["hkrul_crispijn"] =true,
     ["hkrul_guzunda"] =true,
     ["hkrul_lisette"] =true,
-    ["hkrul_cross"] =true
+    ["hkrul_cross"] =true,
+    ["hkrul_pg"] =true
 }
 
 
@@ -2287,7 +2288,7 @@ core:add_listener(
 		out.design("*** Caravan recruited ***");
 		if context:caravan():caravan_force():unit_list():num_items() < 2 then
 			local caravan = context:caravan();
-			rhox_mar_mundvard_add_inital_force(caravan); --reuse this one as they're currently using the same agent subtype
+			rhox_mar_mundvard_add_inital_force(caravan); 
 			cm:set_character_excluded_from_trespassing(context:caravan():caravan_master():character(), true)
 		end;
 	end,

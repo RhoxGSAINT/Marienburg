@@ -1,0 +1,5 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_camille				
+hkrul_dauphine	hkrul_dauphine_banner	6	true	false
+hkrul_dauphine	hkrul_dauphine_Cultist	9	true	false
+hkrul_dauphine	hkrul_dauphine_sword	13	true	false

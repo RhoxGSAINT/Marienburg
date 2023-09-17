@@ -1,0 +1,6 @@
+key	max_indent	min_indent	order	agent_subtype_override	col_hex
+#character_skill_categories_tables;2;db/character_skill_categories_tables/hkrul_camille					
+hkrul_dauphine_line1	0	0	1	hkrul_dauphine	648454
+hkrul_dauphine_line2	1	1	1	hkrul_dauphine	14B1D0
+hkrul_dauphine_line3	2	2	1	hkrul_dauphine	00557F
+hkrul_sea_wizard_line1	1	1	1	mar_sea_wizard	14B1D0

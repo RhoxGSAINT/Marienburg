@@ -1,0 +1,19 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_camille_land_units__.loc		
+land_units_onscreen_name_hkrul_dauphine	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_1	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_2	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_3	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_mount	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_mount_2	Camille Dauphina	true
+land_units_onscreen_name_hkrul_dauphine_mount_3	Camille Dauphina	true
+land_units_onscreen_name_ovn_mar_mon_augas_fish_summoned_0	Augas Swarm	true
+unit_description_short_texts_text_ovn_unit_short_text_mar_augas_fish_0	One of the hundreds of strange fish that populates the dark waters of the World, it has a light on top of its head for luring in prey.	true
+land_units_onscreen_name_ovn_mar_cha_wizard_sea_0	Sea Magicker	true
+ui_unit_groupings_onscreen_wizard_sea	Wizard	true
+ui_unit_groupings_tooltip_wizard_sea		true
+land_units_onscreen_name_ovn_mar_cha_wizard_sea_1	Sea Magicker	true
+land_units_onscreen_name_ovn_mar_cha_wizard_sea_2	Sea Magicker	true
+land_units_onscreen_name_hkrul_manann_flagellant	Fanatics of Manann	false
+unit_description_short_texts_text_hkrul_manann_flagellant	These men are often too ill or sickly to be admitted on board of any vessel, yet their fanatism towards Manann might proof useful in some other capacity.	false
+land_units_onscreen_name_hkrul_fooger_caravan_master	Dwarf Caravan Master	false

@@ -1,0 +1,10 @@
+key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
+#dilemmas_tables;3;db/dilemmas_tables/rhox_dauphine										
+rhox_dauphine_blue_pirate_0	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_1	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_2	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_3	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_4	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_5	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_6	false			cst/legendary_pirate_attacks	false	Event				false
+rhox_dauphine_blue_pirate_7	false			cst/legendary_pirate_attacks	false	Event				false

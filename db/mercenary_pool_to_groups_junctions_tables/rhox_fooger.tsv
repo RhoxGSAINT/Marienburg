@@ -1,0 +1,11 @@
+key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
+#mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/rhox_fooger						
+857569886	rhox_fooger_wh_main_dwf_inf_miners_0	0	wh_dlc04_emp_units_of_renown_pool			
+857569887	rhox_fooger_wh_main_dwf_inf_miners_1	0	wh_dlc04_emp_units_of_renown_pool			
+857569888	rhox_fooger_wh_main_dwf_inf_longbeards	0	wh_dlc04_emp_units_of_renown_pool			
+857569889	rhox_fooger_wh_main_dwf_inf_longbeards_1	0	wh_dlc04_emp_units_of_renown_pool			
+857569890	rhox_fooger_wh_main_dwf_inf_thunderers_0	0	wh_dlc04_emp_units_of_renown_pool			
+857569891	rhox_fooger_wh_dlc06_dwf_inf_rangers_0	0	wh_dlc04_emp_units_of_renown_pool			
+857569892	rhox_fooger_wh_dlc06_dwf_inf_rangers_1	0	wh_dlc04_emp_units_of_renown_pool			
+857569893	rhox_fooger_wh_main_dwf_art_organ_gun	0	wh_dlc04_emp_units_of_renown_pool			
+857569894	rhox_fooger_wh_main_dwf_inf_hammerers	0	wh_dlc04_emp_units_of_renown_pool			

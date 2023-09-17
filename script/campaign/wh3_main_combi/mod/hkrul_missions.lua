@@ -57,7 +57,7 @@ local function hkrul_mar_setup_follower_3_mission(faction_key)
   scmm:add_condition("region wh3_main_combi_region_karak_hirn");
   scmm:add_payload("effect_bundle{bundle_key rhox_mar_anc_dummy;turns 1;}")
   scmm:add_payload("add_ancillary_to_faction_pool{ancillary_key hkrul_mar_fooger;}");
-  scmm:add_payload("text_display rhox_mar_dummy_phy_dwarf");
+  --scmm:add_payload("text_display rhox_mar_dummy_phy_dwarf");--changed it
   scmm:add_failure_payload("add_ancillary_to_faction_pool{ancillary_key hkrul_mar_fooger;}");
   scmm:trigger()
 end
@@ -390,17 +390,8 @@ core:add_listener(
 	false
 );
 
-core:add_listener(
-	"rhox_mar_karak_hirn_mission_success_listener",
-	"MissionSucceeded",
-	function(context)
-		return context:mission():mission_record_key() == "hkrul_mar_jk_follower_3"
-	end,
-	function(context)
-        cm:remove_event_restricted_unit_record_for_faction("hkrul_fooger_ror", context:faction():name());
-	end,
-	false
-);
+
+
 
 core:add_listener(
     "hkrul_pg_lv8_mission",

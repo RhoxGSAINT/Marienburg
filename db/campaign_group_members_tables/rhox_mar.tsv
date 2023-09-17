@@ -2,6 +2,7 @@ id	group	priority
 #campaign_group_members_tables;1;db/campaign_group_members_tables/rhox_mar		
 rhox_mar_caravan	rhox_mar_caravan	0.0000
 rhox_mar_stances_mar_caravan_master	rhox_mar_stances_mar_caravan_master	0.0000
+rhox_mar_mundvard_stances_slaver	rhox_mar_mundvard_stances_slaver	0.0000
 rhox_egmond_feature	rhox_egmond_feature	0.0000
 rhox_mundvard_feature	rhox_mundvard_feature	0.0000
 rhox_mar_agent_action_establish_pirate_cove	rhox_mar_agent_action_establish_pirate_cove	0.0000

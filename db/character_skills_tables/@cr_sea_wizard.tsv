@@ -1,0 +1,12 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/@cr_sea_wizard									
+ovn_skill_mar_wizard_unique_sea_wizard_warhorse	mount_warhorse.png			6	false	false	false	0.0000	0
+ovn_skill_mar_wizard_unique_sea_wizard_barded_warhorse	mount_barded_warhorse.png			10	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_01_fountain_of_life	ovn_spell_sea_fountain_of_life.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_03_lore_attribute	hkrul_dauphine_sea_legs.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_02_water_blast	ovn_spell_sea_water_blast.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_04_fishermans_eye	ovn_spell_sea_fishermans_eye.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_05_drowned_mans_face	ovn_spell_sea_drowned_mans_face.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_09_animate_water	ovn_spell_sea_animate_water.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_10_wave_of_destruction	ovn_spell_sea_wave_of_destruction.png			0	false	false	false	0.0000	0
+ovn_skill_all_magic_sea_dummy_fountain_of_life	ovn_spell_sea_fountain_of_life.png			0	false	false	false	0.0000	0

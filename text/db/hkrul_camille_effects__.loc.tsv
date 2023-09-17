@@ -1,0 +1,67 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_camille_effects__.loc		
+effects_description_hkrul_dauphine_helm	Ability: "Placeholder''	true
+effects_description_hkrul_dauphine_pal	Ability: "Fortress Wardens''	true
+effects_description_hkrul_dauphine_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
+effects_description_hkrul_dauphine_sword	Ability: "Helmgart's Brand''	true
+effects_description_hkrul_dauphine_mount	Mount: "Floodstrider''	true
+effects_description_hkrul_dauphine_mount_2	Mount: "War Altar of Manann''	true
+effects_description_hkrul_dauphine_mount_3	Mount: "Voorwind''	true
+effects_description_hkrul_mar_fish	Ability: "Saltwater's Call''	true
+effects_description_hkrul_manann_book	Ability: "Odrall's Teaching''	true
+effects_description_hkrul_force_stat_armour_defending_sea	Armour: %+n when defending at sea	false
+effects_description_hkrul_stat_bvl_sea	Bonus vs large: + %n when fighting at sea	false
+effects_description_rhox_dauphine_mission_dummy	Triggers a Cult of Manann dilemma to either pay off or hunt a rogue pirate faction	false
+effects_description_hkrul_mar_water_blast	Ability: "Roiling Wave''	false
+effects_description_hkrul_xp_gain_manann	Unit experience gain: %+n% for Cult of Manann units	false
+effects_description_hkrul_melee_attack_manann	Melee Attack: %+n for Cult of Manann units	false
+effects_description_hkrul_dauphine_empire	Arranges a military alliance with [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]]Reikland	false
+effects_description_hkrul_dauphine_cult_sigmar	Diplomatic relations: %+n with [[img:ui/flags/wh3_main_emp_cult_of_sigmar/mon_24.png]][[/img]]Cult of Sigmar	false
+effects_description_hkrul_recruitment_cost_manann	Recruitment cost: %+n% for Cult of Manann units	false
+effects_description_hkrul_dauhpine_cooldown_prayers	Cooldown: %+n% to battle prayers	false
+effects_description_ovn_effect_magic_sea_cooldown_fountain_of_life	Cooldown: %+n% to "Fountain of Life"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_fountain_of_life	Miscast base chance: %+n% for "Fountain of Life Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life	Winds of Magic cost: %n for "Fountain of Life"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life_upgrade	Winds of Magic cost: %n for "Fountain of Life Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_water_blast	Cooldown: %+n% to "Water Blast"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_water_blast	Miscast base chance: %+n% for "Water Blast Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_water_blast	Winds of Magic cost: %n for "Water Blast"	true
+effects_description_ovn_effect_magic_sea_wom_cost_water_blast_upgrade	Winds of Magic cost: %n for "Water Blast Upgraded"	true
+effects_description_ovn_lore_passive_sea_legs	Passive ability: "Sea Legs"	true
+effects_description_ovn_effect_magic_sea_cooldown_fishermans_eye	Cooldown: %+n% to "Fisherman's Eye"	true
+effects_description_ovn_effect_magic_sea_wom_cost_fishermans_eye	Winds of Magic cost: %n for "Fisherman's Eye"	true
+effects_description_ovn_effect_magic_sea_cooldown_drowned_mans_face	Cooldown: %+n% to "Drowned Man's Face"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_drowned_mans_face	Miscast base chance: %+n% for "Drowned Man's Face Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face	Winds of Magic cost: %n for "Drowned Man's Face"	true
+effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face_upgrade	Winds of Magic cost: %n for "Drowned Man's Face Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_animate_water	Cooldown: %+n% to "Animate Water"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_animate_water	Miscast base chance: %+n% for "Animate Water Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_animate_water	Winds of Magic cost: %n for "Animate Water"	true
+effects_description_ovn_effect_magic_sea_wom_cost_animate_water_upgrade	Winds of Magic cost: %n for "Animate Water Upgraded"	true
+effects_description_ovn_effect_magic_sea_cooldown_wave_of_destruction	Cooldown: %+n% to "Wave of Destruction"	true
+effects_description_ovn_effect_magic_sea_miscast_reduction_wave_of_destruction	Miscast base chance: %+n% for "Wave of Destruction Upgraded"	true
+effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction	Winds of Magic cost: %n for "Wave of Destruction"	true
+effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction_upgrade	Winds of Magic cost: %n for "Wave of Destruction Upgraded"	true
+effects_description_ovn_effect_agent_enable_recruitment_wizard_sea_wizard	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sea Magickers	true
+effects_description_ovn_effect_agent_cap_increase_wizard_sea_wizard	Hero capacity: %+n for Sea Magickers	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard	Hero recruit rank: %+n for Sea Magickers	true
+effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard_wave_lord	Recruit rank: %+n for Sea Magickers and High Priests of Manann	true
+effects_description_ovn_effect_force_all_campaign_movement_range_sea_only	Campaign movement range: %+n% while at sea	true
+effects_description_rhox_dauphine_increase_incident_chance	Chance of recieving reinforcements at the start of the turn: %+n%	false
+effects_description_hkrul_dauphine_effect_dummy	Can either bribe or hunt any rogue pirate faction for powerful global buffs	false
+effects_description_hkrul_cult_of_manann_effect_dummy	Embark on a quest to the far corners of the World, where the Cult of Manann must hunt the evil Spirits of Stromfel	false
+effects_description_hkrul_unbreakable_odrall	Attribute: Unbreakable for Knights Mariner units	false
+effects_description_rhox_dauphine_effect_ability_effect_range_grand_trident	Effect range: %+n% for: "Grand Trident of Manann"	false
+effects_description_rhox_dauphine_main_effect_ability_effect_range_grand_shield	Effect range: %+n% for: "Grand Shield of Manann"	false
+effects_description_rhox_dauphine_captain_appear_dummy	The Legendary Captain of the Knights Mariner, Aber Walblatt will join your ranks	false
+effects_description_hkrul_xp_gain_fooger	Unit experience gain: %+n% for migrated dwarf units	false
+effects_description_hkrul_melee_attack_fooger	Melee Defence: %+n for migrated dwarf units	false
+effects_description_hkrul_upkeep_fooger	Upkeep: %+n% for migrated dwarf units	false
+effects_description_hkrul_charge_manann_fanatic	Charge bonus: %+n for for Manann's Fanatics (Flagellants)	false
+effects_description_hkrul_upkeep_fanatic	Upkeep: %+n% for Manann's Fanatics (Flagellants)	false
+effects_description_hkrul_recruit_rank_fanatic	Recruit rank: %+n for Manann's Fanatics (Flagellants)	false
+effects_description_hkrul_missile_resistance_fanatic	Missile Resistance: %+n% for Manann's Fanatics (Flagellants)	false
+effects_description_hkrul_speed_fanatic	Speed: %+n% for Manann's Fanatics (Flagellants)	false
+effects_description_rhox_mar_effect_force_stat_melee_defence_at_sea	Melee Defence: + %n when fighting at sea	false
+effects_description_rhox_mar_effect_force_special_stance_dauphine_dummy	Full Speed stance is upgraded to "Manann's Blessing" which increases campaign map navigation range at sea	false
+effects_description_hkrul_turns_fanatics_manann	Global recruitment duration: %+n turns for Manann's Fanatics (Flagellants)	true

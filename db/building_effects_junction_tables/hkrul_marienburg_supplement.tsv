@@ -1,0 +1,6 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/hkrul_marienburg_supplement						
+rhox_mar_manann_shrine	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-6.0000	-3.0000	0.0000
+rhox_mar_manann_shrine	wh_main_effect_economy_gdp_mod_trade_sea		province_to_region_own	5.0000	2.0000	0.0000
+rhox_mar_manann_shrine	wh2_main_effect_force_stat_melee_attack_at_sea		faction_to_force_own	1.0000	0.0000	0.0000
+rhox_mar_manann_shrine	rhox_mar_effect_force_stat_melee_defence_at_sea		faction_to_force_own	1.0000	0.0000	0.0000

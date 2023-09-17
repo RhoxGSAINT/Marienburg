@@ -9,3 +9,4 @@ rhox_egmond_emp_garrison		wh_main_set_empire_defence	false
 rhox_egmond_emp_walls		wh_main_set_empire_defence	false
 rhox_mar_rijker		wh2_main_set_landmark	false
 rhox_mar_eilhart		wh2_main_set_landmark	false
+rhox_mar_emp_allied_outpost		wh3_main_set_test_allied_building	false

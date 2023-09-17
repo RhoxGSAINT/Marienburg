@@ -1,0 +1,9 @@
+<model version="1">
+  <geometry>vfx/models/cst_call_of_the_deep_tentacle_01.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">vfx/materials/mar_animate_water_tentacle_weighted4_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="1">vfx/materials/mar_animate_water_tentacle_weighted4_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="2">vfx/materials/mar_animate_water_tentacle_weighted2_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="3">vfx/materials/mar_animate_water_tentacle_weighted2_alpha_off.xml.material</material>
+  </materials>
+</model>

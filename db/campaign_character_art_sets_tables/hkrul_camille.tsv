@@ -1,0 +1,5 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/hkrul_camille								
+hkrul_dauphine	general				false	true	hkrul_dauphine	1.0000
+ovn_art_set_mar_sea_wizard_01	wizard				false	true	mar_sea_wizard	1.0000
+ovn_art_set_mar_sea_wizard_02	wizard				false	true	mar_sea_wizard	1.0000

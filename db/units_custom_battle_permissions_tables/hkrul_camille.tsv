@@ -1,0 +1,11 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/hkrul_camille										
+rhox_mar_marienburg	true	hkrul_dauphine	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_dauphine.png	hkrul_dauphine	hkrul_dauphine	true		false
+rhox_mar_marienburg	true	hkrul_dauphine_1	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_dauphine.png	hkrul_dauphine	hkrul_dauphine	true		false
+rhox_mar_marienburg	true	hkrul_dauphine_2	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_dauphine.png	hkrul_dauphine	hkrul_dauphine	true		false
+rhox_mar_marienburg	true	hkrul_dauphine_3	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_dauphine.png	hkrul_dauphine	hkrul_dauphine	true		false
+rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_0	true	true	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	ovn_uniform_mar_sea_wizard_01	ovn_mar_cha_wizard_sea_0	false		false
+rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_1	true	true	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	ovn_uniform_mar_sea_wizard_01	ovn_mar_cha_wizard_sea_0	false		false
+rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_2	true	true	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	ovn_uniform_mar_sea_wizard_01	ovn_mar_cha_wizard_sea_0	false		false
+rhox_mar_marienburg	false	hkrul_manann_flagellant	false	true				false		false
+wh_main_emp_empire	false	hkrul_manann_flagellant	false	true				false		false

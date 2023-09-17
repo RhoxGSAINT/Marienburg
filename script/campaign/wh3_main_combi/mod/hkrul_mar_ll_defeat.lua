@@ -2,7 +2,9 @@ local hkrul_defeat_LL = {
 	["hkrul_mar_egmond"] = {trait = "hkrul_defeated_trait_egmond"},
 	["hkrul_hendrik"] = {trait = "hkrul_defeated_trait_hendrik"},
 	["hkrul_jk"] = {trait = "hkrul_defeated_trait_jk"},
-	["hkrul_mar_munvard"] = {trait = "hkrul_defeated_trait_munvard"}
+	["hkrul_mar_munvard"] = {trait = "hkrul_defeated_trait_munvard"},
+	["hkrul_dauphine"] = {trait = "hkrul_defeated_trait_dauphine"},
+	["hkrul_fooger"] = {trait = "hkrul_defeated_trait_fooger"}
 }
 
 

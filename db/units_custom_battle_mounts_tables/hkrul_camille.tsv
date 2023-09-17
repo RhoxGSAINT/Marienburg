@@ -1,0 +1,7 @@
+base_unit	mounted_unit	icon_name
+#units_custom_battle_mounts_tables;1;db/units_custom_battle_mounts_tables/hkrul_camille		
+ovn_mar_cha_wizard_sea_0	ovn_mar_cha_wizard_sea_1	ui/campaign ui/mounts/mount_warhorse.png
+ovn_mar_cha_wizard_sea_0	ovn_mar_cha_wizard_sea_2	ui/campaign ui/mounts/mount_barded_warhorse.png
+hkrul_dauphine	hkrul_dauphine_1	ui/campaign ui/mounts/mount_barded_warhorse.png
+hkrul_dauphine	hkrul_dauphine_2	ui/campaign ui/mounts/mount_imperial_griffon.png
+hkrul_dauphine	hkrul_dauphine_3	ui/campaign ui/mounts/hkrul_mount_manann.png

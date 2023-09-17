@@ -1,0 +1,4 @@
+agent_subtype	campaign_type
+#campaign_to_agent_subtypes_tables;0;db/campaign_to_agent_subtypes_tables/hkrul_mar_supplement	
+hkrul_dauphine	cr_combi_expanded
+hkrul_fooger	cr_combi_expanded

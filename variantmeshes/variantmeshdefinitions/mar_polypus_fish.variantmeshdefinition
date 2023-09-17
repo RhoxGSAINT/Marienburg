@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/fh1/campaign/campaign_monster_fish/campaign_monsterfish_01.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/fh1/mar/mar_polypus/mar_polypus_02.wsmodel" >
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/fh1/mar/mar_polypus/mar_polypus_03.wsmodel" >
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

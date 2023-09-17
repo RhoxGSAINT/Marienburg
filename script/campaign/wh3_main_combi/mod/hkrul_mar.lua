@@ -2,7 +2,7 @@
 --new and fancy Jaan
 local jaan_details = {
     general_faction = marienburg_faction_key,
-    unit_list = "snek_hkrul_mar_landship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_defenders,hkrul_mar_inf_boogschutter,hkrul_carriers,hkrul_mar_inf_goedendagers", -- unit keys from main_units table
+    unit_list = "snek_hkrul_mar_landship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_defenders,hkrul_mar_inf_boogschutter,hkrul_carriers_ror,hkrul_mar_inf_goedendagers", -- unit keys from main_units table
     region_key = "",
     type = "general",																				-- Agent type
     subtype = "hkrul_jk",																	-- Agent subtype
@@ -183,12 +183,6 @@ local function hkrul_mar()
                     )
                     
                     out("Created replacement Lord " .. jaan_details.forename .. " for " .. marienburg_faction_key)
-                    
-                    if cm:model():campaign_name_key() == "cr_combi_expanded" then
-                        cm:make_region_visible_in_shroud(marienburg_faction_key, "cr_combi_region_khuresh_4_1")
-                        cm:make_region_visible_in_shroud("ovn_mar_cult_of_manann", "wh3_main_combi_region_marienburg")
-                        --cm:apply_dilemma_diplomatic_bonus(marienburg_faction_key, "ovn_mar_cult_of_manann", 3)
-                    end
                     
                     
                     --creating hkrul pg here so he could spawn near the new lord

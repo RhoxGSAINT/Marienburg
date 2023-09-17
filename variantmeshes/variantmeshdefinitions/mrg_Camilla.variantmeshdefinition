@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/marienburg_camille/body/mrg_will_camille_body.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="lanterns" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/marienburg_camille/lanterns/mrg_will_camille_lanterns.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/mrg_manann_arch_lector/props/mace1/mrg_manann_lector_hammer_1h_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:halberd</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mrg/mrg_manann_arch_lector/props/trident1/mrg_manann_lector_01_staff.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:halberd</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
