@@ -143,7 +143,11 @@ local function hkrul_mar()
 
                     local general_x_pos, general_y_pos = cm:find_valid_spawn_location_for_character_from_settlement(jaan_details.general_faction, marienburg_faction:home_region():name(), false, true, 5)
                     
-                    out(marienburg_faction_key .. " home region name is " .. jaan_details.region_key)
+                    --out(marienburg_faction_key .. " home region name is " .. jaan_details.region_key)
+                    
+                    if cm:model():campaign_name_key() == "cr_combi_expanded" then --only in IEE
+                        cm:transfer_region_to_faction("cr_combi_region_tancred_castle","wh_main_grn_skullsmasherz")
+                    end
                     
                     
                     
