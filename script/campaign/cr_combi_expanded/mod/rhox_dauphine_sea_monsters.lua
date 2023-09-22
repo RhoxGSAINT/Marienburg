@@ -1,5 +1,6 @@
 local dauphine_faction = "ovn_mar_cult_of_manann"  
 
+
 rhox_dauphine_sea_monsters = {
 	pirate_details = {
 		{
@@ -10,20 +11,20 @@ rhox_dauphine_sea_monsters = {
 			xp = 0,
 			level = 20,
 			item_owned = "piece_of_eight",
-			behaviour = "roving",	-- Piece of Eight
-			patrol_route = {"start", {x = 1238, y = 29}, {x = 1224, y = 106}, {x = 1342, y = 24}, {x = 1351, y = 81}},
-            mission_key = "rhox_mar_dauphine_pirate_hunting_5"
+			behaviour = "roving",	
+			patrol_route = {"start", {x = 1238, y = 29}, {x = 1224, y = 96}, {x = 1342, y = 24}, {x = 1351, y = 81}}
 		},
+		
 		{
-			faction_key = "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs", --TODO temp
-			spawn_pos = {x = 781, y = 61},
+			faction_key = "rhox_rogue_spirits_of_stromfel",
+			spawn_pos = {x = 1538, y = 725},
 			has_spawned = false,
 			effect = "wh_main_reduced_movement_range_20",
 			xp = 0,
 			level = 20,
 			item_owned = "piece_of_eight",
-			behaviour = "monster",	-- Piece of Eight
-			patrol_route = {"start", {x = 781, y = 61}, {x = 801, y = 108}, {x = 923, y = 6}, {x = 1068, y = 50}},
+			behaviour = "monster",	
+			patrol_route = {"start", {x = 1538, y = 725}, {x = 1519, y = 644}, {x = 1499, y = 583}, {x = 1482, y = 666}},
             mission_key = "rhox_mar_dauphine_pirate_hunting_5"
 		}
 	    
@@ -103,18 +104,20 @@ function rhox_dauphine_sea_monsters:setup_sea_monsters()
 			
 			roving_pirate:should_maintain_army(true, 50)
 			roving_pirate:start_invasion()
-            -- Trigger Piece of Eight missions
-            local faction_key = "ovn_mar_cult_of_manann"
-            local mission_key = pirate.mission_key
-            local mm = mission_manager:new(faction_key, mission_key)
-            mm:set_mission_issuer("CLAN_ELDERS")
-            
-            mm:add_new_objective("ENGAGE_FORCE")
-            mm:add_condition("cqi "..rogue_force:command_queue_index())
-            mm:add_condition("requires_victory")
-            
-            mm:add_payload("effect_bundle{bundle_key "..mission_key..";turns 0;}")
-            mm:trigger()
+			if cm:get_faction("ovn_mar_cult_of_manann"):is_human() then
+                -- Trigger Piece of Eight missions
+                local faction_key = "ovn_mar_cult_of_manann"
+                local mission_key = pirate.mission_key
+                local mm = mission_manager:new(faction_key, mission_key)
+                mm:set_mission_issuer("CLAN_ELDERS")
+                
+                mm:add_new_objective("ENGAGE_FORCE")
+                mm:add_condition("cqi "..rogue_force:command_queue_index())
+                mm:add_condition("requires_victory")
+                
+                mm:add_payload("effect_bundle{bundle_key "..mission_key..";turns 0;}")
+                mm:trigger()
+            end
         elseif pirate.behaviour == "roving" then
                 local invasion_key = pirate.faction_key.."_PIRATE"
                 pirate.has_spawned = true

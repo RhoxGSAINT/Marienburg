@@ -1,3 +1,4 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_fooger_land_unit.loc		
 land_units_onscreen_name_hkrul_fooger	Arkat Fooger	false
+land_units_onscreen_name_hkrul_fooger_caravan_master	Dwarf Merchant	false

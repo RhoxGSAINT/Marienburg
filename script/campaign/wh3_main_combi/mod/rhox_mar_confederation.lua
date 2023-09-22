@@ -3,6 +3,46 @@ local confederation_ended = false
 
 
 
+local elector_treaties_to_disable = { --this is copy from wh2_dlc13_empire_politics.lua
+	"form confederation",
+	"military alliance",
+	"defensive alliance",
+	"break soft military access",
+	"break defensive alliance",
+	"break vassal",
+	"break client state",
+	"break trade",
+	"break alliance"
+}
+
+
+core:add_listener(
+    "rhox_mar_enable_marienburg_confederation", --vanilla script disables Empire factions from making alliance and confederation with all the Empires, should make it available
+    "FactionRoundStart",
+    function(context)
+        local faction = context:faction();
+
+        return faction:pooled_resource_manager():resource("emp_loyalty"):is_null_interface() == false
+    end,
+    function(context)
+        local faction = context:faction();
+        local faction_key = faction:name();
+        cm:callback(
+			function()
+                for i = 1, #elector_treaties_to_disable do
+                    cm:force_diplomacy("faction:"..faction_key, "faction:ovn_mar_house_den_euwe", elector_treaties_to_disable[i], true, true, false)
+                    cm:force_diplomacy("faction:"..faction_key, "faction:ovn_mar_cult_of_manann", elector_treaties_to_disable[i], true, true, false)
+                    cm:force_diplomacy("faction:"..faction_key, "faction:ovn_mar_house_fooger", elector_treaties_to_disable[i], true, true, false)
+                end
+			end,
+			1--we need it to start after the vanilla script has been fired
+		)
+        
+
+    end,
+    true
+)
+
 
 
 local function rhox_mar_confederation_dilemma_choice(context)

@@ -66,9 +66,6 @@ local function rhox_fooger_init_setting()
     cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     
-    --[[
-    local agent_x, agent_y = cm:find_valid_spawn_location_for_character_from_position(faction:name(), x, y, false, 5);
-    cm:create_agent(fooger_faction, "wizard", "mar_sea_wizard", agent_x, agent_y);       --]]
     cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_ind_1_3")
     cm:make_region_visible_in_shroud("ovn_mar_house_fooger", "wh3_main_combi_region_marienburg")
     cm:make_diplomacy_available("ovn_mar_house_fooger", "wh_main_emp_marienburg")
@@ -97,8 +94,8 @@ end
 
 
 
---[[
 
+--[[
 cm:add_first_tick_callback(
 	function()
 		pcall(function()

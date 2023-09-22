@@ -2,6 +2,7 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 #variants_tables;6;db/variants_tables/hkrul_mar_supplement							
 hkrul_dauphine		mrg_Camilla		1.0000	1.1000	0.0000	
 ovn_mar_augas_fish_summoned_0		mar_polypus_fish		1.0000	0.5000	0.0500	
+ovn_mar_augas_fish_summoned_1		mar_polypus_fish		1.0000	2.7000	0.0500	
 ovn_mar_ch_sea_wizard		mar_wizard_sea		1.0000	1.1500	0.0500	
 ovn_mar_ch_sea_wizard_campaign_01		mar_wizard_sea		1.0000	1.1500	0.0500	
 ovn_mar_ch_sea_wizard_campaign_02		mar_wizard_sea		1.0000	1.1500	0.0500	
@@ -13,3 +14,5 @@ hkrul_fooger		phy_arkat		1.0000	1.1500	0.0500
 hkrul_fooger_caravan_master_01		phy_dwarf_merchant_01		1.0000	1.1500	0.0500	
 hkrul_fooger_caravan_master_02		phy_dwarf_merchant_02		1.0000	1.1500	0.0500	
 hkrul_fooger_caravan_master		phy_dwarf_merchant		1.0000	1.1500	0.0500	
+hkrul_fooger_caravan_master_2		phy_dwarf_merchant_02		1.0000	1.0000	0.0000	
+hkrul_fooger_caravan_master_3		phy_dwarf_merchant_01		1.0000	1.0000	0.0000	

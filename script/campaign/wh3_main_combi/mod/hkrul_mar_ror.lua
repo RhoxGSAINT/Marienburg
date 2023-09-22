@@ -520,9 +520,9 @@ local function rhox_mar_check_talon(faction)
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
-	if (owner:name() == "wh_main_emp_marienburg" or owner:name() == "ovn_mar_house_den_euwe") and region:building_exists("rhox_mar_rijker") then
+	if owner and marienburg_factions[owner:name()] and region:building_exists("rhox_mar_rijker") then
         cm:remove_event_restricted_unit_record_for_faction("hkrul_mar_talons", faction:name());
-        cm:set_saved_value("rhox_talons_granted", true)
+        --cm:set_saved_value("rhox_talons_granted", true)
 	end
 end
 
@@ -578,19 +578,17 @@ cm:add_first_tick_callback(
         end
         
         
-        if (cm:get_faction("wh_main_emp_marienburg"):is_human() or cm:get_faction("ovn_mar_house_den_euwe"):is_human()) and cm:get_saved_value("rhox_talons_granted") ~=true then
-            core:add_listener(
-                "rhox_mar_building_check_talon_RoundStart",
-                "FactionRoundStart",
-                function(context)
-                    return (context:faction():name() == "wh_main_emp_marienburg" or context:faction():name() == "ovn_mar_house_den_euwe") and cm:get_saved_value("rhox_talons_granted") ~=true
-                end,
-                function(context)
-                    rhox_mar_check_talon(context:faction())
-                end,
-                true
-            )
-        end
+        core:add_listener(
+            "rhox_mar_building_check_talon_RoundStart",
+            "FactionRoundStart",
+            function(context)
+                return marienburg_factions[context:faction():name()] --and cm:get_saved_value("rhox_talons_granted") ~=true
+            end,
+            function(context)
+                rhox_mar_check_talon(context:faction())
+            end,
+            true
+        )
     end
 );
 
@@ -618,16 +616,16 @@ core:add_listener(
 --marienburg_factions
 ---------------------------------------------------------RoR unlock
 local mar_faction_ror_unlocks={
-        wh_main_emp_marienburg ="hkrul_carriers_ror",
-        ovn_mar_cult_of_manann ="ovn_mar_inf_knights_mariner_0",
-        ovn_mar_house_fooger ="hkrul_fooger_ror"
+    wh_main_emp_marienburg ="hkrul_carriers_ror",
+    ovn_mar_cult_of_manann ="ovn_mar_inf_knights_mariner_0",
+    ovn_mar_house_fooger ="hkrul_fooger_ror"
 } 
 
 core:add_listener(
     "Marienburg_faction_makes_alliance",
     "PositiveDiplomaticEvent",
     function(context)
-        return marienburg_factions[context:recipient():name()] or marienburg_factions[context:proposer():name()] and (context:is_military_alliance() or context:is_defensive_alliance())
+        return (marienburg_factions[context:recipient():name()] or marienburg_factions[context:proposer():name()]) and (context:is_military_alliance() or context:is_defensive_alliance())
     end,
     function(context)
         local ror1 = mar_faction_ror_unlocks[context:recipient():name()]

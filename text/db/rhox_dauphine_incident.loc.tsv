@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_dauphine_incident.loc		
-incidents_localised_description_rhox_dauphine_reinforcements	Praise Manann! Faithful has just arrived to support our ideals!	false
+incidents_localised_description_rhox_dauphine_reinforcements	Praise Manann! The Directorate sends reinforcement for our quest	false
 incidents_localised_title_rhox_dauphine_reinforcements	Reinforcements!	false
-incidents_button_text_rhox_mar_dauphine_turn2	To the Oceans!	false
-incidents_localised_description_rhox_mar_dauphine_turn2	Clear them and become Pompeius	false
-incidents_localised_title_rhox_mar_dauphine_turn2	Pirates everywhere	false
+incidents_button_text_rhox_mar_dauphine_turn2	Set Sails!	false
+incidents_localised_description_rhox_mar_dauphine_turn2	These undiscovered seas are tainted by Stromfel's foul corruption. Only the Cult of Manann can purge the foul smell of these abonimations from the far stretched seas. We must hunt all that terrorize these oceans, be it living or dead. We shall conquer valuable ports in the name of Manann to ensure frequent supplies from our patrons directors from the directorate of Marienburg. Anchors away!	false
+incidents_localised_title_rhox_mar_dauphine_turn2	Manann's Quest	false

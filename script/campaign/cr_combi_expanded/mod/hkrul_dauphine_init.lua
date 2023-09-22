@@ -15,7 +15,7 @@ local function rhox_dauphine_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     dauphine_faction,
-    "hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_mar_sons_of_manann,wh_dlc04_emp_inf_free_company_militia_0,wh_dlc04_emp_inf_free_company_militia_0,wh_dlc04_emp_inf_free_company_militia_0,hkrul_mar_culverin,ovn_mar_inf_knights_mariner_0",
+    "hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_mar_sons_of_manann,wh_dlc04_emp_inf_free_company_militia_0,wh_dlc04_emp_inf_free_company_militia_0,hkrul_mar_culverin,ovn_mar_inf_knights_mariner_0",
     "cr_combi_region_khuresh_4_1",
     x,
     y,
@@ -50,6 +50,7 @@ local function rhox_dauphine_init_setting()
     cm:make_diplomacy_available("ovn_mar_cult_of_manann", "wh_main_emp_marienburg")
     
     if faction:is_human() then --teleport the Khorne guy when the dauphine is human
+    --[[
         cm:callback(
             function()
                 --local enemy_x, enemy_y = cm:find_valid_spawn_location_for_character_from_position("cr_kho_servants_of_the_blood_nagas", 1230, 240, false, 5);
@@ -58,16 +59,17 @@ local function rhox_dauphine_init_setting()
             end,
             5
         )
+        --]]
         local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
         local dauphine_settlement = khuresh_region:settlement()
-        cm:instantly_set_settlement_primary_slot_level(dauphine_settlement , 1) --for easy conquer
-    else--Just take over the region otherwise
-        cm:transfer_region_to_faction("cr_combi_region_khuresh_4_1",dauphine_faction)
-        local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
-        local khuresh_region_cqi = khuresh_region:cqi()
-        cm:heal_garrison(khuresh_region_cqi)
+        cm:instantly_set_settlement_primary_slot_level(dauphine_settlement , 1) --reduce the starting settlement level for the human
+        --cm:instant_set_building_health_percent("cr_combi_region_khuresh_4_1", "wh3_main_kho_settlement_major", 1)--for easy conquer
+    else
     end
-    
+    cm:transfer_region_to_faction("cr_combi_region_khuresh_4_1",dauphine_faction)
+    local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
+    local khuresh_region_cqi = khuresh_region:cqi()
+    cm:heal_garrison(khuresh_region_cqi)
     
     
     cm:callback(
@@ -118,4 +120,4 @@ cm:add_first_tick_callback(
         end
 	end
 )
---]]
+]]

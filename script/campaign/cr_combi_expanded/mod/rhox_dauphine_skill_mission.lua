@@ -33,7 +33,16 @@ local function rhox_mar_dauphine_give_rewardsor_trigger_dilemma(faction, id,char
 		
 		payload_builder:text_display(dilemma_prefix.."first_"..id)
 		out("Rhox Dauphine: Text payload: ".. dilemma_prefix.."first_"..id)
-		payload_builder:treasury_adjustment(-5000);
+		
+		payload_builder:treasury_adjustment(1500);
+		
+		local faction_bundle = cm:create_new_custom_effect_bundle("rhox_dauphine_blue_pirate_coop");
+        faction_bundle:set_duration(10);
+        
+        payload_builder:effect_bundle_to_faction(faction_bundle);
+		
+		
+		
 		dilemma_builder:add_choice_payload("FIRST", payload_builder);
 		payload_builder:clear();
 		
@@ -52,8 +61,10 @@ core:add_listener(
     "rhox_mar_dauphine_special_2_0_CharacterSkillPointAllocated", 
     "CharacterSkillPointAllocated",
     function(context)
+        local character = context:character()
+        local faction = character:faction()
         local skill = context:skill_point_spent_on()
-        return skill:starts_with("hkrul_dauphine_special_2_")
+        return skill:starts_with("hkrul_dauphine_special_2_") and faction:is_human()
     end,
     function(context)
         local character = context:character()

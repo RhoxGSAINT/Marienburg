@@ -14,6 +14,8 @@ ui_unit_groupings_onscreen_wizard_sea	Wizard	true
 ui_unit_groupings_tooltip_wizard_sea		true
 land_units_onscreen_name_ovn_mar_cha_wizard_sea_1	Sea Magicker	true
 land_units_onscreen_name_ovn_mar_cha_wizard_sea_2	Sea Magicker	true
-land_units_onscreen_name_hkrul_manann_flagellant	Fanatics of Manann	false
+land_units_onscreen_name_hkrul_manann_flagellant	Manann's Fanatics (Flagellants)	false
 unit_description_short_texts_text_hkrul_manann_flagellant	These men are often too ill or sickly to be admitted on board of any vessel, yet their fanatism towards Manann might proof useful in some other capacity.	false
 land_units_onscreen_name_hkrul_fooger_caravan_master	Dwarf Caravan Master	false
+land_units_onscreen_name_ovn_mar_mon_augas_fish_summoned_1	Ancient Augus	true
+unit_description_short_texts_text_ovn_mar_mon_augas_fish_summoned_1	Considered the alma mater of a strange fish that populates the dark waters of the World, the Augus Fish are the Patrons of Lileath.	true

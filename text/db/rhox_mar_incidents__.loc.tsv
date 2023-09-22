@@ -16,7 +16,7 @@ incidents_localised_title_wh_main_emp_marienburg_completed_zharr_nagrund	Gilded 
 incidents_localised_title_rhox_mar_convoy_completed_altdorf	Gilded Route Completed – Unique Item	true
 incidents_localised_description_rhox_mar_convoy_completed_altdorf	A librarian approaches the Merchant Lord with haste, offering him what he claims is a vital document that may influence the future of Marienburg. The man hardly looks trustworthy, however.	true
 incidents_localised_title_rhox_mar_convoy_completed_erengrad	Gilded Route Completed – Unique Item	true
-incidents_localised_description_rhox_mar_convoy_completed_erengrad	After a hefty night of drinking and a hefty bribe to boot, the jailors of Erengrad agree to release a valueable asset - allowing him to join your retinue.	true
+incidents_localised_description_rhox_mar_convoy_completed_erengrad	After a hefty night of drinking and a hefty bribe to boot, the jailors of Erengrad agree to release a valuable asset - allowing him to join your retinue.	true
 incidents_localised_title_rhox_mar_convoy_completed_bordeleaux	Gilded Route Completed – Unique Item	true
 incidents_localised_description_rhox_mar_convoy_completed_bordeleaux	You enjoyed Bordeleaux's finest wine. Maybe more than usual. After a hangover, you discover someone unusual at your side. 	true
 incidents_localised_title_rhox_mar_convoy_completed_port_reaver	Gilded Route Completed – Unique Item	true
@@ -26,7 +26,7 @@ incidents_localised_description_rhox_mar_convoy_completed_miragliano	While wande
 incidents_localised_title_rhox_mar_convoy_completed_barak_varr	Gilded Route Completed – Unique Item	true
 incidents_localised_description_rhox_mar_convoy_completed_barak_varr	Enjoying yet another pint of Bugman's ale, you find yourself listening to the tales of a Dwarf who knows the Wasteland better than you do. It is Guzunda Wallrattler, Swamp Dweller and patron of Clan Fooger who is looking for a lift back home to Marienburg.	true
 incidents_localised_title_rhox_mar_convoy_completed_lashiek	Gilded Route Completed – Unique Item	true
-incidents_localised_description_rhox_mar_convoy_completed_lashiek	Interestingly enough, you are joinged by a rather mysterious figure who might proof valueable in future endeavors.	true
+incidents_localised_description_rhox_mar_convoy_completed_lashiek	Interestingly enough, you are joinged by a rather mysterious figure who might proof valuable in future endeavors.	true
 incidents_localised_title_rhox_mar_convoy_completed_sudenburg	Gilded Route Completed – Unique Item	true
 incidents_localised_description_rhox_mar_convoy_completed_sudenburg	She was probably her on Guild's Business. Yet Lisette Leerer has brought herself in a world of trouble, as Sudenberg is no longer the Free Port it once was. The Cult of Sigmar patrols the street, enforcing strict Sigmarite Laws. She needs a ticket out, and fast. Her services might come in handy.	true
 incidents_localised_title_rhox_mar_convoy_completed_fortress_of_dawn	Gilded Route Completed – Unique Item	true
@@ -57,9 +57,9 @@ incidents_button_text_rhox_mar_egmond_turn2	I shall go North	false
 incidents_localised_title_rhox_mar_convoy_completed_arnheim	Gilded Route Completed – Unique Item	false
 incidents_localised_description_rhox_mar_convoy_completed_arnheim	Arnheim, where Dark Elves and High Elves roam the same streets a artifact of mysterious magic finds it's way to you.	false
 incidents_localised_title_rhox_mar_convoy_completed_sjoktraken	Gilded Route Completed – Unique Item	false
-incidents_localised_description_rhox_mar_convoy_completed_sjoktraken	A brutish Norscans finds it's way to you, desperately seeking passage to new seas. His experience will surely proof valueable.	false
+incidents_localised_description_rhox_mar_convoy_completed_sjoktraken	A brutish Norscans finds it's way to you, desperately seeking passage to new seas. His experience will surely proof valuable.	false
 incidents_localised_title_rhox_mar_convoy_completed_karond_kar	Gilded Route Completed – Unique Item	false
-incidents_localised_description_rhox_mar_convoy_completed_karond_kar	You manage to obtain a rare item that obviously oozes all sorts of magic. This will proof valueable.	false
+incidents_localised_description_rhox_mar_convoy_completed_karond_kar	You manage to obtain a rare item that obviously oozes all sorts of magic. This will proof valuable.	false
 incidents_localised_title_rhox_mar_convoy_completed_magritta	Gilded Route Completed – Unique Item	false
 incidents_localised_description_rhox_mar_convoy_completed_magritta	The heir of House De Roelef yet not nearly as interested in the art of trade as her aunt - Clara much prefers a life of adventure. Something we can provide her on the Gilded Route, safely hidden from her aunts gaze.	false
 incidents_localised_title_rhox_mar_convoy_completed_sartosa	Gilded Route Completed – Unique Item	false
@@ -71,7 +71,7 @@ incidents_localised_description_rhox_mar_convoy_completed_tower_of_the_sun	A amb
 incidents_localised_title_rhox_mar_convoy_completed_dai_cheng	Gilded Route Completed – Unique Item	false
 incidents_localised_description_rhox_mar_convoy_completed_dai_cheng	A artifact that smells like seaweed yet radiates winds of magic. It's markings resemble that of the Cult of Manann.	false
 incidents_localised_title_rhox_mar_convoy_completed_fu_chow	Gilded Route Completed – Unique Item	false
-incidents_localised_description_rhox_mar_convoy_completed_fu_chow	Captured by Skaven, sold to a Norscan Slave trader - this man is down to his luck. But he claims to hold valueable information, for a small fee we can unshackle him and free him from these brutish Northmen.	false
+incidents_localised_description_rhox_mar_convoy_completed_fu_chow	Captured by Skaven, sold to a Norscan Slave trader - this man is down to his luck. But he claims to hold valuable information, for a small fee we can unshackle him and free him from these brutish Northmen.	false
 incidents_localised_title_rhox_mar_convoy_completed_haichai	Gilded Route Completed – Unique Item	false
 incidents_localised_description_rhox_mar_convoy_completed_haichai	Invested with invading Dark Elves, Cathayan nobility scrambles in search for a escape. Surely we can take on a refugee for the right price.	false
 incidents_localised_title_rhox_mar_convoy_completed_myrmidens	Gilded Route Completed – Unique Item	false

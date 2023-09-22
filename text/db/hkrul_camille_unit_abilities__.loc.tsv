@@ -7,8 +7,9 @@ unit_abilities_onscreen_name_hkrul_dauphine_pal	Fortress Wardens	true
 unit_abilities_tooltip_text_hkrul_dauphine_sword	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_dauphine_sword	Helmgart's Brand	true
 unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm	[[col:green]]Summons a swarm of Augus fish[[/col]]	true
-unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye	Saltwater's Call	false
-unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye	The Matriarch is filled with an uncanny sense of where they might find a desired creature in the sea, and by concentrating they can summon the creature to them.	false
+unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm_2	[[col:green]]Summons the Ancient Augus[[/col]]	true
+unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye	Lileath's Call	false
+unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye	The Legend of Mannslieb tells that Manann fell in love with a woman, Lileath. It is her that watches over the creatures of her Sea, sending them only to aid those in Manann's absolute favour.	false
 unit_abilities_onscreen_name_ovn_spell_sea_water_blast_upgraded	Roiling Wave	false
 unit_abilities_tooltip_text_ovn_spell_sea_water_blast_upgraded	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
 unit_abilities_onscreen_name_ovn_lore_passive_sea_legs	Sea Legs	false
@@ -40,3 +41,7 @@ unit_abilities_onscreen_name_hkrul_manann_book	Odrall's Teaching	false
 unit_abilities_tooltip_text_hkrul_manann_book	Odrall the Devout was renowned for his piety and a holy obsession with exploration. As High Priest of Manann he discovered large parts of the new world. His teachings still linger today.	false
 unit_abilities_tooltip_text_hkrul_mar_rusty	Probably not best suited for actual fishing, yet these hooks still retain a impressive grip.	false
 unit_abilities_onscreen_name_hkrul_mar_rusty	Rusty Hooks	false
+unit_abilities_tooltip_text_hkrul_water_augment	Infused by Manann's sheer magical will, the Ancient Augus is frightening on land, yet even more so in it's natural habitat.	false
+unit_abilities_onscreen_name_hkrul_water_augment	The Ancient Augus	false
+unit_abilities_tooltip_text_hkrul_water_augment_1	The Angus swarm fights most effectively in the cold depths near the ocean floor.	false
+unit_abilities_onscreen_name_hkrul_water_augment_1	Swarm of the Seas	false

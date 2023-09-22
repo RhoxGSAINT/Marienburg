@@ -1,0 +1,4 @@
+category	icon_path
+#trait_categories_tables;0;db/trait_categories_tables/hkrul_marienburg_supplement	
+hkrul_dauphine	ui/campaign ui/skills/hkrul_dauphine_innate.png
+hkrul_fooger	ui/campaign ui/skills/innate_fooger.png

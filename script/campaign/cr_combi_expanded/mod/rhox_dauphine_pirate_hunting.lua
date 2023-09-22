@@ -5,7 +5,7 @@ local dauphine_faction = "ovn_mar_cult_of_manann"
 --rhox_dauphine_hunt_1
 
 local pirate_lairs={
-    cr_combi_region_khuresh_4_1 = "rhox_mar_dauphine_pirate_hunting_1",--Abode of the Naga Queens
+    cr_combi_region_isles_of_the_monkey_king = "rhox_mar_dauphine_pirate_hunting_1",--Ulliogtha Outpost
     cr_combi_region_melay= "rhox_mar_dauphine_pirate_hunting_2",-- Melay
     cr_combi_region_khuresh_3_1="rhox_mar_dauphine_pirate_hunting_3",--Honai
     cr_combi_region_nippon_1_1="rhox_mar_dauphine_pirate_hunting_4",    --Mizushima
@@ -29,19 +29,19 @@ end
 
 local rhox_dauphine_reinforcements_units={
     "rhox_dauphine_snek_hkrul_mar_landship",
-    "rhox_dauphine_hkrul_mar_hellblaster",
+    --"rhox_dauphine_hkrul_mar_hellblaster",
+    --"rhox_dauphine_hkrul_mar_defenders",
+    "rhox_dauphine_hkrul_mar_black_caps",
     "rhox_dauphine_hkrul_mar_cleansing_flame",
     "rhox_dauphine_hkrul_mar_art_scheepskanon",
     "rhox_dauphine_hkrul_mar_inf_greatsword",
     "rhox_dauphine_hkrul_mar_inf_handgun",
     "rhox_dauphine_hkrul_mar_riverwarden",
     "rhox_dauphine_hkrul_privateers_dual_swords",
-    "rhox_dauphine_hkrul_privateers",
-    "rhox_dauphine_hkrul_mar_defenders",
-    "rhox_dauphine_hkrul_mar_black_caps"
+    "rhox_dauphine_hkrul_privateers"
 }
 
-
+--[[
 cm:add_first_tick_callback_new(
     function()  
         local faction = cm:get_faction(dauphine_faction)
@@ -51,14 +51,14 @@ cm:add_first_tick_callback_new(
         end
         if cm:get_faction(dauphine_faction):is_human() then
             rhox_mar_dauphine_trigger_mission()
-            rhox_dauphine_sea_monsters:setup_sea_monsters()
         end
+        rhox_dauphine_sea_monsters:setup_sea_monsters() --just summon them regardless of Dauphine is human or not
     end
 )
 
+]]
 
-
-local base_chance =4
+local base_chance =3
 
 core:add_listener(
     "rhox_dauphine_turn_start",

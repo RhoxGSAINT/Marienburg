@@ -32,6 +32,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_qual	mp_cap_unit_emp_inf_swordsmen_0	false
 			hkrul_mar_qual	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_qual	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
+			hkrul_mar_qual	dwf_wpn_handweapon	false
 			hkrul_burgher	emp_all	false
 			hkrul_burgher	emp_infantry	false
 			hkrul_burgher	emp_melee_infantry_tier_1	false
@@ -255,6 +256,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc11_cst_inf_sartosa_free_company_0	hkrul_mar_mundvard_human	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	hkrul_mar_thijs	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	rhox_mar_melee	false
+			wh2_dlc11_cst_inf_sartosa_free_company_0	wh2_dlc17_volkmar_focus_units	false
 			wh2_dlc11_cst_inf_sartosa_militia_0	emp_all	false
 			wh2_dlc11_cst_inf_sartosa_militia_0	emp_freecompany	false
 			wh2_dlc11_cst_inf_sartosa_militia_0	emp_infantry	false

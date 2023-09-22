@@ -1,29 +1,29 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_dauphine_mission.loc		
-missions_localised_title_rhox_mar_dauphine_2_0	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_0	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_1	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_1	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_2	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_2	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_3	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_3	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_4	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_4	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_5	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_5	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_6	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_6	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_2_7	Destroy Blue Pirate	false
-missions_localised_description_rhox_mar_dauphine_2_7	Destroy Blue Pirate	false
-missions_localised_mission_completed_text_rhox_mar_dauphine_2_7	Destroy Blue Pirate	false
-missions_localised_title_rhox_mar_dauphine_pirate_hunting_1	Pacify the pirates of the Abode of the Naga Queens	false
-missions_localised_description_rhox_mar_dauphine_pirate_hunting_1	PLACEHOLDER	false
-missions_localised_title_rhox_mar_dauphine_pirate_hunting_2	Pacify the pirates of the Melay	false
-missions_localised_description_rhox_mar_dauphine_pirate_hunting_2	PLACEHOLDER	false
-missions_localised_title_rhox_mar_dauphine_pirate_hunting_3	Pacify the pirates of the Honai	false
-missions_localised_description_rhox_mar_dauphine_pirate_hunting_3	PLACEHOLDER	false
-missions_localised_title_rhox_mar_dauphine_pirate_hunting_4	Pacify the pirates of the Mizushima	false
-missions_localised_description_rhox_mar_dauphine_pirate_hunting_4	PLACEHOLDER	false
-missions_localised_title_rhox_mar_dauphine_pirate_hunting_5	The Chaos Whale	false
-missions_localised_description_rhox_mar_dauphine_pirate_hunting_5	PLACEHOLDER	false
+missions_localised_title_rhox_mar_dauphine_2_0	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_0	Led by Dastan Coldeye, the legendary pirate who once famously challenged Lokhir Felheart, the Tyrants of the Black Ocean are a scourge for any ongoing vessel. Be it merchant or military. 	false
+missions_localised_title_rhox_mar_dauphine_2_1	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_1	A renegade crew of former Barak Varr fleetmen know vow to sink any vessel daring to do trade with their kin under the mountains.	false
+missions_localised_title_rhox_mar_dauphine_2_2	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_2	Although it appears unnatural, these Greenskin pirates are hardened and skilled sailors having cut down even the most noteable of Empiric Admirals.	false
+missions_localised_title_rhox_mar_dauphine_2_3	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_3	The Freebooters of Port Royale are the only pirates who dare venture the taverns of civilized cities. It is said only due to Gentlemen Jenkins’s charms they are allowed entry. Their permanent absence would benefit all, however	false
+missions_localised_title_rhox_mar_dauphine_2_4	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_4	A literal scourge for the Bretonnian coast, they Grey Point Scuttlers pass their tame preying on wandering merchants attempting to sail a long the wide stretched coast of the noble lands. Their demise would be a blessing to all afflicted. 	false
+missions_localised_title_rhox_mar_dauphine_2_5	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_5	The Terrors of the Dark Straits are led by infamous Captain Sisicco, who is rumoured to believe he still counts himself amongst the living. Nicknamed the ‘’Flying Tilean’’ due to his exceptional nautical ambush capabilities, he is a scourge for wayfaring ships. 	false
+missions_localised_title_rhox_mar_dauphine_2_6	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_6	The Churning Gulf Raiders are a vicious and particularly violent bunch. They’re methods are onorthodox and straight forward. Their impact on trade even more so.	false
+missions_localised_title_rhox_mar_dauphine_2_7	Manann's Hunt	false
+missions_localised_description_rhox_mar_dauphine_2_7	The Corsairs of the Spire are a ruthless band of mercenaries drawn to the unknown riches of the far East. They seek to unravel the secrets of the sunken city of Melay and unleash destruction on all that dare to step in their way.	false
+missions_localised_mission_completed_text_rhox_mar_dauphine_2_7	The trampled Corsairs	false
+missions_localised_title_rhox_mar_dauphine_pirate_hunting_1	Conquest of the Ulliogtha Outpost	false
+missions_localised_description_rhox_mar_dauphine_pirate_hunting_1	In order to fulfill Manann's will we require a foothold in these distant lands, a means to both obtain and send supplies from the great state of Marienburg. New ventures would surely appease the directorate, and will persuade them to send reinforcements for our conquest.	false
+missions_localised_title_rhox_mar_dauphine_pirate_hunting_2	Conquest of the Sunken City	false
+missions_localised_description_rhox_mar_dauphine_pirate_hunting_2	The Sunken City of Melay is as mysterious as it is valuable in the eyes of the Cult. Ancient tales claim it was build by Triton himself and acts as a gateway to the very depths of the ocean. The closest one could ever hope to get to Manann himself.	false
+missions_localised_title_rhox_mar_dauphine_pirate_hunting_3	Conquest of Honai	false
+missions_localised_description_rhox_mar_dauphine_pirate_hunting_3	In order to maintain a steady line of warriors from the City State of Marienburg it is vital the Cult upholds good relations with the directorate. Conquering lucrative ports would surely help to that aim.	false
+missions_localised_title_rhox_mar_dauphine_pirate_hunting_4	Conquest of Mizushima	false
+missions_localised_description_rhox_mar_dauphine_pirate_hunting_4	The people of Nippon seem to have mastered the art of trade. Their produce, networks and resources would be a powerful asset to bolster with for any director. Especially House den Euwe. By helping Marienburg obtain a foothold in the lands of Nippon we could gain their praise. 	false
+missions_localised_title_rhox_mar_dauphine_pirate_hunting_5	The Red Chaos Whale	false
+missions_localised_description_rhox_mar_dauphine_pirate_hunting_5	For the past nine years, since the last, ill-fated voyage of the templar warship, Manann’s Trident, of which Walblatt is the only survivor, he has hunted the great red Chaos whale that wrecked his ship and killed his crewmates. Walblatt, now captain of his own warship, Manann’s Scales, refuses to set foot ashore until he has enacted his revenge on that whale, his devotion commanding near-fanatical loyalty from his crew.	false

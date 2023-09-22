@@ -10,3 +10,5 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	ovn_spell_sea_fountain_of_life_upgraded	true	true	false	ovn_spell_sea_fountain_of_life_upgraded
 1	hkrul_manann_book	true	false	false	hkrul_manann_book
 1	hkrul_mar_rusty	false	false	true	hkrul_mar_rusty
+1	hkrul_water_augment	true	false	false	hkrul_water_augment
+1	hkrul_water_augment_1	true	false	false	hkrul_water_augment_1

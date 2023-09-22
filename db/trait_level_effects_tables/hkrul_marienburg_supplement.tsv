@@ -1,0 +1,5 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/hkrul_marienburg_supplement			
+hkrul_defeated_trait_dauphine	hkrul_mar_water_blast	character_to_character_own	1.0000
+hkrul_defeated_trait_fooger	wh_main_effect_economy_trade_tariff_mod	character_to_faction_unseen	5.0000
+hkrul_defeated_trait_fooger	wh_main_effect_region_resource_spices_production	character_to_region_own	5.0000

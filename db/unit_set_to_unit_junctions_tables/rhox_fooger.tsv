@@ -175,6 +175,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_fooger_wh_main_dwf_inf_hammerers	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
 			rhox_fooger_wh_main_dwf_inf_hammerers	rhox_mar_melee	false
 			hkrul_fooger	hkrul_fooger_dwarves	false
+			hkrul_fooger	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_fooger	emp_all	false
+			hkrul_fooger	emp_characters	false
 			hkrul_mar_fooger_qual	hkrul_fooger_dwarves	false
 			hkrul_mar_fooger_qual_great	hkrul_fooger_dwarves	false
 			rhox_fooger_wh_main_dwf_inf_miners_0	hkrul_fooger_dwarves	false
@@ -195,3 +198,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_caravan_master	dwarf_all_units_exclude_slayers	false
 			hkrul_fooger_caravan_master	dwf_all_units_characters	false
 			hkrul_fooger_caravan_master	dwf_characters	false
+			hkrul_mar_fooger_qual	dwf_wpn_handweapon	false

@@ -21,3 +21,5 @@ hkrul_manann_book	true	hkrul_manann_book		wh_type_augment_of_the_winds		wh_main_
 hkrul_mar_rusty	false	hkrul_mar_rusty		wh_type_area_of_hexes		wh_main_anc_group_common	true	false	passive		false
 hkrul_mar_smith	true	hkrul_mar_smith		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
 hkrul_fooger_sword	true	hkrul_mar_key		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false
+hkrul_water_augment	false	hkrul_water_augment_2		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_water_augment_1	false	hkrul_water_augment		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
