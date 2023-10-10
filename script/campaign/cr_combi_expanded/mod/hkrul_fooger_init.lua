@@ -6,7 +6,9 @@ local function rhox_fooger_init_setting()
 
 	local faction = cm:get_faction(fooger_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
-
+    
+    cm:transfer_region_to_faction("cr_combi_region_ind_1_3",fooger_faction)
+    
     local x = 1131
     local y = 392
     
@@ -56,7 +58,7 @@ local function rhox_fooger_init_setting()
     cm:force_declare_war(fooger_faction, "cr_ogr_deathtoll", false, false)
     cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
     
-    cm:transfer_region_to_faction("cr_combi_region_ind_1_3",fooger_faction)
+    
     local ind_region = cm:get_region("cr_combi_region_ind_1_3")
     local ind_region_cqi = ind_region:cqi()
     cm:heal_garrison(ind_region_cqi)
@@ -66,9 +68,32 @@ local function rhox_fooger_init_setting()
     cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     
+    
+    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") then --they're killing the starting enemy leader, which should be the puchbag we have to create one
+        cm:create_force_with_general(
+        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+        "cr_ogr_deathtoll",
+        "wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_maneaters_0,wh3_main_ogr_inf_maneaters_1",
+        "cr_combi_region_khuresh_4_1",
+        1146,
+        384,
+        "general",
+        "wh3_main_ogr_tyrant",
+        "",
+        "",
+        "",
+        "",
+        false,
+        function(cqi)
+        end);
+    end
+    
     cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_ind_1_3")
     cm:make_region_visible_in_shroud("ovn_mar_house_fooger", "wh3_main_combi_region_marienburg")
     cm:make_diplomacy_available("ovn_mar_house_fooger", "wh_main_emp_marienburg")
+    
+    
+    
     
     cm:callback(
         function()
@@ -95,7 +120,7 @@ end
 
 
 
---[[
+
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
@@ -112,4 +137,3 @@ cm:add_first_tick_callback(
         end
 	end
 )
-]]

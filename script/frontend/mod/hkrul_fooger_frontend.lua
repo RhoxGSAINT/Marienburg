@@ -1,4 +1,3 @@
---[[
 core:add_ui_created_callback(
     function(context)
         if vfs.exists("script/frontend/mod/mixer_frontend.lua")then
@@ -11,4 +10,3 @@ core:add_ui_created_callback(
         end        
     end
 )
-]]

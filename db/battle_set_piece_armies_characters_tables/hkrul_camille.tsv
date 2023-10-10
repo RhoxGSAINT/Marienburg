@@ -2,3 +2,5 @@ character_name	character_level	forename	magic_lore	num_men	surname	unit_type	age
 #battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_camille												
 hkrul_dauphine	1	2147343937	ovn_lore_sea	100	2147343940	hkrul_dauphine	general	hkrul_dauphine	ui/portraits/portholes/wh_main_emp_empire/hkrul_dauphine.png	222250352		true
 ovn_mar_cha_wizard_sea_0	1	2147355082	ovn_lore_sea	100	2147357617	ovn_mar_cha_wizard_sea_0	wizard	mar_sea_wizard	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	222250355		true
+chaos_whale_kou	1	2147355082		100	2147357617	chaos_whale_cst_kou	general	chaos_whale_kou	ui/portraits/portholes/no_culture/chaos_whale_kou.png	222250357		true
+hkrul_arbatt	1	2147355082		100	2147357617	hkrul_arbatt	champion	hkrul_arbatt	ui/portraits/portholes/no_culture/hkrul_arbatt.png	222250359		true

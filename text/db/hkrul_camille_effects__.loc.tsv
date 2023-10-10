@@ -13,6 +13,7 @@ effects_description_hkrul_force_stat_armour_defending_sea	Armour: %+n when defen
 effects_description_hkrul_stat_bvl_sea	Bonus vs large: + %n when fighting at sea	false
 effects_description_rhox_dauphine_mission_dummy	Triggers a Cult of Manann dilemma to either unleash Manann's Wrath or hunt a rogue pirate faction	false
 effects_description_hkrul_mar_water_blast	Ability: "Roiling Wave''	false
+effects_description_hkrul_dauphine_crown	Ability: "Crown of Manann''	false
 effects_description_hkrul_xp_gain_manann	Unit experience gain: %+n% for Cult of Manann units	false
 effects_description_hkrul_melee_attack_manann	Melee Attack: %+n for Cult of Manann units	false
 effects_description_hkrul_dauphine_empire	Arranges a military alliance with [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]]Reikland	false
@@ -54,6 +55,7 @@ effects_description_hkrul_unbreakable_odrall	Attribute: Unbreakable for Knights 
 effects_description_rhox_dauphine_effect_ability_effect_range_grand_trident	Effect range: %+n% for: "Grand Trident of Manann"	false
 effects_description_rhox_dauphine_main_effect_ability_effect_range_grand_shield	Effect range: %+n% for: "Grand Shield of Manann"	false
 effects_description_rhox_dauphine_captain_appear_dummy	The Legendary Captain of the Knights Mariner, Aber Walblatt will join your ranks	false
+effects_description_rhox_dauphine_captain_appear_dummy2	Warning: Facing the Chaos Whale without revealing it's weaknesses through quests will toughen the battle	false
 effects_description_hkrul_xp_gain_fooger	Unit experience gain: %+n% for migrated dwarf units	false
 effects_description_hkrul_melee_attack_fooger	Melee Defence: %+n for migrated dwarf units	false
 effects_description_hkrul_upkeep_fooger	Upkeep: %+n% for migrated dwarf units	false
@@ -65,4 +67,6 @@ effects_description_hkrul_speed_fanatic	Speed: %+n% for Manann's Fanatics (Flage
 effects_description_rhox_mar_effect_force_stat_melee_defence_at_sea	Melee Defence: + %n when fighting at sea	false
 effects_description_rhox_mar_effect_force_special_stance_dauphine_dummy	Full Speed stance is upgraded to "Manann's Blessing" which increases campaign map navigation range at sea	false
 effects_description_hkrul_turns_fanatics_manann	Global recruitment duration: %+n turns for Manann's Fanatics (Flagellants)	true
-effects_description_effect_bundle_marienburg_reinforce_dummy	Limited Roster: The Cult relies on reinforcements from Marienburg and may unlock these by conquering certain ports	false
+effects_description_effect_bundle_marienburg_reinforce_dummy	Limited Roster: The Cult relies on Marienburg reinforcements to unlock a full roster.	false
+effects_description_hkrul_arbatt_scales	Ability: "Scales of Manann''	false
+effects_description_hkrul_arbatt_trident	Ability: "Walblatt's Trident''	false

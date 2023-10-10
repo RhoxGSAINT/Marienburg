@@ -20,6 +20,13 @@ local function rhox_mar_dauphine_trigger_mission()
         mm:add_payload("effect_bundle{bundle_key ".. mission_key  ..";turns 0;}")
         mm:trigger()
     end
+    local mm = mission_manager:new(dauphine_faction, "rhox_mar_whale_hunting_1")
+    mm:add_new_objective("KILL_X_ENTITIES")
+    mm:add_condition("total 1000")
+    mm:add_payload("money 1000")
+    mm:add_payload("text_display rhox_dauphine_whale_hunt");
+    mm:add_payload("text_display rhox_dauphine_whale_weak_1");
+    mm:trigger()
 end
 
 
@@ -41,7 +48,7 @@ local rhox_dauphine_reinforcements_units={
     "rhox_dauphine_hkrul_privateers"
 }
 
---[[
+
 cm:add_first_tick_callback_new(
     function()  
         local faction = cm:get_faction(dauphine_faction)
@@ -53,10 +60,12 @@ cm:add_first_tick_callback_new(
             rhox_mar_dauphine_trigger_mission()
         end
         rhox_dauphine_sea_monsters:setup_sea_monsters() --just summon them regardless of Dauphine is human or not
+        
+        
     end
 )
 
-]]
+
 
 local base_chance =3
 

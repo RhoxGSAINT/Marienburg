@@ -17,3 +17,8 @@ rhox_mar_dauphine_pirate_hunting_4			faction	1	cst_piece_of_eight.png	true	false
 rhox_mar_dauphine_pirate_hunting_5			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_mar_bundle_stance_navy_mananns_blessing	Increases this fleet's campaign map navigation range.	Stance: Manann's Blessing	force	1	icon_effects_double_time.png	true	false	true
 rhox_dauphine_blue_pirate_coop			faction	1	diplomacy.png	true	false	true
+rhox_mar_dauphine_whale_hunting_1			character	1	cst_harpoon.png	true	true	true
+rhox_mar_dauphine_whale_hunting_2			character	1	cst_harpoon.png	true	true	true
+rhox_mar_dauphine_whale_hunting_3			character	1	cst_harpoon.png	true	true	true
+rhox_mar_dauphine_whale_hunting_4			character	1	cst_harpoon.png	true	true	true
+rhox_mar_dauphine_whale_hunting_5			character	1	cst_harpoon.png	true	true	true

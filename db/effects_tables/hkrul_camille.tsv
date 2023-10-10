@@ -1,6 +1,7 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_camille					
 hkrul_enable_immortality		0		campaign	true
+hkrul_dauphine_crown	item_ability.png	300	item_ability.png	battle	true
 hkrul_dauphine_helm	item_ability.png	300	item_ability.png	battle	true
 hkrul_dauphine_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_manann_book	item_ability.png	300	item_ability.png	battle	true
@@ -56,6 +57,7 @@ hkrul_unbreakable_odrall	attribute_unbreakable.png	320	attribute_unbreakable.png
 rhox_dauphine_effect_ability_effect_range_grand_trident	magic_character.png	60	magic_character.png	battle	true
 rhox_dauphine_main_effect_ability_effect_range_grand_shield	magic_character.png	60	magic_character.png	battle	true
 rhox_dauphine_captain_appear_dummy	captain.png	104	captain.png	campaign	true
+rhox_dauphine_captain_appear_dummy2	casualties.png	105	casualties.png	campaign	false
 hkrul_recruit_rank_fanatic	experience.png	999	experience.png	campaign	true
 hkrul_charge_manann_fanatic	charge.png	999	charge.png	battle	true
 hkrul_upkeep_fanatic	military_spending.png	101	military_spending.png	campaign	false
@@ -64,3 +66,5 @@ hkrul_speed_fanatic	battle_movement.png	421	battle_movement.png	battle	true
 rhox_mar_effect_force_stat_melee_defence_at_sea	defence.png	450	defence.png	battle	true
 rhox_mar_effect_force_special_stance_dauphine_dummy	campaign_movement.png	125	campaign_movement.png	campaign	true
 hkrul_turns_fanatics_manann	turns.png	150	turns.png	campaign	false
+hkrul_arbatt_scales	item_ability.png	300	item_ability.png	battle	true
+hkrul_arbatt_trident	item_ability.png	300	item_ability.png	battle	true

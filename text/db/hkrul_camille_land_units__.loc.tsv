@@ -19,3 +19,6 @@ unit_description_short_texts_text_hkrul_manann_flagellant	These men are often to
 land_units_onscreen_name_hkrul_fooger_caravan_master	Dwarf Caravan Master	false
 land_units_onscreen_name_ovn_mar_mon_augas_fish_summoned_1	Ancient Augus	true
 unit_description_short_texts_text_ovn_mar_mon_augas_fish_summoned_1	Considered the alma mater of a strange fish that populates the dark waters of the World, the Augus Fish are the Patrons of Lileath.	true
+land_units_onscreen_name_chaos_whale_cst_kou	The Red Chaos Whale	false
+land_units_onscreen_name_hkrul_arbatt	Captain Aber Walblatt	false
+unit_description_short_texts_text_hkrul_chaos_whale	The legendary Red Chaos Whale haunts the seven seas tirelessly, serving Stromfel for eternity.	false

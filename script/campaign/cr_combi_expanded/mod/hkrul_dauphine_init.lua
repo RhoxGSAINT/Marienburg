@@ -7,7 +7,9 @@ local function rhox_dauphine_init_setting()
 
 	local faction = cm:get_faction(dauphine_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
-
+    
+    cm:transfer_region_to_faction("cr_combi_region_khuresh_4_1",dauphine_faction)
+    
     local x = 1230
     local y = 190
     
@@ -32,6 +34,17 @@ local function rhox_dauphine_init_setting()
         local surname =  common:get_localised_string("names_name_6670700850")
         cm:change_character_custom_name(character, forename, surname,"","") --for emp as they don't have this name group
         
+        if faction:is_human() ==false then
+            cm:force_add_ancillary(character, "hkrul_dauphine_crown" ,true, true)
+            local x, y = cm:find_valid_spawn_location_for_character_from_character(dauphine_faction, "character_cqi:"..cqi, true)
+            cm:spawn_agent_at_position(faction, x, y, "champion", "hkrul_arbatt") --you can't recruit him, so he is a unique one.
+            local spawned_agent = cm:get_most_recently_created_character_of_type(faction, "champion", "hkrul_arbatt")
+            if spawned_agent then 
+                cm:replenish_action_points(cm:char_lookup_str(spawned_agent:cqi())) --restore action point
+                local forename =  common:get_localised_string("land_units_onscreen_name_hkrul_arbatt")
+                cm:change_character_custom_name(spawned_agent, forename, "","","")
+            end
+        end
     end);
     cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
     cm:force_declare_war(dauphine_faction, "cr_kho_servants_of_the_blood_nagas", false, false)
@@ -49,27 +62,41 @@ local function rhox_dauphine_init_setting()
     cm:make_region_visible_in_shroud("ovn_mar_cult_of_manann", "wh3_main_combi_region_marienburg")
     cm:make_diplomacy_available("ovn_mar_cult_of_manann", "wh_main_emp_marienburg")
     
-    if faction:is_human() then --teleport the Khorne guy when the dauphine is human
-    --[[
-        cm:callback(
-            function()
-                --local enemy_x, enemy_y = cm:find_valid_spawn_location_for_character_from_position("cr_kho_servants_of_the_blood_nagas", 1230, 240, false, 5);
-                local enemy_leader = cm:get_faction("cr_kho_servants_of_the_blood_nagas"):faction_leader()
-                cm:teleport_to(cm:char_lookup_str(enemy_leader), 1245, 226)
-            end,
-            5
-        )
-        --]]
+    if faction:is_human() then 
         local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
         local dauphine_settlement = khuresh_region:settlement()
+        local slot_list = dauphine_settlement:slot_list()
+        for i = 2, slot_list:num_items() - 1 do--2 because 0 is main and 1 is port
+            local slot = slot_list:item_at(i)
+            cm:instantly_dismantle_building_in_region(slot)
+        end
         cm:instantly_set_settlement_primary_slot_level(dauphine_settlement , 1) --reduce the starting settlement level for the human
-        --cm:instant_set_building_health_percent("cr_combi_region_khuresh_4_1", "wh3_main_kho_settlement_major", 1)--for easy conquer
-    else
+        
     end
-    cm:transfer_region_to_faction("cr_combi_region_khuresh_4_1",dauphine_faction)
+    
     local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
     local khuresh_region_cqi = khuresh_region:cqi()
     cm:heal_garrison(khuresh_region_cqi)
+    
+    
+    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") then --they're killing the starting enemy leader, which should be the puchbag we have to create one
+        cm:create_force_with_general(
+        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+        "cr_kho_servants_of_the_blood_nagas",
+        "wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_bloodletters_0,wh3_main_kho_mon_khornataurs_0",
+        "cr_combi_region_khuresh_4_1",
+        1230,
+        200,
+        "general",
+        "wh3_main_kho_exalted_bloodthirster",
+        "",
+        "",
+        "",
+        "",
+        false,
+        function(cqi)
+        end);
+    end
     
     
     cm:callback(
@@ -91,7 +118,7 @@ end
 
 
 
---[[
+
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
@@ -120,4 +147,3 @@ cm:add_first_tick_callback(
         end
 	end
 )
-]]

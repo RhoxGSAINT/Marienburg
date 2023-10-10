@@ -3,3 +3,6 @@ art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype
 hkrul_dauphine	general				false	true	hkrul_dauphine	1.0000
 ovn_art_set_mar_sea_wizard_01	wizard				false	true	mar_sea_wizard	1.0000
 ovn_art_set_mar_sea_wizard_02	wizard				false	true	mar_sea_wizard	1.0000
+chaos_whale_kou	general				false	true	chaos_whale_kou	1.0000
+chaos_whale_kou_female	general				false	false	chaos_whale_kou	1.0000
+hkrul_arbatt	champion				false	true	hkrul_arbatt	1.0000

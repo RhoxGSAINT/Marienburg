@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="ship" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\kouwhale1\chs\chs_whale_kou\chaos_whale_24_9_23.wsmodel" >
+			<META_DATA>audio_entity_type:wh3_tze_screamer</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_melee_weapon_type:claw</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

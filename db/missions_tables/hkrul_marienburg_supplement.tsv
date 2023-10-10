@@ -14,3 +14,8 @@ rhox_mar_dauphine_pirate_hunting_2	SCRIPTED			emp/generic	rom_event_mission.png	
 rhox_mar_dauphine_pirate_hunting_3	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
 rhox_mar_dauphine_pirate_hunting_4	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
 rhox_mar_dauphine_pirate_hunting_5	SCRIPTED			emp/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_mar_whale_hunting_1	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_whale_hunting_2	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_whale_hunting_3	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_whale_hunting_4	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_mar_whale_hunting_5	SCRIPTED			emp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false

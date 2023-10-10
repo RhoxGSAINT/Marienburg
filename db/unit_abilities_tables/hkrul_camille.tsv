@@ -23,3 +23,6 @@ hkrul_mar_smith	true	hkrul_mar_smith		wh_type_hex		wh_main_anc_group_uncommon	tr
 hkrul_fooger_sword	true	hkrul_mar_key		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false
 hkrul_water_augment	false	hkrul_water_augment_2		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
 hkrul_water_augment_1	false	hkrul_water_augment		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_dauphine_crown	true	hkrul_dauphine_crown		wh_type_area_of_augments		wh_main_anc_group_unique	true	false	active		false
+hkrul_arbatt_scales	true	hkrul_albatt_scales		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_arbatt_trident	true	hkrul_albatt_trident		wh_type_augment		wh_main_anc_group_unique	true	false	active		false

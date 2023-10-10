@@ -1,0 +1,26 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_arbatt							
+hkrul_skill_node_arbatt_self_02	hkrul_skill_node_arbatt_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_03	hkrul_skill_node_arbatt_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_04	hkrul_skill_node_arbatt_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_05	hkrul_skill_node_arbatt_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_06	hkrul_skill_node_arbatt_self_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_06	hkrul_skill_node_arbatt_self_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_06	hkrul_skill_node_arbatt_self_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_06	hkrul_skill_node_arbatt_self_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_07	hkrul_skill_node_arbatt_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_08	hkrul_skill_node_arbatt_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_09	hkrul_skill_node_arbatt_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_10	hkrul_skill_node_arbatt_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_self_11	hkrul_skill_node_arbatt_self_07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_11	hkrul_skill_node_arbatt_self_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_11	hkrul_skill_node_arbatt_self_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_self_11	hkrul_skill_node_arbatt_self_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_unique_07	hkrul_skill_node_arbatt_unique_06	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_unique_08	hkrul_skill_node_arbatt_unique_06	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_unique_09	hkrul_skill_node_arbatt_unique_06	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_unique_10	hkrul_skill_node_arbatt_unique_06	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_arbatt_unique_11	hkrul_skill_node_arbatt_unique_07	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_unique_11	hkrul_skill_node_arbatt_unique_08	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_unique_11	hkrul_skill_node_arbatt_unique_09	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_arbatt_unique_11	hkrul_skill_node_arbatt_unique_10	0	0	0	0.0000	0.0000	SUBSET_REQUIRED

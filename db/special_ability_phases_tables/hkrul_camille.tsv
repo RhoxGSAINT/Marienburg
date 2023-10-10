@@ -11,3 +11,6 @@ hkrul_manann_book	36.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.000
 hkrul_mar_rusty	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_debuff_defence_passive		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_water_augment	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_water_augment_1	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_dauphine_crown	40.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_arbatt_scales	25.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_arbatt_trident	25.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000

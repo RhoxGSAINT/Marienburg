@@ -199,3 +199,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_caravan_master	dwf_all_units_characters	false
 			hkrul_fooger_caravan_master	dwf_characters	false
 			hkrul_mar_fooger_qual	dwf_wpn_handweapon	false
+			hkrul_arbatt	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_arbatt	emp_all	false
+			hkrul_arbatt	emp_characters	false

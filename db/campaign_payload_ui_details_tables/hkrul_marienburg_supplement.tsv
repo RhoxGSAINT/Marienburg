@@ -17,3 +17,10 @@ rhox_dauphine_blue_pirate_second_4	ui/flags/wh2_dlc11_cst_rogue_grey_point_scutt
 rhox_dauphine_blue_pirate_second_5	ui/flags/wh2_dlc11_cst_rogue_terrors_of_the_dark_straights/mon_24.png	default	0
 rhox_dauphine_blue_pirate_second_6	ui/flags/wh2_dlc11_cst_rogue_the_churning_gulf_raiders/mon_24.png	default	0
 rhox_dauphine_blue_pirate_second_7	ui/flags/wh2_dlc11_cst_harpoon_the_sunken_land_corsairs/mon_24.png	default	0
+rhox_dauphine_whale_hunt	ui/campaign ui/effect_bundles/cst_harpoon.png	default	0
+rhox_dauphine_whale_hunt_final	ui/campaign ui/effect_bundles/cst_harpoon.png	default	0
+rhox_dauphine_whale_weak_1	ui/campaign ui/effect_bundles/effect_bundle_hunt_continue.png	default	0
+rhox_dauphine_whale_weak_2	ui/campaign ui/effect_bundles/effect_bundle_hunt_continue.png	default	0
+rhox_dauphine_whale_weak_3	ui/campaign ui/effect_bundles/effect_bundle_hunt_continue.png	default	0
+rhox_dauphine_whale_weak_4	ui/campaign ui/effect_bundles/effect_bundle_hunt_continue.png	default	0
+rhox_dauphine_whale_weak_5	ui/campaign ui/effect_bundles/effect_bundle_hunt_continue.png	default	0
