@@ -51,3 +51,4 @@ hkrul_anchor	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0
 hkrul_message	30.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_bullet	30.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_whipped	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale_passive		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_anchor_out	30.0000	positive		false	true	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000

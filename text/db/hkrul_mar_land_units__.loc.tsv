@@ -30,7 +30,7 @@ land_units_onscreen_name_hkrul_mar_riverwarden_ror	Schilder's Toll Collectors (R
 land_units_onscreen_name_hkrul_mar_hellblaster	Helblaster Volley Guns	true
 land_units_onscreen_name_hkrul_mar_qual	Migrated Dwarf Warriors	true
 land_units_onscreen_name_hkrul_mar_qual_great	Migrated Quarrellers (Great Weapons)	true
-land_units_onscreen_name_hkrul_mar_knights_griffon	Knights Mariner (Griffon Riders)	true
+land_units_onscreen_name_hkrul_mar_knights_griffon	Order of the Albatross (Griffon Riders)	true
 land_units_onscreen_name_hkrul_hendrik_pegasus	Simon Goudenkruin	true
 land_units_onscreen_name_hkrul_mar_bordermen_ror	The Bordermen (Outriders - Grenade Launcher)	false
 land_units_onscreen_name_hkrul_mar_egmond	Egmond den Euwe	false
@@ -66,4 +66,5 @@ land_units_onscreen_name_hkrul_harb	Odvaal van den Huister	true
 land_units_onscreen_name_hkrul_lector_manann_mount	High Priest of Manann	true
 land_units_onscreen_name_hkrul_lector_manann	High Priest of Manann	true
 land_units_onscreen_name_hkrul_slaver	Master Slavetrader	true
-land_units_onscreen_name_ovn_mar_inf_knights_mariner_0	Dubnitz's Disciples (Knights Mariner)	true
+land_units_onscreen_name_ovn_mar_inf_knights_mariner_0	High Temple Guard (Order of the Albatross)	true
+land_units_onscreen_name_hkrul_mar_knights_mariner	Knights Mariner (Swordsmen)	true

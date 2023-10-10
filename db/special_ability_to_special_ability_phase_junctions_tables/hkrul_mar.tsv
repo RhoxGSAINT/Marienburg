@@ -54,3 +54,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_bullet	true	false	false	hkrul_bullet
 1	hkrul_whipped	true	true	false	hkrul_whipped
 1	hkrul_whale	true	false	false	hkrul_whale
+1	hkrul_anchor_out	true	false	false	hkrul_anchor_out

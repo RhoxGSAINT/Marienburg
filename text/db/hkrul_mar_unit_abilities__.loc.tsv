@@ -198,3 +198,5 @@ unit_abilities_onscreen_name_hkrul_whipped	Whipped in Line	false
 unit_abilities_tooltip_text_hkrul_whipped	The Slavemaster flexes his whip, instilling fear in those who have tasted it's fury.	false
 unit_abilities_onscreen_name_hkrul_whale	Blessing of the Whale	false
 unit_abilities_tooltip_text_hkrul_whale	A fabled story among Marienburgers is that of Captain Erkart Dubnitz wrestling a beluga whale, who he not only bested but befriended. It is said Erkart was blessed ever since.	false
+unit_abilities_onscreen_name_hkrul_anchor_out	Manann's Anchor	false
+unit_abilities_tooltip_text_hkrul_anchor_out	It is said that anchors blessed by Manann at the High Temple have the power to dock ships even in the most hazardous of storms.	false

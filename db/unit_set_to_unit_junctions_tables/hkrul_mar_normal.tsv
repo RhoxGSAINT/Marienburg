@@ -334,3 +334,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_privateers	hkrul_mar_mundvard_human	false
 			hkrul_privateers	rhox_mar_ranged	false
 			hkrul_privateers	hkrul_mar_thijs	false
+			hkrul_mar_knights_mariner	emp_all	false
+			hkrul_mar_knights_mariner	emp_infantry	false
+			hkrul_mar_knights_mariner	emp_melee_infantry_tier_1	false
+			hkrul_mar_knights_mariner	emp_state_troops	false
+			hkrul_mar_knights_mariner	emp_swords	false
+			hkrul_mar_knights_mariner	mp_cap_unit_emp_inf_swordsmen_0	false
+			hkrul_mar_knights_mariner	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_knights_mariner	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
+			hkrul_mar_knights_mariner	wh2_dlc13_emp_elector_count_reward_units	false
