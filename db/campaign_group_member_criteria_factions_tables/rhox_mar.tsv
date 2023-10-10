@@ -65,3 +65,4 @@ rhox_mar_non_mar_trade_volkmar	ACTOR	wh3_main_emp_cult_of_sigmar
 rhox_mar_trade_marienburg	ACTOR	wh_main_emp_marienburg
 rhox_mar_trade_egmond	ACTOR	ovn_mar_house_den_euwe
 rhox_mar_trade_mundbard	ACTOR	ovn_mar_the_wasteland
+wh_main_event_feed_mundvard	ACTOR	ovn_mar_the_wasteland

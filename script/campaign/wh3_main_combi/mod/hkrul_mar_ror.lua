@@ -198,7 +198,6 @@ local function add_hkrul_mar_ror()
     cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg", "rhox_mar_talons_lock")
     cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_den_euwe", "rhox_mar_talons_lock")
     
-    cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "wh_main_emp_marienburg", "rhox_mar_carrier_lock")
     cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_den_euwe", "rhox_mar_carrier_lock")
     
     

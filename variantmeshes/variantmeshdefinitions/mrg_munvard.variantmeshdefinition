@@ -1,9 +1,9 @@
 <VARIANT_MESH>
 	<SLOT name="head">
-		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_mundvard_the_cruel/head/mar_mundvard_the_cruel_head_01.rigid_model_v2"/>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\mar\mar_mundvard_the_cruel\head\mar_mundvard_the_cruel_head_01.wsmodel"/>
 	</SLOT>
 	<SLOT name="body">
-		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/mar/mar_mundvard_the_cruel/mar_mundvard_the_cruel_body_01.rigid_model_v2"/>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\mar\mar_mundvard_the_cruel\mar_mundvard_the_cruel_body_01.wsmodel"/>
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
