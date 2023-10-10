@@ -35,7 +35,8 @@ local function rhox_dauphine_init_setting()
         cm:change_character_custom_name(character, forename, surname,"","") --for emp as they don't have this name group
         
         if faction:is_human() ==false then
-            cm:force_add_ancillary(character, "hkrul_dauphine_crown" ,true, true)
+            cm:force_add_ancillary(character, "hkrul_dauphine_crown" ,true, false)
+            --cm:add_ancillary_to_faction(faction, "hkrul_dauphine_crown", true)
             local x, y = cm:find_valid_spawn_location_for_character_from_character(dauphine_faction, "character_cqi:"..cqi, true)
             cm:spawn_agent_at_position(faction, x, y, "champion", "hkrul_arbatt") --you can't recruit him, so he is a unique one.
             local spawned_agent = cm:get_most_recently_created_character_of_type(faction, "champion", "hkrul_arbatt")

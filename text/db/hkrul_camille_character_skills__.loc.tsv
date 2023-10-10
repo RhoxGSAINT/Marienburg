@@ -78,3 +78,7 @@ character_skills_localised_description_hkrul_arbatt_special_1_4	Placeholder Text
 character_skills_localised_name_hkrul_arbatt_special_1_4	Experienced Sailor	true
 character_skills_localised_description_hkrul_arbatt_special_1_5	Placeholder Text	true
 character_skills_localised_name_hkrul_arbatt_special_1_5	The Downed Whale	true
+character_skills_localised_description_hkrul_arbatt_horse	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	false
+character_skills_localised_name_hkrul_arbatt_horse	Barded Warhorse	false
+character_skills_localised_description_hkrul_arbatt_pegasus	"Make sure those saddle straps are tight, boy, this isn't like falling off a normal horse."	false
+character_skills_localised_name_hkrul_arbatt_pegasus	Imperial Pegasus	false

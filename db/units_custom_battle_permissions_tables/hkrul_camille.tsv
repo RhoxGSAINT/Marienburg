@@ -8,5 +8,9 @@ rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_0	true	true	ui/portraits/portho
 rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_1	true	true	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	ovn_uniform_mar_sea_wizard_01	ovn_mar_cha_wizard_sea_0	false		false
 rhox_mar_marienburg	false	ovn_mar_cha_wizard_sea_2	true	true	ui/portraits/portholes/wh_main_emp_empire/ovn_mar_ch_sea_wizard.png	ovn_uniform_mar_sea_wizard_01	ovn_mar_cha_wizard_sea_0	false		false
 rhox_mar_marienburg	false	hkrul_manann_flagellant	false	true				false		false
-wh2_dlc11_cst_the_drowned	true	chaos_whale_cst_kou	true	true	ui/portraits/portholes/no_culture/chaos_whale_kou.png	chaos_whale_kou	chaos_whale_kou	true		false
+rhox_rogue_spirits_of_stromfel	true	chaos_whale_cst_kou	true	true	ui/portraits/portholes/no_culture/chaos_whale_kou.png	chaos_whale_kou	chaos_whale_kou	true		false
+rhox_rogue_spirits_of_stromfel	false	ovn_mar_mon_augas_fish_0	true	true				false		false
+rhox_rogue_spirits_of_stromfel	false	ovn_mar_mon_augas_fish_1	true	true				false		false
 rhox_mar_marienburg	false	hkrul_arbatt	true	true	ui/portraits/portholes/no_culture/hkrul_arbatt.png	hkrul_arbatt	hkrul_arbatt	false		false
+rhox_mar_marienburg	false	hkrul_arbatt_horse	true	true	ui/portraits/portholes/no_culture/hkrul_arbatt.png	hkrul_arbatt	hkrul_arbatt	false		false
+rhox_mar_marienburg	false	hkrul_arbatt_pegasus	true	true	ui/portraits/portholes/no_culture/hkrul_arbatt.png	hkrul_arbatt	hkrul_arbatt	false		false

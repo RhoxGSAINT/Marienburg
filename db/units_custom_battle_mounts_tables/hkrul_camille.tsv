@@ -5,3 +5,5 @@ ovn_mar_cha_wizard_sea_0	ovn_mar_cha_wizard_sea_2	ui/campaign ui/mounts/mount_ba
 hkrul_dauphine	hkrul_dauphine_1	ui/campaign ui/mounts/mount_barded_warhorse.png
 hkrul_dauphine	hkrul_dauphine_2	ui/campaign ui/mounts/mount_imperial_griffon.png
 hkrul_dauphine	hkrul_dauphine_3	ui/campaign ui/mounts/hkrul_mount_manann.png
+hkrul_arbatt	hkrul_arbatt_horse	ui/campaign ui/mounts/mount_barded_warhorse.png
+hkrul_arbatt	hkrul_arbatt_pegasus	ui/campaign ui/mounts/mount_pegasus.png

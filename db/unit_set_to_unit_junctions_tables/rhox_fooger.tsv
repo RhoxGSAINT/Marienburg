@@ -202,3 +202,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_arbatt	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_arbatt	emp_all	false
 			hkrul_arbatt	emp_characters	false
+			hkrul_arbatt_horse	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_arbatt_horse	emp_all	false
+			hkrul_arbatt_horse	emp_characters	false
+			hkrul_arbatt_pegasus	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_arbatt_pegasus	emp_all	false
+			hkrul_arbatt_pegasus	emp_characters	false

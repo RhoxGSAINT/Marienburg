@@ -11,3 +11,5 @@ ovn_anc_mount_mar_sea_wizard_barded_warhorse	wh_main_anc_mount_barded_warhorse	.
 hkrul_fooger_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_sc_empire
 hkrul_dauphine_crown	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	true	all
 hkrul_arbatt_trident	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_sc_empire
+hkrul_arbatt_horse	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_arbatt_horse		1	0		false	false	true	anc_set_exclusive_sc_empire
+hkrul_arbatt_pegasus	wh_main_anc_mount_imperial_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_arbatt_pegasus		1	0		false	false	true	anc_set_exclusive_sc_empire
