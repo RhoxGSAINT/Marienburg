@@ -22,3 +22,4 @@ rhox_mar_dauphine_whale_hunting_2			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_3			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_4			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_5			character	1	cst_harpoon.png	true	true	true
+rhox_chaos_whale_faction_trait			faction	1	hkrul_effect_pirate.png	true	false	true

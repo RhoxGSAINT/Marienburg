@@ -2,3 +2,4 @@ agent_subtype	effect_bundle
 #faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/rhox_dauphine	
 hkrul_dauphine	rhox_dauphine_faction_trait
 hkrul_fooger	rhox_fooger_faction_trait
+chaos_whale_kou	rhox_chaos_whale_faction_trait

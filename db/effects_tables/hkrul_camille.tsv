@@ -68,3 +68,4 @@ rhox_mar_effect_force_special_stance_dauphine_dummy	campaign_movement.png	125	ca
 hkrul_turns_fanatics_manann	turns.png	150	turns.png	campaign	false
 hkrul_arbatt_scales	item_ability.png	300	item_ability.png	battle	true
 hkrul_arbatt_trident	item_ability.png	300	item_ability.png	battle	true
+rhox_mar_chaos_whale_playable_warning_dummy	diplomacy.png	800	diplomacy.png	campaign	false

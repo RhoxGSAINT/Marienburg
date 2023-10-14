@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/dae_penguin_daemon_land_units.loc		
+land_units_concealed_name_urg_dae_inf_sphenisci_daemon		false
+land_units_onscreen_name_urg_dae_inf_sphenisci_daemon	Sphenisci Daemons	false

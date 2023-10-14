@@ -56,7 +56,7 @@ function rhox_dauphine_sea_monsters:setup_sea_monsters()
             cm:create_force_with_general(
                 -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
                 pirate.faction_key,
-                "ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_1,ovn_mar_mon_augas_fish_1,ovn_mar_mon_augas_fish_1",
+                "urg_dae_inf_sphenisci_daemon,urg_kho_inf_sphenisci_daemon,urg_nur_inf_sphenisci_daemon,urg_sla_inf_sphenisci_daemon,urg_tze_inf_sphenisci_daemon,urg_dae_inf_sphenisci_daemon,urg_kho_inf_sphenisci_daemon,urg_nur_inf_sphenisci_daemon,urg_sla_inf_sphenisci_daemon,urg_tze_inf_sphenisci_daemon,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_1,ovn_mar_mon_augas_fish_1",
                 "cr_combi_region_khuresh_4_1",
                 pirate.spawn_pos.x,
                 pirate.spawn_pos.y,
