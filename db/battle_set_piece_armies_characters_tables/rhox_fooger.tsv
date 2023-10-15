@@ -1,4 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/rhox_fooger												
-hkrul_fooger	1	6670700853		100	6670700852	hkrul_fooger	general	hkrul_fooger	ui/portraits/portholes/wh_main_emp_empire/hkrul_fooger.png	882627504		true
-hkrul_fooger_caravan_master	1	6670700853		100	6670700852	hkrul_fooger_caravan_master	general	hkrul_fooger_caravan_master	ui/portraits/portholes/wh_main_emp_empire/hkrul_fooger_caravan_master_01.png	882627505		true

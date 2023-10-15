@@ -126,6 +126,7 @@ hkrul_mar_defenders_cap	treasury.png	800	treasury.png	campaign	true
 hkrul_mar_teuling_upkeep	military_spending.png	800	military_spending.png	campaign	false
 hkrul_mar_defenders_upkeep	military_spending.png	800	military_spending.png	campaign	false
 hkrul_mar_black_caps_cap	unit_capacity.png	800	unit_capacity.png	campaign	true
+hkrul_mariners_knights_cap	unit_capacity.png	800	unit_capacity.png	campaign	true
 hkrul_mar_black_caps_upkeep	military_spending.png	800	military_spending.png	campaign	false
 hkrul_mar_black_caps_md	defence.png	800	defence.png	campaign	true
 hkrul_caravan_lord_horse	mount.png	50	mount.png	both	true

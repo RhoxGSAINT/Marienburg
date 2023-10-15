@@ -39,3 +39,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_manann_flagellant	wh3_dlc23_neu_melee_units_ulrika	false
 			hkrul_manann_flagellant	hkrul_mar_manann	false
 			hkrul_manann_flagellant	hkrul_fanatics	false
+			hkrul_mar_knights_mariner	hkrul_mariners_knights	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mariners_knights	false
+			ovn_mar_mon_augas_fish_0	hkrul_mar_fish	false
+			ovn_mar_mon_augas_fish_1	hkrul_mar_fish	false
+			hkrul_mar_knights_mariner	hkrul_mar_manann	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false

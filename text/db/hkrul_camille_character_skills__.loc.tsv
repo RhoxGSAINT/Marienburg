@@ -66,17 +66,17 @@ character_skills_localised_name_ovn_skill_all_magic_sea_10_wave_of_destruction	W
 character_skills_localised_description_ovn_skill_all_magic_sea_10_wave_of_destruction	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	true
 character_skill_node_sets_enc_title_skill_node_set_hkrul_dauphine	Camille Dauphina Skills	false
 character_skill_node_sets_enc_title_ovn_skill_node_set_mar_sea_wizard	Sea Magicker Skills	false
-character_skills_localised_description_hkrul_arbatt_special_1_1	Placeholder Text	true
+character_skills_localised_description_hkrul_arbatt_special_1_1	He who has not set foot on land for nine years speaks the language of the oceans.	true
 character_skills_localised_name_hkrul_arbatt_special_1_1	Sea Whisperer	true
-character_skills_localised_description_hkrul_arbatt_special_1_2	Placeholder Text	true
+character_skills_localised_description_hkrul_arbatt_special_1_2	Only Dubnitz matches Walblatt when it comes to reputation within the Knightly order.	true
 character_skills_localised_name_hkrul_arbatt_special_1_2	Dubnitz's Rival	true
-character_skills_localised_description_hkrul_arbatt_special_1_0	Placeholder Text	true
+character_skills_localised_description_hkrul_arbatt_special_1_0	The Knights Mariner lucky enough to serve under Captain Walblatt are considered the fiercest of the Cult.	true
 character_skills_localised_name_hkrul_arbatt_special_1_0	Knights of Manann	true
 character_skills_localised_description_hkrul_arbatt_special_1_3	The sea creatures carrying Manann's blessing traverse the seabed unscathed.	true
 character_skills_localised_name_hkrul_arbatt_special_1_3	Scales of Manann	false
-character_skills_localised_description_hkrul_arbatt_special_1_4	Placeholder Text	true
+character_skills_localised_description_hkrul_arbatt_special_1_4	It is said Captain Walblatt can navigate even the shallowest of waters with his eyes closed.	true
 character_skills_localised_name_hkrul_arbatt_special_1_4	Experienced Sailor	true
-character_skills_localised_description_hkrul_arbatt_special_1_5	Placeholder Text	true
+character_skills_localised_description_hkrul_arbatt_special_1_5	''We did it, men! The Whale is down! Long live Manann! Long live the Cult!''	true
 character_skills_localised_name_hkrul_arbatt_special_1_5	The Downed Whale	true
 character_skills_localised_description_hkrul_arbatt_horse	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	false
 character_skills_localised_name_hkrul_arbatt_horse	Barded Warhorse	false

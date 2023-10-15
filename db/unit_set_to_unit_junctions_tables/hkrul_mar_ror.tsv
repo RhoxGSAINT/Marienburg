@@ -116,6 +116,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_carriers_ror	wh2_dlc13_emp_war_wagon	false
 			hkrul_carriers_ror	hkrul_carriers	false
 			ovn_mar_inf_knights_mariner_0	emp_all	false
+			ovn_mar_inf_knights_mariner_0	hkrul_mar_manann	false
 			ovn_mar_inf_knights_mariner_0	emp_greatswords	false
 			ovn_mar_inf_knights_mariner_0	emp_infantry	false
 			ovn_mar_inf_knights_mariner_0	emp_melee_infantry_tier_1	false

@@ -5,4 +5,4 @@ id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_unifo
 222250356	ovn_art_set_mar_sea_wizard_02	0	0		none	ovn_uniform_mar_sea_wizard_02			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_staff_and_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0
 222250357	chaos_whale_kou	0	0		none	chaos_whale_kou			chaos_whale_kou_ship	chaos_whale_kou_ship	cam_chaos_whale_kou_water_01	cam_chaos_whale_kou_water_01	cam_chaos_whale_kou_water_01	0	0	0
 222250358	chaos_whale_kou_female	0	0		none	chaos_whale_kou			chaos_whale_kou_ship	chaos_whale_kou_ship	cam_chaos_whale_kou_water_01	cam_chaos_whale_kou_water_01	cam_chaos_whale_kou_water_01	0	0	0
-222250359	hkrul_arbatt	0	0		none	hkrul_arbatt			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_sword_and_shield	cam_light_ship_01	cam_heavy_ship_01	0	0	0
+222250359	hkrul_arbatt	0	0		none	hkrul_arbatt			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_lord_hu1_cst_admiral_halberd	cam_light_ship_01	cam_heavy_ship_01	0	0	0

@@ -243,11 +243,17 @@ core:add_listener(
 		return context:mission():mission_record_key() == "rhox_mar_dauphine_pirate_hunting_5"
 	end,
 	function(context)
-        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."_1")
-        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."_2")
-        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."_3")
-        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."_4")
-        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."_5")--you don't need follow up missions since you completed it
+        cm:cancel_custom_mission(dauphine_faction, whale_hunting_mission_string.."1")
+        cm:cancel_custom_mission(dauphine_faction, whale_hunting_mission_string.."2")
+        cm:cancel_custom_mission(dauphine_faction, whale_hunting_mission_string.."3")
+        cm:cancel_custom_mission(dauphine_faction, whale_hunting_mission_string.."4")
+        cm:cancel_custom_mission(dauphine_faction, whale_hunting_mission_string.."5")--you don't need follow up missions since you completed it
+        
+        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."1")
+        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."2")
+        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."3")
+        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."4")
+        cm:fail_custom_mission(dauphine_faction, whale_hunting_mission_string.."5")
 	
 	
         local cqi = cm:get_faction(dauphine_faction):faction_leader():cqi()

@@ -17,7 +17,7 @@ local function rhox_dauphine_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     dauphine_faction,
-    "hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_mar_sons_of_manann,wh_dlc04_emp_inf_free_company_militia_0,wh_dlc04_emp_inf_free_company_militia_0,hkrul_mar_culverin,ovn_mar_inf_knights_mariner_0",
+    "hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_mar_sons_of_manann,hkrul_mar_knights_mariner,hkrul_mar_knights_mariner_fmc,hkrul_mar_culverin,ovn_mar_inf_knights_mariner_0",
     "cr_combi_region_khuresh_4_1",
     x,
     y,

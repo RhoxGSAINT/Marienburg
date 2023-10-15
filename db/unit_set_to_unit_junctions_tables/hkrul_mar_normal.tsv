@@ -145,6 +145,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_mortar	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
 			hkrul_mar_knights_griffon	cavalry_and_monsters_knights	false
 			hkrul_mar_knights_griffon	emp_all	false
+			hkrul_mar_knights_griffon	hkrul_mar_manann	false
 			hkrul_mar_knights_griffon	emp_demigryphs	false
 			hkrul_mar_knights_griffon	emp_lances	false
 			hkrul_mar_knights_griffon	emp_steam_tank_and_demigryph_knights	false
@@ -343,3 +344,20 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_knights_mariner	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_mar_knights_mariner_fmc	emp_all	false
+			hkrul_mar_knights_mariner_fmc	emp_freecompany	false
+			hkrul_mar_knights_mariner_fmc	emp_infantry	false
+			hkrul_mar_knights_mariner_fmc	emp_melee_infantry_tier_1	false
+			hkrul_mar_knights_mariner_fmc	emp_state_troops	false
+			hkrul_mar_knights_mariner_fmc	emp_swords	false
+			hkrul_mar_knights_mariner_fmc	infantry_units	false
+			hkrul_mar_knights_mariner_fmc	mp_cap_unit_emp_inf_free_company_militia	false
+			hkrul_mar_knights_mariner_fmc	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			hkrul_mar_knights_mariner_fmc	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			hkrul_mar_knights_mariner_fmc	wh2_dlc17_volkmar_focus_units	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mar_privateers	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mar_mundvard_human	false
+			hkrul_mar_knights_mariner_fmc	rhox_mar_ranged	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mar_thijs	false
+			hkrul_mar_knights_mariner_fmc	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false

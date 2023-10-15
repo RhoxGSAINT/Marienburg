@@ -66,6 +66,11 @@ hkrul_speed_fanatic	battle_movement.png	421	battle_movement.png	battle	true
 rhox_mar_effect_force_stat_melee_defence_at_sea	defence.png	450	defence.png	battle	true
 rhox_mar_effect_force_special_stance_dauphine_dummy	campaign_movement.png	125	campaign_movement.png	campaign	true
 hkrul_turns_fanatics_manann	turns.png	150	turns.png	campaign	false
+hkrul_turns_cult_manann	turns.png	150	turns.png	campaign	false
 hkrul_arbatt_scales	item_ability.png	300	item_ability.png	battle	true
 hkrul_arbatt_trident	item_ability.png	300	item_ability.png	battle	true
 rhox_mar_chaos_whale_playable_warning_dummy	diplomacy.png	800	diplomacy.png	campaign	false
+hkrul_mar_fish_attack	melee.png	450	melee.png	battle	true
+hkrul_mar_fish_defence	defence.png	450	defence.png	battle	true
+hkrul_charge_defence_manann	charge_reflector.png	320	charge_reflector.png	both	true
+hkrul_mar_effect_ability_wom_cost_fisherman	magic_character.png	294	magic_character.png	both	false

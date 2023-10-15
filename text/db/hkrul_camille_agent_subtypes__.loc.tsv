@@ -31,8 +31,8 @@ agent_subtypes_onscreen_name_override_chaos_whale_kou	The Red Chaos Whale	false
 agent_subtypes_description_text_override_hkrul_arbatt	Captain Aber Walblatt	false
 agent_subtypes_onscreen_name_override_hkrul_arbatt	Captain Aber Walblatt	false
 character_skill_node_sets_enc_title_hkrul_arbatt	Captain Aber Walblatt	false
-character_skills_localised_description_rhox_mar_arbatt_inate	Captain Aber Walblatt	false
-character_skills_localised_name_rhox_mar_arbatt_inate	Captain Aber Walblatt	false
+character_skills_localised_description_rhox_mar_arbatt_inate	Captain Aber Walblatt is the mighty Knight Mariner who hunted the Red Chaos Whale for over nine years, not setting foot on land a single time.	false
+character_skills_localised_name_rhox_mar_arbatt_inate	Manann’s Harpoon	false
 units_custom_battle_mounts_localised_description_hkrul_arbatthkrul_arbatt_horse	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	false
 units_custom_battle_mounts_mount_name_hkrul_arbatthkrul_arbatt_horse	Barded Warhorse	false
 units_custom_battle_mounts_localised_description_hkrul_arbatthkrul_arbatt_pegasus	"Make sure those saddle straps are tight, boy, this isn't like falling off a normal horse."	false

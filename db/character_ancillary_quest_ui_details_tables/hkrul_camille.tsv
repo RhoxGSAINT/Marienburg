@@ -3,4 +3,5 @@ agent_subtype	ancillary	rank	instant	is_quest_battle
 hkrul_dauphine	hkrul_dauphine_banner	6	true	false
 hkrul_dauphine	hkrul_dauphine_Cultist	9	true	false
 hkrul_dauphine	hkrul_dauphine_sword	13	true	false
-hkrul_arbatt	hkrul_arbatt_trident	13	true	false
+hkrul_arbatt	hkrul_arbatt_trident	9	true	false
+hkrul_fooger	hkrul_fooger_sword	8	true	false

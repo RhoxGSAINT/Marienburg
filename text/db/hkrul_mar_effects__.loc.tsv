@@ -157,6 +157,7 @@ effects_description_hkrul_mar_defenders_upkeep	Upkeep: %+n% for Defenders of the
 effects_description_hkrul_mar_teuling_upkeep	Upkeep: %+n% for De Teuling's Escort (Empire Knights - Greatswords)	true
 effects_description_hkrul_mar_defenders_cap	Capacity: %+n for Defenders of the Capital (Greatswords)	true
 effects_description_hkrul_mar_defenders_ma	Melee Attack: %+n for Defenders of the Capital (Greatswords)	false
+effects_description_hkrul_mariners_knights_cap	Capacity: %+n for Knights Mariner units	true
 effects_description_hkrul_mar_black_caps_cap	Capacity: %+n for Black Caps (Goedendagers)	true
 effects_description_hkrul_mar_knights_cleansing_charge	Charge bonus: %+n or Knights of the Cleansing Flame (Empire Knights)	true
 effects_description_hkrul_mar_knights_cleansing_cap	Capacity: %+n for Knights of the Cleansing Flame (Empire Knights)	true

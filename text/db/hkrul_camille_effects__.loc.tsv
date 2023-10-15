@@ -51,7 +51,7 @@ effects_description_ovn_effect_force_all_campaign_movement_range_sea_only	Campai
 effects_description_rhox_dauphine_increase_incident_chance	Chance of recieving reinforcements at the start of the turn: %+n%	false
 effects_description_hkrul_dauphine_effect_dummy	Can either bribe or hunt any rogue pirate faction for powerful global buffs	false
 effects_description_hkrul_cult_of_manann_effect_dummy	Embark on a quest to the far corners of the World, where the Cult of Manann must hunt the Red Chaos Whale	false
-effects_description_hkrul_unbreakable_odrall	Attribute: Unbreakable for Knights Mariner units	false
+effects_description_hkrul_unbreakable_odrall	Attribute: Unbreakable for Order of the Albatross units	false
 effects_description_rhox_dauphine_effect_ability_effect_range_grand_trident	Effect range: %+n% for: "Grand Trident of Manann"	false
 effects_description_rhox_dauphine_main_effect_ability_effect_range_grand_shield	Effect range: %+n% for: "Grand Shield of Manann"	false
 effects_description_rhox_dauphine_captain_appear_dummy	The Legendary Captain of the Knights Mariner, Aber Walblatt will join your ranks	false
@@ -64,10 +64,14 @@ effects_description_hkrul_upkeep_fanatic	Upkeep: %+n% for Manann's Fanatics (Fla
 effects_description_hkrul_recruit_rank_fanatic	Recruit rank: %+n for Manann's Fanatics (Flagellants)	false
 effects_description_hkrul_missile_resistance_fanatic	Missile Resistance: %+n% for Manann's Fanatics (Flagellants)	false
 effects_description_hkrul_speed_fanatic	Speed: %+n% for Manann's Fanatics (Flagellants)	false
-effects_description_rhox_mar_effect_force_stat_melee_defence_at_sea	Melee Defence: + %n when fighting at sea	false
+effects_description_rhox_mar_effect_force_stat_melee_defence_at_sea	Melee Defence: +%n when fighting at sea	false
 effects_description_rhox_mar_effect_force_special_stance_dauphine_dummy	Full Speed stance is upgraded to "Manann's Blessing" which increases campaign map navigation range at sea	false
 effects_description_hkrul_turns_fanatics_manann	Global recruitment duration: %+n turns for Manann's Fanatics (Flagellants)	true
+effects_description_hkrul_turns_cult_manann	Global recruitment duration: %+n turns for Cult of Manann units	true
 effects_description_effect_bundle_marienburg_reinforce_dummy	Limited Roster: The Cult relies on Marienburg reinforcements to unlock a full roster.	false
 effects_description_hkrul_arbatt_scales	Ability: "Scales of Manann''	false
-effects_description_hkrul_arbatt_trident	Ability: "Walblatt's Trident''	false
+effects_description_hkrul_arbatt_trident	Ability: "Mariner's Trident''	false
 effects_description_rhox_mar_chaos_whale_playable_warning_dummy	This faction is not meant to be playable	false
+effects_description_hkrul_mar_fish_attack	Melee Attack: +%n for summoned Fish units	false
+effects_description_hkrul_mar_fish_defence	Melee Defence: +%n for summoned Fish units	false
+effects_description_hkrul_charge_defence_manann	Attribute: Charge Reflection for Cult of Manann units	false

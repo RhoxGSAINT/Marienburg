@@ -22,5 +22,6 @@ hkrul_water_augment_1	scalar_speed	1.5000	mult
 hkrul_water_augment_1	stat_melee_attack	10.0000	add
 hkrul_dauphine_crown	stat_resistance_physical	1.3500	mult
 hkrul_arbatt_scales	scalar_speed	1.5000	mult
-hkrul_arbatt_scales	stat_resistance_all	1.2000	mult
+hkrul_arbatt_scales	stat_resistance_all	1.2500	mult
 hkrul_arbatt_trident	stat_melee_damage_base	1.5000	mult
+hkrul_arbatt_trident	stat_melee_attack	20.0000	add
