@@ -5,3 +5,4 @@ rhox_mar_manann_shrine	wh_main_effect_economy_gdp_mod_trade_sea		province_to_reg
 rhox_mar_manann_shrine	wh2_main_effect_force_stat_melee_attack_at_sea		faction_to_force_own	1.0000	0.0000	0.0000
 rhox_mar_manann_shrine	rhox_mar_effect_force_stat_melee_defence_at_sea		faction_to_force_own	1.0000	0.0000	0.0000
 rhox_mar_manann_shrine	ovn_effect_agent_enable_recruitment_wizard_sea_wizard		province_to_province_own	1.0000	1.0000	0.0000
+rhox_mar_manann_shrine	ovn_effect_agent_cap_increase_wizard_sea_wizard		faction_to_faction_own_unseen	1.0000	1.0000	0.0000

@@ -2,7 +2,7 @@
 --new and fancy Jaan
 local jaan_details = {
     general_faction = marienburg_faction_key,
-    unit_list = "snek_hkrul_mar_landship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_defenders,hkrul_mar_inf_boogschutter,hkrul_carriers_ror,hkrul_mar_inf_goedendagers", -- unit keys from main_units table
+    unit_list = "snek_hkrul_mar_landship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_inf_greatsword,hkrul_mar_inf_boogschutter,hkrul_carriers_ror,hkrul_mar_inf_goedendagers", -- unit keys from main_units table
     region_key = "",
     type = "general",																				-- Agent type
     subtype = "hkrul_jk",																	-- Agent subtype
