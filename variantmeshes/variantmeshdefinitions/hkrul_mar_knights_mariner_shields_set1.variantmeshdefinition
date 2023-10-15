@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="shield">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\mariner_shields\mar_mariner_shield_01.wsmodel">
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:metal</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+<SLOT name="decal" attach_point="be_prop_2" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_shields_decal_set1.variantmeshdefinition" />
+
+	</SLOT>
+</VARIANT_MESH>

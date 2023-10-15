@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="decal">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\mariner_shields\mar_shield_decal_01_02.wsmodel">
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\mariner_shields\mar_shield_decal_02_02.wsmodel">
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\mariner_shields\mar_shield_decal_03_02.wsmodel">
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

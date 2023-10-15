@@ -1,13 +1,16 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_base.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_base.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_swords_set1.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_mace_set1.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="shield" attach_point="be_prop_2" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_shields_set1.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_shields_set1.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_shields_set2.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_shields_set3.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\hkrul_mar_knights_mariner_shields_set4.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
 	<SLOT name="weapon_4" attach_point="be_prop_4" />
