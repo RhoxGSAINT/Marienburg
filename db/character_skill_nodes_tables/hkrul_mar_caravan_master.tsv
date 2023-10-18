@@ -58,3 +58,5 @@ hkrul_skill_mar_caravan_master_innate_13		hkrul_skill_innate_mar_caravan_master_
 hkrul_skill_mar_caravan_master_agent_action_scaling		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false
 hkrul_skill_mar_caravan_master_innate_14		hkrul_skill_innate_mar_caravan_master_bretonnia		6	0		0	0	false
 hkrul_skill_mar_caravan_master_innate_15		hkrul_skill_innate_mar_caravan_master_teb		6	0		0	0	false
+hkrul_skill_node_mar_fooger_caravan_master_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge		2	1		0	0	true
+hkrul_skill_node_mar_fooger_caravan_master_self_07		wh2_dlc11_skill_all_lord_self_wound-maker		2	6		0	0	true

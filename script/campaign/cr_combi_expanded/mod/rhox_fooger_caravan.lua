@@ -9,7 +9,8 @@ local rhox_caravan_exception_list={
     ["hkrul_guzunda"] =true,
     ["hkrul_lisette"] =true,
     ["hkrul_cross"] =true,
-    ["hkrul_pg"] =true
+    ["hkrul_pg"] =true,
+    ["hkrul_fooger_caravan_master"]=true
 }
 
 
@@ -1055,7 +1056,76 @@ function rhox_mar_fooger_adjust_end_node_value(region_name, value, operation, ap
 	cm:apply_custom_effect_bundle_to_region(cargo_value_bundle, region);
 end
 
+local rhox_mar_fooger_item_data = {
+    wh3_main_combi_region_frozen_landing		= "wh3_main_anc_caravan_frost_wyrm_skull",
+    wh3_main_combi_region_shattered_stone_bay	= "wh3_main_anc_caravan_sky_titan_relic",
+    wh3_main_combi_region_novchozy				= "wh3_main_anc_caravan_frozen_pendant",
+    wh3_main_combi_region_erengrad				= "wh3_main_anc_caravan_gryphon_legion_lance",
+    wh3_main_combi_region_castle_drakenhof		= "wh3_main_anc_caravan_von_carstein_blade",
+    wh3_main_combi_region_altdorf				= "wh3_main_anc_caravan_luminark_lens",
+    wh3_main_combi_region_marienburg			= "wh3_main_anc_caravan_warrant_of_trade",
+    wh3_main_combi_region_karaz_a_karak			= "wh2_dlc10_dwf_anc_talisman_the_ankor_chain_caravan",
+    wh3_main_combi_region_Ind					= "wh3_main_anc_caravan_bejewelled_dagger",
+    wh3_main_combi_region_myrmidens				= "wh3_main_anc_caravan_grant_of_land",
+    wh3_main_combi_region_estalia				= "wh3_main_anc_caravan_spy_in_court",
+    wh3_main_chaos_region_zharr_naggrund    	= "wh3_main_anc_caravan_statue_of_zharr",--for random reward
+}
+local rhox_mar_fooger_region_to_incident = {
+    wh3_main_combi_region_altdorf				= "wh3_main_cth_caravan_completed_altdorf",
+    wh3_main_combi_region_castle_drakenhof		= "wh3_main_cth_caravan_completed_castle_drakenhof",
+    wh3_main_combi_region_erengrad				= "wh3_main_cth_caravan_completed_erengrad",
+    wh3_main_combi_region_estalia				= "wh3_main_cth_caravan_completed_estalia",
+    wh3_main_combi_region_frozen_landing		= "wh3_main_cth_caravan_completed_frozen_landing",
+    wh3_main_combi_region_Ind					= "wh3_main_cth_caravan_completed_ind",
+    wh3_main_combi_region_marienburg			= "wh3_main_cth_caravan_completed_marienburg",
+    wh3_main_combi_region_novchozy				= "wh3_main_cth_caravan_completed_novchozy",
+    wh3_main_combi_region_shattered_stone_bay	= "wh3_main_cth_caravan_completed_stone_bay",
+    wh3_main_combi_region_karaz_a_karak			= "wh3_main_cth_caravan_completed_zharr_nagrund",
+    wh3_main_combi_region_myrmidens				= "wh3_main_cth_caravan_completed_tilea",
+
+}
+
+local rhox_mar_fooger_region_reward_list = {
+	"wh3_main_combi_region_estalia",
+	"wh3_main_combi_region_Ind",
+    "wh3_main_chaos_region_zharr_naggrund",
+}
+
+
+local function rhox_mar_fooger_reward_item_check(faction,region_key,caravan_master)
+	local reward = rhox_mar_fooger_item_data[region_key]
+	if not reward then 
+		return false 
+	end
+
+	if not faction:ancillary_exists(reward) then
+		local character = caravan_master:character()
+		local payload_builder = cm:create_payload();
+		payload_builder:character_ancillary_gain(character, reward, false)
+		cm:trigger_custom_incident_with_targets(
+			faction:command_queue_index(),
+			rhox_mar_fooger_region_to_incident[region_key],
+			true,
+			payload_builder,
+			0,
+			0,
+			character:command_queue_index(),
+			0,
+			0,
+			0
+			)
+		return 0
+	end
+	if cm:random_number(10,1) == 1 then
+		return rhox_mar_fooger_reward_item_check(faction,rhox_mar_fooger_region_reward_list[cm:random_number(#rhox_mar_fooger_region_reward_list,1)],caravan_master)
+	end
+
+end
+
+
 ------------------------------listeners
+
+
 
 rhox_fooger_reinforcements_units={
     "rhox_fooger_wh_main_dwf_inf_miners_0",
@@ -1102,6 +1172,7 @@ core:add_listener(
             end
             incident_builder:set_payload(payload_builder)
             cm:launch_custom_incident_from_builder(incident_builder, faction)
+            rhox_mar_fooger_reward_item_check(faction, region_name, context:caravan_master())
         else --just give units
             for i=1,4 do
                 local unit_key = rhox_fooger_reinforcements_units[cm:random_number(#rhox_fooger_reinforcements_units)]
@@ -1170,54 +1241,6 @@ core:add_listener(
 );
 
 
-local innate_1 = {
-	"wh_main_vmp_inf_grave_guard_0",
-	"wh_main_vmp_inf_grave_guard_0",
-	"wh_main_vmp_inf_grave_guard_0",
-	"wh_main_vmp_inf_grave_guard_0",
-	"wh_main_vmp_cav_black_knights_0",
-	"wh_main_vmp_cav_black_knights_0",
-	"wh_main_vmp_cav_black_knights_0",
-	"wh_main_vmp_cav_black_knights_0"
-	};
-	
-local innate_2 = {
-	"wh_main_vmp_inf_skeleton_warriors_1",
-	"wh_main_vmp_inf_skeleton_warriors_1",
-	"wh_main_vmp_inf_skeleton_warriors_1",
-	"wh_main_vmp_inf_skeleton_warriors_1",
-	"wh_dlc04_vmp_veh_mortis_engine_0",
-	"wh_main_vmp_mon_vargheists",
-	"wh_main_vmp_mon_vargheists",
-	"wh_main_vmp_mon_varghulf"
-	};
-
-
-function rhox_mar_fooger_add_inital_force(caravan)
-	
-	out.design("Try to add inital force to caravan, based on trait")
-	
-	local force_cqi = caravan:caravan_force():command_queue_index();
-	local lord_cqi = caravan:caravan_force():general_character():command_queue_index();
-	local lord_str = cm:char_lookup_str(lord_cqi);
-	
-	if caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_slaver_innate_1") then
-		for i=1, #innate_1 do
-			cm:grant_unit_to_character(lord_str, innate_1[i]);
-		end
-		--fully heal when returning
-	elseif caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_slaver_innate_2") then
-		for i=1, #innate_2 do
-			cm:grant_unit_to_character(lord_str, innate_2[i]);
-		end
-	else
-        for i=1, #innate_1 do
-			cm:grant_unit_to_character(lord_str, innate_1[i]);
-		end
-		out("*** Unknown Caravan Master ??? ***")
-	end
-end
-
 
 core:add_listener(
 	"rhox_mar_fooger_add_inital_force",
@@ -1229,8 +1252,7 @@ core:add_listener(
 		out.design("*** Caravan recruited ***");
 		if context:caravan():caravan_force():unit_list():num_items() < 2 then
 			local caravan = context:caravan();
-			--rhox_mar_fooger_add_inital_force(caravan); 
-			hkrul_mar_add_inital_force(caravan)--TODO temp
+			hkrul_mar_add_inital_force(caravan)
 			cm:set_character_excluded_from_trespassing(context:caravan():caravan_master():character(), true)
 		end;
 	end,

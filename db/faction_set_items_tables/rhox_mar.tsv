@@ -2,3 +2,5 @@ id	culture	faction	remove	set	subculture
 #faction_set_items_tables;1;db/faction_set_items_tables/rhox_mar					
 1804566290		ovn_mar_house_den_euwe	false	FavouredCorruptionTzeentch	
 1804566291		ovn_mar_house_den_euwe	true	FavouredCorruptionNone	
+1804566292		ovn_mar_house_fooger	false	anc_set_cathay_and_the_changeling	
+1804566293		ovn_mar_house_fooger	false	anc_set_exclusive_cathay	

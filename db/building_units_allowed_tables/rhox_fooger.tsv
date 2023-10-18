@@ -89,3 +89,9 @@ key	building	unit	XP	conditions	faction	enabled
 1761598261	wh_main_emp_tavern_1	hkrul_mar_fooger_qual_great	0	0	ovn_mar_house_fooger	true
 1761598262	wh_main_emp_tavern_2	hkrul_mar_fooger_qual_great	0	0	ovn_mar_house_fooger	true
 1761598263	wh_main_emp_tavern_3	hkrul_mar_fooger_qual_great	0	0	ovn_mar_house_fooger	true
+1761598264	wh_main_emp_stables_2	wh2_dlc13_emp_veh_war_wagon_0	0	0	ovn_mar_house_fooger	true
+1761598265	wh_main_emp_stables_3	wh2_dlc13_emp_veh_war_wagon_0	0	0	ovn_mar_house_fooger	true
+1761598266	wh_main_emp_stables_3	wh2_dlc13_emp_veh_war_wagon_1	0	0	ovn_mar_house_fooger	true
+1761598267	wh_main_emp_forges_1	hkrul_mar_inf_handgun	0	0	ovn_mar_house_fooger	true
+1761598268	wh_main_emp_forges_2	hkrul_mar_inf_handgun	0	0	ovn_mar_house_fooger	true
+1761598269	wh_main_emp_forges_3	hkrul_mar_inf_handgun	0	0	ovn_mar_house_fooger	true

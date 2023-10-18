@@ -38,3 +38,25 @@ core:add_listener(
 	end,
 	true
 )
+
+
+core:add_listener(
+	"rhox_mar_fooger_special_1_5_skill_point_allocated",
+	"CharacterSkillPointAllocated",
+	function(context)
+		local skill = context:skill_point_spent_on()
+		return skill == "hkrul_fooger_special_1_5"
+	end,
+	function(context)
+		local character = context:character()
+		local faction = character:faction()
+		local faction_name = faction:name()
+		local empire_interface = cm:get_faction("wh_main_emp_empire")
+		
+		if empire_interface and not empire_interface:is_dead() then
+			cm:force_make_trade_agreement(faction_name, "wh_main_emp_empire")
+            cm:make_diplomacy_available(faction_name, "wh_main_emp_empire")
+		end
+	end,
+	true
+)

@@ -4,6 +4,7 @@ ovn_skill_node_mar_sea_wizard_unique_00		ovn_skill_mar_wizard_unique_sea_wizard_
 ovn_skill_node_mar_sea_wizard_unique_01		ovn_skill_mar_wizard_unique_sea_wizard_barded_warhorse		0	2		0	0	true
 ovn_skill_node_mar_sea_wizard_unique_02		hkrul_manann_ward		0	3		0	0	true
 ovn_skill_node_mar_sea_wizard_unique_03		wh2_main_skill_all_immortality_hero		0	4		0	0	true
+ovn_skill_node_mar_sea_wizard_unique_04		wh3_main_skill_all_mentor_hero		0	20		0	0	true
 ovn_skill_node_mar_sea_wizard_magic_01		ovn_skill_all_magic_sea_01_fountain_of_life		2	0		0	0	true
 ovn_skill_node_mar_sea_wizard_magic_02		ovn_skill_all_magic_sea_03_lore_attribute		2	1		0	0	true
 ovn_skill_node_mar_sea_wizard_magic_03		ovn_skill_all_magic_sea_02_water_blast		2	2		0	0	true

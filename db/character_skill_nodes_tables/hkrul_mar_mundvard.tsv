@@ -47,5 +47,5 @@ hkrul_mar_mundvard_generic_0_1		wh_main_skill_vmp_all_unique_grave_ward		0	11		0
 hkrul_mar_mundvard_generic_0_2		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty		0	10		0	0	true
 hkrul_mar_mundvard_generic_0_3		wh_main_skill_vmp_lord_battle_dark_pact		0	9		0	0	true
 hkrul_mar_mundvard_generic_0_4		hkrul_mar_mundvard_beast		0	1		0	0	true
-hkrul_mar_mundvard_generic_0_5		wh3_main_skill_all_mentor_lord		0	44		0	0	true
+hkrul_mar_mundvard_generic_0_5		wh3_main_skill_all_mentor_lord		0	20		0	0	true
 skill_node_hkrul_mundvard_innate		hkrul_mar_mundvard_innate		6	0		1	0	false

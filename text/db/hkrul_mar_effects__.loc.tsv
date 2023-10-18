@@ -291,7 +291,7 @@ effects_description_rhox_mar_enable_kuypers_ring_dummy	Ability: "Van de Kuyper's
 effects_description_rhox_mar_jaan_remove_lazy_dummy	Jaan will no longer gain the Lazy trait for garrisoning in [[col:yellow]]Marienburg[[/col]]	false
 effects_description_hkrul_mar_enable_mace	Ability: "Haeyndrik's Mace"	false
 effects_description_rhox_mar_active_convoys	Maximum number of active Convoys in the Gilded Route: %+n	false
-effects_description_rhox_mar_effect_additional_caravan_cargo_dummy	Accompanying caravan will start with additional %+n cargos	false
+effects_description_rhox_mar_effect_additional_caravan_cargo_dummy	Accompanying caravan will start with additional %n cargos	false
 effect_bundles_localised_title_rhox_mar_bundle_pirate_cove_created	Criminal Network Established	false
 effect_bundles_localised_description_rhox_mar_bundle_pirate_cove_created	A Criminal Network has been established recently, more time is required until we can efficiently establish another.	false
 effects_description_rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	[[col:yellow]]Establish Criminal Network[[/col]] action: %+n% cost to perform	false
