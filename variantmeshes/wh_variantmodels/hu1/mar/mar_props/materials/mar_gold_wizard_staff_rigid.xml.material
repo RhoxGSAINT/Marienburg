@@ -17,19 +17,19 @@
   </texture>
   <texture>
    <slot>s_diffuse</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_diffuse.dds</source>
+   <source>VariantMeshes/wh_variantmodels/hu1/mar/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_diffuse.dds</source>
   </texture>
   <texture>
    <slot>s_gloss</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_gloss_map.dds</source>
+   <source>VariantMeshes/wh_variantmodels/hu1/mar/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_gloss_map.dds</source>
   </texture>
   <texture>
    <slot>s_normal</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_normal.dds</source>
+   <source>VariantMeshes/wh_variantmodels/hu1/mar/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_normal.dds</source>
   </texture>
   <texture>
    <slot>s_specular</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_specular.dds</source>
+   <source>VariantMeshes/wh_variantmodels/hu1/mar/emp_balthazar_gelt/tex/emp_balthazar_gelt_body_01_specular.dds</source>
   </texture>
   <texture>
    <slot>s_dither</slot>

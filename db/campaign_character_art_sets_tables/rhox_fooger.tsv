@@ -3,3 +3,5 @@ art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype
 hkrul_fooger	general				false	true	hkrul_fooger	1.0000
 hkrul_fooger_caravan_master_01	general				false	true	hkrul_fooger_caravan_master	1.0000
 hkrul_fooger_caravan_master_02	general				false	true	hkrul_fooger_caravan_master	1.0000
+hkrul_fooger_dwarf_lord_01	general				false	true	hkrul_fooger_dwarf_lord	1.0000
+hkrul_fooger_dwarf_lord_02	general				false	true	hkrul_fooger_dwarf_lord	1.0000

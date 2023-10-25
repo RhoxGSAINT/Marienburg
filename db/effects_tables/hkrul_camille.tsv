@@ -73,4 +73,3 @@ rhox_mar_chaos_whale_playable_warning_dummy	diplomacy.png	800	diplomacy.png	camp
 hkrul_mar_fish_attack	melee.png	450	melee.png	battle	true
 hkrul_mar_fish_defence	defence.png	450	defence.png	battle	true
 hkrul_charge_defence_manann	charge_reflector.png	320	charge_reflector.png	both	true
-hkrul_mar_effect_ability_wom_cost_fisherman	magic_character.png	294	magic_character.png	both	false

@@ -48,7 +48,7 @@ effects_description_ovn_effect_agent_cap_increase_wizard_sea_wizard	Hero capacit
 effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard	Hero recruit rank: %+n for Sea Magickers	true
 effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard_wave_lord	Recruit rank: %+n for Sea Magickers and High Priests of Manann	true
 effects_description_ovn_effect_force_all_campaign_movement_range_sea_only	Campaign movement range: %+n% while at sea	true
-effects_description_rhox_dauphine_increase_incident_chance	Chance of recieving reinforcements at the start of the turn: %+n%	false
+effects_description_rhox_dauphine_increase_incident_chance	Chance of receiving reinforcements at the start of the turn: %+n%	false
 effects_description_hkrul_dauphine_effect_dummy	Can either bribe or hunt any rogue pirate faction for powerful global buffs	false
 effects_description_hkrul_cult_of_manann_effect_dummy	Embark on a quest to the far corners of the World, where the Cult of Manann must hunt the Red Chaos Whale	false
 effects_description_hkrul_unbreakable_odrall	Attribute: Unbreakable for Order of the Albatross units	false

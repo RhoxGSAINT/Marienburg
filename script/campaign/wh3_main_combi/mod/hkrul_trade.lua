@@ -1,10 +1,15 @@
 local function add_unit_to_faction(unit_key, faction_key)
     local faction = cm:get_faction(faction_key)
-    if not is_faction(faction) then
+    if not faction then
         out("add_unit_to_faction | no faction found")
         return
     end
     local faction_leader = faction:faction_leader()
+    if not faction_leader then
+        out("add_unit_to_faction | no faction leader found")
+        return
+    end
+    
     local faction_leader_lookup_str = cm:char_lookup_str(faction_leader)
     local military_force
     if faction_leader:has_military_force() then 

@@ -25,7 +25,7 @@
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>
-   <source>variantmeshes\wh_variantmodels\hu1\emp\emp_balthazar_gelt\tex\emp_balthazar_gelt_head_01_normal.dds</source>
+   <source>variantmeshes\wh_variantmodels\hu1\mar\emp_balthazar_gelt\tex\emp_balthazar_gelt_head_01_normal.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_distortion_noise</slot>

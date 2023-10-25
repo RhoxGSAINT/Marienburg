@@ -48,3 +48,6 @@ hkrul_skill_node_hkrul_fooger_campaign_10		wh_main_skill_all_lord_campaign_alert
 hkrul_skill_node_hkrul_fooger_campaign_11		wh_main_skill_emp_lord_campaign_headhunter		5	10		0	4	true
 hkrul_skill_node_hkrul_fooger_innate		innate_hkrul_fooger		6	0		1	0	false
 hkrul_fooger_sword		hkrul_fooger_sword		0	15		0	0	false
+hkrul_fooger_dwarf_lord_unique_01		wh_main_skill_dwf_lord_battle_lord_of_the_deeps		2	0		0	0	true
+hkrul_fooger_dwarf_lord_unique_02		wh_main_skill_dwf_lord_battle_obstinacy		2	1		0	0	true
+hkrul_fooger_dwarf_lord_unique_03		wh_main_skill_dwf_lord_campaign_miners_instinct		2	2		0	0	true

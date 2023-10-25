@@ -2372,6 +2372,21 @@ core:add_listener(
 );
 
 
+core:add_listener(
+	"mundvard_event_update",
+	"WorldStartRound",
+	true,
+	function(context)
+		for _, faction_cooldowns in pairs(rhox_mar_mundvard_events_cooldown) do
+			for dilemma_key, cooldown in pairs(faction_cooldowns) do
+				if cooldown > 0 then
+					faction_cooldowns[dilemma_key] = cooldown - 1
+				end
+			end
+		end
+	end,
+	true
+);
 
 
 
