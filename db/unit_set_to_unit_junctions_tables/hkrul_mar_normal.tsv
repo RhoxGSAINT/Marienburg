@@ -363,3 +363,23 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false
 			hkrul_mar_qual_great	wh2_dlc11_dwf_miners_warriors_longbeards	false
 			hkrul_mar_qual	wh2_dlc11_dwf_miners_warriors_longbeards	false
+			hkrul_mar_inf_halberd	emp_halberds_no_demigryph	false
+			hkrul_mar_inf_halberd	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_dauphine_hkrul_mar_inf_greatsword	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_dauphine_hkrul_privateers_dual_swords	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_dauphine_hkrul_mar_defenders	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_dauphine_hkrul_mar_black_caps	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_inf_greatsword	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_inf_swords	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_inf_goedendagers	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_qual	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_black_caps	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_carriers	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_burgher	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_privateers_dual_swords	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_knights_mariner	wh3_dlc23_neu_melee_units_ulrika	false
+			hkrul_mar_fooger_qual	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_fooger_wh_main_dwf_inf_miners_0	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_fooger_wh_main_dwf_inf_miners_1	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_fooger_wh_main_dwf_inf_longbeards	wh3_dlc23_neu_melee_units_ulrika	false
+			rhox_fooger_wh_main_dwf_inf_longbeards_1	wh3_dlc23_neu_melee_units_ulrika	false

@@ -1,0 +1,8 @@
+member	context	culture
+#campaign_group_member_criteria_cultures_tables;1;db/campaign_group_member_criteria_cultures_tables/rhox_mar		
+wh_main_event_feed_mundvard	ACTOR	wh_main_vmp_vampire_counts
+hkrul_mar_campaign_group	ACTOR	wh_main_emp_empire
+rhox_mar_rebel_group_jaan	ACTOR	wh_main_emp_empire
+rhox_mar_rebel_group_egmond	ACTOR	wh_main_emp_empire
+rhox_mar_rebel_group_fooger	ACTOR	wh_main_emp_empire
+rhox_mar_rebel_group_dauphine	ACTOR	wh_main_emp_empire
