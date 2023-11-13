@@ -269,23 +269,23 @@ core:add_listener(
     function(context)
         local dilemma_key = cm:get_saved_value("next_dilemma") or "hkrul_mar_dil_1"
 
-        if not context:performing_faction():is_human() then
+        if not context:performing_faction():is_human() and RHOX_MAR_MCT_SETTING.disable_rite == false then
             local ai_choice = cm:random_number(3, 1)
-            if ai_choice == 1 then
+            if ai_choice == 1 and cm:get_faction("wh_main_emp_wissenland") and cm:get_faction("wh_main_emp_wissenland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_wissenland", 10000)
                 add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_wissenland")
                 cm:force_declare_war("wh_main_emp_wissenland","wh_main_emp_empire", true, true)
-            elseif ai_choice == 2 then
+            elseif ai_choice == 2 and cm:get_faction("wh_main_emp_talabecland") and cm:get_faction("wh_main_emp_talabecland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_talabecland", 10000)
                 add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_talabecland")
                 cm:force_declare_war("wh_main_emp_talabecland","wh_main_emp_empire",true, true)
-            elseif ai_choice == 3 then
+            elseif ai_choice == 3 and cm:get_faction("wh_main_emp_nordland") and cm:get_faction("wh_main_emp_nordland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_nordland", 10000)
                 add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_nordland")
                 cm:force_declare_war("wh_main_emp_nordland","wh_main_emp_middenland", true, true)
             end
             show_ai_rite_performed_event(context:performing_faction(), context:ritual():ritual_key())
-        else
+        elseif context:performing_faction():is_human() then
             cm:callback(
                 function()
                     cm:trigger_dilemma(marienburg_faction_key, dilemma_key)

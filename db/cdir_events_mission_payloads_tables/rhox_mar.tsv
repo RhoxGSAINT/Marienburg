@@ -4,3 +4,4 @@ id	mission_key	payload_key	status_key	value	target_key
 2127310601	rhox_mar_conquer_marien	TEXT_DISPLAY	SUCCESS	LOOKUP[rhox_mar_dummy_mar_ror_access_mission]	default
 2127310602	rhox_mar_cousin_alliance	SPAWN_AGENT	SUCCESS	AGENT[champion];AP_FACTOR[1.0]	default
 2127310603	rhox_mar_conquer_marien	TEXT_DISPLAY	SUCCESS	LOOKUP[rhox_mar_dummy_manann]	default
+2127310604	rhox_egmond_aekold_helbrass_stage_1	TEXT_DISPLAY	SUCCESS	LOOKUP[dummy_mission_1_aekold_helbrass]	default

@@ -43,3 +43,4 @@ rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	tr
 rhox_mar_alicia_criminal_network_dummy	pirate_cove.png	10	pirate_cove.png	campaign	true
 rhox_mar_active_convoys	army.png	2	army.png	campaign	true
 rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_expand_criminal_network_unique		0		campaign	true
+rhox_mar_mundvard_upkeep_human	military_spending.png	101	military_spending.png	campaign	false

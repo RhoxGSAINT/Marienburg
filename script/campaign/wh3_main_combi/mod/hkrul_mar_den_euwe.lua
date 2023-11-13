@@ -108,10 +108,19 @@ local function hkrul_den_euwe()
 end
 
 
+table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], deneuwe_faction_key)--Hero thing
+table.insert(character_unlocking.character_data["aekold"]["mission_chain_keys"]["main_warhammer"], "rhox_egmond_aekold_helbrass_stage_1")
+character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]={}
+character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]["main_warhammer"]="rhox_egmond_aekold_helbrass_stage_1"
+
 
 cm:add_first_tick_callback_new(
 	function()
         hkrul_den_euwe() --for initial setting
+        
+
+
+
         if cm:get_faction("ovn_mar_house_den_euwe"):is_human() then
             cm:apply_effect_bundle("rhox_egmond_hidden_effect_bundle", "ovn_mar_house_den_euwe", 0)--for Tzeentch diplomatic manipulation feature
             
@@ -138,6 +147,7 @@ cm:add_first_tick_callback_new(
             mm:add_condition("region wh3_main_combi_region_beichai");
             mm:add_payload("money 2500");
             mm:trigger() 
+
         end
           
         --cm:force_alliance("ovn_mar_house_den_euwe", "wh_main_emp_marienburg", true) --temp for watching, remove this befroe the release
@@ -203,7 +213,7 @@ cm:add_first_tick_callback(
                             local cqi = cm:get_faction(deneuwe_faction_key):faction_leader():cqi()
                             local x, y = cm:find_valid_spawn_location_for_character_from_character(deneuwe_faction_key, "character_cqi:"..cqi, true)
                             cm:spawn_agent_at_position(cm:get_faction(deneuwe_faction_key), x, y, "dignitary", "wh3_main_tze_cultist") --you can't recruit him, so he is a unique one.
-                            local spawned_agent = cm:get_most_recently_created_character_of_type(cm:get_faction(deneuwe_faction_key), "dignitary", "wh3_main_tze_cultist")
+                            local spawned_agent = cm:get_most_recently_created_character_of_type(deneuwe_faction_key, "dignitary", "wh3_main_tze_cultist")
                             if spawned_agent then 
                                 cm:replenish_action_points(cm:char_lookup_str(spawned_agent:cqi())) --restore action point
                             end

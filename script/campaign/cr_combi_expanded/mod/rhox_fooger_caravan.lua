@@ -968,7 +968,7 @@ function rhox_mar_fooger_adjust_end_node_values_for_demand()
 	
 	for key, val in pairs(temp_end_nodes) do
 		out.design("Key: "..key.." and value: "..val.." for passive demand increase.")
-		rhox_mar_fooger_adjust_end_node_value(key, 2, "add")
+		rhox_mar_fooger_adjust_end_node_value(key, 1, "add")
 	end
 
 end
@@ -1161,7 +1161,7 @@ core:add_listener(
         cm:set_saved_value("caravans_completed_" .. faction_key, num_caravans_completed + 1);
         core:trigger_event("ScriptEventCaravanCompleted", context);
         
-        if faction:is_human() then --TODO
+        if faction:is_human() then
             local incident_builder = cm:create_incident_builder("rhox_fooger_reinforcements")
             
             

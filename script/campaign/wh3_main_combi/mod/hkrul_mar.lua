@@ -18,6 +18,7 @@ RHOX_MAR_MCT_SETTING={
     additional_landship=0,
     block_rebellion = false,
     kill_blue_pirate = false,
+    disable_rite=false,
 }
 
 local function rhox_mar_kill_blue()
@@ -46,6 +47,8 @@ local function setup_mct(context)
     local kill_blue_pirate = my_mod:get_option_by_key("rhox_mar_blue_pirate")
     RHOX_MAR_MCT_SETTING.kill_blue_pirate = kill_blue_pirate:get_finalized_setting()
     
+    local disable_rite = my_mod:get_option_by_key("rhox_mar_jaan_rite")
+    RHOX_MAR_MCT_SETTING.disable_rite = disable_rite:get_finalized_setting()
     
 end
 
@@ -235,20 +238,13 @@ local function hkrul_mar()
 end
 
 
---[[
-cm:add_first_tick_callback(function() 
-    if cm:is_new_game() then
-        if core:is_mod_loaded("!mixer_global_functions") then    
-            mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar", true)
-        else
-            cm:apply_effect_bundle("hkrul_mar", "wh_main_emp_marienburg", 0)
-        end
-    end
-end)
---]] --old script
+
 
 cm:add_first_tick_callback(
     function() 
+        if cm:is_new_game() and cm:is_multiplayer() then
+            mixer_disable_starting_zoom = true
+        end
         pcall(function()
             mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar", true)
         end)

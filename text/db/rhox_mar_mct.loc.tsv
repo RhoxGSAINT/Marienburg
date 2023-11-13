@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_mct.loc		
+mct_rhox_mar_additional_landship_title	Additional landships Jaan will recieve	false
+mct_rhox_mar_additional_landship_desc	Marienburg's Jaan will start with this amount of additional landships besides one he already own at the start of the game.	false
+mct_rhox_mar_rebellion_skill_title	Invalidate Jaan skill's rebellion	false
+mct_rhox_mar_rebellion_skill_desc	AI Jaan's skill will not trigger rebellion if this option is set to true	false
+mct_rhox_mar_blue_pirates_title	Kill blue pirates	false
+mct_rhox_mar_blue_pirates_desc	The script will kill all the blue pirates if this option is turned on. [[col:red]]They have their uses and it might cause unwanted consequences[[/col]]	false
+mct_rhox_mar_rite_title	Disable AI Jaan's Diplomacy Rite	false
+mct_rhox_mar_rite_desc	Jaan can use a rite that can force a war between the Empire factions. Check this box to disable this feature for AI	false

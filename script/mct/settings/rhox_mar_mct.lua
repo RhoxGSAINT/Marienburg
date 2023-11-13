@@ -9,20 +9,26 @@ local landship = mct_mod:add_new_option("rhox_mar_additional_landship", "slider"
 landship:slider_set_min_max(0, 10)
 landship:slider_set_step_size(1)
 landship:set_default_value(0)
-landship:set_text("Additional landships Jaan will recieve", true)
-landship:set_tooltip_text("Marienburg's Jaan will start with this amount of additional landships besides one he already own at the start of the game.", true)
+landship:set_text("mct_rhox_mar_additional_landship_title", true)
+landship:set_tooltip_text("mct_rhox_mar_additional_landship_desc", true)
 
 
 local rebellion = mct_mod:add_new_option("rhox_mar_rebellion", "checkbox")
 rebellion:set_default_value(false)
-rebellion:set_text("Invalidate Jaan skill's rebellion", true)
-rebellion:set_tooltip_text("AI Jaan's skill will not trigger rebellion if this option is set to true", true)
+rebellion:set_text("mct_rhox_mar_rebellion_skill_title", true)
+rebellion:set_tooltip_text("mct_rhox_mar_rebellion_skill_desc", true)
 
 
 local rebellion = mct_mod:add_new_option("rhox_mar_blue_pirate", "checkbox")
 rebellion:set_default_value(false)
-rebellion:set_text("Kill blue pirates", true)
-rebellion:set_tooltip_text("The script will kill all the blue pirates if this option is turned on. [[col:red]]They have their uses and it might cause unwanted consequences[[/col]]", true)
+rebellion:set_text("mct_rhox_mar_blue_pirates_title", true)
+rebellion:set_tooltip_text("mct_rhox_mar_blue_pirates_desc", true)
+
+
+local rite = mct_mod:add_new_option("rhox_mar_jaan_rite", "checkbox")
+rite:set_default_value(false)
+rite:set_text("mct_rhox_mar_rite_title", true)
+rite:set_tooltip_text("mct_rhox_mar_rite_desc", true)
 
 
 
