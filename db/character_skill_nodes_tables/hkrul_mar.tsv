@@ -49,3 +49,4 @@ skill_node_hkrul_jaan_4_10		hkrul_jaan_special_4_10		3	11		0	0	true
 skill_node_hkrul_jaan_4_11		hkrul_jaan_special_4_11		3	12		0	0	true
 skill_node_hkrul_jaan_4_12		hkrul_jaan_special_4_12		3	13		0	3	true
 rhox_mar_mundvard_criminal_campaign_actions_dummy		rhox_mar_mundvard_criminal_campaign_actions		8	0		1	0	false
+rhox_mar_agent_action_scaling		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false
