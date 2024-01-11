@@ -69,7 +69,7 @@ local function rhox_fooger_init_setting()
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     
     
-    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") then --they're killing the starting enemy leader, which should be the puchbag we have to create one
+    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") and cm:get_faction("cr_ogr_deathtoll"):is_human() == false then --they're killing the starting enemy leader, which should be the puchbag we have to create one. And don't create one if they're human
         cm:create_force_with_general(
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
         "cr_ogr_deathtoll",

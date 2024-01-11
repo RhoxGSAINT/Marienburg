@@ -111,8 +111,6 @@ ovn_effect_enable_passive_dead_ringer	general_ability.png	600	general_ability.pn
 ovn_effect_skill_armour_increase_mar_burghers	armour.png	101	armour.png	battle	true
 ovn_effect_skill_melee_attack_increase_mar_pit_fighters	melee.png	109	melee.png	battle	true
 ovn_effect_enable_passive_gilded_tongue	general_ability.png	600	general_ability.png	battle	true
-ovn_effect_ability_army_enable_the_power_of_money	general_ability.png	705	general_ability.png	battle	true
-ovn_effect_ability_army_num_uses_the_power_of_money		0		battle	true
 ovn_effect_technology_economy_gdp_mod_industry_marienburg	income.png	170	income.png	campaign	true
 ovn_effect_technology_economy_gdp_mod_culture_marienburg	income.png	170	income.png	campaign	true
 ovn_effect_technology_economy_gdp_mod_livestock_marienburg	income.png	170	income.png	campaign	true

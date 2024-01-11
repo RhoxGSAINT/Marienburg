@@ -4,7 +4,6 @@ agent_subtypes_onscreen_name_override_hkrul_dauphine	Matriarch of Manann	false
 agent_subtypes_description_text_override_hkrul_dauphine		false
 agent_subtypes_onscreen_name_override_mar_sea_wizard	Sea Magicker	true
 agent_subtypes_description_text_override_mar_sea_wizard	A graduate of Baron Henryk's College and an expert at Sea Magicks, considered hedge wizards by some.	true
-special_ability_groups_name_ovn_lore_sea	Lore of the Sea	true
 loading_screen_quotes_title_ovn_game_hint_lore_of_the_sea_unit	Lore of the Sea	true
 loading_screen_quotes_bulletpoints_ovn_game_hint_lore_of_the_sea_unit	Sea Magick||Lore of the Shallows||Hydromancy	true
 loading_screen_quotes_description_ovn_game_hint_lore_of_the_sea_unit	The Lore of the Sea is based around the manipulation and transformation of water. It is completely unrelated to the so-called Lore of the Deep, which has been rightfully banned as unholy magic of the evil Stromfel. Although not formally recognized as one of the major lores by Teclis, it is commonly taught at the Baron Henryk's academy in Marienburg.	true

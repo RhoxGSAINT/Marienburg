@@ -184,7 +184,7 @@
 					<material_m_texture_overrides>
 						<property
 							slot_id="t_xml_colour_map"
-							filepath="UI/effects/textures/ui_flag_convoy.dds"
+							filepath="UI/effects/textures/scm_mar_ui_flag_convoy.dds"
 							is_override_of_default="true"/>
 						<property
 							slot_id="t_xml_damage_map"

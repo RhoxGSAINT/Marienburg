@@ -10,8 +10,8 @@ unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm	[[col
 unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm_2	[[col:green]]Summons the Ancient Augus[[/col]]	true
 unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye	Lileath's Call	false
 unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye	The Legend of Mannslieb tells that Manann fell in love with a woman, Lileath. It is her that watches over the creatures of her Sea, sending them only to aid those in Manann's absolute favour.	false
-unit_abilities_onscreen_name_ovn_spell_sea_water_blast_upgraded	Roiling Wave	false
-unit_abilities_tooltip_text_ovn_spell_sea_water_blast_upgraded	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast_bound	Roiling Wave	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast_bound	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
 unit_abilities_onscreen_name_ovn_lore_passive_sea_legs	Sea Legs	false
 unit_abilities_tooltip_text_ovn_lore_passive_sea_legs	The caster curses the enemy to feel as if they are standing upon the deck of a storm-tossed ship.	false
 unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye_mage	Fisherman's Eye	false

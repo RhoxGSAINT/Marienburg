@@ -80,7 +80,7 @@ local function rhox_dauphine_init_setting()
     cm:heal_garrison(khuresh_region_cqi)
     
     
-    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") then --they're killing the starting enemy leader, which should be the puchbag we have to create one
+    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") and cm:get_faction("cr_kho_servants_of_the_blood_nagas"):is_human() == false then --they're killing the starting enemy leader, which should be the puchbag we have to create one
         cm:create_force_with_general(
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
         "cr_kho_servants_of_the_blood_nagas",

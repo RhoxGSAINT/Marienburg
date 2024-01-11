@@ -12,7 +12,7 @@ end
 local function rhox_setup_power_of_money(faction)
     local local_faction = faction
     local purchasable_holder_ui = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects");
-    if is_uicomponent(purchasable_holder_ui) then
+    if purchasable_holder_ui and is_uicomponent(purchasable_holder_ui) then
         purchasable_holder_ui:SetVisible(true) -- there was a quick battle
         --refund the price if the player has spent any
         local pb = cm:model():pending_battle()
@@ -40,58 +40,45 @@ local function rhox_setup_power_of_money(faction)
         out("Rhox mar: There was no quick battle")
         return; --no quick battle thing let's return
     end
-    local ability_charge_panel = find_uicomponent(purchasable_holder_ui, "ability_charge_panel");
-    if is_uicomponent(ability_charge_panel) then
-        ability_charge_panel:SetVisible(true) --we're going to change it from menace below to power of money
-    end
-    local ogre_charge_panel = find_uicomponent(purchasable_holder_ui, "ogre_charge");
-    if is_uicomponent(ogre_charge_panel) then
-        ogre_charge_panel:SetVisible(false) --we don't need this
-    end
+
+	local rhox_mar_charge = core:get_or_create_component("rhox_mar_pre_battle_charge", "ui/campaign ui/rhox_mar_pre_battle_charge.twui.xml", purchasable_holder_ui)
     
     --Change title
-    local tx_header = find_uicomponent(ability_charge_panel, "tx_header")
-    if is_uicomponent(tx_header) then
+    local tx_header = find_uicomponent(rhox_mar_charge, "tx_header")
+    if tx_header and is_uicomponent(tx_header) then
         tx_header:SetText(common.get_localised_string("effect_bundles_localised_title_ovn_bundle_pre_battle_purchase_the_power_of_money_0"))
     end
     
     
 	--Change icon
-	local ability_icon = find_uicomponent(ability_charge_panel, "ability_holder", "charges_holder", "ability_frame", "ability_icon")
-	if is_uicomponent(ability_icon) then
-		ability_icon:SetImagePath("ui/battle ui/ability_icons/hkrul_mar_power_money.png")
+	local ability_icon = find_uicomponent(rhox_mar_charge, "charge_icon")
+	if ability_icon and is_uicomponent(ability_icon) then
+        ability_icon:SetContextObject(cco("CcoEffectBundle", "ovn_bundle_pre_battle_purchase_the_power_of_money_0"));
 	end
 	
 	--Starting state = 0 charges
 	local charges = 0
 	
-	local dy_charges = find_uicomponent(ability_charge_panel, "ability_holder", "charges_holder", "dy_charges")
-	if is_uicomponent(dy_charges) then
+	local dy_charges = find_uicomponent(rhox_mar_charge, "dy_charges")
+	if dy_charges and is_uicomponent(dy_charges) then
 		dy_charges:SetText("x 0")
 	end
 	
 	--Starting state, button disabled and tooltip
-	local button_remove_charges = find_uicomponent(ability_charge_panel, "ability_holder", "charges_holder", "dy_charges", "button_remove_charges")
-	if is_uicomponent(button_remove_charges) then
+	local button_remove_charges = find_uicomponent(rhox_mar_charge, "button_remove_charges")
+	if button_remove_charges and is_uicomponent(button_remove_charges) then
 		button_remove_charges:SetState("inactive")
 		button_remove_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_cant_decrease_tooltip"), true)
 	end
 	
 	--Starting state, tooltip
-	local button_add_charges = find_uicomponent(ability_charge_panel, "ability_holder", "charges_holder", "dy_charges", "button_add_charges")
-	if is_uicomponent(button_add_charges) then
+	local button_add_charges = find_uicomponent(rhox_mar_charge, "button_add_charges")
+	if button_add_charges and is_uicomponent(button_add_charges) then
 		button_add_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_increase_tooltip"), true)
 		if local_faction:treasury() < 5000 then --you have no money, set it to inactive
             button_add_charges:SetState("inactive")
             button_add_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_lack_money_increase_tooltip"), true)
 		end
-	end
-	
-	
-	--Remove the help button, which leads to menace below's help
-	local button_info = find_uicomponent(ability_charge_panel, "button_info")
-	if is_uicomponent(button_info) then
-		button_info:SetVisible(false)
 	end
 	
 	core:add_listener(
@@ -121,11 +108,11 @@ local function rhox_setup_power_of_money(faction)
 			if is_uicomponent(dy_charges) then
 				dy_charges:SetText("x " .. tostring(charges))
 			end
-			if is_uicomponent(button_remove_charges) then
+			if button_remove_charges and is_uicomponent(button_remove_charges) then
 				button_remove_charges:SetState("active")
 				button_remove_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_decrease_tooltip"), true)
 			end
-			if is_uicomponent(button_add_charges) then
+			if button_add_charges and is_uicomponent(button_add_charges) then
 				if charges == 5 then
 					button_add_charges:SetState("inactive")
 					button_add_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_cant_increase_tooltip"), true)
@@ -164,14 +151,14 @@ local function rhox_setup_power_of_money(faction)
 
 			charges = charges - 1
 	
-			if is_uicomponent(dy_charges) then
+			if dy_charges and is_uicomponent(dy_charges) then
 				dy_charges:SetText("x " .. tostring(charges))
 			end
-			if is_uicomponent(button_add_charges) then
+			if button_add_charges and is_uicomponent(button_add_charges) then
 				button_add_charges:SetState("active")
 				button_add_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_increase_tooltip"), true)
 			end
-			if is_uicomponent(button_remove_charges) and charges == 0 then
+			if button_remove_charges and is_uicomponent(button_remove_charges) and charges == 0 then
 				button_remove_charges:SetState("inactive")
 				button_remove_charges:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_money_cant_decrease_tooltip"), true)
 			end
@@ -254,6 +241,12 @@ cm:add_first_tick_callback(
                     local character = cm:get_character_by_cqi(character_cqi)
                     local faction_name = character:faction():name()
                     cm:treasury_mod(faction_name, -5000)
+
+					local charge_icon = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects", "rhox_mar_pre_battle_charge", "dy_charges", "charge_icon");
+					if charge_icon then
+						charge_icon:SetVisible(true)
+						charge_icon:SetContextObject(cco("CcoEffectBundle", effect_bundle));
+					end
                 end,
                 true
             )
@@ -279,6 +272,12 @@ cm:add_first_tick_callback(
                     local character = cm:get_character_by_cqi(character_cqi)
                     local faction_name = character:faction():name()
                     cm:treasury_mod(faction_name, 5000)
+
+					local charge_icon = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects", "rhox_mar_pre_battle_charge", "dy_charges", "charge_icon");
+					if charge_icon then
+						charge_icon:SetVisible(true)
+						charge_icon:SetContextObject(cco("CcoEffectBundle", effect_bundle));
+					end
                 end,
                 true
             )

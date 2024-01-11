@@ -16,3 +16,5 @@ ui_unit_groupings_onscreen_hkrul_slaver	Slaver	false
 ui_unit_groupings_tooltip_hkrul_slaver		false
 ui_unit_groupings_onscreen_infantry_trident	Trident Infantry	true
 ui_unit_groupings_tooltip_infantry_trident		true
+special_ability_groups_name_ovn_lore_sea_upgraded	Lore of the Sea	false
+special_ability_groups_name_ovn_lore_sea	Lore of the Sea	true

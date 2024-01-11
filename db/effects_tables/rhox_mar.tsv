@@ -6,7 +6,7 @@ rhox_mar_egmond_dummy	attribute_mark_tzeentch.png	3	attribute_mark_tzeentch.png	
 rhox_mar_mundvard_dummy	pirate_cove.png	3	pirate_cove.png	campaign	true
 rhox_mar_effect_agent_action_enable_dignitary_hinder_settlement_establish_pirate_cove		0		campaign	true
 rhox_mar_effect_agent_action_success_chance_dignitary_establish_pirate_cove	pirate_cove.png	10	pirate_cove.png	campaign	true
-ovn_effect_ability_army_num_uses_the_power_of_money		0		battle	true
+ovn_effect_ability_army_num_uses_the_power_of_money	general_ability.png	706	general_ability.png	battle	true
 ovn_effect_ability_army_enable_the_power_of_money	general_ability.png	705	general_ability.png	battle	true
 rhox_mar_mudvard_slave_dummy	slaves.png	8	slaves.png	campaign	true
 rhox_mar_show_money_power_ui_hidden		0		campaign	true

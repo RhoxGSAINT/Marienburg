@@ -166,21 +166,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_cav_rijders	mp_cap_unit_emp_cav_outriders_0	false
 			hkrul_mar_cav_rijders	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_cav_rijders	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_mar_art_paixhan_ror	emp_all	false
-			hkrul_mar_art_paixhan_ror	wh2_main_ror_units_all	false
-			hkrul_mar_mananns_blades_ror	wh2_main_ror_units_all	false
-			hkrul_mar_mananns_blades_ror	emp_all	false
-			hkrul_mar_mananns_blades_ror	emp_swords	false
-			hkrul_mar_mananns_blades_ror	emp_state_troops	false
-			hkrul_mar_bordermen_ror	wh2_main_ror_units_all	false
-			hkrul_mar_bordermen_ror	all_units_excluding_guerrilla_deployment	false
-			hkrul_mar_bordermen_ror	emp_all	false
-			hkrul_mar_bordermen_ror	emp_outriders	false
-			hkrul_mar_bordermen_ror	mp_cap_group_extended_roster	false
-			hkrul_mar_bordermen_ror	mp_cap_unit_emp_cav_outriders_1	false
-			hkrul_mar_bordermen_ror	mp_cap_unit_emp_cav_outriders_ror_0	false
-			hkrul_mar_bordermen_ror	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_mar_bordermen_ror	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_teuling	emp_all	false
 			hkrul_mar_teuling	wh2_main_ror_units_all	false
 			hkrul_carriers	emp_state_troops	false
@@ -344,6 +329,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_knights_mariner	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_mar_knights_mariner	rhox_mar_melee	false
 			hkrul_mar_knights_mariner_fmc	emp_all	false
 			hkrul_mar_knights_mariner_fmc	emp_freecompany	false
 			hkrul_mar_knights_mariner_fmc	emp_infantry	false
@@ -358,7 +344,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner_fmc	hkrul_mar_privateers	false
 			hkrul_mar_knights_mariner_fmc	hkrul_mar_mundvard_human	false
 			hkrul_mar_knights_mariner_fmc	rhox_mar_ranged	false
-			hkrul_mar_knights_mariner_fmc	hkrul_mar_thijs	false
 			hkrul_mar_knights_mariner_fmc	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false
 			hkrul_mar_qual_great	wh2_dlc11_dwf_miners_warriors_longbeards	false
@@ -416,3 +401,33 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner_fmc	rhox_mar_mundvard_human	false
 			hkrul_mar_fooger_qual	rhox_mar_mundvard_human	false
 			hkrul_mar_fooger_qual_great	rhox_mar_mundvard_human	false
+			snek_hkrul_mar_crew_gunners	rhox_mar_infantry	false
+			hkrul_mar_inf_boogschutter	rhox_mar_infantry	false
+			hkrul_mar_inf_crossbow	rhox_mar_infantry	false
+			hkrul_mar_inf_greatsword	rhox_mar_infantry	false
+			hkrul_mar_inf_halberd	rhox_mar_infantry	false
+			hkrul_mar_inf_handgun	rhox_mar_infantry	false
+			hkrul_mar_inf_swords	rhox_mar_infantry	false
+			hkrul_mar_inf_goedendagers	rhox_mar_infantry	false
+			hkrul_mar_riverwarden	rhox_mar_infantry	false
+			hkrul_mar_qual	rhox_mar_infantry	false
+			hkrul_mar_qual_great	rhox_mar_infantry	false
+			hkrul_mar_black_caps	rhox_mar_infantry	false
+			hkrul_carriers	rhox_mar_infantry	false
+			hkrul_burgher	rhox_mar_infantry	false
+			hkrul_privateers_dual_swords	rhox_mar_infantry	false
+			hkrul_mar_handguns	rhox_mar_infantry	false
+			hkrul_privateers	rhox_mar_infantry	false
+			hkrul_mar_inf_cairn_wraiths_summoned_0	rhox_mar_infantry	false
+			hkrul_mar_knights_mariner	rhox_mar_infantry	false
+			hkrul_mar_knights_mariner_fmc	rhox_mar_infantry	false
+			hkrul_manann_flagellant	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_mar_inf_greatsword	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_mar_inf_handgun	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_mar_riverwarden	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_privateers_dual_swords	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_privateers	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_mar_defenders	rhox_mar_infantry	false
+			rhox_dauphine_hkrul_mar_black_caps	rhox_mar_infantry	false
+			hkrul_mar_fooger_qual	rhox_mar_infantry	false
+			hkrul_mar_fooger_qual_great	rhox_mar_infantry	false

@@ -2035,7 +2035,7 @@ function rhox_mar_mundvard_adjust_end_node_values_for_demand()
 	
 	for key, val in pairs(temp_end_nodes) do
 		out.design("Key: "..key.." and value: "..val.." for passive demand increase.")
-		rhox_mar_mundvard_adjust_end_node_value(key, 2, "add")
+		rhox_mar_mundvard_adjust_end_node_value(key, 1, "add")
 	end
 
 end

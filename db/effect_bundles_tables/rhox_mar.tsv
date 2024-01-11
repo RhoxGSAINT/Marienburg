@@ -4,12 +4,12 @@ rhox_mar_anc_dummy			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_mundvard_effect_bundle			faction	1	diplomacy.png	true	false	true
 rhox_egmond_hidden_effect_bundle			faction	1		false	false	true
 rhox_mar_bundle_agent_action_dignitary_hinder_settlement_success_actor			character	1	pirate_cove.png	true	true	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_0	 	The Power of Money	force	0	 	true	false	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_1	 	The Power of Money	force	0	 	true	false	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_2	 	The Power of Money	force	0	 	true	false	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_3	 	The Power of Money	force	0	 	true	false	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_4	 	The Power of Money	force	0	 	true	false	true
-ovn_bundle_pre_battle_purchase_the_power_of_money_5	 	The Power of Money	force	0	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_0	 	The Power of Money	force	1	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_1	 	The Power of Money	force	1	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_2	 	The Power of Money	force	1	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_3	 	The Power of Money	force	1	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_4	 	The Power of Money	force	1	 	true	false	true
+ovn_bundle_pre_battle_purchase_the_power_of_money_5	 	The Power of Money	force	1	 	true	false	true
 rhox_egmond_tze_side			faction	1	corruption_tzeentch.png	true	false	true
 rhox_egmond_mar_side			faction	1	trait_marienburg.png	true	false	true
 rhox_mar_bundle_jaan			character	0		false	false	true

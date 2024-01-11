@@ -1681,6 +1681,7 @@ local function rhox_mar_finish_dilemma_unit_add(caravan)
     cm:launch_custom_dilemma_from_builder(dilemma_builder, caravan:caravan_force():faction());
 end
 
+--[[--for multi caravan not using it anymore
 core:add_listener(
     "rhox_mar_realtime_caravan_panel",
     "RealTimeTrigger",
@@ -1700,6 +1701,7 @@ core:add_listener(
     end,
     true
 )
+--]]
 
 cm:add_first_tick_callback(
 	function ()
@@ -1761,6 +1763,7 @@ cm:add_first_tick_callback(
                             return false;
                         end;
                         
+                        --[[--Things I did for double caravan not doing it because it needed vanilla twui override
                         local second_active_parent = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "active_parent", "active_holder");
                         local result2 = core:get_or_create_component("rhox_mar_caravan_second_active", "ui/campaign ui/rhox_mar_second_holder.twui.xml", second_active_parent)
                         if not result2 then
@@ -1774,6 +1777,7 @@ cm:add_first_tick_callback(
                         if result2:Visible() then
                             active_parent:Resize(400, 300)
                         end
+                        ]]--
                         
                         cm:callback(
                             function()
@@ -2897,7 +2901,7 @@ function hkrul_mar_adjust_end_node_values_for_demand()
 	
 	for key, val in pairs(temp_end_nodes) do
 		out.design("Key: "..key.." and value: "..val.." for passive demand increase.")
-		hkrul_mar_adjust_end_node_value(key, 2, "add")
+		hkrul_mar_adjust_end_node_value(key, 1, "add")
 	end
 end
 
