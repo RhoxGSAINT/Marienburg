@@ -30,6 +30,7 @@ mananns_blades_bannerman		mananns_blades_bannerman		1.0000	1.0000	0.0500
 hkrul_mar_egmond		hkrul_mar_egmond		1.2500	1.1700	0.0000	
 mrg_egmond_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_egmond_warhorse_armoured		1.0000	1.1000	0.0500	
 mrg_egmond_logma		mrg_egmond_logma		1.0000	1.0000	0.0000	
+mrg_egmond_logma_campaign	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_egmond_logma		1.0000	1.0000	0.0000	
 hkrul_mar_munvard		mrg_munvard		1.0000	1.2500	0.0500	
 hkrul_mar_munvard_mount	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	mrg_munvard_mount		1.0000	1.0000	0.0000	
 hkrul_mar_cav_rijders		mar_rijders_melee		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter

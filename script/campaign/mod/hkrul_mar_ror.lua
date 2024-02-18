@@ -1,5 +1,3 @@
-
-
 local function add_hkrul_mar_ror()
 
     local ror_table={
@@ -195,10 +193,12 @@ local function add_hkrul_mar_ror()
         cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_fooger", "rhox_mar_carrier_lock")
     end
     
-    cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg", "rhox_mar_talons_lock")
-    cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_den_euwe", "rhox_mar_talons_lock")
-    
-    cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_den_euwe", "rhox_mar_carrier_lock")
+    if cm:get_campaign_name() == "main_warhammer" then--only in Ie and IEE don't lock it otherwise
+        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg", "rhox_mar_talons_lock")
+        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_den_euwe", "rhox_mar_talons_lock")
+        
+        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_den_euwe", "rhox_mar_carrier_lock")
+    end
     
     
     ----------------------for mundvard
@@ -468,6 +468,10 @@ local marienburg_factions={
 
 
 local function rhox_mar_check_empire(faction)
+    if cm:get_campaign_name() ~= "main_warhammer" then --don't do it if it's not IE and IEE
+        return
+    end
+
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
@@ -502,6 +506,9 @@ end
 
 
 local function rhox_mar_check_mar(faction)
+    if cm:get_campaign_name() ~= "main_warhammer" then --don't do it if it's not IE and IEE
+        return
+    end
 	local region = cm:get_region("wh3_main_combi_region_altdorf")
 	local owner = region:owning_faction()
     out("Rhox: I'm marienburg listener")
@@ -516,6 +523,9 @@ end
 
 
 local function rhox_mar_check_talon(faction)
+    if cm:get_campaign_name() ~= "main_warhammer" then --don't do it if it's not IE and IEE
+        return
+    end
 	local region = cm:get_region("wh3_main_combi_region_marienburg")
 	local owner = region:owning_faction()
 
@@ -581,7 +591,7 @@ cm:add_first_tick_callback(
             "rhox_mar_building_check_talon_RoundStart",
             "FactionRoundStart",
             function(context)
-                return marienburg_factions[context:faction():name()] --and cm:get_saved_value("rhox_talons_granted") ~=true
+                return marienburg_factions[context:faction():name()] and cm:get_saved_value("rhox_talons_granted") ~=true
             end,
             function(context)
                 rhox_mar_check_talon(context:faction())
@@ -601,7 +611,7 @@ core:add_listener(
         function(context)
             local building = context:building()
             local building_faction = building:faction()
-            return building:name() == "rhox_mar_rijker" and (building_faction:name() == "wh_main_emp_marienburg" or building_faction:name() == "ovn_mar_house_den_euwe") and cm:get_saved_value("rhox_talons_granted") ~=true --have to give to the guys who missed it. 
+            return building:name() == "rhox_mar_rijker" and (building_faction:name() == "wh_main_emp_marienburg" or building_faction:name() == "ovn_mar_house_den_euwe") and cm:get_saved_value("rhox_talons_granted") ~=true
         end,
         function(context)
             local building = context:building()
@@ -688,13 +698,3 @@ cm:add_loading_game_callback(
 		end
 	end
 )
-
-
-
-
-
-
-
-
-
-

@@ -4,6 +4,9 @@ core:add_ui_created_callback(
 		if vfs.exists("script/frontend/mod/mixer_frontend.lua")then
 		
 			mixer_change_lord_name("567023710", "hkrul_jk")
+            mixer_change_lord_name("59940405", "hkrul_jk")--roc
+            mixer_change_lord_name("916127680", "hkrul_jk")--tow
+	
 	
 			mixer_add_starting_unit_list_for_faction("wh_main_emp_marienburg", {"snek_hkrul_mar_landship","hkrul_privateers","hkrul_mar_inf_goedendagers","hkrul_mar_inf_greatsword","hkrul_carriers_ror","hkrul_mar_inf_boogschutter"})
 			mixer_add_faction_to_major_faction_list("wh_main_emp_marienburg")	

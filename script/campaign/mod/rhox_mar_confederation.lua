@@ -82,12 +82,9 @@ cm:add_first_tick_callback(
                     local confederation_faction_key = "ovn_mar_house_den_euwe";
                     local confederation_faction = cm:model():world():faction_by_key(confederation_faction_key);
                     
-                    
-                    --[[
-                    if cm:model():turn_number() == 1 then --nothing to do with confederation, but let's do it here
-                        cm:join_garrison("character_cqi:"..cm:get_faction("wh_main_emp_marienburg"):faction_leader():cqi(), "settlement:wh3_main_combi_region_marienburg");
+                    if not confederation_faction then
+                        return--don't do anything if it does not exist
                     end
-                    --]]
                     
                     if cm:model():turn_number() == 15 then --it has nothing to do with conf, but put in here, it won't be affected.
                         cm:trigger_incident("wh_main_emp_marienburg", "rhox_mar_free_witch_hunter", true)

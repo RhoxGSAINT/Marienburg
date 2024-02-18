@@ -151,6 +151,12 @@ core:add_listener(
 	true
 )
 
+local campaign_to_eilhart={
+    main_warhammer="wh3_main_combi_region_eilhart", --IE and IEE
+    wh3_main_chaos="wh3_main_chaos_region_eilhart",--roc
+    cr_oldworld="cr_oldworld_region_eilhart",--TOW
+}
+
 
 core:add_listener(
     "hkrul_jk_special_0_5_CharacterSkillPointAllocated", --change for actual skill_key
@@ -173,7 +179,7 @@ core:add_listener(
         end
         
         if reikland_interface and not reikland_interface:is_dead() and cm:get_saved_value("hkrul_jk_special_0_5_actived_before") ~= true then --we put variable restriction here because of the mission
-            local target_region = cm:get_region("wh3_main_combi_region_eilhart") 
+            local target_region = cm:get_region(campaign_to_eilhart[cm:get_campaign_name()]) 
             if target_region:owning_faction() ~= reikland_interface then
                 if reikland_interface:has_home_region() then
                     target_region = reikland_interface:home_region()
@@ -202,11 +208,11 @@ core:add_listener(
             local character = context:character()
             
             local faction_name = faction:name()
-            local region = cm:get_region("wh3_main_combi_region_eilhart")
+            local region = cm:get_region(campaign_to_eilhart[cm:get_campaign_name()]) 
             if faction:is_human() and region:owning_faction() and region:owning_faction():name() ~= marienburg_faction_key then --AI don't get mission, just give ancillary if player already owns the eilhart
                 local scmm = mission_manager:new(faction_name, "rhox_mar_bridge_reik")
                 scmm:add_new_objective("CAPTURE_REGIONS");
-                scmm:add_condition("region wh3_main_combi_region_eilhart");
+                scmm:add_condition("region "..campaign_to_eilhart[cm:get_campaign_name()]);
                 scmm:add_condition("ignore_allies");
                 scmm:add_payload("add_ancillary_to_faction_pool{ancillary_key hkrul_mar_axel;}");
                 scmm:add_payload("money 750");
@@ -219,6 +225,15 @@ core:add_listener(
     end,
     true
 )
+
+
+local campaign_to_altdorf={
+    main_warhammer="wh3_main_combi_region_altdorf", --IE and IEE
+    wh3_main_chaos="wh3_main_chaos_region_altdorf",--roc
+    cr_oldworld="cr_oldworld_region_altdorf",--TOW
+}
+
+
 
 core:add_listener(
     "hkrul_jk_special_0_6_CharacterSkillPointAllocated", 
@@ -241,7 +256,7 @@ core:add_listener(
         end
         
         if reikland_interface and not reikland_interface:is_dead() and cm:get_saved_value("hkrul_jk_special_0_6_actived_before") ~= true then
-            local target_region = cm:get_region("wh3_main_combi_region_altdorf") --change for actual region_key
+            local target_region = cm:get_region(campaign_to_altdorf[cm:get_campaign_name()]) --change for actual region_key
             if target_region:owning_faction() ~= reikland_interface then
                 if reikland_interface:has_home_region() then
                     target_region = reikland_interface:home_region()
@@ -541,6 +556,18 @@ local rhox_jaan_skill_to_effect={
     {skill_name ="hkrul_jaan_special_4_12", effect_name="hkrul_jk_enable_politician", scope ="rhox_mar_faction_to_character_own_lords_only", value =1}
 }
 
+local marienburg_regions={
+    wh3_main_combi_region_marienburg=true, --IE and IEE
+    wh3_main_chaos_region_marienburg=true,--roc
+    cr_oldworld_region_marienburg=true,--TOW
+}
+
+local campaign_to_marienburg={
+    main_warhammer="wh3_main_combi_region_marienburg", --IE and IEE
+    wh3_main_chaos="wh3_main_chaos_region_marienburg",--roc
+    cr_oldworld="cr_oldworld_region_marienburg",--TOW
+}
+
 
 local function rhox_update_jaan_slack_off_skills(character)
     if character:has_effect_bundle("rhox_mar_bundle_jaan") then
@@ -571,7 +598,7 @@ core:add_listener(
         local character = context:character()    
         local region_object = context:garrison_residence():region()
         local region_name = region_object:name()
-        return character:character_subtype_key() == "hkrul_jk" and region_name == "wh3_main_combi_region_marienburg"
+        return character:character_subtype_key() == "hkrul_jk" and marienburg_regions[region_name]
     end,
     function(context)
         local character = context:character() 
@@ -590,7 +617,7 @@ core:add_listener(
         local character = context:character()    
         local region_object = context:garrison_residence():region()
         local region_name = region_object:name()
-        return character:character_subtype_key() == "hkrul_jk" and region_name == "wh3_main_combi_region_marienburg"
+        return character:character_subtype_key() == "hkrul_jk" and marienburg_regions[region_name]
     end,
     function(context)
         local character = context:character() 
@@ -714,13 +741,13 @@ cm:add_first_tick_callback(
                     local character = context:character()    
                     local region_object = context:garrison_residence():region()
                     local region_name = region_object:name()
-                    return character:character_subtype_key() == "hkrul_jk" and region_name == "wh3_main_combi_region_marienburg" and character:faction():is_human() and cm:get_saved_value("rhox_mar_pg_mission_issued") ~= true and character:faction():name() == "wh_main_emp_marienburg"
+                    return character:character_subtype_key() == "hkrul_jk" and marienburg_regions[region_name] and character:faction():is_human() and cm:get_saved_value("rhox_mar_pg_mission_issued") ~= true and character:faction():name() == "wh_main_emp_marienburg" and cm:get_campaign_name()=="main_warhammer"
                 end,
                 function(context)
                     cm:set_saved_value("rhox_mar_pg_mission_issued", true)
                     local scmm = mission_manager:new("wh_main_emp_marienburg", "rhox_mar_pg")
                     scmm:add_new_objective("MOVE_TO_REGION");
-                    scmm:add_condition("region wh3_main_combi_region_bechafen");
+                    scmm:add_condition("region wh3_main_combi_region_bechafen");--due to this, this mission is only for IE and IEE
                     scmm:add_payload("money 500");
                     scmm:trigger()
                 end,
@@ -752,7 +779,7 @@ core:add_listener(
         
         
         
-        return bundle_active > 1 and node:region_data():region():name() == "wh3_main_combi_region_marienburg" and region_owner:is_human() --for player only
+        return bundle_active > 1 and marienburg_regions[node:region_data():region():name()] and region_owner:is_human() --for player only
     end,
     function(context)
         -- store a total value of goods moved for this faction and then trigger an onwards event, narrative scripts use this
@@ -787,7 +814,7 @@ core:add_listener(
     function(context)
         local character = context:character()    
         local faction = character:faction()
-        local region = cm:get_region("wh3_main_combi_region_marienburg")
+        local region = cm:get_region(campaign_to_marienburg[cm:get_campaign_name()])
         
         cm:cai_enable_movement_for_character("character_cqi:"..character:cqi()) --enable him as initial and disable when he can go into Marienburg
         
@@ -813,7 +840,7 @@ core:add_listener(
             return
         end
         
-        cm:join_garrison("character_cqi:"..character:cqi(),"settlement:wh3_main_combi_region_marienburg")
+        cm:join_garrison("character_cqi:"..character:cqi(),"settlement:"..campaign_to_marienburg[cm:get_campaign_name()])
         cm:cai_disable_movement_for_character("character_cqi:"..character:cqi())
         out("Rhox Mar: Put this guy in Marienburg")
     end,

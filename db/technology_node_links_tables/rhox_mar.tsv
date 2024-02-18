@@ -1,3 +1,5 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	visible_in_ui
 #technology_node_links_tables;0;db/technology_node_links_tables/rhox_mar							
 rhox_mar_egmond_chosen	rhox_mar_egmond_marauder	0	3	1	0.0000	0.0000	true
+rhox_mar_knights	rhox_mar_egmond_marauder	0	2	4	0.0000	0.0000	true
+rhox_mar_daemonic_mounts	rhox_mar_knights	0	3	1	0.0000	0.0000	true

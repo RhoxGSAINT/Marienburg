@@ -6,7 +6,7 @@ hkrul_solkan	false	false		hkrul_solkan	wh_main_vo_actor_Empire_WitchHunter	false
 hkrul_hendrik	false	false		hkrul_hendrik	wh2_pro08_vo_actor_neu_Felix	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100
 mar_caravan_master	true	false		hkrul_mar_caravan_master	wh_main_vo_actor_Empire_General	true	-1	false	true	false	true	mar_caravan_master			false	false	cannot_be_saved_loaded		false	true	750
 hkrul_crispijn	false	false		hkrul_crispijn	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
-hkrul_mar_egmond	false	true	ui/campaign ui/agents/wh3_main_lore_tzeentch.png	hkrul_mar_egmond	wh3_main_vo_actor_Tzeentch_Cultist_Of_Tzeentch	true	-1	false	true	false	true	legendary_lords	hkrul_mar_lore_tsien_tsin		false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Tzeentch	false	true	1050
+hkrul_mar_egmond	false	true		hkrul_mar_egmond	wh3_main_vo_actor_Tzeentch_Cultist_Of_Tzeentch	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Tzeentch	false	true	1050
 hkrul_mar_munvard	false	true		hkrul_mar_munvard_01	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	false	true	legendary_lords	wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1050
 hkrul_alicia	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	hkrul_alicia	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	true	false	false		wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1150
 hkrul_guzunda	false	false		hkrul_guzunda	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100

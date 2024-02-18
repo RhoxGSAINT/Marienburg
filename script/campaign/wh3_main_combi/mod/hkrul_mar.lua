@@ -98,11 +98,17 @@ core:add_listener(
     true
 )
 
+local function cr_change_marienburg_campaign_display()
+    --change the campaign settlement model used
+	cm:override_building_chain_display("wh_main_EMPIRE_settlement_major", "cr_mar_special_settlement_marienburg", "wh3_main_combi_region_marienburg")
+end
+
 
 -- Replaces the starting general for a specific faction
 local function hkrul_mar()
     local marienburg_faction =  cm:get_faction(marienburg_faction_key)
 	if cm:is_new_game() then
+        cr_change_marienburg_campaign_display()
         cm:callback(
 			function() 
                 if marienburg_faction:is_null_interface() == false and marienburg_faction:is_dead() == false then
