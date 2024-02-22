@@ -23,3 +23,43 @@ campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_cross_spawns	Legend
 campaign_payload_ui_details_description_rhox_mar_dummy_tsi_side_agent_dummy	Cultist of Tzeentch hero will join your side	false
 campaign_payload_ui_details_description_rhox_mar_dummy_phy_dwarf	Arkat Fooger's Houseguard will be added to your recruitment pool	false
 campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_pg_spawns	Legendary Hero Recruited: Pieter de Groot	false
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_ogg	Legendary Hero Recruited: Ogg the Expatriate	false
+campaign_payload_ui_details_description_rhox_mar_dummy_hkrul_paldee	Legendary Hero Recruited: Palldee Hammerbearer	false
+campaign_payload_ui_details_description_rd1_second_hkrul	[[col:green]]Fund [[img:ui/flags/wh_main_emp_nordland/mon_24.png]][[/img]] Nordland so they can wage a war against [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland. Sends one Landship to Salzenmund to help their efforts.[[/col]]	true
+campaign_payload_ui_details_description_rd1_third_hkrul	[[col:green]]Fund [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one Landship to Middenheim to help their efforts.[[/col]]	true
+campaign_payload_ui_details_description_rd1_fourth_hkrul	[[col:green]]Fund [[img:ui/flags/wh_main_brt_bretonnia/mon_24.png]][[/img]] Couronne so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland.[/col]] 	true
+campaign_payload_ui_details_description_rd1_first_hkrul	[[col:green]]Fund [[img:ui/flags/wh_main_emp_wissenland/mon_24.png]][[/img]] Wissenland so they can wage a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland. Sends one Landship to Nuln to help their efforts.[[/col]]	true
+campaign_payload_ui_details_description_rd2_second_hkrul	Dilemma 2 Choice B	true
+campaign_payload_ui_details_description_rd2_third_hkrul	Dilemma 2 Choice C	true
+campaign_payload_ui_details_description_rd2_fourth_hkrul	Dilemma 2 Choice D	true
+campaign_payload_ui_details_description_rd2_first_hkrul	Dilemma 2 Choice A	true
+campaign_payload_ui_details_description_rhox_mar_guilded_access	Gained access to the Gilded Route	false
+campaign_payload_ui_details_description_rhox_fooger_thane_rewards	The High King will send one of his Thanes as his emissary	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_0	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_1	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_2	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_3	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_4	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_5	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_6	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_first_7	Frightened by Manann's Wrath, they vouch to sail elsewhere and let you and your patrons off the hook	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_0	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_1	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_2	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_3	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_4	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_5	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_6	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_payload_ui_details_description_rhox_dauphine_blue_pirate_second_7	Vouch to hunt down the Rogue Pirate in the name of Manann and recieve powerful factionwide boons on completion	false
+campaign_localised_strings_string_rhox_dauphine_panel_open_button	Spirits of Stromfel	false
+campaign_localised_strings_string_rhox_dauphine_piece_tab	Spirits of Stromfel	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_hunt	The Hunt continues	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_hunt_final	Bound by Stormfel the Red Chaos Whale emerges on your location in an attempt to stop the Cult of Manann	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_1	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_2	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_3	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_4	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_5	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_dauphine_whale_weak_57	 The Cult's knowledge of the Chaos Whale grows and it's weaknesses are revealed	false
+campaign_payload_ui_details_description_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer has been recruited	false
+campaign_payload_ui_details_description_rhox_mar_dummy_manann	A High Priest of Manann defects to your cause	false

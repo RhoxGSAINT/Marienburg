@@ -26,3 +26,6 @@ hkrul_water_augment_1	false	hkrul_water_augment		wh_type_augment		wh_main_anc_gr
 hkrul_dauphine_crown	true	hkrul_dauphine_crown		wh_type_area_of_augments		wh_main_anc_group_unique	true	false	active		false
 hkrul_arbatt_scales	true	hkrul_albatt_scales		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_arbatt_trident	true	hkrul_albatt_trident		wh_type_augment		wh_main_anc_group_unique	true	false	active		false
+hkrul_ogg_aim	true	hkrul_ogg_aim		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_paldee_hammer	true	hkrul_paldee_hammer		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_rasha_sword	true	hkrul_rasha_sword		wh_type_augment		wh_main_anc_group_rare	true	false	active		false

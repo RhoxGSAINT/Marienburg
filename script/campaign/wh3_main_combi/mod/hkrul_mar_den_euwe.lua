@@ -75,8 +75,8 @@ local function hkrul_den_euwe()
                         cm:set_character_immortality(previous_leader_str, false)
                         cm:kill_character(previous_leader_str, true)
                         
-                        local x, y = cm:find_valid_spawn_location_for_character_from_character(deneuwe_faction_key, "character_cqi:"..cqi, true)
-                        cm:spawn_agent_at_position(cm:get_faction(deneuwe_faction_key), x, y, "champion", "wh_main_emp_captain") --additional captain. He will have a hard time fighting major settlement and Lokhir
+                        --local x, y = cm:find_valid_spawn_location_for_character_from_character(deneuwe_faction_key, "character_cqi:"..cqi, true)
+                        cm:spawn_unique_agent(deneuwe_faction:command_queue_index(), "hkrul_rasha", true)
                         
                         cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.5)
                     end

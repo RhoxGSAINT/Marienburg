@@ -16,3 +16,12 @@ skill_node_set_hkrul_harb	champion	false	false				hkrul_harb
 skill_node_set_rhox_mar_mundvard_criminal	dignitary	false	false				rhox_mar_mundvard_criminal
 skill_node_set_hkrul_lector_manann	general	false	false				hkrul_lector_manann
 skill_node_set_hkrul_slaver	general	false	false				hkrul_slaver
+skill_node_set_hkrul_dauphine	general	false	false				hkrul_dauphine
+ovn_skill_node_set_mar_sea_wizard	wizard	false	false				mar_sea_wizard
+hkrul_arbatt	champion	false	false				hkrul_arbatt
+skill_node_set_hkrul_rasha	champion	false	false				hkrul_rasha
+skill_node_set_hkrul_ogg	champion	false	false				hkrul_ogg
+skill_set_hkrul_paldee	champion	false	false				hkrul_paldee
+skill_node_set_hkrul_fooger_caravan_master	general	false	false				hkrul_fooger_caravan_master
+skill_node_set_hkrul_fooger	general	false	false				hkrul_fooger
+skill_node_set_hkrul_fooger_dwarf_lord	general	false	false				hkrul_fooger_dwarf_lord

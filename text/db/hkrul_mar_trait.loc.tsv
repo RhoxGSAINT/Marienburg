@@ -1,0 +1,20 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_trait.loc		
+character_trait_levels_onscreen_name_hkrul_defeated_trait_dauphine	The Drowned Maiden	true
+character_trait_levels_colour_text_hkrul_defeated_trait_dauphine	Manann forgot to teach you how to swim, Matriach	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_dauphine	Defeated Manann's Matriach Camille Dauphina	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_jk	Out bargained	true
+character_trait_levels_colour_text_hkrul_defeated_trait_jk	''He who has immense wealth often has few friends''	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_jk	Defeated Jaan van de Kuypers	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_egmond	Change? Spare some Change?	true
+character_trait_levels_colour_text_hkrul_defeated_trait_egmond	''You're looking for change? Here's two gilder, now bugger off''	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_egmond	Defeated Egmond den Euwe	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_munvard	Out of the Shadows, into the Light	true
+character_trait_levels_colour_text_hkrul_defeated_trait_munvard	Lord of Shadows? All I see is a balding old man afraid of a little sunlight.	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_munvard	Defeated Mundvard the Cruel	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_hendrik	Goldilock	true
+character_trait_levels_colour_text_hkrul_defeated_trait_hendrik	''All the money in the world could not save you from this faith, false prophet''	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_hendrik	Defeated Simon Goudenkruin	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_fooger	The Smallest Director	true
+character_trait_levels_colour_text_hkrul_defeated_trait_fooger	Already the smallest director of Marienburg yet he just became a little smaller	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_fooger	Defeated Director Arkat Fooger	true

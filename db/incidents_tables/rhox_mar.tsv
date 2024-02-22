@@ -42,3 +42,16 @@ rhox_mar_convoy_completed_nippon	false	cst/legendary_pirate_attacks	false	Event	
 rhox_mar_convoy_completed_ind	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_convoy_completed_ihan	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
 rhox_mar_convoy_completed_elithis	false	cst/legendary_pirate_attacks	false	Event	event_convoy_positive.png	false		0.0000
+hkrul_mar_caravan_completed	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_altdorf	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_castle_drakenhof	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_erengrad	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_estalia	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_frozen_landing	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_ind	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_marienburg	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_novchozy	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_received	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_stone_bay	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_tilea	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000
+hkrul_mar_caravan_completed_zharr_nagrund	false	cst/legendary_pirate_attacks	false	Event	event_caravan_positive.png	false		0.0000

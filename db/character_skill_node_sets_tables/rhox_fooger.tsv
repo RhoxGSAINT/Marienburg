@@ -1,5 +1,0 @@
-key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
-#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/rhox_fooger							
-skill_node_set_hkrul_fooger_caravan_master	general	false	false				hkrul_fooger_caravan_master
-skill_node_set_hkrul_fooger	general	false	false				hkrul_fooger
-skill_node_set_hkrul_fooger_dwarf_lord	general	false	false				hkrul_fooger_dwarf_lord

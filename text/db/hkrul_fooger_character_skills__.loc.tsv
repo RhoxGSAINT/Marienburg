@@ -19,3 +19,39 @@ character_skills_localised_name_hkrul_fooger_special_0_2	House Fooger	true
 character_skills_localised_description_hkrul_fooger_special_1_4	One does not simply accumulate wealth by luck, it requires skill and a keen sense to find that which holds value.	true
 character_skills_localised_name_hkrul_fooger_special_1_4	Arkat's Antique Glasses	true
 character_skill_node_sets_enc_title_skill_node_set_hkrul_fooger_caravan_master	Dwarf Caravan Master Skills	false
+character_skills_localised_name_innate_hkrul_rasha	Mysterious Islander	true
+character_skills_localised_description_innate_hkrul_rasha	Rashasawa has long lived with the mysterious people of Nippon, learning their ways and harnassing their skills.	true
+character_skills_localised_description_hkrul_rasha_special_1_0	Unyielding determination shields allies from harm in the face of adversity.	true
+character_skills_localised_name_hkrul_rasha_special_1_0	Ironclad Resolve	true
+character_skills_localised_description_hkrul_rasha_special_1_1	This extremely light weaponry in combination with dwarfish strength makes for a deadly mixture of steel flurry.	true
+character_skills_localised_name_hkrul_rasha_special_1_1	Ways of the Island	true
+character_skills_localised_description_hkrul_rasha_special_1_2	Rashasawa maps out the safest and most lucrative trade routes, maximizing profits for the caravan.	true
+character_skills_localised_name_hkrul_rasha_special_1_2	Trade Route Expert	true
+character_skills_localised_name_innate_hkrul_ogg	Empiric Origins	true
+character_skills_localised_description_innate_hkrul_ogg	Ogg has mastered the ways of gunpowder, studying under only the very best in Nuln's Academy.	true
+character_skills_localised_description_hkrul_ogg_special_1_0	Commands a formidable defensive formation around the caravan, deterring would-be attackers and bandits.	true
+character_skills_localised_name_hkrul_ogg_special_1_0	Merchant's Bargain	true
+character_skills_localised_description_hkrul_ogg_special_1_1	He strikes shrewd deals with local traders and merchants, securing advantageous trade agreements for the caravan.	true
+character_skills_localised_name_hkrul_ogg_special_1_1	Unyielding Spirit	true
+character_skills_localised_description_hkrul_ogg_special_1_2	Rallies allies in the face of overwhelming odds, instilling unwavering courage in the face of danger.	true
+character_skills_localised_name_hkrul_ogg_special_1_2	Caravan Guardian	true
+character_skills_localised_name_innate_hkrul_paldee	The Hammerbearer	true
+character_skills_localised_description_innate_hkrul_paldee	Palldee delivers a crushing blow with the hammer, shattering enemy defenses and breaking their ranks.	true
+character_skills_localised_description_hkrul_paldee_special_1_0	Draws upon years of combat experience to outmaneuver and outsmart foes.	true
+character_skills_localised_name_hkrul_paldee_special_1_0	Steadfast Hammerer	true
+character_skills_localised_description_hkrul_paldee_special_1_1	Moves with unparalleled agility, evading enemy strikes and navigating obstacles with ease.	true
+character_skills_localised_name_hkrul_paldee_special_1_1	Swift Footed	true
+character_skills_localised_description_hkrul_paldee_special_1_2	Shares the brew of the dwarven gods, rejuvenating allies' spirits and replenishing their strength for the journey ahead.	true
+character_skills_localised_name_hkrul_paldee_special_1_2	Golden Ale Blessing	true
+character_skills_localised_description_hkrul_paldee_special_1_3	Inspires confidence and discipline in the caravan, maintaining order and efficiency during long journeys.	true
+character_skills_localised_name_hkrul_paldee_special_1_3	Convoy Leader	true
+character_skills_localised_description_hkrul_paldee_special_1_4	Serving as prime executioner among Bretonnian Nobility many throughout the stretched fields have come to fear Palldee's Hammer.	true
+character_skills_localised_name_hkrul_paldee_special_1_4	Lordship's Hammer	true
+character_skills_localised_description_hkrul_ogg_special_1_3	Identifies valuable resources and artifacts along the caravan's route, enriching the caravan's coffers with rare finds.	true
+character_skills_localised_name_hkrul_ogg_special_1_3	Master Appraiser	true
+character_skills_localised_description_hkrul_ogg_special_1_4	Trained by Jubal Falk, Ogg learned the fine art of a steady aim.	true
+character_skills_localised_name_hkrul_ogg_special_1_4	Nuln's Training	true
+character_skills_localised_description_hkrul_rasha_special_1_3	Watches over allies with unwavering vigilance, intercepting threats before they reach the caravan.	true
+character_skills_localised_name_hkrul_rasha_special_1_3	Guardian's Vigilance	true
+character_skills_localised_description_hkrul_rasha_special_1_4	It is unsure how long Rashasawa spent on the mysterious Isle of Nippon, fact is he learned much about the art of swordplay there.	true
+character_skills_localised_name_hkrul_rasha_special_1_4	Nipponese Precision	true

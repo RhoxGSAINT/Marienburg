@@ -1,0 +1,29 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_paldee									
+hkrul_paldee_skill_node_campaign_01		wh2_main_skill_all_hero_assist_army_training		5	0		0	0	true
+hkrul_paldee_skill_node_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order		5	1		0	0	true
+hkrul_paldee_skill_node_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison		5	2		0	0	true
+hkrul_paldee_skill_node_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate		5	3		0	0	true
+hkrul_paldee_skill_node_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_units		5	4		0	0	true
+hkrul_paldee_skill_node_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+hkrul_paldee_skill_node_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_dwf_thane		8	0		1	0	false
+hkrul_paldee_skill_node_self_01		wh_main_skill_all_all_self_blade_master_starter		2	0		0	0	true
+hkrul_paldee_skill_node_self_02		wh_main_skill_all_all_self_devastating_charge		2	1		0	0	true
+hkrul_paldee_skill_node_self_03		wh_main_skill_all_lord_self_full_plate_armour_2		2	2		0	0	true
+hkrul_paldee_skill_node_self_04		wh_main_skill_all_all_self_hard_to_hit		2	3		0	0	true
+hkrul_paldee_skill_node_self_05		wh_main_skill_all_all_self_deadly_blade		2	4		0	0	true
+hkrul_paldee_skill_node_self_06		wh_main_skill_all_all_self_foe-seeker		2	5		0	4	true
+hkrul_paldee_skill_node_self_07		wh_main_skill_all_all_self_wound-maker		2	6		0	0	true
+hkrul_paldee_skill_node_self_08		wh_main_skill_all_all_self_scarred_veteran_2		2	7		0	0	true
+hkrul_paldee_skill_node_self_09		wh_main_skill_all_all_self_indomitable		2	8		0	0	true
+hkrul_paldee_skill_node_self_10		wh_main_skill_all_all_self_blade_shield		2	9		0	0	true
+hkrul_paldee_skill_node_self_11		wh_main_skill_all_all_self_deadly_onslaught		2	10		0	4	true
+hkrul_paldee_skill_node_unique_01		hkrul_mar_haeyndrik_shield		0	1		0	0	true
+hkrul_paldee_skill_node_unique_02		wh_main_skill_emp_champion_unique_hold_the_line		0	2		0	0	true
+hkrul_paldee_skill_node_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
+skill_node_hkrul_paldee_innate		innate_hkrul_paldee		6	0		1	0	false
+skill_node_hkrul_paldee_special_1_0		hkrul_paldee_special_1_0		1	0		0	0	true
+skill_node_hkrul_paldee_special_1_1		hkrul_paldee_special_1_1		1	1		0	0	true
+skill_node_hkrul_paldee_special_1_2		hkrul_paldee_special_1_2		1	2		0	0	true
+skill_node_hkrul_paldee_special_1_3		hkrul_paldee_special_1_3		1	3		0	0	true
+skill_node_hkrul_paldee_special_1_4		hkrul_paldee_special_1_4		1	4		0	3	true

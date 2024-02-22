@@ -1,3 +1,0 @@
-key	man_animations_table	variant	battle_entity	battle_entity_stats	autonomous_rider_hero	autonomous_rider_can_shoot_in_melee	can_only_be_used_by_draught
-#battle_personalities_tables;12;db/battle_personalities_tables/rhox_dauphine							
-hkrul_dauphine_altar_rider	hu1_mrg_manann_lector	hkrul_dauphine	wh_main_infantry_rider	wh_main_emp_cha_luminark_acolyte_rider	false	true	true

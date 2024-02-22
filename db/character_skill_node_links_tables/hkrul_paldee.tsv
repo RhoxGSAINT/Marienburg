@@ -1,0 +1,24 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_paldee							
+hkrul_paldee_skill_node_self_02	hkrul_paldee_skill_node_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_03	hkrul_paldee_skill_node_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_04	hkrul_paldee_skill_node_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_05	hkrul_paldee_skill_node_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_06	hkrul_paldee_skill_node_self_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_06	hkrul_paldee_skill_node_self_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_06	hkrul_paldee_skill_node_self_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_06	hkrul_paldee_skill_node_self_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_07	hkrul_paldee_skill_node_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_08	hkrul_paldee_skill_node_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_09	hkrul_paldee_skill_node_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_10	hkrul_paldee_skill_node_self_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_paldee_skill_node_self_11	hkrul_paldee_skill_node_self_07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_11	hkrul_paldee_skill_node_self_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_11	hkrul_paldee_skill_node_self_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_paldee_skill_node_self_11	hkrul_paldee_skill_node_self_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_paldee_special_1_1	skill_node_hkrul_paldee_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_paldee_special_1_2	skill_node_hkrul_paldee_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_paldee_special_1_3	skill_node_hkrul_paldee_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_paldee_special_1_4	skill_node_hkrul_paldee_special_1_1	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_paldee_special_1_4	skill_node_hkrul_paldee_special_1_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_paldee_special_1_4	skill_node_hkrul_paldee_special_1_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

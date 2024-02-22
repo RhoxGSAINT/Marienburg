@@ -1,0 +1,65 @@
+key	text	tooltip
+#Loc;1;text/db/!hkrul_mar_frontend.loc		
+frontend_faction_leaders_frontend_description_mixer_ime_emp_marienburg	Jaan van de Kuypers, the true Lord of the Marienburg Directorate and the Richest man Alive, seeks to consolidate his power within the halls of the Stadsraad and far beyond.	false
+unit_description_historical_texts_text_hkrul_jk	Jaan van de Kuypers is reputedly the richest man in the world, he became the head of the family when his elder brother, Bertold, went insane and slaughtered their parents and sister. The truth of this event is more sinister however, as Jaan made a sacrifice to Khorne, summoning a bloodthirster who he ordered to murder his parents. He blamed Bertold all so he could inheret the entire estate. Now, he counts among his personal friends the Tsar of Kislev, the King of Bretonnia, the Sultan of Araby and even Emperor Karl Franz and the Electors. All of them owe him money. He is the true leader of the Directorate: through his web of clients and contacts. The family has the broadest interests of any of the Ten, ranging from Averlander corn to medicinals from Cathay. Jaan van de Kuypers takes a personal interest in the Lustrian trade. The family mansion is in Goudberg, almost connected to the New Palace. Their symbol is a carmine shield divided into three parts: fist topmost, then a gold coin and a quill.	true
+factions_attack_desc_ovn_mar_the_wasteland	You are attacking Shadows of the Wasteland!	true
+factions_defend_desc_ovn_mar_the_wasteland	You are defending against the Shadows of the Wasteland!	true
+factions_screen_name_ovn_mar_the_wasteland	Shadows of the Wasteland	true
+frontend_faction_leaders_loading_screen_text_mixer_ovn_mar_house_den_euwe	"All I'm saying, and I do see the irony, is that the Directorate needs a counterbalance before we all become Jaan's footmen."\\n\\n— Karl den Euwe to Sasha van den Nijmenk shortly before his son Egmond departed for a trading mission to Cathay. \\n\\n Far in the East young Egmond sets out on a do-or-die attempt to save his families standing among the Marienburg Merchant Houses as the Den Euwe's approach bankruptcy. The road to catastrophy is paved with good intentions however, as Egmond succumbs to the teachings of Tsien-Tsin, a diety he thinks has the answers to save his family's name. Little does he know, Tsien-Tsin is none other than Tzeencth himself.	true
+frontend_faction_leaders_loading_screen_text_mixer_ovn_mar_the_wasteland	The Lord of Shadows, Mundvard the Cruel, rules the Wasteland's underground with a wrathful iron fist. He is known as the Scourge of Marienburg. Controlling large underground criminal syndicates responsible for the disappearance of many a unsuspecting Wastelander. Their fate unknown, as contrary other Vampire Lords, Mundvard sees in men more than cattle. He sees opportunity, be it via the slave trade or as thralls to serve his cause. The Lord of Shadows watches closely from his lair, waiting for the perfect moment to pounce and rule over the Wasteland.	true
+frontend_faction_leaders_localised_description_ovn_mar_the_wasteland		true
+frontend_faction_leaders_localised_description_ovn_mar_house_den_euwe		true
+factions_screen_adjective_ovn_mar_house_den_euwe		true
+factions_screen_adjective_ovn_mar_the_wasteland		true
+frontend_faction_leaders_loading_screen_text_mixer_ime_emp_marienburg	"The business of Marienburg is.. Business."\\n\\n - Jaan van de Kuypers\\n\\n A glass of sherry resting comfortably in his left hand, Jaan van de Kuypers leans back in his armchair. His affairs in order, his plan in motion. He is the richest man in the Old World and the most influential merchant of the Empire. His agenda noticeable in all Marienburger dealings. From his Goudberg Estate he plots his next move, attempting to quench his insatiable thirst for more wealth, more gold. More control. 	true
+frontend_faction_leaders_frontend_description_mixer_ovn_mar_house_den_euwe	On the Eastern shores of Cathay, Egmond den Euwe seeks to save his family from certain bankruptcy in a desperate quest for trade. Unfortunately, his desperation has caught the eye of Tzeentch.	false
+frontend_faction_leaders_frontend_description_mixer_ovn_mar_the_wasteland	The Lord of Shadows rules from the underground, plotting supreme reign over the Wasteland. Establishing his power via networks and syndicates.	false
+factions_screen_name_ovn_mar_house_den_euwe	House Den Euwe	false
+factions_attack_desc_ovn_mar_house_den_euwe	You are attacking House Den Euwe!	false
+factions_defend_desc_ovn_mar_house_den_euwe	You are defending against House Den Euwe!	false
+factions_attack_desc_ovn_mar_cult_of_manann	You are attacking the Cult of Manann!	false
+factions_defend_desc_ovn_mar_cult_of_manann	You are defending against the Cult of Manann!	false
+factions_screen_adjective_ovn_mar_cult_of_manann		false
+factions_screen_name_ovn_mar_cult_of_manann	Cult of Manann	false
+factions_screen_name_when_rebels_ovn_mar_cult_of_manann	Manann's Faithless	false
+frontend_faction_leaders_frontend_description_cr_political_party_combi_mar_cult_of_manann	The Matriarch of the Sea has travelled to the far corner of the world on a mysterious quest to do Manann's bidding and fuflill the Cult's destiny. 	false
+frontend_faction_leaders_loading_screen_text_cr_political_party_combi_mar_cult_of_manann	Camilla Dauphine is the Arch Priestess of the Cult of Manann, nicknamed the Matriarch of the Seas. Like the Cult of Sigmar Mannan’s Cult actively seeks out to destroy those who oppose their Patron God. This plight has led Dauphine to the distant land of Khuresh, where she must hunt and destroy the avatar of Stromfel, the Red Chaos Whale. With limited supplies she must settle foreign ports to gain supplies from the Great City of Marienburg.	false
+frontend_faction_leaders_localised_action_points_cr_political_party_combi_mar_cult_of_manann		false
+frontend_faction_leaders_localised_description_cr_political_party_combi_mar_cult_of_manann	The Cult of Manann	false
+loading_screen_quotes_title_hkrul_dauphine	Camille Dauphina, Matriach of the Sea	true
+loading_screen_quotes_bulletpoints_hkrul_dauphine	Sea Magicker||Battle Prayers of Manann	true
+loading_screen_quotes_description_hkrul_dauphine	The Lore of the Sea is based around the manipulation and transformation of water. It is completely unrelated to the so-called Lore of the Deep, which has been rightfully banned as unholy magic of the evil Stromfel. Although not formally recognized as one of the major lores by Teclis, it is commonly taught at the Baron Henryk's academy in Marienburg.	true
+factions_attack_desc_rhox_rogue_spirits_of_stromfel	You are attacking the Spirits of Stromfel	false
+factions_defend_desc_rhox_rogue_spirits_of_stromfel	You are defending against the Spirits of Stromfel	false
+factions_screen_adjective_rhox_rogue_spirits_of_stromfel		false
+factions_screen_name_rhox_rogue_spirits_of_stromfel	Spirits of Stromfel	false
+factions_screen_name_when_rebels_rhox_rogue_spirits_of_stromfel	Spirits of Stromfel Rebels	false
+diplomacy_strings_string_rhox_rogue_spirits_of_stromfel	...	false
+frontend_faction_leaders_frontend_description_cr_political_party_combi_rogue_spirits_of_stromfel	frontend_faction_leaders_frontend_description_cr_political_party_combi_rogue_spirits_of_stromfel	false
+frontend_faction_leaders_loading_screen_text_cr_political_party_combi_rogue_spirits_of_stromfel	frontend_faction_leaders_loading_screen_text_cr_political_party_combi_rogue_spirits_of_stromfel	false
+frontend_faction_leaders_localised_action_points_cr_political_party_combi_rogue_spirits_of_stromfel	frontend_faction_leaders_localised_action_points_cr_political_party_combi_rogue_spirits_of_stromfel	false
+frontend_faction_leaders_localised_description_cr_political_party_combi_rogue_spirits_of_stromfel	frontend_faction_leaders_localised_description_cr_political_party_combi_rogue_spirits_of_stromfel	false
+frontend_faction_leaders_frontend_description_cr_oldworld_political_party_emp_marienburg		false
+frontend_faction_leaders_loading_screen_text_cr_oldworld_political_party_emp_marienburg		false
+frontend_faction_leaders_localised_action_points_cr_oldworld_political_party_emp_marienburg		false
+frontend_faction_leaders_localised_description_cr_oldworld_political_party_emp_marienburg		false
+frontend_faction_leaders_frontend_description_mixer_roc_emp_marienburg		false
+frontend_faction_leaders_loading_screen_text_mixer_roc_emp_marienburg		false
+frontend_faction_leaders_localised_action_points_mixer_roc_emp_marienburg		false
+frontend_faction_leaders_localised_description_mixer_roc_emp_marienburg		false
+factions_screen_name_wh_main_emp_marienburg	Marienburg	true
+factions_screen_name_when_rebels_wh_main_emp_marienburg	Marienburg Rebels	true
+factions_screen_adjective_wh_main_emp_marienburg	Marienburg	true
+factions_attack_desc_wh_main_emp_marienburg	You are attacking Marienburg Rebels!	true
+factions_defend_desc_wh_main_emp_marienburg	You are defending against Marienburg Rebels!	true
+factions_screen_name_wh_main_emp_marienburg_rebels	Marienburg Rebels	true
+factions_attack_desc_ovn_mar_house_fooger	You are attacking House Fooger!	false
+factions_defend_desc_ovn_mar_house_fooger	You are defending against House Fooger!	false
+factions_screen_adjective_ovn_mar_house_fooger		false
+factions_screen_name_ovn_mar_house_fooger	House Fooger	false
+factions_screen_name_when_rebels_ovn_mar_house_fooger	House Fooger Rebels	false
+frontend_faction_leaders_frontend_description_cr_political_party_combi_mar_house_fooger	Arkat Fooger, brought to the brink of bankruptcy by Jaan van de Kuypers travels to Ind in a desparate attempt to exploit new business opportunities.	false
+frontend_faction_leaders_loading_screen_text_cr_political_party_combi_mar_house_fooger	Arkat Fooger is the oldest and shortest lords of the Marienburg Directorate. For almost a decade he and his House have controlled the Wastelandic iron and arms trade without little competition. Although dwarfish by blood, he is Marienburger by heart. His luck turned however when Jaan van de Kuypers set him up for a string of economical misfortunes. Desperate to save his seat among the directorate Fooger travels to the distant lands of Ind to exploit new business opportunities and save his name and fortune.	false
+frontend_faction_leaders_localised_action_points_cr_political_party_combi_mar_house_fooger		false
+frontend_faction_leaders_localised_description_cr_political_party_combi_mar_house_fooger		false
+rhox_dauphine_pirate_new_name	Corsairs of the Spire	false

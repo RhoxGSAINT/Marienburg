@@ -2,3 +2,8 @@ phase	stat	value	how
 #special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_fooger			
 hkrul_mar_smith	stat_armour	-25.0000	add
 hkrul_mar_smith	stat_resistance_physical	0.7000	mult
+hkrul_ogg_aim	scalar_missile_explosion_damage_base	1.4000	mult
+hkrul_ogg_aim	scalar_missile_damage_ap	1.2000	mult
+hkrul_paldee_hammer	stat_melee_damage_ap	1.3000	mult
+hkrul_paldee_hammer	stat_bonus_vs_large	15.0000	add
+hkrul_rasha_sword	stat_resistance_all	1.2000	mult

@@ -157,8 +157,6 @@ unit_abilities_tooltip_text_hkrul_kuypers_ring	This Merchant Lord wears the Sigi
 unit_abilities_onscreen_name_hkrul_kuypers_ring	Van de Kuyper's Sigil	true
 unit_abilities_tooltip_text_rhox_mar_army_abilities_flood_trap	Sometimes, even the flood can be used as a weapon just by breaching a few dams.	false
 unit_abilities_onscreen_name_rhox_mar_army_abilities_flood_trap	Flood Trap	false
-unit_abilities_tooltip_text_wh2_dlc15_army_abilities_flood_trap	By breaching a few dams, the flood can be used as a weapon.	false
-unit_abilities_onscreen_name_wh2_dlc15_army_abilities_flood_trap	Flood Trap	false
 unit_abilities_tooltip_text_hkrul_mar_power_money	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
 unit_abilities_onscreen_name_hkrul_mar_power_money	The Power of Money	false
 special_ability_phases_onscreen_name_hkrul_mar_power_money	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
@@ -200,3 +198,69 @@ unit_abilities_onscreen_name_hkrul_whale	Blessing of the Whale	false
 unit_abilities_tooltip_text_hkrul_whale	A fabled story among Marienburgers is that of Captain Erkart Dubnitz wrestling a beluga whale, who he not only bested but befriended. It is said Erkart was blessed ever since.	false
 unit_abilities_onscreen_name_hkrul_anchor_out	Manann's Anchor	false
 unit_abilities_tooltip_text_hkrul_anchor_out	It is said that anchors blessed by Manann at the High Temple have the power to dock ships even in the most hazardous of storms.	false
+unit_abilities_tooltip_text_hkrul_dauphine_helm	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_helm	Placeholder	true
+unit_abilities_tooltip_text_hkrul_dauphine_pal	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_pal	Fortress Wardens	true
+unit_abilities_tooltip_text_hkrul_dauphine_sword	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_dauphine_sword	Helmgart's Brand	true
+unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm	[[col:green]]Summons a swarm of Augus fish[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_ovn_summon_augas_swarm_2	[[col:green]]Summons the Ancient Augus[[/col]]	true
+unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye	Lileath's Call	false
+unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye	The Legend of Mannslieb tells that Manann fell in love with a woman, Lileath. It is her that watches over the creatures of her Sea, sending them only to aid those in Manann's absolute favour.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast_bound	Roiling Wave	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast_bound	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_abilities_onscreen_name_ovn_lore_passive_sea_legs	Sea Legs	false
+unit_abilities_tooltip_text_ovn_lore_passive_sea_legs	The caster curses the enemy to feel as if they are standing upon the deck of a storm-tossed ship.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fishermans_eye_mage	Fisherman's Eye	false
+unit_abilities_tooltip_text_ovn_spell_sea_fishermans_eye_mage	The caster is filled with an uncanny sense of where they might find a desired creature in the sea, and by concentrating they can summon the creature to them.	false
+unit_abilities_onscreen_name_ovn_spell_sea_drowned_mans_face	Drowned Man's Face	false
+unit_abilities_tooltip_text_ovn_spell_sea_drowned_mans_face	The enemy's lungs immediately fill with salt water, making it impossible for them to speak, and other actions far more difficult.	false
+unit_abilities_onscreen_name_ovn_spell_sea_drowned_mans_face_upgraded	Drowned Man's Face Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_drowned_mans_face_upgraded	The enemy's lungs immediately fill with salt water, making it impossible for them to speak, and other actions far more difficult.	false
+unit_abilities_onscreen_name_ovn_spell_sea_wave_of_destruction	Wave of Destruction	false
+unit_abilities_tooltip_text_ovn_spell_sea_wave_of_destruction	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	false
+unit_abilities_onscreen_name_ovn_spell_sea_wave_of_destruction_upgraded	Wave of Destruction Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_wave_of_destruction_upgraded	Water is summoned by the caster and draws itself up to form a huge, churning wave, which then crashes down on the enemy.	false
+unit_abilities_onscreen_name_ovn_spell_sea_animate_water	Animate Water	false
+unit_abilities_tooltip_text_ovn_spell_sea_animate_water	The caster summons and animates a large amount of sea water, than batters the enemy into submission.	false
+unit_abilities_onscreen_name_ovn_spell_sea_animate_water_upgraded	Animate Water Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_animate_water_upgraded	The caster summons and animates a large amount of sea water, than batters the enemy into submission.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fountain_of_life	Fountain of Life	false
+unit_abilities_tooltip_text_ovn_spell_sea_fountain_of_life	Anyone tasting the water feels immediately invigorated and refreshed.	false
+unit_abilities_onscreen_name_ovn_spell_sea_fountain_of_life_upgraded	Fountain of Life Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_fountain_of_life_upgraded	Anyone tasting the water feels immediately invigorated and refreshed.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast	Water Blast	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_abilities_onscreen_name_ovn_spell_sea_water_blast_mage_upgraded	Water Blast Upgraded	false
+unit_abilities_tooltip_text_ovn_spell_sea_water_blast_mage_upgraded	The caster unleashes a powerful torrent of seawater from their outstretched hand.	false
+unit_description_short_texts_text_ovn_unit_short_text_mar_sea_wizard	A graduate of Baron Henryk's College and an expert at Sea Magicks.	true
+unit_abilities_onscreen_name_hkrul_manann_book	Odrall's Teaching	false
+unit_abilities_tooltip_text_hkrul_manann_book	Odrall the Devout was renowned for his piety and a holy obsession with exploration. As High Priest of Manann he discovered large parts of the new world. His teachings still linger today.	false
+unit_abilities_tooltip_text_hkrul_mar_rusty	Probably not best suited for actual fishing, yet these hooks still retain a impressive grip.	false
+unit_abilities_onscreen_name_hkrul_mar_rusty	Rusty Hooks	false
+unit_abilities_tooltip_text_hkrul_water_augment	Infused by Manann's sheer magical will, the Ancient Augus is frightening on land, yet even more so in it's natural habitat.	false
+unit_abilities_onscreen_name_hkrul_water_augment	The Ancient Augus	false
+unit_abilities_tooltip_text_hkrul_water_augment_1	The Angus swarm fights most effectively in the cold depths near the ocean floor.	false
+unit_abilities_onscreen_name_hkrul_water_augment_1	Swarm of the Seas	false
+unit_abilities_onscreen_name_hkrul_dauphine_crown	Crown of Manann	false
+unit_abilities_tooltip_text_hkrul_dauphine_crown	The very essence of the sea channels through Manann's five-tined crown and radiates among those in it's surroundings.	false
+unit_abilities_onscreen_name_hkrul_arbatt_scales	Scales of Manann	false
+unit_abilities_tooltip_text_hkrul_arbatt_scales	The sea creatures carrying Manann's blessing traverse the seabed unscathed.	false
+unit_abilities_onscreen_name_hkrul_arbatt_trident	Mariner's Trident	false
+unit_abilities_tooltip_text_hkrul_arbatt_trident	The magical infused trident that was swallowed over nine years ago by the Red Chaos Whale now radiates sinister magic.	false
+unit_abilities_tooltip_text_hkrul_mar_smith	Fooger started a young blacksmith, with the ability to forge or melt even the finest of armour.	true
+unit_abilities_onscreen_name_hkrul_mar_smith	Arkat's Forge	true
+unit_abilities_tooltip_text_hkrul_fooger_sword	Infused with Dwarven runic powers the Key to House Fooger unlocks a door clearly imported from the deep mines of Dwarven holds of old. It's power unleashes a mighty smite.	true
+unit_abilities_onscreen_name_hkrul_fooger_sword	Key of Foogershuis	true
+unit_abilities_onscreen_name_hkrul_ogg_aim	Nuln's Training	false
+unit_abilities_tooltip_text_hkrul_ogg_aim	Trained by Jubal Falk, Ogg learned the fine art of a steady aim.	false
+unit_abilities_onscreen_name_hkrul_paldee_hammer	Lordship's Hammer	false
+unit_abilities_tooltip_text_hkrul_paldee_hammer	Serving as prime executioner among Bretonnian Nobility many throughout the stretched fields have come to fear Palldee's Hammer.	false
+unit_abilities_onscreen_name_hkrul_rasha_sword	Nipponese Precision	false
+unit_abilities_tooltip_text_hkrul_rasha_sword	It is unsure how long Rashasawa spent on the mysterious Isle of Nippon, fact is he learned much about the art of swordplay there.	false
+unit_abilities_tooltip_text_hkrul_jk_pork	Ostlander pork belly is not only Jaan's favorite, it's also distinguishly exported by Osterlander Elector Count Von Raukov. Not just a valuable trade opportunity, Osterland would also account for a powerful military ally in Marienburg's expansionistic views.	true
+unit_abilities_tooltip_text_hkrul_pg_hook	Baron Henryk's College of Navigation and Sea Magicks is one of the Old World's premier centres of learning the crafts of seamanship. Pieter learned however, a hook has more functionalities than learned at Baron Henryk's.	true
+unit_abilities_tooltip_text_hkrul_pg_bomb	A gift from a Wastelander is never rejected, just don't unwrap it close to it's giver.. 	true
+unit_abilities_tooltip_text_hkrul_pg_cutlass	Big Piet is the man who upheld the honour of the guild (and the whole Suiddock) in a trial-by-combat against the champion of a Tilean merchant house, as he has bested many champions in these trials before.	true
+unit_abilities_additional_ui_effects_localised_text_hkrul_mar_solkan_illusion	Creates an illusion of the Sword of Solkan	false

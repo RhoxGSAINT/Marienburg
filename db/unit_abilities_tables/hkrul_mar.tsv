@@ -53,3 +53,4 @@ hkrul_message	true	hkrul_harb_letter		wh_type_area_of_augments		wh_main_anc_grou
 hkrul_bullet	true	hkrul_harb_bullet		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_whipped	true	hkrul_whipped		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_anchor_out	false	hkrul_anchor_out		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_mar_power_money	false	hkrul_mar_power_money		wh_type_augment		wh_main_anc_group_common	false	false	army		false

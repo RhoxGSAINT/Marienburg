@@ -7,3 +7,6 @@ hkrul_fooger_caravan_master	true	false		hkrul_fooger_caravan_master	wh_main_vo_a
 chaos_whale_kou	false	false		chaos_whale_cst_kou	wh_vo_actor_silent	false	-1	false	false	false	false				false	false	cannot_be_saved_loaded		false	true	5000
 hkrul_arbatt	false	false		hkrul_arbatt	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	850
 hkrul_fooger_dwarf_lord	true	false		hkrul_fooger_dwarf_lord	wh_main_vo_actor_Dwarf_Lord	true	-1	false	true	false	true	mar_fooger_dwarf_lord			true	true	can_be_saved_loaded		false	true	750
+hkrul_rasha	false	false		hkrul_rasha	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100
+hkrul_ogg	false	false		hkrul_ogg	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100
+hkrul_paldee	false	false		hkrul_paldee	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100

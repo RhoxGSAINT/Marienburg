@@ -76,8 +76,6 @@ core:add_listener(
         if context:faction():name() ~= dauphine_faction then
             return false
         end
-
-        
         
         local faction = context:faction()
         
@@ -154,26 +152,6 @@ cm:add_first_tick_callback(
                     
                     local treasure_tab = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "hunts");
                     treasure_tab:SetVisible(false) --we're not using this button and should disable it. 
-                    --[[
-                    cm:callback(
-                        function()
-                            local pieces_holder = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "pieces", "tab_child", "map", "pieces_holder")
-                            if not pieces_holder then
-                                out("Rhox Dauphine: There isn't one I'm ending here")
-                                return
-                            end
-                            for i=1,#lh_missions do --mission keys should go here
-                                local lh_piece = find_uicomponent(pieces_holder, lh_missions[i])
-                                if lh_piece then 
-                                    out("Rhox Dauphine: Changing the image")
-                                    lh_piece:SetImagePath("ui/skins/ovn_grudge/LH_piece_active.png")--normal
-                                    lh_piece:SetImagePath("ui/skins/ovn_grudge/LH_piece_active.png", 3) --this is for the clicked
-                                end
-                            end
-                        end,
-                        0.2
-                    )
-                    --]]
                 end,
                 true
             )

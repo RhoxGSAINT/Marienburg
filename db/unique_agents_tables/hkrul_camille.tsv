@@ -2,3 +2,6 @@ agent_subtype	clan_name	forename	other_name	surname	agent_type	spawn_behaviour	s
 #unique_agents_tables;3;db/unique_agents_tables/hkrul_camille							
 hkrul_dauphine	2147358913	6670700851	2147358913	6670700850	general	FACTION_LEADER	false
 hkrul_fooger	2147358913	6670700853	2147358913	6670700852	general	FACTION_LEADER	false
+hkrul_rasha	2147358913	1370717829	2147358913	2147358913	champion	FACTION_LEADER	false
+hkrul_ogg	2147358913	1470717831	2147358913	1470717830	champion	FACTION_LEADER	false
+hkrul_paldee	2147358913	1570717834	2147358913	1570717833	champion	FACTION_LEADER	false

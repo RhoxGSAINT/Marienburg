@@ -1,0 +1,121 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_mar_building.loc		
+building_culture_variants_name_hkrul_mar_suiddock	Suiddock	true
+building_culture_variants_name_hkrul_mar_temple_haeyndrik	Temple of Haeyndrik	true
+building_culture_variants_name_hkrul_mar_bechai	Shrine to Tsien-Tsin	true
+building_culture_variants_name_hkrul_mar_mundvard_marienburg	New Goudberg	true
+building_culture_variants_name_hkrul_mar_rijker	Rijker's Isle	true
+building_culture_variants_name_hkrul_mar_mundvard_liar	Mundvard's Lair	true
+building_culture_variants_name_hkrul_mar_mundvard_liarovn_mar_the_wasteland	Mundvard's Lair	true
+building_culture_variants_name_hkrul_mar_mundvard_marienburgovn_mar_the_wasteland	New Goudberg	true
+building_culture_variants_name_rhox_mar_foreign_corruption_1ovn_mar_the_wasteland	Criminal Network	false
+building_culture_variants_name_rhox_mar_foreign_income_1ovn_mar_the_wasteland	Underground Syndicate	false
+building_culture_variants_name_rhox_mar_foreign_trade_1ovn_mar_the_wasteland	Slave Trafficker's Ring	false
+building_culture_variants_name_rhox_mar_rijker	Rijker's Isle	false
+building_culture_variants_name_rhox_mar_eilhart	Secretariat for Trade Equity	false
+building_culture_variants_name_rhox_mar_emp_walls_1ovn_mar_cult_of_manann	Basic Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_2ovn_mar_cult_of_manann	Tall Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_3ovn_mar_cult_of_manann	Reinforced Walls	false
+building_culture_variants_name_rhox_mar_emp_garrison_1ovn_mar_cult_of_manann	Guard House	false
+building_culture_variants_name_rhox_mar_emp_garrison_2ovn_mar_cult_of_manann	City Watch	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_1ovn_mar_cult_of_manann	Empire Outpost	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_2ovn_mar_cult_of_manann	Empire District	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_3ovn_mar_cult_of_manann	Empire Colony	false
+building_chains_chain_tooltip_rhox_mar_manann_shrine	Worship	false
+building_culture_variants_name_rhox_mar_manann_shrineovn_mar_cult_of_manann	Shrine to Manann	false
+building_short_description_texts_short_description_rhox_mar_manann_shrine	Shrines of Manann are found all over the known World as a token to their all encompassing diety.	true
+building_chains_chain_tooltip_hkrul_mar_suiddock	Suiddock	true
+building_chains_chain_tooltip_hkrul_mar_temple_haeyndrik	Temple of Haeyndrik	true
+building_chains_chain_tooltip_hkrul_mar_bechai	Shrine to Tsien-Tsin	true
+building_chains_chain_tooltip_hkrul_mar_mundvard_marienburg	Goudberg	true
+building_chains_chain_tooltip_hkrul_mar_mundvard_liar	Mundvard's Lair	true
+building_chains_chain_tooltip_hkrul_mar_rijker	Rijker's Isle	true
+building_chains_chain_tooltip_rhox_mar_foreign_corruption	Criminal Network	false
+building_chains_chain_tooltip_rhox_mar_foreign_income	Underground Syndicate	false
+building_chains_chain_tooltip_rhox_mar_foreign_trade	Slave Trafficker's Ring	false
+building_chains_chain_tooltip_rhox_mar_rijker	Rijker's Isle	false
+building_chains_chain_tooltip_rhox_mar_eilhart	Secretariat for Trade Equity	false
+building_chains_encyclopedia_description_rhox_mar_rijker	Rijker's Isle	false
+building_chains_encyclopedia_name_rhox_mar_rijker	Rijker's Isle	false
+building_chains_encyclopedia_description_rhox_mar_eilhart	Secretariat for Trade Equity	false
+building_chains_encyclopedia_name_rhox_mar_eilhart	Secretariat for Trade Equity	false
+building_sets_onscreen_name_hkrul_mar_set_resource_salt	Resource	false
+building_sets_onscreen_description_hkrul_mar_set_resource_salt	A region’s natural resources can be harnessed and put to good use by its controlling faction.	false
+building_sets_onscreen_name_hkrul_mar_set_resource_spices	Resource	false
+building_sets_onscreen_description_hkrul_mar_set_resource_spices	A region’s natural resources can be harnessed and put to good use by its controlling faction.	false
+building_short_description_texts_short_description_hkrul_mar_suiddock	"Suiddock is the heart and soul of Marienburg — and considering what a run-down pesthole it is, that's a frightening thought."\\n\\n The Bruynwater canal is one of the few waterways in Marienburg deep enough to handle ocean-going vessels. It runs for almost a mile, both sides crammed with warehouses, docks, offices, shops, taverns, flophouses, shipyards, tenements and brothels. Its streets are filled with crowds of people always in motion, all Marienburg's classes and races blending together in an ever-changing swirl. The Bruynwater itself and its many side canals teem with ships large and small, from sea-going clippers, caravels, ketches and dhows to riverboats and barges from the interior of the Old World. Amongst them all dash the small dories and skiffs of the locals, darting in and out of the traffic like water-beetles and creating nightmares for pilots trying to bring large vessels into dock. Suiddock is the beating heart of Marienburg's labour, trade, crime and all that the upperclass dislikes being associated with.	true
+building_short_description_texts_short_description_hkrul_mar_temple_haeyndrik	"This is efficiency! Where else can you pray and take out a loan at the same time?"\\n\\n The Temple of Haendryk is far grander than one would expect for such a small cult, until one realizes its importance here - along with the cult of Manaan, the cult of Haendryk represents one of the two reasons for the city's prosperity: the sea and commerce. Worshipped elsewhere only by merchants and peddlers, the people of Marienburg have taken the cult's message to heart: "Make money fast!" The temple has been adorned by generations of people grateful for striking it rich or hoping to gain Haendryk's favour, till it rivals the Cathedral of Manaan in splendour. The temple is the centre of the cult of Haendryk in the Old World — indeed, it is by far the largest temple to Haendryk in the Old World and is one of the few holy sites to the god permanently staffed by priests. Cult shrines in most towns and cities are tended by lay-brothers, though priests are sent out on a regular circuit to tend to the faithful and collect tithes.	true
+building_short_description_texts_short_description_hkrul_mar_bechai	The worship of Chi'an Chi became popular among the aristocracy of the city of Beichai centuries ago, but as worship is outlawed by the Dragon Emperor, patrons are forced to organize their cult underground. There is no city in Cathay where the worship of Chi'an Chi is as strong and well organized as Beichai. With various shrines hidden throughout the city, all pulling energy from one big monument hidden well underground. 	true
+building_short_description_texts_short_description_hkrul_mar_mundvard_liar	For centuries the Knights of Purity have been trying to locate Mundvard's Lair within the underground canals and sewers of Marienburg. Not once did they find a trace, the reason is simple however - as Mundvard is as shrewd as he is Cruel. He houses his lair outside of the City's wall, deep within the mountains. Amongst dead Orcs, Goblins and other foul things. From here he runs is various operations that remain a scourge for the Wasteland.	true
+building_short_description_texts_short_description_hkrul_mar_mundvard_marienburg	No longer shall Vampires rule from the shadows of the Wasteland, instead - the once proud Goudberg, vital vein for the Marienburger aristocracy is deduced to darkness, long blood stained banners waving from tall abandoned estates. Here Mundvard rains supreme, from his palace in Paleisbuurt, over both men and undead a like.	true
+building_short_description_texts_short_description_hkrul_mar_rijker	"Every time I sail into this bay, the first thing I see is that prison, like a watchman guarding his master's jewels. And I can't decide if Rijker's stands guard against the foreign invader or against the Marienburgers' own worst selves."\\n\\n Fortress, prison and palace to some. Rijker's Isle is a towering island situated directly between Marienburg's vulnerable port and the dangerous Sea of Claws. It is not only instrumental for Marienburg's defence, as no ship shall pass it's ordnance's gaze, it is also one of the largest prisons of the Old World. Housing the most descipeable criminals. Among the garrison are the Red Talons, a Tilean mercenary band hired to perform executions via firing line and fend off any foreign invaders approaching Marienburg from the Sea.	true
+building_short_description_texts_short_description_rhox_mar_foreign_corruption_1	Establishes a underground network that will leech the very essence of the region from the cold safe void of the shadows.	false
+building_short_description_texts_short_description_rhox_mar_foreign_income_1	Although authorities will notice more and more people disappear under the cover of night, a few bribes will go a long way in maintaining our operations.	false
+building_short_description_texts_short_description_rhox_mar_foreign_trade_1	Mortal men serve a variety of purposes, much like cattle - they are as valuable for consumption as they are for trade.	false
+building_short_description_texts_short_description_rhox_mar_eilhart	One of the vital hubs in regulating trade over the River Reik, Eilhart is located at the very entry way that enables passage from the Sea of Claws to to all major cities of the Empire. It is from this franchise the edicts are invoked. The Rivermen association from Marienburg thus states: ''Control the Rivers, control the Empire''. It is also the home of the largest cohort of Riverwardens, the soldiers responsible for enforcing laws and edicts upon the Rivers.	true
+building_culture_variants_name_rhox_mar_emp_walls_1wh_main_emp_marienburg	Basic Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_2wh_main_emp_marienburg	Tall Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_3wh_main_emp_marienburg	Reinforced Walls	false
+building_culture_variants_name_rhox_egmond_emp_walls_1ovn_mar_house_den_euwe	Basic Walls	false
+building_culture_variants_name_rhox_egmond_emp_walls_2ovn_mar_house_den_euwe	Tall Walls	false
+building_culture_variants_name_rhox_egmond_emp_walls_3ovn_mar_house_den_euwe	Reinforced Walls	false
+building_culture_variants_name_rhox_mar_emp_garrison_1wh_main_emp_marienburg	Guard House	false
+building_culture_variants_name_rhox_mar_emp_garrison_2wh_main_emp_marienburg	City Watch	false
+building_culture_variants_name_rhox_egmond_emp_garrison_1ovn_mar_house_den_euwe	Guard House	false
+building_culture_variants_name_rhox_egmond_emp_garrison_2ovn_mar_house_den_euwe	City Watch	false
+building_chains_chain_tooltip_rhox_mar_emp_garrison	Garrison	false
+building_chains_encyclopedia_description_rhox_mar_emp_garrison	Garrison	false
+building_chains_encyclopedia_name_rhox_mar_emp_garrison	Garrison	false
+building_chains_chain_tooltip_rhox_mar_emp_walls	Walls	false
+building_chains_encyclopedia_description_rhox_mar_emp_walls	Walls	false
+building_chains_encyclopedia_name_rhox_mar_emp_walls	Walls	false
+building_chains_chain_tooltip_rhox_egmond_emp_garrison	Garrison	false
+building_chains_encyclopedia_description_rhox_egmond_emp_garrison	Garrison	false
+building_chains_encyclopedia_name_rhox_egmond_emp_garrison	Garrison	false
+building_chains_chain_tooltip_rhox_egmond_emp_walls	Walls	false
+building_chains_encyclopedia_description_rhox_egmond_emp_walls	Walls	false
+building_chains_encyclopedia_name_rhox_egmond_emp_walls	Walls	false
+building_culture_variants_name_wh_main_emp_walls_1wh_main_emp_marienburg	Basic Walls	false
+building_culture_variants_name_wh_main_emp_walls_2wh_main_emp_marienburg	Tall Walls	false
+building_culture_variants_name_wh_main_emp_walls_3wh_main_emp_marienburg	Reinforced Walls	false
+building_culture_variants_name_wh_main_emp_walls_1ovn_mar_house_den_euwe	Basic Walls	false
+building_culture_variants_name_wh_main_emp_walls_2ovn_mar_house_den_euwe	Tall Walls	false
+building_culture_variants_name_wh_main_emp_walls_3ovn_mar_house_den_euwe	Reinforced Walls	false
+building_culture_variants_name_wh_main_emp_garrison_1wh_main_emp_marienburg	Guard House	false
+building_culture_variants_name_wh_main_emp_garrison_2wh_main_emp_marienburg	City Watch	false
+building_culture_variants_name_wh_main_emp_garrison_1ovn_mar_house_den_euwe	Guard House	false
+building_culture_variants_name_wh_main_emp_garrison_2ovn_mar_house_den_euwe	City Watch	false
+building_chains_chain_tooltip_rhox_mar_emp_allied_outpost	Outpost	false
+building_chains_encyclopedia_description_rhox_mar_emp_allied_outpost		false
+building_chains_encyclopedia_name_rhox_mar_emp_allied_outpost		false
+building_chains_chain_tooltip_rhox_egmond_emp_allied_outpost	Outpost	false
+building_chains_encyclopedia_description_rhox_egmond_emp_allied_outpost		false
+building_chains_encyclopedia_name_rhox_egmond_emp_allied_outpost		false
+building_culture_variants_name_wh3_main_emp_allied_outpost_1wh_main_emp_marienburg	Empire Outpost	false
+building_culture_variants_name_wh3_main_emp_allied_outpost_2wh_main_emp_marienburg	Empire District	false
+building_culture_variants_name_wh3_main_emp_allied_outpost_3wh_main_emp_marienburg	Empire Colony	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_1wh_main_emp_marienburg	Empire Outpost	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_2wh_main_emp_marienburg	Empire District	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_3wh_main_emp_marienburg	Empire Colony	false
+building_culture_variants_name_wh3_main_emp_allied_outpost_1ovn_mar_house_den_euwe	Empire Outpost	false
+building_culture_variants_name_wh3_main_emp_allied_outpost_2ovn_mar_house_den_euwe	Empire District	false
+building_culture_variants_name_wh3_main_emp_allied_outpost_3ovn_mar_house_den_euwe	Empire Colony	false
+building_culture_variants_name_rhox_egmond_emp_allied_outpost_1ovn_mar_house_den_euwe	Empire Outpost	false
+building_culture_variants_name_rhox_egmond_emp_allied_outpost_2ovn_mar_house_den_euwe	Empire District	false
+building_culture_variants_name_rhox_egmond_emp_allied_outpost_3ovn_mar_house_den_euwe	Empire Colony	false
+building_culture_variants_name_rhox_mar_emp_walls_1ovn_mar_house_den_euwe	Basic Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_2ovn_mar_house_den_euwe	Tall Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_3ovn_mar_house_den_euwe	Reinforced Walls	false
+building_culture_variants_name_rhox_mar_emp_garrison_1ovn_mar_house_den_euwe	Guard House	false
+building_culture_variants_name_rhox_mar_emp_garrison_2ovn_mar_house_den_euwe	City Watch	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_1ovn_mar_house_den_euwe	Empire Outpost	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_2ovn_mar_house_den_euwe	Empire District	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_3ovn_mar_house_den_euwe	Empire Colony	false
+building_culture_variants_name_rhox_mar_emp_walls_1ovn_mar_house_fooger	Basic Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_2ovn_mar_house_fooger	Tall Walls	false
+building_culture_variants_name_rhox_mar_emp_walls_3ovn_mar_house_fooger	Reinforced Walls	false
+building_culture_variants_name_rhox_mar_emp_garrison_1ovn_mar_house_fooger	Guard House	false
+building_culture_variants_name_rhox_mar_emp_garrison_2ovn_mar_house_fooger	City Watch	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_1ovn_mar_house_fooger	Empire Outpost	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_2ovn_mar_house_fooger	Empire District	false
+building_culture_variants_name_rhox_mar_emp_allied_outpost_3ovn_mar_house_fooger	Empire Colony	false

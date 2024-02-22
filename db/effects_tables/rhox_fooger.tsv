@@ -9,3 +9,6 @@ hkrul_xp_gain_fooger	experience.png	999	experience.png	campaign	true
 hkrul_melee_attack_fooger	defence.png	999	defence.png	battle	true
 hkrul_upkeep_fooger	military_spending.png	1	military_spending.png	campaign	false
 hkrul_mar_franz	diplomacy.png	91	diplomacy.png	campaign	true
+hkrul_ogg_aim	item_ability.png	300	item_ability.png	battle	true
+hkrul_paldee_hammer	item_ability.png	300	item_ability.png	battle	true
+hkrul_rasha_sword	item_ability.png	300	item_ability.png	battle	true

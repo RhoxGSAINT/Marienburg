@@ -10,8 +10,13 @@ local rhox_caravan_exception_list = {
     ["hkrul_lisette"] = true,
     ["hkrul_cross"] = true,
     ["hkrul_pg"] = true,
-    ["hkrul_fooger_caravan_master"] = true
+    ["hkrul_fooger_caravan_master"] = true,
+    ["hkrul_rasha"] = true,
+    ["hkrul_ogg"] = true,
+    ["hkrul_paldee"] = true,
 }
+
+
 
 
 local rhox_mar_fooger_event_tables = {
@@ -320,10 +325,10 @@ local rhox_mar_fooger_event_tables = {
         local eventname = "genericShortcut" .. "?";
         local probability = 2;
 
-        local has_scouting = world_conditions["caravan_master"]:character_details():has_skill(
-            "hkrul_caravan_lord_special_0_1");
-
-        if has_scouting == true then
+        local has_scouting = world_conditions["caravan_master"]:character_details():character():bonus_values():scripted_value("caravan_scouting", "value");
+            
+            
+        if has_scouting >0 then
             probability = probability + 6
         end
 
@@ -379,17 +384,7 @@ local rhox_mar_fooger_event_tables = {
             local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
             local payload_builder = cm:create_payload();
 
-            local scout_skill = caravan_handle:caravan_master():character_details():character():bonus_values()
-            :scripted_value("caravan_scouting", "value");
-            local caravan_character_list = caravan_handle:caravan_master():character_details():character()
-            :military_force():character_list()
-            for i = 0, caravan_character_list:num_items() - 1 do
-                local current_character = caravan_character_list:item_at(i);
-                if current_character:has_skill("hkrul_lisette_special_1_1") then
-                    out("Rhox mar: Find hkrul_lisette with a negotiation skill!")
-                    scout_skill = scout_skill - 25
-                end
-            end
+            local scout_skill = caravan_handle:caravan_master():character_details():character():bonus_values():scripted_value("caravan_scouting", "value");
             if scout_skill < -99 then
                 scout_skill = -99 --fail safe you're not going to get money from it
             end
@@ -1011,38 +1006,44 @@ function rhox_mar_fooger_adjust_end_node_value(region_name, value, operation, ap
 end
 
 local rhox_mar_fooger_item_data = {
+    wh3_main_combi_region_altdorf             = "hkrul_ogg",
+    wh3_main_combi_region_marienburg          = "hkrul_paldee",
     wh3_main_combi_region_frozen_landing      = "wh3_main_anc_caravan_frost_wyrm_skull",
     wh3_main_combi_region_shattered_stone_bay = "wh3_main_anc_caravan_sky_titan_relic",
     wh3_main_combi_region_novchozy            = "wh3_main_anc_caravan_frozen_pendant",
     wh3_main_combi_region_erengrad            = "wh3_main_anc_caravan_gryphon_legion_lance",
     wh3_main_combi_region_castle_drakenhof    = "wh3_main_anc_caravan_von_carstein_blade",
-    wh3_main_combi_region_altdorf             = "wh3_main_anc_caravan_luminark_lens",
-    wh3_main_combi_region_marienburg          = "wh3_main_anc_caravan_warrant_of_trade",
     wh3_main_combi_region_karaz_a_karak       = "wh2_dlc10_dwf_anc_talisman_the_ankor_chain_caravan",
     wh3_main_combi_region_Ind                 = "wh3_main_anc_caravan_bejewelled_dagger",
     wh3_main_combi_region_myrmidens           = "wh3_main_anc_caravan_grant_of_land",
     wh3_main_combi_region_estalia             = "wh3_main_anc_caravan_spy_in_court",
     wh3_main_chaos_region_zharr_naggrund      = "wh3_main_anc_caravan_statue_of_zharr", --for random reward
+    old_altdorf             = "wh3_main_anc_caravan_luminark_lens", --for random reward
+    old_marienburg          = "wh3_main_anc_caravan_warrant_of_trade", --for random reward
 }
 local rhox_mar_fooger_region_to_incident = {
-    wh3_main_combi_region_altdorf             = "wh3_main_cth_caravan_completed_altdorf",
+    wh3_main_combi_region_altdorf             = "rhox_fooger_caravan_completed_hkrul_ogg",
+    wh3_main_combi_region_marienburg          = "rhox_fooger_caravan_completed_hkrul_paldee",
     wh3_main_combi_region_castle_drakenhof    = "wh3_main_cth_caravan_completed_castle_drakenhof",
     wh3_main_combi_region_erengrad            = "wh3_main_cth_caravan_completed_erengrad",
     wh3_main_combi_region_estalia             = "wh3_main_cth_caravan_completed_estalia",
     wh3_main_combi_region_frozen_landing      = "wh3_main_cth_caravan_completed_frozen_landing",
     wh3_main_combi_region_Ind                 = "wh3_main_cth_caravan_completed_ind",
-    wh3_main_combi_region_marienburg          = "wh3_main_cth_caravan_completed_marienburg",
     wh3_main_combi_region_novchozy            = "wh3_main_cth_caravan_completed_novchozy",
     wh3_main_combi_region_shattered_stone_bay = "wh3_main_cth_caravan_completed_stone_bay",
     wh3_main_combi_region_karaz_a_karak       = "wh3_main_cth_caravan_completed_zharr_nagrund",
     wh3_main_combi_region_myrmidens           = "wh3_main_cth_caravan_completed_tilea",
-
+    old_altdorf             = "wh3_main_anc_caravan_luminark_lens",
+    old_marienburg          = "wh3_main_anc_caravan_warrant_of_trade",
 }
+
 
 local rhox_mar_fooger_region_reward_list = {
     "wh3_main_combi_region_estalia",
     "wh3_main_combi_region_Ind",
     "wh3_main_chaos_region_zharr_naggrund",
+    "old_altdorf",
+    "old_marienburg",
 }
 
 
@@ -1051,9 +1052,26 @@ local function rhox_mar_fooger_reward_item_check(faction, region_key, caravan_ma
     if not reward then
         return false
     end
-
-    if not faction:ancillary_exists(reward) then
-        local character = caravan_master:character()
+    local character = caravan_master:character()
+    if (reward == "hkrul_ogg" or reward == "hkrul_paldee") and cm:get_saved_value(rhox_mar_fooger_region_to_incident[region_key])~= true then
+        
+        cm:set_saved_value(rhox_mar_fooger_region_to_incident[region_key],true)
+        local payload_builder = cm:create_payload();
+        payload_builder:text_display("rhox_mar_dummy_"..reward);
+        cm:spawn_unique_agent(faction:command_queue_index(), reward, true)
+        local incident_builder = cm:create_incident_builder(rhox_mar_fooger_region_to_incident[region_key])
+        incident_builder:add_target(character:family_member())
+        incident_builder:set_payload(payload_builder)
+        cm:launch_custom_incident_from_builder(incident_builder, faction)
+        local caravan_military_force = caravan_master:character():military_force()
+        local caravan_military_unit_number = caravan_military_force:unit_list():num_items()
+        if caravan_military_unit_number < 20 then --it has a place for a hero, if it doesn't, don't embed him
+            local unique_agent = cm:get_most_recently_created_character_of_type(faction:name(), "champion", reward)
+            if unique_agent then 
+                cm:embed_agent_in_force(unique_agent ,caravan_military_force)
+            end
+        end
+    elseif not faction:ancillary_exists(reward) then
         local payload_builder = cm:create_payload();
         payload_builder:character_ancillary_gain(character, reward, false)
         cm:trigger_custom_incident_with_targets(
@@ -1270,6 +1288,29 @@ local function rhox_mar_fooger_start_listeners()
         end,
         true
     );
+    
+    
+    local fooger_faction = cm:get_faction(fooger_faction_key)
+    if fooger_faction:is_human() == false then
+        core:add_listener(
+            "rhox_ai_fooger_turn_start",
+            "FactionTurnStart",
+            function(context)
+                return context:faction():name() ~= fooger_faction_key
+            end,
+            function(context)
+                local faction = context:faction()
+                local turn = cm:model():turn_number();
+                if turn >= 15 then
+                    cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_ogg", true)
+                end
+                if turn >= 25 then
+                    cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_paldee", true)
+                end
+            end,
+            true
+        )
+    end
 end
 
 

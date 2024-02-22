@@ -3,3 +3,5 @@ key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident
 rhox_dauphine_reinforcements	false	diplomacy	false	Event		false		0.0000
 rhox_fooger_reinforcements	false	diplomacy	false	Event		false		0.0000
 rhox_mar_dauphine_turn2	false	cst/legendary_pirate_attacks	false	Event		true		0.0000
+rhox_fooger_caravan_completed_hkrul_ogg	false	cth/ivory_road	false	Event	event_caravan_positive.png	false		0.0000
+rhox_fooger_caravan_completed_hkrul_paldee	false	cth/ivory_road	false	Event	event_caravan_positive.png	false		0.0000

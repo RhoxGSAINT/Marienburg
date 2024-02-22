@@ -310,7 +310,10 @@ local rhox_caravan_exception_list={
     ["hkrul_guzunda"] =true,
     ["hkrul_lisette"] =true,
     ["hkrul_cross"] =true,
-    ["hkrul_pg"] =true
+    ["hkrul_pg"] =true,
+    ["hkrul_rasha"] = true,
+    ["hkrul_ogg"] = true,
+    ["hkrul_paldee"] = true,
 }
 
 
@@ -936,34 +939,13 @@ local event_table = {
 		local eventname = "genericShortcut".."?";
 		local probability = 2;
 		--caravan_master is a FAMILY_MEMBER_SCRIPT_INTERFACE
-		local has_scouting = world_conditions["caravan_master"]:character_details():has_skill("hkrul_caravan_lord_special_0_1");
-		
-		if has_scouting == true then
-            out("Rhox mar: Waving carrots")
-			probability = probability + 6
-		end
-		
-		local caravan_character_list = world_conditions["caravan_master"]:character():military_force():character_list()
-		for i = 0, caravan_character_list:num_items() - 1 do
-            local current_character = caravan_character_list:item_at(i);
-            if current_character:has_skill("hkrul_crispijn_special_1_1") then
-                out("Rhox mar: Find hkrul_crispijn with a skill!")
-                probability = probability + 6
-            end
-            if current_character:has_skill("hkrul_guzunda_special_1_0") then
-                out("Rhox mar: Find hkrul_gzunda with a skill!")
-                probability = probability + 6
-            end
-            if current_character:has_skill("hkrul_cross_special_1_0") then
-                out("Rhox mar: Find hkrul_cross with a skill!")
-                probability = probability + 6
-            end
-            if current_character:has_skill("hkrul_pg_special_3_1") then
-                out("Rhox mar: Find hkrul_pg with a skill!")
-                probability = probability + 6
-            end
+		local has_scouting = world_conditions["caravan_master"]:character_details():character():bonus_values():scripted_value("caravan_scouting", "value");
             
-		end
+        if has_scouting >0 then
+            probability = probability + 6
+        end
+		
+		
 		
 		return {probability,eventname}
 		
@@ -1003,14 +985,6 @@ local event_table = {
 		local payload_builder = cm:create_payload();
 		
 		local scout_skill = caravan_handle:caravan_master():character_details():character():bonus_values():scripted_value("caravan_scouting", "value");
-		local caravan_character_list = caravan_handle:caravan_master():character_details():character():military_force():character_list()
-		for i = 0, caravan_character_list:num_items() - 1 do
-            local current_character = caravan_character_list:item_at(i);
-            if current_character:has_skill("hkrul_lisette_special_1_1") then
-                out("Rhox mar: Find hkrul_lisette with a negotiation skill!")
-                scout_skill = scout_skill -25
-            end
-		end
 		if scout_skill < -99 then
             scout_skill = -99 --fail safe you're not going to get money from it
 		end

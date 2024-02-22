@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="axe" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu3\dwf\phy_rashasawa\props\phy_rashasawa_sword_01.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

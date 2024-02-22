@@ -82,3 +82,21 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_lector_manann	emp_characters	false
 			hkrul_slaver	vmp_all	false
 			hkrul_slaver	vmp_characters	false
+			hkrul_ogg	mp_cap_group_heroes	false
+			hkrul_ogg	emp_all	false
+			hkrul_ogg	emp_characters	false
+			hkrul_ogg	dwarf_all_units_exclude_slayers	false
+			hkrul_ogg	hkrul_fooger_dwarves	false
+			hkrul_paldee	mp_cap_group_heroes	false
+			hkrul_paldee	emp_all	false
+			hkrul_paldee	emp_characters	false
+			hkrul_paldee	dwarf_all_units_exclude_slayers	false
+			hkrul_paldee	hkrul_fooger_dwarves	false
+			hkrul_rasha	mp_cap_group_heroes	false
+			hkrul_rasha	emp_all	false
+			hkrul_rasha	emp_characters	false
+			hkrul_rasha	dwarf_all_units_exclude_slayers	false
+			hkrul_rasha	hkrul_fooger_dwarves	false
+			hkrul_ogg	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_paldee	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_rasha	wh2_dlc13_emp_elector_count_reward_units	false

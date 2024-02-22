@@ -11,3 +11,6 @@ key	agent_subtype	factorial_effect	value	scope
 74153115	hkrul_harb	skaven_discoverability_characters	15	EFS_ONLY_OWNER
 74153116	mar_sea_wizard	skaven_discoverability_characters	15	EFS_ONLY_OWNER
 74153117	hkrul_arbatt	skaven_discoverability_characters	15	EFS_ONLY_OWNER
+89467472421	hkrul_rasha	skaven_discoverability_characters	15	EFS_ONLY_OTHERS
+89467472422	hkrul_ogg	skaven_discoverability_characters	15	EFS_ONLY_OTHERS
+89467472423	hkrul_paldee	skaven_discoverability_characters	15	EFS_ONLY_OTHERS

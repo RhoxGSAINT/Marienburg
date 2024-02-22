@@ -95,3 +95,20 @@ incidents_localised_description_rhox_mar_convoy_completed_elithis	The elves of T
 incidents_localised_title_rhox_mar_convoy_completed_elithis	Gilded Route Completed – Unique Item	false
 incidents_localised_description_rhox_mar_convoy_completed_bechafen	It is a common misconception to think the sea trade routes are the most profitable, as the rivertrade route between Marienburg and bechafen is one of the most lucrative for the Marienburger guildsmen. The Champion of the Guild, Pieter de Groot - a bear of a man nicknamed ''Big Piet'', joins your venture as you continue to explore the vast network of trade routes.	false
 incidents_localised_title_rhox_mar_convoy_completed_bechafen	Gilded Route Completed – Unique Item	false
+incidents_localised_description_rhox_dauphine_reinforcements	Praise Manann! The Directorate sends reinforcement for our quest	false
+incidents_localised_title_rhox_dauphine_reinforcements	Reinforcements!	false
+incidents_button_text_rhox_mar_dauphine_turn2	Lower the Sails!	false
+incidents_localised_description_rhox_mar_dauphine_turn2	These undiscovered seas are tainted by Stromfel's foul corruption. Only the Cult of Manann can purge the foul smell of this abonimation from the far stretched seas. We must hunt the Red Chaos Whale that terrorizes these oceans, be it living or dead. We shall conquer valuable ports in the name of Manann to ensure frequent supplies from our patrons directors from the directorate of Marienburg. Anchors away!	false
+incidents_localised_title_rhox_mar_dauphine_turn2	Manann's Quest	false
+incidents_localised_description_rhox_fooger_reinforcements	Driven by the smell of gold, more Dwarves have arrived to join your faction	false
+incidents_localised_title_rhox_fooger_reinforcements	More Dwarves Arrive	false
+incidents_localised_description_rhox_fooger_caravan_completed_hkrul_ogg	Famous Dwarf, Ogg the Expatriate joins your caravan	false
+incidents_localised_title_rhox_fooger_caravan_completed_hkrul_ogg	Caravan Completed - Unique Item	false
+incidents_localised_description_rhox_fooger_caravan_completed_hkrul_paldee	Famous Dwarf, Palldee Hammerbearer joins your caravan	false
+incidents_localised_title_rhox_fooger_caravan_completed_hkrul_paldee	Caravan Completed - Unique Item	false
+incidents_localised_title_rhox_mar_convoy_unlocked	Slave Convoys Available	false
+incidents_localised_description_rhox_mar_convoy_unlocked	Convoy routes to sell off the slaves are now available for use in the [[col:yellow]]Military Convoys[[/col]] panel. Such an enterprise is very profitable, but opportunity does not come without risk. 	false
+incidents_localised_title_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer Recruited	false
+incidents_localised_description_rhox_mar_mundvard_criminal_recruited	Following a successful slave import, Mundvard gains the services of a cunning Criminal Network Overseer, tasked with establishing a criminal network in a treacherous region of the Old World. With her expertise in deception and manipulation, she is determined to prove her worth to Mundvard and rise through the ranks of his organization.\\n\\n[[col:yellow]]You'll gain Criminal Network Overseer if you don't have the "Criminal Network Established" modifier which is given when you establish a Criminal Network[[/col]]	false
+incidents_localised_title_rhox_mar_gained_access_to_the_guilded	New Horizon	false
+incidents_localised_description_rhox_mar_gained_access_to_the_guilded	By acquiring Marienburg, we have gained access to the fabulous Gilded Route. An Ocean of Money awaits us. 	false

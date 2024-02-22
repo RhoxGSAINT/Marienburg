@@ -1,3 +1,6 @@
 order	special_ability	target_self	target_friends	target_enemies	phase
 #special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/hkrul_fooger					
 1	hkrul_mar_smith	false	false	true	hkrul_mar_smith
+1	hkrul_ogg_aim	true	false	false	hkrul_ogg_aim
+1	hkrul_paldee_hammer	true	false	false	hkrul_paldee_hammer
+1	hkrul_rasha_sword	true	false	false	hkrul_rasha_sword

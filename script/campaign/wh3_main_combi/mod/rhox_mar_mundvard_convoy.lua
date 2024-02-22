@@ -10,7 +10,10 @@ local rhox_caravan_exception_list={
     ["hkrul_guzunda"] =true,
     ["hkrul_lisette"] =true,
     ["hkrul_cross"] =true,
-    ["hkrul_pg"] =true
+    ["hkrul_pg"] =true,
+    ["hkrul_rasha"] = true,
+    ["hkrul_ogg"] = true,
+    ["hkrul_paldee"] = true,
 }
 
 

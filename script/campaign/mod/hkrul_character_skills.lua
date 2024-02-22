@@ -494,34 +494,19 @@ function rhox_mar_add_initial_cargo(caravan_handle)
     if character:has_effect_bundle("rhox_mar_bundle_caravan_heroes") then
         cm:remove_effect_bundle_from_character("rhox_mar_bundle_caravan_heroes", character)
     end-- remove the pre-existing one if any
+    
+    local bonus_cargo = character:bonus_values():scripted_value("rhox_mar_additional_cargo", "value");
+    
     local cargo_bundle = cm:create_new_custom_effect_bundle("rhox_mar_bundle_caravan_heroes");
     cargo_bundle:set_duration(0);
-    local bonus_cargo =0
-		
+    cargo_bundle:add_effect("wh3_main_effect_caravan_cargo_capacity", "character_to_character_own", bonus_cargo); --it's percentage but will work since 1000 is the minimum
     
-    out("Rhox mar: Checking caravan master")    
+    
+    --out("Rhox mar: Checking caravan master")    
     local cargo_amount = caravan_handle:cargo();
-    out("Rhox mar: Cargo Amount before the function: "..cargo_amount)
-    
-    local crispijn = get_character_by_subtype("hkrul_crispijn", faction)
-    if crispijn and crispijn:has_skill("hkrul_crispijn_special_1_2") and crispijn:is_embedded_in_military_force() and character:has_military_force() and character:military_force():command_queue_index() == crispijn:embedded_in_military_force():command_queue_index() then
-        out("Rhox mar: hkrul_crispijn found")
-        bonus_cargo = bonus_cargo+ 200
-        cargo_bundle:add_effect("wh3_main_effect_caravan_cargo_capacity", "character_to_character_own", 20); --it's percentage but will work since 1000 is the minimum
-    end
-    
-    local guzunda = get_character_by_subtype("hkrul_guzunda", faction)
-    if guzunda and guzunda:has_skill("hkrul_guzunda_special_1_0") and guzunda:is_embedded_in_military_force() and character:has_military_force() and character:military_force():command_queue_index() == guzunda:embedded_in_military_force():command_queue_index() then
-        out("Rhox mar: hkrul_guzunda found")
-        bonus_cargo = bonus_cargo+ 200
-        cargo_bundle:add_effect("wh3_main_effect_caravan_cargo_capacity", "character_to_character_own", 20); --it's percentage but will work since 1000 is the minimum
-    end
-    
-    local lisette = get_character_by_subtype("hkrul_lisette", faction)
-    if lisette and lisette:has_skill("hkrul_lisette_special_1_1") and lisette:is_embedded_in_military_force() and character:has_military_force() and character:military_force():command_queue_index() == lisette:embedded_in_military_force():command_queue_index() then
-        out("Rhox mar: hkrul_lisette found")
-        bonus_cargo = bonus_cargo+ 200
-        cargo_bundle:add_effect("wh3_main_effect_caravan_cargo_capacity", "character_to_character_own", 20); --it's percentage but will work since 1000 is the minimum
+    --out("Rhox mar: Cargo Amount before the function: "..cargo_amount)
+    if bonus_cargo <= 0 then
+        return --don't do anything if the value is 0
     end
     
     cm:apply_custom_effect_bundle_to_character(cargo_bundle, character)

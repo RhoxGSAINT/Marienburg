@@ -18,3 +18,9 @@ rhox_rogue_spirits_of_stromfel	false	urg_kho_inf_sphenisci_daemon	true	true				f
 rhox_rogue_spirits_of_stromfel	false	urg_nur_inf_sphenisci_daemon	true	true				false		false
 rhox_rogue_spirits_of_stromfel	false	urg_sla_inf_sphenisci_daemon	true	true				false		false
 rhox_rogue_spirits_of_stromfel	false	urg_tze_inf_sphenisci_daemon	true	true				false		false
+rhox_mar_marienburg	true	hkrul_fooger	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_fooger.png	hkrul_fooger	hkrul_fooger	false		false
+rhox_mar_marienburg	true	hkrul_fooger_caravan_master	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_fooger_caravan_master_01.png	hkrul_fooger_caravan_master_01	hkrul_fooger_caravan_master	false		false
+rhox_mar_marienburg	true	hkrul_fooger_dwarf_lord	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_fooger_caravan_master_02.png	hkrul_fooger_caravan_master_02	hkrul_fooger_dwarf_lord	false		false
+rhox_mar_marienburg	false	hkrul_rasha	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_rasha.png	hkrul_rasha	hkrul_rasha	false		false
+rhox_mar_marienburg	false	hkrul_ogg	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_ogg.png	hkrul_ogg	hkrul_ogg	false		false
+rhox_mar_marienburg	false	hkrul_paldee	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_paldee.png	hkrul_paldee	hkrul_paldee	false		false

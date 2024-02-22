@@ -6,3 +6,11 @@ ovn_art_set_mar_sea_wizard_02	wizard				false	true	mar_sea_wizard	1.0000
 chaos_whale_kou	general				false	true	chaos_whale_kou	1.0000
 chaos_whale_kou_female	general				false	false	chaos_whale_kou	1.0000
 hkrul_arbatt	champion				false	true	hkrul_arbatt	1.0000
+hkrul_rasha	champion				false	true	hkrul_rasha	1.0200
+hkrul_ogg	champion				false	true	hkrul_ogg	1.0400
+hkrul_paldee	champion				false	true	hkrul_paldee	1.0600
+hkrul_fooger	general				false	true	hkrul_fooger	1.0000
+hkrul_fooger_caravan_master_01	general				false	true	hkrul_fooger_caravan_master	1.0000
+hkrul_fooger_caravan_master_02	general				false	true	hkrul_fooger_caravan_master	1.0000
+hkrul_fooger_dwarf_lord_01	general				false	true	hkrul_fooger_dwarf_lord	1.0000
+hkrul_fooger_dwarf_lord_02	general				false	true	hkrul_fooger_dwarf_lord	1.0000

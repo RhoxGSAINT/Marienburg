@@ -38,7 +38,7 @@ rhox_mar_caravan_cargo_capacity_dummy	cargo.png	2	cargo.png	campaign	true
 rhox_mar_enable_kuypers_ring_dummy	general_ability.png	600	general_ability.png	battle	true
 rhox_mar_jaan_remove_lazy_dummy	general_ability.png	600	general_ability.png	campaign	true
 rhox_mar_cathay_ship_dummy	general_ability.png	600	general_ability.png	campaign	true
-rhox_mar_effect_additional_caravan_cargo_dummy	cargo.png	2	cargo.png	campaign	true
+rhox_mar_effect_additional_caravan_cargo	cargo.png	2	cargo.png	campaign	true
 rhox_mar_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	treasury.png	10	treasury.png	campaign	false
 rhox_mar_alicia_criminal_network_dummy	pirate_cove.png	10	pirate_cove.png	campaign	true
 rhox_mar_active_convoys	army.png	2	army.png	campaign	true

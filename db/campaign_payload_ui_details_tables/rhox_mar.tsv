@@ -13,6 +13,8 @@ rhox_mar_conf_warning	ui/campaign ui/effect_bundles/treasury.png	default	0
 rhox_mar_crispijn_notify	ui/campaign ui/effect_bundles/agent.png	default	0
 rhox_mar_dummy_hkrul_guzunda_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
 rhox_mar_dummy_hkrul_crispijn_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_hkrul_ogg	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_mar_dummy_hkrul_paldee	ui/campaign ui/effect_bundles/agent.png	default	0
 dummy_rhox_refuse_ultimatum	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	default	0
 dummy_rhox_accept_ultimatum	ui/campaign ui/diplomacy_icons/diplomatic_option_soft_access.png	default	0
 dummy_rhox_tze_side	ui/flags/ovn_mar_the_wasteland/mon_64.png	default	2
@@ -28,3 +30,11 @@ rhox_mar_mundvard_criminal_recruited	ui/campaign ui/effect_bundles/agent.png	def
 rhox_mar_guilded_access	ui/skins/wh3_main_cth_cathay/ivory_road_caravan_icon.png	default	0
 rhox_mar_dummy_hkrul_pg_spawns	ui/campaign ui/effect_bundles/agent.png	default	0
 rhox_mar_dummy_manann	ui/campaign ui/effect_bundles/army.png	default	0
+rd1_second_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_third_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_fourth_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd1_first_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_second_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_third_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_fourth_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
+rd2_first_hkrul	ui/skins/default/treaty_player_client_state.png	default	0
