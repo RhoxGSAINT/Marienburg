@@ -1,11 +1,11 @@
-model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-#campaign_mounts_tables;8;db/campaign_mounts_tables/hkrul_mar							
-hkrul_jk_cam_horse  	cam_hr1_warhorse	hkrul_jk_horse	1.0000	wh_main_vo_actor_Empire_General	false	152	false
-hkrul_solkan_cam_horse  	cam_hr1_warhorse	hkrul_solkan_horse	1.0000	wh_main_vo_culture_Horse	false	0	false
-hkrul_egmond_cam_horse  	cam_hr1_warhorse	mrg_egmond_warhorse_armoured	1.0000	wh_main_vo_culture_Horse	false	0	false
-hkrul_egmond_cam_longma	cam_hr1_pegasus	mrg_egmond_logma_campaign	1.0000	wh_main_vo_culture_Horse	false	0	false
-hkrul_mundvard_cam_beast	cam_bi2_wyvern	hkrul_mar_munvard_mount	0.8500	wh_main_vo_culture_Dragon_Large	false	0	false
-hkrul_mar_cam_horse  	cam_hr1_warhorse	mrg_merchant_warhorse_armoured	1.0000	wh_main_vo_culture_Horse	false	0	false
-ovn_cam_mnt_mar_altar_of_manann	cam_wm_war_altar	ovn_campaign_mar_altar_of_manann	1.0000	wh_main_vo_culture_Empire	false	0	false
-hkrul_cam_manann_barded_warhorse	cam_hr1_warhorse	hkrul_manann_barded_warhorse_campaign	1.0000	wh_main_vo_culture_Horse	true	0	false
-hkrul_cam_manann_griffon	cam_bc2_griffon	hkrul_manann_griffon	0.8700	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount	prebattle_separation_offset
+#campaign_mounts_tables;9;db/campaign_mounts_tables/hkrul_mar								
+hkrul_jk_cam_horse  	cam_hr1_warhorse	hkrul_jk_horse	1.0000	wh_main_vo_actor_Empire_General	false	152	false	0.0000
+hkrul_solkan_cam_horse  	cam_hr1_warhorse	hkrul_solkan_horse	1.0000	wh_main_vo_culture_Horse	false	0	false	0.0000
+hkrul_egmond_cam_horse  	cam_hr1_warhorse	mrg_egmond_warhorse_armoured	1.0000	wh_main_vo_culture_Horse	false	0	false	0.0000
+hkrul_egmond_cam_longma	cam_hr1_pegasus	mrg_egmond_logma_campaign	1.0000	wh_main_vo_culture_Horse	false	0	false	0.0000
+hkrul_mundvard_cam_beast	cam_bi2_wyvern	hkrul_mar_munvard_mount	0.8500	wh_main_vo_culture_Dragon_Large	false	0	false	0.0000
+hkrul_mar_cam_horse  	cam_hr1_warhorse	mrg_merchant_warhorse_armoured	1.0000	wh_main_vo_culture_Horse	false	0	false	0.0000
+ovn_cam_mnt_mar_altar_of_manann	cam_wm_war_altar	ovn_campaign_mar_altar_of_manann	1.0000	wh_main_vo_culture_Empire	false	0	false	0.0000
+hkrul_cam_manann_barded_warhorse	cam_hr1_warhorse	hkrul_manann_barded_warhorse_campaign	1.0000	wh_main_vo_culture_Horse	true	0	false	0.0000
+hkrul_cam_manann_griffon	cam_bc2_griffon	hkrul_manann_griffon	0.8700	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false	0.0000

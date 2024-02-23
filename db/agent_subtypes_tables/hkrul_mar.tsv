@@ -1,18 +1,18 @@
-key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost
-#agent_subtypes_tables;1;db/agent_subtypes_tables/hkrul_mar																					
-hkrul_jk	false	false		hkrul_jk	wh_main_vo_actor_Empire_General	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100
-hkrul_pg	false	false		hkrul_pg	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100
-hkrul_solkan	false	false		hkrul_solkan	wh_main_vo_actor_Empire_WitchHunter	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100
-hkrul_hendrik	false	false		hkrul_hendrik	wh2_pro08_vo_actor_neu_Felix	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100
-mar_caravan_master	true	false		hkrul_mar_caravan_master	wh_main_vo_actor_Empire_General	true	-1	false	true	false	true	mar_caravan_master			false	false	cannot_be_saved_loaded		false	true	750
-hkrul_crispijn	false	false		hkrul_crispijn	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
-hkrul_mar_egmond	false	true		hkrul_mar_egmond	wh3_main_vo_actor_Tzeentch_Cultist_Of_Tzeentch	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Tzeentch	false	true	1050
-hkrul_mar_munvard	false	true		hkrul_mar_munvard_01	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	false	true	legendary_lords	wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1050
-hkrul_alicia	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	hkrul_alicia	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	true	false	false		wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1150
-hkrul_guzunda	false	false		hkrul_guzunda	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100
-hkrul_lisette	false	false		hkrul_lisette	wh_dlc03_vo_actor_Bretonnian_Damsel	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
-hkrul_cross	false	false		hkrul_cross	wh2_main_vo_actor_High_Elves_Noble	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	995
-hkrul_harb	false	false	ui/campaign ui/agents/wh_main_dwf_engineer.png	hkrul_harb	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950
-rhox_mar_mundvard_criminal	false	false	ui/campaign ui/agents/wh2_dlc09_tmb_engineer_ritual.png	rhox_mar_mundvard_criminal	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	false	false	false				false	true	cannot_be_saved_loaded		false	true	550
-hkrul_lector_manann	true	false		hkrul_lector_manann	wh_dlc04_vo_actor_Empire_Arch_Lector	true	-1	false	true	true	true	mar_lector_manann			true	true	can_be_saved_loaded		false	true	900
-hkrul_slaver	true	false		hkrul_slaver	wh2_dlc14_vo_actor_Dark_Elf_High_Beastmaster	true	-1	false	true	true	true	mar_slaver			false	false	cannot_be_loaded_in_campaign		false	true	900
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost	recruitment_button_active_icon_path	recruitment_button_background_icon_path
+#agent_subtypes_tables;2;db/agent_subtypes_tables/hkrul_mar																							
+hkrul_jk	false	false		hkrul_jk	wh_main_vo_actor_Empire_General	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100		
+hkrul_pg	false	false		hkrul_pg	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100		
+hkrul_solkan	false	false		hkrul_solkan	wh_main_vo_actor_Empire_WitchHunter	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100		
+hkrul_hendrik	false	false		hkrul_hendrik	wh2_pro08_vo_actor_neu_Felix	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100		
+mar_caravan_master	true	false		hkrul_mar_caravan_master	wh_main_vo_actor_Empire_General	true	-1	false	true	false	true	mar_caravan_master			false	false	cannot_be_saved_loaded		false	true	750		
+hkrul_crispijn	false	false		hkrul_crispijn	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950		
+hkrul_mar_egmond	false	true		hkrul_mar_egmond	wh3_main_vo_actor_Tzeentch_Cultist_Of_Tzeentch	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Tzeentch	false	true	1050		
+hkrul_mar_munvard	false	true		hkrul_mar_munvard_01	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	false	true	legendary_lords	wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1050		
+hkrul_alicia	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	hkrul_alicia	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	true	false	false		wh_dlc05_lore_shadows		false	true	cannot_be_saved_loaded		false	true	1150		
+hkrul_guzunda	false	false		hkrul_guzunda	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	1100		
+hkrul_lisette	false	false		hkrul_lisette	wh_dlc03_vo_actor_Bretonnian_Damsel	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950		
+hkrul_cross	false	false		hkrul_cross	wh2_main_vo_actor_High_Elves_Noble	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	995		
+hkrul_harb	false	false	ui/campaign ui/agents/wh_main_dwf_engineer.png	hkrul_harb	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	950		
+rhox_mar_mundvard_criminal	false	false	ui/campaign ui/agents/wh2_dlc09_tmb_engineer_ritual.png	rhox_mar_mundvard_criminal	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	false	false	false				false	true	cannot_be_saved_loaded		false	true	550		
+hkrul_lector_manann	true	false		hkrul_lector_manann	wh_dlc04_vo_actor_Empire_Arch_Lector	true	-1	false	true	true	true	mar_lector_manann			true	true	can_be_saved_loaded		false	true	900		
+hkrul_slaver	true	false		hkrul_slaver	wh2_dlc14_vo_actor_Dark_Elf_High_Beastmaster	true	-1	false	true	true	true	mar_slaver			false	false	cannot_be_loaded_in_campaign		false	true	900		
