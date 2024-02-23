@@ -96,3 +96,5 @@ id	dilemma_key	option_key	value	target
 2055238147	rhox_mar_mundvard_dilemma_cathay_caravan	VAR_CHANCE	0	default
 2055238148	rhox_mar_mundvard_dilemma_cathay_caravan	GEN_TARGET_MODEL		target_military_1
 2055238149	rhox_mar_mundvard_dilemma_dwarfs	GEN_TARGET_MODEL		default
+1905195410	hkrul_mar_dil_1	VAR_CHANCE	100	
+1905193410	hkrul_mar_dil_2	VAR_CHANCE	100	

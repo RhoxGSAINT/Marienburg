@@ -74,8 +74,6 @@ key	building	unit	XP	conditions	faction	enabled
 323121778	wh_main_emp_forges_1	hkrul_mar_mortar	0	0	wh_main_emp_marienburg	true
 323121780	wh_main_emp_forges_3	hkrul_mar_mortar	0	0	wh_main_emp_marienburg	true
 323121781	wh_main_emp_forges_3	hkrul_mar_hellstorm	0	0	wh_main_emp_marienburg	true
-323121782	hkrul_mar_temple_haeyndrik	hkrul_mar_defenders	0	0	wh_main_emp_marienburg	true
-323121783	hkrul_mar_suiddock	hkrul_mar_black_caps	0	0	wh_main_emp_marienburg	true
 323121784	wh2_main_foreign_slot_discovery_emp_1	hkrul_mar_black_caps	0	0	wh_main_emp_marienburg	true
 323121785	wh2_main_foreign_slot_discovery_emp_2	hkrul_mar_black_caps	0	0	wh_main_emp_marienburg	true
 323121786	wh2_main_foreign_slot_discovery_emp_3	hkrul_mar_black_caps	0	0	wh_main_emp_marienburg	true
@@ -155,8 +153,6 @@ key	building	unit	XP	conditions	faction	enabled
 323121864	wh_main_emp_forges_1	hkrul_mar_mortar	0	0	ovn_mar_house_den_euwe	true
 323121865	wh_main_emp_forges_3	hkrul_mar_mortar	0	0	ovn_mar_house_den_euwe	true
 323121866	wh_main_emp_forges_3	hkrul_mar_hellstorm	0	0	ovn_mar_house_den_euwe	true
-323121867	hkrul_mar_temple_haeyndrik	hkrul_mar_defenders	0	0	ovn_mar_house_den_euwe	true
-323121868	hkrul_mar_suiddock	hkrul_mar_black_caps	0	0	ovn_mar_house_den_euwe	true
 323121869	wh2_main_foreign_slot_discovery_emp_1	hkrul_mar_black_caps	0	0	ovn_mar_house_den_euwe	true
 323121870	wh2_main_foreign_slot_discovery_emp_2	hkrul_mar_black_caps	0	0	ovn_mar_house_den_euwe	true
 323121871	wh2_main_foreign_slot_discovery_emp_3	hkrul_mar_black_caps	0	0	ovn_mar_house_den_euwe	true

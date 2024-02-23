@@ -24,3 +24,4 @@ hkrul_caravan_lord_horse	mount_barded_warhorse.png			0	false	false	false	0.0000	
 hkrul_skill_innate_mar_caravan_master_bretonnia	trait_personality.png			0	true	false	false	1.0000	0
 hkrul_skill_innate_mar_caravan_master_teb	trait_personality.png			0	true	false	false	2.0000	0
 rhox_mar_caravan_master_replenish	campaign_replenishment.png	The caravan holds a concealed space where grains and fruit are kept to keep the retinues refreshed.	Hidden Stores	0	false	false	false	0.0000	0
+hkrul_skill_innate_mar_caravan_master_privateer	trait_personality.png			0	true	false	false	2.0000	0

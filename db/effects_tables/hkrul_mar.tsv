@@ -114,6 +114,7 @@ hkrul_skill_innate_mar_caravan_master_solkan_zealot	army.png	1	army.png	campaign
 hkrul_skill_innate_mar_caravan_master_elf-ally	army.png	1	army.png	campaign	true
 hkrul_skill_innate_mar_caravan_master_dwarf-ally	army.png	1	army.png	campaign	true
 hkrul_skill_innate_mar_caravan_master_reformed_criminal	army.png	1	army.png	campaign	true
+hkrul_skill_innate_mar_caravan_master_privateer	army.png	1	army.png	campaign	true
 wh3_main_effect_caravan_cargo_value_regions_dummy	cargo.png	3	cargo.png	campaign	true
 hkrul_mar_hendrik_recruit	warrior_priest.png	104	warrior_priest.png	campaign	true
 hkrul_deneuwe_faction_effect	diplomacy_trespass.png	1	diplomacy_trespass.png	campaign	false

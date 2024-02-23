@@ -146,6 +146,9 @@ local function hkrul_mar()
                                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
                                 cm:force_make_trade_agreement(marienburg_faction_key, "ovn_mar_house_den_euwe")
                                 cm:make_diplomacy_available(marienburg_faction_key, "ovn_mar_house_den_euwe")
+                                if vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
+                                    cm:make_diplomacy_available(marienburg_faction_key, "mixer_emp_van_der_kraal")
+                                end
                             end
                         )
                     end

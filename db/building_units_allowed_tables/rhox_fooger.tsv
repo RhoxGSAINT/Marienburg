@@ -71,8 +71,6 @@ key	building	unit	XP	conditions	faction	enabled
 1761598243	wh_main_emp_forges_1	hkrul_mar_mortar	0	0	ovn_mar_house_fooger	true
 1761598244	wh_main_emp_forges_3	hkrul_mar_mortar	0	0	ovn_mar_house_fooger	true
 1761598245	wh_main_emp_forges_3	hkrul_mar_hellstorm	0	0	ovn_mar_house_fooger	true
-1761598246	hkrul_mar_temple_haeyndrik	hkrul_mar_defenders	0	0	ovn_mar_house_fooger	true
-1761598247	hkrul_mar_suiddock	hkrul_mar_black_caps	0	0	ovn_mar_house_fooger	true
 1761598248	wh2_main_foreign_slot_discovery_emp_1	hkrul_mar_black_caps	0	0	ovn_mar_house_fooger	true
 1761598249	wh2_main_foreign_slot_discovery_emp_2	hkrul_mar_black_caps	0	0	ovn_mar_house_fooger	true
 1761598250	wh2_main_foreign_slot_discovery_emp_3	hkrul_mar_black_caps	0	0	ovn_mar_house_fooger	true

@@ -1,11 +1,11 @@
 <material>
-  <name>dwf_gotrek_body_01_weighted4_alpha_off.xml</name>
-  <shader>shaders/weighted4_character.xml.shader</shader>
+  <name>cth_dragon_iron_human_head_01_weighted2_alpha_on.xml</name>
+  <shader>shaders/weighted2_character_alpha.xml.shader</shader>
   <sort_override>255</sort_override>
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>variantmeshes\wh_variantmodels\hu3\dwf\phy_rashasawa\tex\dwf_gotrek_body_05_base_colour.dds</source>
+   <source>variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_iron_human/tex/cth_dragon_iron_human_head_01_base_colour.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>
@@ -17,15 +17,15 @@
   </texture>
   <texture>
    <slot version="2">t_xml_mask</slot>
-   <source>MASK_PATH</source>
+   <source>variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_iron_human/tex/cth_dragon_iron_human_head_01_mask.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_material_map</slot>
-   <source>variantmeshes\wh_variantmodels\hu3\dwf\phy_rashasawa\tex\dwf_gotrek_body_02_material_map.dds</source>
+   <source>variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_iron_human/tex/cth_dragon_iron_human_head_01_material_map.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>
-   <source>variantmeshes/wh_variantmodels/hu3/dwf/dwf_gotrek/tex/dwf_gotrek_body_01_normal.dds</source>
+   <source>variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_iron_human/tex/cth_dragon_iron_human_head_01_normal.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_distortion_noise</slot>
