@@ -1467,25 +1467,6 @@ core:add_listener(
 	true
 );
 
-
---[[--let's not do this
-core:add_listener(
-	"hkrul_mar_clean_up_attacker",
-	"FactionTurnStart",
-	function(context)
-		return context:faction():name() == "wh2_main_def_dark_elves_qb1" or context:faction():name() == "wh2_dlc11_cst_vampire_coast_qb1" or context:faction():name() == "wh2_dlc13_nor_norsca_invasion"
-	end,
-	function(context)
-		cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");
-
-		cm:kill_all_armies_for_faction(context:faction());
-
-		cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed") end, 0.2);
-	end,
-	true
-);
---]]
-
 core:add_listener(
 	"hkrul_mar_unlock_retreat_caravan",
 	"CharacterCompletedBattle",

@@ -1,22 +1,30 @@
 key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed	faction_set
 #ancillaries_tables;0;db/ancillaries_tables/hkrul_mar_caravan																												
-hkrul_mundvard_artifact_wsoran	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	anc_set_exclusive_vampire_counts
-hkrul_mundvard_sword_wsoran	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_vampire_counts
-hkrul_mar_hilaria	hkrul_mar_hilaria	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_vampire_counts
-hkrul_alicia_rose	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		false	false	false	anc_set_exclusive_vampire_counts
-hkrul_alicia_ring	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_vampire_counts
-hkrul_mar_follower_bret	hkrul_mar_follower_bret	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_bard	hkrul_mar_follower_bard	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_norsca	hkrul_mar_follower_norsca	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_sun	hkrul_mar_follower_sun	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_elf	hkrul_mar_follower_elf	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_ship	hkrul_mar_follower_ship	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			49	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_cathay	hkrul_mar_follower_cathay	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_kislev	hkrul_mar_follower_kislev	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_follower_roelef	hkrul_mar_follower_roelef	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_item_arnheim	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_item_shield_manann	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_item_fence	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_item_trident_manann	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			100	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_item_vargheist	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_mar_marienburg_anc	hkrul_mar_marienburg_anc	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	anc_set_exclusive_sc_empire
+hkrul_mar_follower_bret	hkrul_mar_follower_bret	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_bard	hkrul_mar_follower_bard	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_norsca	hkrul_mar_follower_norsca	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_sun	hkrul_mar_follower_sun	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_elf	hkrul_mar_follower_elf	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_ship	hkrul_mar_follower_ship	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			49	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_cathay	hkrul_mar_follower_cathay	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_kislev	hkrul_mar_follower_kislev	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_follower_roelef	hkrul_mar_follower_roelef	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_item_arnheim	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_item_shield_manann	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_item_fence	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_item_trident_manann	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			100	0		false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_item_vargheist	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_marienburg_anc	hkrul_mar_marienburg_anc	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_testament	hkrul_mar_maacht_will	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_heir	hkrul_mar_caravan_anc_diverse4	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_loyal	hkrul_mar_caravan_anc_diverse	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_baron	hkrul_mar_caravan_anc_diverse2	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_rat	hkrul_mar_caravan_anc_diverse3	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			49	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_bonsai	hkrul_mar_bonsai	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_thom	hkrul_mar_caravan_anc_diverse5	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_gote	hkrul_mar_gote	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	false	anc_set_exclusive_sc_empire
+hkrul_mar_lupo	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	anc_set_exclusive_sc_empire
+rhox_mar_grant_of_land	wh_main_anc_human_man	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	false	anc_set_exclusive_sc_empire
+rhox_mar_bejewelled_dagger	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	1	1	50	75	true			200	0		false	false	false	anc_set_exclusive_sc_empire
+rhox_mar_frost_wyrm_skull	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	1	1	50	75	true			200	0		false	false	false	anc_set_exclusive_sc_empire
+rhox_mar_mirror_blade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	1	1	50	75	true			200	0		false	false	false	anc_set_exclusive_sc_empire

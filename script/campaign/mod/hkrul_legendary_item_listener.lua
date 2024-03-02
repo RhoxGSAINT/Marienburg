@@ -291,28 +291,6 @@ core:add_listener(
     false
 )
 
---[[
-core:add_listener(
-    "hkrul_pg_follower2_unlock",
-    "CharacterRankUp",
-    function(context)
-        local character = context:character()
-        local faction = character:faction()
-        return character:character_subtype("hkrul_pg") and character:rank() >= 8 and faction:ancillary_exists("hkrul_mar_anc_norscan") == false
-    end,
-    function(context)
-        cm:force_add_ancillary(
-            context:character(),
-            "hkrul_mar_anc_norscan",
-            true,
-            false
-        )
-    end,
-    false
-)
---]]
-
-
 core:add_listener(
     "hkrul_pg_follower3_unlock",
     "CharacterRankUp",

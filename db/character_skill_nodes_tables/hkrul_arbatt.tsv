@@ -18,7 +18,7 @@ hkrul_skill_node_arbatt_self_07		wh_main_skill_all_all_self_wound-maker		2	6		0	
 hkrul_skill_node_arbatt_self_08		wh_main_skill_all_all_self_scarred_veteran_2		2	7		0	0	true
 hkrul_skill_node_arbatt_self_09		wh_main_skill_all_all_self_indomitable		2	8		0	0	true
 hkrul_skill_node_arbatt_self_10		wh_main_skill_all_spy_self_elusive		2	9		0	0	true
-hkrul_skill_node_arbatt_self_11		wh_main_skill_all_all_self_deadly_onslaught		2	10		0	4	true
+hkrul_skill_node_arbatt_self_11		wh3_dlc24_skill_all_all_self_colossal_strike		2	10		0	4	true
 hkrul_skill_node_arbatt_unique_02		hkrul_arbatt_horse		0	2		0	0	true
 hkrul_skill_node_arbatt_unique_03		wh_main_skill_emp_champion_unique_hold_the_line		0	3		0	0	true
 hkrul_skill_node_arbatt_unique_04		wh_main_skill_emp_all_unique_sigmars_ward		0	4		0	0	true

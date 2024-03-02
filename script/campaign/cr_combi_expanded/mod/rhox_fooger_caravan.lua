@@ -1296,7 +1296,7 @@ local function rhox_mar_fooger_start_listeners()
             "rhox_ai_fooger_turn_start",
             "FactionTurnStart",
             function(context)
-                return context:faction():name() ~= fooger_faction_key
+                return context:faction():name() == fooger_faction_key
             end,
             function(context)
                 local faction = context:faction()
