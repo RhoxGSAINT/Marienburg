@@ -70,6 +70,7 @@ hkrul_mar_bundle_simon_dummy	military_spending.png	33	military_spending.png	camp
 hkrul_pg_burgher	turns.png	150	turns.png	campaign	false
 hkrul_mar_flood	attrition.png	5	attrition.png	campaign	true
 hkrul_mar_fatigue_start	vigour.png	101	vigour.png	battle	true
+hkrul_mar_fatigue_start_dummy	vigour.png	101	vigour.png	battle	true
 hkrul_mar_trade_agreements_visible_dummy	edict_stimulate_trade.png	1	edict_stimulate_trade.png	campaign	true
 hkrul_mar_flood_immune		0		campaign	true
 hkrul_mar_bundle_jaan_hidden		0		battle	false

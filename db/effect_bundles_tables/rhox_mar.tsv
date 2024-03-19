@@ -19,3 +19,4 @@ rhox_mar_bundle_pirate_cove_created	A Pirate Cove has been established recently,
 rhox_mar_mundvard_dilemma_attrition	Harsh landscapes take their blood tithe from the weak and feeble first.	The Path of Fire	force	1	attrition.png	true	false	true
 rhox_mar_mundvard_dilemma_defence	The arcane processes of the Hell-Forge grant these shields and armour greater effectiveness, for a time.	Clad in Durability	force	1	defence.png	true	false	true
 rhox_mar_mundvard_dilemma_offence	The arcane processes of the Hell-Forge grant these weapons much greater lethality, for a time.	Wielding Destruction	force	1	melee.png	true	false	true
+rhox_mar_bundle_voyage_enemy			force	1	wet_mitch.png	true	true	true

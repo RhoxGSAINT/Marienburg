@@ -73,7 +73,8 @@ effects_description_hkrul_mar_bundle_simon_dummy	Upkeep: %+n% while embedded in 
 effects_description_hkrul_pg_burgher	Global recruitment duration: %+n turns for Burgher Militia	true
 effects_description_hkrul_mar_carriers_phys	Phyiscal Resistance: %+n% for Merchant's Guild Baggage-Train	true
 effects_description_hkrul_mar_flood	All regions belonging to you will be flooded, causing [[img:icon_attrition]][[/img]]attrition to any armies	true
-effects_description_hkrul_mar_fatigue_start	Vigour in battle: Winded	true
+effects_description_hkrul_mar_fatigue_start	Vigour in battle: Winded (It doesn't work with the scope so I'm making script way)	true
+effects_description_hkrul_mar_fatigue_start_dummy	Vigour in battle: Winded	false
 effects_description_hkrul_mar_trade_agreements_visible_dummy	All regions owned by factions that you have [[img:icon_trade_agreement]][[/img]]trade agreements with are visible	true
 effects_description_hkrul_mar_bundle_jaan_dummy	Upkeep: %+n% while garrisoned in [[col:yellow]]Marienburg[[/col]]	true
 effects_description_hkrul_effect_xp_stealing_jaan_dummy	Jaan van de Kuypers demands a percentage of experience earned by other [[img:icon_general]][[/img]]Lords when garrisoned in [[col:yellow]]Marienburg[[/col]]	true

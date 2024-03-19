@@ -357,3 +357,26 @@ core:add_listener(
     end,
     true
 )        
+
+
+core:add_listener(
+    "rhox_mar_flood_giver", 
+    "CharacterTurnStart",
+    function(context)
+		local marienburg_faction = cm:get_faction(marienburg_faction_key)
+		if not marienburg_faction or not marienburg_faction:has_effect_bundle("hkrul_mar_ritual_voyage") then
+			return false
+		end
+		local character = context:character()
+		local character_faction = character:faction()
+        return character:has_military_force() and not character:is_at_sea() and character_faction:at_war_with(marienburg_faction) and character:region() and character:region():owning_faction() and character:region():owning_faction() == marienburg_faction
+		--must have militart force, and not at sea, at war with Marienburg, is in the region, region has owner, and the owner is marienburg
+    end,
+    function(context)
+		local character = context:character()
+        cm:apply_effect_bundle_to_characters_force("rhox_mar_bundle_voyage_enemy", character:command_queue_index(), 2)
+    end,
+    true
+) 
+
+
