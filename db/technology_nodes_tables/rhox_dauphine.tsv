@@ -1,4 +1,6 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_dauphine														
-rhox_mar_dauphine_tech_1		ovn_mar_cult_of_manann	7	rhox_mar_dauphine_tech_1	emp_civ_reworkd	4	700	0	0	rhox_mar_dauphine_tech_group		0	42	0
-rhox_mar_dauphine_tech_2		ovn_mar_cult_of_manann	8	rhox_mar_dauphine_tech_2	emp_civ_reworkd	4	700	0	0	rhox_mar_dauphine_tech_group		0	42	0
+rhox_mar_dauphine_tech_1		ovn_mar_cult_of_manann	6	rhox_mar_dauphine_tech_1	emp_civ_reworkd	5	700	0	0	rhox_mar_dauphine_tech_group		0	42	21
+rhox_mar_dauphine_tech_2		ovn_mar_cult_of_manann	7	rhox_mar_dauphine_tech_2	emp_civ_reworkd	5	700	0	0	rhox_mar_dauphine_tech_group		0	42	42
+rhox_mar_fooger_tech_1		ovn_mar_house_fooger	6	wh_main_tech_dwf_mil_4_2	emp_civ_reworkd	5	700	0	0	rhox_mar_fooger_tech_group		0	42	21
+rhox_mar_fooger_tech_2		ovn_mar_house_fooger	7	wh_main_tech_dwf_civ_4_0	emp_civ_reworkd	5	700	0	0	rhox_mar_fooger_tech_group		0	42	42

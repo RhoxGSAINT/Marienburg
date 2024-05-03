@@ -273,15 +273,15 @@ core:add_listener(
             local ai_choice = cm:random_number(3, 1)
             if ai_choice == 1 and cm:get_faction("wh_main_emp_wissenland") and cm:get_faction("wh_main_emp_wissenland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_wissenland", 10000)
-                add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_wissenland")
+                add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_wissenland")
                 cm:force_declare_war("wh_main_emp_wissenland","wh_main_emp_empire", true, true)
             elseif ai_choice == 2 and cm:get_faction("wh_main_emp_talabecland") and cm:get_faction("wh_main_emp_talabecland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_talabecland", 10000)
-                add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_talabecland")
+                add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_talabecland")
                 cm:force_declare_war("wh_main_emp_talabecland","wh_main_emp_empire",true, true)
             elseif ai_choice == 3 and cm:get_faction("wh_main_emp_nordland") and cm:get_faction("wh_main_emp_nordland"):is_dead()== false then
                 cm:treasury_mod("wh_main_emp_nordland", 10000)
-                add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_nordland")
+                add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_nordland")
                 cm:force_declare_war("wh_main_emp_nordland","wh_main_emp_middenland", true, true)
             end
             show_ai_rite_performed_event(context:performing_faction(), context:ritual():ritual_key())
@@ -309,15 +309,15 @@ core:add_listener(
 
         if choice == 0 then    
             cm:treasury_mod("wh_main_emp_wissenland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_wissenland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_wissenland")
             cm:force_declare_war("wh_main_emp_wissenland","wh_main_emp_empire", true, true)
         elseif choice == 1 then
             cm:treasury_mod("wh_main_emp_nordland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_nordland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_nordland")
             cm:force_declare_war("wh_main_emp_nordland","wh_main_emp_middenland", true, true)
         elseif choice == 2 then
             cm:treasury_mod("wh_main_emp_middenland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_middenland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_middenland")
             cm:force_declare_war("wh_main_emp_middenland","wh_main_emp_empire", true, true)
         elseif choice == 3 then
             cm:treasury_mod("wh_main_brt_bretonnia", 10000)
@@ -339,19 +339,19 @@ core:add_listener(
 
         if choice == 0 then    
             cm:treasury_mod("wh_main_emp_ostland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_ostland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_ostland")
             cm:force_declare_war("wh_main_emp_ostland","wh_main_emp_middenland", true, true)
         elseif choice == 1 then
             cm:treasury_mod("wh_main_emp_talabecland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_talabecland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_talabecland")
             cm:force_declare_war("wh_main_emp_talabecland","wh_main_emp_empire",true, true)
         elseif choice == 2 then
             cm:treasury_mod("wh_main_emp_averland", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_averland")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_averland")
             cm:force_declare_war("wh_main_emp_averland","wh_main_emp_empire",true, true)
         elseif choice == 3 then
             cm:treasury_mod("wh_main_emp_empire", 10000)
-            add_unit_to_faction("snek_hkrul_mar_landship", "wh_main_emp_empire")
+            add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_empire")
             cm:force_declare_war("wh_main_emp_empire","wh_main_emp_nordland",true, true)
         end
     end,

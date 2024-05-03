@@ -29,14 +29,14 @@ rhox_mar_marienburg	false	wh_main_emp_cha_wizard_light_0	true	true	ui/portraits/
 rhox_mar_marienburg	false	wh_main_emp_cha_wizard_light_2	true	true	ui/portraits/portholes/no_culture/emp_wizard_light_campaign_01_0.png	wh_main_uniform_emp_light_wizard_01	wh_main_emp_cha_wizard_light_2	false		false
 rhox_mar_marienburg	false	wh_main_emp_cha_wizard_light_4	true	true	ui/portraits/portholes/no_culture/emp_wizard_light_campaign_01_0.png	wh_main_uniform_emp_light_wizard_01	wh_main_emp_cha_wizard_light_4	false		false
 rhox_mar_marienburg	false	wh2_dlc13_emp_inf_archers_ror_0	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_art_hammer_of_the_witches_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_art_sunmaker_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_cav_royal_altdorf_gryphites_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_cav_zintlers_reiksguard_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_inf_sigmars_sons_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_inf_silver_bullets_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_inf_stirlands_revenge_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_inf_tattersouls_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh_dlc04_emp_veh_templehof_luminark_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh2_dlc13_emp_inf_huntsmen_ror_0_cus_emp	true	true				false		false
-rhox_mar_marienburg	false	wh2_dlc13_emp_veh_war_wagon_ror_0_cus_emp	true	true				false		false
+rhox_mar_marienburg	false	wh_dlc04_emp_art_hammer_of_the_witches_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_art_sunmaker_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_cav_royal_altdorf_gryphites_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_cav_zintlers_reiksguard_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_inf_sigmars_sons_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_inf_silver_bullets_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_inf_stirlands_revenge_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_inf_tattersouls_0	true	true				true		false
+rhox_mar_marienburg	false	wh_dlc04_emp_veh_templehof_luminark_0	true	true				true		false
+rhox_mar_marienburg	false	wh2_dlc13_emp_inf_huntsmen_ror_0	true	true				true		false
+rhox_mar_marienburg	false	wh2_dlc13_emp_veh_war_wagon_ror_0	true	true				true		false

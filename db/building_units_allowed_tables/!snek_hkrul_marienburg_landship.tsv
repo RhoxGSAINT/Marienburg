@@ -1,9 +1,0 @@
-key	building	unit	XP	conditions	faction	enabled
-#building_units_allowed_tables;4;db/building_units_allowed_tables/!snek_hkrul_marienburg_landship						
-312543560	wh_main_special_marienburg_port_2	snek_hkrul_mar_landship	0	0		true
-312543561	wh_main_special_marienburg_port_3	snek_hkrul_mar_landship	0	0		true
-312543562	wh_main_emp_port_3	snek_hkrul_mar_landship	0	0		true
-312543563	wh_main_special_nuln_cannon_foundry	snek_hkrul_mar_landship	0	0		true
-312543564	wh_main_special_nuln_gunnery_school	snek_hkrul_mar_landship	0	0		true
-312543565	wh2_main_special_lothern_port_other_3	snek_hkrul_mar_landship	0	0		true
-312543566	wh_main_special_erengrad_port_3	snek_hkrul_mar_landship	0	0		true

@@ -1,6 +1,6 @@
-key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload
-#rituals_tables;0;db/rituals_tables/hkrul_mar																					
-hkrul_mar_ritual_merchant	0	hkrul_mar_ritual_merchant	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_3_20_50.png	0		hkrul_mar_ritual_merchant				0	0				default	
-hkrul_mar_ritual_rebels	0	hkrul_mar_ritual_rebels	15	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_2_20_50.png	0		hkrul_mar_ritual_rebels				0	0				default	
-hkrul_mar_ritual_voyage	0	hkrul_mar_ritual_voyage	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_1_20_50.png	0		hkrul_mar_ritual_voyage				0	0				default	
-hkrul_mar_ritual_diplomacy	0	hkrul_mar_ritual_diplomacy	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_4_20_50.png	0		hkrul_mar_ritual_diplomacy				0	0				default	
+key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload	percentage_cost_increase_per_use	sort_order
+#rituals_tables;2;db/rituals_tables/hkrul_mar																							
+hkrul_mar_ritual_merchant	0	hkrul_mar_ritual_merchant	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_3_20_50.png	0		hkrul_mar_ritual_merchant				0	0				default		0.0000	0
+hkrul_mar_ritual_rebels	0	hkrul_mar_ritual_rebels	15	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_2_20_50.png	0		hkrul_mar_ritual_rebels				0	0				default		0.0000	0
+hkrul_mar_ritual_voyage	0	hkrul_mar_ritual_voyage	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_1_20_50.png	0		hkrul_mar_ritual_voyage				0	0				default		0.0000	0
+hkrul_mar_ritual_diplomacy	0	hkrul_mar_ritual_diplomacy	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_4_20_50.png	0		hkrul_mar_ritual_diplomacy				0	0				default		0.0000	0

@@ -1,9 +1,8 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_mar														
-mixu_emp_marienburg_tech_unique_1		wh_main_emp_marienburg	7	emp_marienburg_tech_unique_1	emp_civ_reworkd	4	700	0	0	mar_unique		0	42	0
-mixu_emp_marienburg_tech_unique_2		wh_main_emp_marienburg	8	emp_marienburg_tech_unique_2	emp_civ_reworkd	4	700	0	0	mar_unique		0	42	0
-emp_marienburg_tech			7	wh_main_tech_dwf_civ_0_2	mar_dummy	4	700	0	0			0	0	0
-rhox_mar_egmond_marauder		ovn_mar_house_den_euwe	7	wh3_dlc20_chs_und_shared_marauders	emp_civ_reworkd	4	700	0	0	egmond_unique		0	42	0
-rhox_mar_egmond_chosen		ovn_mar_house_den_euwe	8	wh3_dlc20_chs_und_shared_chosen	emp_civ_reworkd	4	700	0	0	egmond_unique		0	42	0
-rhox_mar_knights		ovn_mar_house_den_euwe	7	wh3_dlc20_chs_und_shared_knights	emp_civ_reworkd	5	700	0	0	egmond_unique		0	42	0
-rhox_mar_daemonic_mounts		ovn_mar_house_den_euwe	8	wh3_dlc20_chs_und_shared_daemonic_mounts	emp_civ_reworkd	5	700	0	0	egmond_unique		0	42	0
+mixu_emp_marienburg_tech_unique_1		wh_main_emp_marienburg	6	emp_marienburg_tech_unique_1	emp_civ_reworkd	5	700	0	0	mar_unique		0	42	21
+mixu_emp_marienburg_tech_unique_2		wh_main_emp_marienburg	7	emp_marienburg_tech_unique_2	emp_civ_reworkd	5	700	0	0	mar_unique		0	42	42
+rhox_mar_egmond_marauder		ovn_mar_house_den_euwe	6	wh3_dlc20_chs_und_shared_marauders	emp_civ_reworkd	5	700	0	0	egmond_unique		0	42	21
+rhox_mar_egmond_chosen		ovn_mar_house_den_euwe	7	wh3_dlc20_chs_und_shared_chosen	emp_civ_reworkd	5	700	0	0	egmond_unique		0	42	42
+rhox_mar_knights		ovn_mar_house_den_euwe	6	wh3_dlc20_chs_und_shared_knights	emp_civ_reworkd	6	700	0	0	egmond_unique		0	42	21
+rhox_mar_daemonic_mounts		ovn_mar_house_den_euwe	7	wh3_dlc20_chs_und_shared_daemonic_mounts	emp_civ_reworkd	6	700	0	0	egmond_unique		0	42	42

@@ -4,10 +4,11 @@ rhox_mar_non_mar_trade_factions ={ --global so others can access to it
     ["wh_main_emp_empire"] = true,
     ["wh2_dlc13_emp_golden_order"] = true,
     ["wh2_dlc13_emp_the_huntmarshals_expedition"] = true,
-    ["wh3_main_emp_cult_of_sigmar"] = true
+    ["wh3_main_emp_cult_of_sigmar"] = true,
+    ["wh_main_emp_wissenland"]=true,
 }
 
-if vfs.exists("script/campaign/mod/twill_old_world_caravans.lua")then
+if vfs.exists("script/campaign/mod/twill_old_world_caravans.lua") then
     rhox_mar_non_mar_trade_factions ={
     }
 end

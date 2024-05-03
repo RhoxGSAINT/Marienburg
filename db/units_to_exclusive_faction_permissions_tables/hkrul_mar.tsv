@@ -1,6 +1,7 @@
 key	faction	allowed
 #units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/hkrul_mar		
 snek_hkrul_mar_ror_landship	wh_main_emp_marienburg	true
+snek_hkrul_mar_landship	wh_main_emp_marienburg	true
 hkrul_klumpf	wh_main_emp_marienburg	true
 hkrul_pion	wh_main_emp_marienburg	true
 hkrul_carriers_ror	wh_main_emp_marienburg	true

@@ -167,7 +167,7 @@ cm:add_first_tick_callback(
 					"mixer_emp_van_der_kraal", marienburg_faction:home_region():name(), false, true, 5)
 					cm:create_force_with_general(
 						"mixer_emp_van_der_kraal",
-						"snek_hkrul_mar_landship,snek_hkrul_mar_landship,"..
+						"wh3_dlc25_emp_veh_marienburg_land_ship,wh3_dlc25_emp_veh_marienburg_land_ship,"..
 						"mixu_emp_inf_pirate_deckhands_swords,mixu_emp_inf_pirate_deckhands_swords,mixu_emp_inf_pirate_deckhands_polearms,mixu_emp_inf_pirate_deckhands_polearms,"..
 						"mixu_emp_inf_buccaneers_great_axe,mixu_emp_inf_buccaneers_great_axe,mixu_emp_inf_buccaneers_sword_and_bombs,mixu_emp_inf_buccaneers_sword_and_bombs,"..
 						"mixu_emp_inf_gunnery_mob_pistols,mixu_emp_inf_gunnery_mob_pistols,mixu_emp_inf_gunnery_mob_pistols,mixu_emp_inf_gunnery_mob_pistols,mixu_emp_inf_gunnery_mob_pistols,mixu_emp_inf_gunnery_mob_pistols,"..

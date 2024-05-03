@@ -10,7 +10,8 @@ local function add_hkrul_mar_ror()
         "hkrul_mar_bordermen_ror",
         "hkrul_mar_teuling", 
         "hkrul_mar_naval_paixhan", 
-        "hkrul_mar_talons"
+        "hkrul_mar_talons",
+        "snek_hkrul_mar_landship"
     }
     
     local vmp_ror_table ={  --for Mudvard
@@ -400,7 +401,8 @@ local rhox_add_mar_rors = {
         {"hkrul_mar_teuling", "renown", 1, 100, 1, "hkrul_mar_teuling"},
         {"hkrul_mar_talons", "renown", 1, 100, 1, "hkrul_mar_talons"},
         {"hkrul_mar_naval_paixhan", "renown", 1, 100, 1, "hkrul_mar_naval_paixhan"},
-        {"snek_hkrul_mar_ror_landship", "renown", 1, 100, 1, "hkrul_landship_ror"}
+        {"snek_hkrul_mar_ror_landship", "renown", 1, 100, 1, "hkrul_landship_ror"},
+        {"snek_hkrul_mar_landship", "renown", 1, 100, 1, "snek_hkrul_mar_landship"},
 }
 
 

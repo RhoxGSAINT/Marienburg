@@ -4,7 +4,8 @@ rhox_mar_trade_factions ={ --changed it to global so other mods can access to it
     ["wh_main_emp_empire"] = true,
     ["wh2_dlc13_emp_golden_order"] = true,
     ["wh2_dlc13_emp_the_huntmarshals_expedition"] = true,
-    ["wh3_main_emp_cult_of_sigmar"] = true
+    ["wh3_main_emp_cult_of_sigmar"] = true,
+    ["wh_main_emp_wissenland"]=true,
 }
 
 if vfs.exists("script/campaign/mod/twill_old_world_caravans.lua")then
@@ -185,7 +186,14 @@ local lh_reard_check_table={
         ["hkrul_cross"] = false,
         ["hkrul_lisette"] = false,
         ["hkrul_pg"] = false
-    }
+    },
+    ["wh_main_emp_wissenland"]={
+        ["hkrul_guzunda"] = false,
+        ["hkrul_crispijn"] = false,
+        ["hkrul_cross"] = false,
+        ["hkrul_lisette"] = false,
+        ["hkrul_pg"] = false
+    },
 }
 
 

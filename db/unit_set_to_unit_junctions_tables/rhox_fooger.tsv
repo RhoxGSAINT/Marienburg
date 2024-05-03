@@ -150,7 +150,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_fooger_wh_main_dwf_art_organ_gun	dwf_ranged_tier_2	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	mp_cap_group_ranged_units	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	mp_cap_unit_dwf_art_organ_gun	false
-			rhox_fooger_wh_main_dwf_art_organ_gun	wh2_dlc11_dwf_grudge_thrower_cannon_organ_gun	false
+			rhox_fooger_wh_main_dwf_art_organ_gun	wh2_dlc11_dwf_bolt_throwers_grudge_thrower_cannon_organ_gun_goblin_hewer	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	wh2_dlc11_dwf_vets_all_artillery	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	emp_all	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	emp_artillery	false

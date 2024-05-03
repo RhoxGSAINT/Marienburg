@@ -123,7 +123,11 @@ core:add_listener(
 		local faction_name = faction:name()
 		local reikland_interface = cm:get_faction("wh_main_emp_empire")
 		
-		if reikland_interface and not reikland_interface:is_dead() then
+		if faction_name == "wh_main_emp_empire" then
+            return--don't do anything if Dauphine is under the Reikland
+		end
+		
+		if faction and faction:is_human() and reikland_interface and not reikland_interface:is_dead() then
 			cm:force_alliance(faction_name, "wh_main_emp_empire", true)
 		end
 	end,

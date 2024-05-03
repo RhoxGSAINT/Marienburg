@@ -54,25 +54,25 @@ rhox_mar_marienburg	false	hkrul_mar_defenders	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_teuling	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_naval_paixhan	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_talons	true	true				false		false
-wh_main_emp_empire	false	hkrul_pion_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_klumpf_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_carriers_ror_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_art_paixhan_ror_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_mananns_blades_ror_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_bordermen_ror_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_teuling_cus_emp	true	true				false		false
-wh_main_emp_empire	false	snek_hkrul_mar_ror_landship_cus_emp	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_riverwarden_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_pion	true	true				true		false
+wh_main_emp_empire	false	hkrul_klumpf	true	true				true		false
+wh_main_emp_empire	false	hkrul_carriers_ror	true	true				true		false
+wh_main_emp_empire	false	hkrul_mar_art_paixhan_ror	true	true				true		false
+wh_main_emp_empire	false	hkrul_mar_mananns_blades_ror	true	true				true		false
+wh_main_emp_empire	false	hkrul_mar_bordermen_ror	true	true				true		false
+wh_main_emp_empire	false	hkrul_mar_teuling	true	true				true		false
+wh_main_emp_empire	false	snek_hkrul_mar_ror_landship	true	true				true		false
+wh_main_emp_empire	false	hkrul_mar_riverwarden_ror	true	true				true		false
 rhox_mar_marienburg	false	hkrul_lisette	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_lisette.png	hkrul_lisette	hkrul_lisette	false		false
 rhox_mar_marienburg	false	rhox_mar_cst_inf_sartosa_free_company_0	false	true				false		false
 rhox_mar_marienburg	false	rhox_mar_cst_inf_sartosa_militia_0	false	true				false		false
 rhox_mar_marienburg	false	hkrul_cross	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_cross.png	hkrul_cross	hkrul_cross	false		false
-wh_main_emp_empire	false	hkrul_mar_talons_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_talons	true	true				false		false
 rhox_mar_marienburg	false	hkrul_fooger_ror	true	true				false		false
-wh_main_emp_empire	false	hkrul_fooger_ror_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_fooger_ror	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_mortar	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_bordermen_ror	true	true				false		false
-wh_main_emp_empire	false	hkrul_mar_naval_paixhan_cus_emp	true	true				false		false
+wh_main_emp_empire	false	hkrul_mar_naval_paixhan	true	true				false		false
 rhox_mar_marienburg	false	ovn_mar_inf_knights_mariner_0	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_knights_mariner	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_knights_mariner_fmc	true	true				false		false

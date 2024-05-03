@@ -17,7 +17,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			snek_hkrul_mar_landship	mp_cap_group_ranged_units	false
 			snek_hkrul_mar_landship	mp_cap_group_rare_single_entities	false
 			snek_hkrul_mar_landship	mp_cap_unit_emp_veh_steam_tank	false
-			snek_hkrul_mar_landship	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
+			snek_hkrul_mar_landship	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon_ror	false
+			snek_hkrul_mar_landship	wh2_main_ror_units_all	false
 			snek_hkrul_mar_ror_landship	snek_mar_landship	false
 			snek_hkrul_mar_ror_landship	mp_set_emp_veh_landship	false
 			snek_hkrul_mar_ror_landship	all_units_excluding_terror	false
@@ -30,8 +31,19 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			snek_hkrul_mar_ror_landship	mp_cap_group_ranged_units	false
 			snek_hkrul_mar_ror_landship	mp_cap_group_rare_single_entities	false
 			snek_hkrul_mar_ror_landship	mp_cap_unit_emp_veh_steam_tank	false
-			snek_hkrul_mar_ror_landship	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
 			snek_hkrul_mar_ror_landship	wh2_main_ror_units_all	false
 			snek_hkrul_mar_ror_landship	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon_ror	false
 			snek_hkrul_mar_landship	rhox_mar_ranged	false
 			snek_hkrul_mar_ror_landship	rhox_mar_ranged	false
+			snek_hkrul_mar_landship	emp_steam_land_ship	false
+			snek_hkrul_mar_landship	emp_steam_luminark_land_ship	false
+			snek_hkrul_mar_landship	wh3_dlc25_emp_artillery_warmachines	false
+			snek_hkrul_mar_landship	wh3_dlc25_emp_land_ship	false
+			snek_hkrul_mar_landship	wh3_dlc25_emp_veh_land_ship_rank7_ror	false
+			snek_hkrul_mar_ror_landship	emp_steam_land_ship	false
+			snek_hkrul_mar_ror_landship	emp_steam_luminark_land_ship	false
+			snek_hkrul_mar_ror_landship	mp_cap_unit_emp_veh_marienburg_land_ship_ror	false
+			snek_hkrul_mar_ror_landship	mp_cap_unit_emp_veh_marienburg_land_ship	false
+			snek_hkrul_mar_ror_landship	wh3_dlc25_emp_artillery_warmachines	false
+			snek_hkrul_mar_ror_landship	wh3_dlc25_emp_land_ship	false
+			snek_hkrul_mar_ror_landship	wh3_dlc25_emp_veh_land_ship_rank7_ror	false

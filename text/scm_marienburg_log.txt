@@ -1,0 +1,7 @@
+2024/MAY/03 SCM
+- Fixed the syntax error in Dauphine skill sript
+2024/MAY/01 SCM -2
+- Fixed the tech node issue
+
+2024/MAY/01 SCM
+- Removed smith building requirements from Marienburg units

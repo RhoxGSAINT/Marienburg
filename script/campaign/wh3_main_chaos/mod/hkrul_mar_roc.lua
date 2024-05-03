@@ -176,7 +176,7 @@ local function hkrul_mar()
                             --cm:set_character_immortality(char_str, true) --not needed since immortality is enabled in db
                             if RHOX_MAR_MCT_SETTING.additional_landship ~= 0 then
                                 for i=0,RHOX_MAR_MCT_SETTING.additional_landship do
-                                    cm:grant_unit_to_character(char_str, "snek_hkrul_mar_landship")
+                                    cm:grant_unit_to_character(char_str, "wh3_dlc25_emp_veh_marienburg_land_ship")
                                 end
                             end
                             if marienburg_faction:is_human() ==false then

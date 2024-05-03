@@ -1,5 +1,6 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_mar_jaan														
+emp_marienburg_tech			7	wh_main_tech_dwf_civ_0_2	mar_dummy	5	700	0	0			0	0	0
 tech_rhox_mar_rijkers_isle		wh_main_emp_marienburg	7	tech_ovn_mar_rijkers_isle	mar_dummy	0	500	0	0			0	0	-200
 tech_rhox_mar_temple_district		wh_main_emp_marienburg	10	tech_ovn_mar_temple_district	mar_dummy	0	500	0	0			0	0	-200
 tech_rhox_mar_temple_district_2		wh_main_emp_marienburg	11	tech_ovn_mar_temple_district_2	mar_dummy	0	500	0	0			0	0	-200
