@@ -1,3 +1,7 @@
+2024/MAY/04 SCM
+- Changed many of building recruitment to meet the ToD change
+- Now Nuln can gain access to the Guilded route
+
 2024/MAY/03 SCM
 - Fixed the syntax error in Dauphine skill sript
 2024/MAY/01 SCM -2
