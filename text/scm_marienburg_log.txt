@@ -1,3 +1,6 @@
+2024/MAY/06 SCM
+- Fixed the issue of Egmond not having access to Changing of Ways UI
+
 2024/MAY/05 SCM
 - Put campaign criteria to Nuln, thus fixing the CTD
 - Put proper UI icon to culverin
