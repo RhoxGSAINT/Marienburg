@@ -431,3 +431,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_dauphine_hkrul_mar_black_caps	rhox_mar_infantry	false
 			hkrul_mar_fooger_qual	rhox_mar_infantry	false
 			hkrul_mar_fooger_qual_great	rhox_mar_infantry	false
+			wh3_dlc25_emp_veh_marienburg_land_ship	rhox_mar_mundvard_human	false
+			wh3_dlc25_emp_veh_marienburg_land_ship_morr	rhox_mar_mundvard_human	false
+			wh3_dlc25_emp_veh_marienburg_land_ship_ror	rhox_mar_mundvard_human	false
+			wh3_dlc25_emp_veh_marienburg_land_ship	rhox_mar_ranged	false
+			wh3_dlc25_emp_veh_marienburg_land_ship_morr	rhox_mar_ranged	false
+			wh3_dlc25_emp_veh_marienburg_land_ship_ror	rhox_mar_ranged	false

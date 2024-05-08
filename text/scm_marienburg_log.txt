@@ -1,3 +1,10 @@
+2024/MAY/08 Rhox
+- Fixed the issue of Marienburg caravan not getting Grudges
+
+2024/MAY/07 Rhox
+- Added 3 DLC agents to non-vanilla Marienburg factions as they were missing one
+- Removed mod's landship. Players will need to start a new campaign for this. Existing units won't cause CTDs and such, but will be still broken in the battle
+
 2024/MAY/06 SCM
 - Fixed the issue of Egmond not having access to Changing of Ways UI
 

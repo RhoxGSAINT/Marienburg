@@ -11,7 +11,6 @@ local function add_hkrul_mar_ror()
         "hkrul_mar_teuling", 
         "hkrul_mar_naval_paixhan", 
         "hkrul_mar_talons",
-        "snek_hkrul_mar_landship"
     }
     
     local vmp_ror_table ={  --for Mudvard
@@ -258,79 +257,6 @@ cm:add_first_tick_callback_new(function()
     add_hkrul_mar_ror()
 end);
 
--------------------------------------landship thing among Marienburg factions, only Marienburg gains access to the landship
-
-local function add_landship_ror()
-    -- Easy data table for faction info and unit info
-
-    local mar_only_ror_table = {
-        { 
-            faction_key = "wh_main_emp_marienburg", 
-            unit_key = "snek_hkrul_mar_ror_landship",
-            merc_pool = "renown", 
-            merc_group = "hkrul_landship_ror", 
-            count = 1, 
-        } 
-    } 
-
-    ---- END REWRITE.
-
-    -- List of default values to shove into the function before; shouldn't need to be changed, usecase may vary.
-    local defaults = {
-        replen_chance = 100,
-        max = 1,
-        max_per_turn = 0.1,
-        xp_level = 0,
-        faction_restriction = "", 
-        subculture_restriction = "",
-        tech_restriction = "",
-        partial_replenishment = true,
-    }
-
-    for i, ror in pairs(mar_only_ror_table) do
-        local faction_key, unit_key = ror.faction_key, ror.unit_key
-        local merc_pool, merc_group = ror.merc_pool, ror.merc_group
-        local count = ror.count or 1 -- if ror.count is undefined, we'll just use the default of 1!
-
-        local faction = cm:get_faction(faction_key)
-        if faction then
-            cm:add_unit_to_faction_mercenary_pool(
-                faction,
-                unit_key,
-                merc_pool,
-                count,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                merc_group
-            )
-        end
-    end
-end
-
-cm:add_first_tick_callback_new(
-    function()
-        add_landship_ror()
-    end
-);
-
-
-core:add_listener(
-    "landship_ror_unlock",
-    "RitualCompletedEvent",
-    function(context)
-        return context:performing_faction():is_human() and context:ritual():ritual_key() == "hkrul_mar_ritual_rebels"
-    end,
-    function(context)
-        cm:remove_event_restricted_unit_record_for_faction("snek_hkrul_mar_ror_landship", context:performing_faction():name())
-    end,
-    true
-)    
-
 
 
 --------------------------------------------------------------Empire-Marienburg RoR crossover thing
@@ -401,8 +327,6 @@ local rhox_add_mar_rors = {
         {"hkrul_mar_teuling", "renown", 1, 100, 1, "hkrul_mar_teuling"},
         {"hkrul_mar_talons", "renown", 1, 100, 1, "hkrul_mar_talons"},
         {"hkrul_mar_naval_paixhan", "renown", 1, 100, 1, "hkrul_mar_naval_paixhan"},
-        {"snek_hkrul_mar_ror_landship", "renown", 1, 100, 1, "hkrul_landship_ror"},
-        {"snek_hkrul_mar_landship", "renown", 1, 100, 1, "snek_hkrul_mar_landship"},
 }
 
 
@@ -451,7 +375,6 @@ cm:add_first_tick_callback_new(
         if cm:get_faction("wh_main_emp_marienburg"):is_human() then
             --cm:disable_event_feed_events(true, "", "", "mercenary_unit_character_level_restriction_lifted") --this will suppress all RoR events feed from firing
             rhox_add_units(cm:get_faction("wh_main_emp_marienburg"), rhox_remove_empire_rors); --This will remove the Empire RoR units from Marienburg, they'll gain access to them later
-            cm:add_event_restricted_unit_record_for_faction("snek_hkrul_mar_ror_landship", "wh_main_emp_marienburg", "hkrul_mar_lock_landship_ror")
             
             rhox_add_units(cm:get_faction("wh_main_chs_chaos_separatists"), rhox_remove_chaos_rors); --Hopefully, this will remove the RORs from Chaos seperatist
         end
