@@ -1,3 +1,10 @@
+2024/MAY/14 Rhox
+- Changed the mentor node to updated one. 
+- Changed the Mixer disable agent subtype to new CA's DB column
+
+2024/MAY/13 Rhox
+- Fixed the issue of Marienburg factions not getting units allowed for wh_main_emp_forges_4. 
+
 2024/MAY/08 Rhox
 - Fixed the issue of Marienburg caravan not getting Grudges
 

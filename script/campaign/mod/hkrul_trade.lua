@@ -271,15 +271,15 @@ core:add_listener(
 
         if not context:performing_faction():is_human() and RHOX_MAR_MCT_SETTING.disable_rite == false then
             local ai_choice = cm:random_number(3, 1)
-            if ai_choice == 1 and cm:get_faction("wh_main_emp_wissenland") and cm:get_faction("wh_main_emp_wissenland"):is_dead()== false then
+            if ai_choice == 1 and cm:get_faction("wh_main_emp_wissenland") and cm:get_faction("wh_main_emp_wissenland"):is_dead()== false and cm:get_faction("wh_main_emp_wissenland"):is_human() == false then
                 cm:treasury_mod("wh_main_emp_wissenland", 10000)
                 add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_wissenland")
                 cm:force_declare_war("wh_main_emp_wissenland","wh_main_emp_empire", true, true)
-            elseif ai_choice == 2 and cm:get_faction("wh_main_emp_talabecland") and cm:get_faction("wh_main_emp_talabecland"):is_dead()== false then
+            elseif ai_choice == 2 and cm:get_faction("wh_main_emp_talabecland") and cm:get_faction("wh_main_emp_talabecland"):is_dead()== false and cm:get_faction("wh_main_emp_talabecland"):is_human() == false then
                 cm:treasury_mod("wh_main_emp_talabecland", 10000)
                 add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_talabecland")
                 cm:force_declare_war("wh_main_emp_talabecland","wh_main_emp_empire",true, true)
-            elseif ai_choice == 3 and cm:get_faction("wh_main_emp_nordland") and cm:get_faction("wh_main_emp_nordland"):is_dead()== false then
+            elseif ai_choice == 3 and cm:get_faction("wh_main_emp_nordland") and cm:get_faction("wh_main_emp_nordland"):is_dead()== false and cm:get_faction("wh_main_emp_nordland"):is_human() == false then
                 cm:treasury_mod("wh_main_emp_nordland", 10000)
                 add_unit_to_faction("wh3_dlc25_emp_veh_marienburg_land_ship", "wh_main_emp_nordland")
                 cm:force_declare_war("wh_main_emp_nordland","wh_main_emp_middenland", true, true)

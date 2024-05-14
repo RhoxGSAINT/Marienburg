@@ -94,3 +94,7 @@ key	building	unit	XP	conditions	faction	enabled
 542353414	wh_main_emp_barracks_3	hkrul_mar_inf_goedendagers	0	0	wh_main_emp_marienburg	true
 542353415	wh_main_emp_barracks_3	hkrul_privateers_dual_swords	0	0	wh_main_emp_marienburg	true
 542353416	wh_main_emp_barracks_3	hkrul_privateers	0	0	wh_main_emp_marienburg	true
+542353417	wh_main_emp_forges_4	hkrul_mar_mortar	0	0	wh_main_emp_marienburg	true
+542353418	wh_main_emp_forges_4	hkrul_mar_culverin	0	0	wh_main_emp_marienburg	true
+542353419	wh_main_emp_forges_4	hkrul_mar_hellblaster	0	0	wh_main_emp_marienburg	true
+542353420	wh_main_emp_forges_4	hkrul_mar_hellstorm	0	0	wh_main_emp_marienburg	true

@@ -98,3 +98,7 @@ key	building	unit	XP	conditions	faction	enabled
 1761598372	wh_main_emp_barracks_2	hkrul_mar_fooger_qual_great	0	0	ovn_mar_house_fooger	true
 1761598373	wh_main_emp_barracks_3	hkrul_mar_fooger_qual	0	0	ovn_mar_house_fooger	true
 1761598374	wh_main_emp_barracks_3	hkrul_mar_fooger_qual_great	0	0	ovn_mar_house_fooger	true
+1761598375	wh_main_emp_forges_4	hkrul_mar_mortar	0	0	ovn_mar_house_fooger	true
+1761598376	wh_main_emp_forges_4	hkrul_mar_culverin	0	0	ovn_mar_house_fooger	true
+1761598377	wh_main_emp_forges_4	hkrul_mar_hellblaster	0	0	ovn_mar_house_fooger	true
+1761598378	wh_main_emp_forges_4	hkrul_mar_hellstorm	0	0	ovn_mar_house_fooger	true

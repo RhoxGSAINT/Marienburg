@@ -84,3 +84,7 @@ key	building	unit	XP	conditions	faction	enabled
 1707260056	wh_main_emp_barracks_3	hkrul_mar_inf_goedendagers	0	0	ovn_mar_cult_of_manann	true
 1707260057	wh_main_emp_barracks_3	hkrul_privateers_dual_swords	0	0	ovn_mar_cult_of_manann	true
 1707260058	wh_main_emp_barracks_3	hkrul_privateers	0	0	ovn_mar_cult_of_manann	true
+1707260059	wh_main_emp_forges_4	hkrul_mar_mortar	0	0	ovn_mar_cult_of_manann	true
+1707260060	wh_main_emp_forges_4	hkrul_mar_culverin	0	0	ovn_mar_cult_of_manann	true
+1707260061	wh_main_emp_forges_4	hkrul_mar_hellblaster	0	0	ovn_mar_cult_of_manann	true
+1707260062	wh_main_emp_forges_4	hkrul_mar_hellstorm	0	0	ovn_mar_cult_of_manann	true
