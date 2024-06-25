@@ -1,3 +1,29 @@
+2024/JUN/25 Rhox
+- Removed the temp unit_set of rank 7 and added RoR unit set from 5.1 vanilla
+
+2024/JUN/03 Rhox
+- Fixed the issue of key equipping is limited to the Jaan
+
+2024/JUN/02 Rhox
+- Fixed the issue of Elspeth missing Marinburg units in the military group
+
+2024/MAY/30 Partypus & Rhox -2
+- Adjust to capital holder
+- Fixed the issue of Fooger not using Marienburg capital holder
+
+2024/MAY/30 Partypus
+- Updated flags and capital holder
+
+2024/MAY/24 Rhox
+- Fixed the issue of Marienburg missile infantries and cavalry not getting red line buffs
+- Made the temp unit_set entry for RoR veteran buffs for missile infantries
+
+2024/MAY/20 Rhox
+- Fixed the issue of Kloveniers and Ships' Crew Gunners and Red Talons not having smoke
+
+2024/MAY/19 Rhox
+- Fixed the issue of Caamile blocking all other LL when she is in the pool
+
 2024/MAY/14 Rhox
 - Changed the mentor node to updated one. 
 - Changed the Mixer disable agent subtype to new CA's DB column
