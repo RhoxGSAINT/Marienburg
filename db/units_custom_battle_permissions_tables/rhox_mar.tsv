@@ -34,11 +34,11 @@ rhox_mar_marienburg	true	hkrul_mar_egmond_longma	true	true	ui/portraits/porthole
 rhox_mar_marienburg	true	hkrul_mar_egmond_horse	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_mar_egmond.png	hkrul_mar_egmond	hkrul_mar_egmond	false		false
 rhox_mar_marienburg	false	hkrul_mar_inf_boogschutter	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_art_scheepskanon	true	true				false		false
-rhox_mar_marienburg	false	hkrul_mar_inf_crossbow	true	true				false		false
+rhox_mar_marienburg	false	wh_main_emp_inf_crossbowmen	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_inf_greatsword	true	true				false		false
-rhox_mar_marienburg	false	hkrul_mar_inf_halberd	true	true				false		false
+rhox_mar_marienburg	false	wh_main_emp_inf_halberdiers	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_inf_handgun	true	true				false		false
-rhox_mar_marienburg	false	hkrul_mar_inf_swords	true	true				false		false
+rhox_mar_marienburg	false	wh_main_emp_inf_swordsmen	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_cav_rijders	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_cav_rijders_crossbow	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_cleansing_flame	true	true				false		false
@@ -71,7 +71,6 @@ rhox_mar_marienburg	false	wh3_dlc25_emp_veh_marienburg_land_ship_ror	true	true		
 wh_main_emp_empire	false	hkrul_mar_talons	true	true				false		false
 rhox_mar_marienburg	false	hkrul_fooger_ror	true	true				false		false
 wh_main_emp_empire	false	hkrul_fooger_ror	true	true				false		false
-rhox_mar_marienburg	false	hkrul_mar_mortar	true	true				false		false
 rhox_mar_marienburg	false	hkrul_mar_bordermen_ror	true	true				false		false
 wh_main_emp_empire	false	hkrul_mar_naval_paixhan	true	true				false		false
 rhox_mar_marienburg	false	ovn_mar_inf_knights_mariner_0	true	true				false		false

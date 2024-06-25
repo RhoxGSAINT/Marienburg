@@ -2,7 +2,7 @@ unit	unit_group
 #unit_to_unit_group_junctions_tables;0;db/unit_to_unit_group_junctions_tables/rhox_mar	
 hkrul_burgher	rhox_mar_tier0
 hkrul_privateers_dual_swords	rhox_mar_tier0
-hkrul_mar_inf_swords	rhox_mar_tier0
+wh_main_emp_inf_swordsmen	rhox_mar_tier0
 hkrul_mar_inf_goedendagers	rhox_mar_tier0
 hkrul_mar_inf_greatsword	rhox_mar_tier1
-hkrul_mar_inf_halberd	rhox_mar_tier1
+wh_main_emp_inf_halberdiers	rhox_mar_tier1

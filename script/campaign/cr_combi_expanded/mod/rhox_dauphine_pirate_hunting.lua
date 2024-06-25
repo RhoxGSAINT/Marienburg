@@ -35,7 +35,6 @@ end
 
 
 local rhox_dauphine_reinforcements_units={
-    --"rhox_dauphine_hkrul_mar_hellblaster",
     --"rhox_dauphine_hkrul_mar_defenders",
     "rhox_dauphine_hkrul_mar_black_caps",
     "rhox_dauphine_hkrul_mar_cleansing_flame",

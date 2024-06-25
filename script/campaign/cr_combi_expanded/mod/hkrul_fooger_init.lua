@@ -16,7 +16,7 @@ local function rhox_fooger_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     fooger_faction,
-    "hkrul_fooger_ror,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual_great,hkrul_mar_fooger_qual_great,hkrul_mar_mortar,hkrul_carriers",
+    "hkrul_fooger_ror,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual_great,hkrul_mar_fooger_qual_great,wh_main_emp_art_mortar,hkrul_carriers",
     "cr_combi_region_ind_1_3",
     x,
     y,

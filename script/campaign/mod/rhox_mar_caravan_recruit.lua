@@ -40,13 +40,13 @@ local clandestine = {
 	
 local favoured = {
 	"hkrul_mar_inf_boogschutter",
-	"hkrul_mar_inf_crossbow",
+	"wh_main_emp_inf_crossbowmen",
 	"hkrul_burgher",
 	"hkrul_burgher",
 	"hkrul_mar_inf_greatsword",
 	"hkrul_mar_inf_greatsword",
-	"hkrul_mar_inf_crossbow",
-	"hkrul_mar_inf_crossbow",
+	"wh_main_emp_inf_crossbowmen",
+	"wh_main_emp_inf_crossbowmen",
 	"hkrul_burgher"
 };
 	
@@ -56,9 +56,9 @@ local Solkan = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"hkrul_mar_inf_goedendagers",
 	"hkrul_mar_inf_goedendagers"
 };
@@ -66,10 +66,10 @@ local Solkan = {
 local Former_Artillery_Officer = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_mar_inf_boogschutter",
-	"hkrul_mar_inf_swords",
-	"hkrul_mar_inf_swords",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_swordsmen",
+	"wh_main_emp_inf_swordsmen",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"hkrul_mar_art_scheepskanon",
 	"hkrul_mar_art_scheepskanon"
 };
@@ -81,7 +81,7 @@ local Norscan_Heritage = {
 	"wh_dlc08_nor_inf_marauder_hunters_1",
 	"wh_main_nor_inf_chaos_marauders_1",
 	"wh_main_nor_inf_chaos_marauders_1",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
 	"wh_dlc08_nor_inf_marauder_berserkers_0"
 };
 	
@@ -90,8 +90,8 @@ local Griffon_Whisperer = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"hkrul_mar_knights_griffon",
 	"hkrul_mar_knights_griffon"
 };
@@ -114,8 +114,8 @@ local Ogre_Ally = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"wh3_main_ogr_inf_maneaters_0",
 	"wh3_main_ogr_inf_maneaters_0",
 	"wh3_main_ogr_inf_maneaters_1"
@@ -127,8 +127,8 @@ local Elf_Ally = {
 	"hkrul_burgher",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"wh2_main_hef_inf_lothern_sea_guard_1",
 	"wh2_main_hef_inf_lothern_sea_guard_1",
 	"wh2_main_hef_inf_lothern_sea_guard_1",
@@ -140,8 +140,8 @@ local Eastern_Idealist = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"wh3_main_cth_inf_jade_warriors_1",
 	"wh3_main_cth_inf_jade_warriors_1",
 	"wh3_main_cth_inf_jade_warriors_1",
@@ -154,8 +154,8 @@ local Manann = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
 	"wh2_dlc11_cst_inf_sartosa_militia_0",
 	"hkrul_mar_sons_of_manann",
 	"hkrul_mar_sons_of_manann"
@@ -166,7 +166,7 @@ local Bretonnia = {
 	"hkrul_mar_inf_boogschutter",
 	"hkrul_burgher",
 	"hkrul_burgher",
-	"hkrul_mar_inf_crossbow",
+	"wh_main_emp_inf_crossbowmen",
 	"wh_main_brt_cav_knights_of_the_realm",
 	"wh_main_brt_cav_knights_of_the_realm",
 	"wh_dlc07_brt_cav_knights_errant_0",
@@ -174,14 +174,14 @@ local Bretonnia = {
 };
 	
 local Teb = {
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_halberd",
-	"hkrul_mar_inf_crossbow",
-	"hkrul_mar_inf_crossbow",
-	"hkrul_mar_inf_crossbow",
-	"hkrul_mar_inf_crossbow"
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_halberdiers",
+	"wh_main_emp_inf_crossbowmen",
+	"wh_main_emp_inf_crossbowmen",
+	"wh_main_emp_inf_crossbowmen",
+	"wh_main_emp_inf_crossbowmen"
 };
 
 local Cataph_Teb = {
@@ -324,7 +324,7 @@ function rhox_mar_finish_dilemma_unit_add(caravan)
     local marienburg_list = {
         {unit = "hkrul_mar_inf_handgun", count =2},
         {unit = "hkrul_mar_riverwarden", count =3},
-        {unit = "hkrul_mar_inf_crossbow", count =3},
+        {unit = "wh_main_emp_inf_crossbowmen", count =3},
         {unit = "hkrul_privateers_dual_swords", count =2},
         {unit = "hkrul_privateers", count =2},
         {unit = "hkrul_mar_art_scheepskanon", count =1},
@@ -341,8 +341,8 @@ function rhox_mar_finish_dilemma_unit_add(caravan)
     local special_list = {
         {unit = "hkrul_mar_inf_handgun", count =3},
         {unit = "hkrul_mar_riverwarden", count =3},
-        {unit = "hkrul_mar_inf_crossbow", count =3},
-        {unit = "hkrul_mar_inf_halberd", count =3}
+        {unit = "wh_main_emp_inf_crossbowmen", count =3},
+        {unit = "wh_main_emp_inf_halberdiers", count =3}
     }; --it means nothing just a failsafe
     
     
@@ -392,10 +392,10 @@ function rhox_mar_finish_dilemma_unit_add(caravan)
 	elseif caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_mar_caravan_master_former-artillery-officer") then
         special_list = {
             {unit = "hkrul_mar_culverin", count =1},
-            {unit = "hkrul_mar_mortar", count =2},
+            {unit = "wh_main_emp_art_mortar", count =2},
             {unit = "wh_main_emp_veh_steam_tank", count =1},
-            {unit = "hkrul_mar_hellstorm", count =1},
-            {unit = "hkrul_mar_hellblaster", count =1}                  
+            {unit = "wh_main_emp_art_helstorm_rocket_battery", count =1},
+            {unit = "wh_main_emp_art_helblaster_volley_gun", count =1}                  
         };
 	elseif caravan:caravan_master():character_details():has_skill("hkrul_skill_innate_mar_caravan_master_norscan_heritage") then
         special_list = {
@@ -479,7 +479,7 @@ function rhox_mar_finish_dilemma_unit_add(caravan)
             special_list = {
                 {unit = "hkrul_mar_inf_handgun", count =2},
                 {unit = "hkrul_mar_riverwarden", count =3},
-                {unit = "hkrul_mar_inf_crossbow", count =3},
+                {unit = "wh_main_emp_inf_crossbowmen", count =3},
                 {unit = "hkrul_privateers_dual_swords", count =2},
                 {unit = "hkrul_privateers", count =2},
                 {unit = "hkrul_mar_art_scheepskanon", count =1},

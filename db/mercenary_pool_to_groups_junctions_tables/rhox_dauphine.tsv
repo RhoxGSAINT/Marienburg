@@ -1,7 +1,6 @@
 key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
 #mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/rhox_dauphine						
 1457857222	rhox_dauphine_snek_hkrul_mar_landship	0	rhox_dauphine_reinforcements_pool			
-1457857223	rhox_dauphine_hkrul_mar_hellblaster	0	rhox_dauphine_reinforcements_pool			
 1457857224	rhox_dauphine_hkrul_mar_cleansing_flame	0	rhox_dauphine_reinforcements_pool			
 1457857225	rhox_dauphine_hkrul_mar_art_scheepskanon	0	rhox_dauphine_reinforcements_pool			
 1457857226	rhox_dauphine_hkrul_mar_inf_greatsword	0	rhox_dauphine_reinforcements_pool			

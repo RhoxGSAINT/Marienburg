@@ -13,7 +13,7 @@ core:add_ui_created_callback(
 
 		--ovn_mar_house_den_euwe
             mixer_enable_custom_faction("234757388")
-            mixer_add_starting_unit_list_for_faction("ovn_mar_house_den_euwe", {"wh3_dlc20_chs_inf_chaos_marauders_mtze_spears","hkrul_privateers_dual_swords","hkrul_mar_inf_crossbow","wh3_dlc20_chs_inf_chaos_warriors_mtze","wh3_dlc25_emp_veh_marienburg_land_ship"})
+            mixer_add_starting_unit_list_for_faction("ovn_mar_house_den_euwe", {"wh3_dlc20_chs_inf_chaos_marauders_mtze_spears","hkrul_privateers_dual_swords","wh_main_emp_inf_crossbowmen","wh3_dlc20_chs_inf_chaos_warriors_mtze","wh3_dlc25_emp_veh_marienburg_land_ship"})
             mixer_change_lord_name("234757388", "hkrul_mar_egmond")
             mixer_add_faction_to_major_faction_list("ovn_mar_house_den_euwe")	
 

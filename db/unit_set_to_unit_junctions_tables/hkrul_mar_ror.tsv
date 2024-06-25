@@ -152,3 +152,28 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_ror	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights_ror	false
 			hkrul_mar_riverwarden_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
 			ovn_mar_inf_knights_mariner_0	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights_ror	false
+			hkrul_mar_bordermen_ror	emp_missile_cavalry_vet	false
+			hkrul_mar_talons	emp_missile_infantry_vet	false
+			hkrul_mar_riverwarden_ror	emp_missile_infantry_vet	false
+			hkrul_mar_bordermen_ror	emp_missile_cavalry	false
+			hkrul_mar_talons	emp_missile_infantry	false
+			hkrul_mar_riverwarden_ror	emp_missile_infantry	false
+			hkrul_pion	emp_melee_infantry_7	false
+			hkrul_klumpf	emp_melee_infantry_7	false
+			hkrul_carriers_ror	emp_melee_infantry_7	false
+			hkrul_mar_mananns_blades_ror	emp_melee_infantry_7	false
+			hkrul_fooger_ror	emp_melee_infantry_7	false
+			ovn_mar_inf_knights_mariner_0	emp_melee_infantry_7	false
+			hkrul_mar_riverwarden_ror	emp_gun_artillery	false
+			hkrul_mar_riverwarden_ror	emp_gunnery	false
+			hkrul_mar_riverwarden_ror	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_talons	emp_gun_artillery	false
+			hkrul_mar_talons	emp_gunnery	false
+			hkrul_mar_talons	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			hkrul_mar_talons	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_art_paixhan_ror	emp_gun_artillery	false
+			hkrul_mar_art_paixhan_ror	emp_gunnery	false
+			hkrul_mar_art_paixhan_ror	wh3_dlc25_emp_artillery_warmachines	false
+			hkrul_mar_naval_paixhan	emp_gun_artillery	false
+			hkrul_mar_naval_paixhan	emp_gunnery	false
+			hkrul_mar_naval_paixhan	wh3_dlc25_emp_artillery_warmachines	false

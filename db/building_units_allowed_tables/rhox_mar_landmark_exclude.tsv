@@ -1,10 +1,7 @@
 key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/rhox_mar_landmark_exclude						
-296403262	wh_main_special_marienburg_port_1	hkrul_mar_inf_swords	0	0	wh_main_emp_marienburg	false
 296403263	wh_main_special_marienburg_port_1	hkrul_mar_riverwarden	0	0	wh_main_emp_marienburg	false
-296403264	wh_main_special_marienburg_port_2	hkrul_mar_inf_swords	0	0	wh_main_emp_marienburg	false
 296403265	wh_main_special_marienburg_port_2	hkrul_mar_riverwarden	0	0	wh_main_emp_marienburg	false
-296403266	wh_main_special_marienburg_port_3	hkrul_mar_inf_swords	0	0	wh_main_emp_marienburg	false
 296403267	wh_main_special_marienburg_port_3	hkrul_mar_riverwarden	0	0	wh_main_emp_marienburg	false
 296403268	wh_main_special_marienburg_port_2	hkrul_privateers_dual_swords	0	0	wh_main_emp_marienburg	false
 296403269	wh_main_special_marienburg_port_2	hkrul_privateers	0	0	wh_main_emp_marienburg	false
@@ -15,7 +12,6 @@ key	building	unit	XP	conditions	faction	enabled
 296403274	wh_main_special_marienburg_port_3	hkrul_mar_knights_griffon	0	0	wh_main_emp_marienburg	false
 296403275	hkrul_mar_suiddock	hkrul_mar_inf_boogschutter	0	0	wh_main_emp_marienburg	false
 296403277	hkrul_mar_suiddock	hkrul_burgher	0	0	wh_main_emp_marienburg	false
-296403278	rhox_mar_rijker	hkrul_mar_inf_halberd	0	0	wh_main_emp_marienburg	false
 296403279	rhox_mar_rijker	hkrul_mar_inf_goedendagers	0	0	wh_main_emp_marienburg	false
 296403280	rhox_mar_rijker	hkrul_mar_cav_rijders	0	0	wh_main_emp_marienburg	false
 296403281	rhox_mar_rijker	hkrul_mar_cav_rijders_crossbow	0	0	wh_main_emp_marienburg	false
@@ -23,11 +19,8 @@ key	building	unit	XP	conditions	faction	enabled
 296403283	rhox_mar_rijker	hkrul_mar_culverin	0	0	wh_main_emp_marienburg	false
 296403285	hkrul_mar_temple_haeyndrik	hkrul_mar_inf_greatsword	0	0	wh_main_emp_marienburg	false
 296403286	hkrul_mar_temple_haeyndrik	hkrul_carriers	0	0	wh_main_emp_marienburg	false
-296403287	wh_main_special_marienburg_port_1	hkrul_mar_inf_swords	0	0	ovn_mar_house_den_euwe	false
 296403288	wh_main_special_marienburg_port_1	hkrul_mar_riverwarden	0	0	ovn_mar_house_den_euwe	false
-296403289	wh_main_special_marienburg_port_2	hkrul_mar_inf_swords	0	0	ovn_mar_house_den_euwe	false
 296403290	wh_main_special_marienburg_port_2	hkrul_mar_riverwarden	0	0	ovn_mar_house_den_euwe	false
-296403291	wh_main_special_marienburg_port_3	hkrul_mar_inf_swords	0	0	ovn_mar_house_den_euwe	false
 296403292	wh_main_special_marienburg_port_3	hkrul_mar_riverwarden	0	0	ovn_mar_house_den_euwe	false
 296403293	wh_main_special_marienburg_port_2	hkrul_privateers_dual_swords	0	0	ovn_mar_house_den_euwe	false
 296403294	wh_main_special_marienburg_port_2	hkrul_privateers	0	0	ovn_mar_house_den_euwe	false
@@ -38,7 +31,6 @@ key	building	unit	XP	conditions	faction	enabled
 296403299	wh_main_special_marienburg_port_3	hkrul_mar_knights_griffon	0	0	ovn_mar_house_den_euwe	false
 296403300	hkrul_mar_suiddock	hkrul_mar_inf_boogschutter	0	0	ovn_mar_house_den_euwe	false
 296403302	hkrul_mar_suiddock	hkrul_burgher	0	0	ovn_mar_house_den_euwe	false
-296403303	rhox_mar_rijker	hkrul_mar_inf_halberd	0	0	ovn_mar_house_den_euwe	false
 296403304	rhox_mar_rijker	hkrul_mar_inf_goedendagers	0	0	ovn_mar_house_den_euwe	false
 296403305	rhox_mar_rijker	hkrul_mar_cav_rijders	0	0	ovn_mar_house_den_euwe	false
 296403306	rhox_mar_rijker	hkrul_mar_cav_rijders_crossbow	0	0	ovn_mar_house_den_euwe	false
@@ -46,11 +38,8 @@ key	building	unit	XP	conditions	faction	enabled
 296403308	rhox_mar_rijker	hkrul_mar_culverin	0	0	ovn_mar_house_den_euwe	false
 296403310	hkrul_mar_temple_haeyndrik	hkrul_mar_inf_greatsword	0	0	ovn_mar_house_den_euwe	false
 296403311	hkrul_mar_temple_haeyndrik	hkrul_carriers	0	0	ovn_mar_house_den_euwe	false
-296403312	wh_main_special_marienburg_port_1	hkrul_mar_inf_swords	0	0	ovn_mar_cult_of_manann	false
 296403313	wh_main_special_marienburg_port_1	hkrul_mar_riverwarden	0	0	ovn_mar_cult_of_manann	false
-296403314	wh_main_special_marienburg_port_2	hkrul_mar_inf_swords	0	0	ovn_mar_cult_of_manann	false
 296403315	wh_main_special_marienburg_port_2	hkrul_mar_riverwarden	0	0	ovn_mar_cult_of_manann	false
-296403316	wh_main_special_marienburg_port_3	hkrul_mar_inf_swords	0	0	ovn_mar_cult_of_manann	false
 296403317	wh_main_special_marienburg_port_3	hkrul_mar_riverwarden	0	0	ovn_mar_cult_of_manann	false
 296403318	wh_main_special_marienburg_port_2	hkrul_privateers_dual_swords	0	0	ovn_mar_cult_of_manann	false
 296403319	wh_main_special_marienburg_port_2	hkrul_privateers	0	0	ovn_mar_cult_of_manann	false
@@ -61,7 +50,6 @@ key	building	unit	XP	conditions	faction	enabled
 296403324	wh_main_special_marienburg_port_3	hkrul_mar_knights_griffon	0	0	ovn_mar_cult_of_manann	false
 296403325	hkrul_mar_suiddock	hkrul_mar_inf_boogschutter	0	0	ovn_mar_cult_of_manann	false
 296403327	hkrul_mar_suiddock	hkrul_burgher	0	0	ovn_mar_cult_of_manann	false
-296403328	rhox_mar_rijker	hkrul_mar_inf_halberd	0	0	ovn_mar_cult_of_manann	false
 296403329	rhox_mar_rijker	hkrul_mar_inf_goedendagers	0	0	ovn_mar_cult_of_manann	false
 296403330	rhox_mar_rijker	hkrul_mar_cav_rijders	0	0	ovn_mar_cult_of_manann	false
 296403331	rhox_mar_rijker	hkrul_mar_cav_rijders_crossbow	0	0	ovn_mar_cult_of_manann	false
@@ -69,11 +57,8 @@ key	building	unit	XP	conditions	faction	enabled
 296403333	rhox_mar_rijker	hkrul_mar_culverin	0	0	ovn_mar_cult_of_manann	false
 296403335	hkrul_mar_temple_haeyndrik	hkrul_mar_inf_greatsword	0	0	ovn_mar_cult_of_manann	false
 296403336	hkrul_mar_temple_haeyndrik	hkrul_carriers	0	0	ovn_mar_cult_of_manann	false
-296403337	wh_main_special_marienburg_port_1	hkrul_mar_inf_swords	0	0	ovn_mar_house_fooger	false
 296403338	wh_main_special_marienburg_port_1	hkrul_mar_riverwarden	0	0	ovn_mar_house_fooger	false
-296403339	wh_main_special_marienburg_port_2	hkrul_mar_inf_swords	0	0	ovn_mar_house_fooger	false
 296403340	wh_main_special_marienburg_port_2	hkrul_mar_riverwarden	0	0	ovn_mar_house_fooger	false
-296403341	wh_main_special_marienburg_port_3	hkrul_mar_inf_swords	0	0	ovn_mar_house_fooger	false
 296403342	wh_main_special_marienburg_port_3	hkrul_mar_riverwarden	0	0	ovn_mar_house_fooger	false
 296403343	wh_main_special_marienburg_port_2	hkrul_privateers_dual_swords	0	0	ovn_mar_house_fooger	false
 296403344	wh_main_special_marienburg_port_2	hkrul_privateers	0	0	ovn_mar_house_fooger	false
@@ -84,7 +69,6 @@ key	building	unit	XP	conditions	faction	enabled
 296403349	wh_main_special_marienburg_port_3	hkrul_mar_knights_griffon	0	0	ovn_mar_house_fooger	false
 296403350	hkrul_mar_suiddock	hkrul_mar_inf_boogschutter	0	0	ovn_mar_house_fooger	false
 296403352	hkrul_mar_suiddock	hkrul_burgher	0	0	ovn_mar_house_fooger	false
-296403353	rhox_mar_rijker	hkrul_mar_inf_halberd	0	0	ovn_mar_house_fooger	false
 296403354	rhox_mar_rijker	hkrul_mar_inf_goedendagers	0	0	ovn_mar_house_fooger	false
 296403355	rhox_mar_rijker	hkrul_mar_cav_rijders	0	0	ovn_mar_house_fooger	false
 296403356	rhox_mar_rijker	hkrul_mar_cav_rijders_crossbow	0	0	ovn_mar_house_fooger	false

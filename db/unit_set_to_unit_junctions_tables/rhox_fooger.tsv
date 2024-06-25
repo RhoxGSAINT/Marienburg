@@ -213,3 +213,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_dwarf_lord	dwarf_all_units_exclude_slayers	false
 			hkrul_fooger_dwarf_lord	dwf_all_units_characters	false
 			hkrul_fooger_dwarf_lord	dwf_characters	false
+			hkrul_mar_fooger_qual_great	emp_missile_infantry	false
+			rhox_fooger_wh_main_dwf_inf_thunderers_0	emp_missile_infantry	false
+			rhox_fooger_wh_dlc06_dwf_inf_rangers_0	emp_missile_infantry	false
+			rhox_fooger_wh_dlc06_dwf_inf_rangers_1	emp_missile_infantry	false
+			hkrul_mar_fooger_qual_great	emp_missile_infantry_vet	false
+			rhox_fooger_wh_main_dwf_inf_thunderers_0	emp_missile_infantry_vet	false
+			rhox_fooger_wh_dlc06_dwf_inf_rangers_0	emp_missile_infantry_vet	false
+			rhox_fooger_wh_dlc06_dwf_inf_rangers_1	emp_missile_infantry_vet	false

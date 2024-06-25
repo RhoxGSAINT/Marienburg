@@ -40,3 +40,6 @@ rhox_mar_marienburg	false	wh_dlc04_emp_inf_tattersouls_0	true	true				true		fals
 rhox_mar_marienburg	false	wh_dlc04_emp_veh_templehof_luminark_0	true	true				true		false
 rhox_mar_marienburg	false	wh2_dlc13_emp_inf_huntsmen_ror_0	true	true				true		false
 rhox_mar_marienburg	false	wh2_dlc13_emp_veh_war_wagon_ror_0	true	true				true		false
+rhox_mar_marienburg	false	wh_main_emp_art_helblaster_volley_gun	true	true				false		false
+rhox_mar_marienburg	false	wh_main_emp_art_helstorm_rocket_battery	true	true				false		false
+rhox_mar_marienburg	false	wh_main_emp_art_mortar	true	true				false		false

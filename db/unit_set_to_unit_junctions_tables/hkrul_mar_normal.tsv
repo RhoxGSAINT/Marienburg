@@ -41,14 +41,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_burgher	mp_cap_unit_emp_inf_spearmen_0	false
 			hkrul_burgher	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_burgher	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
-			hkrul_mar_inf_halberd	emp_all	false
-			hkrul_mar_inf_halberd	emp_halberds	false
-			hkrul_mar_inf_halberd	emp_infantry	false
-			hkrul_mar_inf_halberd	emp_melee_infantry_tier_1	false
-			hkrul_mar_inf_halberd	emp_state_troops	false
-			hkrul_mar_inf_halberd	mp_cap_unit_emp_inf_halberdiers	false
-			hkrul_mar_inf_halberd	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
-			hkrul_mar_inf_halberd	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
 			hkrul_mar_riverwarden	emp_all	false
 			hkrul_mar_riverwarden	emp_freecompany	false
 			hkrul_mar_riverwarden	emp_infantry	false
@@ -67,13 +59,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_inf_boogschutter	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_inf_boogschutter	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_inf_boogschutter	wh2_dlc13_emp_huntsmen_archers	false
-			hkrul_mar_inf_crossbow	emp_all	false
-			hkrul_mar_inf_crossbow	emp_crossbow	false
-			hkrul_mar_inf_crossbow	emp_infantry	false
-			hkrul_mar_inf_crossbow	emp_state_troops	false
-			hkrul_mar_inf_crossbow	mp_cap_unit_emp_inf_crossbowmen	false
-			hkrul_mar_inf_crossbow	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_mar_inf_crossbow	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_qual_great	emp_all	false
 			hkrul_mar_qual_great	emp_crossbow	false
 			hkrul_mar_qual_great	emp_infantry	false
@@ -81,14 +66,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_qual_great	mp_cap_unit_emp_inf_crossbowmen	false
 			hkrul_mar_qual_great	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_qual_great	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_mar_inf_swords	emp_all	false
-			hkrul_mar_inf_swords	emp_infantry	false
-			hkrul_mar_inf_swords	emp_melee_infantry_tier_1	false
-			hkrul_mar_inf_swords	emp_state_troops	false
-			hkrul_mar_inf_swords	emp_swords	false
-			hkrul_mar_inf_swords	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_inf_swords	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
-			hkrul_mar_inf_swords	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_inf_handgun	emp_all	false
 			hkrul_mar_inf_handgun	emp_handgunners	false
 			hkrul_mar_inf_handgun	emp_infantry	false
@@ -138,11 +115,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_culverin	mp_cap_group_ranged_units	false
 			hkrul_mar_culverin	mp_cap_unit_emp_art_great_cannon	false
 			hkrul_mar_culverin	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
-			hkrul_mar_mortar	emp_all	false
-			hkrul_mar_mortar	emp_artillery	false
-			hkrul_mar_mortar	mp_cap_group_ranged_units	false
-			hkrul_mar_mortar	mp_cap_unit_emp_art_mortar	false
-			hkrul_mar_mortar	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
 			hkrul_mar_knights_griffon	cavalry_and_monsters_knights	false
 			hkrul_mar_knights_griffon	emp_all	false
 			hkrul_mar_knights_griffon	hkrul_mar_manann	false
@@ -152,11 +124,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_griffon	mp_cap_unit_emp_cav_demigryph_knights_0	false
 			hkrul_mar_knights_griffon	wh2_dlc11_emp_greatswords_demigryph_knights	false
 			hkrul_mar_knights_griffon	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
-			hkrul_mar_hellstorm	emp_all	false
-			hkrul_mar_hellstorm	emp_artillery	false
-			hkrul_mar_hellstorm	mp_cap_group_ranged_units	false
-			hkrul_mar_hellstorm	mp_cap_unit_emp_art_helstorm_rocket_battery	false
-			hkrul_mar_hellstorm	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
 			hkrul_mar_riverwarden	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
 			hkrul_mar_riverwarden	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_cav_rijders	all_units_excluding_guerrilla_deployment	true
@@ -201,11 +168,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_griffon	rhox_mar_melee	false
 			hkrul_mar_cav_rijders_crossbow	rhox_mar_ranged	false
 			hkrul_mar_culverin	rhox_mar_ranged	false
-			hkrul_mar_mortar	rhox_mar_ranged	false
-			hkrul_mar_hellstorm	rhox_mar_ranged	false
 			hkrul_mar_inf_greatsword	rhox_mar_melee	false
-			hkrul_mar_inf_halberd	rhox_mar_melee	false
-			hkrul_mar_inf_swords	rhox_mar_melee	false
 			hkrul_mar_inf_goedendagers	rhox_mar_melee	false
 			hkrul_mar_qual	rhox_mar_melee	false
 			hkrul_mar_teuling	rhox_mar_melee	false
@@ -213,7 +176,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_klumpf	rhox_mar_melee	false
 			hkrul_mar_handguns	rhox_mar_ranged	false
 			hkrul_mar_inf_boogschutter	rhox_mar_ranged	false
-			hkrul_mar_inf_crossbow	rhox_mar_ranged	false
 			hkrul_mar_inf_handgun	rhox_mar_ranged	false
 			hkrul_mar_riverwarden	rhox_mar_ranged	false
 			hkrul_mar_qual_great	rhox_mar_ranged	false
@@ -287,14 +249,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_mar_cst_inf_sartosa_militia_0	rhox_mar_ranged	false
 			rhox_mar_cst_inf_sartosa_free_company_0	wh2_dlc17_volkmar_focus_units	false
 			hkrul_mar_cav_rijders_crossbow	hkrul_mar_mundvard_human	false
-			hkrul_mar_inf_crossbow	hkrul_mar_mundvard_human	false
 			hkrul_mar_riverwarden	hkrul_mar_mundvard_human	false
-			hkrul_mar_hellblaster	emp_all	false
-			hkrul_mar_hellblaster	emp_artillery	false
-			hkrul_mar_hellblaster	mp_cap_group_ranged_units	false
-			hkrul_mar_hellblaster	mp_cap_unit_emp_art_helblaster_volley_gun	false
-			hkrul_mar_hellblaster	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
-			hkrul_mar_hellblaster	rhox_mar_ranged	false
 			hkrul_mar_cleansing_flame	cavalry_and_monsters_knights	false
 			hkrul_mar_cleansing_flame	emp_all	false
 			hkrul_mar_cleansing_flame	emp_knights	false
@@ -330,6 +285,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_knights_mariner	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_knights_mariner	rhox_mar_melee	false
+			hkrul_mar_knights_mariner	hkrul_mar_mundvard_human	false
 			hkrul_mar_knights_mariner_fmc	emp_all	false
 			hkrul_mar_knights_mariner_fmc	emp_freecompany	false
 			hkrul_mar_knights_mariner_fmc	emp_infantry	false
@@ -348,14 +304,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false
 			hkrul_mar_qual_great	wh2_dlc11_dwf_miners_warriors_longbeards	false
 			hkrul_mar_qual	wh2_dlc11_dwf_miners_warriors_longbeards	false
-			hkrul_mar_inf_halberd	emp_halberds_no_demigryph	false
-			hkrul_mar_inf_halberd	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_dauphine_hkrul_mar_inf_greatsword	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_dauphine_hkrul_privateers_dual_swords	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_dauphine_hkrul_mar_defenders	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_dauphine_hkrul_mar_black_caps	wh3_dlc23_neu_melee_units_ulrika	false
 			hkrul_mar_inf_greatsword	wh3_dlc23_neu_melee_units_ulrika	false
-			hkrul_mar_inf_swords	wh3_dlc23_neu_melee_units_ulrika	false
 			hkrul_mar_inf_goedendagers	wh3_dlc23_neu_melee_units_ulrika	false
 			hkrul_mar_qual	wh3_dlc23_neu_melee_units_ulrika	false
 			hkrul_mar_black_caps	wh3_dlc23_neu_melee_units_ulrika	false
@@ -368,46 +321,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_fooger_wh_main_dwf_inf_miners_1	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_fooger_wh_main_dwf_inf_longbeards	wh3_dlc23_neu_melee_units_ulrika	false
 			rhox_fooger_wh_main_dwf_inf_longbeards_1	wh3_dlc23_neu_melee_units_ulrika	false
-			snek_hkrul_mar_landship	rhox_mar_mundvard_human	false
-			hkrul_manann_flagellant	rhox_mar_mundvard_human	false
-			hkrul_mar_cav_rijders	rhox_mar_mundvard_human	false
-			hkrul_mar_cav_rijders_crossbow	rhox_mar_mundvard_human	false
-			hkrul_mar_sons_of_manann	rhox_mar_mundvard_human	false
-			hkrul_mar_culverin	rhox_mar_mundvard_human	false
-			hkrul_mar_hellblaster	rhox_mar_mundvard_human	false
-			hkrul_mar_knights_griffon	rhox_mar_mundvard_human	false
-			hkrul_mar_mortar	rhox_mar_mundvard_human	false
-			hkrul_mar_hellstorm	rhox_mar_mundvard_human	false
-			hkrul_mar_cleansing_flame	rhox_mar_mundvard_human	false
-			hkrul_mar_art_scheepskanon	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_boogschutter	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_crossbow	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_greatsword	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_halberd	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_handgun	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_swords	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_goedendagers	rhox_mar_mundvard_human	false
-			hkrul_mar_riverwarden	rhox_mar_mundvard_human	false
-			hkrul_mar_qual	rhox_mar_mundvard_human	false
-			hkrul_mar_qual_great	rhox_mar_mundvard_human	false
-			hkrul_mar_black_caps	rhox_mar_mundvard_human	false
-			hkrul_carriers	rhox_mar_mundvard_human	false
-			hkrul_burgher	rhox_mar_mundvard_human	false
-			hkrul_privateers_dual_swords	rhox_mar_mundvard_human	false
-			hkrul_mar_handguns	rhox_mar_mundvard_human	false
-			hkrul_privateers	rhox_mar_mundvard_human	false
-			hkrul_mar_inf_cairn_wraiths_summoned_0	rhox_mar_mundvard_human	false
-			hkrul_mar_knights_mariner	rhox_mar_mundvard_human	false
-			hkrul_mar_knights_mariner_fmc	rhox_mar_mundvard_human	false
-			hkrul_mar_fooger_qual	rhox_mar_mundvard_human	false
-			hkrul_mar_fooger_qual_great	rhox_mar_mundvard_human	false
 			snek_hkrul_mar_crew_gunners	rhox_mar_infantry	false
 			hkrul_mar_inf_boogschutter	rhox_mar_infantry	false
-			hkrul_mar_inf_crossbow	rhox_mar_infantry	false
 			hkrul_mar_inf_greatsword	rhox_mar_infantry	false
-			hkrul_mar_inf_halberd	rhox_mar_infantry	false
 			hkrul_mar_inf_handgun	rhox_mar_infantry	false
-			hkrul_mar_inf_swords	rhox_mar_infantry	false
 			hkrul_mar_inf_goedendagers	rhox_mar_infantry	false
 			hkrul_mar_riverwarden	rhox_mar_infantry	false
 			hkrul_mar_qual	rhox_mar_infantry	false
@@ -431,9 +348,78 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_dauphine_hkrul_mar_black_caps	rhox_mar_infantry	false
 			hkrul_mar_fooger_qual	rhox_mar_infantry	false
 			hkrul_mar_fooger_qual_great	rhox_mar_infantry	false
-			wh3_dlc25_emp_veh_marienburg_land_ship	rhox_mar_mundvard_human	false
-			wh3_dlc25_emp_veh_marienburg_land_ship_morr	rhox_mar_mundvard_human	false
-			wh3_dlc25_emp_veh_marienburg_land_ship_ror	rhox_mar_mundvard_human	false
 			wh3_dlc25_emp_veh_marienburg_land_ship	rhox_mar_ranged	false
 			wh3_dlc25_emp_veh_marienburg_land_ship_morr	rhox_mar_ranged	false
 			wh3_dlc25_emp_veh_marienburg_land_ship_ror	rhox_mar_ranged	false
+			hkrul_mar_inf_boogschutter	emp_missile_infantry	false
+			hkrul_mar_inf_handgun	emp_missile_infantry	false
+			hkrul_mar_riverwarden	emp_missile_infantry	false
+			hkrul_mar_qual_great	emp_missile_infantry	false
+			hkrul_mar_handguns	emp_missile_infantry	false
+			hkrul_privateers	emp_missile_infantry	false
+			hkrul_mar_knights_mariner_fmc	emp_missile_infantry	false
+			rhox_mar_cst_inf_sartosa_militia_0	emp_missile_infantry	false
+			hkrul_mar_cav_rijders_crossbow	emp_missile_cavalry	false
+			hkrul_mar_inf_boogschutter	emp_missile_infantry_vet	false
+			hkrul_mar_inf_handgun	emp_missile_infantry_vet	false
+			hkrul_mar_riverwarden	emp_missile_infantry_vet	false
+			hkrul_mar_qual_great	emp_missile_infantry_vet	false
+			hkrul_mar_handguns	emp_missile_infantry_vet	false
+			hkrul_privateers	emp_missile_infantry_vet	false
+			hkrul_mar_knights_mariner_fmc	emp_missile_infantry_vet	false
+			rhox_mar_cst_inf_sartosa_militia_0	emp_missile_infantry_vet	false
+			hkrul_mar_cav_rijders_crossbow	emp_missile_cavalry_vet	false
+			wh_main_emp_art_helblaster_volley_gun	rhox_mar_ranged	false
+			wh_main_emp_art_helstorm_rocket_battery	rhox_mar_ranged	false
+			wh_main_emp_art_mortar	rhox_mar_ranged	false
+			hkrul_mar_inf_greatsword	emp_melee_infantry_7	false
+			hkrul_mar_inf_goedendagers	emp_melee_infantry_7	false
+			hkrul_mar_qual	emp_melee_infantry_7	false
+			hkrul_mar_black_caps	emp_melee_infantry_7	false
+			hkrul_carriers	emp_melee_infantry_7	false
+			hkrul_burgher	emp_melee_infantry_7	false
+			hkrul_privateers_dual_swords	emp_melee_infantry_7	false
+			hkrul_mar_knights_mariner	emp_melee_infantry_7	false
+			hkrul_manann_flagellant	emp_melee_infantry_7	false
+			rhox_mar_cst_inf_sartosa_free_company_0	emp_melee_infantry_7	false
+			hkrul_mar_defenders	emp_melee_infantry_7	false
+			hkrul_mar_riverwarden	emp_gun_artillery	false
+			hkrul_mar_riverwarden	emp_gunnery	false
+			hkrul_mar_riverwarden	wh3_dlc25_gunnery_infantry	false
+			hkrul_privateers	emp_gun_artillery	false
+			hkrul_privateers	emp_gunnery	false
+			hkrul_privateers	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_knights_mariner_fmc	emp_gun_artillery	false
+			hkrul_mar_knights_mariner_fmc	emp_gunnery	false
+			hkrul_mar_knights_mariner_fmc	wh3_dlc25_gunnery_infantry	false
+			rhox_mar_cst_inf_sartosa_militia_0	emp_gun_artillery	false
+			rhox_mar_cst_inf_sartosa_militia_0	emp_gunnery	false
+			rhox_mar_cst_inf_sartosa_militia_0	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_inf_handgun	emp_gun_artillery	false
+			hkrul_mar_inf_handgun	emp_gunnery	false
+			hkrul_mar_inf_handgun	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			hkrul_mar_inf_handgun	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_handguns	emp_gun_artillery	false
+			hkrul_mar_handguns	emp_gunnery	false
+			hkrul_mar_handguns	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			hkrul_mar_handguns	wh3_dlc25_gunnery_infantry	false
+			hkrul_mar_culverin	emp_gun_artillery	false
+			hkrul_mar_culverin	emp_gunnery	false
+			hkrul_mar_culverin	wh3_dlc25_emp_artillery_warmachines	false
+			hkrul_mar_art_scheepskanon	emp_gun_artillery	false
+			hkrul_mar_art_scheepskanon	emp_gunnery	false
+			hkrul_mar_art_scheepskanon	wh3_dlc25_emp_artillery_warmachines	false
+			hkrul_mar_sons_of_manann	emp_knights_demigryph_7	false
+			hkrul_mar_sons_of_manann	emp_melee_cavalry	false
+			hkrul_mar_sons_of_manann	mp_cap_unit_emp_cav_empire_knights	false
+			hkrul_mar_sons_of_manann	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
+			hkrul_mar_sons_of_manann	wh2_dlc17_volkmar_focus_units	false
+			hkrul_mar_sons_of_manann	wh2_main_emp_basic_empire_knight	false
+			hkrul_mar_cleansing_flame	emp_knights_demigryph_7	false
+			hkrul_mar_cleansing_flame	emp_melee_cavalry	false
+			hkrul_mar_cleansing_flame	mp_cap_unit_emp_cav_empire_knights	false
+			hkrul_mar_cleansing_flame	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
+			hkrul_mar_cleansing_flame	wh2_dlc17_volkmar_focus_units	false
+			hkrul_mar_cleansing_flame	wh2_main_emp_basic_empire_knight	false
+			hkrul_mar_knights_griffon	emp_knights_demigryph_7	false
+			hkrul_mar_knights_griffon	emp_melee_cavalry	false

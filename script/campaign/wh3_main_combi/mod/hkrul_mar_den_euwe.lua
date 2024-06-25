@@ -2,7 +2,7 @@ local deneuwe_faction_key = "ovn_mar_house_den_euwe"
 --new and fancy Jaan
 local egmond_details = {
     general_faction = deneuwe_faction_key,
-    unit_list = "wh3_dlc20_chs_inf_chaos_marauders_mtze_spears,wh3_dlc20_chs_inf_chaos_marauders_mtze_spears,hkrul_privateers_dual_swords,hkrul_mar_inf_crossbow,hkrul_mar_inf_crossbow,wh3_dlc25_emp_veh_marienburg_land_ship,wh3_dlc20_chs_inf_chaos_warriors_mtze,wh3_dlc20_chs_inf_chaos_warriors_mtze", -- unit keys from main_units table
+    unit_list = "wh3_dlc20_chs_inf_chaos_marauders_mtze_spears,wh3_dlc20_chs_inf_chaos_marauders_mtze_spears,hkrul_privateers_dual_swords,wh_main_emp_inf_crossbowmen,wh_main_emp_inf_crossbowmen,wh3_dlc25_emp_veh_marienburg_land_ship,wh3_dlc20_chs_inf_chaos_warriors_mtze,wh3_dlc20_chs_inf_chaos_warriors_mtze", -- unit keys from main_units table
     region_key = "",
     type = "general",																				-- Agent type
     subtype = "hkrul_mar_egmond",																	-- Agent subtype

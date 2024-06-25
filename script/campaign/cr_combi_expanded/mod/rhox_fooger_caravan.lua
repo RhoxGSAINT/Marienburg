@@ -559,9 +559,9 @@ local rhox_mar_fooger_event_tables = {
             local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
             local payload_builder = cm:create_payload();
 
-            local ranged_list = { "hkrul_mar_inf_handgun", "hkrul_mar_riverwarden", "hkrul_mar_inf_crossbow",
+            local ranged_list = { "hkrul_mar_inf_handgun", "hkrul_mar_riverwarden", "wh_main_emp_inf_crossbowmen",
                 "wh2_main_hef_inf_lothern_sea_guard_1" };
-            local melee_list = { "hkrul_mar_inf_halberd", "hkrul_mar_inf_swords", "hkrul_mar_inf_goedendagers" };
+            local melee_list = { "wh_main_emp_inf_halberdiers", "wh_main_emp_inf_swordsmen", "hkrul_mar_inf_goedendagers" };
 
             payload_builder:add_unit(caravan_handle:caravan_force(), ranged_list[cm:random_number(#ranged_list, 1)], 2, 0);
             dilemma_builder:add_choice_payload("FIRST", payload_builder);
@@ -609,8 +609,8 @@ local rhox_mar_fooger_event_tables = {
             local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
             local payload_builder = cm:create_payload();
 
-            local ranged_list = { "hkrul_mar_inf_handgun", "hkrul_mar_riverwarden", "hkrul_mar_inf_crossbow" };
-            local melee_list = { "hkrul_mar_inf_halberd", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_0" };
+            local ranged_list = { "hkrul_mar_inf_handgun", "hkrul_mar_riverwarden", "wh_main_emp_inf_crossbowmen" };
+            local melee_list = { "wh_main_emp_inf_halberdiers", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_0" };
 
             payload_builder:add_unit(caravan_handle:caravan_force(), ranged_list[cm:random_number(#ranged_list, 1)], 3, 0);
             dilemma_builder:add_choice_payload("SECOND", payload_builder);
