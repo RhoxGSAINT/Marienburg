@@ -108,11 +108,6 @@ local function hkrul_den_euwe()
 end
 
 
-table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], deneuwe_faction_key)--Hero thing
-table.insert(character_unlocking.character_data["aekold"]["mission_chain_keys"]["main_warhammer"], "rhox_egmond_aekold_helbrass_stage_1")
-character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]={}
-character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]["main_warhammer"]="rhox_egmond_aekold_helbrass_stage_1"
-
 
 cm:add_first_tick_callback_new(
 	function()
@@ -232,31 +227,6 @@ cm:add_first_tick_callback(
                 );
             end
         end
-        
-        cm:callback(
-            function()
-                if not campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"] then
-                    campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"] = {}
-                end
-                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"] then
-                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"] = {}
-                end
-                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"] then
-                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"] = {}
-                end
-                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] then
-                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] = {}
-                end
-                if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"] then
-                    campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"] = {}
-                end
-                table.insert(campaign_traits.trait_exclusions["faction"]["wh2_main_trait_corrupted_chaos"],"ovn_mar_house_den_euwe") --so Egmong shouldn't get it. Do it regardless Egmond is human or not
-                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_khorne"],"ovn_mar_house_den_euwe")
-                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_nurgle"],"ovn_mar_house_den_euwe")
-                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"],"ovn_mar_house_den_euwe")
-                table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"],"ovn_mar_house_den_euwe")
-            end,
-            5--to make it start as slow as possible
-        )
+    
 	end
 );

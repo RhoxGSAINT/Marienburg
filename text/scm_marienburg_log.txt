@@ -1,3 +1,6 @@
+2024/JUL/5 Rhox
+- Fixed the issue of 3 factions that start outside of Empire seeing authority at the start of the game.
+
 2024/JUN/25 Rhox
 - Removed the temp unit_set of rank 7 and added RoR unit set from 5.1 vanilla
 
