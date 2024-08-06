@@ -152,9 +152,6 @@ local function hkrul_mar()
 
                     local general_x_pos, general_y_pos = cm:find_valid_spawn_location_for_character_from_settlement(jaan_details.general_faction, marienburg_faction:home_region():name(), false, true, 5)
 
-                    general_x_pos = 639
-                    general_y_pos  = 895
-
                     
                     -- Creating replacement Emil with new fancy Jaan
                     cm:create_force_with_general(

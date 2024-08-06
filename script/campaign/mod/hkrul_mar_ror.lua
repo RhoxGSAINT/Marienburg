@@ -406,25 +406,8 @@ local function rhox_mar_check_empire(faction)
        rhox_add_mar_units(faction, rhox_add_mar_rors);
        unlocked_marienburg_troops = true;
        
-       local general_x_pos, general_y_pos = cm:find_valid_spawn_location_for_character_from_settlement(owner:name(),region:name(), false, true, 5)
-        cm:create_force_with_general(
-            owner:name(),
-            "",
-            region:name(),
-            general_x_pos,
-            general_y_pos,
-            "general",
-            "hkrul_lector_manann",
-            "",
-            "",
-            "",
-            "",
-            false,
-            function(cqi)
-            end
-        )
-       --cm:spawn_agent_at_settlement(owner, region:settlement(), "general", "hkrul_lector_manann")
        
+       cm:spawn_character_to_pool(owner:name(), "", "", "", "", 50, true, "general", "hkrul_lector_manann",true, "");      
 
 	end
 end

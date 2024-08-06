@@ -82,7 +82,7 @@ local function hkrul_mundvard()
                 
     
                 local x, y = 436, 655
-                --x, y  = cm:find_valid_spawn_location_for_character_from_settlement(deneuwe_faction_key, "wh3_main_combi_region_fu_chow", false, true, 8)
+
 
                 -- Shaping starting setup
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")

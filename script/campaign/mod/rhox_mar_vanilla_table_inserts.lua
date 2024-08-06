@@ -23,6 +23,7 @@ table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupt
 table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"],"ovn_mar_house_den_euwe")
 
 
+imperial_authority.campaign_factions.main_warhammer["wh_main_emp_marienburg"]={settlement_culture = "wh_main_emp_empire", active = true}
 imperial_authority.campaign_factions.main_warhammer["ovn_mar_house_den_euwe"]={settlement_culture = "wh_main_emp_empire", active = false}
 if vfs.exists("script/frontend/mod/cr_iee_campaign_frontend.lua") then
     imperial_authority.campaign_factions.main_warhammer["ovn_mar_cult_of_manann"]={settlement_culture = "wh_main_emp_empire", active = false}
@@ -42,6 +43,7 @@ cm:add_first_tick_callback(
 	end
 )
 
+local deneuwe_faction_key = "ovn_mar_house_den_euwe"
 ----------------------Aekold
 table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], deneuwe_faction_key)--Hero thing
 table.insert(character_unlocking.character_data["aekold"]["mission_chain_keys"]["main_warhammer"], "rhox_egmond_aekold_helbrass_stage_1")

@@ -20,7 +20,6 @@ hkrul_ogg_skill_node_self_10		wh_main_skill_all_all_self_blade_shield		2	9		0	0	
 hkrul_ogg_skill_node_self_11		wh_main_skill_all_all_self_deadly_onslaught		2	10		0	4	true
 hkrul_ogg_skill_node_unique_01		hkrul_mar_haeyndrik_shield		0	1		0	0	true
 hkrul_ogg_skill_node_unique_02		wh_main_skill_emp_champion_unique_hold_the_line		0	2		0	0	true
-hkrul_ogg_skill_node_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
 skill_node_hkrul_ogg_innate		innate_hkrul_ogg		6	0		1	0	false
 skill_node_hkrul_ogg_special_1_0		hkrul_ogg_special_1_0		1	0		0	0	true
 skill_node_hkrul_ogg_special_1_1		hkrul_ogg_special_1_1		1	1		0	0	true
