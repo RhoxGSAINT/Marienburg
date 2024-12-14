@@ -47,8 +47,8 @@ local deneuwe_faction_key = "ovn_mar_house_den_euwe"
 ----------------------Aekold
 table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], deneuwe_faction_key)--Hero thing
 table.insert(character_unlocking.character_data["aekold"]["mission_chain_keys"]["main_warhammer"], "rhox_egmond_aekold_helbrass_stage_1")
-character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]={}
-character_unlocking.character_data["aekold"]["mission_keys"][deneuwe_faction_key]["main_warhammer"]="rhox_egmond_aekold_helbrass_stage_1"
+character_unlocking.character_data["aekold"]["starting_mission_keys"][deneuwe_faction_key]={}
+character_unlocking.character_data["aekold"]["starting_mission_keys"][deneuwe_faction_key]["main_warhammer"]="rhox_egmond_aekold_helbrass_stage_1"
 
 
 ----------------Ulrika

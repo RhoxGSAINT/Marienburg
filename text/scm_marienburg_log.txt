@@ -1,3 +1,8 @@
+2024/DEC/15 Rhox
+- Added Master Engineer to Camille
+- Removed unique allied outpost because it added extra burden for all Empire players and all new Culture mods while only adding custom garrison
+- Stance effect thing
+
 2024/NOV/21 All is Dust
 - Fixed the issue of Crispjin's double mustache
 

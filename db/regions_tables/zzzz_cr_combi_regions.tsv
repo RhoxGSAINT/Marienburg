@@ -1,8 +1,5 @@
 key	owner_bundle	faction_swapping_id	hidden_settlement_override	terrain_patch_area	unnamed colour group_1
 #regions_tables;0;db/regions_tables/zzzz_cr_combi_regions					
-cr_combi_region_khuresh_1_1		emp	false		718077
-cr_combi_region_khuresh_1_2		emp	false		381461
-cr_combi_region_khuresh_1_3		emp	false		723710
 cr_combi_region_khuresh_2_1		emp	false		531497
 cr_combi_region_khuresh_2_2		emp	false		352813
 cr_combi_region_khuresh_2_3		emp	false		039187
