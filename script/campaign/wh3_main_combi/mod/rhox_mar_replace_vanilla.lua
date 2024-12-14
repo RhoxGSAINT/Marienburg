@@ -1,60 +1,39 @@
-
+--this file is same all across the caravan mods I participated in. 
 
 
 function caravans:initialise()
 	--Setup
-
-	-- TODO sort this out, it's messy and needs to be adjusted to work with Chorfs
-	if cm:get_campaign_name() == "main_warhammer" then
-		self.region_reward_list = self.region_reward_list_combi;
-	elseif cm:get_campaign_name() == "wh3_main_chaos" then
-		self.region_reward_list = self.region_reward_list_chaos;
-	end
-
 	if not cm:get_saved_value("ivory_road_demand") then 
 		self:initalise_end_node_values();
 	end	
 
 	if cm:is_new_game() then
+		local human_factions = cm:get_human_factions_of_culture("wh3_dlc23_chd_chaos_dwarfs")
 
-		cm:set_script_state("caravan_camera_x",590);
-		cm:set_script_state("caravan_camera_y",305);
-	
-		local all_factions = cm:model():world():faction_list();
-		local faction = nil;
-		for i=0, all_factions:num_items()-1 do
-			faction = all_factions:item_at(i)
-			local faction_key = faction:name();
-			--TODO work out what this means and make it generic
-			if not faction:is_human() and faction:subculture() == "wh3_main_sc_cth_cathay" then
-				cm:apply_effect_bundle("wh3_main_caravan_AI_threat_reduction", faction:name(),0)
-			end
-
-			if faction:is_human() and faction:subculture() == "wh3_dlc23_sc_chd_chaos_dwarfs" then
-				caravans.events_cooldown[faction_key] = {
-					["wh3_dlc23_dilemma_chd_convoy_cathay_caravan"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_dwarfs"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_far_from_home"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_hobgoblin_tribute"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_hungry_daemons"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_localised_elfs"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_offence_or_defence"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_ogre_mercenaries"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_portals_part_1"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_portals_part_2"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_portals_part_3_a"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_power_overwhelming"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_quick_way_down"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_rats_in_a_tunnel"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_redeadify"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_the_ambush"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_the_guide"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_trading_dark_elfs"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_training_camp"] = 0,
-					["wh3_dlc23_dilemma_chd_convoy_way_of_lava"] = 0
-				}
-				caravans.events_fired[faction_key] = false
-			end
+		for i = 1, #human_factions do
+			local current_faction = human_factions[i]
+			caravans.events_cooldown[current_faction] = {
+				["wh3_dlc23_dilemma_chd_convoy_cathay_caravan"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_dwarfs"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_far_from_home"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_hobgoblin_tribute"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_hungry_daemons"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_localised_elfs"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_offence_or_defence"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_ogre_mercenaries"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_portals_part_1"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_portals_part_2"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_portals_part_3_a"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_power_overwhelming"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_quick_way_down"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_rats_in_a_tunnel"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_redeadify"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_the_ambush"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_the_guide"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_trading_dark_elfs"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_training_camp"] = 0,
+				["wh3_dlc23_dilemma_chd_convoy_way_of_lava"] = 0
+			}
 		end
 	end
 
@@ -63,7 +42,7 @@ function caravans:initialise()
 		"convoy_event_update",
 		"WorldStartRound",
 		true,
-		function(context)
+		function()
 			for _, faction_cooldowns in pairs(caravans.events_cooldown) do
 				for dilemma_key, cooldown in pairs(faction_cooldowns) do
 					if cooldown > 0 then
@@ -71,9 +50,25 @@ function caravans:initialise()
 					end
 				end
 			end
-			for faction_key, _ in pairs (caravans.events_fired) do
-				caravans.events_fired[faction_key] = false
-			end	
+
+			-- select a random caravan for each human player to trigger an event for
+			local caravans_system = cm:model():world():caravans_system()
+			local human_factions = cm:get_human_factions()
+
+			for i = 1, #human_factions do
+				local caravans = caravans_system:faction_caravans_by_key(human_factions[i])
+				if not caravans:is_null_interface() then
+					local num_caravans = caravans:number_of_active_caravans()
+
+					if num_caravans > 0 then
+						local chosen_caravan = cm:random_number(num_caravans)
+						local chosen_caravan_cqi = caravans:active_caravans():item_at(chosen_caravan - 1):caravan_force():command_queue_index()
+						cm:set_saved_value("chosen_caravan_master_" .. human_factions[i], chosen_caravan_cqi)
+					end
+				end
+			end
+
+			self:adjust_end_node_values_for_demand();
 		end,
 		true
 	);
@@ -82,17 +77,12 @@ function caravans:initialise()
 		"caravan_waylay_query",
 		"QueryShouldWaylayCaravan",
 		function(context)
-			return context:faction():is_human() and caravans.culture_to_faction[context:faction():culture()]
+			local faction = context:faction()
+			return faction:is_human() and context:caravan():caravan_force():command_queue_index() == cm:get_saved_value("chosen_caravan_master_" .. faction:name()) and caravans.culture_to_faction[context:faction():culture()]
 		end,
 		function(context)
-			local faction_key = context:faction():name()
-
-			if caravans.events_fired[faction_key] == nil or caravans.events_fired[faction_key] == false then
-				if self:event_handler(context) == false then
-					out.design("Caravan not valid for event");
-				elseif caravans.events_fired[faction_key] ~= nil then
-					caravans.events_fired[faction_key] = true
-				end
+			if self:event_handler(context) == false then
+				out.design("Caravan not valid for event");
 			end
 		end,
 		true
@@ -105,7 +95,14 @@ function caravans:initialise()
             return caravans.culture_to_faction[context:faction():culture()]
         end,
 		function(context)
-			self:waylaid_caravan_handler(context);
+			local event_name_formatted = context:context();
+			local caravan_handle = context:caravan();
+			local event_key = self:read_out_event_key(event_name_formatted);
+			
+			local culture = caravan_handle:caravan_force():faction():culture()
+			local events = self.event_tables[culture]
+			--call the action side of the event
+			events[event_key][2](event_name_formatted,caravan_handle);
 		end,
 		true
 	);
@@ -223,35 +220,16 @@ function caravans:initialise()
 		true
 	);
 
-
-	core:add_listener(
-		"caravans_increase_demand",
-		"WorldStartRound",
-		true,
-		function(context)
-			self:adjust_end_node_values_for_demand();
-		end,
-		true
-	);
-
 	core:add_listener(
 		"caravan_master_heal",
 		"CaravanMoved",
 		function(context)
-			return not context:caravan():is_null_interface() and caravans.culture_to_faction[context:faction():culture()];
+			return not context:caravan():is_null_interface();
 		end,
 		function(context)
 			--Heal Lord
-			local caravan_force_list = context:caravan_master():character():military_force():unit_list();
-			local unit = nil;
-			for i=0, caravan_force_list:num_items()-1 do
-				unit = caravan_force_list:item_at(i);
-
-				---TODO way to make this generic?
-				if unit:unit_key() == "wh3_main_cth_cha_lord_caravan_master" then
-					cm:set_unit_hp_to_unary_of_maximum(unit, 1);
-				end
-			end
+			cm:set_unit_hp_to_unary_of_maximum(context:caravan_master():character():military_force():unit_list():item_at(0), 1)
+			
 			--Spread out caravans
 			local caravan_lookup = cm:char_lookup_str(context:caravan():caravan_force():general_character():command_queue_index())
 			local x,y = cm:find_valid_spawn_location_for_character_from_character(
@@ -259,69 +237,24 @@ function caravans:initialise()
 				caravan_lookup,
 				true,
 				cm:random_number(15,5)
-				)
-			cm:teleport_to(caravan_lookup,  x,  y);
-		end,
-		true
-	);
-
-
-	---TODO must be a better way to do this???
-	core:add_listener(
-		"clean_up_attacker",
-		"FactionTurnStart",
-		function(context)
-			return context:faction():name() == "wh3_main_ogr_ogre_kingdoms_qb1"
-		end,
-		function(context)
-			cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");
-
-			cm:kill_all_armies_for_faction(context:faction());
-
-			cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed") end, 0.2);
-		end,
-		true
-	);
-
-	core:add_listener(
-		"unlock_retreat_caravan",
-		"CharacterCompletedBattle",
-		function(context)
-			local character = context:character();
-			local caravan_system = cm:model():world():caravans_system():faction_caravans(character:faction())
-			
-			if not caravan_system:is_null_interface() then
-				local active_caravans = caravan_system:active_caravans()
-				return not active_caravans:is_empty() and character:command_queue_index() == active_caravans:item_at(0):caravan_master():character():command_queue_index()
-			end
-		end,
-		function(context)
-			cm:move_caravan(cm:model():world():caravans_system():faction_caravans(context:character():faction()):active_caravans():item_at(0))
-			
-			uim:override("retreat"):unlock()
-		end,
-		true
-	);
-
-	---TODO must be a better way to do this???
-	core:add_listener(
-		"reenable_event_feed_post_caravan_battle",
-		"BattleCompleted",
-		function()
-			return cm:pending_battle_cache_faction_is_involved("wh3_main_ogr_ogre_kingdoms_qb1")
-		end,
-		function()
-			cm:callback(
-				function()
-					cm:disable_event_feed_events(false, "", "", "diplomacy_war_declared")
-					cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed")
-					cm:disable_event_feed_events(false, "", "", "character_dies_battle")
-				end,
-				0.2
 			)
+
+			cm:teleport_to(caravan_lookup, x, y);
 		end,
 		true
 	);
+
+	core:add_listener(
+		"cleanup_caravan_battle",
+		"BattleCompleted",
+		function(context)
+			return self.enemy_force_cqi > 0
+		end,
+		function()
+			self:cleanup_post_battle()
+		end,
+		true
+	)
 
 	core:add_listener(
 		"convoy_refresh_values",
@@ -341,26 +274,11 @@ function caravans:initialise()
 	);
 
 	core:add_listener(
-		"convoy_post_dilemma_cleanup",
-		"WorldStartRound",
-		true,
-		function()
-			for j = 1, #enemy_char_cqi do
-				cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");	
-				cm:kill_character("character_cqi:"..enemy_char_cqi[j], true)
-				cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed") end, 0.2);
-			end
-			enemy_char_cqi = {}
-		end,
-		true
-	);
-
-	core:add_listener(
 		"new_contracts_update",
 		"FactionTurnStart",
 		function(context)
 			local faction = context:faction()
-			return faction:can_be_human() and faction:culture() == "wh3_dlc23_chd_chaos_dwarfs"
+			return faction:is_human() and faction:culture() == "wh3_dlc23_chd_chaos_dwarfs"
 		end,
 		function(context)
 			local turn = cm:model():turn_number();

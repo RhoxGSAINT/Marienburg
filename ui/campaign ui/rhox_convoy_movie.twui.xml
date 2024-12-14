@@ -46,7 +46,7 @@
 			id="background_movie"
 			offset="-7.00,-2.00"
 			docking="Top Center"
-			dock_offset="0.00,-2.00"
+			dock_offset="0.00,50.00"
 			component_anchor_point="0.50,0.00"
 			priority="60"
 			tooltipslocalised="true"
@@ -82,8 +82,8 @@
 				<newstate
 					this="43E9BB81-D7C0-F6AA-6BE3A1BDC53E37FF"
 					name="NewState"
-					width="410"
-					height="194"
+					width="300"
+					height="144"
 					texthbehaviour="Never split"
 					interactive="true"
 					shader_name="border_alpha_blend"
@@ -94,15 +94,15 @@
 							this="13B7C62D-B432-785B-D84DF97D0AB6A987"
 							uniqueguid="13B7C62D-B432-785B-D84DF97D0AB6A987"
 							componentimage="A673403D-4964-269D-642505EA9A6140CC"
-							width="410"
-							height="194"
+							width="300"
+							height="144"
 							colour="#000000FF"/>
 						<image
 							this="3BE9098A-52F6-04FE-332C0BEECDDB784D"
 							uniqueguid="3BE9098A-52F6-04FE-332C0BEECDDB784D"
 							componentimage="1F55D1B1-C2C5-2E3F-46B3825D684C7218"
-							width="410"
-							height="194"/>
+							width="300"
+							height="144"/>
 					</imagemetrics>
 				</newstate>
 			</states>

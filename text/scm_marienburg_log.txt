@@ -1,3 +1,20 @@
+2024/NOV/21 All is Dust
+- Fixed the issue of Crispjin's double mustache
+
+2024/OCT/11 Rhox 
+-Changed lore of sea's magic type in the UI as it wasn't matching with what it actually is
+
+2024/AUG/29 Rhox
+- Changed the caravan overriding script to fit with the 5.2.2 patch
+
+2024/AUG/21 Rhox-2
+- Forgot to change the caravan UI script
+
+2024/AUG/21 Rhox
+- Fixed the caravan script
+- Changed the military quality to fit with 5.2 vanilla's
+- also changed code of Mundvard lair to lair from liar (because I had the chance)
+
 2024/AUG/06 Rhox
 - Immortality skill node has been changed to generic ones to fit with CA's 5.1.3 change
 - All of the Legendary heroes' upkeep is set to 0 to fit with CA's change

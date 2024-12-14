@@ -197,7 +197,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_ror	hkrul_fooger_dwarves_faction	false
 			hkrul_fooger_caravan_master	dwarf_all_units_exclude_slayers	false
 			hkrul_fooger_caravan_master	dwf_all_units_characters	false
-			hkrul_fooger_caravan_master	dwf_characters	false
 			hkrul_mar_fooger_qual	dwf_wpn_handweapon	false
 			hkrul_arbatt	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_arbatt	emp_all	false
@@ -212,7 +211,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_fooger_qual	wh2_dlc11_dwf_miners_warriors_longbeards	false
 			hkrul_fooger_dwarf_lord	dwarf_all_units_exclude_slayers	false
 			hkrul_fooger_dwarf_lord	dwf_all_units_characters	false
-			hkrul_fooger_dwarf_lord	dwf_characters	false
 			hkrul_mar_fooger_qual_great	emp_missile_infantry	false
 			rhox_fooger_wh_main_dwf_inf_thunderers_0	emp_missile_infantry	false
 			rhox_fooger_wh_dlc06_dwf_inf_rangers_0	emp_missile_infantry	false

@@ -1072,7 +1072,7 @@ cm:add_first_tick_callback(
                         return context.string == "cathay_caravans";
                     end,
                     function()
-                        local caravan_head_text = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder", "tx_header");
+                        local caravan_head_text = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder_high_res", "tx_header");
                         if not caravan_head_text then
                             return
                         end
@@ -1088,7 +1088,7 @@ cm:add_first_tick_callback(
                         local reserve_caravan_active_caravan_text = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "active_holder", "tx_active_header");
                         reserve_caravan_active_caravan_text:SetText(common.get_localised_string("campaign_localised_strings_string_rhox_active_convoy"))
                         
-                        local caravan_head_movie_holder = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder");
+                        local caravan_head_movie_holder = find_uicomponent(core:get_ui_root(), "cathay_caravans", "caravans_panel", "header_holder_high_res");
                         local caravan_head_movie = find_uicomponent(caravan_head_movie_holder, "background_movie");
                         caravan_head_movie:SetVisible(false) --we don't want to see the caravan movie
                         

@@ -154,7 +154,7 @@ local function hkrul_mundvard()
                 
                 local target_slot = grung_zint_region:slot_list():item_at(2) --there is a vanilla in the garrison
                 cm:instantly_dismantle_building_in_region(target_slot)
-                cm:instantly_upgrade_building_in_region(target_slot, "hkrul_mar_mundvard_liar")
+                cm:instantly_upgrade_building_in_region(target_slot, "hkrul_mar_mundvard_lair")
                 
                 
             end

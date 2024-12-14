@@ -1,4 +1,4 @@
-key	campaign_key	faction_key	culture	subculture	technology_category	colour_hex
-#technology_node_sets_tables;2;db/technology_node_sets_tables/rhox_mar						
-emp_marienburg_tech			wh_main_emp_empire	ovn_sc_mar_marienburg	rom_roman_mil_top	FFB62F
-mar_dummy			ovn_mar_marienburg	ovn_sc_mar_marienburg	rom_roman_mil_top	FFB62F
+key	campaign_key	faction_key	culture	subculture	colour_hex
+#technology_node_sets_tables;3;db/technology_node_sets_tables/rhox_mar					
+emp_marienburg_tech			wh_main_emp_empire	ovn_sc_mar_marienburg	FFB62F
+mar_dummy			ovn_mar_marienburg	ovn_sc_mar_marienburg	FFB62F

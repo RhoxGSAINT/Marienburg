@@ -1,6 +1,6 @@
 <material>
-  <name>Mustache_weighted4_alpha_off.xml</name>
-  <shader>shaders/weighted4_character.xml.shader</shader>
+  <name>Mustache Fuzz_weighted2_alpha_on.xml</name>
+  <shader>shaders/weighted2_character_alpha.xml.shader</shader>
   <sort_override>255</sort_override>
  <textures>
   <texture>
@@ -90,7 +90,7 @@
   <param>
    <name>receives_blood</name>
    <type>float</type>
-   <value>1</value>
+   <value>0</value>
   </param>
  </params>
 </material>
