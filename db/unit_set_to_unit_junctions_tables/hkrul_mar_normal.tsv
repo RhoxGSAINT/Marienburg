@@ -510,3 +510,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_cleansing_flame	wh2_main_emp_basic_empire_knight	false
 			hkrul_mar_knights_griffon	emp_knights_demigryph_7	false
 			hkrul_mar_knights_griffon	emp_melee_cavalry	false
+			snek_hkrul_mar_crew_gunners	emp_handgunners	false
+			snek_hkrul_mar_crew_gunners	emp_infantry	false
+			snek_hkrul_mar_crew_gunners	emp_state_troops	false
+			snek_hkrul_mar_crew_gunners	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			snek_hkrul_mar_crew_gunners	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false

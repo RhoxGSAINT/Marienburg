@@ -1,3 +1,21 @@
+2025/Mar/27 Rhox
+- Some tables' schema was updated. I haven't tested anything besides that, so please report bugs you see in the Modding Den Discord
+
+2025/FEB/20 Rhox
+- Fixed the issue of the ovn_dekuypers_network_tor_elithis trade node not working 
+
+2025/FEB/15 Rhox
+- Added DLC lock to Egmond and Mundvard (Base TW1) Allowing players to play some culture without DLC wasn't Mixu or my intention. It was an oversight. (They had separate culture for a while)
+
+2025/FEB/06 Rhox
+- Added campaign restraint to the Fooger caravan campign group member
+
+2025/JAN/09 Rhox
+- Fixed the issue of Mundvard missing tunneling stance
+
+2024/DEC/19 Rhox
+- Removed old currently unused landship from the unit sets as it was causing CTD on hovering
+
 2024/DEC/15 Rhox
 - Added Master Engineer to Camille
 - Removed unique allied outpost because it added extra burden for all Empire players and all new Culture mods while only adding custom garrison

@@ -329,7 +329,7 @@ cm:add_first_tick_callback(function()
   
   if not cm:get_saved_value("hkrul_cathay_set_done") then
     core:add_listener(
-      "hkrul_follower_set_lover",
+      "hkrul_follower_set_cathay",
       "CharacterAncillaryGained",
       function(context)
         --out("CharacterAncillaryGained works")
