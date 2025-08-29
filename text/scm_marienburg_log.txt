@@ -1,3 +1,9 @@
+2025/Jun/18 Rhox
+- Fixed the issue of Empire culture factions' outpost building causing CTD. Sorry for the trouble
+
+2025/Jun/17 Rhox
+- Empty update to just show people that it's updated. (Or some of the things I forgot during hotfix incident)
+
 2025/Mar/27 Rhox
 - Some tables' schema was updated. I haven't tested anything besides that, so please report bugs you see in the Modding Den Discord
 

@@ -6,7 +6,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_dauphine	emp_characters	false
 			hkrul_mar_mananns_blades_ror	hkrul_mar_manann	false
 			hkrul_mar_sons_of_manann	hkrul_mar_manann	false
-			hkrul_mar_knights_griffon	hkrul_mar_manann	false
 			ovn_mar_cha_wizard_sea_0	mp_cap_group_heroes	false
 			ovn_mar_cha_wizard_sea_0	emp_characters	false
 			ovn_mar_cha_wizard_sea_1	mp_cap_group_heroes	false
@@ -25,7 +24,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_dauphine_3	emp_state_troops	false
 			hkrul_dauphine_3	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_dauphine_3	emp_characters	false
-			ovn_mar_inf_knights_mariner_0	hkrul_mar_manann	false
 			hkrul_mar_knights_griffon	hkrul_mariners	false
 			hkrul_manann_flagellant	emp_all	false
 			hkrul_manann_flagellant	emp_flagellants	false
@@ -44,4 +42,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_mar_mon_augas_fish_0	hkrul_mar_fish	false
 			ovn_mar_mon_augas_fish_1	hkrul_mar_fish	false
 			hkrul_mar_knights_mariner	hkrul_mar_manann	false
-			hkrul_mar_knights_mariner_fmc	hkrul_mar_manann	false

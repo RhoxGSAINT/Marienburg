@@ -1,8 +1,5 @@
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
 #building_culture_variants_tables;4;db/building_culture_variants_tables/rhox_mar								
-rhox_mar_foreign_corruption_1			ovn_mar_the_wasteland	wh_main_PLACEHOLDER	hkrul_mar_tavern	false	rhox_mar_foreign_corruption_1	true
-rhox_mar_foreign_income_1			ovn_mar_the_wasteland	wh_main_PLACEHOLDER	hkrul_mar_crime	false	rhox_mar_foreign_income_1	true
-rhox_mar_foreign_trade_1			ovn_mar_the_wasteland	wh_main_PLACEHOLDER	hkrul_mar_slaves	false	rhox_mar_foreign_trade_1	true
 rhox_mar_emp_walls_1			wh_main_emp_marienburg	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_1	true
 rhox_mar_emp_walls_2			wh_main_emp_marienburg	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_2	true
 rhox_mar_emp_walls_3			wh_main_emp_marienburg	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_3	true

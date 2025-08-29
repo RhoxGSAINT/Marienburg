@@ -256,8 +256,6 @@ effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of
 effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_3	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
 effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_4	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
 effect_bundles_localised_description_ovn_bundle_pre_battle_purchase_the_power_of_money_5	The Lords of the Directorate know there's only one thing that truly moves men. Not fear, not hope, not loyalty not cause. It is greed.	false
-effects_description_ovn_effect_ability_army_num_uses_the_power_of_money	Army Ability number of uses: %+n for "The Power of Money"	false
-effects_description_ovn_effect_ability_army_enable_the_power_of_money	Army Ability: "The Power of Money"	false
 effects_description_rhox_mar_mudvard_slave_dummy	Sell slaves to the highest bidder via rings of slave traffickers	false
 effect_bundles_localised_title_rhox_egmond_tze_side	Change is the only way	false
 effect_bundles_localised_description_rhox_egmond_tze_side	You choose to be one of them	false
@@ -335,34 +333,7 @@ effects_description_hkrul_dauphine_empire	Arranges a military alliance with [[im
 effects_description_hkrul_dauphine_cult_sigmar	Diplomatic relations: %+n with [[img:ui/flags/wh3_main_emp_cult_of_sigmar/mon_24.png]][[/img]]Cult of Sigmar	false
 effects_description_hkrul_recruitment_cost_manann	Recruitment cost: %+n% for Cult of Manann units	false
 effects_description_hkrul_dauhpine_cooldown_prayers	Cooldown: %+n% to battle prayers	false
-effects_description_ovn_effect_magic_sea_cooldown_fountain_of_life	Cooldown: %+n% to "Fountain of Life"	true
-effects_description_ovn_effect_magic_sea_miscast_reduction_fountain_of_life	Miscast base chance: %+n% for "Fountain of Life Upgraded"	true
-effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life	Winds of Magic cost: %n for "Fountain of Life"	true
-effects_description_ovn_effect_magic_sea_wom_cost_fountain_of_life_upgrade	Winds of Magic cost: %n for "Fountain of Life Upgraded"	true
-effects_description_ovn_effect_magic_sea_cooldown_water_blast	Cooldown: %+n% to "Water Blast"	true
-effects_description_ovn_effect_magic_sea_miscast_reduction_water_blast	Miscast base chance: %+n% for "Water Blast Upgraded"	true
-effects_description_ovn_effect_magic_sea_wom_cost_water_blast	Winds of Magic cost: %n for "Water Blast"	true
-effects_description_ovn_effect_magic_sea_wom_cost_water_blast_upgrade	Winds of Magic cost: %n for "Water Blast Upgraded"	true
-effects_description_ovn_lore_passive_sea_legs	Passive ability: "Sea Legs"	true
-effects_description_ovn_effect_magic_sea_cooldown_fishermans_eye	Cooldown: %+n% to "Fisherman's Eye"	true
-effects_description_ovn_effect_magic_sea_wom_cost_fishermans_eye	Winds of Magic cost: %n for "Fisherman's Eye"	true
-effects_description_ovn_effect_magic_sea_cooldown_drowned_mans_face	Cooldown: %+n% to "Drowned Man's Face"	true
-effects_description_ovn_effect_magic_sea_miscast_reduction_drowned_mans_face	Miscast base chance: %+n% for "Drowned Man's Face Upgraded"	true
-effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face	Winds of Magic cost: %n for "Drowned Man's Face"	true
-effects_description_ovn_effect_magic_sea_wom_cost_drowned_mans_face_upgrade	Winds of Magic cost: %n for "Drowned Man's Face Upgraded"	true
-effects_description_ovn_effect_magic_sea_cooldown_animate_water	Cooldown: %+n% to "Animate Water"	true
-effects_description_ovn_effect_magic_sea_miscast_reduction_animate_water	Miscast base chance: %+n% for "Animate Water Upgraded"	true
-effects_description_ovn_effect_magic_sea_wom_cost_animate_water	Winds of Magic cost: %n for "Animate Water"	true
-effects_description_ovn_effect_magic_sea_wom_cost_animate_water_upgrade	Winds of Magic cost: %n for "Animate Water Upgraded"	true
-effects_description_ovn_effect_magic_sea_cooldown_wave_of_destruction	Cooldown: %+n% to "Wave of Destruction"	true
-effects_description_ovn_effect_magic_sea_miscast_reduction_wave_of_destruction	Miscast base chance: %+n% for "Wave of Destruction Upgraded"	true
-effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction	Winds of Magic cost: %n for "Wave of Destruction"	true
-effects_description_ovn_effect_magic_sea_wom_cost_wave_of_destruction_upgrade	Winds of Magic cost: %n for "Wave of Destruction Upgraded"	true
-effects_description_ovn_effect_agent_enable_recruitment_wizard_sea_wizard	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sea Magickers	true
-effects_description_ovn_effect_agent_cap_increase_wizard_sea_wizard	Hero capacity: %+n for Sea Magickers	true
-effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard	Hero recruit rank: %+n for Sea Magickers	true
 effects_description_ovn_effect_agent_recruitment_xp_wizard_sea_wizard_wave_lord	Recruit rank: %+n for Sea Magickers and High Priests of Manann	true
-effects_description_ovn_effect_force_all_campaign_movement_range_sea_only	Campaign movement range: %+n% while at sea	true
 effects_description_rhox_dauphine_increase_incident_chance	Chance of receiving reinforcements at the start of the turn: %+n%	false
 effects_description_hkrul_dauphine_effect_dummy	Can either bribe or hunt any rogue pirate faction for powerful global buffs	false
 effects_description_hkrul_cult_of_manann_effect_dummy	Embark on a quest to the far corners of the World, where the Cult of Manann must hunt the Red Chaos Whale	false

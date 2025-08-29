@@ -5,8 +5,5 @@ rhox_mar_foreign_trade		wh2_dlc11_set_vampire_coast_foreign_1	false
 rhox_mar_foreign_corruption		wh2_dlc11_set_vampire_coast_foreign_2	false
 rhox_mar_emp_garrison		wh_main_set_empire_defence	false
 rhox_mar_emp_walls		wh_main_set_empire_defence	false
-rhox_egmond_emp_garrison		wh_main_set_empire_defence	false
-rhox_egmond_emp_walls		wh_main_set_empire_defence	false
 rhox_mar_rijker		wh2_main_set_landmark	false
 rhox_mar_eilhart		wh2_main_set_landmark	false
-rhox_mar_emp_allied_outpost		wh3_main_set_test_allied_building	false

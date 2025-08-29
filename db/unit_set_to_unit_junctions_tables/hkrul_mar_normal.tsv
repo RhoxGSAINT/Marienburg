@@ -166,8 +166,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_cav_rijders	mp_cap_unit_emp_cav_outriders_0	false
 			hkrul_mar_cav_rijders	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			hkrul_mar_cav_rijders	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			hkrul_mar_teuling	emp_all	false
-			hkrul_mar_teuling	wh2_main_ror_units_all	false
 			hkrul_carriers	emp_state_troops	false
 			hkrul_carriers	emp_infantry	false
 			hkrul_carriers	emp_all	false

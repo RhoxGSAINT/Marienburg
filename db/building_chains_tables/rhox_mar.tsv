@@ -5,9 +5,5 @@ rhox_mar_foreign_income			money	false	rhox_mar_sch_foreign_income		0		true	false
 rhox_mar_foreign_trade			money	false	rhox_mar_sch_foreign_trade		1		true	false
 rhox_mar_emp_garrison			military	true	wh_main_sch_human_garrison		0		true	false
 rhox_mar_emp_walls			military	true	wh_main_sch_empire_walls		0		true	false
-rhox_egmond_emp_garrison			military	true	wh_main_sch_human_garrison		0		true	false
-rhox_egmond_emp_walls			military	true	wh_main_sch_empire_walls		0		true	false
-rhox_mar_emp_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false	false
-rhox_egmond_emp_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false	false
 rhox_mar_rijker			money	false	rhox_mar_rijker		0		true	false
 rhox_mar_eilhart			money	false	rhox_mar_eilhart		0		true	false
