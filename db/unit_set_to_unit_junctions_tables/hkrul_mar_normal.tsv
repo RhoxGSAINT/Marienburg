@@ -6,7 +6,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_inf_goedendagers	emp_state_troops	false
 			hkrul_mar_inf_goedendagers	emp_swords	false
 			hkrul_mar_inf_goedendagers	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_inf_goedendagers	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_inf_goedendagers	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_inf_goedendagers	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_black_caps	emp_all	false
 			hkrul_mar_black_caps	emp_infantry	false
@@ -14,7 +14,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_black_caps	emp_state_troops	false
 			hkrul_mar_black_caps	emp_swords	false
 			hkrul_mar_black_caps	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_black_caps	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_black_caps	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_black_caps	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_privateers_dual_swords	emp_all	false
 			hkrul_privateers_dual_swords	emp_infantry	false
@@ -22,7 +22,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_privateers_dual_swords	emp_state_troops	false
 			hkrul_privateers_dual_swords	emp_swords	false
 			hkrul_privateers_dual_swords	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_privateers_dual_swords	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_privateers_dual_swords	wh3_dlc29_emp_melee_infantry	false
 			hkrul_privateers_dual_swords	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_qual	emp_all	false
 			hkrul_mar_qual	emp_infantry	false
@@ -30,7 +30,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_qual	emp_state_troops	false
 			hkrul_mar_qual	emp_swords	false
 			hkrul_mar_qual	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_qual	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_qual	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_qual	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_qual	dwf_wpn_handweapon	false
 			hkrul_burgher	emp_all	false
@@ -39,7 +39,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_burgher	emp_spears	false
 			hkrul_burgher	emp_state_troops	false
 			hkrul_burgher	mp_cap_unit_emp_inf_spearmen_0	false
-			hkrul_burgher	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_burgher	wh3_dlc29_emp_melee_infantry	false
 			hkrul_burgher	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_inf_halberd	emp_all	false
 			hkrul_mar_inf_halberd	emp_halberds	false
@@ -47,7 +47,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_inf_halberd	emp_melee_infantry_tier_1	false
 			hkrul_mar_inf_halberd	emp_state_troops	false
 			hkrul_mar_inf_halberd	mp_cap_unit_emp_inf_halberdiers	false
-			hkrul_mar_inf_halberd	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_inf_halberd	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_inf_halberd	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
 			hkrul_mar_riverwarden	emp_all	false
 			hkrul_mar_riverwarden	emp_freecompany	false
@@ -87,7 +87,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_inf_swords	emp_state_troops	false
 			hkrul_mar_inf_swords	emp_swords	false
 			hkrul_mar_inf_swords	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_inf_swords	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_inf_swords	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_inf_swords	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_inf_handgun	emp_all	false
 			hkrul_mar_inf_handgun	emp_handgunners	false
@@ -157,7 +157,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_hellstorm	mp_cap_group_ranged_units	false
 			hkrul_mar_hellstorm	mp_cap_unit_emp_art_helstorm_rocket_battery	false
 			hkrul_mar_hellstorm	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
-			hkrul_mar_riverwarden	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_riverwarden	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_riverwarden	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_cav_rijders	all_units_excluding_guerrilla_deployment	true
 			hkrul_mar_cav_rijders	emp_all	false
@@ -232,7 +232,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc11_cst_inf_sartosa_free_company_0	emp_state_troops	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	emp_swords	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	mp_cap_unit_emp_inf_swordsmen_0	false
-			wh2_dlc11_cst_inf_sartosa_free_company_0	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			wh2_dlc11_cst_inf_sartosa_free_company_0	wh3_dlc29_emp_melee_infantry	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	wh2_dlc11_cst_inf_sartosa_militia_0	false
 			wh2_dlc11_cst_inf_sartosa_free_company_0	emp_freecompany	false
@@ -261,7 +261,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_mar_cst_inf_sartosa_free_company_0	emp_state_troops	false
 			rhox_mar_cst_inf_sartosa_free_company_0	emp_swords	false
 			rhox_mar_cst_inf_sartosa_free_company_0	mp_cap_unit_emp_inf_swordsmen_0	false
-			rhox_mar_cst_inf_sartosa_free_company_0	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			rhox_mar_cst_inf_sartosa_free_company_0	wh3_dlc29_emp_melee_infantry	false
 			rhox_mar_cst_inf_sartosa_free_company_0	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			rhox_mar_cst_inf_sartosa_free_company_0	wh2_dlc11_cst_inf_sartosa_militia_0	false
 			rhox_mar_cst_inf_sartosa_free_company_0	emp_freecompany	false
@@ -324,7 +324,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_knights_mariner	emp_state_troops	false
 			hkrul_mar_knights_mariner	emp_swords	false
 			hkrul_mar_knights_mariner	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_knights_mariner	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_knights_mariner	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_knights_mariner	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_knights_mariner	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_knights_mariner	rhox_mar_melee	false

@@ -216,3 +216,5 @@ ovn_skill_innate_mar_caravan_master_solkan_zealot	army.png	1	army.png	campaign	t
 ovn_skill_innate_mar_caravan_master_elf-ally	army.png	1	army.png	campaign	true
 ovn_skill_innate_mar_caravan_master_dwarf-ally	army.png	1	army.png	campaign	true
 ovn_skill_innate_mar_caravan_master_reformed_criminal	army.png	1	army.png	campaign	true
+rhox_mar_effect_ability_cooldown_lore_of_sea	magic_character.png	293	magic_cooldown_character.png	both	false
+rhox_mar_effect_ability_wom_cost_pct_sea_spells	magic_character.png	294	magic_character.png	battle	false

@@ -57,8 +57,8 @@ local item_data_combi = {
 	["wh3_main_combi_region_marienburg"]			= "hkrul_mar_marienburg_anc",
 	["wh3_main_combi_region_bechafen"]				= "hkrul_pg",
 	["cr_combi_region_nippon_3_1"]				= "rhox_mar_grant_of_land",--put real item when the ancillary is ready
-	["cr_combi_region_ind_4_2"]				= "rhox_mar_bejewelled_dagger",--put real item when the ancillary is ready
-	["cr_combi_region_ihan_3_1"]				= "rhox_mar_frost_wyrm_skull",--put real item when the ancillary is ready
+	["cr_combi_region_somnagiri"]				= "rhox_mar_bejewelled_dagger",--put real item when the ancillary is ready
+	["cr_combi_region_doryang"]				= "rhox_mar_frost_wyrm_skull",--put real item when the ancillary is ready
 	["cr_combi_region_elithis_1_1"]				= "rhox_mar_mirror_blade"--put real item when the ancillary is ready
 }
 
@@ -98,8 +98,8 @@ local region_to_incident_combi = {
 	["wh3_main_combi_region_marienburg"]			= "rhox_mar_convoy_completed_marienburg",
 	["wh3_main_combi_region_bechafen"]				= "rhox_mar_convoy_completed_bechafen",
 	["cr_combi_region_nippon_3_1"]				= "rhox_mar_convoy_completed_nippon",
-	["cr_combi_region_ind_4_2"]				= "rhox_mar_convoy_completed_ind",
-	["cr_combi_region_ihan_3_1"]				= "rhox_mar_convoy_completed_ihan",
+	["cr_combi_region_somnagiri"]				= "rhox_mar_convoy_completed_ind",
+	["cr_combi_region_doryang"]				= "rhox_mar_convoy_completed_ihan",
 	["cr_combi_region_elithis_1_1"]				= "rhox_mar_convoy_completed_elithis"
 }
 
@@ -2043,8 +2043,8 @@ function hkrul_mar_initalise_end_node_values()
         };
         if cm:model():campaign_name_key() == "cr_combi_expanded" then
             end_nodes["cr_combi_region_nippon_3_1"]=cm:random_number(150,60)
-            end_nodes["cr_combi_region_ind_4_2"]=cm:random_number(150,60)
-            end_nodes["cr_combi_region_ihan_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_somnagiri"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_doryang"]=cm:random_number(150,60)
             end_nodes["cr_combi_region_elithis_1_1"]=cm:random_number(150,60)
         end
     elseif cm:get_faction("ovn_mar_house_den_euwe"):is_human() then --he's starting from Cathay so the number should be the opposite
@@ -2077,8 +2077,8 @@ function hkrul_mar_initalise_end_node_values()
         };
         if cm:model():campaign_name_key() == "cr_combi_expanded" then
             end_nodes["cr_combi_region_nippon_3_1"]=75-cm:random_number(50,0)
-            end_nodes["cr_combi_region_ind_4_2"]=75-cm:random_number(50,0)
-            end_nodes["cr_combi_region_ihan_3_1"]=75-cm:random_number(50,0)
+            end_nodes["cr_combi_region_somnagiri"]=75-cm:random_number(50,0)
+            end_nodes["cr_combi_region_doryang"]=75-cm:random_number(50,0)
             end_nodes["cr_combi_region_elithis_1_1"]=75-cm:random_number(50,0)
         end
     else --for apply Marienburg thing when player are neither
@@ -2111,8 +2111,8 @@ function hkrul_mar_initalise_end_node_values()
         };
         if cm:model():campaign_name_key() == "cr_combi_expanded" then
             end_nodes["cr_combi_region_nippon_3_1"]=cm:random_number(150,60)
-            end_nodes["cr_combi_region_ind_4_2"]=cm:random_number(150,60)
-            end_nodes["cr_combi_region_ihan_3_1"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_somnagiri"]=cm:random_number(150,60)
+            end_nodes["cr_combi_region_doryang"]=cm:random_number(150,60)
             end_nodes["cr_combi_region_elithis_1_1"]=cm:random_number(150,60)
         end
     end

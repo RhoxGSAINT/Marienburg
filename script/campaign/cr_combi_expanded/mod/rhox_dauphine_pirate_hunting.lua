@@ -7,7 +7,7 @@ local dauphine_faction = "ovn_mar_cult_of_manann"
 local pirate_lairs={
     cr_combi_region_isles_of_the_monkey_king = "rhox_mar_dauphine_pirate_hunting_1",--Ulliogtha Outpost
     cr_combi_region_melay= "rhox_mar_dauphine_pirate_hunting_2",-- Melay
-    cr_combi_region_khuresh_3_1="rhox_mar_dauphine_pirate_hunting_3",--Honai
+    cr_combi_region_long_vi="rhox_mar_dauphine_pirate_hunting_3",--Honai
     cr_combi_region_nippon_1_1="rhox_mar_dauphine_pirate_hunting_4",    --Mizushima
 }
 
@@ -53,7 +53,7 @@ cm:add_first_tick_callback_new(
         local faction = cm:get_faction(dauphine_faction)
         for i=1,#rhox_dauphine_reinforcements_units do
             local unit = rhox_dauphine_reinforcements_units[i]
-            cm:add_unit_to_faction_mercenary_pool(faction,unit,"rhox_dauphine_reinforcements",0,100,20,0,"","","",true,unit)
+            cm:add_unit_to_faction_mercenary_pool(faction,unit,"",0,100,20,0,"","","",true,unit)
         end
         if cm:get_faction(dauphine_faction):is_human() then
             rhox_mar_dauphine_trigger_mission()

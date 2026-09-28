@@ -1,16 +1,22 @@
-key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
-#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/hkrul_mar					
-hkrul_landship_ror	100.0000	1	snek_hkrul_mar_ror_landship	true	0.1000
-hkrul_klumpf	100.0000	1	hkrul_klumpf	true	0.1000
-hkrul_pion	100.0000	1	hkrul_pion	true	0.1000
-hkrul_carriers_ror	100.0000	1	hkrul_carriers_ror	true	0.1000
-hkrul_mar_art_paixhan_ror	100.0000	1	hkrul_mar_art_paixhan_ror	true	0.1000
-hkrul_mar_mananns_blades_ror	100.0000	1	hkrul_mar_mananns_blades_ror	true	0.1000
-hkrul_mar_riverwarden_ror	100.0000	1	hkrul_mar_riverwarden_ror	true	0.1000
-hkrul_mar_bordermen_ror	100.0000	1	hkrul_mar_bordermen_ror	true	0.1000
-hkrul_mar_teuling	100.0000	1	hkrul_mar_teuling	true	0.1000
-hkrul_mar_naval_paixhan	100.0000	1	hkrul_mar_naval_paixhan	true	0.1000
-hkrul_mar_talons	100.0000	1	hkrul_mar_talons	true	0.1000
-hkrul_fooger_ror	100.0000	1	hkrul_fooger_ror	true	0.1000
-ovn_mar_inf_knights_mariner_0	100.0000	1	ovn_mar_inf_knights_mariner_0	true	0.1000
-snek_hkrul_mar_landship	100.0000	1	snek_hkrul_mar_landship	true	0.1000
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn	ui_order
+#mercenary_unit_groups_tables;3;db/mercenary_unit_groups_tables/hkrul_mar						
+hkrul_landship_ror	100.0000	1	snek_hkrul_mar_ror_landship	true	0.1000	0
+hkrul_klumpf	100.0000	1	hkrul_klumpf	true	0.1000	0
+hkrul_pion	100.0000	1	hkrul_pion	true	0.1000	0
+hkrul_carriers_ror	100.0000	1	hkrul_carriers_ror	true	0.1000	0
+hkrul_mar_art_paixhan_ror	100.0000	1	hkrul_mar_art_paixhan_ror	true	0.1000	0
+hkrul_mar_mananns_blades_ror	100.0000	1	hkrul_mar_mananns_blades_ror	true	0.1000	0
+hkrul_mar_riverwarden_ror	100.0000	1	hkrul_mar_riverwarden_ror	true	0.1000	0
+hkrul_mar_bordermen_ror	100.0000	1	hkrul_mar_bordermen_ror	true	0.1000	0
+hkrul_mar_teuling	100.0000	1	hkrul_mar_teuling	true	0.1000	0
+hkrul_mar_naval_paixhan	100.0000	1	hkrul_mar_naval_paixhan	true	0.1000	0
+hkrul_mar_talons	100.0000	1	hkrul_mar_talons	true	0.1000	0
+hkrul_fooger_ror	100.0000	1	hkrul_fooger_ror	true	0.1000	0
+ovn_mar_inf_knights_mariner_0	100.0000	1	ovn_mar_inf_knights_mariner_0	true	0.1000	0
+snek_hkrul_mar_landship	100.0000	1	snek_hkrul_mar_landship	true	0.1000	0
+hkrul_burgher_mundvard	1.0000	999999	hkrul_burgher	false	100.0000	0
+hkrul_privateers_mundvard	1.0000	999999	hkrul_privateers	false	100.0000	0
+hkrul_privateers_dual_swords_mundvard	1.0000	999999	hkrul_privateers_dual_swords	false	100.0000	0
+hkrul_mar_cav_rijders_crossbow_mundvard	1.0000	999999	hkrul_mar_cav_rijders_crossbow	false	100.0000	0
+hkrul_mar_inf_crossbow_mundvard	1.0000	999999	hkrul_mar_inf_crossbow	false	100.0000	0
+hkrul_mar_riverwarden_mundvard	1.0000	999999	hkrul_mar_riverwarden	false	100.0000	0

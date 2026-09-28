@@ -174,18 +174,7 @@ end
 
 
 cm:add_first_tick_callback(
-    function()
-        local power_of_money_activated = cm:get_faction("wh_main_emp_marienburg"):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
-        cm:callback(
-			function()
-				if power_of_money_activated > 0 then
-                    rhox_setup_power_of_money(cm:get_faction("wh_main_emp_marienburg")) --for quick save
-                end
-			end,
-			0.5
-		)
-        
-        
+    function()    
         --out("Rhox mar: First tick check")
         --out("Rhox mar: Power of mooney value: "..power_of_money_activated)
         if cm:get_local_faction_name(true) == "wh_main_emp_marienburg" then
@@ -204,6 +193,17 @@ cm:add_first_tick_callback(
          end
          
          if cm:get_faction("wh_main_emp_marienburg"):is_human() then
+            local power_of_money_activated = cm:get_faction("wh_main_emp_marienburg"):bonus_values():scripted_value("rhox_mar_enable_power_of_money", "value")
+            cm:callback(
+                function()
+                    if power_of_money_activated > 0 then
+                        rhox_setup_power_of_money(cm:get_faction("wh_main_emp_marienburg")) --for quick save
+                    end
+                end,
+                0.5
+            )
+            
+         
             core:add_listener(
                 "rhox_mar_panel_opened_UITrigger",
                 "UITrigger",

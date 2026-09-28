@@ -34,11 +34,11 @@ local function hkrul_mundvard()
                 local fort_cqi = cm:get_region("wh3_main_combi_region_fort_bergbres"):cqi()
                 cm:heal_garrison(fort_cqi)--change starting settlements and heal the garrison
 
-                cm:force_declare_war(mundvard_faction_key, "wh_main_grn_skullsmasherz", false, false)
                 
                 
                 
-                local x, y = cm:find_valid_spawn_location_for_character_from_settlement("wh_main_grn_skullsmasherz", "wh3_main_combi_region_grung_zint", false, true, 0)
+                
+                local x, y = cm:find_valid_spawn_location_for_character_from_settlement("wh_main_grn_skullsmasherz", "wh3_main_combi_region_grung_zint", false, true, 5)
 
                 cm:create_force_with_general(
                 -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
@@ -59,7 +59,7 @@ local function hkrul_mundvard()
                 end);
                 
                 
-                
+                cm:force_declare_war(mundvard_faction_key, "wh_main_grn_skullsmasherz", false, false)
 
                 local x2, y2 = cm:find_valid_spawn_location_for_character_from_settlement("wh_main_grn_skullsmasherz", "wh3_main_combi_region_fort_bergbres", false, true, 0)
 
@@ -303,8 +303,26 @@ local function coven_visibility()
         if not child then
             return
         end
+        
+        local vampire_lair = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_dlc29_vmp_vampire_lair")
+        if vampire_lair and vampire_lair:Visible() then
+            local vampire_coven = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_daemon_factions")
+            if vampire_coven then
+                vampire_coven:SetVisible(false)
+            end
+            return;--From preventing showing ugly building slots
+        end
+        
         local vampire_coven = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_daemon_factions")
-        vampire_coven:SetVisible(true)
+        if vampire_coven then
+            vampire_coven:SetVisible(true)
+        end
+        local neferate_coven = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_dlc29_nef_vampire_covens")
+        if neferate_coven then
+            neferate_coven:SetVisible(false)
+            neferate_coven:Destroy()
+        end
+        
     end
 end
 
@@ -331,9 +349,19 @@ function rhox_mar_mundvard_set_coven_listeners()
             core:get_tm():real_callback(function()
                 coven_visibility()
                 rhox_diktat_button_visibility()
-            end, 1)
-                
-            
+            end, 100)
+        end,
+        true
+    )
+    core:add_listener(
+        "rhox_mundvard_less_vampire_coven_trigger2",
+        "SettlementSelected",
+        true,
+        function(context)
+            core:get_tm():real_callback(function()
+                coven_visibility()
+                rhox_diktat_button_visibility()
+            end, 1000)
         end,
         true
     )
@@ -401,6 +429,24 @@ function rhox_mar_mundvard_set_coven_listeners()
         end,
         true
     )
+    
+    core:add_listener(
+        "rhox_mundvard_coven_click_trigger_4",
+        "ComponentLClickUp",
+        function (context)
+            return context.string == "button_lair_view"
+        end,
+        function()
+            core:get_tm():real_callback(function()
+                coven_visibility()
+                rhox_diktat_button_visibility()
+            end, 100)
+        end,
+        true
+    )
+    
+    
+    
 end
 
     

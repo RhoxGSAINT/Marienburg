@@ -374,3 +374,11 @@ effects_description_hkrul_paldee_hammer	Ability: "Lordship's Hammer"	false
 effects_description_hkrul_rasha_sword	Ability: "Nipponese Precision"	false
 effects_description_hkrul_skill_innate_mar_caravan_master_privateer	This Lord's caravan army has additional Pirate units	false
 effects_description_rhox_mar_landship_repair	Ability: "Van Reeveldt's Carpenters" for all Land Ship units	false
+effects_description_rhox_mar_effect_ability_cooldown_lore_of_sea	Cooldown: %+n% to Lore of the Sea spells	false
+effects_description_rhox_mar_effect_ability_wom_cost_pct_sea_spells	Winds of Magic cost: %+n% for Lore of the Sea spells	false
+effects_description_rhox_mar_effect_cap_hkrul_burgher	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_burgher}}	false
+effects_description_rhox_mar_effect_cap_hkrul_privateers	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_privateers}}	false
+effects_description_rhox_mar_effect_cap_hkrul_privateers_dual_swords	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_privateers_dual_swords}}	false
+effects_description_rhox_mar_effect_cap_hkrul_mar_cav_rijders_crossbow	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_cav_rijders_crossbow}}	false
+effects_description_rhox_mar_effect_cap_hkrul_mar_inf_crossbow	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_inf_crossbow}}	false
+effects_description_rhox_mar_effect_cap_hkrul_mar_riverwarden	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_riverwarden}}	false

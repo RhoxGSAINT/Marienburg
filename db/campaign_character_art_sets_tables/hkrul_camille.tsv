@@ -1,16 +1,16 @@
-art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/hkrul_camille								
-hkrul_dauphine	general				false	true	hkrul_dauphine	1.0000
-ovn_art_set_mar_sea_wizard_01	wizard				false	true	mar_sea_wizard	1.0000
-ovn_art_set_mar_sea_wizard_02	wizard				false	true	mar_sea_wizard	1.0000
-chaos_whale_kou	general				false	true	chaos_whale_kou	1.0000
-chaos_whale_kou_female	general				false	false	chaos_whale_kou	1.0000
-hkrul_arbatt	champion				false	true	hkrul_arbatt	1.0000
-hkrul_rasha	champion				false	true	hkrul_rasha	1.0200
-hkrul_ogg	champion				false	true	hkrul_ogg	1.0400
-hkrul_paldee	champion				false	true	hkrul_paldee	1.0600
-hkrul_fooger	general				false	true	hkrul_fooger	1.0000
-hkrul_fooger_caravan_master_01	general				false	true	hkrul_fooger_caravan_master	1.0000
-hkrul_fooger_caravan_master_02	general				false	true	hkrul_fooger_caravan_master	1.0000
-hkrul_fooger_dwarf_lord_01	general				false	true	hkrul_fooger_dwarf_lord	1.0000
-hkrul_fooger_dwarf_lord_02	general				false	true	hkrul_fooger_dwarf_lord	1.0000
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale	prebattle_separation_offset
+#campaign_character_art_sets_tables;7;db/campaign_character_art_sets_tables/hkrul_camille									
+hkrul_dauphine	general				false	true	hkrul_dauphine	1.0000	0.0000
+ovn_art_set_mar_sea_wizard_01	wizard				false	true	mar_sea_wizard	1.0000	0.0000
+ovn_art_set_mar_sea_wizard_02	wizard				false	true	mar_sea_wizard	1.0000	0.0000
+chaos_whale_kou	general				false	true	chaos_whale_kou	1.0000	0.0000
+chaos_whale_kou_female	general				false	false	chaos_whale_kou	1.0000	0.0000
+hkrul_arbatt	champion				false	true	hkrul_arbatt	1.0000	0.0000
+hkrul_rasha	champion				false	true	hkrul_rasha	1.0200	0.0000
+hkrul_ogg	champion				false	true	hkrul_ogg	1.0400	0.0000
+hkrul_paldee	champion				false	true	hkrul_paldee	1.0600	0.0000
+hkrul_fooger	general				false	true	hkrul_fooger	1.0000	0.0000
+hkrul_fooger_caravan_master_01	general				false	true	hkrul_fooger_caravan_master	1.0000	0.0000
+hkrul_fooger_caravan_master_02	general				false	true	hkrul_fooger_caravan_master	1.0000	0.0000
+hkrul_fooger_dwarf_lord_01	general				false	true	hkrul_fooger_dwarf_lord	1.0000	0.0000
+hkrul_fooger_dwarf_lord_02	general				false	true	hkrul_fooger_dwarf_lord	1.0000	0.0000

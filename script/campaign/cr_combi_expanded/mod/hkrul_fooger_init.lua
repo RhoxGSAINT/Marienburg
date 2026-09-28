@@ -7,7 +7,7 @@ local function rhox_fooger_init_setting()
 	local faction = cm:get_faction(fooger_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
     
-    cm:transfer_region_to_faction("cr_combi_region_ind_1_3",fooger_faction)
+    cm:transfer_region_to_faction("cr_combi_region_vajrapur",fooger_faction)
     
     local x = 1131
     local y = 392
@@ -17,7 +17,7 @@ local function rhox_fooger_init_setting()
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     fooger_faction,
     "hkrul_fooger_ror,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual,hkrul_mar_fooger_qual_great,hkrul_mar_fooger_qual_great,hkrul_mar_mortar,hkrul_carriers",
-    "cr_combi_region_ind_1_3",
+    "cr_combi_region_vajrapur",
     x,
     y,
     "general",
@@ -49,7 +49,7 @@ local function rhox_fooger_init_setting()
         mm:add_payload("text_display rhox_fooger_thane_rewards");
         mm:trigger() 
         
-        local ind_region = cm:get_region("cr_combi_region_ind_1_3")
+        local ind_region = cm:get_region("cr_combi_region_vajrapur")
         local foger_settlement = ind_region:settlement()
         cm:instantly_set_settlement_primary_slot_level(foger_settlement , 1)
     end
@@ -59,7 +59,7 @@ local function rhox_fooger_init_setting()
     cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
     
     
-    local ind_region = cm:get_region("cr_combi_region_ind_1_3")
+    local ind_region = cm:get_region("cr_combi_region_vajrapur")
     local ind_region_cqi = ind_region:cqi()
     cm:heal_garrison(ind_region_cqi)
 
@@ -74,7 +74,7 @@ local function rhox_fooger_init_setting()
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
         "cr_ogr_deathtoll",
         "wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_maneaters_0,wh3_main_ogr_inf_maneaters_1",
-        "cr_combi_region_khuresh_4_1",
+        "cr_combi_region_vajrapur",
         1146,
         384,
         "general",
@@ -88,7 +88,7 @@ local function rhox_fooger_init_setting()
         end);
     end
     
-    cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_ind_1_3")
+    cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_vajrapur")
     cm:make_region_visible_in_shroud("ovn_mar_house_fooger", "wh3_main_combi_region_marienburg")
     cm:make_diplomacy_available("ovn_mar_house_fooger", "wh_main_emp_marienburg")
     
@@ -132,7 +132,7 @@ cm:add_first_tick_callback(
             local faction = cm:get_faction(fooger_faction)
             for i=1,#rhox_fooger_reinforcements_units do
                 local unit = rhox_fooger_reinforcements_units[i]
-                cm:add_unit_to_faction_mercenary_pool(faction,unit,"renown",0,100,20,0,"","","",true,unit)
+                cm:add_unit_to_faction_mercenary_pool(faction,unit,"wh3_main_regiments_of_renown_pool",0,100,20,0,"","","",true,unit)
             end
         end
 	end

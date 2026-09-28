@@ -1,5 +1,5 @@
 set	item	mod_disabled
-#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/hkrul_mar		
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/hkrul_mar_jk		
 skill_node_set_hkrul_jk	skill_node_hkrul_jk_campaign_0	false
 skill_node_set_hkrul_jk	skill_node_hkrul_jk_campaign_1_1	false
 skill_node_set_hkrul_jk	skill_node_hkrul_jk_campaign_1_2	false
@@ -48,3 +48,4 @@ skill_node_set_hkrul_jk	skill_node_hkrul_jaan_4_12	false
 skill_node_set_hkrul_jk	skill_node_hkrul_jaan_4_9	false
 skill_node_set_hkrul_jk	skill_node_hkrul_jaan_4_11	false
 skill_node_set_hkrul_jk	skill_node_hkrul_jaan_4_10	false
+skill_node_set_hkrul_jk	wh3_main_skill_node_all_army_of_renown_legendary_lord	false

@@ -5,14 +5,14 @@ rhox_dauphine_sea_monsters = {
 	pirate_details = {
 		{
 			faction_key = "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
-			spawn_pos = {x = 1287, y = 44},
+			spawn_pos = {x = 1287, y = 58},
 			has_spawned = false,
 			effect = "wh_main_reduced_movement_range_20",
 			xp = 0,
 			level = 20,
 			item_owned = "piece_of_eight",
 			behaviour = "roving",	
-			patrol_route = {"start", {x = 1324, y = 61}, {x = 1343, y = 21}, {x = 1239, y = 64}, {x = 1207, y = 47}}
+			patrol_route = {"start", {x = 1343, y = 47}, {x = 1332, y = 110}, {x = 1220, y = 31}, {x = 1196, y = 109}}
 		},
 		
 		{
@@ -25,7 +25,7 @@ rhox_dauphine_sea_monsters = {
 			level = 20,
 			item_owned = "piece_of_eight",
 			behaviour = "monster",	
-			patrol_route = {"start", {x = 1523, y = 654}, {x = 1464, y = 551}, {x = 1477, y = 666}, {x = 1534, y = 723}},
+			patrol_route = {"start", {x = 1518, y = 646}, {x = 1446, y = 546}, {x = 1472, y = 666}, {x = 1538, y = 725}},
             mission_key = "rhox_mar_dauphine_pirate_hunting_5"
 		}
 	    
@@ -57,7 +57,7 @@ function rhox_dauphine_sea_monsters:setup_sea_monsters()
                 -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
                 pirate.faction_key,
                 "urg_dae_inf_sphenisci_daemon,urg_kho_inf_sphenisci_daemon,urg_nur_inf_sphenisci_daemon,urg_sla_inf_sphenisci_daemon,urg_tze_inf_sphenisci_daemon,urg_dae_inf_sphenisci_daemon,urg_kho_inf_sphenisci_daemon,urg_nur_inf_sphenisci_daemon,urg_sla_inf_sphenisci_daemon,urg_tze_inf_sphenisci_daemon,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_0,ovn_mar_mon_augas_fish_1,ovn_mar_mon_augas_fish_1",
-                "cr_combi_region_khuresh_4_1",
+                "cr_combi_region_naknakorn",
                 pirate.spawn_pos.x,
                 pirate.spawn_pos.y,
                 "general",

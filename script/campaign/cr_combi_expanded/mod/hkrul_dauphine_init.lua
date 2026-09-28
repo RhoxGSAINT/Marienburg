@@ -8,17 +8,17 @@ local function rhox_dauphine_init_setting()
 	local faction = cm:get_faction(dauphine_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
     
-    cm:transfer_region_to_faction("cr_combi_region_khuresh_4_1",dauphine_faction)
+    cm:transfer_region_to_faction("cr_combi_region_tanah_lic",dauphine_faction)
     
     local x = 1230
-    local y = 190
+    local y = 200
     
 
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     dauphine_faction,
     "hkrul_manann_flagellant,hkrul_manann_flagellant,hkrul_mar_sons_of_manann,hkrul_mar_knights_mariner,hkrul_mar_knights_mariner_fmc,hkrul_mar_culverin,ovn_mar_inf_knights_mariner_0",
-    "cr_combi_region_khuresh_4_1",
+    "cr_combi_region_tanah_lic",
     x,
     y,
     "general",
@@ -48,7 +48,7 @@ local function rhox_dauphine_init_setting()
         end
     end);
     cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
-    cm:force_declare_war(dauphine_faction, "cr_kho_servants_of_the_blood_nagas", false, false)
+    cm:force_declare_war(dauphine_faction, "cr_nor_stormravens", false, false)
     cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
 
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
@@ -59,12 +59,12 @@ local function rhox_dauphine_init_setting()
     local agent_x, agent_y = cm:find_valid_spawn_location_for_character_from_position(faction:name(), x, y, false, 5);
     cm:create_agent(dauphine_faction, "wizard", "mar_sea_wizard", agent_x, agent_y);       
     
-    cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_khuresh_4_1")
+    cm:make_region_visible_in_shroud("wh_main_emp_marienburg", "cr_combi_region_tanah_lic")
     cm:make_region_visible_in_shroud("ovn_mar_cult_of_manann", "wh3_main_combi_region_marienburg")
     cm:make_diplomacy_available("ovn_mar_cult_of_manann", "wh_main_emp_marienburg")
     
     if faction:is_human() then 
-        local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
+        local khuresh_region = cm:get_region("cr_combi_region_tanah_lic")
         local dauphine_settlement = khuresh_region:settlement()
         local slot_list = dauphine_settlement:slot_list()
         for i = 2, slot_list:num_items() - 1 do--2 because 0 is main and 1 is port
@@ -75,29 +75,28 @@ local function rhox_dauphine_init_setting()
         
     end
     
-    local khuresh_region = cm:get_region("cr_combi_region_khuresh_4_1")
+    local khuresh_region = cm:get_region("cr_combi_region_tanah_lic")
     local khuresh_region_cqi = khuresh_region:cqi()
     cm:heal_garrison(khuresh_region_cqi)
     
     
-    if vfs.exists("script/frontend/mod/rhox_iee_lccp_frontend.lua") and cm:get_faction("cr_kho_servants_of_the_blood_nagas"):is_human() == false then --they're killing the starting enemy leader, which should be the puchbag we have to create one
-        cm:create_force_with_general(
+    cm:create_force_with_general(
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-        "cr_kho_servants_of_the_blood_nagas",
-        "wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_bloodletters_0,wh3_main_kho_mon_khornataurs_0",
-        "cr_combi_region_khuresh_4_1",
-        1230,
+        "cr_nor_stormravens",
+        "wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_1,wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+        "cr_combi_region_tanah_lic",
+        1235,
         200,
         "general",
-        "wh3_main_kho_exalted_bloodthirster",
+        "wh_main_nor_marauder_chieftain",
         "",
         "",
         "",
         "",
         false,
         function(cqi)
-        end);
-    end
+        end
+    );
     
     
     cm:callback(

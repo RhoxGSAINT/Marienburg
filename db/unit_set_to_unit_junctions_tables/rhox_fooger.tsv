@@ -6,7 +6,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_fooger_qual	emp_state_troops	false
 			hkrul_mar_fooger_qual	emp_swords	false
 			hkrul_mar_fooger_qual	mp_cap_unit_emp_inf_swordsmen_0	false
-			hkrul_mar_fooger_qual	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			hkrul_mar_fooger_qual	wh3_dlc29_emp_melee_infantry	false
 			hkrul_mar_fooger_qual	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			hkrul_mar_fooger_qual_great	emp_all	false
 			hkrul_mar_fooger_qual_great	emp_crossbow	false
@@ -175,7 +175,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_fooger_wh_main_dwf_inf_hammerers	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights	false
 			rhox_fooger_wh_main_dwf_inf_hammerers	rhox_mar_melee	false
 			hkrul_fooger	hkrul_fooger_dwarves	false
-			hkrul_fooger	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_fooger	emp_all	false
 			hkrul_fooger	emp_characters	false
 			hkrul_mar_fooger_qual	hkrul_fooger_dwarves	false
@@ -198,13 +197,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_fooger_caravan_master	dwarf_all_units_exclude_slayers	false
 			hkrul_fooger_caravan_master	dwf_all_units_characters	false
 			hkrul_mar_fooger_qual	dwf_wpn_handweapon	false
-			hkrul_arbatt	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_arbatt	emp_all	false
 			hkrul_arbatt	emp_characters	false
-			hkrul_arbatt_horse	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_arbatt_horse	emp_all	false
 			hkrul_arbatt_horse	emp_characters	false
-			hkrul_arbatt_pegasus	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_arbatt_pegasus	emp_all	false
 			hkrul_arbatt_pegasus	emp_characters	false
 			hkrul_mar_fooger_qual_great	wh2_dlc11_dwf_miners_warriors_longbeards	false

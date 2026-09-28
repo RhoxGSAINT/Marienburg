@@ -3,13 +3,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_pg	mp_cap_group_heroes	false
 			hkrul_pg	emp_all	false
 			hkrul_pg	emp_characters	false
-			hkrul_hendrik	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_pg	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_pg_barded_warhorse	emp_all	false
 			hkrul_pg_barded_warhorse	emp_characters	false
-			hkrul_jk	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_jk_barded_warhorse	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_pg_barded_warhorse	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_pg_barded_warhorse	hkrul_hendrik	false
 			hkrul_pg	hkrul_hendrik	false
 			hkrul_hendrik	hkrul_simon	false
@@ -20,10 +15,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_jk	emp_characters	false
 			hkrul_jk	hkrul_jk	false
 			hkrul_jk_barded_warhorse	hkrul_jk	false
-			hkrul_solkan	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_solkan	emp_characters	false
 			hkrul_solkan	emp_all	false
-			hkrul_solkan_horse	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_solkan_horse	emp_characters	false
 			hkrul_solkan_horse	emp_all	false
 			hkrul_hendrik_pegasus	hkrul_simon	false
@@ -31,17 +24,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_crispijn	mp_cap_group_heroes	false
 			hkrul_crispijn	emp_all	false
 			hkrul_crispijn	emp_characters	false
-			hkrul_crispijn	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_egmond	emp_characters	false
 			hkrul_mar_egmond_horse	emp_characters	false
-			hkrul_mar_egmond	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_mar_egmond_longma	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_mar_egmond_horse	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_mar_egmond_longma	emp_characters	false
 			hkrul_guzunda	mp_cap_group_heroes	false
 			hkrul_guzunda	emp_all	false
 			hkrul_guzunda	emp_characters	false
-			hkrul_guzunda	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_guzunda	dwarf_all_units_exclude_slayers	false
 			wh2_main_hef_cha_noble_0	hkrul_mar_noble	false
 			wh2_main_hef_cha_noble_2	hkrul_mar_noble	false
@@ -59,13 +47,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_munvard_02	vmp_all	false
 			hkrul_mar_munvard_02	vmp_characters	false
 			hkrul_lisette	mp_cap_group_heroes	false
-			hkrul_lisette	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_lisette	emp_all	false
 			hkrul_lisette	emp_characters	false
 			hkrul_cross	mp_cap_group_heroes	false
 			hkrul_cross	emp_all	false
 			hkrul_cross	emp_characters	false
-			hkrul_cross	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_cross	hef_all	false
 			hkrul_mar_caravan_master	emp_all	false
 			hkrul_mar_caravan_master_horse	emp_all	false
@@ -77,7 +63,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_harb	mp_cap_group_heroes	false
 			hkrul_harb	emp_all	false
 			hkrul_harb	emp_characters	false
-			hkrul_harb	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_lector_manann	emp_all	false
 			hkrul_lector_manann	emp_characters	false
 			hkrul_slaver	vmp_all	false
@@ -97,6 +82,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_rasha	emp_characters	false
 			hkrul_rasha	dwarf_all_units_exclude_slayers	false
 			hkrul_rasha	hkrul_fooger_dwarves	false
-			hkrul_ogg	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_paldee	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_rasha	wh2_dlc13_emp_elector_count_reward_units	false

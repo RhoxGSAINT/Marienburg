@@ -51,6 +51,32 @@ character_unlocking.character_data["aekold"]["starting_mission_keys"][deneuwe_fa
 character_unlocking.character_data["aekold"]["starting_mission_keys"][deneuwe_faction_key]["main_warhammer"]="rhox_egmond_aekold_helbrass_stage_1"
 
 
+
+local mundvard = {
+    key = "ovn_mar_the_wasteland",
+    first_lair = "wh3_main_combi_region_eilhart",
+    lair_pools = {
+        {key = "close", distance = 35000, lair_count = 2}, -- Distance set at the value at which at least 50 regions are within range
+        {key = "medium", distance = 240000, lair_count = 2}, -- Distance set at the value at which 50% of all regions are within range
+        {key = "far", distance = 400000, lair_count = 3}, -- Distance set at the value at which 75% of all region are within range
+        {key = "random", distance = 9999999, lair_count = 3}, -- All regions are valid at this distance
+    }
+}
+
+table.insert(vampire_lairs.lair_spawning_data.factions, mundvard)	
+
+table.insert(vampire_technology.locked_techs_necromancers.factions, "ovn_mar_the_wasteland")
+table.insert(vampire_technology.locked_techs_necromancers.factions, "ovn_mar_the_wasteland")
+
+
+table.insert(vampire_technology.starting_vampire_techs, {faction = "ovn_mar_the_wasteland", tech = "wh3_main_tech_vmp_vampires_main_1"})
+table.insert(vampire_technology.starting_vampire_techs, {faction = "ovn_mar_the_wasteland", tech = "wh3_main_tech_vmp_vampires_main_2"})
+table.insert(vampire_technology.starting_necromancer_techs, {faction = "ovn_mar_the_wasteland", tech = "wh3_main_tech_vmp_necromancers_0"})
+
+
+
+
+
 ----------------Ulrika
 local mar_factions={
     wh_main_emp_marienburg=true,

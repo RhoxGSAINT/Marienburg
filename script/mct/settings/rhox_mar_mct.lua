@@ -19,10 +19,10 @@ rebellion:set_text("mct_rhox_mar_rebellion_skill_title", true)
 rebellion:set_tooltip_text("mct_rhox_mar_rebellion_skill_desc", true)
 
 
-local rebellion = mct_mod:add_new_option("rhox_mar_blue_pirate", "checkbox")
-rebellion:set_default_value(false)
-rebellion:set_text("mct_rhox_mar_blue_pirates_title", true)
-rebellion:set_tooltip_text("mct_rhox_mar_blue_pirates_desc", true)
+local blue_pirate = mct_mod:add_new_option("rhox_mar_blue_pirate", "checkbox")
+blue_pirate:set_default_value(false)
+blue_pirate:set_text("mct_rhox_mar_blue_pirates_title", true)
+blue_pirate:set_tooltip_text("mct_rhox_mar_blue_pirates_desc", true)
 
 
 local rite = mct_mod:add_new_option("rhox_mar_jaan_rite", "checkbox")

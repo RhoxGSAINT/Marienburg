@@ -1,3 +1,62 @@
+2026/SEP/27 Rhox
+- Updated animation ID
+- Update settlement occupation option stuff
+- Changed unit_set wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers to wh3_dlc29_emp_melee_infantry as it become obsolete
+- Changed coven visibility script due to vanilla Neferata slot and vampire lair slot
+- Some 9.0 vampire stuff for Mundvard
+-- Instant construction
+-- Access to wh3_dlc29_vmp_master_necromancer_undeath
+-- Vampire lair setting
+-- Initial tech
+-- Gave access to blood and corpse recruitment
+- Fervor setting for Marienburg caravan force type
+- Changed "renown" in the script into "wh3_main_regiments_of_renown_pool" to make it count towards the renown cap in the army
+- Added tier 1 skill line to Sea Magician
+- Added renown skills. Except for the caravan since they don't have it in the vanilla
+- Now Mudvard's lair gives cap to Black knight instead of allowing recruitment
+- Now Mundvard's Marienburg unit recuriting is changed to cap way (So more like Neferata&Khalida unit thing)
+
+2026/JULY/22 Rhox
+- Fixed the issue from Sea magic guy using assault unit in the skill section when his action is assault units
+
+2026/JULY/11 Rhox
+- Changed all Ihan related things. (Trade node)
+- If you started an IEE campaign before that, you need a new start anywasy since it broke the trade node system
+
+2026/May/22 Rhox
+- rhox_mar_replace_vanilla.lua has been updated to meet the changes made in the vanilla
+- military force campaign group for the tiger lady
+- table schema update
+
+
+2026/FEB/06 Rhox
+- Added if Marienburg is human to the pre-battle charge UI checking thing on the quick load
+
+2025/DEC/10 Rhox
+- Added vampire guy access to the new settlement types
+
+2025/NOV/14 Rhox
+- Changed Spire of the Corsair's starting location (Yes, I only changed patrol position and not the starting position)
+
+2025/OCT/22 Rhox
+- Changed patrol coordinates for the whale and sunken land corsairs
+
+2025/OCT/18 Rhox
+- Regenerated unique ability numeric ID for the hkrul_manann since it was overlapping with others
+
+2025/OCT/04 Rhox
+- Changed method of locking Empire RoR into event-restricted locking, rather than removing them from the pool since the latter stopped working at a certain point. (You'll need a new campaign start if you want the locking)
+
+2025/SEP/25 Rhox
+- Changeed below things for the IEE to meet the new changes
+-- IEE trade route
+-- Dauphine starting position and starting enemy
+-- Mission localization
+
+2025/SEP/02 Rhox
+- Deleted some of the vanilla overriding art things (Might have effect on the mod, report if there is)
+- Adjusted the script and DB to the IEE change
+
 2025/Jun/18 Rhox
 - Fixed the issue of Empire culture factions' outpost building causing CTD. Sorry for the trouble
 

@@ -1,0 +1,8 @@
+unit	unit_list
+#unit_to_unit_list_junctions_tables;0;db/unit_to_unit_list_junctions_tables/rhox_mar	
+hkrul_burgher	hkrul_burgher
+hkrul_privateers	hkrul_privateers
+hkrul_privateers_dual_swords	hkrul_privateers_dual_swords
+hkrul_mar_cav_rijders_crossbow	hkrul_mar_cav_rijders_crossbow
+hkrul_mar_inf_crossbow	hkrul_mar_inf_crossbow
+hkrul_mar_riverwarden	hkrul_mar_riverwarden

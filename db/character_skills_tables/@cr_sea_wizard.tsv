@@ -10,3 +10,6 @@ ovn_skill_all_magic_sea_05_drowned_mans_face	ovn_spell_sea_drowned_mans_face.png
 ovn_skill_all_magic_sea_09_animate_water	ovn_spell_sea_animate_water.png			0	false	false	false	0.0000	0
 ovn_skill_all_magic_sea_10_wave_of_destruction	ovn_spell_sea_wave_of_destruction.png			0	false	false	false	0.0000	0
 ovn_skill_all_magic_sea_dummy_fountain_of_life	ovn_spell_sea_fountain_of_life.png			0	false	false	false	0.0000	0
+rhox_mar_sea_wizard_unique_01	character_magic.png			0	false	false	false	0.0000	0
+rhox_mar_sea_wizard_unique_03	character_magic.png			0	false	false	false	0.0000	0
+rhox_mar_sea_wizard_unique_05	character_defence.png			0	false	false	false	0.0000	0
