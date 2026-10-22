@@ -53,7 +53,7 @@ cm:add_first_tick_callback_new(
         local faction = cm:get_faction(dauphine_faction)
         for i=1,#rhox_dauphine_reinforcements_units do
             local unit = rhox_dauphine_reinforcements_units[i]
-            cm:add_unit_to_faction_mercenary_pool(faction,unit,"",0,100,20,0,"","","",true,unit)
+            cm:add_unit_to_faction_mercenary_pool(faction,unit,"",0,100,20,0,"","","",false,unit)
         end
         if cm:get_faction(dauphine_faction):is_human() then
             rhox_mar_dauphine_trigger_mission()

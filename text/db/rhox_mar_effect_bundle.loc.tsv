@@ -57,3 +57,13 @@ effect_bundles_localised_description_rhox_fooger_faction_trait	House Fooger	fals
 effect_bundles_localised_title_rhox_fooger_faction_trait	House Fooger	false
 effect_bundles_localised_description_rhox_mar_bundle_voyage_enemy	This army is affected by the local flood	false
 effect_bundles_localised_title_rhox_mar_bundle_voyage_enemy	Breaching the Vloedmuur	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_trait	[[col:red]]WIP[[/col]]The Council of Wavemasters	false
+effect_bundles_localised_description_rhox_mar_lianllach_faction_trait	Clan Lianllach bows to no prince. Since the fall of its last chief, the clan has been governed by a Council of Wavemasters, whose merchants, mages and admirals vie endlessly for the right to steer its fleets. What unites them is a reputation feared from Nippon to the New World: no one drives a harder bargain than Lianllach.	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_magic	Council of the Mages	false
+effect_bundles_localised_description_rhox_mar_lianllach_faction_magic	A mage sits as First Wavemaster. Clan Lianllach turns its wealth and attention to the arcane.	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_war	Council of the Admirals	false
+effect_bundles_localised_description_rhox_mar_lianllach_faction_war	An admiral sits as First Wavemaster. The fleets of Clan Lianllach are readied for war.	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_trade	Council of the Merchants	false
+effect_bundles_localised_description_rhox_mar_lianllach_faction_trade	A merchant prince sits as First Wavemaster. Clan Lianllach pursues profit above all else.	false
+effect_bundles_localised_title_rhox_mar_vmp_ritual_confederate_lord_mundvard	Unlock Mundvard	false
+effect_bundles_localised_description_rhox_mar_vmp_ritual_confederate_lord_mundvard	Mundvard's faction will be confederated!	false

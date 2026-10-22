@@ -4,3 +4,4 @@ mar_caravan_master	2	ui/common ui/unit_category_icons/infantry_sword.png	true	tr
 mar_lector_manann	3	ui/common ui/unit_category_icons/trident_infantry.png	true	true
 mar_slaver	3	UI\Common UI\unit_category_icons\wh2_dlc14_lord_spear_whip.png	true	true
 mar_fooger_dwarf_lord	2	UI\Common UI\unit_category_icons\infantry_axe.png	true	true
+rhox_mar_wavemaster_council	3	ui/common ui/unit_category_icons/trident_infantry.png	false	false

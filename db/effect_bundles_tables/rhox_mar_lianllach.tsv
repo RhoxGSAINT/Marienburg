@@ -1,0 +1,7 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_mar_lianllach								
+rhox_mar_lianllach_faction_trait			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_lianllach_faction_magic			faction	1	magic_campaign.png	false	false	true
+rhox_mar_lianllach_faction_war			faction	1	allegiance.png	false	false	true
+rhox_mar_lianllach_faction_trade			faction	1	trade_agreement.png	false	false	true
+rhox_mar_lianllach_election_coming			faction	1	cst_piece_of_eight.png	false	false	true

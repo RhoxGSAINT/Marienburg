@@ -4,3 +4,4 @@ hkrul_mar_ritual_merchant	0	hkrul_mar_ritual_merchant	10	STANDARD_RITUAL	0	5		UI
 hkrul_mar_ritual_rebels	0	hkrul_mar_ritual_rebels	15	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_2_20_50.png	0		hkrul_mar_ritual_rebels				0	0				default		0.0000	0	0	2147483647
 hkrul_mar_ritual_voyage	0	hkrul_mar_ritual_voyage	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_1_20_50.png	0		hkrul_mar_ritual_voyage				0	0				default		0.0000	0	0	2147483647
 hkrul_mar_ritual_diplomacy	0	hkrul_mar_ritual_diplomacy	10	STANDARD_RITUAL	0	5		UI\skins\default\hkrul_mar_rite_4_20_50.png	0		hkrul_mar_ritual_diplomacy				0	0				default		0.0000	0	0	2147483647
+rhox_mar_vmp_ritual_confederate_lord_mundvard	0	rhox_mar_vmp_ritual_confederate_lord_mundvard	-1	VAMPIRE_RITUAL_LORDS	0	0		ui/skins/default/dlc29_vmp_legacy_update/vmp_confed_hkrul_mar_munvard.png	0	rhox_mar_vmp_ritual_confederate_lord_mundvard	rhox_mar_vmp_ritual_confederate_lord_mundvard				0	0				default		0.0000	0	0	2147483647

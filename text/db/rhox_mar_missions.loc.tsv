@@ -84,3 +84,7 @@ missions_localised_title_rhox_mar_whale_hunting_5	Hunt for the Red Chaos Whale	f
 missions_localised_description_rhox_mar_whale_hunting_5	Soon we shall be triumphant and drag the lifeless corpse of this beast in to the Goudberg harbor. The entire Wasteland, no - The entire Empire shall revel in the Cult of Manann's triumph.	false
 missions_localised_title_rhox_mar_fooger_alliance	The bond of Kinsmen	false
 missions_localised_description_rhox_mar_fooger_alliance	Ally Thorgrim Grudgebringer	false
+missions_localised_title_rhox_mar_vmp_mission_confederate_lord_mundvard	Confederate Mundvard the Cruel	false
+missions_localised_description_rhox_mar_vmp_mission_confederate_lord_mundvard	From the shadows beneath Marienburg's canals, Mundvard the Cruel rules a hidden empire of smugglers, informants and the restless dead. Bring the Lord of Shadows into your fold, and his web of coin and secrets will serve the true masters of the night.	false
+mission_text_text_rhox_mar_vmp_mundvard_gunpowder_units	Field units: {{tr:land_units_onscreen_name_wh2_dlc11_vmp_inf_crossbowmen}} or {{tr:land_units_onscreen_name_wh2_dlc11_vmp_inf_handgunners}}.\\nCurrent total: %n / %n	false
+mission_text_text_rhox_mar_vmp_mundvard_trade_agreements	Have trade agreements with at least 5 factions.\\nCurrent total: %n / %n	false

@@ -64,3 +64,5 @@ campaign_payload_ui_details_description_rhox_dauphine_whale_weak_57	The Cult's k
 campaign_payload_ui_details_description_rhox_mar_mundvard_criminal_recruited	Criminal Network Overseer has been recruited	false
 campaign_payload_ui_details_description_rhox_mar_dummy_manann	A High Priest of Manann defects to your cause	false
 campaign_payload_ui_details_description_rhox_mar_dummy_edvard_appears	Manann's Blades faction will be revived as an ally of Marienburg	false
+campaign_payload_ui_details_description_rhox_mar_lianllach_pact_break_bonus	If we cancel this trade agreement within 10 turns, we receive 5000 gold. The sooner we break it, the greater the blow to our reputation for honouring treaties.	false
+campaign_payload_ui_details_description_dummy_confederate_lord_mundvard	[[col:yellow]]Mundvard the Cruel[[/col]] is now available to confederate via the Confederation panel	false

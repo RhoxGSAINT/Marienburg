@@ -382,3 +382,15 @@ effects_description_rhox_mar_effect_cap_hkrul_privateers_dual_swords	Unit capaci
 effects_description_rhox_mar_effect_cap_hkrul_mar_cav_rijders_crossbow	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_cav_rijders_crossbow}}	false
 effects_description_rhox_mar_effect_cap_hkrul_mar_inf_crossbow	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_inf_crossbow}}	false
 effects_description_rhox_mar_effect_cap_hkrul_mar_riverwarden	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_hkrul_mar_riverwarden}}	false
+effects_description_rhox_mar_lianllach_trade_dummy	When a trade agreement is signed, the Council decides its terms: fair, harsh, or with a hidden clause.	false
+effects_description_rhox_mar_lianllach_republic_dummy	No single lord rules the clan. The Council of Wavemasters elects a new First Wavemaster at regular intervals.	false
+effects_description_rhox_mar_wavemaster_council_init	Faction-wide effects are determined by the result of each Council election.	false
+effects_description_rhox_mar_lianllach_faction_magic_upcoming_dummy	Mages' standing in the Council: %n%	false
+effects_description_rhox_mar_lianllach_faction_war_upcoming_dummy	Admirals' standing in the Council: %n%	false
+effects_description_rhox_mar_lianllach_faction_trade_upcoming_dummy	Merchants' standing in the Council: %n%	false
+effect_bundles_localised_title_rhox_mar_lianllach_election_coming	Council Election Approaching	false
+effect_bundles_localised_description_rhox_mar_lianllach_election_coming	The Wavemasters will soon gather to elect a new First Wavemaster. These figures show each faction's standing at the time the election was announced.	false
+effects_description_rhox_mar_lianllach_faction_magic_influence	Increases the Mages' standing in the Council	false
+effects_description_rhox_mar_lianllach_faction_war_influence	Increases the Admirals' standing in the Council	false
+effects_description_rhox_mar_lianllach_faction_trade_influence	Increases the Merchants' standing in the Council	false
+effects_description_rhox_mar_vmp_ritual_confederate_lord_mundvard	Confederate [[b]][[col:yellow]]Mundvard the Cruel's[[/col]][[/b]] faction	false

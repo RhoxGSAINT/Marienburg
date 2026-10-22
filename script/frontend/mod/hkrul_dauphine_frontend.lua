@@ -12,6 +12,10 @@ core:add_ui_created_callback(
             mixer_add_starting_unit_list_for_faction("ovn_mar_house_fooger", {"hkrul_mar_fooger_qual", "hkrul_mar_fooger_qual_great", "hkrul_carriers", "hkrul_mar_mortar", "hkrul_fooger_ror"})
             mixer_add_faction_to_major_faction_list("ovn_mar_house_fooger")
             
+            
+            mixer_add_faction_to_major_faction_list("cr_hef_clan_lianllach")
+            mixer_change_lord_name("1719834884", "rhox_mar_wavemaster_council")
+            
             mixer_change_lord_name("1357494483", "chaos_whale_cst_kou") 
             --mixer_enable_custom_faction("1357494483") --this makes script to not kill dummy faction leader and I don't want to create a script for it
             mixer_add_starting_unit_list_for_faction("rhox_rogue_spirits_of_stromfel", {"ovn_mar_mon_augas_fish_0", "ovn_mar_mon_augas_fish_1", "urg_dae_inf_sphenisci_daemon"})

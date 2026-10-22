@@ -5,3 +5,5 @@ rhox_fooger_reinforcements	false	diplomacy	false	Event		false		0.0000	false
 rhox_mar_dauphine_turn2	false	cst/legendary_pirate_attacks	false	Event		true		0.0000	false
 rhox_fooger_caravan_completed_hkrul_ogg	false	cth/ivory_road	false	Event	event_caravan_positive.png	false		0.0000	false
 rhox_fooger_caravan_completed_hkrul_paldee	false	cth/ivory_road	false	Event	event_caravan_positive.png	false		0.0000	false
+rhox_mar_lianllach_trade_pact_broken	false	diplomacy	false	Event		false		0.0000	false
+rhox_mar_lianllach_election_notification	false	messenger	false	Event		false		0.0000	false

@@ -1,3 +1,32 @@
+2026/OCT/19 Rhox
+- Changed vampire lair setting for Mundvard so that it matches that of vanilla (9.0.4)
+- Now you can also confederate Mundvard via VC confederate panel
+-- Image is made by HKrul
+-- You need a new campaign start for this confederation if you were playing as VC
+- Added caravan unique agent access to lianllach
+
+2026/OCT/11 Rhox
+- Added wh3_main_vmp_effect_legendary_vampire_dummy to the faction effect bundle of Mundvard so that people will know that he starts with vampire tech unlocked
+- Some WIP stuff for the eastern most guys.
+- Changed variant filename reference in porthole to not show RPFM warnings
+- Added pre_first_tick_callback in the new game and gave&set the home_region of Mundvard so that it doesn't break the vanilla's vampire lair script
+-- I'm sorry for using pre_first_tick_callback in places like this
+
+2026/OCT/05 Rhox
+- Fixed the issue of rhox_mar_replace_vanilla.lua not coping with vanilla change. Now it properly uses grant_human_rewards rather than reward_item_check
+
+2026/09/30 Rhox
+- Changed the coordinates of the nodes in the east due to the terrain change
+-- You need a new start if you started an IEE. Without this patch it will cause massive script breaks and value bugs
+
+
+2026/SEP/29 Rhox
+- Fixed the issue of Fooger and Dauphine unit not appearing by disabling the partial recruitment part in the script
+-- IEE isn't updated yet. So it's only a preemptive action
+
+2026/SEP/27 Rhox -2 
+- Gave Mixer factions access to DLC agent_subtypes
+
 2026/SEP/27 Rhox
 - Updated animation ID
 - Update settlement occupation option stuff

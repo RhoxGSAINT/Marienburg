@@ -10,3 +10,4 @@ hkrul_fooger_dwarf_lord	true	false		hkrul_fooger_dwarf_lord	wh_main_vo_actor_Dwa
 hkrul_rasha	false	false		hkrul_rasha	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
 hkrul_ogg	false	false		hkrul_ogg	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
 hkrul_paldee	false	false		hkrul_paldee	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
+rhox_mar_wavemaster_council	false	false		rhox_mar_wavemaster_council	wh3_dlc27_vo_actor_High_Elves_Caradryan	true	-1	false	false	false	false	rhox_mar_wavemaster_council			false	true	cannot_be_loaded_in_campaign		false	false	850			false

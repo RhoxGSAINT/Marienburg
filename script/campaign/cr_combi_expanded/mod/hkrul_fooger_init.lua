@@ -132,7 +132,7 @@ cm:add_first_tick_callback(
             local faction = cm:get_faction(fooger_faction)
             for i=1,#rhox_fooger_reinforcements_units do
                 local unit = rhox_fooger_reinforcements_units[i]
-                cm:add_unit_to_faction_mercenary_pool(faction,unit,"wh3_main_regiments_of_renown_pool",0,100,20,0,"","","",true,unit)
+                cm:add_unit_to_faction_mercenary_pool(faction,unit,"wh3_main_regiments_of_renown_pool",0,100,20,0,"","","",false,unit)
             end
         end
 	end

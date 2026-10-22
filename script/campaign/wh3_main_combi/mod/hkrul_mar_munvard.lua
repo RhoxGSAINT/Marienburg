@@ -211,6 +211,17 @@ cm:add_first_tick_callback(
     end
 );
 
+cm:add_pre_first_tick_callback(
+    function(context) 
+        if cm:is_new_game() then
+            --out("Rhox Marienburg: Check")
+            cm:transfer_region_to_faction("wh3_main_combi_region_grung_zint", mundvard_faction_key)--we need this region for the home_region
+            cm:change_home_region_of_faction(cm:get_faction(mundvard_faction_key), cm:get_region("wh3_main_combi_region_grung_zint"))
+        end;
+    end
+);
+
+
 cm:add_first_tick_callback_new(function() 
         hkrul_mundvard() --initial lord replace and setting
         
@@ -445,9 +456,9 @@ function rhox_mar_mundvard_set_coven_listeners()
         true
     )
     
-    
-    
 end
+
+
 
     
     

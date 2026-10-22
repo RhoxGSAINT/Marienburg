@@ -163,7 +163,7 @@ function caravans:initialise()
 			core:trigger_event("ScriptEventCaravanCompleted", context);
 			
 			if faction:is_human() then
-				self:reward_item_check(faction, region_name, context:caravan_master())
+				self:grant_human_rewards(faction, region_name, context:caravan_master())
 			end
 			
 			-- faction has tech that grants extra trade tariffs bonus after every caravan - create scripted bundle

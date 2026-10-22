@@ -56,10 +56,10 @@ local mundvard = {
     key = "ovn_mar_the_wasteland",
     first_lair = "wh3_main_combi_region_eilhart",
     lair_pools = {
-        {key = "close", distance = 35000, lair_count = 2}, -- Distance set at the value at which at least 50 regions are within range
+        {key = "close", distance = 35000, lair_count = 1}, -- Distance set at the value at which at least 50 regions are within range
         {key = "medium", distance = 240000, lair_count = 2}, -- Distance set at the value at which 50% of all regions are within range
         {key = "far", distance = 400000, lair_count = 3}, -- Distance set at the value at which 75% of all region are within range
-        {key = "random", distance = 9999999, lair_count = 3}, -- All regions are valid at this distance
+        {key = "random", distance = 9999999, lair_count = 4}, -- All regions are valid at this distance
     }
 }
 

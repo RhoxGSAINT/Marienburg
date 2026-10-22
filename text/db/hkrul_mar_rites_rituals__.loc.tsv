@@ -13,3 +13,5 @@ campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_merc
 campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_diplomacy	[[col:dark_r]]This rite will unlock after accumulating a total income of 3000 gold.[[/col]]	true
 campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_rebels	[[col:dark_r]]This rite will unlock after owning at least 2 Coastal Settlements.[[/col]]	true
 campaign_group_rituals_unlock_text_hkrul_mar_campaign_grouphkrul_mar_ritual_voyage	[[col:dark_r]]This rite will unlock after reaching rank 8 with your Faction Leader.[[/col]]	true
+rituals_display_name_rhox_mar_vmp_ritual_confederate_lord_mundvard	Mundvard the Cruel	false
+rituals_description_rhox_mar_vmp_ritual_confederate_lord_mundvard	{{tr:ui_text_replacements_localised_text_bloodline_confederate_tooltip}}	false

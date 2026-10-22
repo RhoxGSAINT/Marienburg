@@ -8,3 +8,4 @@ rhox_egmond_feature	wh3_main_ritual_tze_cotw_force_rebellion		0	true
 rhox_mundvard_feature	wh3_main_ritual_def_slave_a		0	true
 rhox_mundvard_feature	wh3_main_ritual_def_slave_b		0	true
 rhox_mundvard_feature	wh3_main_ritual_def_slave_c		0	true
+wh3_dlc29_vmp_rituals	rhox_mar_vmp_ritual_confederate_lord_mundvard		0	false

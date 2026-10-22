@@ -1,0 +1,11 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_mar_lianllach					
+rhox_mar_lianllach_trade_dummy	effect_chest.png	50	effect_chest.png	campaign	true
+rhox_mar_lianllach_republic_dummy	diplomacy.png	91	diplomacy.png	campaign	true
+rhox_mar_wavemaster_council_init	rhox_mar_wavemaster_council_init.png	1	rhox_mar_wavemaster_council_init.png	campaign	true
+rhox_mar_lianllach_faction_magic_upcoming_dummy	magic_campaign.png	1	magic_campaign.png	campaign	true
+rhox_mar_lianllach_faction_war_upcoming_dummy	allegiance.png	2	allegiance.png	campaign	true
+rhox_mar_lianllach_faction_trade_upcoming_dummy	trade_agreement.png	3	trade_agreement.png	campaign	true
+rhox_mar_lianllach_faction_magic_influence	magic_campaign.png	1	magic_campaign.png	campaign	true
+rhox_mar_lianllach_faction_war_influence	allegiance.png	2	allegiance.png	campaign	true
+rhox_mar_lianllach_faction_trade_influence	trade_agreement.png	3	trade_agreement.png	campaign	true

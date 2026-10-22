@@ -200,3 +200,4 @@ hkrul_manann_benediction	item_ability.png	300	item_ability.png	battle	true
 hkrul_manann_trident	item_ability.png	300	item_ability.png	battle	true
 hkrul_whipped	item_ability.png	300	item_ability.png	battle	true
 hkrul_lector_mount	mount.png	50	mount.png	both	true
+rhox_mar_vmp_ritual_confederate_lord_mundvard	confederation.png	1	confederation.png	campaign	true
