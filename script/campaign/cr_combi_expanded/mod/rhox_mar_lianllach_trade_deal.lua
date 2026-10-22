@@ -5,6 +5,7 @@ local secret_pact_bonus = 5000
 
 local trade_secret_pact={} --target faction key -> remaining turns
 local pending_trade_dilemma={} --target faction keys waiting for the dilemma choice, in launch order
+local smuggler_dealings_count = 0 --how many times FOURTH was chosen, value of the smuggler dealings bundle
 
 core:add_listener(
     "rhox_mar_lianllach_trade_deal_made",
@@ -34,8 +35,15 @@ core:add_listener(
 		dilemma_builder:add_choice_payload("THIRD", payload_builder);
 		payload_builder:clear()
 
-		--payload_builder:treasury_adjustment(1000);
-		--dilemma_builder:add_choice_payload("FOURTH", payload_builder);
+		if not RHOX_MAR_LIANLLACH_ELECTION.saved_info.election_ended then --no smuggler choice after the coup
+			--the same bundle is re-applied with a higher value, so the smuggler influence goes up by 1 each time
+			payload_builder:treasury_adjustment(-2000);
+			local dealings_bundle = cm:create_new_custom_effect_bundle("rhox_mar_lianllach_smuggler_dealings");
+			dealings_bundle:add_effect("rhox_mar_lianllach_faction_smuggler_influence", "faction_to_faction_own_unseen", smuggler_dealings_count + 1);
+			dealings_bundle:set_duration(0);
+			payload_builder:effect_bundle_to_faction(dealings_bundle);
+			dilemma_builder:add_choice_payload("FOURTH", payload_builder);
+		end
 
         dilemma_builder:add_target("default", target_faction);
 
@@ -60,6 +68,9 @@ core:add_listener(
 			trade_secret_pact[target_faction_key] = secret_pact_duration
 		else
 			trade_secret_pact[target_faction_key] = nil
+		end
+		if context:choice_key() == "FOURTH" then
+			smuggler_dealings_count = smuggler_dealings_count + 1
 		end
 	end,
 	true
@@ -119,6 +130,7 @@ cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_mar_lianllach_trade_secret_pact", trade_secret_pact, context)
 		cm:save_named_value("rhox_mar_lianllach_pending_trade_dilemma", pending_trade_dilemma, context)
+		cm:save_named_value("rhox_mar_lianllach_smuggler_dealings_count", smuggler_dealings_count, context)
 	end
 )
 cm:add_loading_game_callback(
@@ -126,6 +138,7 @@ cm:add_loading_game_callback(
 		if cm:is_new_game() == false then
             trade_secret_pact = cm:load_named_value("rhox_mar_lianllach_trade_secret_pact", {}, context)
             pending_trade_dilemma = cm:load_named_value("rhox_mar_lianllach_pending_trade_dilemma", {}, context)
+            smuggler_dealings_count = cm:load_named_value("rhox_mar_lianllach_smuggler_dealings_count", 0, context)
 		end
 	end
 )

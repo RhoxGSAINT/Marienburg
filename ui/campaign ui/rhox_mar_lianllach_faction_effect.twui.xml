@@ -83,6 +83,10 @@
 					this="0157A877-5280-7F8F-A41A7A8CB9652E34"
 					uniqueguid="0157A877-5280-7F8F-A41A7A8CB9652E34"
 					imagepath="ui/skins/default/icon_trade.png"/>
+				<component_image
+					this="92F5A66C-E183-4AF7-AE89E244299EBDD9"
+					uniqueguid="92F5A66C-E183-4AF7-AE89E244299EBDD9"
+					imagepath="ui/flags/cr_hef_clan_lianllach/mon_64.png"/>
 			</componentimages>
 			<states>
 				<rhox_mar_lianllach_faction_magic
@@ -136,6 +140,23 @@
 							height="42"/>
 					</imagemetrics>
 				</rhox_mar_lianllach_faction_trade>
+				<rhox_mar_lianllach_faction_smuggler
+					this="3B885575-5867-4F51-898BD281AF774DDE"
+					name="rhox_mar_lianllach_faction_smuggler"
+					width="44"
+					height="42"
+					texthbehaviour="Never split"
+					interactive="true"
+					uniqueguid="3B885575-5867-4F51-898BD281AF774DDE">
+					<imagemetrics>
+						<image
+							this="4786F0C8-F42C-40C9-AED9D3D40A3EFDE3"
+							uniqueguid="4786F0C8-F42C-40C9-AED9D3D40A3EFDE3"
+							componentimage="92F5A66C-E183-4AF7-AE89E244299EBDD9"
+							width="44"
+							height="42"/>
+					</imagemetrics>
+				</rhox_mar_lianllach_faction_smuggler>
 			</states>
 		</icon_effect>
 		<root

@@ -57,7 +57,7 @@ effect_bundles_localised_description_rhox_fooger_faction_trait	House Fooger	fals
 effect_bundles_localised_title_rhox_fooger_faction_trait	House Fooger	false
 effect_bundles_localised_description_rhox_mar_bundle_voyage_enemy	This army is affected by the local flood	false
 effect_bundles_localised_title_rhox_mar_bundle_voyage_enemy	Breaching the Vloedmuur	false
-effect_bundles_localised_title_rhox_mar_lianllach_faction_trait	[[col:red]]WIP[[/col]]The Council of Wavemasters	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_trait	The Council of Wavemasters	false
 effect_bundles_localised_description_rhox_mar_lianllach_faction_trait	Clan Lianllach bows to no prince. Since the fall of its last chief, the clan has been governed by a Council of Wavemasters, whose merchants, mages and admirals vie endlessly for the right to steer its fleets. What unites them is a reputation feared from Nippon to the New World: no one drives a harder bargain than Lianllach.	false
 effect_bundles_localised_title_rhox_mar_lianllach_faction_magic	Council of the Mages	false
 effect_bundles_localised_description_rhox_mar_lianllach_faction_magic	A mage sits as First Wavemaster. Clan Lianllach turns its wealth and attention to the arcane.	false
@@ -67,3 +67,7 @@ effect_bundles_localised_title_rhox_mar_lianllach_faction_trade	Council of the M
 effect_bundles_localised_description_rhox_mar_lianllach_faction_trade	A merchant prince sits as First Wavemaster. Clan Lianllach pursues profit above all else.	false
 effect_bundles_localised_title_rhox_mar_vmp_ritual_confederate_lord_mundvard	Unlock Mundvard	false
 effect_bundles_localised_description_rhox_mar_vmp_ritual_confederate_lord_mundvard	Mundvard's faction will be confederated!	false
+effect_bundles_localised_title_rhox_mar_lianllach_faction_smuggler	Rule of Strongbreeze	false
+effect_bundles_localised_description_rhox_mar_lianllach_faction_smuggler	Mearoseagh Strongbreeze sits once more as First Wavemaster. The Council that cast him out now answers to him.	false
+effect_bundles_localised_title_rhox_mar_lianllach_smuggler_dealings	Dealings Off the Books	false
+effect_bundles_localised_description_rhox_mar_lianllach_smuggler_dealings	Every deal kept from the Council's ledger puts another coin in the purses of Strongbreeze's supporters. The more of them there are, the louder their voice in the Hall.	false

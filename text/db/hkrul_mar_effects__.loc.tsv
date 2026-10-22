@@ -394,3 +394,9 @@ effects_description_rhox_mar_lianllach_faction_magic_influence	Increases the Mag
 effects_description_rhox_mar_lianllach_faction_war_influence	Increases the Admirals' standing in the Council	false
 effects_description_rhox_mar_lianllach_faction_trade_influence	Increases the Merchants' standing in the Council	false
 effects_description_rhox_mar_vmp_ritual_confederate_lord_mundvard	Confederate [[b]][[col:yellow]]Mundvard the Cruel's[[/col]][[/b]] faction	false
+effects_description_rhox_mar_lianllach_strongbreeze_watched_dummy	All eyes are on him: the strength of this character's army counts towards every faction of the Council, not only his own supporters	false
+effects_description_rhox_mar_lianllach_faction_smuggler_influence	Increases Strongbreeze's standing in the Council	false
+effects_description_rhox_mar_lianllach_faction_smuggler_upcoming_dummy	Strongbreeze's standing in the Council: %n%	false
+effects_description_rhox_mar_lianllach_no_more_election_dummy	The Council of Wavemasters has been silenced: no more elections will be held	false
+effects_description_rhox_mar_strongbreeze_election_requirement_dummy	Can only be elected First Wavemaster once his supporters hold at least %n% of the Council's standing	false
+effects_description_rhox_mar_strongbreeze_rise_dummy	His supporters grow through:\\n[[img:bullet_point_white]] Choosing Off the Books when signing trade agreements\\n[[img:bullet_point_white]] Every active trade agreement with the Dark Elves\\n[[img:bullet_point_white]] Every landmark we control\\n[[img:bullet_point_white]] The army he leads, though it strengthens every other faction too	false
