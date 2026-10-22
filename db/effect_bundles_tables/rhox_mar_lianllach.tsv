@@ -6,4 +6,4 @@ rhox_mar_lianllach_faction_war			faction	1	allegiance.png	false	false	true
 rhox_mar_lianllach_faction_trade			faction	1	trade_agreement.png	false	false	true
 rhox_mar_lianllach_election_coming			faction	1	cst_piece_of_eight.png	false	false	true
 rhox_mar_lianllach_faction_smuggler			faction	1	dlc10_assassination_targets.png	false	false	true
-rhox_mar_lianllach_smuggler_dealings			faction	1	dlc10_assassination_targets.png	true	false	true
+rhox_mar_lianllach_smuggler_dealings			faction	1	dlc10_assassination_targets.png	false	false	true

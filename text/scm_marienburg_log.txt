@@ -1,3 +1,6 @@
+2026/OCT/22 Rhox
+- Some stupid Lianllach coup thing
+
 2026/OCT/19 Rhox
 - Changed vampire lair setting for Mundvard so that it matches that of vanilla (9.0.4)
 - Now you can also confederate Mundvard via VC confederate panel
