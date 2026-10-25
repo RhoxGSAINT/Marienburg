@@ -108,12 +108,6 @@ local function rhox_fooger_init_setting()
         end,
         1
     )
-    
-    
-    
-    
-
-    
         
 end
 

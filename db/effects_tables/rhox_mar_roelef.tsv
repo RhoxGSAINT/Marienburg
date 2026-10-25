@@ -1,0 +1,22 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_mar_roelef					
+rhox_mar_roelef_no_industry_dummy	construction.png	50	construction.png	campaign	false
+rhox_mar_roelef_supply_animals	resource_animals.png	50	resource_animals.png	campaign	true
+rhox_mar_roelef_supply_dyes	resource_dyes.png	50	resource_dyes.png	campaign	true
+rhox_mar_roelef_supply_gems	resource_gemstones.png	50	resource_gemstones.png	campaign	true
+rhox_mar_roelef_supply_gold	resource_gold.png	50	resource_gold.png	campaign	true
+rhox_mar_roelef_supply_ivory	resource_ivory.png	50	resource_ivory.png	campaign	true
+rhox_mar_roelef_supply_medicine	resource_medicine.png	50	resource_medicine.png	campaign	true
+rhox_mar_roelef_supply_obsidian	resource_obsidian.png	50	resource_obsidian.png	campaign	true
+rhox_mar_roelef_supply_spices	resource_spices.png	50	resource_spices.png	campaign	true
+rhox_mar_roelef_supply_furs	resource_furs.png	50	resource_furs.png	campaign	true
+rhox_mar_roelef_supply_iron	resource_iron.png	50	resource_iron.png	campaign	true
+rhox_mar_roelef_supply_salt	resource_salt.png	50	resource_salt.png	campaign	true
+rhox_mar_roelef_supply_marble	resource_marble.png	50	resource_marble.png	campaign	true
+rhox_mar_roelef_supply_pastures	resource_grain.png	50	resource_grain.png	campaign	true
+rhox_mar_roelef_supply_pottery	resource_pottery.png	50	resource_pottery.png	campaign	true
+rhox_mar_roelef_supply_timber	resource_timber.png	50	resource_timber.png	campaign	true
+rhox_mar_roelef_supply_wine	resource_wine.png	50	resource_wine.png	campaign	true
+rhox_mar_roelef_economy_dummy	income.png	50	income.png	campaign	true
+rhox_mar_roelef_resource_cargo_dummy	cargo.png	50	cargo.png	campaign	true
+rhox_mar_roelef_vassal_dummy	diplomacy.png	50	diplomacy.png	campaign	true

@@ -28,6 +28,7 @@ imperial_authority.campaign_factions.main_warhammer["ovn_mar_house_den_euwe"]={s
 if vfs.exists("script/frontend/mod/cr_iee_campaign_frontend.lua") then
     imperial_authority.campaign_factions.main_warhammer["ovn_mar_cult_of_manann"]={settlement_culture = "wh_main_emp_empire", active = false}
     imperial_authority.campaign_factions.main_warhammer["ovn_mar_house_fooger"]={settlement_culture = "wh_main_emp_empire", active = false}
+    imperial_authority.campaign_factions.main_warhammer["mixer_emp_house_de_roelef"]={settlement_culture = "wh_main_emp_empire", active = false}
 end
 
 

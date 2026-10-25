@@ -400,3 +400,25 @@ effects_description_rhox_mar_lianllach_faction_smuggler_upcoming_dummy	Strongbre
 effects_description_rhox_mar_lianllach_no_more_election_dummy	The Council of Wavemasters has been silenced: no more elections will be held	false
 effects_description_rhox_mar_strongbreeze_election_requirement_dummy	Can only be elected First Wavemaster once his supporters hold at least %n% of the Council's standing	false
 effects_description_rhox_mar_strongbreeze_rise_dummy	His supporters grow through:\\n[[img:bullet_point_white]] Choosing Off the Books when signing trade agreements\\n[[img:bullet_point_white]] Every active trade agreement with the Dark Elves\\n[[img:bullet_point_white]] Every landmark we control\\n[[img:bullet_point_white]] The army he leads, though it strengthens every other faction too	false
+effect_bundles_localised_title_rhox_mar_roelef_faction_trait	PLACEHOLDER	false
+effect_bundles_localised_description_rhox_mar_roelef_faction_trait	PLACEHOLDER	false
+effects_description_rhox_mar_roelef_no_industry_dummy	Cannot construct industry buildings: the de Roelefs deal in foreign luxuries, not local manufacture	false
+effects_description_rhox_mar_roelef_economy_dummy	The de Roelefs profit from the sea, not the soil:\\n[[img:bullet_point_white]] Main settlement buildings: income reduced by twice their base value\\n[[img:bullet_point_white]] Port buildings: income doubled\\n[[img:bullet_point_white]] Main settlements in Ancient Elven Colonies: sea trade income increased for every region, as for High Elf colonies	false
+effects_description_rhox_mar_roelef_resource_cargo_dummy	For each type of resource building held: sale value of convoy cargo +%n%	false
+effects_description_rhox_mar_roelef_vassal_dummy	Can make vassals through diplomacy	false
+effects_description_rhox_mar_roelef_supply_animals	Supplies [[col:yellow]]Exotic Animals[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_dyes	Supplies [[col:yellow]]Dyes[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_gems	Supplies [[col:yellow]]Gemstones[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_gold	Supplies [[col:yellow]]Gold[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_ivory	Supplies [[col:yellow]]Tusks[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_medicine	Supplies [[col:yellow]]Medicinal Plants[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_obsidian	Supplies [[col:yellow]]Carved Obsidian[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_spices	Supplies [[col:yellow]]Spices[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_furs	Supplies [[col:yellow]]Furs[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_iron	Supplies [[col:yellow]]Iron[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_salt	Supplies [[col:yellow]]Salt[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_marble	Supplies [[col:yellow]]Marble[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_pastures	Supplies [[col:yellow]]Pastures[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_pottery	Supplies [[col:yellow]]Pottery[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_timber	Supplies [[col:yellow]]Timber[[/col]] to the de Roelef convoys	false
+effects_description_rhox_mar_roelef_supply_wine	Supplies [[col:yellow]]Wine[[/col]] to the de Roelef convoys	false

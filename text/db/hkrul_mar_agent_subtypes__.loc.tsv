@@ -91,3 +91,5 @@ agent_subtypes_onscreen_name_override_rhox_mar_wavemaster_council	Council of Wav
 agent_subtypes_description_text_override_rhox_mar_wavemaster_council	The ruling assembly of Clan Lianllach. Since the disgrace of the former chief, no single Elf has held command of the clan. Its fleets and fortunes are steered instead by the Wavemasters, who choose one of their number to lead for a time before the tide of politics turns once more.	false
 agent_recruitment_categories_onscreen_name_rhox_mar_wavemaster_council	Council of Wavemasters	false
 agent_recruitment_categories_onscreen_description_rhox_mar_wavemaster_council	The ruling assembly of Clan Lianllach. Since the disgrace of the former chief, no single Elf has held command of the clan. Its fleets and fortunes are steered instead by the Wavemasters, who choose one of their number to lead for a time before the tide of politics turns once more.	false
+agent_subtypes_onscreen_name_override_hkrul_roelef	House Roelef	false
+agent_subtypes_description_text_override_hkrul_roelef		false

@@ -1,0 +1,5 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/hkrul_rolef		
+skill_node_set_hkrul_roelef	innate_hkrul_roelef	false
+skill_node_set_hkrul_roelef	rhox_mar_agent_action_scaling	false
+skill_node_set_hkrul_roelef	wh3_main_skill_node_all_army_of_renown_legendary_lord	false

@@ -1,0 +1,19 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_mar_roelef								
+rhox_mar_roelef_faction_trait			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_roelef_cargo_animals			faction	1	resource_animals.png	true	false	true
+rhox_mar_roelef_cargo_dyes			faction	1	resource_dyes.png	true	false	true
+rhox_mar_roelef_cargo_gems			faction	1	resource_gemstones.png	true	false	true
+rhox_mar_roelef_cargo_gold			faction	1	resource_gold.png	true	false	true
+rhox_mar_roelef_cargo_ivory			faction	1	resource_ivory.png	true	false	true
+rhox_mar_roelef_cargo_medicine			faction	1	resource_medicine.png	true	false	true
+rhox_mar_roelef_cargo_obsidian			faction	1	resource_obsidian.png	true	false	true
+rhox_mar_roelef_cargo_spices			faction	1	resource_spices.png	true	false	true
+rhox_mar_roelef_cargo_furs			faction	1	resource_furs.png	true	false	true
+rhox_mar_roelef_cargo_iron			faction	1	resource_iron.png	true	false	true
+rhox_mar_roelef_cargo_salt			faction	1	resource_salt.png	true	false	true
+rhox_mar_roelef_cargo_marble			faction	1	resource_marble.png	true	false	true
+rhox_mar_roelef_cargo_pastures			faction	1	resource_grain.png	true	false	true
+rhox_mar_roelef_cargo_pottery			faction	1	resource_pottery.png	true	false	true
+rhox_mar_roelef_cargo_timber			faction	1	resource_timber.png	true	false	true
+rhox_mar_roelef_cargo_wine			faction	1	resource_wine.png	true	false	true

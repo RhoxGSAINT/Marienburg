@@ -1,0 +1,15 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip	building_frame_override
+#building_culture_variants_tables;5;db/building_culture_variants_tables/rhox_mar_roelef									
+rhox_mar_emp_walls_1			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_1	true	
+rhox_mar_emp_walls_2			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_2	true	
+rhox_mar_emp_walls_3			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_3	true	
+rhox_mar_emp_garrison_1			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_garrison	false	wh_main_emp_garrison_1	true	
+rhox_mar_emp_garrison_2			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_garrison	false	wh_main_emp_garrison_2	true	
+wh_main_emp_walls_1			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	true	wh_main_emp_walls_1	true	
+wh_main_emp_walls_2			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	true	wh_main_emp_walls_2	true	
+wh_main_emp_walls_3			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_walls	true	wh_main_emp_walls_3	true	
+wh_main_emp_garrison_1			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_garrison	true	wh_main_emp_garrison_1	true	
+wh_main_emp_garrison_2			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_garrison	true	wh_main_emp_garrison_2	true	
+wh_main_emp_industry_basic_1			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_industry	true	wh_main_emp_industry_basic_1	true	
+wh_main_emp_industry_basic_2			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_industry	true	wh_main_emp_industry_basic_2	true	
+wh_main_emp_industry_basic_3			mixer_emp_house_de_roelef	wh_main_PLACEHOLDER	empire_industry	true	wh_main_emp_industry_basic_3	true	

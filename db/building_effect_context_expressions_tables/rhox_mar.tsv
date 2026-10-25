@@ -2,3 +2,5 @@ key	expression	display_only_active_effects	always_show_display_text
 #building_effect_context_expressions_tables;2;db/building_effect_context_expressions_tables/rhox_mar			
 IsFactionMundvard	Owner.RecordKeyIsOneOf("ovn_mar_the_wasteland")	true	false
 IsFactionlianllach	Owner.RecordKeyIsOneOf("cr_hef_clan_lianllach")	true	false
+IsFactionRoelef	Owner.RecordKeyIsOneOf("mixer_emp_house_de_roelef")	true	false
+IsFactionRoelefElvenColony	Owner.RecordKeyIsOneOf("mixer_emp_house_de_roelef") && Region.HasResource("res_location_colony") == true	true	false
