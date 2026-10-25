@@ -20,5 +20,5 @@ rhox_mar_roelef_supply_wine	resource_wine.png	50	resource_wine.png	campaign	true
 rhox_mar_roelef_economy_dummy	income.png	50	income.png	campaign	true
 rhox_mar_roelef_resource_cargo_dummy	cargo.png	50	cargo.png	campaign	true
 rhox_mar_roelef_vassal_dummy	diplomacy.png	50	diplomacy.png	campaign	true
-rhox_mar_roelef_contract_return_dummy	teleport.png	50	teleport.png	campaign	true
 rhox_mar_roelef_contract_dummy	effect_chest.png	50	effect_chest.png	campaign	true
+rhox_mar_roelef_contract_experience_dummy	experience.png	50	experience.png	campaign	true

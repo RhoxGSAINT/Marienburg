@@ -1,3 +1,7 @@
+2026/OCT/ Rhox
+- Added cheat sheet
+- Added some PH thing for Roelef
+
 2026/OCT/23 Rhox
 - Foreign building to new settlement types
 

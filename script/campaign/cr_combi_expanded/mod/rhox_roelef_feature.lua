@@ -46,6 +46,7 @@ RHOX_ROELEF_CONTRACT = {
     weight_owned = 1,
     num_contracts = 3,
     reward_experience = 2000,
+    leader_experience_multiplier = 3,
     turn_to_issue_contracts = 1
 }
 
@@ -171,7 +172,7 @@ function RHOX_ROELEF_CONTRACT:get_resource_from_mission(mission_key)
     return string.sub(mission_key, #self.mission_prefix + 1)
 end
 
--- Every general standing in the target region shares the contract experience
+-- Every general standing in the target region shares the contract experience; the faction leader gains more
 function RHOX_ROELEF_CONTRACT:reward_generals(faction, region_key)
     local mf_list = faction:military_force_list()
     for i = 0, mf_list:num_items() - 1 do
@@ -179,13 +180,18 @@ function RHOX_ROELEF_CONTRACT:reward_generals(faction, region_key)
         if mf:has_general() and not mf:is_armed_citizenry() then
             local general = mf:general_character()
             if general:has_region() and general:region():name() == region_key then
-                cm:add_agent_experience(cm:char_lookup_str(general), self.reward_experience)
+                local experience = self.reward_experience
+                if general:is_faction_leader() then
+                    experience = experience * self.leader_experience_multiplier
+                end
+                cm:add_agent_experience(cm:char_lookup_str(general), experience)
             end
         end
     end
 end
 
 -- The faction leader is sent back to the capital if they completed the contract in person
+--[[
 function RHOX_ROELEF_CONTRACT:return_faction_leader(faction, region_key)
     if not faction:has_faction_leader() or not faction:has_home_region() then
         return
@@ -199,6 +205,7 @@ function RHOX_ROELEF_CONTRACT:return_faction_leader(faction, region_key)
         cm:teleport_to(cm:char_lookup_str(leader), x, y)
     end
 end
+--]]
 
 function RHOX_ROELEF_CONTRACT:setup()
     common.set_context_value("rhox_roelef_bounties_turn_start", self.turn_to_issue_contracts)
@@ -230,7 +237,6 @@ function RHOX_ROELEF_CONTRACT:setup()
             local region_key = cm:get_saved_value(self.saved_target_prefix .. resource)
             if region_key then
                 self:reward_generals(context:faction(), region_key)
-                self:return_faction_leader(context:faction(), region_key)
             end
             cm:set_saved_value(self.saved_target_prefix .. resource, false)
         end,
