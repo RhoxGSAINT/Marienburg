@@ -1,3 +1,6 @@
+2026/OCT/23 Rhox
+- Foreign building to new settlement types
+
 2026/OCT/22 Rhox
 - Some stupid Lianllach coup thing
 
