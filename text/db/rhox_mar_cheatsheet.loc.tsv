@@ -1,0 +1,48 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_mar_cheatsheet.loc		
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_1_header	Marienburg Estate	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_1_text	[[img:icon_edict_council_of_burgomeisters]][[col:yellow]]Garrison[[/col]][[col:green]] Van de Kuypers in his Marienburg Estate where he handles affairs whilst leveling up. [[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_2_header	Gilded Route	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_2_text	[[img:icon_caravan_cargo]][[/img]] [[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Gilded Route[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_3_header	Van de Kuypers' Monopoly	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_3_text	[[img:icon_treasure_map]][[/img]] [[col:yellow]]Monopolize[[/col]][[col:green]] the rule over Marienburg and neutralise the Merchant Houses by finishing Van de Kuyper's item set.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_4_header	Rites of the Estate	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mar_4_text	[[img:icon_rite_effect]][[/img]] [[col:green]]Impose[[/col]] [[col:yellow]]rites[[/col]][[col:green]] from your Estate that influence the course of Marienburg and the Empire.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_1_header	Warbands of Tzeentch	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_1_text	[[img:icon_warband]][[/img]] [[col:yellow]]Convert[[/col]][[col:green]] mortal men of the Empire hired by House Den Euwe by showing them the ways of Tsien-Tsin using the warband upgrade system.	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_2_header	Changing of the Ways	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_2_text	[[img:bullet_tze_changing_of_the_ways]][[/img]] [[col:green]]Manipulate reality with the[[/col]] [[url:script_link_campaign_changing_of_the_ways]][[tooltip:{{tt:tooltip_campaign_changing_of_the_ways}}]]Changing of the Ways[[/tooltip]][[/url]] [[col:green]]to perform unique actions against enemies on the campaign map.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_3_header	Gilded Route	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_egmond_3_text	[[img:icon_caravan_cargo]][[/img]] [[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Gilded Route[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_1_header	Criminal Networks	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_1_text	[[img:icon_cove]][[/img]] [[col:green]]Win battles at settlements or use the Consort of Shadows to establish[[/col]] Criminal Syndicates and Networks[[col:green]] and watch them leech from the world above.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_2_header	Slaves	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_2_text	[[img:icon_slaves]][[/img]] [[col:green]]Capture[[/col]] [[sl_link:campaign_slaves]]slaves[[/sl_link]] [[col:green]]throughout your campaign to bolster benefits coming from any Criminal Networks. [[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_3_header	Underway	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_mundvard_3_text	[[img:bullet_dwf_underway]][[/img]] [[col:green]]Use the[[/col]] [[url:script_link_campaign_underway]][[tooltip:{{tt:tooltip_campaign_underway}}]]Underway[[/tooltip]][[/url]] [[col:green]]Stance to traverse the Wasteland unseen, using your network of underground tunnels and caverns long lost to mankind.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_1_header	Reinforcements from the Empire	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_1_text	[[img:hkrul_dauphine_how_they_play_1]][[col:yellow]]Conquer[[/col]][[col:green]] distant lands in the name of the Emperor to gain valuable reinforcements from [[/col]][[col:yellow]]the Empire[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_2_header	The Red Chaos Whale	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_2_text	[[img:hkrul_dauphine_how_they_play_2]][[/img]] [[col:yellow]]Hunt[[/col]][[col:green]] the[[/col]][[col:yellow]] Red Chaos Whale[[/col]][[col:green]] who haunts the undiscovered seas of the far East[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_3_header	Rogue Pirates	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_dauphine_3_text	[[img:hkrul_dauphine_how_they_play_3]][[/img]] [[col:yellow]]Rid[[/col]][[col:green]] the oceans of[[/col]][[col:yellow]] Rogue Pirate's[[/col]][[col:green]] by hunting them for powerful boons or persuading them to venture elsewhere using precious coin.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_fooger_1_header	Spice Route	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_fooger_1_text	[[img:hkrul_fooger_how_they_play_2]][[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Spice Route[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_fooger_2_header	Dwarf Reinforcements	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_fooger_2_text	[[img:hkrul_fooger_how_they_play_1]][[/img]] [[col:yellow]]Recruit[[/col]][[col:green]] regular dwarf units as a bonus for completing[[/col]][[col:yellow]] caravan routes[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_1_header	Gilded Route and Resources	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_1_text	[[img:icon_caravan_cargo]][[/img]] [[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Gilded Route[[/tooltip]][[/url]][[col:green]]. Every type of[[/col]] [[col:yellow]]resource building[[/col]] [[col:green]]you hold raises the sale value of cargo and brings extra income.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_2_header	Poaching Contracts	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_2_text	[[img:icon_ogr_contracts]][[/img]] [[col:yellow]]Poach[[/col]] [[col:green]]the riches of other factions through contracts: lead an army into their resource regions for gold, at the cost of their goodwill. A faction leader who does the work in person returns home with the spoils.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_3_header	Sea, Not Soil	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_3_text	[[img:icon_port]][[/img]] [[col:green]]Ports yield double income, and settlements in Ancient Elven Colonies boost sea trade.[[/col]] [[col:red]]Main settlements cost twice their income in upkeep, industry buildings are forbidden and armies cost more to maintain.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_4_header	Vassals and Climate	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_roelef_4_text	[[img:icon_vassal]][[/img]] [[col:yellow]]Hold[[/col]] [[col:green]]only what is worth holding, and hand the rest to[[/col]] [[col:yellow]]vassals[[/col]][[col:green]]. The de Roelefs can settle in any climate.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_1_header	The Council of Wavemasters	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_1_text	[[img:icon_vassal]][[/img]] [[col:green]]No single lord rules the clan. The Council of Wavemasters elects a new[[/col]] [[col:yellow]]First Wavemaster[[/col]] [[col:green]]at regular intervals, and faction-wide effects follow the result of each election.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_2_header	Council Factions	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_2_text	[[img:icon_supporters]][[/img]] [[col:green]]Mages, Admirals and Merchants vie for[[/col]] [[col:yellow]]standing in the Council[[/col]][[col:green]]. Raise their standing to steer who wins the next election.[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_3_header	Hard Bargains	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_3_text	[[img:icon_trade_agreement]][[/img]] [[col:green]]When a trade agreement is signed, the Council decides its terms:[[/col]] [[col:yellow]]fair, harsh, or with a hidden clause[[/col]][[col:green]].[[/col]]	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_4_header	Gilded Route	false
+advice_info_texts_localised_text_rhox_mar_cheatsheet_lianllach_4_text	[[img:icon_caravan_cargo]][[/img]] [[col:green]]Send trade convoys across the world via the[[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Gilded Route[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.[[/col]]	false

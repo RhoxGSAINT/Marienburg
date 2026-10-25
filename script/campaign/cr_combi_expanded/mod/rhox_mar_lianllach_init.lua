@@ -40,6 +40,20 @@ cm:add_first_tick_callback(
                 cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
                 cm:wound_character(cm:char_lookup_str(faction:faction_leader()), 999)
                 cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+
+                cm:callback(
+                    function()
+                        cm:show_message_event(
+                            lianllach_faction,
+                            "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                            "factions_screen_name_" .. lianllach_faction,
+                            "event_feed_strings_text_rhox_mar_event_feed_string_scripted_event_intro_lianllach_secondary_detail",
+                            true,
+                            591
+                        );
+                    end,
+                    1
+                )
             end
         end
         

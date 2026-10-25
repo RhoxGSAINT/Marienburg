@@ -88,3 +88,52 @@ missions_localised_title_rhox_mar_vmp_mission_confederate_lord_mundvard	Confeder
 missions_localised_description_rhox_mar_vmp_mission_confederate_lord_mundvard	From the shadows beneath Marienburg's canals, Mundvard the Cruel rules a hidden empire of smugglers, informants and the restless dead. Bring the Lord of Shadows into your fold, and his web of coin and secrets will serve the true masters of the night.	false
 mission_text_text_rhox_mar_vmp_mundvard_gunpowder_units	Field units: {{tr:land_units_onscreen_name_wh2_dlc11_vmp_inf_crossbowmen}} or {{tr:land_units_onscreen_name_wh2_dlc11_vmp_inf_handgunners}}.\\nCurrent total: %n / %n	false
 mission_text_text_rhox_mar_vmp_mundvard_trade_agreements	Have trade agreements with at least 5 factions.\\nCurrent total: %n / %n	false
+missions_localised_title_rhox_mar_roelef_contract_animals	Beasts Without Leave	false
+missions_localised_description_rhox_mar_roelef_contract_animals	Exotic beasts roam lands claimed by another. Cage what we can and be gone before the hunters notice.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_animals	The cages are full. Their owners will not forgive the empty forests.	false
+missions_localised_title_rhox_mar_roelef_contract_dyes	Stolen Colours	false
+missions_localised_description_rhox_mar_roelef_contract_dyes	The dye-plants of this region belong to another house. Strip the fields bare under cover of night.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_dyes	The vats are full and the fields are bare. Expect angry letters.	false
+missions_localised_title_rhox_mar_roelef_contract_gems	Midnight Diggings	false
+missions_localised_description_rhox_mar_roelef_contract_gems	Rich seams of gemstones lie beneath foreign soil. Dig them out quietly and leave nothing but empty tunnels.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_gems	The gems are ours. The owners of the mine are less pleased.	false
+missions_localised_title_rhox_mar_roelef_contract_gold	Unlicensed Prospecting	false
+missions_localised_description_rhox_mar_roelef_contract_gold	Gold glitters in land that is not ours. Take what the ground offers before its masters come to collect.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_gold	Our chests are heavier. Their treasury is not.	false
+missions_localised_title_rhox_mar_roelef_contract_ivory	Tusks Without Leave	false
+missions_localised_description_rhox_mar_roelef_contract_ivory	The great beasts of this land carry fortunes on their heads. Take the ivory before its owners take notice.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_ivory	The tusks are ours. The herds, and their masters, will remember.	false
+missions_localised_title_rhox_mar_roelef_contract_medicine	Herb Thieves	false
+missions_localised_description_rhox_mar_roelef_contract_medicine	Rare medicinal plants grow wild on foreign land. Harvest them all; apothecaries pay well and ask no questions.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_medicine	The herb sacks are full. The meadows are not.	false
+missions_localised_title_rhox_mar_roelef_contract_obsidian	Volcanic Plunder	false
+missions_localised_description_rhox_mar_roelef_contract_obsidian	Obsidian lies scattered across land claimed by another. Gather it before the claim is enforced.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_obsidian	The obsidian is loaded. Its owners will call it theft, and they are right.	false
+missions_localised_title_rhox_mar_roelef_contract_spices	The Spice Raid	false
+missions_localised_description_rhox_mar_roelef_contract_spices	Fragrant spices grow in a land that is not ours. Fill the holds and sail before the harvest is missed.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_spices	The holds smell of fortune. Their owners smell betrayal.	false
+missions_localised_title_rhox_mar_roelef_contract_furs	Poachers' Season	false
+missions_localised_description_rhox_mar_roelef_contract_furs	The forests here teem with game prized for its fur. Hunt them out before the rightful owners do.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_furs	The pelts are ours. The forests fall silent, and their owners grow loud.	false
+missions_localised_title_rhox_mar_roelef_contract_iron	Ore by Moonlight	false
+missions_localised_description_rhox_mar_roelef_contract_iron	Iron ore lies close to the surface on foreign land. Dig it out and haul it away unseen.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_iron	The ore is aboard. The mine owners have noticed.	false
+missions_localised_title_rhox_mar_roelef_contract_salt	Salt Smugglers	false
+missions_localised_description_rhox_mar_roelef_contract_salt	The salt pans here belong to another. Scrape them clean and sell the salt at our own price.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_salt	The salt is ours. The pans are empty, and so is their patience.	false
+missions_localised_title_rhox_mar_roelef_contract_marble	Quarry Raid	false
+missions_localised_description_rhox_mar_roelef_contract_marble	Fine marble waits in a foreign quarry. Cut the best blocks and leave the rest.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_marble	The finest blocks are ours. The quarry owners are furious.	false
+missions_localised_title_rhox_mar_roelef_contract_pastures	Cattle Rustlers	false
+missions_localised_description_rhox_mar_roelef_contract_pastures	Fat herds graze on another's pastures. Drive them off before anyone counts them.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_pastures	The herds are ours. Their former owners are counting now.	false
+missions_localised_title_rhox_mar_roelef_contract_pottery	Clay Pit Pilfering	false
+missions_localised_description_rhox_mar_roelef_contract_pottery	The clay here makes the finest pottery. Dig it out before its owners realise what they had.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_pottery	The clay is loaded. Its owners will not soon forget.	false
+missions_localised_title_rhox_mar_roelef_contract_timber	Illicit Felling	false
+missions_localised_description_rhox_mar_roelef_contract_timber	Tall timber stands on land claimed by another. Fell what we need and float it downriver.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_timber	The logs are ours. The stumps tell the owners who to blame.	false
+missions_localised_title_rhox_mar_roelef_contract_wine	Cellar Raid	false
+missions_localised_description_rhox_mar_roelef_contract_wine	The vineyards here produce a vintage too good to leave to its owners. Empty the cellars.	false
+missions_localised_mission_completed_text_rhox_mar_roelef_contract_wine	The barrels are ours. The vintners have sworn revenge.	false
+rhox_mar_roelef_contract_button_tooltip	Poaching Contracts	false

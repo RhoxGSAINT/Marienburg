@@ -406,6 +406,8 @@ effects_description_rhox_mar_roelef_no_industry_dummy	Cannot construct industry 
 effects_description_rhox_mar_roelef_economy_dummy	The de Roelefs profit from the sea, not the soil:\\n[[img:bullet_point_white]] [[col:red]]Main settlement buildings pay upkeep equal to twice their income[[/col]]\\n[[img:bullet_point_white]] Port buildings: income doubled\\n[[img:bullet_point_white]] Main settlements in Ancient Elven Colonies: sea trade income increased for every region, as for High Elf colonies	false
 effects_description_rhox_mar_roelef_resource_cargo_dummy	Resource buildings:\\n[[img:bullet_point_white]] Sale value of convoy cargo +%n% for each type held\\n[[img:bullet_point_white]] Generate additional income	false
 effects_description_rhox_mar_roelef_vassal_dummy	Can make vassals through diplomacy	false
+effects_description_rhox_mar_roelef_contract_dummy	Receives Poaching Contracts: move an army into another faction's resource region for gold, at the cost of relations with that faction	false
+effects_description_rhox_mar_roelef_contract_return_dummy	Completing a Poaching Contract as faction leader returns this character to the faction capital	false
 effects_description_rhox_mar_roelef_supply_animals	Supplies [[col:yellow]]Exotic Animals[[/col]] to the de Roelef convoys	false
 effects_description_rhox_mar_roelef_supply_dyes	Supplies [[col:yellow]]Dyes[[/col]] to the de Roelef convoys	false
 effects_description_rhox_mar_roelef_supply_gems	Supplies [[col:yellow]]Gemstones[[/col]] to the de Roelef convoys	false
