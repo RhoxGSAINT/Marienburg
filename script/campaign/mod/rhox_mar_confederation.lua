@@ -29,13 +29,13 @@ core:add_listener(
 		local faction_key = faction:name();
 		cm:callback(
 			function()
-				for i = 1, #elector_treaties_to_disable do
-					cm:force_diplomacy("faction:" .. faction_key, "faction:ovn_mar_house_den_euwe",
-						elector_treaties_to_disable[i], true, true, false)
-					cm:force_diplomacy("faction:" .. faction_key, "faction:ovn_mar_cult_of_manann",
-						elector_treaties_to_disable[i], true, true, false)
-					cm:force_diplomacy("faction:" .. faction_key, "faction:ovn_mar_house_fooger",
-						elector_treaties_to_disable[i], true, true, false)
+				for mar_faction_key, data in pairs(RHOX_MAR_FACTIONS) do
+					if data.empire and mar_faction_key ~= "wh_main_emp_marienburg" and cm:get_faction(mar_faction_key) then
+						for i = 1, #elector_treaties_to_disable do
+							cm:force_diplomacy("faction:" .. faction_key, "faction:" .. mar_faction_key,
+								elector_treaties_to_disable[i], true, true, false)
+						end
+					end
 				end
 			end,
 			1 --we need it to start after the vanilla script has been fired

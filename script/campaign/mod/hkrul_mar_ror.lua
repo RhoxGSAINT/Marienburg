@@ -103,174 +103,56 @@ local function add_hkrul_mar_ror()
         partial_replenishment = false,
     }
 
-    local faction = cm:get_faction("wh_main_emp_marienburg")
-    local faction2 = cm:get_faction("ovn_mar_house_den_euwe")             --egmond
-    local dauphine_faction = cm:get_faction("ovn_mar_cult_of_manann")     --Dauphine
-    local fooger_faction = cm:get_faction("ovn_mar_house_fooger")         --Fooger
-    for i, ror in pairs(ror_table) do
-        local unit_key = ror
-
-        local count = 1
-
-        if faction then
-            cm:add_unit_to_faction_mercenary_pool(
-                faction,
-                unit_key,
-                "wh3_main_regiments_of_renown_pool",
-                count,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                unit_key
-            )
-        end
-        if faction2 then
-            cm:add_unit_to_faction_mercenary_pool(
-                faction2,
-                unit_key,
-                "wh3_main_regiments_of_renown_pool",
-                count,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                unit_key
-            )
-        end
-        if cm:model():campaign_name_key() == "cr_combi_expanded" then
-            cm:add_unit_to_faction_mercenary_pool(
-                dauphine_faction,
-                unit_key,
-                "wh3_main_regiments_of_renown_pool",
-                count,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                unit_key
-            )
-
-
-            cm:add_unit_to_faction_mercenary_pool(
-                fooger_faction,
-                unit_key,
-                "wh3_main_regiments_of_renown_pool",
-                count,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                unit_key
-            )
+    local is_iee = cm:model():campaign_name_key() == "cr_combi_expanded"
+    for faction_key, data in pairs(RHOX_MAR_FACTIONS) do
+        local mar_faction = cm:get_faction(faction_key)
+        if data.empire and mar_faction then
+            local faction_ror_table = ror_table
+            if is_iee then
+                faction_ror_table = {}
+                for _, ror in ipairs(ror_table) do
+                    table.insert(faction_ror_table, ror)
+                end
+                for _, ror in ipairs(iee_ror_table) do
+                    table.insert(faction_ror_table, ror)
+                end
+            end
+            for _, ror in ipairs(faction_ror_table) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    mar_faction,
+                    ror,
+                    "wh3_main_regiments_of_renown_pool",
+                    1,
+                    defaults.replen_chance,
+                    defaults.max,
+                    defaults.max_per_turn,
+                    defaults.faction_restriction,
+                    defaults.subculture_restriction,
+                    defaults.tech_restriction,
+                    defaults.partial_replenishment,
+                    ror
+                )
+            end
         end
     end
-    if cm:model():campaign_name_key() == "cr_combi_expanded" then
-        for i, ror in pairs(iee_ror_table) do
-            cm:add_unit_to_faction_mercenary_pool(
-                faction,
-                ror,
-                "wh3_main_regiments_of_renown_pool",
-                1,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                ror
-            )
-            cm:add_unit_to_faction_mercenary_pool(
-                faction2,
-                ror,
-                "wh3_main_regiments_of_renown_pool",
-                1,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                ror
-            )
-            cm:add_unit_to_faction_mercenary_pool(
-                dauphine_faction,
-                ror,
-                "wh3_main_regiments_of_renown_pool",
-                1,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                ror
-            )
-            cm:add_unit_to_faction_mercenary_pool(
-                fooger_faction,
-                ror,
-                "wh3_main_regiments_of_renown_pool",
-                1,
-                defaults.replen_chance,
-                defaults.max,
-                defaults.max_per_turn,
-                defaults.faction_restriction,
-                defaults.subculture_restriction,
-                defaults.tech_restriction,
-                defaults.partial_replenishment,
-                ror
-            )
-        end
 
-
-        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "wh_main_emp_marienburg",
-            "rhox_mar_fooger_lock")
-        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "ovn_mar_house_den_euwe",
-            "rhox_mar_fooger_lock")
-        cm:add_event_restricted_unit_record_for_faction("hkrul_fooger_ror", "ovn_mar_cult_of_manann",
-            "rhox_mar_fooger_lock")
-
-        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "wh_main_emp_marienburg",
-            "rhox_mar_manann_lock")
-        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "ovn_mar_house_den_euwe",
-            "rhox_mar_manann_lock")
-        cm:add_event_restricted_unit_record_for_faction("ovn_mar_inf_knights_mariner_0", "ovn_mar_house_fooger",
-            "rhox_mar_manann_lock")
-
-        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_cult_of_manann",
-            "rhox_mar_talons_lock")
-        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_fooger",
-            "rhox_mar_talons_lock")
-
-        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_cult_of_manann",
-            "rhox_mar_carrier_lock")
-        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_fooger",
-            "rhox_mar_carrier_lock")
-    end
-
+    -- Each house's RoR stays locked for the other Marienburg factions until an alliance or confederation unlocks it
     if cm:get_campaign_name() == "main_warhammer" then --only in Ie and IEE don't lock it otherwise
-        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "wh_main_emp_marienburg",
-            "rhox_mar_talons_lock")
-        cm:add_event_restricted_unit_record_for_faction("hkrul_mar_talons", "ovn_mar_house_den_euwe",
-            "rhox_mar_talons_lock")
-
-        cm:add_event_restricted_unit_record_for_faction("hkrul_carriers_ror", "ovn_mar_house_den_euwe",
-            "rhox_mar_carrier_lock")
+        local ror_locks = {
+            {unit = "hkrul_fooger_ror", lock = "rhox_mar_fooger_lock", owner = "ovn_mar_house_fooger"},
+            {unit = "ovn_mar_inf_knights_mariner_0", lock = "rhox_mar_manann_lock", owner = "ovn_mar_cult_of_manann"},
+            {unit = "hkrul_mar_talons", lock = "rhox_mar_talons_lock", owner = nil},
+            {unit = "hkrul_carriers_ror", lock = "rhox_mar_carrier_lock", owner = "wh_main_emp_marienburg"}
+        }
+        for faction_key, data in pairs(RHOX_MAR_FACTIONS) do
+            if data.empire and cm:get_faction(faction_key) then
+                for _, ror_lock in ipairs(ror_locks) do
+                    if ror_lock.owner ~= faction_key then
+                        cm:add_event_restricted_unit_record_for_faction(ror_lock.unit, faction_key, ror_lock.lock)
+                    end
+                end
+            end
+        end
     end
 
 
@@ -457,13 +339,11 @@ cm:add_first_tick_callback_new(
 
 
 
-local marienburg_factions = {
-    wh_main_emp_marienburg = true,
-    ovn_mar_house_den_euwe = true,
-    ovn_mar_cult_of_manann = true,
-    ovn_mar_house_fooger = true,
-    ovn_emp_grudgebringers = true --not because they are Marienburg, but because they can't build buildings and can't finish the quest. It's only used for RoR so it's okay
-}
+-- Grudgebringers are not Marienburg, but they can't build buildings and can't finish the quest. It's only used for RoR so it's okay
+local function rhox_mar_is_marienburg_faction(faction_key)
+    local data = RHOX_MAR_FACTIONS[faction_key]
+    return (data and data.empire) or faction_key == "ovn_emp_grudgebringers"
+end
 
 
 local function rhox_mar_check_empire(faction)
@@ -477,7 +357,7 @@ local function rhox_mar_check_empire(faction)
     end
     local owner = region:owning_faction()
 
-    if owner:culture() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") and not marienburg_factions[owner:name()] then
+    if owner:culture() == "wh_main_emp_empire" and region:building_exists("wh_main_special_marienburg_port_3") and not rhox_mar_is_marienburg_faction(owner:name()) then
         core:remove_listener("rhox_emp_building_check_RoundStart") --don't have to listen for it anymore
         cm:trigger_incident(faction:name(), "rhox_mar_gained_access_mar_ror", true)
         rhox_add_mar_units(faction, rhox_add_mar_rors);
@@ -518,7 +398,7 @@ local function rhox_mar_check_talon(faction)
     local region = cm:get_region("wh3_main_combi_region_marienburg")
     local owner = region:owning_faction()
 
-    if owner and marienburg_factions[owner:name()] and region:building_exists("rhox_mar_rijker") then
+    if owner and rhox_mar_is_marienburg_faction(owner:name()) and region:building_exists("rhox_mar_rijker") then
         cm:remove_event_restricted_unit_record_for_faction("hkrul_mar_talons", faction:name());
         --cm:set_saved_value("rhox_talons_granted", true)
     end
@@ -532,7 +412,7 @@ cm:add_first_tick_callback(
         local non_marienburg_human_empire_exist = false
         local human_empire_factions = cm:get_human_factions_of_culture("wh_main_emp_empire")
         for _, faction_key in ipairs(human_empire_factions) do
-            if not marienburg_factions[faction_key] then
+            if not rhox_mar_is_marienburg_faction(faction_key) then
                 non_marienburg_human_empire_exist = true
             end
         end
@@ -543,7 +423,7 @@ cm:add_first_tick_callback(
                 "FactionRoundStart",
                 function(context)
                     return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and
-                    unlocked_marienburg_troops == false and not marienburg_factions[context:faction():name()]
+                    unlocked_marienburg_troops == false and not rhox_mar_is_marienburg_faction(context:faction():name())
                 end,
                 function(context)
                     rhox_mar_check_empire(context:faction())
@@ -556,7 +436,7 @@ cm:add_first_tick_callback(
                 function(context)
                     return context:faction():culture() == "wh_main_emp_empire" and context:faction():is_human() and
                     cm:model():turn_number() == 2 and
-                    not marienburg_factions[context:faction():name()]                                                                                                                                   --only at the second turn.
+                    not rhox_mar_is_marienburg_faction(context:faction():name())                                                                                                                                   --only at the second turn.
                 end,
                 function(context)
                     cm:trigger_mission(context:faction():name(), "rhox_mar_conquer_marien")
@@ -583,7 +463,7 @@ cm:add_first_tick_callback(
             "rhox_mar_building_check_talon_RoundStart",
             "FactionRoundStart",
             function(context)
-                return marienburg_factions[context:faction():name()] and cm:get_saved_value("rhox_talons_granted") ~=
+                return rhox_mar_is_marienburg_faction(context:faction():name()) and cm:get_saved_value("rhox_talons_granted") ~=
                 true
             end,
             function(context)
@@ -629,7 +509,7 @@ core:add_listener(
     "Marienburg_faction_makes_alliance",
     "PositiveDiplomaticEvent",
     function(context)
-        return (marienburg_factions[context:recipient():name()] or marienburg_factions[context:proposer():name()]) and
+        return (rhox_mar_is_marienburg_faction(context:recipient():name()) or rhox_mar_is_marienburg_faction(context:proposer():name())) and
         (context:is_military_alliance() or context:is_defensive_alliance())
     end,
     function(context)
@@ -650,7 +530,7 @@ core:add_listener(
     "Marienburg_faction_confederation",
     "FactionJoinsConfederation",
     function(context)
-        return marienburg_factions[context:confederation():name()] and marienburg_factions[context:faction():name()]
+        return rhox_mar_is_marienburg_faction(context:confederation():name()) and rhox_mar_is_marienburg_faction(context:faction():name())
     end,
     function(context)
         local ror = mar_faction_ror_unlocks[context:faction():name()]

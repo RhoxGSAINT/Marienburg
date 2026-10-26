@@ -1,3 +1,13 @@
+-- Factions handled by the Marienburg mod. empire: Empire-culture faction, iee_only: exists only in IEE
+RHOX_MAR_FACTIONS = {
+    wh_main_emp_marienburg = {empire = true, iee_only = false},
+    ovn_mar_house_den_euwe = {empire = true, iee_only = false},
+    ovn_mar_cult_of_manann = {empire = true, iee_only = true},
+    ovn_mar_house_fooger = {empire = true, iee_only = true},
+    mixer_emp_house_de_roelef = {empire = true, iee_only = true},
+    cr_hef_clan_lianllach = {empire = false, iee_only = true}
+}
+
 
 --Egmond chaos corruption
 
@@ -23,12 +33,11 @@ table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupt
 table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_tzeentch"],"ovn_mar_house_den_euwe")
 
 
-imperial_authority.campaign_factions.main_warhammer["wh_main_emp_marienburg"]={settlement_culture = "wh_main_emp_empire", active = true}
-imperial_authority.campaign_factions.main_warhammer["ovn_mar_house_den_euwe"]={settlement_culture = "wh_main_emp_empire", active = false}
-if vfs.exists("script/frontend/mod/cr_iee_campaign_frontend.lua") then
-    imperial_authority.campaign_factions.main_warhammer["ovn_mar_cult_of_manann"]={settlement_culture = "wh_main_emp_empire", active = false}
-    imperial_authority.campaign_factions.main_warhammer["ovn_mar_house_fooger"]={settlement_culture = "wh_main_emp_empire", active = false}
-    imperial_authority.campaign_factions.main_warhammer["mixer_emp_house_de_roelef"]={settlement_culture = "wh_main_emp_empire", active = false}
+local rhox_mar_iee_exists = vfs.exists("script/frontend/mod/cr_iee_campaign_frontend.lua")
+for faction_key, data in pairs(RHOX_MAR_FACTIONS) do
+    if data.empire and (rhox_mar_iee_exists or not data.iee_only) then
+        imperial_authority.campaign_factions.main_warhammer[faction_key]={settlement_culture = "wh_main_emp_empire", active = faction_key == "wh_main_emp_marienburg"}
+    end
 end
 
 
@@ -79,21 +88,15 @@ table.insert(vampire_technology.starting_necromancer_techs, {faction = "ovn_mar_
 
 
 ----------------Ulrika
-local mar_factions={
-    wh_main_emp_marienburg=true,
-    ovn_mar_house_den_euwe=true,
-    ovn_mar_cult_of_manann=true,
-    ovn_mar_house_fooger=true
-}
 
 
 
 cm:add_first_tick_callback(
 	function()
-        for mar_faction_key, _ in pairs(mar_factions) do
+        for mar_faction_key, data in pairs(RHOX_MAR_FACTIONS) do
             
             local mar_faction = cm:get_faction(mar_faction_key)
-            if mar_faction and mar_faction:is_human() then
+            if data.empire and mar_faction and mar_faction:is_human() then
                 if cm:is_new_game() then 
                     --out("Rhox mar: Locking Vanilla Ulrika mission")
                     character_unlocking.character_data["ulrika"].factions_involved[mar_faction_key] = true --this will make vanilla script not trigger Ulrika mission chain
@@ -131,7 +134,7 @@ cm:add_first_tick_callback(
                     function(context)
                         local faction = context:faction()
                         local faction_name = faction:name()
-                        return context:mission():mission_record_key() == "wh3_dlc23_ie_emp_ulrika_stage_1" and mar_factions[faction_name]
+                        return context:mission():mission_record_key() == "wh3_dlc23_ie_emp_ulrika_stage_1" and RHOX_MAR_FACTIONS[faction_name] and RHOX_MAR_FACTIONS[faction_name].empire
                     end,
                     function(context)
                         local faction = context:faction()
