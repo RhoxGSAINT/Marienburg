@@ -14,7 +14,7 @@ local function rhox_roelef_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     roelef_faction,
-    "wh3_dlc25_emp_veh_marienburg_land_ship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_inf_greatsword,hkrul_mar_inf_boogschutter,hkrul_carriers_ror,hkrul_mar_inf_goedendagers",
+    "wh3_dlc25_emp_veh_marienburg_land_ship,hkrul_privateers,hkrul_mar_inf_goedendagers,hkrul_mar_inf_greatsword,hkrul_mar_inf_boogschutter,hkrul_mar_inf_goedendagers",
     "cr_combi_region_akhaba",
     505,
     247,
