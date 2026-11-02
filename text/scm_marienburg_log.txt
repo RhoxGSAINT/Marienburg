@@ -1,6 +1,7 @@
-2026/OCT/ Rhox
+2026/NOV/ Rhox
 - Added cheat sheet
 - Added some PH thing for Roelef
+- Added some more skill node to the House Elder of Fooger
 
 2026/OCT/23 Rhox
 - Foreign building to new settlement types
