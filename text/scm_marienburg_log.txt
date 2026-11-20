@@ -1,8 +1,3 @@
-2026/NOV/20 Rhox
-- Made current faction bundle to invisible, and added new one with the lord_trait so that it shows up in the upper right.
--- current effect bundle will be deleted after the save-breaking patch
-
-
 2026/NOV/ Rhox
 - Added cheat sheet
 - Added some PH thing for Roelef
