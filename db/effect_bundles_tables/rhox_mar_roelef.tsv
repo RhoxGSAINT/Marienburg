@@ -1,6 +1,6 @@
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/rhox_mar_roelef								
-rhox_mar_roelef_faction_trait			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_mar_roelef_lord_trait			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_mar_roelef_cargo_animals			faction	1	resource_animals.png	true	false	true
 rhox_mar_roelef_cargo_dyes			faction	1	resource_dyes.png	true	false	true
 rhox_mar_roelef_cargo_gems			faction	1	resource_gemstones.png	true	false	true

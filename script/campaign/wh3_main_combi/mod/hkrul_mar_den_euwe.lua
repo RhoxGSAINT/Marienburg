@@ -154,7 +154,7 @@ cm:add_first_tick_callback_new(
 cm:add_first_tick_callback(
 	function()
         pcall(function()
-            mixer_set_faction_trait("ovn_mar_house_den_euwe", "hkrul_deneuwe", true)
+            mixer_set_faction_trait("ovn_mar_house_den_euwe", "hkrul_deneuwe_lord_trait", true)
         end)
         if cm:get_local_faction_name(true) == deneuwe_faction_key then --ui thing and should be inside the get_local
             --out("Rhox Egmond: In the first tick callback")

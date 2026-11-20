@@ -260,7 +260,7 @@ cm:add_first_tick_callback(
             mixer_disable_starting_zoom = true
         end
         pcall(function()
-            mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar", true)
+            mixer_set_faction_trait("wh_main_emp_marienburg", "hkrul_mar_lord_trait", true)
         end)
         hkrul_mar() 
     end

@@ -95,9 +95,9 @@ effects_description_hkrul_mar_choice_2_dil_3	[[col:green]]Fund [[img:ui/flags/wh
 effect_bundles_localised_title_hkrul_mar_choice_2_dil_3	[[col:green]]Fund [[img:ui/flags/wh_main_emp_Averland/mon_24.png]][[/img]] Averland in a war against [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
 effects_description_hkrul_mar_choice_2_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland so they can wage a war against [[img:ui/flags/wh_main_emp_Nordland/mon_24.png]][[/img]] Nordland. Sends one [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship to Altdorf to help their efforts. This will grant the faction a large sum of gold that might influence the course of the campaign.[[/col]]	true
 effect_bundles_localised_title_hkrul_mar_choice_2_dil_4	[[col:green]]Fund [[img:ui/flags/wh_main_emp_empire/mon_24.png]][[/img]] Reikland in a war against  [[img:ui/flags/wh_main_emp_Nordland/mon_24.png]][[/img]] Nordland with gold and 1 [[img:ui/campaign ui/effect_bundles/admiral.png]][[/img]] Landship	false
-effect_bundles_localised_title_hkrul_mar	The Marienburg Directorate	true
+effect_bundles_localised_title_hkrul_mar_lord_trait	The Marienburg Directorate	true
 effects_description_hkrul_mar_klumpf_upkeep	Upkeep: %+n% for Van Klumpf's Buccanneers (Swordsmen)	true
-effect_bundles_localised_description_hkrul_mar	Jaan van de Kuypers, the true Lord of the Marienburg Directorate and the Richest man Alive, seeks to consolidate his power within the halls of the Stadsraad and far beyond.	true
+effect_bundles_localised_description_hkrul_mar_lord_trait	Jaan van de Kuypers, the true Lord of the Marienburg Directorate and the Richest man Alive, seeks to consolidate his power within the halls of the Stadsraad and far beyond.	true
 effects_description_hkrul_mar_diplo_middenland	Diplomatic relations: %+n to [[img:ui/flags/wh_main_emp_middenland/mon_24.png]][[/img]] Middenland	true
 effects_description_hkrul_mar_mod_diplo_teb	Diplomatic relations: %+n to the Southern Realms	true
 effects_description_hkrul_mar_mod_favour_teb	Allegiance points gained: %+n% for alliances with Southern Realms	true
@@ -132,7 +132,7 @@ effects_description_wh3_main_effect_caravan_cargo_value_regions_dummy	Treasury g
 effects_description_hkrul_mar_enable_lantern	Ability: "Honourable Lamplighters" for Black Caps (Goedendagers)	true
 effects_description_hkrul_mar_hendrik_recruit	[[img:ui/flags/wh_main_emp_marienburg/mon_24.png]][[/img]] Adds Legendary Lord Simon Goudenkruin, Arch-Priest of Haeyndrik, to your recruitment pool.	true
 effects_description_hkrul_deneuwe_faction_effect	[[col:orange]]This is a minor faction, experiences may differ from playing with a major faction.[[/col]]	true
-effect_bundles_localised_title_hkrul_deneuwe	House Den Euwe Enclave	true
+effect_bundles_localised_title_hkrul_deneuwe_lord_trait	House Den Euwe Enclave	true
 effects_description_hkrul_egmond_enable_amulet	Ability: "Tsien-Tsin's Gaze"	true
 effects_description_hkrul_egmond_enable_katana	Ability: "Okumoto's Katana"	true
 effects_description_hkrul_mar_enable_fooger_backing	Ability: "Fooger's Backing" for Dwarf units	true
@@ -225,7 +225,7 @@ effects_description_rhox_mar_elf_effect_dummy	Adds one unit of Phoenix Guard to 
 effects_description_hkrul_enable_knot	Ability: "Sailor's Knot"	false
 effects_description_hkrul_enable_tales	Ability: "Tales of the Savonarola"	false
 effects_description_hkrul_elf_md	Melee defence: %+n for High Elf units	true
-effect_bundles_localised_description_hkrul_deneuwe	On a desperate attempt to prevent House Den Euwe's bankruptcy, Egmond scours the Cathayan shores in search of trade - all he finds however, is the watchful gaze of Tsien-Tsin, corrupting him with visions of false knowledge.	false
+effect_bundles_localised_description_hkrul_deneuwe_lord_trait	On a desperate attempt to prevent House Den Euwe's bankruptcy, Egmond scours the Cathayan shores in search of trade - all he finds however, is the watchful gaze of Tsien-Tsin, corrupting him with visions of false knowledge.	false
 effects_description_hkrul_mar_research_dummy	Research rate: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
 effects_description_hkrul_mar_construction_time_dummy	Construction time: %+n% for all buildings when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
 effects_description_hkrul_mar_movement_range_dummy	Campaign movement range: %+n% when garrisoned in [[col:yellow]]Marienburg[[/col]]	true
@@ -235,8 +235,8 @@ effect_bundles_localised_title_rhox_mar_anc_dummy	Neutralise rival Merchant Hous
 effect_bundles_localised_description_rhox_mar_anc_dummy	A Merchant House will give in to your demands	false
 effects_description_rhox_mar_effect_ability_army_enable_flood_trap	Army ability: "Flood Trap"	false
 effects_description_rhox_mar_egmond_dummy	Convert mortal men to Tzeentch units using the warband upgrade system [[col:red]][[i]](Requires DLC)[[/i]][[/col]]	false
-effect_bundles_localised_title_rhox_mundvard_effect_bundle	Criminal Mastermind	false
-effect_bundles_localised_description_rhox_mundvard_effect_bundle	Ruling from the Shadows, Mundvard the Cruel plots and schemes his way to supreme reign over the Wasteland. Slaying, enthralling, consuming or even selling the weak men of Marienburg every step of the way.	false
+effect_bundles_localised_title_rhox_mundvard_lord_trait	Criminal Mastermind	false
+effect_bundles_localised_description_rhox_mundvard_lord_trait	Ruling from the Shadows, Mundvard the Cruel plots and schemes his way to supreme reign over the Wasteland. Slaying, enthralling, consuming or even selling the weak men of Marienburg every step of the way.	false
 effects_description_rhox_mar_mundvard_dummy	Establish criminal syndicates in hostile regions	false
 effects_description_hkrul_skill_innate_mar_caravan_master_bretonnia	This Lord's caravan army includes Brettonian units	false
 effects_description_hkrul_skill_innate_mar_caravan_master_teb	This Lord's caravan army includes units from Southern Realms\\n[[col:red]][[i]]Note: Requires TEB to be enabled. [[/i]][[/col]]	false
@@ -400,8 +400,8 @@ effects_description_rhox_mar_lianllach_faction_smuggler_upcoming_dummy	Strongbre
 effects_description_rhox_mar_lianllach_no_more_election_dummy	The Council of Wavemasters has been silenced: no more elections will be held	false
 effects_description_rhox_mar_strongbreeze_election_requirement_dummy	Can only be elected First Wavemaster once his supporters hold at least %n% of the Council's standing	false
 effects_description_rhox_mar_strongbreeze_rise_dummy	His supporters grow through:\\n[[img:bullet_point_white]] Choosing Off the Books when signing trade agreements\\n[[img:bullet_point_white]] Every active trade agreement with the Dark Elves\\n[[img:bullet_point_white]] Every landmark we control\\n[[img:bullet_point_white]] The army he leads, though it strengthens every other faction too	false
-effect_bundles_localised_title_rhox_mar_roelef_faction_trait	Merchants of Far Shores	false
-effect_bundles_localised_description_rhox_mar_roelef_faction_trait	The de Roelefs grow rich on foreign luxuries, not on the old soil.	false
+effect_bundles_localised_title_rhox_mar_roelef_lord_trait	Merchants of Far Shores	false
+effect_bundles_localised_description_rhox_mar_roelef_lord_trait	The de Roelefs grow rich on foreign luxuries, not on the old soil.	false
 effects_description_rhox_mar_roelef_no_industry_dummy	Cannot construct industry buildings: the de Roelefs deal in foreign luxuries, not local manufacture	false
 effects_description_rhox_mar_roelef_economy_dummy	The de Roelefs profit from the sea, not the soil:\\n[[img:bullet_point_white]] [[col:red]]Main settlement buildings pay upkeep equal to twice their income[[/col]]\\n[[img:bullet_point_white]] Port buildings: income doubled\\n[[img:bullet_point_white]] Main settlements in Ancient Elven Colonies: sea trade income increased for every region, as for High Elf colonies	false
 effects_description_rhox_mar_roelef_resource_cargo_dummy	Resource buildings:\\n[[img:bullet_point_white]] Sale value of convoy cargo +%n% for each type held\\n[[img:bullet_point_white]] Generate additional income	false

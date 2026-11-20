@@ -1,5 +1,5 @@
 agent_subtype	effect_bundle
 #faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/hkrul_mar	
-hkrul_jk	hkrul_mar
-hkrul_mar_egmond	hkrul_deneuwe
-hkrul_mar_munvard	rhox_mundvard_effect_bundle
+hkrul_jk	hkrul_mar_lord_trait
+hkrul_mar_egmond	hkrul_deneuwe_lord_trait
+hkrul_mar_munvard	rhox_mundvard_lord_trait

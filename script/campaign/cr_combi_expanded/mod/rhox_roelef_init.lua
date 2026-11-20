@@ -82,7 +82,7 @@ end
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
-			mixer_set_faction_trait(roelef_faction, "rhox_mar_roelef_faction_trait", true)
+			mixer_set_faction_trait(roelef_faction, "rhox_mar_roelef_lord_trait", true)
 		end)
         local faction = cm:get_faction(roelef_faction)
 		if cm:is_new_game() then

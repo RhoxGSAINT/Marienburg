@@ -122,7 +122,7 @@ end
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
-			mixer_set_faction_trait(dauphine_faction, "rhox_dauphine_faction_trait", true)
+			mixer_set_faction_trait(dauphine_faction, "rhox_dauphine_lord_trait", true)
 		end)
         
 		if cm:is_new_game() then

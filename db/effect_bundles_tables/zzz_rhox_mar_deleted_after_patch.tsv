@@ -1,0 +1,10 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/zzz_rhox_mar_deleted_after_patch								
+hkrul_deneuwe			faction	0		true	false	true
+hkrul_mar			faction	0		true	false	true
+rhox_chaos_whale_faction_trait			faction	0		true	false	true
+rhox_dauphine_faction_trait			faction	0		true	false	true
+rhox_fooger_faction_trait			faction	0		true	false	true
+rhox_mar_lianllach_faction_trait			faction	0		true	false	true
+rhox_mar_roelef_faction_trait			faction	0		true	false	true
+rhox_mundvard_effect_bundle			faction	0		true	false	true

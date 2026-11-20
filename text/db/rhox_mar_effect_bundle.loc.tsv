@@ -23,8 +23,8 @@ effect_bundles_localised_description_rhox_dauphine_blue_pirate_rewards_6	The plu
 effect_bundles_localised_title_rhox_dauphine_blue_pirate_rewards_6	The Raided Raiders	false
 effect_bundles_localised_description_rhox_dauphine_blue_pirate_rewards_7	Having travelled all this way East just to drown is Tharket's faith.	false
 effect_bundles_localised_title_rhox_dauphine_blue_pirate_rewards_7	Sunken Corsairs	false
-effect_bundles_localised_description_rhox_dauphine_faction_trait		false
-effect_bundles_localised_title_rhox_dauphine_faction_trait	Cult of Manann	false
+effect_bundles_localised_description_rhox_dauphine_lord_trait		false
+effect_bundles_localised_title_rhox_dauphine_lord_trait	Cult of Manann	false
 effect_bundles_localised_description_rhox_mar_dauphine_pirate_hunting_1	This region has been conquered in Manann's name	false
 effect_bundles_localised_title_rhox_mar_dauphine_pirate_hunting_1	Conquered Ulliogtha Outpost	false
 effect_bundles_localised_description_rhox_mar_dauphine_pirate_hunting_2	This region has been conquered in Manann's name	false
@@ -51,14 +51,14 @@ effect_bundles_localised_description_rhox_mar_dauphine_whale_hunting_4	Wood Elve
 effect_bundles_localised_title_rhox_mar_dauphine_whale_hunting_4	Secret of the Forests	false
 effect_bundles_localised_description_rhox_mar_dauphine_whale_hunting_5	Pirates have witnessed the whale attack many times and we have analyzed it. Now we can avoid it's attack more easily	false
 effect_bundles_localised_title_rhox_mar_dauphine_whale_hunting_5	Secret of the Pirates	false
-effect_bundles_localised_description_rhox_chaos_whale_faction_trait	The Red Chaos Whale	false
-effect_bundles_localised_title_rhox_chaos_whale_faction_trait	The Red Chaos Whale	false
-effect_bundles_localised_description_rhox_fooger_faction_trait	House Fooger	false
-effect_bundles_localised_title_rhox_fooger_faction_trait	House Fooger	false
+effect_bundles_localised_description_rhox_chaos_whale_lord_trait	The Red Chaos Whale	false
+effect_bundles_localised_title_rhox_chaos_whale_lord_trait	The Red Chaos Whale	false
+effect_bundles_localised_description_rhox_fooger_lord_trait	House Fooger	false
+effect_bundles_localised_title_rhox_fooger_lord_trait	House Fooger	false
 effect_bundles_localised_description_rhox_mar_bundle_voyage_enemy	This army is affected by the local flood	false
 effect_bundles_localised_title_rhox_mar_bundle_voyage_enemy	Breaching the Vloedmuur	false
-effect_bundles_localised_title_rhox_mar_lianllach_faction_trait	The Council of Wavemasters	false
-effect_bundles_localised_description_rhox_mar_lianllach_faction_trait	Clan Lianllach bows to no prince. Since the fall of its last chief, the clan has been governed by a Council of Wavemasters, whose merchants, mages and admirals vie endlessly for the right to steer its fleets. What unites them is a reputation feared from Nippon to the New World: no one drives a harder bargain than Lianllach.	false
+effect_bundles_localised_title_rhox_mar_lianllach_lord_trait	The Council of Wavemasters	false
+effect_bundles_localised_description_rhox_mar_lianllach_lord_trait	Clan Lianllach bows to no prince. Since the fall of its last chief, the clan has been governed by a Council of Wavemasters, whose merchants, mages and admirals vie endlessly for the right to steer its fleets. What unites them is a reputation feared from Nippon to the New World: no one drives a harder bargain than Lianllach.	false
 effect_bundles_localised_title_rhox_mar_lianllach_faction_magic	Council of the Mages	false
 effect_bundles_localised_description_rhox_mar_lianllach_faction_magic	A mage sits as First Wavemaster. Clan Lianllach turns its wealth and attention to the arcane.	false
 effect_bundles_localised_title_rhox_mar_lianllach_faction_war	Council of the Admirals	false

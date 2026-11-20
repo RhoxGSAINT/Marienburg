@@ -168,7 +168,7 @@ end
 cm:add_first_tick_callback(
     function()
         pcall(function()
-            mixer_set_faction_trait("ovn_mar_the_wasteland", "rhox_mundvard_effect_bundle", true)
+            mixer_set_faction_trait("ovn_mar_the_wasteland", "rhox_mundvard_lord_trait", true)
         end)
         if cm:get_local_faction_name(true) == mundvard_faction_key then --ui thing and should be local
             rhox_mar_mundvard_set_coven_listeners()

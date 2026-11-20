@@ -5,7 +5,7 @@ rhox_mar_trade_factions[lianllach_faction]=true
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
-			mixer_set_faction_trait(lianllach_faction, "rhox_mar_lianllach_faction_trait", true)
+			mixer_set_faction_trait(lianllach_faction, "rhox_mar_lianllach_lord_trait", true)
 		end)
         local faction = cm:get_faction(lianllach_faction)
 		if cm:is_new_game() then
