@@ -9,7 +9,7 @@ rhox_dauphine_blue_pirate_rewards_4			faction	1	hkrul_effect_pirate.png	true	fal
 rhox_dauphine_blue_pirate_rewards_5			faction	1	hkrul_effect_pirate.png	true	false	true
 rhox_dauphine_blue_pirate_rewards_6			faction	1	hkrul_effect_pirate.png	true	false	true
 rhox_dauphine_blue_pirate_rewards_7			faction	1	hkrul_effect_pirate.png	true	false	true
-rhox_dauphine_lord_trait			faction	1	effect_bundle_manann.png	true	false	true
+rhox_dauphine_lord_trait			faction	0		true	false	true
 rhox_mar_dauphine_pirate_hunting_1			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_mar_dauphine_pirate_hunting_2			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_mar_dauphine_pirate_hunting_3			faction	1	cst_piece_of_eight.png	true	false	true
@@ -22,4 +22,5 @@ rhox_mar_dauphine_whale_hunting_2			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_3			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_4			character	1	cst_harpoon.png	true	true	true
 rhox_mar_dauphine_whale_hunting_5			character	1	cst_harpoon.png	true	true	true
-rhox_chaos_whale_lord_trait			faction	1	hkrul_effect_pirate.png	true	false	true
+rhox_chaos_whale_lord_trait			faction	0		true	false	true
+rhox_fooger_lord_trait			faction	0		true	false	true
